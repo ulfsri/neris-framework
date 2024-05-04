@@ -1,0 +1,93 @@
+## modules
+
+This metadata is a descriptive representation of the data elements that will be served by NERIS back to departments via the NERIS API. Accordingly, it does not represent 1-1 the data elements sent by a department and its vendors. 
+
+The metadata tables in `modules/` contain some or all of the following fields:
+- `name`
+    - Text
+    - The field's name.
+    - Must be populated for all fields.
+- `type`
+    - Text
+    - The field's data type.
+    - Aligned to standard PostgreSQL and PostGIS types.
+    - Must be populated for all fields.
+- `group` 
+    - Text
+    - The field's within-module group.
+    - Used for blocks of fields which logically move together, such as for conditionality or repeatability.
+    - Must be populated for all fields.
+- `possible_if`
+    - Text
+    - For fields that should only be populated under certain conditions, the logic of those conditions.
+    - E.g. `conditions_fire_nonfire = 'fire'` indicates that the field should only have a value if `conditions_fire_nonfire` has a value of `'fire'`
+    - Must be populated for fields whose availability is conditional.
+- `db_required`
+    - Boolean
+    - Whether the field should always contain a not null value. To allow NERIS to be maximally accepting of submitted data, this should only be `TRUE` for the fields required for a minimally viable record, and for those that are calculated in a way that naturally leads to a default value (such as aggregated counts, which default to 0).  
+    - Must be populated for all fields.
+- `neris_core_if`
+    - Text
+    - The logical conditions under which any of the `neris_core` fields may apply.
+    - Must be populated for all fields whose `neris_core_dependency` is conditional.
+- `neris_core`
+    - Boolean
+    - Does not apply to `core_mod_disp`.
+    - Whether the field is required for the record to be considered minimally complete within NERIS.
+    - Must be populated for all fields.
+- `neris_core_aid`
+    - Boolean
+    - Does not apply to `core_mod_disp`.
+    - Whether the field is considered core for incidents in which the reporting department was giving mutual aid, or was giving automatic aid and was not the primary. 
+    - Must be populated for all fields within Dispatch and Incidents.
+- `neris_core_app`
+    - Boolean
+    - Only applies to `core_mod_disp`.
+    - Whether the field is required for a record submitted by app (non-CAD) to be considered minimally complete within NERIS.
+    - Must be populated for all fields.
+- `neris_core_cad`
+    - Boolean
+    - Only applies to `core_mod_disp`.
+    - Whether the field is required for a record submitted by CAD to be considered minimally complete within NERIS.
+    - Must be populated for all fields.
+- `computed`
+    - Boolean
+    - Whether the field is populated by NERIS via post-processing.
+    - Those marked `TRUE` do not require directy submission by departments or other user organizations.
+    - Must be populated for all fields.
+- `computed_from`
+    - Text
+    - The data element(s) from which the field is post-processed.
+    - Must be populated for fields with `computed` = `TRUE`
+- `cardinality`
+    - Text
+    - Whether the field is a single value (`Single`) or an array (`Multi`) for a given record.
+    - Must be populated for all fields.
+- `value_set`
+    - Boolean
+    - Whether the value must be a member of a pre-determined set of acceptable values.
+    - Must be populated for all fields.
+- `reference_location`
+    - Text
+    - The location of the referenced `value_set` or module.
+    - Must be populated for any field for which `value_set = TRUE`.
+- `map_orm_landing`
+    - Text
+    - The field or logic for where the field's data is found within the Landing Zzone Python Object Relational Mapping models.
+    - Must be populated for all fields.
+- `map_app`
+    - Text
+    - The field or logic for where the field's data is found within the Survey123 XLSForm.
+    - Must be populated for all fields.
+- `description`
+    - Text
+    - A descriptive explanation of what the field contains.
+    - Must be populated for all fields.
+- `example`
+    - Text
+    - An example of the data the field may contain.
+    - Must be populated for all fields.
+- `comments`
+    - Text
+    - Comments on the logic or constraints on what the field may contain.
+    - Must be populated for fields needing comment only.
