@@ -195,7 +195,7 @@ EMS_SUPV:
 MAB:
   active: 'TRUE'
   description: Medical Ambulance Bus (MAB)
-  definition: This resource describes a response vehicle whose purpoose is to provide medical transportation services during mass casualty incidents.
+  definition: This resource describes a response vehicle whose purpose is to provide medical transportation services during mass casualty incidents.
   source: FEMA 508-3 Page 4
   Operational Description: This resource type is for the provision of medical care to patients before and during transport to medical receiving facilities during mass casualty incidents.
   Common Nomenclature/Radio Designator: MCU, MAB, Bus
