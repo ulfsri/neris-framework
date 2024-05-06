@@ -1,5 +1,5 @@
 # NERIS Data Framework
-This repository contains the data schema framework, currently in beta, for the National Emergency Response Information System (NERIS). This includes the Entity Specification for Fire Departments, Dispatch (CAD) Data Schema, and the Incident Data Schema. The schemas are broken down into modules and value sets. Modules define the data elements (i.e., what is being asked) and value sets are choices users can select (i.e., the choices in the drop down). Two file formats are included for ease of use: csv and yml.
+This repository contains the core data schema, currently in beta, for the National Emergency Response Information System (NERIS). This includes the Entity Specification for Fire Departments, Dispatch (CAD) Data Schema, and the Incident Data Schema. The schemas are broken down into modules and value sets. Modules define the data elements (i.e., what is being asked) and value sets are choices users can select (i.e., the choices in the drop down). Two file formats are included for ease of use: csv and yml.
 
 ## Module Flow
 The following shows the logical flow of modules for creation of an incident record in NERIS.
