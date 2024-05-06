@@ -1,0 +1,23 @@
+COMPANY_LEVEL:
+  active: 'TRUE'
+  description: Company-Level Investigation Program
+  definition: Investigation program in which company officer, or other designated shift-based members of the department are responsible for fire cause and origin determination.
+  source: NFPA 1021/1033
+YOUTH_FIRESETTER:
+  active: 'TRUE'
+  description: Youth Firesetter Intervention Program
+  definition: Describes a fire department's program to identify, counsel, monitor, and refer youth fire setters.  Can represent a formal joint program with other agencies.
+  source: NFPA 1035
+DEDICATED:
+  active: 'TRUE'
+  description: Dedicated Fire Investigation Program
+  definition: Investigation program in which fire investigators are designed and trained individuals whose primary or sole purpose is investigating fires to determine cause and origin.
+  source: NFPA 921/103
+LAW_ENFORCEMENT:
+  active: 'TRUE'
+  description: Law Enforcement + Fire Investigation Program
+  definition: Investigation program in which fire investigators are designed and trained individuals whose primary or sole purpose is investigating fires to determine cause and origin.  In addition this service indicates that fire investigators within the fire department possess law enforcement powers and authority within the particular jurisdiction.
+  source: NFPA 921/1033
+K9_DETECT:
+  active: 'TRUE'
+  description: K9 Accelerant Detection

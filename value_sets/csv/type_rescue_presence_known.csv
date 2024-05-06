@@ -1,0 +1,4 @@
+active,value,description,definition,source
+TRUE,KNOWN_DISPATCH,Known rescue need upon dispatch,,
+TRUE,KNOWN_ARRIVAL,Known rescue need upon arrival,,
+TRUE,KNOWN_DURING,Known rescue need  during incident operations,,

@@ -1,0 +1,6 @@
+active,value,description,definition,source
+TRUE,CARBON_MONOXIDE,Carbon Monoxide,,
+TRUE,NATURAL_GAS,Natural Gas,,
+TRUE,HEAT_DETECTOR,Heat Detector,,
+TRUE,OTHER_CHEMICAL_DETECTOR,Other_Chemical Detector,,
+TRUE,NONE,None,,

@@ -1,0 +1,9 @@
+'YES':
+  active: 'TRUE'
+  description: 'Yes'
+'NO':
+  active: 'TRUE'
+  description: 'No'
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown

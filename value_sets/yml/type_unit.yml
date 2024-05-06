@@ -1,0 +1,329 @@
+CREW_TRANS:
+  active: 'TRUE'
+  description: Crew Transport
+  definition: This resource describes a unit that is typically used for transporting large numbers of firefighters. Equipment on this resource likely includes seating for ten or more firefighters.
+  source: FEMA 508-4, Crew Transport
+  Operational Description: This resource type typically uses a large passenger van or customized derivative. It is typed in the FEMA 508-4 document. Most typically used for wildfire response incidents.
+  Common Nomenclature/Radio Designator: Crew Transport, Van
+ENGINE_STRUCT:
+  active: 'TRUE'
+  description: Engine (Structural)
+  definition: This resource describes a fire suppression unit that is typically used for structural firefighting. Equipment on this resource must include a sufficiently sized pump, water, tools and the ability to transport firefighters to an emergency scene.
+  source: NFPA 1901 3.3.146, NFPA 1901 Chapter 5, FEMA 508-4 Page 7, NWCG PMS200
+  Operational Description: This resource type typically involves commercial or custom chassis with a variety of seating configurations and compartmentation strategies. The unit should generally meet NFPA 1901, Chapter 5, FEMA 508-4 (Type 1 and 2), and NWCG Publication PMS 200 Type 1 and 2.
+  Common Nomenclature/Radio Designator: Engine, Pumper
+ENGINE_WUI:
+  active: 'TRUE'
+  description: Engine (Wildland Interface)
+  definition: This resource describes a fire suppression unit that is typically used to combat outdoor hostile fires, although some types have structural firefighting capacity. Equipment on this resource must include a sufficiently sized pump, water, tools and the ability to transport firefighters to an emergency scene. This resource has increased maneuverability and off-road capacity to assist with fire suppression in difficult terrain and topography.
+  source: NFPA 1901 Chapter 6, FEMA 508-4 Page 7, NWCG PMS200
+  Operational Description: This resource type typically involves commercial or custom chassis with a variety of seating configurations and compartmentation strategies. The unit should generally meet NFPA 1901, Chapter 5, FEMA 508-4 (Type 3+), and NWCG Publication PMS 200 Type 3+.
+  Common Nomenclature/Radio Designator: Engine, Pumper, Brush
+BOAT:
+  active: 'TRUE'
+  description: Fire / Rescue Boat, Small (Craft Length of < 20 feet)
+  definition: This resource describes a smaller watercraft designed to transport firefighters and tools to a fire that is typically used for response in a smaller marine or shoreline environment. Equipment on this resource usually includes a pump and other fire suppression and/or rescue equipment.
+  source: FEMA 508-4 Page 8
+  Operational Description: This resource type typically is a small watercraft that can be towed on a trailer for deployment and response in a marine or shoreline environment. Generally meets FEMA 508-4 Fire Boat, Type 3.
+  Common Nomenclature/Radio Designator: Boat, Fire Boat
+BOAT_LARGE:
+  active: 'TRUE'
+  description: Fire Boat, Large (Craft Length of 20+ feet)
+  definition: This resource describes a large watercraft that is typically used for fire and rescue responses in large and complex harbors and other shoreline environments. Equipment on this resource includes a large fire pump, a variety of master stream nozzles and other equipment for fire suppression activities.
+  source: FEMA 508-4 Page 8
+  Operational Description: This resource type typically is a larger watercraft that is found in a dock or shoreline fire station for deployment and response in the water. Generally meets FEMA 508-4 Fire Boat, Type 1 and 2.
+  Common Nomenclature/Radio Designator: Boat, Fire Boat
+LADDER_SMALL:
+  active: 'TRUE'
+  description: Ladder or Truck, Rear or Mid-Mount Ladder < 75' No Suppression Capability
+  definition: This resource describes a fire unit with a ladder or other aerial device that is typically used for victim access and rescue above the ground floor and utilization of elevated master streams. Equipment on this resource includes a fixed ladder device of less than 75 feet and other tools and equipment for fireground support activities.
+  source: NFPA 1901 3.3.5 and Chapter 8, FEMA 508-4 Page 9
+  Operational Description: This resource is a conventional ladder without fire suppression capability with an aerial device length of less than 75 feet.
+  Common Nomenclature/Radio Designator: Ladder, Truck
+LADDER_QUINT:
+  active: 'TRUE'
+  description: Ladder or Truck, Rear or Mid-Mount Ladder < 75' Suppression Capable
+  definition: This resource describes a fire unit with a ladder or other aerial device that is typically used for victim access and rescue above the ground floor and utilization of elevated master streams. Equipment on this resource includes a ladder or aerial device less than 75 feet that has a permanently mounted fire pump, water tank, hose storage, aerial device with waterway, and ground ladders.
+  source: NFPA 1901 3.3.5 and Chapter 8 &9, FEMA 508-4 Page 9
+  Operational Description: This resource is a "quint" by definition and includes an aerial device length of less than 75 feet, combined with fire suppression capability.
+  Common Nomenclature/Radio Designator: Ladder, Truck, Quint
+LADDER_TALL:
+  active: 'TRUE'
+  description: Ladder or Truck, Rear or Mid-Mount Ladder 75'+ No Suppression Capability
+  definition: This resource describes a fire unit with a ladder or other aerial device that is typically used for victim access and rescue above the ground floor and utilization of elevated master streams. Equipment on this resource includes a fixed ladder device of 75 feet or more and other tools and equipment for fireground support activities.
+  source: NFPA 1901 3.3.5 and Chapter 8, FEMA 508-4 Page 9
+  Operational Description: This rescue is a conventional ladder without fire suppression capability with an aerial device length of 75 feet or more.
+  Common Nomenclature/Radio Designator: Ladder, Truck, Platform, Aerial
+QUINT_TALL:
+  active: 'TRUE'
+  description: Ladder or Truck, Rear or Mid-Mount Ladder 75'+ Suppression Capable
+  definition: This resource describes a fire unit with a ladder or other aerial device that is typically used for victim access and rescue above the ground floor and utilization of elevated master streams. Equipment on this resource includes a ladder or aerial device of 75 feet or more that has a permanently mounted fire pump, water tank, hose storage, aerial device with waterway, and ground ladders.
+  source: NFPA 1901 3.3.5 and Chapter 8 &9, FEMA 508-4 Page 9
+  Operational Description: This unit is a "quint" by definition and includes an aerial device length of 75 feet or more, combined with fire suppression capability.
+  Common Nomenclature/Radio Designator: Ladder, Truck, Platform, Aerial, Quint
+PLATFORM:
+  active: 'TRUE'
+  description: Elevated Platform, Rear or Mid-Mount Ladder > 75' No Suppression Capability
+  definition: This resource describes a fire unit with a platform mounted to a box beam or other non-ladder aerial device that is typically used for victim access and rescue above the ground floor and utilization of elevated master streams. Equipment on this resource includes a platform at the end of an aerial device of more than 75-feet and other tools and equipment for fireground support activities.
+  source: NFPA 1901 3.3.5 and Chapter 8, FEMA 508-4 Page 9
+  Operational Description: This unit is a platform-type aerial on either a ladder or beam-style configuration without fire suppression capability with an aerial device length of more than 75 feet.
+  Common Nomenclature/Radio Designator: Ladder, Truck, Platform, Aerial
+PLATFORM_QUINT:
+  active: 'TRUE'
+  description: Elevated Platform, Rear or Mid-Mount Ladder > 75' with Suppression Capability
+  definition: This resource describes a fire unit with a platform mounted to a box beam or other non-ladder aerial device that is typically used for victim access and rescue above the ground floor and utilization of elevated master streams. Equipment on this resource includes a platform at the end of an aerial device of more than 75-feet, pump, water tank, and other tools and equipment for fireground support activities.
+  source: NFPA 1901 3.3.5 and Chapter 8 &9, FEMA 508-4 Page 9
+  Operational Description: This unit is a platform-type aerial on either a ladder or beam-style configuration with fire suppression capability with an aerial device length of more than 75 feet.
+  Common Nomenclature/Radio Designator: Ladder, Truck, Platform, Aerial, Quint
+LADDER_TILLER:
+  active: 'TRUE'
+  description: Tractor-drawn Aerial unit
+  definition: This resource describes an aerial ladder that is characterized by two steering axles in the front and rear of the unit and a joint for articulation while driving that is typically used in communities with difficult vehicular access or turning radius limitations. Equipment on this resource includes a ladder exceeding 75-feet, along with tools and equipment for fireground support activities.
+  source: NFPA 1901 3.3.5 and Chapter 8
+  Operational Description: This unit is traditionally referred to as a "hook and ladder" and can include fire suppression capability.
+  Common Nomenclature/Radio Designator: Ladder, Truck, Aerial
+ARFF:
+  active: 'TRUE'
+  description: ARFF Response Vehicle
+  definition: This resource describes a specially designed unit intended to carry rescue and firefighting equipment specifically for aircraft occupant rescue and fire suppression activities on airport facilities and involving aircraft. Equipment on this resource usually includes "pump and roll" capability, several master stream nozzles independently controlled in the cab of the unit, and a large foam and water tank.
+  source: FAA AC 150/5220-10E, NFPA 414, NFPA 1750 3.3.4
+  Operational Description: This unit that may be of several varieties (Class 1-5) and can include ARFF vehicles with aerial master streams / penetrating nozzle systems. unit usually meet Federal Aviation Administration Advisory Circular 150/5220-10E and/or NFPA 414.
+  Common Nomenclature/Radio Designator: ARFF, Rescue, Engine, Unit, Foam
+FOAM:
+  active: 'TRUE'
+  description: Foam Tender
+  definition: This resource describes a unit designed for transporting and providing firefighting foam in large quantities at emergency fire incidents that is typically used for long-duration firefighting purposes, oftentimes at petrochemical facilities or similar target hazards.
+  source: NFPA 1901 Chapter 11, FEMA 508-4 Page 10
+  Operational Description: This unit is typically provided in urban settings or those near petrochemical facilities. These unit supply raw foam for extended fire suppression options and may be equipped with a pump.
+  Common Nomenclature/Radio Designator: Foam
+TENDER:
+  active: 'TRUE'
+  description: Water Tender/Tanker
+  definition: This resource describes a unit designed for transporting and providing water at fire incidents that is typically used for areas with limited water supply or without available hydrants.Equipment on this resource includes a minimum water tank capacity of 1000 gallons.
+  source: NFPA 1901 Chapter 7, NWCG PMS 200, NFPA 1750 3.3.10.2, FEMA 508-4 Page 33
+  Operational Description: 'This unit has a primary mission to transport and/or shuttle water to emergency incidents.unit commonly come equipped with a fire pump, but this is not required.When the mission of the unit is both fire suppression pumping and water transportation, agency must determine primary mission to properly classify.Generally meets NFPA 1901, Chapter 7, and/or NWCG Publication PMS 200.NWCG: Support Type 1-3 and Tactical Type 1-2.'
+  Common Nomenclature/Radio Designator: Tanker, Tender, Engine
+CREW:
+  active: 'TRUE'
+  description: Hand Crew
+  definition: This resource describes a crew of firefighters for utilization at emergency incident that is typically used for wildfires.
+  source: FEMA 508-4 Page 12, NWCG PMS 200
+  Operational Description: Hand crews are of various types, skills and deployment models to be used at emergency scenes.Crews assigned to unit should be assigned the unit resource type, as used here this resource type is unitless.
+  Common Nomenclature/Radio Designator: Crew
+HELO_GENERAL:
+  active: 'TRUE'
+  description: Helicopter, Multiuse
+  definition: This resource describes a rotary-wing aerial platform used for a multitude of emergency services tasks including, but not limited to, fire suppression, situational awareness, reconnaissance, victim access, victim transportation, crew logistics, etc.
+  source: FEMA 508-4 Page 18, NWCG PMS 200, NWCG PMS 510
+  Operational Description: This aviation asset is multi-function and can describe shared aviation assets.
+  Common Nomenclature/Radio Designator: Helo, Helicopter
+HELO_FIRE:
+  active: 'TRUE'
+  description: Helicopter, Fire Suppression
+  definition: This resource describes a rotary-wing aerial platform used for firefighting purposes.
+  source: FEMA 508-4 Page 18 and 19, NWCG PMS 200, NWCG PMS 510
+  Operational Description: This aviation asset is targeted at the fire suppression mission, which can include water and fire suppression product drops, reconnaissance, crew transportation and other related functions.NWCG Type 1-3, FEMA 508-4 Type 1-4, FEMA 508-4 Helitanker (Large Helicopter)
+  Common Nomenclature/Radio Designator: Helo, Helicopter
+HELO_RESCUE:
+  active: 'TRUE'
+  description: Helicopter, Rescue/EMS
+  definition: This resource describes a rotary-wing aerial platform used for emergency medical mission components including victim access, rescue and transportation to medical facilities.
+  source: FEMA 508-3 Page 5
+  Operational Description: This aviation asset is targeted at the emergency medical and rescue mission, which can include oceanic and terrestrial rescue.Generally meets FEMA 508-3 Types 1-4.
+  Common Nomenclature/Radio Designator: Helo, Helicopter
+UAS_FIRE:
+  active: 'TRUE'
+  description: Drone/UAV - Fire Suppression
+  definition: This resource describes a unmanned aerial vehicle utilizedfor fire suppression purposes.
+  source: NWCG PMS 200, 515 , NFPA 2400
+  Operational Description: The resource type can be rotary or fixed-wing.
+  Common Nomenclature/Radio Designator: UAV, UAS, Drone
+UAS_RECON:
+  active: 'TRUE'
+  description: Drone/UAV - Recon or Situational Awareness
+  definition: This resource describes an unmanned aerial vehicle utilized for reconnaissance purposes.
+  source: NWCG PMS 200, 515, NFPA 2400
+  Operational Description: The resource type can be rotary or fixed-wing.
+  Common Nomenclature/Radio Designator: UAV, UAS, Drone
+AIR_TANKER:
+  active: 'TRUE'
+  description: Fixed Wing, Fire Suppression
+  definition: This resource describes an aviation asset designed or configured for a fire suppression mission in a wildfire environment.
+  source: NWCG PMS 200,
+  Operational Description: This aviation asset is used for fire suppression purposes meeting the general definition of NWCG PMS 200 Airtanker Type 1-4.
+  Common Nomenclature/Radio Designator: Airtanker
+AIR_EMS:
+  active: 'TRUE'
+  description: Fixed Wing, EMS
+  definition: This resource describes an aviation asset designed for emergency medical transportation.
+  source: FEMA 508-3 Page 4
+  Operational Description: This aviation asset for emergency medical purposes meeting the general definition of FEMA 508-3 Page 4, Types 1-4.
+  Common Nomenclature/Radio Designator: '---'
+AIR_RECON:
+  active: 'TRUE'
+  description: Fixed Wing, Recon or Other
+  definition: This resource describes an aviation assets designed for situational awareness, command, reconnaissance and other emergency purposes.
+  Operational Description: This fixed wing aviation asset may be used to meet a wide variety of emergency incident needs.
+  Common Nomenclature/Radio Designator: '---'
+ALS_AMB:
+  active: 'TRUE'
+  description: Ambulance, ALS
+  definition: This resource describes a vehicle that is used for patient treatment and transportation.Equipment on this resource includes advanced life support capability, staffing, and licensure.
+  source: NFPA 1750 3.3.54.1, FEMA 508-3 Page 6 Types 1-5
+  Operational Description: This resource type has advanced life support capability, as licensed by the local or state jurisdiction that includes treatment beyond basic life support including intubation, cardiac monitoring, intravenous access, drug therapy, etc.
+  Common Nomenclature/Radio Designator: Ambulance, Medic, Squad
+BLS_AMB:
+  active: 'TRUE'
+  description: Ambulance, BLS
+  definition: This resource describes a vehicle that is used for patient treatment and transportation.Equipment on this resource includes basic life support capability, staffing, and licensure.
+  source: NFPA 1750 3.3.54.1, FEMA 508-3 Page 6 Types 1-4
+  Operational Description: This resource type has basic life support capability, as licensed by the local or state jurisdiction.
+  Common Nomenclature/Radio Designator: Ambulance, Medic, Squad
+EMS_NOTRANS:
+  active: 'TRUE'
+  description: EMS Response Vehicle (Non-Transport)
+  definition: This resource describes a response vehicle with no capacity to transport patients providing initial first response or supplemental care.This unit may be equipped with either ALS or BLS capability.
+  source: FEMA 508-3 Page 6, Type 5
+  Operational Description: This resource usually describes a chase vehicle, first responder unit, quick response unit, or community paramedic resource.
+  Common Nomenclature/Radio Designator: Squad, Quick Response
+EMS_SUPV:
+  active: 'TRUE'
+  description: EMS Supervisor
+  definition: This resource describes a response vehicle whose purpose is to provide oversight, command and control for the emergency medical program of a jurisdiction.
+  Operational Description: This resource is typically a single resource staffed by one responder.
+  Common Nomenclature/Radio Designator: Command, Car, Unit
+MAB:
+  active: 'TRUE'
+  description: Medical Ambulance Bus (MAB)
+  definition: This resource describes a response vehicle whose purpoose is to provide medical transportation services during mass casualty incidents.
+  source: FEMA 508-3 Page 4
+  Operational Description: This resource type is for the provision of medical care to patients before and during transport to medical receiving facilities during mass casualty incidents.
+  Common Nomenclature/Radio Designator: MCU, MAB, Bus
+CHIEF_STAFF_COMMAND:
+  active: 'TRUE'
+  description: Chief/Staff/Command Officer
+  definition: This resource describes a response vehicle who purpose is to provide oversight, command, and control for emergency incidents.
+  Operational Description: This resource is typically a single resource staffed by a chief and/or chiefs aide.It includes battalion/district/shift chiefs.
+  Common Nomenclature/Radio Designator: Command, Car, Chief
+HAZMAT:
+  active: 'TRUE'
+  description: Hazardous Materials Unit
+  definition: This resource describes a unit contains supplies and equipment to support hazardous materials identification, containment, and mitigation in accordance with 29 CFR 1910.120.
+  source: FEMA 508-4 Page 13, NFPA 1901, Chapter 10
+  Operational Description: This resource type covers a wide array of hazardous materials units, but is usually a self-contained response vehicle for incidents of long duration.
+  Common Nomenclature/Radio Designator: HazMat
+DECON:
+  active: 'TRUE'
+  description: Decontamination Unit
+  definition: This resource describes a unit with a mission targeted at mass decontamination at hazardous materials incidents.It is usually equipped with showers, tents, curtains and other supplies for conducting decontamination on a large scale.
+  source: NFPA 1901, Chapter 10
+  Operational Description: This resource type typically supplements other hazardous materials resources to help with gross decontamination of large numbers of people/victims.
+  Common Nomenclature/Radio Designator: HazMat, Decon, Unit
+POV:
+  active: 'TRUE'
+  description: Privately Owned Vehicle
+  definition: This resource describes a personal vehicle used for emergency response.
+  Operational Description: This resource type is uncommon in utilization and can involve any personally-owned vehicle utilized by a firefighter in response.
+  Common Nomenclature/Radio Designator: '---'
+RESCUE_HEAVY:
+  active: 'TRUE'
+  description: Rescue Unit, Multi-Function, Heavy
+  definition: This resource describes a large, often customized, multi-purpose and multi-discipline rescue unit that is typically used for responding to a wide array of specialized incident types that could include confined space, high angle, machinery, and other rescue situations.Equipment on this resource includes significant equipment, including hydraulic rescue tools, pneumatic lifting air bags, rescue ropes and ancillary gear, etc.
+  source: NFPA 1901, Chapter 10
+  Operational Description: This resource type typically reflects a large custom rescue unit with 10+ compartments for the storage and quick deployment of rescue devices and equipment. Generally meets NFPA 1901, Chapter 10. Resource may be equipped with water and pump.
+  Common Nomenclature/Radio Designator: Rescue, Squad
+RESCUE_MEDIUM:
+  active: 'TRUE'
+  description: Rescue Unit, Multi-Function, Medium
+  definition: This resource describes a medium-sized unit, often mounted on either a commercial or customized chassis that offers multi-discipline rescue equipment. It is not as comprehensive as a heavy rescue, but still carries a significant amount of resource related to several rescue incident types. Equipment on this resource includes significant equipment, including hydraulic rescue tools, pneumatic lifting air bags, rescue ropes and ancillary gear, etc.
+  source: NFPA 1901, Chapter 10
+  Operational Description: This resource type typically reflects either a large commercial or custom rescue unit with 8+ compartments for the storage and quick deployment of rescue devices and equipment on a single rear axle. Generally meets NFPA 1901, Chapter 10. Resource may be equipped with water and pump.
+  Common Nomenclature/Radio Designator: Rescue, Squad
+RESCUE_LIGHT:
+  active: 'TRUE'
+  description: Rescue Unit, Multi-Function, Light
+  definition: This resource describes a light-duty rescue unit that is typically mounted on a commercial chassis for limited rescue intervention. The equipment carried by this resource is limited and is usually targeted at high frequency rescue incidents, such as vehicle extrication and water rescue.
+  Operational Description: This resource type typically reflects a smaller commercial rescue unit with 6+ compartments for the storage and quick deployment of a limited quantity of rescue devices and equipment. Resource may be equipped with water and pump.
+  Common Nomenclature/Radio Designator: Rescue, Squad
+RESCUE_USAR:
+  active: 'TRUE'
+  description: Rescue Unit, US&R
+  definition: This resource describes a large, customized, rescue unit with supplies and equipment specifically missioned around urban search and rescue, building collapse, and other low frequency, high risk incidents. Equipment on this resource would usually include large amounts of cribbing, lumber, stabilization struts and other building stabilization and search resources.
+  source: NFPA 1901, Chapter 10
+  Operational Description: This resource type typically reflects a large custom rescue unit with 10+ compartments for the storage and quick deployment of rescue devices and equipment. Generally meets NFPA 1901, Chapter 10. May include a tractor-trailer arrangement in some jurisdictions.
+  Common Nomenclature/Radio Designator: Rescue, Squad, US&R, USAR, Collapse Rescue
+RESCUE_WATER:
+  active: 'TRUE'
+  description: Rescue Unit, Water Rescue
+  definition: This resource describes a light-duty unit that is used specifically for water rescue in oceanic, shoreline or flashflood prone areas. This unit is typically mounted on a commercial chassis and carries equipment specifically targeted at rescuing victims in water. This unit may act as a primary tow vehicle for watercraft.
+  source: NFPA 1901, Chapter 10
+  Operational Description: This resource type typically uses a commercial chassis to provide maneuverable access to areas requiring water rescue.
+  Common Nomenclature/Radio Designator: Rescue, Squad, Water Rescue
+SCBA:
+  active: 'TRUE'
+  description: SCBA Support Unit
+  definition: This resource describes a unit designed to support self-contained breathing unit cylinder replenishment and logistics that is typically used for larger fires and other long-duration incidents. Equipment on this resource can include large quantities of SCBA cylinders, breathing air compressor, and other firefighter logistical support items.
+  Operational Description: This resource type supports breathing unit cylinder replenishment, cylinder refilling and related SCBA services at long duration incidents.
+  Common Nomenclature/Radio Designator: Mask Unit, Breathing Air Support Unit, SCBA Unit, Support,
+AIR_LIGHT:
+  active: 'TRUE'
+  description: Air and Light Unit
+  definition: This resource describes a unit designed to support self-contained breathing unit cylinder replenishment, logistics, and scene illumination that is typically used for larger fires and other long-duration incidents. Equipment on this resource can include a permanent light tower, supplemental scene lighting, large quantities of SCBA cylinders, breathing air compressor, and other firefighter logistical support items.
+  Operational Description: This resource type supports scene illumination through a light tower and related scene light fixtures, along with breathing unit cylinder replenishment, cylinder refilling and related SCBA services at long duration incidents.
+  Common Nomenclature/Radio Designator: Air and Light, Air (Also See SCBA Support unit Nomenclature)
+REHAB:
+  active: 'TRUE'
+  description: Rehabilitation or Canteen Unit
+  definition: This resource describes a vehicle dedicated for firefighter rehabilitation that may carry beverages, food, thermal rehabilitation supplies, and other logistical support items for long-duration incidents.
+  Operational Description: This resource type supports firefighter rehabilitation, especially at long duration incidents or when temperate extremes are present. The unit setup comes in a wide variety of examples and may also be staffed by auxiliary members of the department.
+  Common Nomenclature/Radio Designator: Rehab, RAC, Canteen
+MOBILE_ICP:
+  active: 'TRUE'
+  description: Mobile Command Post
+  definition: This resource describes a vehicle specifically designed for incident command and control that is typically used for incidents of long duration or complexity. Equipment on this resource includes area for various members of the incident command general and command staff, along with communications infrastructure and meeting space.
+  Operational Description: This resource type may be a shared resource with other departments or law enforcement/emergency management agencies. The resource can be customized and self-contained or involve a trailer.
+  Common Nomenclature/Radio Designator: Command, Command Post, Mobile Command Post
+MOBILE_COMMS:
+  active: 'TRUE'
+  description: Mobile Communications Equipment
+  definition: This resource describes a dedicated vehicle that is specifically designed to support communications in the field that is typically used for incidents requiring complex communications and/or dispatch support. Equipment on this resource may include computers connected to a 9-1-1 PSAP, resource tracking software, communications equipment and other materials supporting control and communications at an incident.
+  Operational Description: This resource type may be a shared resource with other departments or law enforcement/emergency management agencies. The resource can be customized and self-contained or involve a trailer.
+  Common Nomenclature/Radio Designator: FieldComm, Mobile Dispatch
+DOZER:
+  active: 'TRUE'
+  description: Bulldozer / Dozer
+  definition: This resource describes a piece of heavy machinery that is typically used for land clearing and pushing large quantities of soil and other land elements.
+  source: FEMA 508-4, NWCG PMS200
+  Operational Description: This resource type involves a variety of bulldozer units that are used for vegetation removal and soil movement in a wildfire environment.
+  Common Nomenclature/Radio Designator: Dozer
+OTHER_GROUND:
+  active: 'TRUE'
+  description: Other Ground Equipment
+  definition: This resource describes other ground equipment that is used for wildland fire response or structural demolition not already described otherwise.
+  Operational Description: Listings using this resource type can involve other ground equipment used for fire suppression and rescue operation that are possessed by departments.
+  Common Nomenclature/Radio Designator: '---'
+ATV_EMS:
+  active: 'TRUE'
+  description: All Terrain Vehicle, EMS/Rescue
+  definition: This resource describes an all terrain or utility vehicle that is used for off-road response for treating and transporting sick and injured patients.
+  Operational Description: This resource type describes all terrain or off-road utility vehicles used for patient access, rescue and transportation in remote areas or geographies of congestion.
+  Common Nomenclature/Radio Designator: ATV, UTV
+ATV_FIRE:
+  active: 'TRUE'
+  description: All Terrain Vehicle, Fire Suppression
+  definition: This resource describes an all terrain or utility vehicle that is used for off-road response for fire suppression purposes.
+  source: FEMA 508-4, Page 7, NWCG PMS-200 Type 7
+  Operational Description: This resource type describes all terrain or off-road utility vehicles used for remote fire suppression.
+  Common Nomenclature/Radio Designator: ATV, UTV
+INVEST:
+  active: 'TRUE'
+  description: Fire investigation Unit
+  definition: The resource describes a unit dedicated for investigative purposes.
+  Operational Description: The resource type may be an SUV, pickup truck, or similar and may be modified to safety transport K-9s.
+  Common Nomenclature/Radio Designator: '---'
+UTIL:
+  active: 'TRUE'
+  description: General Purpose/Utility Unit
+  definition: This resource describes a utility vehicle that is used for general incident support.
+  Operational Description: This resource type may be an SUV or pickup truck to provide general support on a wide range of incident types.
+  Common Nomenclature/Radio Designator: Utility

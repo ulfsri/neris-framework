@@ -1,0 +1,7 @@
+active,value,description,definition,source
+TRUE,ACTIVE_ASSAILANT,Active Assailant,,
+TRUE,MCI,Mass Casualty Incident,,
+TRUE,FEDERAL_DECLARED_DISASTER,Federal Declared Disaster,,
+TRUE,STATE_DECLARED_DISASTER,State Declared Disaster,,
+TRUE,URBAN_CONFLAGRATION,Urban Conflagration,,
+TRUE,VIOLENCE_AGAINST_RESPONDER,Violence Against Responder,,

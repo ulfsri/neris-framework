@@ -1,0 +1,99 @@
+GAS_CUBIC_FOOT:
+  active: 'TRUE'
+  description: 'Gas - Cubic Foot '
+GAS_CUBIC_INCH:
+  active: 'TRUE'
+  description: 'Gas - Cubic Inch '
+GAS_CUBIC_CENTIMETER:
+  active: 'TRUE'
+  description: 'Gas - Cubic Centimeter '
+GAS_CUBIC_METER:
+  active: 'TRUE'
+  description: 'Gas - Cubic Meter '
+GAS_POUND:
+  active: 'TRUE'
+  description: 'Gas - Pound '
+LIQUID_CUBIC_CENTIMETER:
+  active: 'TRUE'
+  description: 'Liquid - Cubic Centimeter '
+LIQUID_CUP:
+  active: 'TRUE'
+  description: 'Liquid - Cup '
+LIQUID_GALLON:
+  active: 'TRUE'
+  description: 'Liquid - Gallon '
+LIQUID_GRAM:
+  active: 'TRUE'
+  description: 'Liquid - Gram '
+LIQUID_KILOGRAM:
+  active: 'TRUE'
+  description: 'Liquid - Kilogram '
+LIQUID_POUND:
+  active: 'TRUE'
+  description: 'Liquid - Pound '
+LIQUID_LITER:
+  active: 'TRUE'
+  description: 'Liquid - Liter '
+LIQUID_MILLIGRAM:
+  active: 'TRUE'
+  description: 'Liquid - Milligram '
+LIQUID_MILLILITER:
+  active: 'TRUE'
+  description: 'Liquid - Milliliter '
+LIQUID_OUNCE:
+  active: 'TRUE'
+  description: 'Liquid - Ounce '
+LIQUID_PINT:
+  active: 'TRUE'
+  description: 'Liquid - Pint '
+LIQUID_QUART:
+  active: 'TRUE'
+  description: 'Liquid - Quart '
+LIQUID_TABLESPOON:
+  active: 'TRUE'
+  description: 'Liquid - Tablespoon '
+LIQUID_TEASPOON:
+  active: 'TRUE'
+  description: 'Liquid - Teaspoon '
+SOLID_GRAM:
+  active: 'TRUE'
+  description: 'Solid - Gram '
+SOLID_KILOGRAM:
+  active: 'TRUE'
+  description: 'Solid - Kilogram '
+SOLID_POUND:
+  active: 'TRUE'
+  description: 'Solid - Pound '
+SOLID_LITER:
+  active: 'TRUE'
+  description: 'Solid - Liter '
+SOLID_MILLIGRAM:
+  active: 'TRUE'
+  description: 'Solid - Milligram '
+SOLID_OUNCE:
+  active: 'TRUE'
+  description: 'Solid - Ounce '
+SOLID_TABLESPOON:
+  active: 'TRUE'
+  description: 'Solid - Tablespoon '
+SOLID_TON:
+  active: 'TRUE'
+  description: 'Solid - Ton '
+SOLID_TEASPOON:
+  active: 'TRUE'
+  description: 'Solid - Teaspoon '
+RADIOACTIVE_CURIE:
+  active: 'TRUE'
+  description: 'Radioactive - Curie '
+RADIOACTIVE_MEGABECQUEREL:
+  active: 'TRUE'
+  description: 'Radioactive - Megabecquerel '
+RADIOACTIVE_MILLICURIE:
+  active: 'TRUE'
+  description: 'Radioactive - Millicurie '
+RADIOACTIVE_TERABECQUEREL:
+  active: 'TRUE'
+  description: 'Radioactive - Terabecquerel '
+RADIOACTIVE_MICROCURIE:
+  active: 'TRUE'
+  description: 'Radioactive - Microcurie '

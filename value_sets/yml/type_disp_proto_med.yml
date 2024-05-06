@@ -1,0 +1,12 @@
+PROQA:
+  active: 'TRUE'
+  description: PROQA
+IAED:
+  active: 'TRUE'
+  description: IAED
+APCO:
+  active: 'TRUE'
+  description: APCO
+OTHER:
+  active: 'TRUE'
+  description: Other

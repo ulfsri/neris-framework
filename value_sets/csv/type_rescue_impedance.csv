@@ -1,0 +1,7 @@
+active,value,description,definition,source
+TRUE,HOARDING_CONDITIONS,Hoarding Conditions,,
+TRUE,ACCESS_LIMITATIONS,Limited Access,,
+TRUE,PHYSICAL_MEDICAL_CONDITIONS_PERSON,Physical / Medical Conditions of Person,,
+TRUE,IMPAIRED_PERSON,Impaired Person,,
+TRUE,OTHER,Other,,
+TRUE,NONE,None,,

@@ -1,0 +1,15 @@
+CARBON_MONOXIDE:
+  active: 'TRUE'
+  description: Carbon Monoxide
+NATURAL_GAS:
+  active: 'TRUE'
+  description: Natural Gas
+HEAT_DETECTOR:
+  active: 'TRUE'
+  description: Heat Detector
+OTHER_CHEMICAL_DETECTOR:
+  active: 'TRUE'
+  description: Other_Chemical Detector
+NONE:
+  active: 'TRUE'
+  description: '---'

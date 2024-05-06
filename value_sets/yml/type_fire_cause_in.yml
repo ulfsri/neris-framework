@@ -1,0 +1,39 @@
+OPERATING_EQUIPMENT:
+  active: 'TRUE'
+  description: Operating Equipment
+ELECTRICAL:
+  active: 'TRUE'
+  description: Electrical
+BATTERY_POWER_STORAGE:
+  active: 'TRUE'
+  description: Battery / Power Storage
+HEAT_FROM_ANOTHER_OBJECT:
+  active: 'TRUE'
+  description: Heat From Another Object
+EXPLOSIVES_FIREWORKS:
+  active: 'TRUE'
+  description: Explosives / Fireworks
+SMOKING_MATERIALS_ILLICIT_DRUGS:
+  active: 'TRUE'
+  description: Smoking Materials / Illicit Drugs
+OPEN_FLAME:
+  active: 'TRUE'
+  description: Open Flame
+COOKING:
+  active: 'TRUE'
+  description: Cooking
+CHEMICAL:
+  active: 'TRUE'
+  description: Chemical
+ACT_OF_NATURE:
+  active: 'TRUE'
+  description: Act Of Nature
+INCENDIARY:
+  active: 'TRUE'
+  description: Incendiary
+OTHER_HEAT_SOURCE:
+  active: 'TRUE'
+  description: Other Heat Source
+UNABLE_TO_BE_DETERMINED:
+  active: 'TRUE'
+  description: Unable to be Determined

@@ -1,0 +1,6 @@
+SINGLE:
+  active: 'TRUE'
+  description: Single
+MULTIPLE:
+  active: 'TRUE'
+  description: Multiple

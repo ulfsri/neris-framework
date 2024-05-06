@@ -1,0 +1,7 @@
+active,value,description,definition,source
+TRUE,PATIENT_EVALAUTED_CARE_PROVIDED,Patient Evaluated and Care Provided,,
+TRUE,PATIENT_EVALAUTED_REFUSED_CARE,Patient Evaluated and Refused Care,,
+TRUE,PATIENT_EVALAUTED_NO_CARE_REQUIRED,"Patient Evaluated, No Care Required ",,
+TRUE,PATIENT_REFUSED_EVALUATION_CARE,Patient Refused Evaluation/Care,,
+TRUE,PATIENT_SUPPORT_SERVICES_PROVIDED,Patient Support Services Provided,,
+TRUE,PATIENT_DEAD_ON_ARRIVAL, Patient Dead on Arrival,,

@@ -1,0 +1,9 @@
+AIR:
+  active: 'TRUE'
+  description: Air
+WATER:
+  active: 'TRUE'
+  description: Water
+GROUND:
+  active: 'TRUE'
+  description: Ground

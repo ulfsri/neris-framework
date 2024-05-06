@@ -1,0 +1,13 @@
+name,type,group,possible_if,not_null,neris_core,neris_core_if,neris_core_aid,computed,computed_from,cardinality,value_set,value_set_location,map_orm_landing,map_app,description,example,comments
+weather_id,Text,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,National Weather Service Station ID.,WXJ55,
+weather_condition,Text,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Standard NWS codes for weather type.,"Clear, Rain, Snow etc.",
+weather_temperature,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Temperature during incident (degrees F).,76.1,
+weather_humidity,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Humidity during incident (%).,80.5,
+weather_cloudiness,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Cloudiness as a percentage (%).,20.2,
+weather_pressure,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,"Atmospheric pressure on the sea level, hPa.",1013.25,
+weather_visibility,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,"Average visibility, in miles.",12,
+precipitation_rain,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,"Rain precipitation, inches/hour.",3.2,
+precipitation_snow,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,"Snow precipitation, inches/hour.",1.1,
+wind_speed,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Velocity of wind in miles per hour.,10.8,
+wind_degree,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,"Wind direction, degrees (meteorological).",20.1,
+wind_gust,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Velocity of wind gusts in miles per hour.,15,

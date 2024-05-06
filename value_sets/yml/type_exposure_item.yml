@@ -1,0 +1,12 @@
+STRUCTURE:
+  active: 'TRUE'
+  description: Structure
+VEHICLE:
+  active: 'TRUE'
+  description: Vehicle
+OUTDOOR_ENVIRONMENT:
+  active: 'TRUE'
+  description: Outdoor / Environment
+OBJECT_OTHER:
+  active: 'TRUE'
+  description: Object - Other

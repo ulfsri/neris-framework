@@ -1,0 +1,15 @@
+FIREFIGHTER_RESCUED:
+  active: 'TRUE'
+  description: Firefighter Rescued
+NON_FIREFIGHTER_RESCUED:
+  active: 'TRUE'
+  description: Non-Firefighter Rescued
+FIREFIGHTER_ASSISTED_EVAC:
+  active: 'TRUE'
+  description: Firefighter-Assisted Evacuation
+SELF_EVACUATION:
+  active: 'TRUE'
+  description: Self-Evacuation
+NO_RESCUE_NEEDED:
+  active: 'TRUE'
+  description: No Rescue Needed

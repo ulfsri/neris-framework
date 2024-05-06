@@ -1,0 +1,4 @@
+active,value,description,definition,source
+TRUE,PRE_SUPPRESSION,Pre Suppression,,
+TRUE,DURING_SUPPRESSION,During Suppression,,
+TRUE,POST_SUPPRESSION,Post Suppression,,

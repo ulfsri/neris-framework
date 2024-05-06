@@ -1,0 +1,225 @@
+AIRCRAFT:
+  active: 'TRUE'
+  description: Aircraft
+  definition: A device that is used or intended to be used for flight in the air, such as an airplane, helicopter, gyroplane, glider or lighter-than-air devices like a balloon.
+  source: IANA Location Type Registry
+AIRPORT:
+  active: 'TRUE'
+  description: Airport
+  definition: A place from which aircraft operate, such as an airport or heliport.
+  source: IANA Location Type Registry
+ARENA:
+  active: 'TRUE'
+  description: Arena
+  definition: Enclosed area used for sports events.
+  source: IANA Location Type Registry
+AUTOMOBILE:
+  active: 'TRUE'
+  description: Automobile
+  definition: A usually four-wheeled automotive vehicle designed for passenger transportation, such as a car.
+  source: IANA Location Type Registry
+BANK:
+  active: 'TRUE'
+  description: Bank
+  definition: Business establishment in which money is kept for saving or commercial purposes or is invested, supplied for loans, or exchanged.
+  source: IANA Location Type Registry
+BAR:
+  active: 'TRUE'
+  description: Bar
+  definition: A bar or saloon.
+  source: IANA Location Type Registry
+BUS:
+  active: 'TRUE'
+  description: Bus
+  definition: A large motor vehicle designed to carry passengers.
+  source: IANA Location Type Registry
+BICYCLE:
+  active: 'TRUE'
+  description: Bicycle
+  definition: A vehicle with two wheels tandem, a steering handle, a saddle seat, and pedals by which it is propelled.
+  source: IANA Location Type Registry
+BUS_STATION:
+  active: 'TRUE'
+  description: Bus-station
+  definition: Terminal that serves bus passengers, such as a bus depot or bus terminal.
+  source: IANA Location Type Registry
+CAFE:
+  active: 'TRUE'
+  description: Cafe
+  definition: Usually small and informal establishment serving various refreshments (such as coffee); coffee shop.
+  source: IANA Location Type Registry
+CLASSROOM:
+  active: 'TRUE'
+  description: Classroom
+  definition: Academic classroom or lecture hall.
+  source: IANA Location Type Registry
+CLUB:
+  active: 'TRUE'
+  description: Club
+  definition: Dance club, nightclub or discotheque.
+  source: IANA Location Type Registry
+CONSTRUCTION:
+  active: 'TRUE'
+  description: Construction
+  definition: Construction site.
+  source: IANA Location Type Registry
+CONVENTION_CENTER:
+  active: 'TRUE'
+  description: Convention-center
+  definition: Convention center or exhibition hall.
+  source: IANA Location Type Registry
+GOVERNMENT:
+  active: 'TRUE'
+  description: Government
+  definition: Government building, such as those used by the legislative, executive, or judicial branches of governments, including court houses, police stations and military installations.
+  source: IANA Location Type Registry
+HOSPITAL:
+  active: 'TRUE'
+  description: Hospital
+  definition: Hospital, hospice, medical clinic, mental institution, or doctor's office.
+  source: IANA Location Type Registry
+HOTEL:
+  active: 'TRUE'
+  description: Hotel
+  definition: Hotel, motel, inn or other lodging establishment.
+  source: IANA Location Type Registry
+INDUSTRIAL:
+  active: 'TRUE'
+  description: Industrial
+  definition: Industrial setting, such as a manufacturing floor or power plant.
+  source: IANA Location Type Registry
+LIBRARY:
+  active: 'TRUE'
+  description: Library
+  definition: Library or other public place in which literary and artistic materials, such as books, music, periodicals, newspapers, pamphlets, prints, records, and tapes, are kept for reading, reference, or lending.
+  source: IANA Location Type Registry
+MOTORCYCLE:
+  active: 'TRUE'
+  description: Motorcycle
+  definition: A two-wheeled automotive vehicle, including a scooter.
+  source: IANA Location Type Registry
+MUSEUM:
+  active: 'TRUE'
+  description: Museum
+  definition: Location where objects of historical, artistic, scientific or cultural interest are stored and exhibited.
+  source: IANA Location Type Registry
+OFFICE:
+  active: 'TRUE'
+  description: Office
+  definition: Business setting, such as an office.
+  source: IANA Location Type Registry
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition: A place without a registered place type representation.
+  source: IANA Location Type Registry
+OUTDOORS:
+  active: 'TRUE'
+  description: Outdoors
+  definition: Outside a building, in or into the open air, such as a park or city streets.
+  source: IANA Location Type Registry
+PARKING:
+  active: 'TRUE'
+  description: Parking
+  definition: A parking lot or parking garage.
+  source: IANA Location Type Registry
+PLACE_OF_WORSHIP:
+  active: 'TRUE'
+  description: Place-of-worship
+  definition: A religious site where congregations gather for religious observances, such as a church, chapel, meetinghouse, mosque, shrine, synagogue, or temple.
+  source: IANA Location Type Registry
+PRISON:
+  active: 'TRUE'
+  description: Prison
+  definition: Correctional institution where persons are confined while on trial or for punishment, such as a prison, penitentiary, jail, brig.
+  source: IANA Location Type Registry
+PUBLIC:
+  active: 'TRUE'
+  description: Public
+  definition: Public area such as a shopping mall, street, park, public building, train station, airport or in public conveyance such as a bus, train, plane or ship. This general description encompasses the more precise descriptors 'street', 'public-transport', 'aircraft', 'bus', 'bus-station', 'train', 'train-station', 'airport', 'shopping-area', 'outdoors', and 'watercraft'.
+  source: IANA Location Type Registry
+PUBLIC_TRANSPORT:
+  active: 'TRUE'
+  description: Public-transport
+  definition: Any form of public transport, including aircraft, bus, train or ship.
+  source: IANA Location Type Registry
+RESIDENCE:
+  active: 'TRUE'
+  description: Residence
+  definition: A private or residential setting, not necessarily the personal residence of the entity, e.g., including a friend's home.
+  source: IANA Location Type Registry
+RESTAURANT:
+  active: 'TRUE'
+  description: Restaurant
+  definition: Restaurant, coffee shop or other public dining establishment.
+  source: IANA Location Type Registry
+SCHOOL:
+  active: 'TRUE'
+  description: School
+  definition: School or university property, but not necessarily a classroom or library.
+  source: IANA Location Type Registry
+SHOPPING_AREA:
+  active: 'TRUE'
+  description: Shopping-area
+  definition: Shopping mall or shopping area. This area is a large, often enclosed shopping complex containing various stores, businesses, and restaurants usually accessible by common passageways.
+  source: IANA Location Type Registry
+STADIUM:
+  active: 'TRUE'
+  description: Stadium
+  definition: Large, usually open structure for sports events, including a racetrack.
+  source: IANA Location Type Registry
+STORE:
+  active: 'TRUE'
+  description: Store
+  definition: Place where merchandise is offered for sale, such as a shop.
+  source: IANA Location Type Registry
+STREET:
+  active: 'TRUE'
+  description: Street
+  definition: A public thoroughfare, such as a avenue, street, alley, lane, road, including any sidewalks.
+  source: IANA Location Type Registry
+THEATER:
+  active: 'TRUE'
+  description: theater
+  definition: Theater, lecture hall, auditorium, class room, movie theater or similar facility designed for presentations, talks, plays, music performances and other events involving an audience.
+  source: IANA Location Type Registry
+TRAIN:
+  active: 'TRUE'
+  description: Train
+  definition: Train, monorail, maglev, cable car or similar conveyance.
+  source: IANA Location Type Registry
+TRAIN_STATION:
+  active: 'TRUE'
+  description: Train-station
+  definition: Terminal where trains load or unload passengers or goods; railway station, railroad station, railroad terminal, train depot.
+  source: IANA Location Type Registry
+TRUCK:
+  active: 'TRUE'
+  description: Truck
+  definition: An automotive vehicle suitable for hauling, used primarily to carry goods rather than people.
+  source: IANA Location Type Registry
+UNDERWAY:
+  active: 'TRUE'
+  description: Underway
+  definition: In a land, water, or air craft which is underway (in motion).
+  source: IANA Location Type Registry
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition: The type of place is unknown.
+  source: IANA Location Type Registry
+WAREHOUSE:
+  active: 'TRUE'
+  description: Warehouse
+  definition: Place in which goods or merchandise are stored, such as a storehouse or self-storage facility.
+  source: IANA Location Type Registry
+WATER:
+  active: 'TRUE'
+  description: Water
+  definition: In, on or above bodies of water, such as an ocean, lake, river, canal or other waterway.
+  source: IANA Location Type Registry
+WATERCRAFT:
+  active: 'TRUE'
+  description: Watercraft
+  definition: On a vessel for travel on water such as a boat or ship.
+  source: IANA Location Type Registry

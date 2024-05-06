@@ -1,0 +1,9 @@
+IMPROVED:
+  active: 'TRUE'
+  description: Improved
+UNCHANGED:
+  active: 'TRUE'
+  description: Unchanged
+WORSE:
+  active: 'TRUE'
+  description: Worse

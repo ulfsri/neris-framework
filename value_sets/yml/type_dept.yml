@@ -1,0 +1,9 @@
+CAREER:
+  active: 'TRUE'
+  description: Career
+VOLUNTEER:
+  active: 'TRUE'
+  description: Volunteer
+COMBINATION:
+  active: 'TRUE'
+  description: Combination

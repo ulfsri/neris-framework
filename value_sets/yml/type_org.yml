@@ -1,0 +1,18 @@
+LOCAL:
+  active: 'TRUE'
+  description: Local
+TRIBAL_GOVT:
+  active: 'TRUE'
+  description: Tribal Government
+PRIVATE:
+  active: 'TRUE'
+  description: Private
+DOD:
+  active: 'TRUE'
+  description: DOD
+SFM:
+  active: 'TRUE'
+  description: State Fire Marshal
+FEDERAL:
+  active: 'TRUE'
+  description: Federal

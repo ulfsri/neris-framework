@@ -1,0 +1,24 @@
+CAREER:
+  active: 'TRUE'
+  description: Career
+PART_TIME:
+  active: 'TRUE'
+  description: Part_Time
+PAID_ON_CALL:
+  active: 'TRUE'
+  description: Paid_On_Call
+INDUSTRIAL:
+  active: 'TRUE'
+  description: Industrial
+VOLUNTEER:
+  active: 'TRUE'
+  description: Volunteer
+WILDLAND_FULL_TIME:
+  active: 'TRUE'
+  description: Wildland Full Time
+WILDLAND_PART_TIME:
+  active: 'TRUE'
+  description: Wildland Part Time
+WILDLAND_CONTRACT:
+  active: 'TRUE'
+  description: Wildland Contract

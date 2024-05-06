@@ -1,0 +1,18 @@
+'YES':
+  active: 'TRUE'
+  description: 'Yes'
+'NO':
+  active: 'TRUE'
+  description: 'No'
+NOT_EVALUATED:
+  active: 'TRUE'
+  description: Not Evaluated
+NOT_APPLICABLE:
+  active: 'TRUE'
+  description: Not Applicable
+NO_CAUSE_OBVIOUS:
+  active: 'TRUE'
+  description: No - Cause Obvious
+OTHER:
+  active: 'TRUE'
+  description: Other

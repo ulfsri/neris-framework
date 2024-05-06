@@ -1,0 +1,13 @@
+SOLID:
+  active: 'TRUE'
+  description: Solid
+LIQUID:
+  active: 'TRUE'
+  description: Liquid
+GAS:
+  active: 'TRUE'
+  description: Gas
+RADIOACTIVE:
+  active: 'TRUE'
+  description: ' Radioactive'
+  definition: ' '

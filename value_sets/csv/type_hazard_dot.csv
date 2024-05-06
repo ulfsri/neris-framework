@@ -1,0 +1,10 @@
+active,value,description,definition,source
+TRUE,EXPLOSIVES,Explosives,,
+TRUE,GASES,Gases,,
+TRUE,FLAMMABLE_LIQUIDS,Flammable Liquids,,
+TRUE,FLAMMABLE_SOLIDS,Flammable Solids,,
+TRUE,OXIDIZERS,Oxidizers,,
+TRUE,POISONS_AND_ETIOLOGIC_MATERIALS,Poisons and Etiologic Materials,,
+TRUE,RADIOACTIVE_MATERIALS,Radioactive Materials,,
+TRUE,CORROSIVES,Corrosives,,
+TRUE,MISCELLANEOUS_DANGEROUS_SUBSTANCES,Miscellaneous Dangers Substances and Articles,,

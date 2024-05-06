@@ -1,0 +1,3 @@
+active,value,description,definition,source
+TRUE,EXTERNAL_EXPOSURE,"External Exposure (building to building, building to vehicle, etc.)",,
+TRUE,INTERNAL_EXPOSURE,"Internal Exposure (Occupancy A to Occupancy B, within the same structure)",,

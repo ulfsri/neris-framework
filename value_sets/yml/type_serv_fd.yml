@@ -1,0 +1,111 @@
+STRUCTURAL_FIREFIGHTING:
+  active: 'TRUE'
+  description: Conventional Structural and Other Fire Response
+HIGHRISE_FIREFIGHTING:
+  active: 'TRUE'
+  description: High-Rise Structural Firefighting
+WILDLAND_FIREFIGHTING:
+  active: 'TRUE'
+  description: Wildfire Response / Wildland Urban Interface
+PETROCHEM_FIREFIGHTING:
+  active: 'TRUE'
+  description: Hydrocarbon and Petrochemical Firefighting
+ARFF_FIREFIGHTING:
+  active: 'TRUE'
+  description: Aircraft Rescue and Firefighting (ARFF) Response
+MARINE_FIREFIGHTING:
+  active: 'TRUE'
+  description: Marine/Oceanic/Shipboard Fire Suppression
+HAZMAT_OPS:
+  active: 'TRUE'
+  description: Hazardous Materials Operations Level
+HAZMAT_TECHNICIAN:
+  active: 'TRUE'
+  description: Hazardous Materials Technician Level
+ROPE_RESCUE:
+  active: 'TRUE'
+  description: Rope Rescue
+COLLAPSE_RESCUE:
+  active: 'TRUE'
+  description: Structural Collapse Search and Rescue
+VEHICLE_RESCUE:
+  active: 'TRUE'
+  description: Vehicle Search and Rescue
+ANIMAL_TECHRESCUE:
+  active: 'TRUE'
+  description: Animal Technical Rescue
+WILDERNESS_SAR:
+  active: 'TRUE'
+  description: Wilderness Search and Rescue
+TRENCH_RESCUE:
+  active: 'TRUE'
+  description: Trench Search and Rescue
+CONFINED_SPACE:
+  active: 'TRUE'
+  description: Confined Space Rescue
+MACHINERY_RESCUE:
+  active: 'TRUE'
+  description: Machinery Search and Rescue
+CAVE_SAR:
+  active: 'TRUE'
+  description: Cave Search and Rescue
+MINE_SAR:
+  active: 'TRUE'
+  description: Mine and Tunnel Search and Rescue
+HELO_SAR:
+  active: 'TRUE'
+  description: Helicopter Search and Rescue
+WATER_SAR:
+  active: 'TRUE'
+  description: Surface Water Search and Rescue
+SWIFTWATER_SAR:
+  active: 'TRUE'
+  description: Swiftwater Search and Rescue
+DIVE_SAR:
+  active: 'TRUE'
+  description: Dive Search and Rescue
+ICE_RESCUE:
+  active: 'TRUE'
+  description: Ice Search and Rescue
+SURF_RESCUE:
+  active: 'TRUE'
+  description: Surf Search and Rescue
+WATERCRAFT_RESCUE:
+  active: 'TRUE'
+  description: Watercraft Search and Rescue
+FLOOD_SAR:
+  active: 'TRUE'
+  description: Flood Search and Rescue
+TOWER_SAR:
+  active: 'TRUE'
+  description: Tower Search and Rescue
+REHABILITATION:
+  active: 'TRUE'
+  description: Rehabilitation Services
+RRD_EXISTING:
+  active: 'TRUE'
+  description: 'Risk Reduction: Existing Building Fire Inspection'
+RRD_NEWCONST:
+  active: 'TRUE'
+  description: 'Risk Reduction: New Construction Fire Inspection'
+RRD_PUBLICED:
+  active: 'TRUE'
+  description: 'Risk Reduction: Public Fire, Life Safety, Injury Prevention Education'
+RRD_PLANS:
+  active: 'TRUE'
+  description: 'Risk Reduction: Plan Review'
+CAUSE_ORIGIN:
+  active: 'TRUE'
+  description: Fire Cause Determination and Investigation
+TRAINING_ELF:
+  active: 'TRUE'
+  description: Training Academy, Entry-Level Firefighter
+TRAINING_VETFF:
+  active: 'TRUE'
+  description: Training Academy, Incumbent Firefighter
+TRAINING_OD:
+  active: 'TRUE'
+  description: Training Academy, Officer Development
+TRAINING_DRIVER:
+  active: 'TRUE'
+  description: Training Academy, Driver/Operator

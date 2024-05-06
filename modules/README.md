@@ -1,6 +1,6 @@
 ## modules
 
-This metadata is a descriptive representation of the data elements that will be served by NERIS back to departments via the NERIS API. Accordingly, it does not represent 1-1 the data elements sent by a department and its vendors. 
+This metadata is a descriptive representation of the data elements in NERIS modules. Modules serve as the high-level sets of data elements to be collected for an incident response.
 
 The metadata tables in `modules/` contain some or all of the following fields:
 - `name`

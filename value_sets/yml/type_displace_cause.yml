@@ -1,0 +1,21 @@
+FIRE:
+  active: 'TRUE'
+  description: Fire
+SMOKE:
+  active: 'TRUE'
+  description: Smoke
+WATER:
+  active: 'TRUE'
+  description: Water
+UTILITIES:
+  active: 'TRUE'
+  description: Utilities
+HAZARDOUS_SITUATION:
+  active: 'TRUE'
+  description: Hazardous Situation
+COLLAPSE:
+  active: 'TRUE'
+  description: Collapse
+OTHER:
+  active: 'TRUE'
+  description: Other

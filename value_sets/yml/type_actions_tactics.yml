@@ -1,0 +1,656 @@
+'EMERGENCY_MEDICAL_CARE: PATIENT_ASSESSMENT':
+  active: 'TRUE'
+  value_1: EMERGENCY_MEDICAL_CARE
+  value_2: PATIENT_ASSESSMENT
+  value_3: '---'
+  description_1: Emergency Medical Care
+  description_2: Patient Assessment
+  description_3: '---'
+'EMERGENCY_MEDICAL_CARE: PROVIDE_BASIC_LIFE_SUPPORT':
+  active: 'TRUE'
+  value_1: EMERGENCY_MEDICAL_CARE
+  value_2: PROVIDE_BASIC_LIFE_SUPPORT
+  value_3: '---'
+  description_1: Emergency Medical Care
+  description_2: Provide Basic Life Support
+  description_3: '---'
+'EMERGENCY_MEDICAL_CARE: PROVIDE_ADVANCED_LIFE_SUPPORT':
+  active: 'TRUE'
+  value_1: EMERGENCY_MEDICAL_CARE
+  value_2: PROVIDE_ADVANCED_LIFE_SUPPORT
+  value_3: '---'
+  description_1: Emergency Medical Care
+  description_2: Provide Advanced Life Support
+  description_3: '---'
+'EMERGENCY_MEDICAL_CARE: PROVIDE_TRANSPORT':
+  active: 'TRUE'
+  value_1: EMERGENCY_MEDICAL_CARE
+  value_2: PROVIDE_TRANSPORT
+  value_3: '---'
+  description_1: Emergency Medical Care
+  description_2: Provide Transport
+  description_3: '---'
+'EMERGENCY_MEDICAL_CARE: PATIENT_REFERRAL':
+  active: 'TRUE'
+  value_1: EMERGENCY_MEDICAL_CARE
+  value_2: PATIENT_REFERRAL
+  value_3: '---'
+  description_1: Emergency Medical Care
+  description_2: Patient Referral
+  description_3: '---'
+'COMMAND_AND_CONTROL: ESTABLISH_INCIDENT_COMMAND':
+  active: 'TRUE'
+  value_1: COMMAND_AND_CONTROL
+  value_2: ESTABLISH_INCIDENT_COMMAND
+  value_3: '---'
+  description_1: Command And Control
+  description_2: Establish Incident Command
+  description_3: '---'
+'COMMAND_AND_CONTROL: SAFETY_OFFICER_ASSIGNED':
+  active: 'TRUE'
+  value_1: COMMAND_AND_CONTROL
+  value_2: SAFETY_OFFICER_ASSIGNED
+  value_3: '---'
+  description_1: Command And Control
+  description_2: Safety Officer Assigned
+  description_3: '---'
+'COMMAND_AND_CONTROL: PIO_ASSIGNED':
+  active: 'TRUE'
+  value_1: COMMAND_AND_CONTROL
+  value_2: PIO_ASSIGNED
+  value_3: '---'
+  description_1: Command And Control
+  description_2: PIO Assigned
+  description_3: '---'
+'COMMAND_AND_CONTROL: NOTIFY_OTHER_AGENCIES':
+  active: 'TRUE'
+  value_1: COMMAND_AND_CONTROL
+  value_2: NOTIFY_OTHER_AGENCIES
+  value_3: '---'
+  description_1: Command And Control
+  description_2: Notify Other Agencies
+  description_3: '---'
+'COMMAND_AND_CONTROL: INCIDENT_ASSESSMENT_COMPLETED':
+  active: 'TRUE'
+  value_1: COMMAND_AND_CONTROL
+  value_2: INCIDENT_ASSESSMENT_COMPLETED
+  value_3: '---'
+  description_1: Command And Control
+  description_2: Incident Assessment (360 Degree Visualization) Completed
+  description_3: '---'
+'COMMAND_AND_CONTROL: ACCOUNTABILITY_OFFICER_ASSIGNED':
+  active: 'TRUE'
+  value_1: COMMAND_AND_CONTROL
+  value_2: ACCOUNTABILITY_OFFICER_ASSIGNED
+  value_3: '---'
+  description_1: Command And Control
+  description_2: Accountability Officer Assigned
+  description_3: '---'
+FORCIBLE_ENTRY:
+  active: 'TRUE'
+  value_1: FORCIBLE_ENTRY
+  value_2: '---'
+  value_3: '---'
+  description_1: Forcible Entry
+  description_2: '---'
+  description_3: '---'
+'SUPPRESSION: STRUCTURAL_FIRE_SUPPRESSION: INTERIOR':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: STRUCTURAL_FIRE_SUPPRESSION
+  value_3: INTERIOR
+  description_1: Suppression
+  description_2: Structural_Fire_Suppression
+  description_3: Interior
+'SUPPRESSION: STRUCTURAL_FIRE_SUPPRESSION: EXTERIOR':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: STRUCTURAL_FIRE_SUPPRESSION
+  value_3: EXTERIOR
+  description_1: Suppression
+  description_2: Structural_Fire_Suppression
+  description_3: Exterior
+'SUPPRESSION: STRUCTURAL_FIRE_SUPPRESSION: EXTERIOR_AND_INTERIOR':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: STRUCTURAL_FIRE_SUPPRESSION
+  value_3: EXTERIOR_AND_INTERIOR
+  description_1: Suppression
+  description_2: Structural_Fire_Suppression
+  description_3: Exterior and Interior
+'SUPPRESSION: OUTSIDE_FIRE_SUPPRESSION: ESTABLISH FIRE LINES':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: ESTABLISH FIRE LINES
+  description_1: Suppression
+  description_2: Outside_Fire_Suppression
+  description_3: Establish Fire Lines
+'SUPPRESSION: OUTSIDE_FIRE_SUPPRESSION: BACKBURN':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: BACKBURN
+  description_1: Suppression
+  description_2: Outside_Fire_Suppression
+  description_3: Backburn
+'SUPPRESSION: OUTSIDE_FIRE_SUPPRESSION: CONFINEMENT':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: CONFINEMENT
+  description_1: Suppression
+  description_2: Outside_Fire_Suppression
+  description_3: Confinement
+'SUPPRESSION: OUTSIDE_FIRE_SUPPRESSION: STRUCTURE_PROTECTION':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: STRUCTURE_PROTECTION
+  description_1: Suppression
+  description_2: Outside_Fire_Suppression
+  description_3: Structure Protection
+'SUPPRESSION: OUTSIDE_FIRE_SUPPRESSION: FIRE_CONTROL_EXTINGUISHMENT':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: FIRE_CONTROL_EXTINGUISHMENT
+  description_1: Suppression
+  description_2: Outside_Fire_Suppression
+  description_3: Fire Control / Extinguishment
+'VENTILATION: VERTICAL: PRIOR_TO_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: VERTICAL
+  value_3: PRIOR_TO_SUPPRESSION
+  description_1: Ventilation
+  description_2: Vertical
+  description_3: Prior To Suppression
+'VENTILATION: VERTICAL: DURING_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: VERTICAL
+  value_3: DURING_SUPPRESSION
+  description_1: Ventilation
+  description_2: Vertical
+  description_3: During Suppression
+'VENTILATION: VERTICAL: POST_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: VERTICAL
+  value_3: POST_SUPPRESSION
+  description_1: Ventilation
+  description_2: Vertical
+  description_3: Post Suppression
+'VENTILATION: HORIZONTAL: PRIOR_TO_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HORIZONTAL
+  value_3: PRIOR_TO_SUPPRESSION
+  description_1: Ventilation
+  description_2: Horizontal
+  description_3: Prior To Suppression
+'VENTILATION: HORIZONTAL: DURING_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HORIZONTAL
+  value_3: DURING_SUPPRESSION
+  description_1: Ventilation
+  description_2: Horizontal
+  description_3: During Suppression
+'VENTILATION: HORIZONTAL: POST_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HORIZONTAL
+  value_3: POST_SUPPRESSION
+  description_1: Ventilation
+  description_2: Horizontal
+  description_3: Post Suppression
+'VENTILATION: POSITIVE_PRESSURE: PRIOR_TO_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: POSITIVE_PRESSURE
+  value_3: PRIOR_TO_SUPPRESSION
+  description_1: Ventilation
+  description_2: Positive Pressure
+  description_3: Prior To Suppression
+'VENTILATION: POSITIVE_PRESSURE: DURING_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: POSITIVE_PRESSURE
+  value_3: DURING_SUPPRESSION
+  description_1: Ventilation
+  description_2: Positive Pressure
+  description_3: During Suppression
+'VENTILATION: POSITIVE_PRESSURE: POST_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: POSITIVE_PRESSURE
+  value_3: POST_SUPPRESSION
+  description_1: Ventilation
+  description_2: Positive Pressure
+  description_3: Post Suppression
+'VENTILATION: HYDRAULIC: PRIOR_TO_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HYDRAULIC
+  value_3: PRIOR_TO_SUPPRESSION
+  description_1: Ventilation
+  description_2: Hydraulic
+  description_3: Prior To Suppression
+'VENTILATION: HYDRAULIC: DURING_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HYDRAULIC
+  value_3: DURING_SUPPRESSION
+  description_1: Ventilation
+  description_2: Hydraulic
+  description_3: During Suppression
+'VENTILATION: HYDRAULIC: POST_SUPPRESSION':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HYDRAULIC
+  value_3: POST_SUPPRESSION
+  description_1: Ventilation
+  description_2: Hydraulic
+  description_3: Post Suppression
+'SEARCH_STRUCTURE: DOOR_INITIATED_SEARCH: PRIOR_TO_SUPPRESSION':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: DOOR_INITIATED_SEARCH
+  value_3: PRIOR_TO_SUPPRESSION
+  description_1: Search Structure
+  description_2: Door Initiated Search
+  description_3: Prior To Suppression
+'SEARCH_STRUCTURE: DOOR_INITIATED_SEARCH: DURING_SUPPRESSION':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: DOOR_INITIATED_SEARCH
+  value_3: DURING_SUPPRESSION
+  description_1: Search Structure
+  description_2: Door Initiated Search
+  description_3: During Suppression
+'SEARCH_STRUCTURE: DOOR_INITIATED_SEARCH: POST_SUPPRESSION':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: DOOR_INITIATED_SEARCH
+  value_3: POST_SUPPRESSION
+  description_1: Search Structure
+  description_2: Door Initiated Search
+  description_3: Post Suppression
+'SEARCH_STRUCTURE: WINDOW_INITIATED_SEARCH: PRIOR_TO_SUPPRESSION':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: WINDOW_INITIATED_SEARCH
+  value_3: PRIOR_TO_SUPPRESSION
+  description_1: Search Structure
+  description_2: Window Initiated Search
+  description_3: Prior To Suppression
+'SEARCH_STRUCTURE: WINDOW_INITIATED_SEARCH: DURING_SUPPRESSION':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: WINDOW_INITIATED_SEARCH
+  value_3: DURING_SUPPRESSION
+  description_1: Search Structure
+  description_2: Window Initiated Search
+  description_3: During Suppression
+'SEARCH_STRUCTURE: WINDOW_INITIATED_SEARCH: POST_SUPPRESSION':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: WINDOW_INITIATED_SEARCH
+  value_3: POST_SUPPRESSION
+  description_1: Search Structure
+  description_2: Window Initiated Search
+  description_3: Post Suppression
+'NON_STRUCTURE_SEARCH: SEARCH_AREA_OF_COLLAPSE':
+  active: 'TRUE'
+  value_1: NON_STRUCTURE_SEARCH
+  value_2: SEARCH_AREA_OF_COLLAPSE
+  value_3: '---'
+  description_1: Non Structure Search
+  description_2: Search Area of Collapse
+  description_3: '---'
+'NON_STRUCTURE_SEARCH: SEARCH_UNDERGROUND_INFRASTRUCTURE':
+  active: 'TRUE'
+  value_1: NON_STRUCTURE_SEARCH
+  value_2: SEARCH_UNDERGROUND_INFRASTRUCTURE
+  value_3: '---'
+  description_1: Non Structure Search
+  description_2: Search Underground Infrastructure (Cave / Mine)
+  description_3: '---'
+'NON_STRUCTURE_SEARCH: WIDE_AREA/OUTDOOR_SEARCH':
+  active: 'TRUE'
+  value_1: NON_STRUCTURE_SEARCH
+  value_2: WIDE_AREA/OUTDOOR_SEARCH
+  value_3: '---'
+  description_1: Non Structure Search
+  description_2: Wide Area / Outdoor Search
+  description_3: '---'
+'NON_STRUCTURE_SEARCH: SEARCH_WATERWAY':
+  active: 'TRUE'
+  value_1: NON_STRUCTURE_SEARCH
+  value_2: SEARCH_WATERWAY
+  value_3: '---'
+  description_1: Non Structure Search
+  description_2: Search Waterway
+  description_3: '---'
+'NON_STRUCTURE_SEARCH: BODY_RECOVERY':
+  active: 'TRUE'
+  value_1: NON_STRUCTURE_SEARCH
+  value_2: BODY_RECOVERY
+  value_3: '---'
+  description_1: Non Structure Search
+  description_2: Body Recovery
+  description_3: '---'
+'NON_STRUCTURE_SEARCH: USAR_K9_SEARCH':
+  active: 'TRUE'
+  value_1: NON_STRUCTURE_SEARCH
+  value_2: USAR_K9_SEARCH
+  value_3: '---'
+  description_1: Non Structure Search
+  description_2: USAR K9 Search
+  description_3: '---'
+SALVAGE_AND_OVERHAUL:
+  active: 'TRUE'
+  value_1: SALVAGE_AND_OVERHAUL
+  value_2: '---'
+  value_3: '---'
+  description_1: Salvage And Overhaul
+  description_2: '---'
+  description_3: '---'
+'PERSONNEL_CONTAMINATION_REDUCTION: ON-SCENE_CONTAMINATION_REDUCTION':
+  active: 'TRUE'
+  value_1: PERSONNEL_CONTAMINATION_REDUCTION
+  value_2: ON-SCENE_CONTAMINATION_REDUCTION
+  value_3: '---'
+  description_1: Personnel Contamination Reduction
+  description_2: On-Scene Contamination Reduction
+  description_3: '---'
+'PERSONNEL_CONTAMINATION_REDUCTION: CLEAN_CAB_TRANSPORT':
+  active: 'TRUE'
+  value_1: PERSONNEL_CONTAMINATION_REDUCTION
+  value_2: CLEAN_CAB_TRANSPORT
+  value_3: '---'
+  description_1: Personnel Contamination Reduction
+  description_2: Clean Cab Transport
+  description_3: '---'
+'PERSONNEL_CONTAMINATION_REDUCTION: PPE_WASHED_POST-INCIDENT':
+  active: 'TRUE'
+  value_1: PERSONNEL_CONTAMINATION_REDUCTION
+  value_2: PPE_WASHED_POST-INCIDENT
+  value_3: '---'
+  description_1: Personnel Contamination Reduction
+  description_2: PPE Washed Post-Incident
+  description_3: '---'
+'HAZARDOUS_SITUATION_MITIGATION: TAKE_SAMPLES':
+  active: 'TRUE'
+  value_1: HAZARDOUS_SITUATION_MITIGATION
+  value_2: TAKE_SAMPLES
+  value_3: '---'
+  description_1: Hazardous Situation Mitigation
+  description_2: Take Samples
+  description_3: '---'
+'HAZARDOUS_SITUATION_MITIGATION: SPILL_CONTROL':
+  active: 'TRUE'
+  value_1: HAZARDOUS_SITUATION_MITIGATION
+  value_2: SPILL_CONTROL
+  value_3: '---'
+  description_1: Hazardous Situation Mitigation
+  description_2: Spill Control
+  description_3: '---'
+'HAZARDOUS_SITUATION_MITIGATION: LEAK_STOP':
+  active: 'TRUE'
+  value_1: HAZARDOUS_SITUATION_MITIGATION
+  value_2: LEAK_STOP
+  value_3: '---'
+  description_1: Hazardous Situation Mitigation
+  description_2: Leak Stop
+  description_3: '---'
+'HAZARDOUS_SITUATION_MITIGATION: REMOVE_HAZARD':
+  active: 'TRUE'
+  value_1: HAZARDOUS_SITUATION_MITIGATION
+  value_2: REMOVE_HAZARD
+  value_3: '---'
+  description_1: Hazardous Situation Mitigation
+  description_2: Remove Hazard
+  description_3: '---'
+'HAZARDOUS_SITUATION_MITIGATION: DECONTAMINATION':
+  active: 'TRUE'
+  value_1: HAZARDOUS_SITUATION_MITIGATION
+  value_2: DECONTAMINATION
+  value_3: '---'
+  description_1: Hazardous Situation Mitigation
+  description_2: Decontamination
+  description_3: '---'
+'HAZARDOUS_SITUATION_MITIGATION: ATMOSPHERIC_MONITORING_INTERIOR':
+  active: 'TRUE'
+  value_1: HAZARDOUS_SITUATION_MITIGATION
+  value_2: ATMOSPHERIC_MONITORING_INTERIOR
+  value_3: '---'
+  description_1: Hazardous Situation Mitigation
+  description_2: Atmospheric Monitoring (Interior)
+  description_3: '---'
+'HAZARDOUS_SITUATION_MITIGATION: ATMOSPHERIC_MONITORING_EXTERIOR/FENCELINE':
+  active: 'TRUE'
+  value_1: HAZARDOUS_SITUATION_MITIGATION
+  value_2: ATMOSPHERIC_MONITORING_EXTERIOR/FENCELINE
+  value_3: '---'
+  description_1: Hazardous Situation Mitigation
+  description_2: Atmospheric Monitoring (Exterior / Fenceline)
+  description_3: '---'
+'PROVIDE_EVACUATION_SUPPORT: CONNECTED_INTERIOR_SPACES':
+  active: 'TRUE'
+  value_1: PROVIDE_EVACUATION_SUPPORT
+  value_2: CONNECTED_INTERIOR_SPACES
+  value_3: '---'
+  description_1: Provide Evacuation Support
+  description_2: Connected Interior Spaces
+  description_3: '---'
+'PROVIDE_EVACUATION_SUPPORT: REMOTE_INTERIOR_SPACES':
+  active: 'TRUE'
+  value_1: PROVIDE_EVACUATION_SUPPORT
+  value_2: REMOTE_INTERIOR_SPACES
+  value_3: '---'
+  description_1: Provide Evacuation Support
+  description_2: Remote Interior Spaces
+  description_3: '---'
+'PROVIDE_EVACUATION_SUPPORT: NEARBY_BUILDINGS':
+  active: 'TRUE'
+  value_1: PROVIDE_EVACUATION_SUPPORT
+  value_2: NEARBY_BUILDINGS
+  value_3: '---'
+  description_1: Provide Evacuation Support
+  description_2: Nearby Buildings
+  description_3: '---'
+'PROVIDE_EVACUATION_SUPPORT: LARGE_AREA':
+  active: 'TRUE'
+  value_1: PROVIDE_EVACUATION_SUPPORT
+  value_2: LARGE_AREA
+  value_3: '---'
+  description_1: Provide Evacuation Support
+  description_2: Large Area
+  description_3: '---'
+'PROVIDE_EQUIPMENT: PROVIDE_SPECIAL_EQUIPMENT':
+  active: 'TRUE'
+  value_1: PROVIDE_EQUIPMENT
+  value_2: PROVIDE_SPECIAL_EQUIPMENT
+  value_3: '---'
+  description_1: Provide Equipment
+  description_2: Provide Special Equipment
+  description_3: '---'
+'PROVIDE_EQUIPMENT: PROVIDE_LIGHT':
+  active: 'TRUE'
+  value_1: PROVIDE_EQUIPMENT
+  value_2: PROVIDE_LIGHT
+  value_3: '---'
+  description_1: Provide Equipment
+  description_2: Provide Light
+  description_3: '---'
+'PROVIDE_EQUIPMENT: PROVIDE_ELECTRICAL_POWER':
+  active: 'TRUE'
+  value_1: PROVIDE_EQUIPMENT
+  value_2: PROVIDE_ELECTRICAL_POWER
+  value_3: '---'
+  description_1: Provide Equipment
+  description_2: Provide Electrical Power
+  description_3: '---'
+'PROVIDE_EQUIPMENT: PROVIDE_DRONE/VIDEO_EQUIPMENT':
+  active: 'TRUE'
+  value_1: PROVIDE_EQUIPMENT
+  value_2: PROVIDE_DRONE/VIDEO_EQUIPMENT
+  value_3: '---'
+  description_1: Provide Equipment
+  description_2: Provide Drone / Video Equipment
+  description_3: '---'
+'PROVIDE_SERVICES: RESTORE_SPRINKLER_SYSTEM':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: RESTORE_SPRINKLER_SYSTEM
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Restore Sprinkler System
+  description_3: '---'
+'PROVIDE_SERVICES: RESTORE/RESET_ALARM_SYSTEM':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: RESTORE/RESET_ALARM_SYSTEM
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Restore/Reset Alarm System
+  description_3: '---'
+'PROVIDE_SERVICES: SHUT_DOWN_ALARM':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: SHUT_DOWN_ALARM
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Shut Down Alarm
+  description_3: '---'
+'PROVIDE_SERVICES: SHUT_DOWN_SPRINKLER_SYSTEM':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: SHUT_DOWN_SPRINKLER_SYSTEM
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Shut Down Sprinkler System
+  description_3: '---'
+'PROVIDE_SERVICES: SECURE_PROPERTY':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: SECURE_PROPERTY
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Secure Property
+  description_3: '---'
+'PROVIDE_SERVICES: REMOVE_WATER':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: REMOVE_WATER
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Remove Water
+  description_3: '---'
+'PROVIDE_SERVICES: ASSIST_UNINJURED_PERSON':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: ASSIST_UNINJURED_PERSON
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Assist Uninjured Person
+  description_3: '---'
+'PROVIDE_SERVICES: ASSIST_ANIMAL':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: ASSIST_ANIMAL
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Assist Animal
+  description_3: '---'
+'PROVIDE_SERVICES: PROVIDE_APPARATUS/WATER':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: PROVIDE_APPARATUS/WATER
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Provide Apparatus/Water
+  description_3: '---'
+'PROVIDE_SERVICES: CONTROL_CROWD':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: CONTROL_CROWD
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Control Crowd
+  description_3: '---'
+'PROVIDE_SERVICES: CONTROL_TRAFFIC':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: CONTROL_TRAFFIC
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Control Traffic
+  description_3: '---'
+'PROVIDE_SERVICES: DAMAGE_ASSESSMENT':
+  active: 'TRUE'
+  value_1: PROVIDE_SERVICES
+  value_2: DAMAGE_ASSESSMENT
+  value_3: '---'
+  description_1: Provide Services
+  description_2: Damage Assessment
+  description_3: '---'
+'INFORMATION_ENFORCEMENT: REFER_TO_PROPER_AHJ':
+  active: 'TRUE'
+  value_1: INFORMATION_ENFORCEMENT
+  value_2: REFER_TO_PROPER_AHJ
+  value_3: '---'
+  description_1: Information Enforcement
+  description_2: Refer To Proper AHJ
+  description_3: '---'
+'INFORMATION_ENFORCEMENT: ENFORCE_CODE_OR_LAW':
+  active: 'TRUE'
+  value_1: INFORMATION_ENFORCEMENT
+  value_2: ENFORCE_CODE_OR_LAW
+  value_3: '---'
+  description_1: Information Enforcement
+  description_2: Enforce Code Or Law
+  description_3: '---'
+'INFORMATION_ENFORCEMENT: FILL/MOVE-UP':
+  active: 'TRUE'
+  value_1: INFORMATION_ENFORCEMENT
+  value_2: FILL/MOVE-UP
+  value_3: '---'
+  description_1: Information Enforcement
+  description_2: Fill / Move-Up (To Another Department Or Station)
+  description_3: '---'
+'INFORMATION_ENFORCEMENT: PROVIDE_PUBLIC_INFORMATION':
+  active: 'TRUE'
+  value_1: INFORMATION_ENFORCEMENT
+  value_2: PROVIDE_PUBLIC_INFORMATION
+  value_3: '---'
+  description_1: Information Enforcement
+  description_2: Provide Public Information
+  description_3: '---'
+'NO_ACTION: CANCELLED':
+  active: 'TRUE'
+  value_1: NO_ACTION
+  value_2: CANCELLED
+  value_3: '---'
+  description_1: No Action
+  description_2: Cancelled
+  description_3: '---'
+'NO_ACTION: STAGED/STANDBY':
+  active: 'TRUE'
+  value_1: NO_ACTION
+  value_2: STAGED/STANDBY
+  value_3: '---'
+  description_1: No Action
+  description_2: Staged / Standby
+  description_3: '---'
+'NO_ACTION: NO_INCIDENT_FOUND':
+  active: 'TRUE'
+  value_1: NO_ACTION
+  value_2: NO_INCIDENT_FOUND
+  value_3: '---'
+  description_1: No Action
+  description_2: No Incident Found
+  description_3: '---'

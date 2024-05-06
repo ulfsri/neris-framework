@@ -1,0 +1,9 @@
+OPERATED_EFFECTIVE:
+  active: 'TRUE'
+  description: Operated - Effective
+OPERATED_NOT_EFFECTIVE:
+  active: 'TRUE'
+  description: Operated - Not Effective
+FAILED_TO_OPERATE:
+  active: 'TRUE'
+  description: Failed to Operate

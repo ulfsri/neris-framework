@@ -1,0 +1,9 @@
+PRESENT:
+  active: 'TRUE'
+  description: Present
+NOT_PRESENT:
+  active: 'TRUE'
+  description: Not Present
+NOT_APPLICABLE:
+  active: 'TRUE'
+  description: Not Applicable

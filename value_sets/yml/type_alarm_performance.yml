@@ -1,0 +1,18 @@
+WORKING_ALERTED_OCCUPANT:
+  active: 'TRUE'
+  description: Working - Alerted Occupant(s)
+WORKING_FAILED_TO_ALERT_OCCUPANT:
+  active: 'TRUE'
+  description: Working - Failed to Alert Occupant(s)
+NO_OCCUPANT_TO_NOTIFY:
+  active: 'TRUE'
+  description: No Occupants to Notify
+FAILED_TO_OPERATE:
+  active: 'TRUE'
+  description: Failed to Operate
+INSUFFICENT_SOURCE:
+  active: 'TRUE'
+  description: Insufficient Source to Activate Alarm
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown

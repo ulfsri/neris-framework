@@ -1,0 +1,21 @@
+LONG_LIFE_BATTERY_POWERED:
+  active: 'TRUE'
+  description: Long Life Battery Powered
+REPLACEABLE_BATTERY_POWERED:
+  active: 'TRUE'
+  description: Replaceable Battery Powered
+HARDWIRED:
+  active: 'TRUE'
+  description: Hardwired
+INTERCONNECTED:
+  active: 'TRUE'
+  description: Interconnected
+HARD_OF_HEARING_WITH_STROBE:
+  active: 'TRUE'
+  description: Hard of Hearing with Strobe
+BED_SHAKER:
+  active: 'TRUE'
+  description: Bed Shaker
+COMBINATION:
+  active: 'TRUE'
+  description: Combination (Smoke / CO)

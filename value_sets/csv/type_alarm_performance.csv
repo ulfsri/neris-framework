@@ -1,0 +1,7 @@
+active,value,description,definition,source
+TRUE,WORKING_ALERTED_OCCUPANT,Working - Alerted Occupant(s),,
+TRUE,WORKING_FAILED_TO_ALERT_OCCUPANT,Working - Failed to Alert Occupant(s),,
+TRUE,NO_OCCUPANT_TO_NOTIFY,No Occupants to Notify,,
+TRUE,FAILED_TO_OPERATE,Failed to Operate,,
+TRUE,INSUFFICENT_SOURCE,Insufficient Source to Activate Alarm,,
+TRUE,UNKNOWN,Unknown,,

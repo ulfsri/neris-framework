@@ -1,0 +1,1089 @@
+'FIRE: OUTSIDE_FIRE: CONSTRUCTION_WASTE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: CONSTRUCTION_WASTE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Construction Waste
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: OTHER_OUTSIDE_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: OTHER_OUTSIDE_FIRE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Other Outside Fire
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: OUTSIDE_TANK_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: OUTSIDE_TANK_FIRE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Outside Tank Fire
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: TRASH_RUBBISH_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: TRASH_RUBBISH_FIRE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Trash / Rubbish Fire
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: VEGETATION_GRASS_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: VEGETATION_GRASS_FIRE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Vegetation / Grass Fire
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: WILDFIRE_WILDLAND':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: WILDFIRE_WILDLAND
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Wildfire - Wildland
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: WILDFIRE_URBAN_INTERFACE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: WILDFIRE_URBAN_INTERFACE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Wildfire - Urban Interface
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: UTILITY INFRASTRUCTURE FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: UTILITY INFRASTRUCTURE FIRE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Utility Infrastructure Fire
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: OUTSIDE_FIRE: DUMPSTER_OUTDOOR_CONTAINER_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: OUTSIDE_FIRE
+  value_3: DUMPSTER_OUTDOOR_CONTAINER_FIRE
+  description_1: Fire
+  description_2: Outside Fire
+  description_3: Dumpster / Other Outdoor Container Fire
+  NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
+'FIRE: SPECIAL_FIRE: ESS_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: SPECIAL_FIRE
+  value_3: ESS_FIRE
+  description_1: Fire
+  description_2: Special Fire
+  description_3: ESS Fire
+  NFIRS Crosswalk: 200, 210, 211, 212, 213, 220, 221, 222, 223, 231, 240, 241, 242, 243, 244
+'FIRE: SPECIAL_FIRE: EXPLOSION':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: SPECIAL_FIRE
+  value_3: EXPLOSION
+  description_1: Fire
+  description_2: Special Fire
+  description_3: Explosion
+  NFIRS Crosswalk: 200, 210, 211, 212, 213, 220, 221, 222, 223, 231, 240, 241, 242, 243, 244
+'FIRE: SPECIAL_FIRE: INFRASTRUCTURE_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: SPECIAL_FIRE
+  value_3: INFRASTRUCTURE_FIRE
+  description_1: Fire
+  description_2: Special Fire
+  description_3: Infrastructure Fire (Tunnel, Bridge)
+  NFIRS Crosswalk: 200, 210, 211, 212, 213, 220, 221, 222, 223, 231, 240, 241, 242, 243, 244
+'FIRE: STRUCTURE_FIRE: STRUCTURAL_INVOLVEMENT_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: STRUCTURE_FIRE
+  value_3: STRUCTURAL_INVOLVEMENT_FIRE
+  description_1: Fire
+  description_2: Structure Fire
+  description_3: Structural Involvement
+  NFIRS Crosswalk: 111, 112, 113, 114, 115, 116, 117, 118, 121, 122, 123, 120
+'FIRE: STRUCTURE_FIRE: ROOM_AND_CONTENTS_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: STRUCTURE_FIRE
+  value_3: ROOM_AND_CONTENTS_FIRE
+  description_1: Fire
+  description_2: Structure Fire
+  description_3: Room and Contents Fire
+  NFIRS Crosswalk: 111, 112, 113, 114, 115, 116, 117, 118, 121, 122, 123, 121
+'FIRE: STRUCTURE_FIRE: CONFINED_COOKING_APPLIANCE_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: STRUCTURE_FIRE
+  value_3: CONFINED_COOKING_APPLIANCE_FIRE
+  description_1: Fire
+  description_2: Structure Fire
+  description_3: Confined Cooking / Appliance Fire
+  NFIRS Crosswalk: 111, 112, 113, 114, 115, 116, 117, 118, 121, 122, 123, 122
+'FIRE: STRUCTURE_FIRE: CHIMNEY_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: STRUCTURE_FIRE
+  value_3: CHIMNEY_FIRE
+  description_1: Fire
+  description_2: Structure Fire
+  description_3: Chimney Fire
+  NFIRS Crosswalk: 111, 112, 113, 114, 115, 116, 117, 118, 121, 122, 123, 123
+'FIRE: TRANSPORTATION_FIRE: AIRCRAFT_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: AIRCRAFT_FIRE
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Aircraft Emergency
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_PASSENGER':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: VEHICLE_FIRE_PASSENGER
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Vehicle Fire - Passenger
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_COMMERCIAL':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: VEHICLE_FIRE_COMMERCIAL
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Vehicle Fire - Commercial
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_RV':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: VEHICLE_FIRE_RV
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Vehicle Fire - RV
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_FOOD_TRUCK':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: VEHICLE_FIRE_FOOD_TRUCK
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Vehicle Fire - Food Truck
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'FIRE: TRANSPORTATION_FIRE: BOAT_PERSONAL_WATERCRAFT_BARGE_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: BOAT_PERSONAL_WATERCRAFT_BARGE_FIRE
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Boat / Personal Watercraft / Barge Fire
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'FIRE: TRANSPORTATION_FIRE: POWERED_MOBILITY_DEVICE_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: POWERED_MOBILITY_DEVICE_FIRE
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Powered Mobility Device Fire
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'FIRE: TRANSPORTATION_FIRE: TRAIN_RAIL_FIRE':
+  active: 'TRUE'
+  value_1: FIRE
+  value_2: TRANSPORTATION_FIRE
+  value_3: TRAIN_RAIL_FIRE
+  description_1: Fire
+  description_2: Transportation Fire
+  description_3: Train / Rail Fire
+  NFIRS Crosswalk: 130, 131, 132, 133, 134, 135, 136, 137, 138
+'HAZSIT: HAZARD_NONCHEM: BOMB_THREAT_RESPONSE_SUSPICIOUS_PACKAGE':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARD_NONCHEM
+  value_3: BOMB_THREAT_RESPONSE_SUSPICIOUS_PACKAGE
+  description_1: Hazardous Situation
+  description_2: Hazard Non-Chemical
+  description_3: Bomb Threat / Bomb Response / Suspicious Package
+  NFIRS Crosswalk: 371, 372, 370, 381, 400, 441, 442, 443, 444, 445, 440, 451, 471
+'HAZSIT: HAZARD_NONCHEM: ELECTRICAL_POWER_LINE_DOWN_ARCHING_MALFUNCTION':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARD_NONCHEM
+  value_3: ELECTRICAL_POWER_LINE_DOWN_ARCHING_MALFUNCTION
+  description_1: Hazardous Situation
+  description_2: Hazard Non-Chemical
+  description_3: Electrical Power Line Down / Arching / Malfunction
+  NFIRS Crosswalk: 371, 372, 370, 381, 400, 441, 442, 443, 444, 445, 440, 451, 471
+'HAZSIT: HAZARD_NONCHEM: ELECTRICAL_HAZARD_SHORT_CIRCUIT':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARD_NONCHEM
+  value_3: ELECTRICAL_HAZARD_SHORT_CIRCUIT
+  description_1: Hazardous Situation
+  description_2: Hazard Non-Chemical
+  description_3: Electrical Hazard / Short Circuit
+  NFIRS Crosswalk: 371, 372, 370, 381, 400, 441, 442, 443, 444, 445, 440, 451, 471
+'HAZSIT: HAZARDOUS_MATERIALS: FUEL_SPILL_ODOR':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARDOUS_MATERIALS
+  value_3: FUEL_SPILL_ODOR
+  description_1: Hazardous Situation
+  description_2: Hazardous Materials
+  description_3: Fuel Spill / Fuel Odor
+  NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: HAZARDOUS_MATERIALS: GAS_LEAK_ODOR':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARDOUS_MATERIALS
+  value_3: GAS_LEAK_ODOR
+  description_1: Hazardous Situation
+  description_2: Hazardous Materials
+  description_3: Gas Leak / Gas Odor
+  NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: HAZARDOUS_MATERIALS: CARBON_MONOXIDE_RELEASE':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARDOUS_MATERIALS
+  value_3: CARBON_MONOXIDE_RELEASE
+  description_1: Hazardous Situation
+  description_2: Hazardous Materials
+  description_3: Carbon Monoxide Release
+  NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: HAZARDOUS_MATERIALS: BIOLOGICAL_RELEASE_INCIDENT':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARDOUS_MATERIALS
+  value_3: BIOLOGICAL_RELEASE_INCIDENT
+  description_1: Hazardous Situation
+  description_2: Hazardous Materials
+  description_3: Biological Release / Incident
+  NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: HAZARDOUS_MATERIALS: RADIOACTIVE_RELEASE_INCIDENT':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARDOUS_MATERIALS
+  value_3: RADIOACTIVE_RELEASE_INCIDENT
+  description_1: Hazardous Situation
+  description_2: Hazardous Materials
+  description_3: Radioactive Release / Incident
+  NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: HAZARDOUS_MATERIALS: HAZARDOUS_MATERIAL_RELEASE_TRANSPORT':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARDOUS_MATERIALS
+  value_3: HAZARDOUS_MATERIAL_RELEASE_TRANSPORT
+  description_1: Hazardous Situation
+  description_2: Hazardous Materials
+  description_3: Hazardous Material Release (Chemical from Transportation)
+  NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: HAZARDOUS_MATERIALS: HAZARDOUS_MATERIAL_RELEASE_FACILITY':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARDOUS_MATERIALS
+  value_3: HAZARDOUS_MATERIAL_RELEASE_FACILITY
+  description_1: Hazardous Situation
+  description_2: Hazardous Materials
+  description_3: Hazardous Material Release (Chemical from Fixed Facility)
+  NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: INVESTIGATION: ODOR':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: INVESTIGATION
+  value_3: ODOR
+  description_1: Hazardous Situation
+  description_2: Investigation
+  description_3: Odor
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'HAZSIT: INVESTIGATION: SMOKE_INVESTIGATION':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: INVESTIGATION
+  value_3: SMOKE_INVESTIGATION
+  description_1: Hazardous Situation
+  description_2: Investigation
+  description_3: Smoke Investigation
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: ABOMINAL_PAIN':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: ABOMINAL_PAIN
+  description_1: Medical
+  description_2: Illness
+  description_3: Abdominal Pain / Problems
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: BACK_PAIN_NON_TRAUMA':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: BACK_PAIN_NON_TRAUMA
+  description_1: Medical
+  description_2: Illness
+  description_3: Back Pain (Non-Trauma)
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: BREAKING_PROBLEMS':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: BREAKING_PROBLEMS
+  description_1: Medical
+  description_2: Illness
+  description_3: Breathing Problems
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: CARDIAC_ARREST':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: CARDIAC_ARREST
+  description_1: Medical
+  description_2: Illness
+  description_3: Cardiac Arrest
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: CHEST_PAIN_NON_TRAUMA':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: CHEST_PAIN_NON_TRAUMA
+  description_1: Medical
+  description_2: Illness
+  description_3: Chest Pain (Non-Trauma)
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: CONVULSIONS_SEIZURES':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: CONVULSIONS_SEIZURES
+  description_1: Medical
+  description_2: Illness
+  description_3: Convulsions / Seizures
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: DIABETIC_PROBLEMS':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: DIABETIC_PROBLEMS
+  description_1: Medical
+  description_2: Illness
+  description_3: Diabetic Problems
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: HEADACHE':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: HEADACHE
+  description_1: Medical
+  description_2: Illness
+  description_3: Headache
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: HEART_PROBLEMS':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: HEART_PROBLEMS
+  description_1: Medical
+  description_2: Illness
+  description_3: Heart Problems
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: PANDEMIC_EPIDEMIC_OUTBREAK':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: PANDEMIC_EPIDEMIC_OUTBREAK
+  description_1: Medical
+  description_2: Illness
+  description_3: Pandemic / Epidemic / Outbreak
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: PREGNANCY_CHILDBIRTH':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: PREGNANCY_CHILDBIRTH
+  description_1: Medical
+  description_2: Illness
+  description_3: Pregnancy / Childbirth
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: PSYCHOLOGICAL_BEHAVIOR_ISSUES':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: PSYCHOLOGICAL_BEHAVIOR_ISSUES
+  description_1: Medical
+  description_2: Illness
+  description_3: Psychological Behavior Issues
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: SICK_CASE':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: SICK_CASE
+  description_1: Medical
+  description_2: Illness
+  description_3: Sick Case
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: STROKE_CVA':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: STROKE_CVA
+  description_1: Medical
+  description_2: Illness
+  description_3: Stroke / CVA
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: UNCONSCIOUS_VICTIM':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: UNCONSCIOUS_VICTIM
+  description_1: Medical
+  description_2: Illness
+  description_3: Unconscious Victim
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: WELL_PERSON_CHECK':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: WELL_PERSON_CHECK
+  description_1: Medical
+  description_2: Illness
+  description_3: Well Person Check
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: ALTERED_MENTAL_STATUS':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: ALTERED_MENTAL_STATUS
+  description_1: Medical
+  description_2: Illness
+  description_3: Unknown Problem
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: NAUSEA':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: NAUSEA
+  description_1: Medical
+  description_2: Illness
+  description_3: No Appropriate Choice
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: UNKNOWN_PROBLEM':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: UNKNOWN_PROBLEM
+  description_1: Medical
+  description_2: Illness
+  description_3: Altered Mental Status
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: NO_APPROPRIATE_CHOICE':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: NO_APPROPRIATE_CHOICE
+  description_1: Medical
+  description_2: Illness
+  description_3: Nausea
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: ANIMAL_BITES':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: ANIMAL_BITES
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Animal Bites
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: ASSAULT':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: ASSAULT
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Assault
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: ALLERGIC_REACTION_STINGS':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: ALLERGIC_REACTION_STINGS
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Allergic Reaction / Stings
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: BURNS_EXPLOSION':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: BURNS_EXPLOSION
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Burns / Explosion
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: CARBON_MONOXIDE_OTHER_INHALATION_INJURY':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: CARBON_MONOXIDE_OTHER_INHALATION_INJURY
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Carbon Monoxide / Other Inhalation Injury
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: CHOKING':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: CHOKING
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Choking
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: DROWNING_DIVING_SCUBA_ACCIDENT':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: DROWNING_DIVING_SCUBA_ACCIDENT
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Drowning / Diving / SCUBA Accident
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: FALL':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: FALL
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Fall
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: HEAT_COLD_EXPOSURE':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: HEAT_COLD_EXPOSURE
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Heat / Cold Exposure
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: MOTOR_VEHICLE_COLLISION':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: MOTOR_VEHICLE_COLLISION
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Motor Vehicle Collision
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: INDUSTRIAL_INACCESSIBLE_ENTRAPMENT':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: INDUSTRIAL_INACCESSIBLE_ENTRAPMENT
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Industrial Accident/Inaccessible Incident/Other Entrapment (Non-Vehicle)
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: OVERDOSE':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: OVERDOSE
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Overdose / Poisoning
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: GUNSHOT_WOUND':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: GUNSHOT_WOUND
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Gunshot Wound
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: HEMORRHAGE_LACERATION':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: HEMORRHAGE_LACERATION
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Hemorrhage / Laceration
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: STAB_PENETRATING_TRAUMA':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: STAB_PENETRATING_TRAUMA
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Stab / Penetrating Trauma
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: OTHER_TRAUMATIC_INJURY':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: OTHER_TRAUMATIC_INJURY
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Other Traumatic Injury
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: OTHER: HEALTHCARE_PROFESSIONAL_ADMISSION':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: OTHER
+  value_3: HEALTHCARE_PROFESSIONAL_ADMISSION
+  description_1: Medical
+  description_2: Other
+  description_3: Healthcare Professional Admission
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: OTHER: MEDICAL_ALARM':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: OTHER
+  value_3: MEDICAL_ALARM
+  description_1: Medical
+  description_2: Other
+  description_3: Medical Alarm
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: OTHER: STANDBY_REQUEST':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: OTHER
+  value_3: STANDBY_REQUEST
+  description_1: Medical
+  description_2: Other
+  description_3: Standby Request
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: OTHER: TRANSFER_INTERFACILITY':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: OTHER
+  value_3: TRANSFER_INTERFACILITY
+  description_1: Medical
+  description_2: Other
+  description_3: Transfer / Interfacility
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: OTHER: AIRMEDICAL_TRANSPORT':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: OTHER
+  value_3: AIRMEDICAL_TRANSPORT
+  description_1: Medical
+  description_2: Other
+  description_3: Airmedical Transport
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: OTHER: INTERCEPT_OTHER_UNIT':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: OTHER
+  value_3: INTERCEPT_OTHER_UNIT
+  description_1: Medical
+  description_2: Other
+  description_3: Intercept Other Unit
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: OTHER: COMMUNITY_PUBLIC_HEALTH':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: OTHER
+  value_3: COMMUNITY_PUBLIC_HEALTH
+  description_1: Medical
+  description_2: Other
+  description_3: Community Public Health
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'PUBSERV: CITIZEN_ASSIST: LOST_PERSON':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: CITIZEN_ASSIST
+  value_3: LOST_PERSON
+  description_1: Public Service
+  description_2: Citizen Assist
+  description_3: Lost Person
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+'PUBSERV: CITIZEN_ASSIST: PERSON_IN_DISTRESS':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: CITIZEN_ASSIST
+  value_3: PERSON_IN_DISTRESS
+  description_1: Public Service
+  description_2: Citizen Assist
+  description_3: Person In Distress
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+'PUBSERV: CITIZEN_ASSIST: CITIZEN_ASSIST_SERVICE_CALL':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: CITIZEN_ASSIST
+  value_3: CITIZEN_ASSIST_SERVICE_CALL
+  description_1: Public Service
+  description_2: Citizen Assist
+  description_3: Citizen Assist / Service Call
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+'PUBSERV: CITIZEN_ASSIST: LIFE_ASSIST':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: CITIZEN_ASSIST
+  value_3: LIFE_ASSIST
+  description_1: Public Service
+  description_2: Citizen Assist
+  description_3: Lift Assist
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+'PUBSERV: ALARMS_NONMED: FIRE_ALARM':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: ALARMS_NONMED
+  value_3: FIRE_ALARM
+  description_1: Public Service
+  description_2: Alarms (Non Medical)
+  description_3: Fire Alarm
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'PUBSERV: ALARMS_NONMED: GAS_ALARM':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: ALARMS_NONMED
+  value_3: GAS_ALARM
+  description_1: Public Service
+  description_2: Alarms (Non Medical)
+  description_3: Gas Alarm
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'PUBSERV: ALARMS_NONMED: CO_ALARM':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: ALARMS_NONMED
+  value_3: CO_ALARM
+  description_1: Public Service
+  description_2: Alarms (Non Medical)
+  description_3: CO Alarm
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'PUBSERV: ALARMS_NONMED: OTHER_ALARM':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: ALARMS_NONMED
+  value_3: OTHER_ALARM
+  description_1: Public Service
+  description_2: Alarms (Non Medical)
+  description_3: Other Alarm
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'PUBSERV: DISASTER_WEATHER: DAMAGE_ASSESSMENT':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: DISASTER_WEATHER
+  value_3: DAMAGE_ASSESSMENT
+  description_1: Public Service
+  description_2: Disaster / Weather
+  description_3: Damage Assessment
+  NFIRS Crosswalk: 800, 811, 812, 813, 814, 815
+'PUBSERV: DISASTER_WEATHER: WEATHER_RESPONSE':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: DISASTER_WEATHER
+  value_3: WEATHER_RESPONSE
+  description_1: Public Service
+  description_2: Disaster / Weather
+  description_3: Weather Response
+  NFIRS Crosswalk: 800, 811, 812, 813, 814, 815
+'PUBSERV: OTHER: MOVE_UP':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: OTHER
+  value_3: MOVE_UP
+  description_1: Public Service
+  description_2: Other
+  description_3: 'Move-up '
+  NFIRS Crosswalk: '571'
+'PUBSERV: OTHER: STANDBY':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: OTHER
+  value_3: STANDBY
+  description_1: Public Service
+  description_2: Other
+  description_3: Standby
+  NFIRS Crosswalk: '571'
+'RESCUE: OUTSIDE: BACKOUNTRY_RESCUE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: BACKOUNTRY_RESCUE
+  description_1: Rescue
+  description_2: Outside
+  description_3: Backcountry Rescue
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: OUTSIDE: CONFINED_SPACE_RESCUE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: CONFINED_SPACE_RESCUE
+  description_1: Rescue
+  description_2: Outside
+  description_3: Confined Space Rescue
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: OUTSIDE: TRENCH':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: TRENCH
+  description_1: Rescue
+  description_2: Outside
+  description_3: Trench
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: OUTSIDE: EXTRICATION_ENTRAPPED':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: EXTRICATION_ENTRAPPED
+  description_1: Rescue
+  description_2: Outside
+  description_3: Extrication / Entrapped
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: OUTSIDE: HIGH_ANGLE_RESCUE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: HIGH_ANGLE_RESCUE
+  description_1: Rescue
+  description_2: Outside
+  description_3: High Angle Rescue
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: OUTSIDE: LOW_ANGLE_RESCUE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: LOW_ANGLE_RESCUE
+  description_1: Rescue
+  description_2: Outside
+  description_3: Low Angle Rescue
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: OUTSIDE: STEEP_ANGLE_RESCUE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: STEEP_ANGLE_RESCUE
+  description_1: Rescue
+  description_2: Outside
+  description_3: Steep Angle Rescue
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: OUTSIDE: LIMITED_NO_ACCESS':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: OUTSIDE
+  value_3: LIMITED_NO_ACCESS
+  description_1: Rescue
+  description_2: Outside
+  description_3: Limited/No Access
+  NFIRS Crosswalk: 354, 355, 356, 357, 350, 300
+'RESCUE: STRUCTURE: BUILDING_STRUCTURE_COLLAPSE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: STRUCTURE
+  value_3: BUILDING_STRUCTURE_COLLAPSE
+  description_1: Rescue
+  description_2: Structure
+  description_3: Building Collapse / Structure Collapse
+  NFIRS Crosswalk: 351, 353, 355, 357, 350, 461
+'RESCUE: STRUCTURE: CONFINED_SPACE_RESCUE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: STRUCTURE
+  value_3: CONFINED_SPACE_RESCUE
+  description_1: Rescue
+  description_2: Structure
+  description_3: Confined Space Rescue
+  NFIRS Crosswalk: 351, 353, 355, 357, 350, 461
+'RESCUE: STRUCTURE: ELEVATOR_ESCALTOR_RESCUE':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: STRUCTURE
+  value_3: ELEVATOR_ESCALTOR_RESCUE
+  description_1: Rescue
+  description_2: Structure
+  description_3: Elevator / Escalator Rescue
+  NFIRS Crosswalk: 351, 353, 355, 357, 350, 461
+'RESCUE: STRUCTURE: EXTRICATION_ENTRAPPED':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: STRUCTURE
+  value_3: EXTRICATION_ENTRAPPED
+  description_1: Rescue
+  description_2: Structure
+  description_3: Extrication / Entrapped
+  NFIRS Crosswalk: 351, 353, 355, 357, 350, 461
+'RESCUE: TRANSPORTATION: MOTOR_VEHICLE_EXTRICATION_ENTRAPPED':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: TRANSPORTATION
+  value_3: MOTOR_VEHICLE_EXTRICATION_ENTRAPPED
+  description_1: Rescue
+  description_2: Transportation (Land)
+  description_3: Motor Vehicle Collision Extrication / Entrapment
+  NFIRS Crosswalk: '352'
+'RESCUE: TRANSPORTATION: TRAIN_RAIL_COLLISION_DERAILMENT':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: TRANSPORTATION
+  value_3: TRAIN_RAIL_COLLISION_DERAILMENT
+  description_1: Rescue
+  description_2: Transportation (Land)
+  description_3: Train and Rail Collision / Derailment
+  NFIRS Crosswalk: '352'
+'RESCUE: TRANSPORTATION: AVIATION_COLLISION_CRASH':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: TRANSPORTATION
+  value_3: AVIATION_COLLISION_CRASH
+  description_1: Rescue
+  description_2: Transportation (Land)
+  description_3: Aviation Collision / Crash
+  NFIRS Crosswalk: '352'
+'RESCUE: TRANSPORTATION: AVIATION_STANDBY':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: TRANSPORTATION
+  value_3: AVIATION_STANDBY
+  description_1: Rescue
+  description_2: Transportation (Land)
+  description_3: Aviation Standby
+  NFIRS Crosswalk: '352'
+'RESCUE: WATER: PERSON_IN_WATER_STANDING':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: WATER
+  value_3: PERSON_IN_WATER_STANDING
+  description_1: Rescue
+  description_2: Water
+  description_3: Person in Water (Standing Water/Lake)
+  NFIRS Crosswalk: 361, 361, 363, 364, 365, 360
+'RESCUE: WATER: PERSON_IN_WATER_SWIFTWATER':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: WATER
+  value_3: PERSON_IN_WATER_SWIFTWATER
+  description_1: Rescue
+  description_2: Water
+  description_3: Person in Water (Swiftwater/River)
+  NFIRS Crosswalk: 361, 361, 363, 364, 365, 360
+'RESCUE: WATER: WATERCRAFT_IN_DISTRESS':
+  active: 'TRUE'
+  value_1: RESCUE
+  value_2: WATER
+  value_3: WATERCRAFT_IN_DISTRESS
+  description_1: Rescue
+  description_2: Water
+  description_3: Watercraft in Distress
+  NFIRS Crosswalk: 361, 361, 363, 364, 365, 360
+'NOEMERG: FALSE_ALARM: INTENTIONAL_FALSE_ALARM':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: FALSE_ALARM
+  value_3: INTENTIONAL_FALSE_ALARM
+  description_1: No Emergency
+  description_2: False Alarm
+  description_3: Intentional False Alarm
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'NOEMERG: FALSE_ALARM: MALFUNCTIONING_ALARM':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: FALSE_ALARM
+  value_3: MALFUNCTIONING_ALARM
+  description_1: No Emergency
+  description_2: False Alarm
+  description_3: Malfunctioning Alarm
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'NOEMERG: FALSE_ALARM: ACCIDENTAL_ALARM':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: FALSE_ALARM
+  value_3: ACCIDENTAL_ALARM
+  description_1: No Emergency
+  description_2: False Alarm
+  description_3: Accidental Alarm
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'NOEMERG: FALSE_ALARM: OTHER_FALSE_CALL':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: FALSE_ALARM
+  value_3: OTHER_FALSE_CALL
+  description_1: No Emergency
+  description_2: False Alarm
+  description_3: Other False Call
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'NOEMERG: FALSE_ALARM: BOMB_SCARE':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: FALSE_ALARM
+  value_3: BOMB_SCARE
+  description_1: No Emergency
+  description_2: False Alarm
+  description_3: Bomb Scare
+  NFIRS Crosswalk: 641, 700, 711, 712, 713, 714, 715, 710, 721, 731, 732, 733, 734, 735, 736, 730, 741, 742, 743, 744, 745, 746, 740, 751
+'NOEMERG: GOOD_INTENT: NO_INCIDENT_FOUND_LOCATION_ERROR':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: GOOD_INTENT
+  value_3: NO_INCIDENT_FOUND_LOCATION_ERROR
+  description_1: No Emergency
+  description_2: Good Intent
+  description_3: No Incident Found Upon Arrival / Location Error
+  NFIRS Crosswalk: 600, 621, 622, 631, 632, 651, 652, 653, 650, 661, 671, 672
+'NOEMERG: GOOD_INTENT: CONTROLLED_BURNING_AUTHORIZED':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: GOOD_INTENT
+  value_3: CONTROLLED_BURNING_AUTHORIZED
+  description_1: No Emergency
+  description_2: Good Intent
+  description_3: Controlled Burning (Authorized)
+  NFIRS Crosswalk: 600, 621, 622, 631, 632, 651, 652, 653, 650, 661, 671, 672
+'NOEMERG: GOOD_INTENT: SMOKE_FROM_NONHOSTILE_SOURCE':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: GOOD_INTENT
+  value_3: SMOKE_FROM_NONHOSTILE_SOURCE
+  description_1: No Emergency
+  description_2: Good Intent
+  description_3: Smoke From Nonhostile Source (Smoke Scare)
+  NFIRS Crosswalk: 600, 621, 622, 631, 632, 651, 652, 653, 650, 661, 671, 672
+'NOEMERG: GOOD_INTENT: INVESTIGATE_HAZARDOUS_RELEASE':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: GOOD_INTENT
+  value_3: INVESTIGATE_HAZARDOUS_RELEASE
+  description_1: No Emergency
+  description_2: Good Intent
+  description_3: Investigate Hazardous Release (Nothing Found)
+  NFIRS Crosswalk: 600, 621, 622, 631, 632, 651, 652, 653, 650, 661, 671, 672
+'NOEMERG: CANCELLED':
+  active: 'TRUE'
+  value_1: NOEMERG
+  value_2: CANCELLED
+  value_3: '---'
+  description_1: No Emergency
+  description_2: Cancelled
+  description_3: '---'
+  NFIRS Crosswalk: '611'
+LAWENFORCE:
+  active: 'TRUE'
+  value_1: LAWENFORCE
+  value_2: '---'
+  value_3: '---'
+  description_1: '---'
+  description_2: '---'
+  description_3: '---'
+  NFIRS Crosswalk: '551'

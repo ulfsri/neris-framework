@@ -1,0 +1,9 @@
+MALE:
+  active: 'TRUE'
+  description: Male
+FEMALE:
+  active: 'TRUE'
+  description: Female
+UNSPECIFIED_ANOTHER_GENDER_IDENTITY:
+  active: 'TRUE'
+  description: Unspecified or Another Gender Identity

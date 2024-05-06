@@ -1,0 +1,8 @@
+active,value,description,definition,source
+TRUE,RESPONDING_TO_EMERGENCY_INCIDENT,Responding to Emergency Incident,,
+TRUE,WORKING_AT_SCENE_OF_FIRE_INCIDENT,Working at Scene of Fire Incident,,
+TRUE,WORKING_AT_SCENE_OF_NONFIRE_INCIDENT,Working at Scene of Nonfire Incident,,
+TRUE,RETURNING_FROM_EMERGENCY_INCIDENT,Returning from Emergency Incident,,
+TRUE,TRAINING,Training,,
+TRUE,AFTER_INCIDENT,After Incident,,
+TRUE,OTHER_ON_DUTY_INCIDENT,Other On-Duty Incident,,

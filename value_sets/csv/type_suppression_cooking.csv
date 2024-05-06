@@ -1,0 +1,7 @@
+active,value,description,definition,source
+TRUE,COMMERCIAL_HOOD_SUPPRESSION,Commercial Hood Suppression System,,
+TRUE,RESIDENTIAL_HOOD_MOUNTED,Residential Hood Mounted Suppression Device,,
+TRUE,TEMPERATURE_LIMITING_STOVE,Temperature Limiting Stove Burner,,
+TRUE,ELECTRIC_POWER_CUTOFF_DEVICE,Electric Power Cutoff Device,,
+TRUE,NOT APPLICABLE,Not Applicable,,
+TRUE,NONE,None,,

@@ -1,0 +1,27 @@
+CAUGHT_TRAPPED_BY_FIRE_EXPLOSION:
+  active: 'TRUE'
+  description: Caught / Trapped by Fire / Explosion
+FALL_JUMP:
+  active: 'TRUE'
+  description: Fall / Jump
+STRESS_OVEREXERTION:
+  active: 'TRUE'
+  description: Stress / Overexertion
+COLLAPSE:
+  active: 'TRUE'
+  description: Collapse
+CAUGHT_TRAPPED_BY_OBJECT:
+  active: 'TRUE'
+  description: Caught / Trapped by Object
+STRUCK_CONTACT_WITH_OBJECT:
+  active: 'TRUE'
+  description: Struck / Contact with Object
+EXPOSURE:
+  active: 'TRUE'
+  description: Exposure
+VEHICLE_COLLISION:
+  active: 'TRUE'
+  description: Vehicle Collision
+OTHER:
+  active: 'TRUE'
+  description: Other

@@ -1,6 +1,6 @@
 ## value sets
 
-This metadata is a descriptive representation of the data elements that will be served by NERIS back to departments via the NERIS API. Accordingly, it does not represent 1-1 the data elements sent by a department and its vendors. 
+This metadata is a descriptive representation of the data elements in NERIS value sets. Value sets serve as the pre-populated list exists from which users choose the most appropriate response. 
 
 - `active`
     - Boolean

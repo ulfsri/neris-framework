@@ -1,0 +1,1215 @@
+fd_neris_id:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: Dept.neris_id, DeptHist.neris_id_dept
+  description: Unique identifier for the agency in NERIS.  Entity type plus state and county FIPS plus with random trailing characters.
+  example: FD06067001
+  comments: Please see id_types sheet
+fd_id_legacy:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.internal_id
+  description: Legacy FDID for linkage to other data sets.
+  example: '51001'
+  comments: '---'
+fd_name:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.name
+  description: Name of the agency.
+  example: Fairfax County Fire Rescue
+  comments: '---'
+fd_parent_neris_id:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: dept.neris_id
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Single
+  orm_map_landing: join to RelDeptDept
+  description: Agency's parent agency's neris_id.
+  example: FD07078112
+  comments: Not constrained to single value by db
+fd_parent_name:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Agency's parent agency's name.
+  example: ABC Fire Department
+  comments: Not constrained to single value by db
+fd_children_neris_id:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.neris_id
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Multiple
+  orm_map_landing: join to RelDeptDept
+  description: Comma-separated neris_ids of departments which are children of the department.
+  example: FD95956990, FD84845889
+  comments: '---'
+fd_children_name:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated names of departments which are children of the department.
+  example: DEF Fire Department, GHI Fire Department
+  comments: '---'
+fd_auto_given_nerid_id:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.neris_id
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated neris_ids of departments to which the department gives automatic aid.
+  example: FD21240003
+  comments: '---'
+fd_auto_given_name:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated names of departments to which the department gives automatic aid.
+  example: Brick Fire Department
+  comments: '---'
+fd_auto_received_neris_id:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.neris_id
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated neris_ids of departments from which the department received automatic aid.
+  example: FD21240003
+  comments: '---'
+fd_auto_received_name:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated names of departments from which the department receives automatic aid.
+  example: Brick Fire Department
+  comments: '---'
+fd_mutual_given_neris_id:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.neris_id
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated neris_ids of departments to which the department gives mutual aid.
+  example: FD21240003
+  comments: '---'
+fd_mutual_given_name:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated names of departments to which the department gives mutual aid.
+  example: Brick Fire Department
+  comments: '---'
+fd_mutual_received_neris_id:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.neris_id
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated neris_ids of departments from which the department received mutual aid.
+  example: FD21240003
+  comments: '---'
+fd_mutual_received_name:
+  group: General
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Comma-separated names of departments from which the department receives mutual aid.
+  example: Brick Fire Department
+  comments: '---'
+fd_auto_mutual_type:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to Dept via RelDeptDept
+  description: Status of whether the agency has a mutual or automatic aid agreement.
+  example: Automatic Aid
+  comments: '---'
+fd_address_1:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.address_line_1
+  description: Physical address of agency HQ.
+  example: 1234 Market St
+  comments: '---'
+fd_address_2:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.address_line_2
+  description: Additional address information.
+  example: Apt. Number
+  comments: '---'
+fd_city:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.city
+  description: City in which agency is located.
+  example: Baltimore
+  comments: '---'
+fd_state:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: StatesTerrs enum
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.state
+  description: State in which agency is located.
+  example: Maryland
+  comments: '---'
+fd_zip:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.zip_code
+  description: Zip Code in which agency is located.
+  example: '21230'
+  comments: secondary check matching City/State
+fd_mailing_address:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: different than HQ
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.mailing_address
+  description: Mailing address for the agency.
+  example: '---'
+  comments: Required if different from the headquarters. Mandatory-ness not enforced by db.
+fd_latlong:
+  group: General
+  type: Array
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Single
+  orm_map_landing: DeptHist.nuid_point_loc join to GeoPoint
+  description: Coordinates of the agency headquarters.
+  example: 38.927036, -77.032742
+  comments: May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84.
+fd_email:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.email
+  description: Email address of the agency.
+  example: info.fems@dc.gov
+  comments: '---'
+fd_website:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.website
+  description: Website of the agency.
+  example: https://fems.dc.gov/
+  comments: '---'
+fd_telephone:
+  group: General
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DepthHist.telephone
+  description: Contact phone number of the agency.
+  example: '---'
+  comments: '---'
+fd_type:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_dept.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_dept
+  description: Staffing type of the agency.
+  example: See type_dept.value table
+  comments: '---'
+fd_organization:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_org.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_org
+  description: Category which describes the organization  of the agency.
+  example: See type_org.value table
+  comments: '---'
+fd_jurisiction_set:
+  group: General
+  type: Array
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to RegionSet and RegionSetJurisFlag
+  description: Polygon/geographic footprint of the agency's coverage area.
+  example: '---'
+  comments: 'Jurisdiction is a special type of "region set": a collection of one or more multipolygons, with a type identifying what sort of area(s) it represents. May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84.'
+fd_jurisdiction_type:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_region.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to RegionSet and RegionSetJurisFlag
+  description: Type of the agency's jurisdiction.
+  example: See type_region.value table
+  comments: Common values would be city, county, township, etc.
+fd_primary_division_set:
+  group: General
+  type: Array
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to RegionSet and RegionSetPrimaryFlag
+  description: Polygon/geographic footprint of the district-based supervision of the agency.
+  example: '---'
+  comments: 'Primary division is a special type of "region set": a collection of one or more multipolygons, with a type identifying what sort of area(s) it represents. May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84. For smaller agencies with no or a single battalion/district this may be null. '
+fd_primary_division_type:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_region.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to RegionSet and RegionSetPrimaryFlag
+  description: Type of the agency's primary geographic division.
+  example: See type_region.value table
+  comments: Common values would be battalion, division, district, etc. For smaller agencies with no or a single battalion/district this may be null.
+fd_coverage_set:
+  group: General
+  type: Array
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to RegionSet and RegionSetCoverageFlag
+  description: Polygon/geographic footprint of the district-based supervision of the agency.
+  example: '---'
+  comments: 'Coverage is a special type of "region set": a collection of one or more multipolygons, with a type identifying what sort of area(s) it represents. May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84. For smaller agencies with no or a single battalion/district this may be null.'
+fd_coverage_type:
+  group: General
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_region.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to RegionSet and RegionSetCoverageFlag
+  description: Type of the agency's primary geographic division.
+  example: See type_region.value table
+  comments: Common values would include first due. For smaller agencies with no or a single battalion/district this may be null.
+fd_population_protected:
+  group: Population
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.pop_protected
+  description: Estimated number of people protected within the agency's coverage area. Agency provided. If left blank, calculated if boundary is provided.
+  example: '392000'
+  comments: '---'
+fd_population_protected_source:
+  group: Population
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_pop_source.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_pop_source
+  description: Data source from which the population count was pulled.
+  example: See type_pop_source.value table
+  comments: '---'
+fd_station_count:
+  group: General
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: join to RelDeptStation grouped by Dept
+  description: Number of stations in the agency.
+  example: '16'
+  comments: '---'
+fd_fire_services:
+  group: Services
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_serv_fd.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to RelDeptFdServ
+  description: Set of fire department services the agency offers.
+  example: See type_serv_fd.value table
+  comments: See fd_services sheet. Mandatory-ness not enforced by db.
+fd_ems_services:
+  group: Services
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_serv_ems.value
+  possible_if: agency offers EMS services
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to RelDeptEmsServ
+  description: Set of types of EMS services offered.
+  example: See type_serv_ems.value table
+  comments: See ems_services sheet. Mandatory-ness not enforced by db.
+fd_investigation_services:
+  group: Services
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_serv_invest.value
+  possible_if: agency offers investigation services
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Multiple
+  orm_map_landing: join to RelDeptInvestServ
+  description: Set of types of investigation services offered.
+  example: See type_serv_invest.value table
+  comments: See investigate_services sheet. Mandatory-ness not enforced by db.
+fd_continue_education:
+  group: Contact
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.continue_edu
+  description: Whether the agency has a continuing education/training policy.
+  example: '"True"'
+  comments: '---'
+fd_shift_count:
+  group: Shift
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: fd_type = career | combination
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.shift_count
+  description: Number of shifts the agency utilizes.
+  example: '3'
+  comments: The number of shifts working in a field capacity providing emergency response services. Required for career/combination departments, but requirement not enforced by db.  Not restricted for volunteers. This allows us to sync with schedule to allow data to be filtered by shift.
+fd_shift_duration:
+  group: Shift
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: fd_type = career | combination
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.shift_duration
+  description: Duration of a shift in hours.
+  example: '24'
+  comments: Duration of each shift. Mandatory-ness not enforced by db. Required for career/combination departments, but requirement not enforced by db. Not restricted for volunteers. This allows us to sync with schedule to allow data to be filtered by shift.
+fd_shift_signup:
+  group: Shift
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: fd_type = career | combination
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.shift_signup
+  description: Current shift schedule upon NERIS activation.
+  example: '3'
+  comments: This allows us to sync with schedule to allow data to be filtered by shift.
+dispatch_center_id:
+  group: Dispatch.Response
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.disp_center_id
+  description: 4-digit unique identifier for each PSAP dispatch center being requested to respond to an incident.
+  example: '4311'
+  comments: '---'
+dispatch_psap_type:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_psap.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_psap
+  description: Type of dispatch center being requested.
+  example: See type_psap.value table
+  comments: A primary PSAP is an emergency communication center responsible for answering the initial 9-1-1 call.  A secondary PSAP receives emergency calls transferred from a primary PSAP due to jurisdictional call sequencing (PSAP X receives neutral 911 calls and transfers to Secondary PSAP Y or Z) or discipline specific dispatching (PSAP X receives all 911 calls for a jurisdiction but a secondary PSAP Y handles fire and EMS calls).
+dispatch_psap_jurisdiction:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_psap_juris.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_psap_juris
+  description: Aggregation level of dispatch center.
+  example: See type_psap_juris.value table
+  comments: A single-jurisdiction is a facility where only one political entity (city/county) utilizes the 9-1-1, PSAP and dispatching services.  A multi-jurisdictional facility is where one or more public safety political jurisdictions choose to operate as a single 9-1-1 entity (e.g., City A, B, C)
+dispatch_psap_discipline:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_psap_disc.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_psap_disc
+  description: Whether dispatch is single entity or multiple entity.
+  example: See type_psap_disc.value table
+  comments: A single discipline facility operates one disciplines of dispatch (e.g., fire or EMS or police).  A multiple discipline facility operates multi-disciplines of dispatch (e.g., fire-EMS-police).
+dispatch_psap_capability:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_psap_capa.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_psap_capa
+  description: Whether PSAP follows most recent NENA standards.
+  example: See type_psap_capa.value table
+  comments: A legacy PSAP cannot process calls received via i3-defined call interfaces (IP-based calls) and still requires the use of CAMA or ISDN trunk technology for delivery of 9-1-1 emergency calls. A NG9-1-1 PSAP can process calls and access data services as defined in NENA's i3 specification, NENA-STA-010.
+dispatch_cad_software:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.cad_sw
+  description: Manufacturer of the CAD system being used by the agency.
+  example: Motorola, etc.
+  comments: If No CAD, select None.
+dispatch_protocol_fire:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_disp_proto_fire.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_disp_proto_fire
+  description: Procedure/protocol followed for triaging emergency fire calls.
+  example: See type_disp_proto_fire.value table
+  comments: '---'
+dispatch_protocol_medical:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_disp_proto_med.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.type_disp_proto_med
+  description: Procedure/protocol followed for triaging emergency medical calls.
+  example: See type_disp_proto_med.value table
+  comments: '---'
+dispatch_avl_usage:
+  group: Dispatch.Response
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.avl_usage
+  description: Describes whether the CAD utilizes AVL technology.
+  example: '"True"'
+  comments: '---'
+rms_software:
+  group: Dispatch.Response
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.rms_sw
+  description: Manufacturer of the RMS Software being used by the agency.
+  example: FirstOnScene, etc.
+  comments: If No RMS, select None
+station_id:
+  group: Station
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: StationHist.station_id
+  description: Name of the station.
+  example: '12'
+  comments: '---'
+station_address_1:
+  group: Station
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.address_line_1
+  description: Physical address of station.
+  example: 1234 Market St
+  comments: '---'
+station_address_2:
+  group: Station
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.address_line_2
+  description: Additional address information.
+  example: Apt. Number
+  comments: '---'
+station_city:
+  group: Station
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.city
+  description: City in which station is located.
+  example: Baltimore
+  comments: '---'
+station_state:
+  group: Station
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.state
+  description: State in which station is located.
+  example: Maryland
+  comments: '---'
+station_zip:
+  group: Station
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.zip_code
+  description: Zip Code in which station is located.
+  example: '21230'
+  comments: secondary check matching City/State
+station_latlong:
+  group: Station
+  type: Array
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: StationHist.nuid_point_loc joined to GeoPoint
+  description: Coordinates of the station.
+  example: 38.927036, -77.032742
+  comments: May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84.
+station_primary_division:
+  group: Station
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Single
+  orm_map_landing: spatial join to Division via DivisionSet joined to DivisionPrimaryFlag
+  description: Name and id of the primary division region in which the station falls.
+  example: '1: First Battalion'
+  comments: ID and name concatenated as divisions may have one or the other
+station_coverage:
+  group: Station
+  type: Array
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Single
+  orm_map_landing: select of containing GeoMultipolygon via Division via DivisionSet joined to DivisionCoverageFlag
+  description: Name and id of the coverage area region in which the station falls.
+  example: '---'
+  comments: Station-based only
+station_staffing:
+  group: Station
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: StationHist.staffing
+  description: Minimum staffing assigned to the station.
+  example: '14'
+  comments: This is separate from unit staffing since stations can cross staff unit.
+station_unit_id_1:
+  group: Station.Unit
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: department has CAD
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: UnitHist.cad_designation_1
+  description: Unit's first designation in CAD.
+  example: E801, TK720, A301
+  comments: Required if department has a CAD.
+station_unit_id_2:
+  group: Station.Unit
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: department has CAD
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: UnitHist.cad_designation_2
+  description: Unit's second designation in CAD.
+  example: E801, TK720, A301
+  comments: Optional second identification for the unit. This would come to bear if for example a unit carries both municipal and county IDs in the CAD.
+station_unit_capability:
+  group: Station.Unit
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: UnitHist.type_unit
+  description: Type of unit housed at the station.
+  example: Engine, Ambulance, HazMat, etc
+  comments: See unit_types sheet
+station_unit_staffing:
+  group: Station.Unit
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: UnitHist.staffing
+  description: Minimum staffing required for this unit to be dispatched to an incident.
+  example: '4'
+  comments: '---'
+staff_total:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'TRUE'
+  cardinality: Single
+  orm_map_landing: sum of the other 9 staffing fields
+  description: Number of total staff within department.
+  example: '429'
+  comments: '---'
+staff_active_ff_career_ft:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_ff_car_ft
+  description: Total number of active full-time career firefighters in agency.
+  example: '190'
+  comments: '---'
+staff_active_ff_career_pt:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_ff_car_pt
+  description: Total number of active part-time career firefighters in agency.
+  example: '50'
+  comments: '---'
+staff_active_ff_volunteer:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_ff_vol
+  description: Total number of active volunteer firefighters in agency.
+  example: '43'
+  comments: '---'
+staff_active_ems_only_career_ft:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_ems_car_ft
+  description: Total number of active full-time career ems only staff in agency.
+  example: '34'
+  comments: '---'
+staff_active_ems_only_career_pt:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_ems_car_pt
+  description: Total number of active part-time career ems only staff in agency.
+  example: '19'
+  comments: '---'
+staff_active_ems_only_volunteer:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_ems_vol
+  description: Total number of active volunteer ems only staff in agency.
+  example: '5'
+  comments: '---'
+staff_active_civilians_career_ft:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_civ_car_ft
+  description: Total number of active full-time career civilians in agency.
+  example: '38'
+  comments: '---'
+staff_active_civilians_career_pt:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_civ_car_pt
+  description: Total number of active part-time career civilians in agency.
+  example: '38'
+  comments: '---'
+staff_active_civilians_volunteer:
+  group: Staffing
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.staff_civ_vol
+  description: Total number of active volunteer civilians in agency.
+  example: '12'
+  comments: '---'
+assess_iso_rating:
+  group: Dept.Attributes
+  type: Numeric
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.assess_iso_rating
+  description: Current ISO rating (1- 10) of the agency, if applicable.
+  example: '2'
+  comments: '---'
+assess_cpse_acredit:
+  group: Dept.Attributes
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.assess_cpse_acredit
+  description: Whether the agency is  accredited through CPSE.
+  example: '"True"'
+  comments: '---'
+assess_caas_acredit:
+  group: Dept.Attributes
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_dependency: '---'
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: DeptHist.assess_caas_acredit
+  description: Whether the agency is accredited through CAAS.
+  example: '"True"'
+  comments: '---'

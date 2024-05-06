@@ -1,0 +1,39 @@
+BATHROOM:
+  active: 'TRUE'
+  description: Bathroom
+BEDROOM:
+  active: 'TRUE'
+  description: Bedroom
+KITCHEN:
+  active: 'TRUE'
+  description: Kitchen
+LIVING_SPACE:
+  active: 'TRUE'
+  description: Living Space
+HALLWAY_FOYER:
+  active: 'TRUE'
+  description: Hallway / Foyer
+GARAGE:
+  active: 'TRUE'
+  description: Garage
+BALCONY_PORCH_DECK:
+  active: 'TRUE'
+  description: Balcony / Porch / Deck
+BASEMENT:
+  active: 'TRUE'
+  description: Basement
+ATTIC:
+  active: 'TRUE'
+  description: Attic
+OFFICE:
+  active: 'TRUE'
+  description: Office
+UTILITY_ROOM:
+  active: 'TRUE'
+  description: Utility Room
+OTHER:
+  active: 'TRUE'
+  description: Other
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown

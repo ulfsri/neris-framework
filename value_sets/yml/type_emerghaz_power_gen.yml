@@ -1,0 +1,9 @@
+PHOTOVOLTAICS:
+  active: 'TRUE'
+  description: Photovoltaics
+WIND_TURBINE:
+  active: 'TRUE'
+  description: Wind Turbine
+NONE:
+  active: 'TRUE'
+  description: '---'

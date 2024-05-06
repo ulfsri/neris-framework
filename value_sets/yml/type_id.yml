@@ -1,0 +1,91 @@
+FIRE_AND_EMS_DEPARTMENT:
+  active: 'TRUE'
+  description: Fire and EMS Department
+  Enum Value (appears before FIPS and random integers): FD
+  Definition: NERIS entities which represent municipal, county, providential, tribal, district or similar fire and emergency response entities of a career, volunteer or combination nature that provide both fire suppression and emergency medical services response.  Governmental in organization and funding.
+  Example: Fire Department of New York, West Metro (CO) Fire District, Prince William County Fire Department
+  Comments: If agency does not have existing FDID, agency verification routes through SFMO
+FIRE_ONLY_DEPARTMENT:
+  active: 'TRUE'
+  description: Fire Only Department
+  Enum Value (appears before FIPS and random integers): FO
+  Definition: NERIS entities which represent municipal, county, providential, tribal, district or similar fire only response entities of a career, volunteer or combination nature that do not provide any level of emergency medical response.  Governmental in organization and funding.
+  Example: Pittsburgh Fire
+  Comments: If agency does not have existing FDID, agency verification routes through SFMO
+FIRE_AND_EMS_DEPARTMENT_PRIVATE_INDUSTRIAL_OTHER:
+  active: 'TRUE'
+  description: Fire and EMS Department, Private/Industrial/Other
+  Enum Value (appears before FIPS and random integers): FP
+  Definition: NERIS entities which represent fire and emergency response departments of a private, for-profit, industrial, or related nature that provide both fire suppression and emergency medical services response.  Non-governmental in organization and funding.
+  Example: Phillips Petroleum Fire Department
+  Comments: If agency does not have existing FDID, agency verification routes through SFMO
+FIRE_ONLY_PRIVATE_INDUSTRIAL_OTHER:
+  active: 'TRUE'
+  description: Fire Only, Private/Industrial/Other
+  Enum Value (appears before FIPS and random integers): PF
+  Definition: NERIS entities which represent fire only response departments of a private, for-profit, industrial, or related nature that do not provide any level of emergency medical response.  Non-governmental in organization and funding.
+  Example: Capstone Fire
+  Comments: If agency does not have existing FDID, agency verification routes through SFMO
+EMS:
+  active: 'TRUE'
+  description: Emergency Medical Services Entity
+  Enum Value (appears before FIPS and random integers): EM
+  Definition: NERIS entities which represent emergency medical or emergency medical and rescue only in service offerings in a 9-1-1 and emergency response setting to public areas. Governmental in organization and funding.
+  Example: Boston EMS
+  Comments: If local FD participates in EMS, entity relationship needs to be established to avoid double counting
+EMS_PRIVATE_INDUSTRIAL_OTHER:
+  active: 'TRUE'
+  description: Emergency Medical Services Entity Private/Industrial/Other
+  Enum Value (appears before FIPS and random integers): PM
+  Definition: NERIS entities which represent emergency medical or emergency medical and rescue only in service offerings in a 9-1-1- and emergency response setting to public areas. Non-governmental in organization and funding.
+  Example: American Medical Response
+  Comments: If local FD participates in EMS, entity relationship needs to be established to avoid double counting
+FIRE_MARSHAL:
+  active: 'TRUE'
+  description: Fire Marshal
+  Enum Value (appears before FIPS and random integers): FM
+  Definition: Offices representing county, state, tribal fire marshals.
+  Example: CAL Fire, Oregon Fire Marshal
+  Comments: '---'
+FEDERAL_STATE_LOCAL_GOVERNMENT_ORGANIZATION:
+  active: 'TRUE'
+  description: State or Federal Government Organization
+  Enum Value (appears before FIPS and random integers): GO
+  Definition: Federal, state, or local government agencies that have a vested interest in NERIS-related information.
+  Example: USFA, DOI, USDA, Forest Service
+  Comments: '---'
+TRIBAL_NATION_ORGANIZATION:
+  active: 'TRUE'
+  description: Tribal Nation Organization
+  Enum Value (appears before FIPS and random integers): TN
+  Definition: Tribal national agencies that have a vested interest in NERIS-related information.
+  Example: '---'
+  Comments: '---'
+WILDFIRE_AGENCY:
+  active: 'TRUE'
+  description: Wildfire Agency, NOS
+  Enum Value (appears before FIPS and random integers): WF
+  Definition: Non-governmental entities that participate in wildfire response, preparedness, or research.
+  Example: NWCG, WFLC
+  Comments: '---'
+SPECIAL_ORGANIZATION:
+  active: 'TRUE'
+  description: Special Organization
+  Enum Value (appears before FIPS and random integers): SO
+  Definition: Special organizations approved by FSRI and USFA.
+  Example: IAFF, IAFC
+  Comments: '---'
+AFFILIATED_RESEARCH_ORGANIZATION:
+  active: 'TRUE'
+  description: Affiliated Research Organization
+  Enum Value (appears before FIPS and random integers): RO
+  Definition: Research entities, including academic institutions.
+  Example: NFPA, WPI, Harvard, NDRI
+  Comments: '---'
+OTHER_APPROVED_ENTITY:
+  active: 'TRUE'
+  description: Other Approved Entity
+  Enum Value (appears before FIPS and random integers): OA
+  Definition: Other approved entities, not specified above.
+  Example: '---'
+  Comments: '---'
