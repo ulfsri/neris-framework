@@ -1,0 +1,21 @@
+WET_PIPE_SPRINKLER_SYSTEM:
+  active: 'TRUE'
+  description: Wet-Pipe Sprinkler System
+DRY_PIPE_SPRINKLER_SYSTEM:
+  active: 'TRUE'
+  description: Dry-Pipe Sprinkler System
+PRE_ACTION_SYSTEM:
+  active: 'TRUE'
+  description: Pre Action System
+DELUGE_SYSTEM:
+  active: 'TRUE'
+  description: Deluge System
+CLEAN_AGENT_SYSTEM:
+  active: 'TRUE'
+  description: Clean Agent System
+OTHER:
+  active: 'TRUE'
+  description: Other
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown

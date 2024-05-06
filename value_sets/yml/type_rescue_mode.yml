@@ -1,0 +1,15 @@
+REMOVAL_FROM_STRUCTURE:
+  active: 'TRUE'
+  description: Removal From Structure
+EXTRICATION:
+  active: 'TRUE'
+  description: Extrication
+DISENTANGLEMENT:
+  active: 'TRUE'
+  description: Disentanglement
+RECOVERY:
+  active: 'TRUE'
+  description: Recovery
+OTHER:
+  active: 'TRUE'
+  description: Other

@@ -1,0 +1,12 @@
+ON_FLOOR:
+  active: 'TRUE'
+  description: On Floor
+ON_BED:
+  active: 'TRUE'
+  description: On Bed
+ON_FURNITURE:
+  active: 'TRUE'
+  description: On Furniture (e.g., couch)
+OTHER:
+  active: 'TRUE'
+  description: Other

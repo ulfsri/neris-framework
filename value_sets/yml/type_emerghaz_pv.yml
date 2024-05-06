@@ -1,0 +1,12 @@
+PANEL_WATER_HEATING:
+  active: 'TRUE'
+  description: Panel Water Heating
+PANEL_POWER_GENERATION:
+  active: 'TRUE'
+  description: Panel Power Generation
+TILE_POWER_GENERATION:
+  active: 'TRUE'
+  description: Tile Power Generation
+THIN_FILM_POWER_GENERATION:
+  active: 'TRUE'
+  description: Thin Film Power Generation

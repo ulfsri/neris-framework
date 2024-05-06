@@ -1,0 +1,4 @@
+active,value,description,definition,source
+TRUE,UNINJURED,Uninjured,,
+TRUE,INJURED_NONFATAL,Injured Nonfatal,,
+TRUE,INJURED_FATAL,Injured Fatal,,

@@ -1,0 +1,285 @@
+nonff_rescue_birth_month_year:
+  group: general
+  type: Date
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: The date of birth of the person(s) injured or rescued.
+  example: ' 06/1972'
+  comments: ' '
+  api_class: '---'
+nonff_rescue_gender:
+  group: general
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_gender.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: The gender of the person(s) injured or rescued.
+  example: See type_gender table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_race:
+  group: general
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_race.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: The race of the person(s) injured or rescued.
+  example: See type_race table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_type:
+  group: rescue
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_rescue.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Whether there was a rescue, non-rescue, assist, or self evacuation
+  example: See type_rescue table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_presence_known:
+  group: rescue
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_rescue_presence_known.value
+  possible_if: rescue_type = Firefighter Rescued, Firefighter-Assisted Evacuation
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Whether the presence of an occupant in need of rescue was known
+  example: See type_rescue_presence_known table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_primary_mode:
+  group: rescue
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_rescue_mode.value
+  possible_if: rescue_type = Firefighter Rescued, Firefighter-Assisted Evacuation
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: The primary mode for rescue
+  example: See type_rescue_mode table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_actions:
+  group: rescue
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_rescue_actions.value
+  possible_if: rescue_type = Firefighter Rescued, Firefighter-Assisted Evacuation
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Actions taken to support the rescue
+  example: See type_rescue_actions table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_impedance_type:
+  group: rescue
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_rescue_impedence.value
+  possible_if: rescue_type = Firefighter Rescued, Firefighter-Assisted Evacuation
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Whether conditions impacted the ability of rescue
+  example: See type_rescue_impedence table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_room_type:
+  group: rescue.structure
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_room.value
+  possible_if: primary_mode= Removal From Structure
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: The type of room/space from which the occupant was rescued
+  example: See type_room table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_elevation_type:
+  group: rescue.structure
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_rescue_elevation.value
+  possible_if: primary_mode= Removal From Structure
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: The elevation at which the occupant was found
+  example: See type_rescue_elevation table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_gas_isolation:
+  group: rescue.structure
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: primary_mode= Removal From Structure
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Whether the space was isolated from the flow of heat and/or toxic gases
+  example: '"True"'
+  comments: '---'
+  api_class: '---'
+nonff_rescue_removal_path_type:
+  group: rescue.structure
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_rescue_path.value
+  possible_if: primary_mode= Removal From Structure
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Route along which removal from the structure occurred
+  example: See type_rescue_path table
+  comments: '---'
+  api_class: '---'
+nonff_rescue_fire_relative_time:
+  group: rescue.structure
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_suppress_time.value
+  possible_if: primary_mode= Removal From Structure and incident_subtype = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Relative to suppression, when the occupant was removed from the structure
+  example: See type_suppress_time table
+  comments: '---'
+  api_class: '---'
+nonff_casualty_casualty_type:
+  group: casualty
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_casualty.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Whether the person was uninjured, injured nonfatally, injured fatally
+  example: See type_casualty table
+  comments: '---'
+  api_class: '---'
+nonff_casualty_casualty_cause:
+  group: casualty.injured
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_casualty_cause.value
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: '---'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: The apparent cause of the injury or fatality
+  example: See type_casualty_cause table
+  comments: '---'
+  api_class: '---'

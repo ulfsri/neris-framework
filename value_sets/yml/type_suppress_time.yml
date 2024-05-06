@@ -1,0 +1,9 @@
+PRE_SUPPRESSION:
+  active: 'TRUE'
+  description: Pre Suppression
+DURING_SUPPRESSION:
+  active: 'TRUE'
+  description: During Suppression
+POST_SUPPRESSION:
+  active: 'TRUE'
+  description: Post Suppression

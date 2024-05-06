@@ -1,0 +1,12 @@
+PRESENT_FULL:
+  active: 'TRUE'
+  description: Present (Full Building)
+PRESENT_PARTIAL:
+  active: 'TRUE'
+  description: Present (Partial Coverage)
+UNDETERMINED:
+  active: 'TRUE'
+  description: Undetermined
+NONE:
+  active: 'TRUE'
+  description: '---'

@@ -1,0 +1,9 @@
+INDOOR:
+  active: 'TRUE'
+  description: Indoor
+OUTDOOR:
+  active: 'TRUE'
+  description: Outdoor
+INDOOR_AND_OUTDOOR:
+  active: 'TRUE'
+  description: Indoor and Outdoor

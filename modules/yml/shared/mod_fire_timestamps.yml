@@ -1,0 +1,152 @@
+time_command_established:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which incident command is established.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_360_completed:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: dispatch_incident_type = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which incident 360 is complete.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_water_on_fire:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: dispatch_incident_type = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which water is first applied to fire.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_fire_under_control:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: dispatch_incident_type = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which fire is considered contained (e.g. in a wildfire), but not yet extinguished.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_fire_knocked_down:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: dispatch_incident_type = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which fire is has been knocked down.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_suppression_complete:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: dispatch_incident_type = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which suppression is complete.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_primary_search_begin:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: dispatch_incident_type = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which primary search operations begin.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_primary_search_complete:
+  group: tactics.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: dispatch_incident_type = FIRE
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  definition: Timestamp at which primary search operations are complete.
+  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'

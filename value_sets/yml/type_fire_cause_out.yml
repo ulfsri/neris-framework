@@ -1,0 +1,56 @@
+NATURAL:
+  active: 'TRUE'
+  description: Natural
+  NWGC: Natural
+EQUIPMENT_VEHICLE_USE:
+  active: 'TRUE'
+  description: Equipment and Vehicle Use
+  NWGC: Equipment and vehicle use
+SMOKING_MATERIALS_ILLICIT_DRUGS:
+  active: 'TRUE'
+  description: Smoking Materials / Illicit Drugs
+  NWGC: 'Smoking '
+RECREATION_CEREMONY:
+  active: 'TRUE'
+  description: Recreation and Ceremony (includes campfire)
+  NWGC: Recreation and ceremony (includes campfire)
+DEBRIS_OPEN_BURNING:
+  active: 'TRUE'
+  description: Debris / Open Burning
+  NWGC: Debris and open burning
+RAILROAD_OPS_MAINTENANCE:
+  active: 'TRUE'
+  description: Railroad Operations / Maintenance
+  NWGC: Railroad Operations and Maintenance
+FIREAMRS_EXPLOSIVES:
+  active: 'TRUE'
+  description: Firearms / Explosives Use
+  NWGC: Firearms and explosive use
+FIREWORKS:
+  active: 'TRUE'
+  description: Fireworks
+  NWGC: Fireworks
+POWER_GEN_TRANS_DIST:
+  active: 'TRUE'
+  description: Power Generation / Transmission / Distribution
+  NWGC: Power generation/transmission/distribution
+STRUCTURE:
+  active: 'TRUE'
+  description: Structure
+  NWGC: Structure
+INCENDIARY:
+  active: 'TRUE'
+  description: Incendiary
+  NWGC: Arson
+BATTERY_POWER_STORAGE:
+  active: 'TRUE'
+  description: Battery / Power Storage
+  NWGC: '---'
+SPREAD_FROM_CONTROLLED_BURN:
+  active: 'TRUE'
+  description: Spread From Controlled Burn
+  NWGC: '---'
+UNABLE_TO_BE_DETERMINED:
+  active: 'TRUE'
+  description: Unable to be Determined
+  NWGC: Undetermined (Human or Natural)

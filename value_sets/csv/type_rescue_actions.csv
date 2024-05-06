@@ -1,0 +1,9 @@
+active,value,description,definition,source
+TRUE,VENTILATION,Ventilation,,
+TRUE,HYDRUALIC_TOOL_USE,Hydraulic Tool Use,,
+TRUE,UNDERWATER_DIVE,Underwater Dive,,
+TRUE,ROPE_RIGGING,Rope Rigging,,
+TRUE,BREAK_BREACH_WALL,Break Breach Wall,,
+TRUE,BRACE_WALL_INFRASTRUCTURE,Brace Wall / Infrastructure,,
+TRUE,TRENCH_SHORING,Trench Shoring,,
+TRUE,SUPPLY_AIR,Supply Air,,

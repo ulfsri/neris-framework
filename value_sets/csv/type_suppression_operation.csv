@@ -1,0 +1,4 @@
+active,value,description,definition,source
+TRUE,OPERATED_EFFECTIVE,Operated - Effective,,
+TRUE,OPERATED_NOT_EFFECTIVE,Operated - Not Effective,,
+TRUE,FAILED_TO_OPERATE,Failed to Operate,,

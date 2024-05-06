@@ -1,0 +1,522 @@
+incident_number:
+  group: incident
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: incident_hist.nuid
+  map_app: '---'
+  description: Unique numeric identifier for the event that requires dispatch of department resources.
+  example: FD06067001
+  comments: Comes from Dispatch module where available
+incident_final_type:
+  group: type_identifiers
+  type: Array[Array[Text]]
+  value_set: 'TRUE'
+  reference_location: value_1, value2, value_3 from type_incident
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Disposition or final incident type as assessed on scene.
+  example: See type_inc table
+  comments: '---'
+incident_special_modifier:
+  group: type_identifiers
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_special_modifier
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Incident modifier(s) that can help describe the magnitude or class of the incident.
+  example: See type_special_modifier table
+  comments: '---'
+fire:
+  group: fire
+  type: Module
+  value_set: 'FALSE'
+  reference_location: mod_fire
+  possible_if: final incident type includes fire
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: final incident type includes fire
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Specific fields for incident types that include fire type.
+  example: See mod_fire
+  comments: '---'
+fire_timestamps:
+  group: fire_timestamps
+  type: Module
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: final incident type includes fire
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: final incident type includes fire
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Timestamps for fire tactic employed.
+  example: See shared/mod_fire_timestamps
+  comments: Comes from Dispatch module where available
+medical:
+  group: medical
+  type: Module
+  value_set: 'FALSE'
+  reference_location: mod_medical
+  possible_if: final incident type includes medical
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: final incident type includes medical
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Specific fields for incident types that include medical.
+  example: See mod_medical
+  comments: '---'
+hazsit:
+  group: hazsit
+  type: Module
+  value_set: 'FALSE'
+  reference_location: mod_hazard
+  possible_if: final incident type includes hazsit
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: final incident type includes hazsit
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Specific fields for incident types that include hazsit.
+  example: See mod_hazsit
+  comments: '---'
+emerging_hazard:
+  group: emerging_hazard
+  type: Array[Module]
+  value_set: 'TRUE'
+  reference_location: mod_emerging_hazards
+  possible_if: one or more emerging hazard
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: eh was involved
+  neris_core_aid: 'TRUE'
+  computed: 'TRUE'
+  computed_from: eh tables
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Information on emerging hazard(s). Consists of the fields of one or more group from mod_emerging_hazard.
+  example: Electrification
+  comments: See mod_eh
+incident_point:
+  group: location
+  type: Point
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: geo_point via incident_hist.nuid_point_incident
+  map_app: '---'
+  description: WGS84 latitude and longitude of the incident. If a latitude and longitude are not submitted but a location is, the location geocoding result (if successful) will be used.
+  example: 42.548054, -77.840575
+  comments: 'Decreasing order of priority given to: submitted point, location geocode, submitted polygon centroid '
+incident_polygon:
+  group: location
+  type: Multipolygon
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_if: '---'
+  neris_core_aid: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: WGS84 polygon of the footprint of the incident.
+  example: '---'
+  comments: '---'
+incident_location:
+  group: location
+  type: Module
+  value_set: 'FALSE'
+  reference_location: mod_location
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Location, generally an address, of the incident. Consists of the fields of mod_civic_location.
+  example: '---'
+  comments: See shared.mod_civic_location
+incident_use:
+  group: location
+  type: Module
+  value_set: 'FALSE'
+  reference_location: mod_location_use
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: How the location is being used. Consists of the fields of mod_location_use.
+  example: '---'
+  comments: See shared.mod_location_use
+incident_indoors:
+  group: location
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Whether the incident primarily took place indoors.
+  example: '---'
+  comments: '---'
+incident_people_present:
+  group: location
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Whether people were present at the time of the incident.
+  example: '"True"'
+  comments: '---'
+incident_displaced_number:
+  group: displacement
+  type: Integer
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'FALSE'
+  neris_core_if: '---'
+  neris_core_aid: 'FALSE'
+  computed: 'TRUE'
+  computed_from: core_mod_incident.displaced_cause
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Number of people displaced.
+  example: '2'
+  comments: '---'
+incident_displaced_cause:
+  group: displacement
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_displace_cause.value
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: displaced_occupants = TRUE
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Cause for displacement.
+  example: See type_displace_cause table
+  comments: '---'
+exposure:
+  group: exposure
+  type: Array[Module]
+  value_set: 'TRUE'
+  reference_location: mod_exposure
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: exposures > 0
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Exposure details.
+  example: See mod_exposures
+  comments: '---'
+rescue_ff:
+  group: rescues
+  type: Array[Module]
+  value_set: 'FALSE'
+  reference_location: mod_rescue_ff
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: casualty_rescue_int_ff > 0
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: ff casualties / rescues >0
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Firefighter rescue and/or casualty module. Consists of the fields of mod_rescue_ff.
+  example: '---'
+  comments: See mod_rescue_ff
+rescue_nonff:
+  group: rescues
+  type: Array[Module]
+  value_set: 'FALSE'
+  reference_location: mod_rescue_nonff
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: casualty_rescue_int_nonff > 0
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: nonff casualties / rescues > 0
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Non firefighter rescue and/or casualty module. Consists of the fields of mod_rescue_civ.
+  example: '---'
+  comments: See mod_rescue_nonff
+incident_rescue_animal:
+  group: rescues
+  type: Integer
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Total number of animals rescued.
+  example: '1'
+  comments: '---'
+incident_actions_taken:
+  group: actions_taken
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: mod_actions_tactics
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: at least one action was taken
+  neris_core_aid: 'TRUE'
+  computed: 'TRUE'
+  computed_from: actions and tactics tables
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Actions taken by the fire department on the scene of the incident.
+  example: Exterior Suppression, Interior Suppression, etc.
+  comments: '---'
+unit_response:
+  group: unit_response
+  type: Array[Module]
+  value_set: 'TRUE'
+  reference_location: shared/mod_unit
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Shared module for unit response information.
+  example: '---'
+  comments: See shared.mod_unit_response
+risk_reduction:
+  group: risk_reduction
+  type: Module
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Location, generally an address, of the incident. Consists of the fields of mod_civic_location.
+  example: '---'
+  comments: See shared.mod_civic_location
+incident_aid_given_name:
+  group: aid
+  type: Text
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: aid was given
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Name of the Fire Department to which aid was given.
+  example: DCFD, PGFD, etc.
+  comments: Comes from FD Specifications - Mutual Aid Agencies (for Selection Purposes)
+incident_aid_received_name:
+  group: aid
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: dept.name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: aid was received
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Name(s) of the Fire Department(s) from which aid was received.
+  example: DCFD, PGFD, etc.
+  comments: Comes from FD Specifications - Mutual Aid Agencies (for Selection Purposes)
+incident_narrative_impedance:
+  group: narrative
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Description of any obstacles that impacted the incident.
+  example: '---'
+  comments: '---'
+incident_narrative_outcome:
+  group: narrative
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: '---'
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Description of the final disposition of the incident.
+  example: '---'
+  comments: '---'
+parcel:
+  group: augmentation
+  type: Module
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: incident_point is within a parcel
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_if: '---'
+  neris_core_aid: 'FALSE'
+  computed: 'FALSE'
+  computed_from: parcel service
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Characteristics of the parcel at which the incident occurred. Consists of the fields of mod_parcel.
+  example: '---'
+  comments: See augmentation.mod_parcel
+weather:
+  group: augmentation
+  type: Module
+  value_set: 'FALSE'
+  reference_location: '---'
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core: 'FALSE'
+  neris_core_if: '---'
+  neris_core_aid: 'FALSE'
+  computed: 'FALSE'
+  computed_from: weather service
+  cardinality: Single
+  map_orm_landing: '---'
+  map_app: '---'
+  description: Characteristics of the weather at the location and time of the incident. Consists of the fields of mod_weather.
+  example: '---'
+  comments: See augmentation.mod_weather

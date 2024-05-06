@@ -1,0 +1,27 @@
+FIRE_EXTINGUISHER:
+  active: 'TRUE'
+  description: Fire Extinguisher (All Agent Types)
+BOOSTER_FIRE_HOSE:
+  active: 'TRUE'
+  description: Booster ( < 1 inch) Fire Hose
+SMALL_DIAMATER_FIRE_HOSE:
+  active: 'TRUE'
+  description: Small Diameter (1 inch to 2 inch) Fire Hose
+MEDIUM_DIAMETER_FIRE_HOSE:
+  active: 'TRUE'
+  description: Medium Diameter (2 inch to 3 inch) Fire Hose
+GROUND_MONITOR:
+  active: 'TRUE'
+  description: Ground Monitor
+MASTER_STREAM:
+  active: 'TRUE'
+  description: Master Stream
+ELEVATED_MASTER_STREAM:
+  active: 'TRUE'
+  description: Elevated Master Stream
+AIRATTACK_HELITACK:
+  active: 'TRUE'
+  description: Air Tanker / Helitank
+NONE:
+  active: 'TRUE'
+  description: '---'

@@ -1,0 +1,10 @@
+active,value,description,definition,source
+TRUE,CAUGHT_TRAPPED_BY_FIRE_EXPLOSION,Caught / Trapped by Fire / Explosion,,
+TRUE,FALL_JUMP,Fall / Jump,,
+TRUE,STRESS_OVEREXERTION,Stress / Overexertion,,
+TRUE,COLLAPSE,Collapse,,
+TRUE,CAUGHT_TRAPPED_BY_OBJECT,Caught / Trapped by Object,,
+TRUE,STRUCK_CONTACT_WITH_OBJECT,Struck / Contact with Object,,
+TRUE,EXPOSURE,Exposure,,
+TRUE,VEHICLE_COLLISION,Vehicle Collision,,
+TRUE,OTHER,Other,,

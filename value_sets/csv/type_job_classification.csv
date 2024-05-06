@@ -1,0 +1,9 @@
+active,value,description,definition,source
+TRUE,CAREER,Career,,
+TRUE,PART_TIME,Part_Time,,
+TRUE,PAID_ON_CALL,Paid_On_Call,,
+TRUE,INDUSTRIAL,Industrial,,
+TRUE,VOLUNTEER,Volunteer,,
+TRUE,WILDLAND_FULL_TIME,Wildland Full Time,,
+TRUE,WILDLAND_PART_TIME,Wildland Part Time,,
+TRUE,WILDLAND_CONTRACT,Wildland Contract,,

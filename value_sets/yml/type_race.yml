@@ -1,0 +1,18 @@
+AMERICAN_INDIAN_ALASKA_NATIVE:
+  active: 'TRUE'
+  description: American Indian or Alaska Native
+ASIAN:
+  active: 'TRUE'
+  description: Asian
+BLACK_AFRICAN_AMERICAN:
+  active: 'TRUE'
+  description: Black or African American
+HISPANIC_LATINO:
+  active: 'TRUE'
+  description: Hispanic or Latino
+NATIVE_HAWAIIAN_PACIFIC_ISLANDER:
+  active: 'TRUE'
+  description: Native Hawaiian or Pacific Islander
+WHITE:
+  active: 'TRUE'
+  description: White

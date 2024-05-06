@@ -1,0 +1,5 @@
+active,value,description,definition,source
+TRUE,NO_DAMAGE,No Damage,,
+TRUE,MINOR_DAMAGE,"Minor (Limited Smoke / Fire / Water Damage, Usability/Occupancy Not Impacted )",,
+TRUE,MODERATE_DAMAGE,"Moderate (Flame / Water / Smoke Damage, Possible Impact to Usability/Occupancy)",,
+TRUE,MAJOR_DAMAGE,Major (Flame / Smoke / Water Damage Resulting in Total  Loss to Usability/Occupancy),,

@@ -1,0 +1,996 @@
+AD:
+  active: 'TRUE'
+  description: Andorra
+  source: ISO 3166-1 alpha-2
+AE:
+  active: 'TRUE'
+  description: United Arab Emirates
+  source: ISO 3166-1 alpha-2
+AF:
+  active: 'TRUE'
+  description: Afghanistan
+  source: ISO 3166-1 alpha-2
+AG:
+  active: 'TRUE'
+  description: Antigua and Barbuda
+  source: ISO 3166-1 alpha-2
+AI:
+  active: 'TRUE'
+  description: Anguilla
+  source: ISO 3166-1 alpha-2
+AL:
+  active: 'TRUE'
+  description: Albania
+  source: ISO 3166-1 alpha-2
+AM:
+  active: 'TRUE'
+  description: Armenia
+  source: ISO 3166-1 alpha-2
+AO:
+  active: 'TRUE'
+  description: Angola
+  source: ISO 3166-1 alpha-2
+AQ:
+  active: 'TRUE'
+  description: Antarctica
+  source: ISO 3166-1 alpha-2
+AR:
+  active: 'TRUE'
+  description: Argentina
+  source: ISO 3166-1 alpha-2
+AS:
+  active: 'TRUE'
+  description: American Samoa
+  source: ISO 3166-1 alpha-2
+AT:
+  active: 'TRUE'
+  description: Austria
+  source: ISO 3166-1 alpha-2
+AU:
+  active: 'TRUE'
+  description: Australia
+  source: ISO 3166-1 alpha-2
+AW:
+  active: 'TRUE'
+  description: Aruba
+  source: ISO 3166-1 alpha-2
+AX:
+  active: 'TRUE'
+  description: Aland Islands
+  source: ISO 3166-1 alpha-2
+AZ:
+  active: 'TRUE'
+  description: Azerbaijan
+  source: ISO 3166-1 alpha-2
+BA:
+  active: 'TRUE'
+  description: Bosnia and Herzegovina
+  source: ISO 3166-1 alpha-2
+BB:
+  active: 'TRUE'
+  description: Barbados
+  source: ISO 3166-1 alpha-2
+BD:
+  active: 'TRUE'
+  description: Bangladesh
+  source: ISO 3166-1 alpha-2
+BE:
+  active: 'TRUE'
+  description: Belgium
+  source: ISO 3166-1 alpha-2
+BF:
+  active: 'TRUE'
+  description: Burkina Faso
+  source: ISO 3166-1 alpha-2
+BG:
+  active: 'TRUE'
+  description: Bulgaria
+  source: ISO 3166-1 alpha-2
+BH:
+  active: 'TRUE'
+  description: Bahrain
+  source: ISO 3166-1 alpha-2
+BI:
+  active: 'TRUE'
+  description: Burundi
+  source: ISO 3166-1 alpha-2
+BJ:
+  active: 'TRUE'
+  description: Benin
+  source: ISO 3166-1 alpha-2
+BL:
+  active: 'TRUE'
+  description: Saint Barthelemy
+  source: ISO 3166-1 alpha-2
+BM:
+  active: 'TRUE'
+  description: Bermuda
+  source: ISO 3166-1 alpha-2
+BN:
+  active: 'TRUE'
+  description: Brunei Darussalam
+  source: ISO 3166-1 alpha-2
+BO:
+  active: 'TRUE'
+  description: Bolivia, Plurinational State of
+  source: ISO 3166-1 alpha-2
+BQ:
+  active: 'TRUE'
+  description: Bonaire, Sint Eustatius and Saba
+  source: ISO 3166-1 alpha-2
+BR:
+  active: 'TRUE'
+  description: Brazil
+  source: ISO 3166-1 alpha-2
+BS:
+  active: 'TRUE'
+  description: Bahamas
+  source: ISO 3166-1 alpha-2
+BT:
+  active: 'TRUE'
+  description: Bhutan
+  source: ISO 3166-1 alpha-2
+BV:
+  active: 'TRUE'
+  description: Bouvet Island
+  source: ISO 3166-1 alpha-2
+BW:
+  active: 'TRUE'
+  description: Botswana
+  source: ISO 3166-1 alpha-2
+BY:
+  active: 'TRUE'
+  description: Belarus
+  source: ISO 3166-1 alpha-2
+BZ:
+  active: 'TRUE'
+  description: Belize
+  source: ISO 3166-1 alpha-2
+CA:
+  active: 'TRUE'
+  description: Canada
+  source: ISO 3166-1 alpha-2
+CC:
+  active: 'TRUE'
+  description: Cocos (Keeling) Islands
+  source: ISO 3166-1 alpha-2
+CD:
+  active: 'TRUE'
+  description: Congo, Democratic Republic of the
+  source: ISO 3166-1 alpha-2
+CF:
+  active: 'TRUE'
+  description: Central African Republic
+  source: ISO 3166-1 alpha-2
+CG:
+  active: 'TRUE'
+  description: Congo
+  source: ISO 3166-1 alpha-2
+CH:
+  active: 'TRUE'
+  description: Switzerland
+  source: ISO 3166-1 alpha-2
+CI:
+  active: 'TRUE'
+  description: Cote d'Ivoire
+  source: ISO 3166-1 alpha-2
+CK:
+  active: 'TRUE'
+  description: Cook Islands
+  source: ISO 3166-1 alpha-2
+CL:
+  active: 'TRUE'
+  description: Chile
+  source: ISO 3166-1 alpha-2
+CM:
+  active: 'TRUE'
+  description: Cameroon
+  source: ISO 3166-1 alpha-2
+CN:
+  active: 'TRUE'
+  description: China
+  source: ISO 3166-1 alpha-2
+CO:
+  active: 'TRUE'
+  description: Colombia
+  source: ISO 3166-1 alpha-2
+CR:
+  active: 'TRUE'
+  description: Costa Rica
+  source: ISO 3166-1 alpha-2
+CU:
+  active: 'TRUE'
+  description: Cuba
+  source: ISO 3166-1 alpha-2
+CV:
+  active: 'TRUE'
+  description: Cabo Verde
+  source: ISO 3166-1 alpha-2
+CW:
+  active: 'TRUE'
+  description: Curacao
+  source: ISO 3166-1 alpha-2
+CX:
+  active: 'TRUE'
+  description: Christmas Island
+  source: ISO 3166-1 alpha-2
+CY:
+  active: 'TRUE'
+  description: Cyprus
+  source: ISO 3166-1 alpha-2
+CZ:
+  active: 'TRUE'
+  description: Czechia
+  source: ISO 3166-1 alpha-2
+DE:
+  active: 'TRUE'
+  description: Germany
+  source: ISO 3166-1 alpha-2
+DJ:
+  active: 'TRUE'
+  description: Djibouti
+  source: ISO 3166-1 alpha-2
+DK:
+  active: 'TRUE'
+  description: Denmark
+  source: ISO 3166-1 alpha-2
+DM:
+  active: 'TRUE'
+  description: Dominica
+  source: ISO 3166-1 alpha-2
+DO:
+  active: 'TRUE'
+  description: Dominican Republic
+  source: ISO 3166-1 alpha-2
+DZ:
+  active: 'TRUE'
+  description: Algeria
+  source: ISO 3166-1 alpha-2
+EC:
+  active: 'TRUE'
+  description: Ecuador
+  source: ISO 3166-1 alpha-2
+EE:
+  active: 'TRUE'
+  description: Estonia
+  source: ISO 3166-1 alpha-2
+EG:
+  active: 'TRUE'
+  description: Egypt
+  source: ISO 3166-1 alpha-2
+EH:
+  active: 'TRUE'
+  description: Western Sahara
+  source: ISO 3166-1 alpha-2
+ER:
+  active: 'TRUE'
+  description: Eritrea
+  source: ISO 3166-1 alpha-2
+ES:
+  active: 'TRUE'
+  description: Spain
+  source: ISO 3166-1 alpha-2
+ET:
+  active: 'TRUE'
+  description: Ethiopia
+  source: ISO 3166-1 alpha-2
+FI:
+  active: 'TRUE'
+  description: Finland
+  source: ISO 3166-1 alpha-2
+FJ:
+  active: 'TRUE'
+  description: Fiji
+  source: ISO 3166-1 alpha-2
+FK:
+  active: 'TRUE'
+  description: Falkland Islands (Malvinas)
+  source: ISO 3166-1 alpha-2
+FM:
+  active: 'TRUE'
+  description: Micronesia, Federated States of
+  source: ISO 3166-1 alpha-2
+FO:
+  active: 'TRUE'
+  description: Faroe Islands
+  source: ISO 3166-1 alpha-2
+FR:
+  active: 'TRUE'
+  description: France
+  source: ISO 3166-1 alpha-2
+GA:
+  active: 'TRUE'
+  description: Gabon
+  source: ISO 3166-1 alpha-2
+GB:
+  active: 'TRUE'
+  description: United Kingdom of Great Britain and Northern Ireland
+  source: ISO 3166-1 alpha-2
+GD:
+  active: 'TRUE'
+  description: Grenada
+  source: ISO 3166-1 alpha-2
+GE:
+  active: 'TRUE'
+  description: Georgia
+  source: ISO 3166-1 alpha-2
+GF:
+  active: 'TRUE'
+  description: French Guiana
+  source: ISO 3166-1 alpha-2
+GG:
+  active: 'TRUE'
+  description: Guernsey
+  source: ISO 3166-1 alpha-2
+GH:
+  active: 'TRUE'
+  description: Ghana
+  source: ISO 3166-1 alpha-2
+GI:
+  active: 'TRUE'
+  description: Gibraltar
+  source: ISO 3166-1 alpha-2
+GL:
+  active: 'TRUE'
+  description: Greenland
+  source: ISO 3166-1 alpha-2
+GM:
+  active: 'TRUE'
+  description: Gambia
+  source: ISO 3166-1 alpha-2
+GN:
+  active: 'TRUE'
+  description: Guinea
+  source: ISO 3166-1 alpha-2
+GP:
+  active: 'TRUE'
+  description: Guadeloupe
+  source: ISO 3166-1 alpha-2
+GQ:
+  active: 'TRUE'
+  description: Equatorial Guinea
+  source: ISO 3166-1 alpha-2
+GR:
+  active: 'TRUE'
+  description: Greece
+  source: ISO 3166-1 alpha-2
+GS:
+  active: 'TRUE'
+  description: South Georgia and the South Sandwich Islands
+  source: ISO 3166-1 alpha-2
+GT:
+  active: 'TRUE'
+  description: Guatemala
+  source: ISO 3166-1 alpha-2
+GU:
+  active: 'TRUE'
+  description: Guam
+  source: ISO 3166-1 alpha-2
+GW:
+  active: 'TRUE'
+  description: Guinea-Bissau
+  source: ISO 3166-1 alpha-2
+GY:
+  active: 'TRUE'
+  description: Guyana
+  source: ISO 3166-1 alpha-2
+HK:
+  active: 'TRUE'
+  description: Hong Kong
+  source: ISO 3166-1 alpha-2
+HM:
+  active: 'TRUE'
+  description: Heard Island and McDonald Islands
+  source: ISO 3166-1 alpha-2
+HN:
+  active: 'TRUE'
+  description: Honduras
+  source: ISO 3166-1 alpha-2
+HR:
+  active: 'TRUE'
+  description: Croatia
+  source: ISO 3166-1 alpha-2
+HT:
+  active: 'TRUE'
+  description: Haiti
+  source: ISO 3166-1 alpha-2
+HU:
+  active: 'TRUE'
+  description: Hungary
+  source: ISO 3166-1 alpha-2
+ID:
+  active: 'TRUE'
+  description: Indonesia
+  source: ISO 3166-1 alpha-2
+IE:
+  active: 'TRUE'
+  description: Ireland
+  source: ISO 3166-1 alpha-2
+IL:
+  active: 'TRUE'
+  description: Israel
+  source: ISO 3166-1 alpha-2
+IM:
+  active: 'TRUE'
+  description: Isle of Man
+  source: ISO 3166-1 alpha-2
+IN:
+  active: 'TRUE'
+  description: India
+  source: ISO 3166-1 alpha-2
+IO:
+  active: 'TRUE'
+  description: British Indian Ocean Territory
+  source: ISO 3166-1 alpha-2
+IQ:
+  active: 'TRUE'
+  description: Iraq
+  source: ISO 3166-1 alpha-2
+IR:
+  active: 'TRUE'
+  description: Iran, Islamic Republic of
+  source: ISO 3166-1 alpha-2
+IS:
+  active: 'TRUE'
+  description: Iceland
+  source: ISO 3166-1 alpha-2
+IT:
+  active: 'TRUE'
+  description: Italy
+  source: ISO 3166-1 alpha-2
+JE:
+  active: 'TRUE'
+  description: Jersey
+  source: ISO 3166-1 alpha-2
+JM:
+  active: 'TRUE'
+  description: Jamaica
+  source: ISO 3166-1 alpha-2
+JO:
+  active: 'TRUE'
+  description: Jordan
+  source: ISO 3166-1 alpha-2
+JP:
+  active: 'TRUE'
+  description: Japan
+  source: ISO 3166-1 alpha-2
+KE:
+  active: 'TRUE'
+  description: Kenya
+  source: ISO 3166-1 alpha-2
+KG:
+  active: 'TRUE'
+  description: Kyrgyzstan
+  source: ISO 3166-1 alpha-2
+KH:
+  active: 'TRUE'
+  description: Cambodia
+  source: ISO 3166-1 alpha-2
+KI:
+  active: 'TRUE'
+  description: Kiribati
+  source: ISO 3166-1 alpha-2
+KM:
+  active: 'TRUE'
+  description: Comoros
+  source: ISO 3166-1 alpha-2
+KN:
+  active: 'TRUE'
+  description: Saint Kitts and Nevis
+  source: ISO 3166-1 alpha-2
+KP:
+  active: 'TRUE'
+  description: Korea, Democratic People's Republic of
+  source: ISO 3166-1 alpha-2
+KR:
+  active: 'TRUE'
+  description: Korea, Republic of
+  source: ISO 3166-1 alpha-2
+KW:
+  active: 'TRUE'
+  description: Kuwait
+  source: ISO 3166-1 alpha-2
+KY:
+  active: 'TRUE'
+  description: Cayman Islands
+  source: ISO 3166-1 alpha-2
+KZ:
+  active: 'TRUE'
+  description: Kazakhstan
+  source: ISO 3166-1 alpha-2
+LA:
+  active: 'TRUE'
+  description: Lao People's Democratic Republic
+  source: ISO 3166-1 alpha-2
+LB:
+  active: 'TRUE'
+  description: Lebanon
+  source: ISO 3166-1 alpha-2
+LC:
+  active: 'TRUE'
+  description: Saint Lucia
+  source: ISO 3166-1 alpha-2
+LI:
+  active: 'TRUE'
+  description: Liechtenstein
+  source: ISO 3166-1 alpha-2
+LK:
+  active: 'TRUE'
+  description: Sri Lanka
+  source: ISO 3166-1 alpha-2
+LR:
+  active: 'TRUE'
+  description: Liberia
+  source: ISO 3166-1 alpha-2
+LS:
+  active: 'TRUE'
+  description: Lesotho
+  source: ISO 3166-1 alpha-2
+LT:
+  active: 'TRUE'
+  description: Lithuania
+  source: ISO 3166-1 alpha-2
+LU:
+  active: 'TRUE'
+  description: Luxembourg
+  source: ISO 3166-1 alpha-2
+LV:
+  active: 'TRUE'
+  description: Latvia
+  source: ISO 3166-1 alpha-2
+LY:
+  active: 'TRUE'
+  description: Libya
+  source: ISO 3166-1 alpha-2
+MA:
+  active: 'TRUE'
+  description: Morocco
+  source: ISO 3166-1 alpha-2
+MC:
+  active: 'TRUE'
+  description: Monaco
+  source: ISO 3166-1 alpha-2
+MD:
+  active: 'TRUE'
+  description: Moldova, Republic of
+  source: ISO 3166-1 alpha-2
+ME:
+  active: 'TRUE'
+  description: Montenegro
+  source: ISO 3166-1 alpha-2
+MF:
+  active: 'TRUE'
+  description: Saint Martin (French part)
+  source: ISO 3166-1 alpha-2
+MG:
+  active: 'TRUE'
+  description: Madagascar
+  source: ISO 3166-1 alpha-2
+MH:
+  active: 'TRUE'
+  description: Marshall Islands
+  source: ISO 3166-1 alpha-2
+MK:
+  active: 'TRUE'
+  description: North Macedonia
+  source: ISO 3166-1 alpha-2
+ML:
+  active: 'TRUE'
+  description: Mali
+  source: ISO 3166-1 alpha-2
+MM:
+  active: 'TRUE'
+  description: Myanmar
+  source: ISO 3166-1 alpha-2
+MN:
+  active: 'TRUE'
+  description: Mongolia
+  source: ISO 3166-1 alpha-2
+MO:
+  active: 'TRUE'
+  description: Macao
+  source: ISO 3166-1 alpha-2
+MP:
+  active: 'TRUE'
+  description: Northern Mariana Islands
+  source: ISO 3166-1 alpha-2
+MQ:
+  active: 'TRUE'
+  description: Martinique
+  source: ISO 3166-1 alpha-2
+MR:
+  active: 'TRUE'
+  description: Mauritania
+  source: ISO 3166-1 alpha-2
+MS:
+  active: 'TRUE'
+  description: Montserrat
+  source: ISO 3166-1 alpha-2
+MT:
+  active: 'TRUE'
+  description: Malta
+  source: ISO 3166-1 alpha-2
+MU:
+  active: 'TRUE'
+  description: Mauritius
+  source: ISO 3166-1 alpha-2
+MV:
+  active: 'TRUE'
+  description: Maldives
+  source: ISO 3166-1 alpha-2
+MW:
+  active: 'TRUE'
+  description: Malawi
+  source: ISO 3166-1 alpha-2
+MX:
+  active: 'TRUE'
+  description: Mexico
+  source: ISO 3166-1 alpha-2
+MY:
+  active: 'TRUE'
+  description: Malaysia
+  source: ISO 3166-1 alpha-2
+MZ:
+  active: 'TRUE'
+  description: Mozambique
+  source: ISO 3166-1 alpha-2
+.nan:
+  active: 'TRUE'
+  description: Namibia
+  source: ISO 3166-1 alpha-2
+NC:
+  active: 'TRUE'
+  description: New Caledonia
+  source: ISO 3166-1 alpha-2
+NE:
+  active: 'TRUE'
+  description: Niger
+  source: ISO 3166-1 alpha-2
+NF:
+  active: 'TRUE'
+  description: Norfolk Island
+  source: ISO 3166-1 alpha-2
+NG:
+  active: 'TRUE'
+  description: Nigeria
+  source: ISO 3166-1 alpha-2
+NI:
+  active: 'TRUE'
+  description: Nicaragua
+  source: ISO 3166-1 alpha-2
+NL:
+  active: 'TRUE'
+  description: Netherlands, Kingdom of the
+  source: ISO 3166-1 alpha-2
+'NO':
+  active: 'TRUE'
+  description: Norway
+  source: ISO 3166-1 alpha-2
+NP:
+  active: 'TRUE'
+  description: Nepal
+  source: ISO 3166-1 alpha-2
+NR:
+  active: 'TRUE'
+  description: Nauru
+  source: ISO 3166-1 alpha-2
+NU:
+  active: 'TRUE'
+  description: Niue
+  source: ISO 3166-1 alpha-2
+NZ:
+  active: 'TRUE'
+  description: New Zealand
+  source: ISO 3166-1 alpha-2
+OM:
+  active: 'TRUE'
+  description: Oman
+  source: ISO 3166-1 alpha-2
+PA:
+  active: 'TRUE'
+  description: Panama
+  source: ISO 3166-1 alpha-2
+PE:
+  active: 'TRUE'
+  description: Peru
+  source: ISO 3166-1 alpha-2
+PF:
+  active: 'TRUE'
+  description: French Polynesia
+  source: ISO 3166-1 alpha-2
+PG:
+  active: 'TRUE'
+  description: Papua New Guinea
+  source: ISO 3166-1 alpha-2
+PH:
+  active: 'TRUE'
+  description: Philippines
+  source: ISO 3166-1 alpha-2
+PK:
+  active: 'TRUE'
+  description: Pakistan
+  source: ISO 3166-1 alpha-2
+PL:
+  active: 'TRUE'
+  description: Poland
+  source: ISO 3166-1 alpha-2
+PM:
+  active: 'TRUE'
+  description: Saint Pierre and Miquelon
+  source: ISO 3166-1 alpha-2
+PN:
+  active: 'TRUE'
+  description: Pitcairn
+  source: ISO 3166-1 alpha-2
+PR:
+  active: 'TRUE'
+  description: Puerto Rico
+  source: ISO 3166-1 alpha-2
+PS:
+  active: 'TRUE'
+  description: Palestine, State of
+  source: ISO 3166-1 alpha-2
+PT:
+  active: 'TRUE'
+  description: Portugal
+  source: ISO 3166-1 alpha-2
+PW:
+  active: 'TRUE'
+  description: Palau
+  source: ISO 3166-1 alpha-2
+PY:
+  active: 'TRUE'
+  description: Paraguay
+  source: ISO 3166-1 alpha-2
+QA:
+  active: 'TRUE'
+  description: Qatar
+  source: ISO 3166-1 alpha-2
+RE:
+  active: 'TRUE'
+  description: "R\uFFFDunion"
+  source: ISO 3166-1 alpha-2
+RO:
+  active: 'TRUE'
+  description: Romania
+  source: ISO 3166-1 alpha-2
+RS:
+  active: 'TRUE'
+  description: Serbia
+  source: ISO 3166-1 alpha-2
+RU:
+  active: 'TRUE'
+  description: Russian Federation
+  source: ISO 3166-1 alpha-2
+RW:
+  active: 'TRUE'
+  description: Rwanda
+  source: ISO 3166-1 alpha-2
+SA:
+  active: 'TRUE'
+  description: Saudi Arabia
+  source: ISO 3166-1 alpha-2
+SB:
+  active: 'TRUE'
+  description: Solomon Islands
+  source: ISO 3166-1 alpha-2
+SC:
+  active: 'TRUE'
+  description: Seychelles
+  source: ISO 3166-1 alpha-2
+SD:
+  active: 'TRUE'
+  description: Sudan
+  source: ISO 3166-1 alpha-2
+SE:
+  active: 'TRUE'
+  description: Sweden
+  source: ISO 3166-1 alpha-2
+SG:
+  active: 'TRUE'
+  description: Singapore
+  source: ISO 3166-1 alpha-2
+SH:
+  active: 'TRUE'
+  description: Saint Helena, Ascension and Tristan da Cunha
+  source: ISO 3166-1 alpha-2
+SI:
+  active: 'TRUE'
+  description: Slovenia
+  source: ISO 3166-1 alpha-2
+SJ:
+  active: 'TRUE'
+  description: Svalbard and Jan Mayen
+  source: ISO 3166-1 alpha-2
+SK:
+  active: 'TRUE'
+  description: Slovakia
+  source: ISO 3166-1 alpha-2
+SL:
+  active: 'TRUE'
+  description: Sierra Leone
+  source: ISO 3166-1 alpha-2
+SM:
+  active: 'TRUE'
+  description: San Marino
+  source: ISO 3166-1 alpha-2
+SN:
+  active: 'TRUE'
+  description: Senegal
+  source: ISO 3166-1 alpha-2
+SO:
+  active: 'TRUE'
+  description: Somalia
+  source: ISO 3166-1 alpha-2
+SR:
+  active: 'TRUE'
+  description: Suriname
+  source: ISO 3166-1 alpha-2
+SS:
+  active: 'TRUE'
+  description: South Sudan
+  source: ISO 3166-1 alpha-2
+ST:
+  active: 'TRUE'
+  description: Sao Tome and Principe
+  source: ISO 3166-1 alpha-2
+SV:
+  active: 'TRUE'
+  description: El Salvador
+  source: ISO 3166-1 alpha-2
+SX:
+  active: 'TRUE'
+  description: Sint Maarten (Dutch part)
+  source: ISO 3166-1 alpha-2
+SY:
+  active: 'TRUE'
+  description: Syrian Arab Republic
+  source: ISO 3166-1 alpha-2
+SZ:
+  active: 'TRUE'
+  description: Eswatini
+  source: ISO 3166-1 alpha-2
+TC:
+  active: 'TRUE'
+  description: Turks and Caicos Islands
+  source: ISO 3166-1 alpha-2
+TD:
+  active: 'TRUE'
+  description: Chad
+  source: ISO 3166-1 alpha-2
+TF:
+  active: 'TRUE'
+  description: French Southern Territories
+  source: ISO 3166-1 alpha-2
+TG:
+  active: 'TRUE'
+  description: Togo
+  source: ISO 3166-1 alpha-2
+TH:
+  active: 'TRUE'
+  description: Thailand
+  source: ISO 3166-1 alpha-2
+TJ:
+  active: 'TRUE'
+  description: Tajikistan
+  source: ISO 3166-1 alpha-2
+TK:
+  active: 'TRUE'
+  description: Tokelau
+  source: ISO 3166-1 alpha-2
+TL:
+  active: 'TRUE'
+  description: Timor-Leste
+  source: ISO 3166-1 alpha-2
+TM:
+  active: 'TRUE'
+  description: Turkmenistan
+  source: ISO 3166-1 alpha-2
+TN:
+  active: 'TRUE'
+  description: Tunisia
+  source: ISO 3166-1 alpha-2
+TO:
+  active: 'TRUE'
+  description: Tonga
+  source: ISO 3166-1 alpha-2
+TR:
+  active: 'TRUE'
+  description: Turkiye
+  source: ISO 3166-1 alpha-2
+TT:
+  active: 'TRUE'
+  description: Trinidad and Tobago
+  source: ISO 3166-1 alpha-2
+TV:
+  active: 'TRUE'
+  description: Tuvalu
+  source: ISO 3166-1 alpha-2
+TW:
+  active: 'TRUE'
+  description: Taiwan
+  source: ISO 3166-1 alpha-2
+TZ:
+  active: 'TRUE'
+  description: Tanzania, United Republic of
+  source: ISO 3166-1 alpha-2
+UA:
+  active: 'TRUE'
+  description: Ukraine
+  source: ISO 3166-1 alpha-2
+UG:
+  active: 'TRUE'
+  description: Uganda
+  source: ISO 3166-1 alpha-2
+UM:
+  active: 'TRUE'
+  description: United States Minor Outlying Islands
+  source: ISO 3166-1 alpha-2
+US:
+  active: 'TRUE'
+  description: United States of America
+  source: ISO 3166-1 alpha-2
+UY:
+  active: 'TRUE'
+  description: Uruguay
+  source: ISO 3166-1 alpha-2
+UZ:
+  active: 'TRUE'
+  description: Uzbekistan
+  source: ISO 3166-1 alpha-2
+VA:
+  active: 'TRUE'
+  description: Holy See
+  source: ISO 3166-1 alpha-2
+VC:
+  active: 'TRUE'
+  description: Saint Vincent and the Grenadines
+  source: ISO 3166-1 alpha-2
+VE:
+  active: 'TRUE'
+  description: Venezuela, Bolivarian Republic of
+  source: ISO 3166-1 alpha-2
+VG:
+  active: 'TRUE'
+  description: Virgin Islands (British)
+  source: ISO 3166-1 alpha-2
+VI:
+  active: 'TRUE'
+  description: Virgin Islands (U.S.)
+  source: ISO 3166-1 alpha-2
+VN:
+  active: 'TRUE'
+  description: Viet Nam
+  source: ISO 3166-1 alpha-2
+VU:
+  active: 'TRUE'
+  description: Vanuatu
+  source: ISO 3166-1 alpha-2
+WF:
+  active: 'TRUE'
+  description: Wallis and Futuna
+  source: ISO 3166-1 alpha-2
+WS:
+  active: 'TRUE'
+  description: Samoa
+  source: ISO 3166-1 alpha-2
+YE:
+  active: 'TRUE'
+  description: Yemen
+  source: ISO 3166-1 alpha-2
+YT:
+  active: 'TRUE'
+  description: Mayotte
+  source: ISO 3166-1 alpha-2
+ZA:
+  active: 'TRUE'
+  description: South Africa
+  source: ISO 3166-1 alpha-2
+ZM:
+  active: 'TRUE'
+  description: Zambia
+  source: ISO 3166-1 alpha-2
+ZW:
+  active: 'TRUE'
+  description: Zimbabwe
+  source: ISO 3166-1 alpha-2

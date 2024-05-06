@@ -1,0 +1,8 @@
+active,value,description,definition,source
+TRUE,LONG_LIFE_BATTERY_POWERED,Long Life Battery Powered,,
+TRUE,REPLACEABLE_BATTERY_POWERED,Replaceable Battery Powered,,
+TRUE,HARDWIRED,Hardwired,,
+TRUE,INTERCONNECTED,Interconnected,,
+TRUE,HARD_OF_HEARING_WITH_STROBE,Hard of Hearing with Strobe,,
+TRUE,BED_SHAKER,Bed Shaker,,
+TRUE,COMBINATION,Combination (Smoke / CO),,

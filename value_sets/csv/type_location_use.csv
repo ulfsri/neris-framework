@@ -1,0 +1,75 @@
+active,value_1,value_2,description_1,description_2,definition,source,NFIRS Crosswalk
+TRUE,AGRICULTURE_STRUCT,STORAGE_SILO,Agriculture Structure,Storage / Silo,,,816
+TRUE,AGRICULTURE_STRUCT,FARM_BUILDING,Agriculture Structure,Farm (Building),,,
+TRUE,AGRICULTURE_STRUCT,ANIMAL_PROCESSING,Agriculture Structure,Animal Processing,,,659
+TRUE,AGRICULTURE_STRUCT,VETERINARY_LIVESTOCK,Agriculture Structure,Veterinary (Livestock),,,819
+TRUE,ASSEMBLY,COMMUNITY_CENTER,Assembly,Community Center,,,116
+TRUE,ASSEMBLY,CONVENTION_CENTER,Assembly,Convention Center,,,122
+TRUE,ASSEMBLY,INDOOR_ARENA,Assembly,Indoor Arena,,,"123, 182"
+TRUE,ASSEMBLY,RELIGIOUS,Assembly,Religious,,,"130, 131, 134"
+TRUE,ASSEMBLY,MUSEUM_EXHIBIT_HALL_LIBRARY,Assembly,Museum / Exhibit Hall / Library,,,"152, 151"
+TRUE,COMMERCIAL,ENTERTAINMENT_RECREATION,Commercial,Entertainment and Recreation,,,"111, 112, 113, 114, 115, 116, 120, 121, 129, 140, 141, 142, 144"
+TRUE,COMMERCIAL,RESTAURANT_CAFE,Commercial,Restaurant / Cafe,,,"519, 142, 160, 161"
+TRUE,COMMERCIAL,BAR_NIGHTCLUB,Commercial,Bar / Nightclub,,,162
+TRUE,COMMERCIAL,OFFICE_OTHER_TECHNICAL_SERVICES,Commercial,Office / Other Technical Services,,,"599, 596, 593, 635, 639,"
+TRUE,COMMERCIAL,RETAIL_WHOLESALE_TRADE,Commercial,Retail / Wholesale / Trade,,,"500, 511, 519, 529, 539, 549, 557, 559, 564, 569, 580, 581, 592"
+TRUE,COMMERCIAL,THEATERS_STUDIO,Commercial,Theaters/Studio,,,"180, 181, 182, 183, 185, 186"
+TRUE,COMMERCIAL,VEHICLE_REPAIR_SERVICES,Commercial,Vehicle Repair Services,,,"579, 579"
+TRUE,COMMERCIAL,VEHICLE_FUELING_CHARGING_STATION,Commercial,Vehicle Fueling / Charging Station,,,571
+TRUE,COMMERCIAL,VETERINARY_PET ,Commercial,Veterinary (Pet),,,300
+TRUE,EDUCATION,COLLEGES_UNIVERSITIES,Education,Colleges/Universities,,,241
+TRUE,EDUCATION,OTHER_EDUCATIONAL_BUILDINGS,Education,Other Educational Buildings,,,"200, 210"
+TRUE,EDUCATION,PREK_DAYCARE,Education,Pre-K / Day Care,,,"211, 250, 254, 255, 256"
+TRUE,EDUCATION,K_12_SCHOOLS,Education,K - 12 Schools,,,"213, 215"
+TRUE,EDUCATION,DORMITORY_HOUSING,Education,Dormitory Housing,,,464
+TRUE,GOVERNMENT,POLICE_EMERGENCY_STATION,Government,Police Station / Emergency Response,,,365
+TRUE,GOVERNMENT,FIRE_MEDICAL_STATION,Government,Fire Station / Medical Response Station,,,888
+TRUE,GOVERNMENT,JAIL_PRISON_REFORMATORY,Government,Jail / Prison / Reformatory / Incarceration ,,,"361, 363"
+TRUE,GOVERNMENT,GENERAL_SERVICES,Government,General Services,,,"150, 155"
+TRUE,GOVERNMENT,NON_CIVILIAN_STRUCTURES,Government,"Non-Civilian Structures (Defense, Military)",,,631
+TRUE,INDUSTRIAL,CHEMICAL,Industrial,Chemical,,,
+TRUE,INDUSTRIAL,FOOD_DRUGS,Industrial,Food / Drugs,,,
+TRUE,INDUSTRIAL,HEAVY,Industrial,Heavy ,,,
+TRUE,INDUSTRIAL,LIGHT,Industrial,Light,,,700
+TRUE,INDUSTRIAL,METALS_MINERALS_PROCESSING,Industrial,Metals/Minerals Processing,,,
+TRUE,HEALTH_CARE,MEDICAL_OFFICE_CLINIC,Health Care,Medical Office/Clinic,,,"340, 341, 342"
+TRUE,HEALTH_CARE,HOSPITAL_24_HOUR_MEDICAL_FACILITIES ,Health Care,Hospital / 24-Hour Medical Facilities / Institutional,,,331
+TRUE,HEALTH_CARE,NURSING_HOME_ASSISTED_LIVING_RESIDENCE_ONSITE,Health Care,Nursing Home / Assisted Living / Residence with Onsite care and support,,,"311, 321, 323, "
+TRUE,RESIDENTIAL,CONGREGATE_HOUSING,Residential,Congregate Housing,,,"322, 439, 459, 460, 462"
+TRUE,RESIDENTIAL,MANUFACTURED_MOBILE_HOME,Residential,Manufactured/Mobile Home,,,
+TRUE,RESIDENTIAL,DETATCHED_SINGLE_FAMILY_DWELLING,Residential,Detached Single Family Dwelling,,,419
+TRUE,RESIDENTIAL,ATTACHED_SINGLE_FAMILY_DWELLING,Residential,Attached Single Family Dwelling,,,
+TRUE,RESIDENTIAL,MULTI_FAMILY_LOWRISE_DWELLING,Residential,Multi-Family Lowrise Dwelling (<=4 Stories),,,429
+TRUE,RESIDENTIAL,MULTI_FAMILY_MIDRISE_DWELLING,Residential,Multi-Family Midrise Dwelling (5-8 Stories),,,429
+TRUE,RESIDENTIAL,MULTI_FAMILY_HIGHRISE_DWELLING,Residential,Multi-Family Highrise Dwelling (>= 9 Stories),,,429
+TRUE,RESIDENTIAL,DETATCHED_GARAGE,Residential,Detached Garage,,,808
+TRUE,RESIDENTIAL,UNHOUSED_TEMPORARY_SHELTER,Residential,Unhoused/Temporary Shelter,,,
+TRUE,RESIDENTIAL,TEMPORARY_LODGING_HOTEL_MOTEL,Residential,Temporary Lodging / Hotel / Motel,,,449
+TRUE,UNCLASSIFIED,UNCLASSIFIED,Unclassified,Unclassified,,,
+TRUE,UTILITY_MISC,TRANSPORTATION_STATION_HUB_AREA,Utility and Misc,Transportation Station / Hub / Area (Airport / Bus / Train / Passenger Terminal,,,"974, 972, 973, 171, 173, 174, 632"
+TRUE,UTILITY_MISC,ENERGY_FACILITY_INFRASTRUCTURE,Utility and Misc,Energy Facility / Infrastructure,,,"610, 614, 615, 642, 644, 645,  983"
+TRUE,UTILITY_MISC,WATER_SANITATION_FACILITY_INFRASTRUCTURE,Utility and Misc,Water and Sanitation Facility / Infrastructure,,,647
+TRUE,UTILITY_MISC,TRASH_RECYCLING_FACILITY,Utility and Misc,Trash / Recycling Facility,,,648
+TRUE,STORAGE,STORAGE_PORTABLE_BUILDING,Storage,Storage - Portable Building,,,
+TRUE,STORAGE,STORAGE_MULTI_TENANT,Storage,Storage - Multi-Tenant,,,
+TRUE,STORAGE,STORAGE_SINGLE_TENANT,Storage,Storage -  Single-Tenant,,,
+TRUE,ROADWAY_ACCESS,SIDEWALK,Roadway/Access,Sidewalk,,,
+TRUE,ROADWAY_ACCESS,STREET,Roadway/Access,Street,,,"960, 962, 963"
+TRUE,ROADWAY_ACCESS,HIGHWAY_INTERSTATE,Roadway/Access,Highway / Interstate ,,,961
+TRUE,ROADWAY_ACCESS,LIMITED_ACCESS_HIGHWAY_INTERSTATE,Roadway/Access,Limited Access Highway / Interstate,,,
+TRUE,ROADWAY_ACCESS,BRIDGE,Roadway/Access,Bridge,,,921
+TRUE,ROADWAY_ACCESS,TUNNEL,Roadway/Access,Tunnel,,,922
+TRUE,ROADWAY_ACCESS,RAILROAD_RAILYARD,Roadway/Access,Railroad or Railroad Yard,,,"951, 952"
+TRUE,ROADWAY_ACCESS,PARKING_LOT_GARAGE,Roadway/Access,Parking Lot / Parking Garage,,,"881, 882, 965"
+TRUE,OUTDOOR,GROUND_VACANT_LAND,Outdoor,Ground / Vacant Land,,,"931, 936 "
+TRUE,OUTDOOR,CAMP_SITE,Outdoor,Camp Site,,,935
+TRUE,OUTDOOR,PLAYGROUND_PARK_RECREATIONAL_AREA,Outdoor,Playground / Park / Recreational Area / Monument / Statue,,,"110, 121, 124, 154"
+TRUE,OUTDOOR,HIKING_TRAIL,Outdoor,Hiking Trail,,,
+TRUE,OUTDOOR,ORCHARD_CROPS_FARMLAND,Outdoor,Orchard / Crops / Farm (non-building),,,655
+TRUE,OUTDOOR,FOREST_GRASSLANDS_WOODLAND_WILDLAND_AREAS,Outdoor,Forest / Grasslands / Woodland / Wildland Area,,,669
+TRUE,OUTDOOR,WATER_PROXIMITY,Outdoor,Water Proximity (Beach / Dock),,,"937, 143, 898, 940"
+TRUE,OUTDOOR,OPEN_WATER,Outdoor,Open Water (Lake / River/ Pond / Ocean),,,"941, 946"
+TRUE,OUTDOOR_INDUSTRIAL,DUMP_LANDFILL,Outdoor Industrial,Dump / Landfill,,,919
+TRUE,OUTDOOR_INDUSTRIAL,INDUSTRIAL_YARD,Outdoor Industrial,Industrial Yard,,,984
+TRUE,OUTDOOR_INDUSTRIAL,MINE,Outdoor Industrial,Mine (non-building) / Oil Field,,,"679, 982"
+TRUE,OUTDOOR_INDUSTRIAL,CONSTRUCTION_SITE,Outdoor Industrial,Construction Site,,,981

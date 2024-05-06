@@ -1,0 +1,24 @@
+COMPLETED_FIRE_SERVICE_ONLY:
+  active: 'TRUE'
+  description: Completed by Fire Sevice Only
+COMPLETED_WITH_FIRE_SERVICE_PRESENT:
+  active: 'TRUE'
+  description: Completed with Fire Service Present
+RELEASED_TO_LOCAL_AGENCY:
+  active: 'TRUE'
+  description: Released to Local Agency
+RELEASED_TO_COUNTY_AGENCY:
+  active: 'TRUE'
+  description: Released to County Agency
+RELEASED_TO_STATE_AGENCY:
+  active: 'TRUE'
+  description: Released to State Agency
+RELEASED_TO_FEDERAL_AGENCY:
+  active: 'TRUE'
+  description: Released to Federal Agency
+RELEASED_TO_PRIVATE_AGENCY:
+  active: 'TRUE'
+  description: Released to Private Agency
+RELEASED_TO_PROPERTY_OWNER:
+  active: 'TRUE'
+  description: Released to  Property Owner

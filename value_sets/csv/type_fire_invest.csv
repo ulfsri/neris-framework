@@ -1,0 +1,8 @@
+active,value,description,definition,source
+TRUE,INVESTIGATED_ON_SCENE_RESOURCE,Investigated by On-Scene Operational Resources,,
+TRUE,INVESTIGATED_BY_ARSON_FIRE_INVESTIGATOR,Investigated by Formal Arson / Fire Investigator,,
+TRUE,INVESTIGATED_BY_OUTSIDE_AGENCY,Investigated by By Outside Fire Agency,,
+TRUE,INVESTIGATED_BY_STATE_FIRE_MARSHAL,Investigated by State Fire Marshal,,
+TRUE,INVESTIGATED_BY_INSURANCE,Investigated by Insurance,,
+TRUE,INVESTIGATED_BY_NONFIRE_LAW_ENFORCEMENT,Investigated by Law Enforcement (Nonfire),,
+TRUE,INVESTIGATED_BY_OTHER,Investigated by  Other,,

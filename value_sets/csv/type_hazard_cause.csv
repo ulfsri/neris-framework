@@ -1,0 +1,6 @@
+active,value,description,definition,source
+TRUE,INTENTIONAL,Intentional,,
+TRUE,UNINTENTIONAL,Unintentional,,
+TRUE,CONTAINER_CONTAINMENT_FAILURE,Container / Containment Failure,,
+TRUE,ACT_OF_NATURE,Act of Nature,,
+TRUE,CAUSE_UNDER_INVESTIGATION,Cause Under Investigation,,

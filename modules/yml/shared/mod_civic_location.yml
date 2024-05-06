@@ -1,0 +1,760 @@
+named_loc_structure:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_location_country.value
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: BldgName
+  definition: 'A built feature which has a vertical dimension, including both conventional buildings which have walls, doors, and a roof, and other kinds of infrastructure such as cell towers, transformer stations, fuel tanks, and so on. '
+  example: '"Fuel Storage Shed" in "100 Cantwell Avenue, Fuel Storage Shed"'
+  comments: '---'
+named_loc_subsite:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: Name of a sub-area within a larger area specified either by site name, by a thoroughfare address, or both.
+  example: '"Buckeye Village" in "The Ohio State University, Buckeye Village"'
+  comments: '---'
+named_loc_site:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: Name of an exterior area which is publicly known and unique within a given place. A site may contain one or more structures and/or sub-sites.
+  example: '"Winslow Park and Campground" in "Winslow Park and Campground, Freeport, ME" '
+  comments: '---'
+addr_num_prefix:
+  group: cldxf_address_number
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_address_number
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Identifier in the portion of the complete address number that precedes the integer Address Number in order to further specify a location along a thoroughfare or within a defined area. '
+  example: '"A" in "A19 Calle 117, Toa Alta, PR"'
+  comments: '---'
+addr_num_number:
+  group: cldxf_address_number
+  type: Integer
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_address_number
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: AddNum
+  definition: Integer identifier of a location along a thoroughfare or within a defined community.
+  example: '"123" in "123 Main Street"'
+  comments: '---'
+addr_num_suffix:
+  group: cldxf_address_number
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_address_number
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Identifier in the portion of the complete address number that follows the integer Address Number in order to further specify a location along a thoroughfare or within a defined area. '
+  example: '"1"2" in "194-03 1"2 50th Avenue, New York, NY 11365" '
+  comments: '---'
+addr_num_complete:
+  group: cldxf_address_number
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_address_number
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Address Number Complete includes the Address Number Prefix (if any), the Address Number, Address Number Suffix (if any), and any formatting or separator characters needed to display the official version of the complete address number. The Address Number Complete precedes the complete street name to identify a location along a thoroughfare or within a defined area. '
+  example: '"A19" in "A19 Calle 117, Toa Alta, PR"'
+  comments: '---'
+addr_num_distance_marker:
+  group: cldxf_address_number
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_address_number
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Distance travelled along a route such as a road or highway, indicated by a distance marker sign, typically a post or other marker indicating the distance in miles/kilometers from or to a given point. '
+  example: '"Milepost 1303" in "Milepost 1303, Alaska Highway"'
+  comments: '---'
+st_name_pre_modifier:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Word or phrase that precedes and modifies the Street Name element but is separated from it by a Street Name Pre Type or a Street Name Pre Directional or both. '
+  example: '"Old" in "Old North First Street" ("Old" is a Street Name Pre Modifier because the Street Name Pre Directional "North" separates "Old" from the Street Name "First" and the Street Name Post Type "Street".)'
+  comments: '---'
+st_name_pre_dir:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: StPreDir
+  definition: 'Word preceding the Street Name element that indicates the direction taken by the street from an arbitrary starting point or line, or the sector where it is located. '
+  example: '"North" in "North Fairfax Drive"'
+  comments: '---'
+st_name_pre_type:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_location_street_pre_post.value
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: StPreType
+  definition: Word or phrase that precedes the Street Name element and identifies a type of thoroughfare in a complete street name.
+  example: '"Avenue" in "Avenue A"'
+  comments: '---'
+st_name_pre_type_separator:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_location_street_pre_sep.value
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Preposition or prepositional phrase between the Street Name Pre Type and the Street Name. '
+  example: '"of the" in "Avenue of the Americas" '
+  comments: '---'
+st_name_name:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: StName
+  definition: Element of the complete street name that identifies the particular street (as opposed to any street types, directionals, and modifiers).
+  example: '"Fairfax" in "North Fairfax Avenue" '
+  comments: '---'
+st_name_post_type:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_location_street_pre_post.value
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: StType
+  definition: Word or phrase that follows the Street Name element and identifies a type of thoroughfare in a complete street name.
+  example: '"Avenue" in "North Fairfax Avenue" '
+  comments: '---'
+st_name_post_directional:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: StDir
+  definition: 'Word following the Street Name element that indicates the direction taken by the street from an arbitrary starting point or line, or the sector where it is located. '
+  example: '"East" in "Seventh Street East"'
+  comments: '---'
+st_name_post_modifier:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Word or phrase that follows and modifies the Street Name element and is either separated from it by a Street Name Post Type and/or a Street Name Post Directional. '
+  example: '"Extension" in "Market Street North Extension" (because "North" separates "Extension" from the Street Name Post Type.'
+  comments: '---'
+st_name_dir_of_travel:
+  group: cldxf_street_name
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_location_direction.value
+  group.1: cldxf_street_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Word which follows all other street name elements and is used only as needed to indicate direction of travel on a divided roadway and associated frontage roads. '
+  example: '"northbound" in "Interstate Highway 5 North northbound" '
+  comments: '---'
+named_loc_wing:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Designated part of a structure which spans one or many floors, typically including more than one unit or room and representing a significant portion of the structure floor area. '
+  example: '"Concourse A" in "Pittsburgh International Airport, Airside Terminal, Concourse A" '
+  comments: '---'
+named_loc_floor:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: LevelType + LevelName
+  definition: Standardized identifier for a story or level within a structure, wing, or unit.
+  example: '"5" in "800 Jefferson Street, 5th Floor" '
+  comments: '---'
+named_loc_unit_pre_type:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: UnitType
+  definition: Part of the complete unit identifier that precedes the Unit Value and indicates the kind of unit.
+  example: '"Apartment" in "422 Via Casitas, Apartment 12" '
+  comments: '---'
+named_loc_unit_value:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: UnitName
+  definition: Part of the complete unit identifier that uniquely identifies a particular unit.
+  example: '"12" in "422 Via Casitas, Apartment 12" '
+  comments: '---'
+named_loc_room:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Single, distinctly identified, enclosed space within a structure. '
+  example: '"E427" in "Gilman Memorial Hospital, Room E247" '
+  comments: '---'
+named_loc_section:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Identified, unenclosed area within a structure, wing, unit, or room. '
+  example: '"Customer Seating" in "Coastland Mall, Food Court, Customer Seating" '
+  comments: '---'
+named_loc_row:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Identified linear feature, such as a linear arrangement of seats, workstations, equipment, or storage, within a structure, wing, unit, or room. '
+  example: '"Aisle 4" in "Warehouse 3, Aisle 4"'
+  comments: '---'
+named_loc_seat:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: Identified seat, desk, workstation, or similar precise location within a structure, wing, unit, room, section, or row.
+  example: '"Cubicle A-7" in "1 Ashburton Place, Room 819, Cubicle A-7"'
+  comments: '---'
+named_loc_additional_info:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Information that relates to location but does not meet the definition of any other named location elements. '
+  example: 'Main Loading Dock '
+  comments: '---'
+named_loc_marker:
+  group: cldxf_named_location
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_named_location
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Uniquely identified and indivisible infrastructure component, smaller than a structure, which exists either within a structure or exterior to any structure, such as an alarm box, a utility pole, a callbox, or other similar feature. '
+  example: Call Box CC-680-118 (an emergency call box on Interstate 680 in Contra Costa County, CA)
+  comments: '---'
+place_postal_community:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: City name for the ZIP Code of an address, as given in the USPS City State file.
+  example: 'Stanton (a post office name in KY) '
+  comments: '---'
+place_neigh_community:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: Nbrhd
+  definition: 'Name of an unincorporated neighborhood, subdivision or area, either within an incorporated municipality, or in an unincorporated portion of a county or both, where the address is located. '
+  example: 'Cypress Meadows Subdivision '
+  comments: '---'
+place_uninc_community:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Name of an unincorporated community, either within an incorporated municipality or in an unincorporated portion of a county, or both, where the address is located. '
+  example: '14th Ward (a ward in the incorporated municipality of Pittsburgh, PA) '
+  comments: '---'
+place_inc_municipality:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: City
+  definition: Name of the incorporated municipality or other general-purpose local governmental unit (if any) where the address is located.
+  example: 'Haleyville '
+  comments: '---'
+place_county:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: SubRegion
+  definition: 'Name of the county or county-equivalent where the address is located. A county (or its equivalent) is the primary legal division of a state or territory. '
+  example: Winston County
+  comments: '---'
+place_state:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'TRUE'
+  reference_location: stateabbrev enum
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: RegionAbbr
+  definition: Name of a state or state equivalent, represented by the two- letter UPPER CASE abbreviation given in USPS Publication 28 [15], Appendix B. A state is a primary governmental division of the United States.
+  example: 'VA '
+  comments: '---'
+place_postal_code:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: Postal
+  definition: System of 5-digit codes that identifies the individual USPS Post Office or metropolitan area delivery station associated with an address.
+  example: '02109 (one of many ZIP Codes for Boston, MA) '
+  comments: '---'
+place_postal_code_extension:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: PostalExt
+  definition: System of 4-digit codes that are used after the 5-digit ZIP Code to specify a range of USPS delivery addresses.
+  example: '"0001" in "02109-0001" (portion of a 02109 ZIP Code). '
+  comments: '---'
+place_country:
+  group: cldxf_country_state_and_other_place_name
+  type: Text
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: cldxf_country_state_and_other_place_name
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: Country (mapped to 2 digits)
+  definition: Name of a country represented by its two-letter ISO 3166-1[14] English country alpha-2 code elements in UPPER CASE letters.
+  example: US
+  comments: '---'
+place_type:
+  group: cldxf_address_descriptor
+  type: Text
+  value_set: 'TRUE'
+  reference_location: type_location_place.value
+  group.1: cldxf_address_descriptor
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: 'Type of feature identified by the address. '
+  example: 'Airport '
+  comments: '---'
+additional_attributes:
+  group: neris_addition
+  type: JSONB
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: neris_addition
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Single
+  map_orm_landing: shared
+  map_app: '---'
+  definition: JSON string of structure address elements which the transmitter wishes to include.
+  example: '"{''common_name'': ''Eastside Walmart''}"'
+  comments: '---'
+cross_street_nearest:
+  group: neris_addition
+  type: Array[Text, Text]
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: neris_addition
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: shared
+  map_app: '---'
+  definition: Array of (Street name + optional address number) for the nearest intersection.
+  example: '[''100 Main Street'', ''200 Reverend Cogmeyer Boulevard'']'
+  comments: '---'
+cross_street_second:
+  group: neris_addition
+  type: Array[Text, Text]
+  value_set: 'FALSE'
+  reference_location: '---'
+  group.1: neris_addition
+  possible_if: '---'
+  db_required: 'FALSE'
+  neris_core_if: '---'
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: '---'
+  cardinality: Multi
+  map_orm_landing: shared
+  map_app: '---'
+  definition: Array of (Street name + optional address number) for the second nearest intersection.
+  example: '[''Elm Street'']'
+  comments: '---'

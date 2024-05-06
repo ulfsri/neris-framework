@@ -1,0 +1,7 @@
+active,value,description,definition,source
+TRUE,NO_SMOKE_FIRE_SHOWING,No Smoke / Fire Showing,,
+TRUE,SMOKE_SHOWING,Smoke Showing,,
+TRUE,SMOKE_FIRE_SHOWING,Smoke and Fire Showing,,
+TRUE,STRUCTURE_INVOLVED,Structure Involved,,
+TRUE,FIRE_SPREAD_BEYOND_STRUCTURE,Fire Spread Beyond Structure,,
+TRUE,FIRE_OUT_UPON_ARRIVAL,Fire Out Upon Arrival,,

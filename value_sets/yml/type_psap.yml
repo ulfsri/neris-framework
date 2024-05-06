@@ -1,0 +1,6 @@
+PRIMARY:
+  active: 'TRUE'
+  description: Primary
+SECONDARY:
+  active: 'TRUE'
+  description: Secondary

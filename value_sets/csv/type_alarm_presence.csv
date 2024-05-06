@@ -1,0 +1,4 @@
+active,value,description,definition,source
+TRUE,PRESENT,Present,,
+TRUE,NOT_PRESENT,Not Present,,
+TRUE,NOT_APPLICABLE,Not Applicable,,

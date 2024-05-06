@@ -1,0 +1,8 @@
+active,value,description,definition,source
+TRUE,HYDRANT_LESS_500,Hydrant (Est. Flow < 500 gpm),,
+TRUE,HYDRANT_GREATER_500,Hydrant (Est. Flow > 500 gpm),,
+TRUE,TANK_WATER,Tank Water,,
+TRUE,WATER_TENDER_SHUTTLE,Water Tender / Shuttle,,
+TRUE,NURSE_OTHER_APPARATUS,Nurse from Other Apparatus,,
+TRUE,DRAFT_FROM_STATIC_SOURCE,Draft from Static Source,,
+TRUE,SUPPLY_FROM_FIRE_BOAT ,Supply From Fire Boat,,

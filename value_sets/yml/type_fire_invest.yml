@@ -1,0 +1,21 @@
+INVESTIGATED_ON_SCENE_RESOURCE:
+  active: 'TRUE'
+  description: Investigated by On-Scene Operational Resources
+INVESTIGATED_BY_ARSON_FIRE_INVESTIGATOR:
+  active: 'TRUE'
+  description: Investigated by Formal Arson / Fire Investigator
+INVESTIGATED_BY_OUTSIDE_AGENCY:
+  active: 'TRUE'
+  description: Investigated by By Outside Fire Agency
+INVESTIGATED_BY_STATE_FIRE_MARSHAL:
+  active: 'TRUE'
+  description: Investigated by State Fire Marshal
+INVESTIGATED_BY_INSURANCE:
+  active: 'TRUE'
+  description: Investigated by Insurance
+INVESTIGATED_BY_NONFIRE_LAW_ENFORCEMENT:
+  active: 'TRUE'
+  description: Investigated by Law Enforcement (Nonfire)
+INVESTIGATED_BY_OTHER:
+  active: 'TRUE'
+  description: Investigated by  Other

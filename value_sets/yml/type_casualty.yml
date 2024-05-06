@@ -1,0 +1,9 @@
+UNINJURED:
+  active: 'TRUE'
+  description: Uninjured
+INJURED_NONFATAL:
+  active: 'TRUE'
+  description: Injured Nonfatal
+INJURED_FATAL:
+  active: 'TRUE'
+  description: Injured Fatal

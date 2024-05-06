@@ -1,0 +1,11 @@
+name,group,type,value_set,reference_location,possible_if,db_required,neris_core,neris_core_if,neris_core_aid,computed,computed_from,cardinality,map_orm_landing,map_app,description,example,comments,api_class
+hazsit_disposition,hazsit,Text,TRUE,type_hazard_disposition.value,,TRUE,TRUE,,,FALSE,,Single,,,Outcome of the hazmat incident.,See type_hazard_disposition table,,
+hazsit_evacuated,hazsit,Integer,FALSE,,,TRUE,TRUE,,,FALSE,,Single,,,Number of occupants/businesses evacuated during the incident response.,2,,
+chemical_dot_class,chemical,Array[Text],TRUE,type_hazard_dot.value,,TRUE,TRUE,,,FALSE,,Multi,,,Department of Transportation Hazard Classification.,See type_hazard_dot table,"If any related to batteries, complete emerging_hazard_submodule",
+chemical_name,chemical,Array[Text],FALSE,,,TRUE,TRUE,,,FALSE,,Multi,,,Name of the chemical/material involved in the incident.,,,
+chemical_release_occurred,chemical,Array[Boolean],FALSE,,,TRUE,TRUE,,,FALSE,,Multi,,,Whether the chemical was released.,"""True""",,
+chemical_amount_est,chemical.release,Array[Float],FALSE,,release_occurred is True,FALSE,TRUE,,,FALSE,,Multi,,,Estimated amount released by volume or weight.,1345,,
+chemical_amount_est_units,chemical.release,Array[Text],TRUE,type_hazard_unit.value,release_occurred is True,FALSE,TRUE,,,FALSE,,Multi,,,Unit of measurement of the estimated amount released.,See type_hazard_unit table,,
+chemical_physical_state,chemical.release,Array[Text],TRUE,type_hazard_physical_state.value,release_occurred is True,FALSE,TRUE,,,FALSE,,Multi,,,Physical state of the chemical.,See type_hazard_physical_state table,,
+chemical_release_into,chemical.release,Array[Text],TRUE,type_hazard_released_into.value,release_occurred is True,FALSE,TRUE,,,FALSE,,Multi,,,Environment which was contaminated.,See type_hazard_released_into table,,
+chemical_release_cause,chemical.release,Array[Text],TRUE,type_hazard_cause.value,release_occurred is True,FALSE,TRUE,,,FALSE,,Multi,,,Cause of the hazmat release.,See type_hazard_cause table,,

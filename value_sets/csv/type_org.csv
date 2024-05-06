@@ -1,0 +1,7 @@
+active,value,description,definition,source
+TRUE,LOCAL,Local,,
+TRUE,TRIBAL_GOVT,Tribal Government,,
+TRUE,PRIVATE,Private,,
+TRUE,DOD,DOD,,
+TRUE,SFM,State Fire Marshal,,
+TRUE,FEDERAL,Federal,,
