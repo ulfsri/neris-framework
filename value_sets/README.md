@@ -1,6 +1,6 @@
 ## value sets
 
-This metadata is a descriptive representation of the data elements in NERIS value sets. Value sets serve as the pre-populated list exists from which users choose the most appropriate response. 
+This metadata is a descriptive representation of the data elements in NERIS value sets. Value sets serve as the pre-populated list from which users choose the most appropriate response. 
 
 - `active`
     - Boolean
