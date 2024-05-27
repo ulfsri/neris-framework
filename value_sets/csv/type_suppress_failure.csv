@@ -1,0 +1,8 @@
+name,active,description,definition,source
+SYSTEM_SHUTOFF_PRIOR_TO_INCIDENT,TRUE,System Shutoff Prior to Incident,,
+SYSTEM_SHUTOFF_DURING_INCIDENT,TRUE,System Shutoff during Incident,,
+SYSTEM_INOPERABLE,TRUE,System Inoperable,,
+SYSTEM_DAMAGED_COMPROMISED,TRUE,System Damaged / Compromised,,
+SYSTEM_NOT_SUITABLE,TRUE,System Not / Suitable For Current Occupancy / Fuel Load,,
+INSUFFICIENT_WATER_SUPPLY,TRUE,Insufficient Water Supply,,
+UNABLE_TO_DETERMINE,TRUE,Unable To Determine,,

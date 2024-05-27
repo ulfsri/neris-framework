@@ -1,7 +1,7 @@
-active,value,description,definition,source
-TRUE,YES,Yes,,
-TRUE,NO,No,,
-TRUE,NOT_EVALUATED,Not Evaluated,,
-TRUE,NOT_APPLICABLE,Not Applicable,,
-TRUE,NO_CAUSE_OBVIOUS,No - Cause Obvious,,
-TRUE,OTHER,Other,,
+name,active,description,definition,source
+YES,TRUE,Yes,,
+NO,TRUE,No,,
+NOT_EVALUATED,TRUE,Not Evaluated,,
+NOT_APPLICABLE,TRUE,Not Applicable,,
+NO_CAUSE_OBVIOUS,TRUE,No - Cause Obvious,,
+OTHER,TRUE,Other,,

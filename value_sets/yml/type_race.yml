@@ -1,18 +1,30 @@
 AMERICAN_INDIAN_ALASKA_NATIVE:
   active: 'TRUE'
   description: American Indian or Alaska Native
+  definition: ''
+  source: ''
 ASIAN:
   active: 'TRUE'
   description: Asian
+  definition: ''
+  source: ''
 BLACK_AFRICAN_AMERICAN:
   active: 'TRUE'
   description: Black or African American
+  definition: ''
+  source: ''
 HISPANIC_LATINO:
   active: 'TRUE'
   description: Hispanic or Latino
+  definition: ''
+  source: ''
 NATIVE_HAWAIIAN_PACIFIC_ISLANDER:
   active: 'TRUE'
   description: Native Hawaiian or Pacific Islander
+  definition: ''
+  source: ''
 WHITE:
   active: 'TRUE'
   description: White
+  definition: ''
+  source: ''

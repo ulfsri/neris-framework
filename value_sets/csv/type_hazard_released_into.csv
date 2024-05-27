@@ -1,4 +1,4 @@
-active,value,description,definition,source
-TRUE,AIR,Air,,
-TRUE,WATER,Water,,
-TRUE,GROUND,Ground,,
+name,active,description,definition,source
+AIR,TRUE,Air,,
+WATER,TRUE,Water,,
+GROUND,TRUE,Ground,,

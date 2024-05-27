@@ -1,6 +1,10 @@
 LEGACY:
   active: 'TRUE'
   description: Legacy
+  definition: ''
+  source: ''
 NG911:
   active: 'TRUE'
   description: NG911
+  definition: ''
+  source: ''

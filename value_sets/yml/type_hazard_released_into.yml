@@ -1,9 +1,15 @@
 AIR:
   active: 'TRUE'
   description: Air
+  definition: ''
+  source: ''
 WATER:
   active: 'TRUE'
   description: Water
+  definition: ''
+  source: ''
 GROUND:
   active: 'TRUE'
   description: Ground
+  definition: ''
+  source: ''

@@ -1,12 +1,20 @@
 STRUCTURE:
   active: 'TRUE'
   description: Structure
+  definition: ''
+  source: ''
 VEHICLE:
   active: 'TRUE'
   description: Vehicle
+  definition: ''
+  source: ''
 OUTDOOR_ENVIRONMENT:
   active: 'TRUE'
   description: Outdoor / Environment
+  definition: ''
+  source: ''
 OBJECT_OTHER:
   active: 'TRUE'
   description: Object - Other
+  definition: ''
+  source: ''

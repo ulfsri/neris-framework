@@ -1,6 +1,10 @@
 SINGLE:
   active: 'TRUE'
   description: Single
+  definition: ''
+  source: ''
 MULTIPLE:
   active: 'TRUE'
   description: Multiple
+  definition: ''
+  source: ''

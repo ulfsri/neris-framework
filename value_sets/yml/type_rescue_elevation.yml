@@ -1,12 +1,20 @@
 ON_FLOOR:
   active: 'TRUE'
   description: On Floor
+  definition: ''
+  source: ''
 ON_BED:
   active: 'TRUE'
   description: On Bed
+  definition: ''
+  source: ''
 ON_FURNITURE:
   active: 'TRUE'
   description: On Furniture (e.g., couch)
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''

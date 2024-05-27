@@ -1,5 +1,5 @@
-active,value,description,definition,source
-TRUE,SOLID,Solid,,
-TRUE,LIQUID,Liquid,,
-TRUE,GAS,Gas,,
-TRUE,RADIOACTIVE, Radioactive, ,
+name,active,description,definition,source
+SOLID,TRUE,Solid,,
+LIQUID,TRUE,Liquid,,
+GAS,TRUE,Gas,,
+RADIOACTIVE,TRUE, Radioactive, ,

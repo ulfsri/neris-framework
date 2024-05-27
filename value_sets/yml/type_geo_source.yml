@@ -1,9 +1,0 @@
-DEPT_UPLOAD:
-  active: 'TRUE'
-  description: '---'
-DEPT_FILE:
-  active: 'TRUE'
-  description: '---'
-AWS:
-  active: 'TRUE'
-  description: '---'

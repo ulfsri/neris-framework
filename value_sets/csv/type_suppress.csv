@@ -1,0 +1,8 @@
+name,active,description,definition,source
+WET_PIPE_SPRINKLER_SYSTEM,TRUE,Wet-Pipe Sprinkler System,,
+DRY_PIPE_SPRINKLER_SYSTEM,TRUE,Dry-Pipe Sprinkler System,,
+PRE_ACTION_SYSTEM,TRUE,Pre Action System,,
+DELUGE_SYSTEM,TRUE,Deluge System,,
+CLEAN_AGENT_SYSTEM,TRUE,Clean Agent System,,
+OTHER,TRUE,Other,,
+UNKNOWN,TRUE,Unknown,,

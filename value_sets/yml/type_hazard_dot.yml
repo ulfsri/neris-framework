@@ -1,27 +1,45 @@
 EXPLOSIVES:
   active: 'TRUE'
   description: Explosives
+  definition: ''
+  source: ''
 GASES:
   active: 'TRUE'
   description: Gases
+  definition: ''
+  source: ''
 FLAMMABLE_LIQUIDS:
   active: 'TRUE'
   description: Flammable Liquids
+  definition: ''
+  source: ''
 FLAMMABLE_SOLIDS:
   active: 'TRUE'
   description: Flammable Solids
+  definition: ''
+  source: ''
 OXIDIZERS:
   active: 'TRUE'
   description: Oxidizers
+  definition: ''
+  source: ''
 POISONS_AND_ETIOLOGIC_MATERIALS:
   active: 'TRUE'
   description: Poisons and Etiologic Materials
+  definition: ''
+  source: ''
 RADIOACTIVE_MATERIALS:
   active: 'TRUE'
   description: Radioactive Materials
+  definition: ''
+  source: ''
 CORROSIVES:
   active: 'TRUE'
   description: Corrosives
+  definition: ''
+  source: ''
 MISCELLANEOUS_DANGEROUS_SUBSTANCES:
   active: 'TRUE'
   description: Miscellaneous Dangers Substances and Articles
+  definition: ''
+  source: ''

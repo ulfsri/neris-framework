@@ -1,5 +1,5 @@
-active,value,description,definition,source
-TRUE,STRUCTURE,Structure,,
-TRUE,VEHICLE,Vehicle,,
-TRUE,OUTDOOR_ENVIRONMENT,Outdoor / Environment,,
-TRUE,OBJECT_OTHER,Object - Other,,
+name,active,description,definition,source
+STRUCTURE,TRUE,Structure,,
+VEHICLE,TRUE,Vehicle,,
+OUTDOOR_ENVIRONMENT,TRUE,Outdoor / Environment,,
+OBJECT_OTHER,TRUE,Object - Other,,

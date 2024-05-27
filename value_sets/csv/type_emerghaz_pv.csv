@@ -1,5 +1,5 @@
-active,value,description,definition,source
-TRUE,PANEL_WATER_HEATING,Panel Water Heating,,
-TRUE,PANEL_POWER_GENERATION,Panel Power Generation,,
-TRUE,TILE_POWER_GENERATION,Tile Power Generation,,
-TRUE,THIN_FILM_POWER_GENERATION,Thin Film Power Generation,,
+name,active,description,definition,source
+PANEL_WATER_HEATING,TRUE,Panel Water Heating,,
+PANEL_POWER_GENERATION,TRUE,Panel Power Generation,,
+TILE_POWER_GENERATION,TRUE,Tile Power Generation,,
+THIN_FILM_POWER_GENERATION,TRUE,Thin Film Power Generation,,

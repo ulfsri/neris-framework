@@ -1,18 +1,30 @@
 PATIENT_EVALAUTED_CARE_PROVIDED:
   active: 'TRUE'
   description: Patient Evaluated and Care Provided
+  definition: ''
+  source: ''
 PATIENT_EVALAUTED_REFUSED_CARE:
   active: 'TRUE'
   description: Patient Evaluated and Refused Care
+  definition: ''
+  source: ''
 PATIENT_EVALAUTED_NO_CARE_REQUIRED:
   active: 'TRUE'
   description: 'Patient Evaluated, No Care Required '
+  definition: ''
+  source: ''
 PATIENT_REFUSED_EVALUATION_CARE:
   active: 'TRUE'
   description: Patient Refused Evaluation/Care
+  definition: ''
+  source: ''
 PATIENT_SUPPORT_SERVICES_PROVIDED:
   active: 'TRUE'
   description: Patient Support Services Provided
+  definition: ''
+  source: ''
 PATIENT_DEAD_ON_ARRIVAL:
   active: 'TRUE'
   description: ' Patient Dead on Arrival'
+  definition: ''
+  source: ''

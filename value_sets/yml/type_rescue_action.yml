@@ -1,0 +1,40 @@
+VENTILATION:
+  active: 'TRUE'
+  description: Ventilation
+  definition: ''
+  source: ''
+HYDRUALIC_TOOL_USE:
+  active: 'TRUE'
+  description: Hydraulic Tool Use
+  definition: ''
+  source: ''
+UNDERWATER_DIVE:
+  active: 'TRUE'
+  description: Underwater Dive
+  definition: ''
+  source: ''
+ROPE_RIGGING:
+  active: 'TRUE'
+  description: Rope Rigging
+  definition: ''
+  source: ''
+BREAK_BREACH_WALL:
+  active: 'TRUE'
+  description: Break Breach Wall
+  definition: ''
+  source: ''
+BRACE_WALL_INFRASTRUCTURE:
+  active: 'TRUE'
+  description: Brace Wall / Infrastructure
+  definition: ''
+  source: ''
+TRENCH_SHORING:
+  active: 'TRUE'
+  description: Trench Shoring
+  definition: ''
+  source: ''
+SUPPLY_AIR:
+  active: 'TRUE'
+  description: Supply Air
+  definition: ''
+  source: ''

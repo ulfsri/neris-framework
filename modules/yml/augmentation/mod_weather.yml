@@ -1,216 +1,216 @@
 weather_id:
   type: Text
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: National Weather Service Station ID.
   example: WXJ55
-  comments: '---'
+  comments: ''
 weather_condition:
   type: Text
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Standard NWS codes for weather type.
   example: Clear, Rain, Snow etc.
-  comments: '---'
+  comments: ''
 weather_temperature:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Temperature during incident (degrees F).
   example: '76.1'
-  comments: '---'
+  comments: ''
 weather_humidity:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Humidity during incident (%).
   example: '80.5'
-  comments: '---'
+  comments: ''
 weather_cloudiness:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Cloudiness as a percentage (%).
   example: '20.2'
-  comments: '---'
+  comments: ''
 weather_pressure:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Atmospheric pressure on the sea level, hPa.
   example: '1013.25'
-  comments: '---'
+  comments: ''
 weather_visibility:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Average visibility, in miles.
   example: '12'
-  comments: '---'
+  comments: ''
 precipitation_rain:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Rain precipitation, inches/hour.
   example: '3.2'
-  comments: '---'
+  comments: ''
 precipitation_snow:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Snow precipitation, inches/hour.
   example: '1.1'
-  comments: '---'
+  comments: ''
 wind_speed:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Velocity of wind in miles per hour.
   example: '10.8'
-  comments: '---'
+  comments: ''
 wind_degree:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Wind direction, degrees (meteorological).
   example: '20.1'
-  comments: '---'
+  comments: ''
 wind_gust:
   type: Float
   group: weather
-  possible_if: '---'
+  possible_if: ''
   not_null: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'TRUE'
   computed_from: external weather data
   cardinality: Single
   value_set: 'FALSE'
-  value_set_location: '---'
-  map_orm_landing: '---'
-  map_app: '---'
+  value_set_location: ''
+  map_orm_landing: ''
+  map_app: ''
   description: Velocity of wind gusts in miles per hour.
   example: '15'
-  comments: '---'
+  comments: ''

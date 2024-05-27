@@ -1,39 +1,70 @@
+ASSEMBLY:
+  active: 'TRUE'
+  description: Assembly
+  definition: ''
+  source: ''
 BATHROOM:
   active: 'TRUE'
   description: Bathroom
+  definition: ''
+  source: ''
 BEDROOM:
   active: 'TRUE'
   description: Bedroom
+  definition: ''
+  source: ''
 KITCHEN:
   active: 'TRUE'
   description: Kitchen
+  definition: ''
+  source: ''
 LIVING_SPACE:
   active: 'TRUE'
   description: Living Space
+  definition: ''
+  source: ''
 HALLWAY_FOYER:
   active: 'TRUE'
   description: Hallway / Foyer
+  definition: ''
+  source: ''
 GARAGE:
   active: 'TRUE'
   description: Garage
+  definition: ''
+  source: ''
 BALCONY_PORCH_DECK:
   active: 'TRUE'
   description: Balcony / Porch / Deck
+  definition: ''
+  source: ''
 BASEMENT:
   active: 'TRUE'
   description: Basement
+  definition: ''
+  source: ''
 ATTIC:
   active: 'TRUE'
   description: Attic
+  definition: ''
+  source: ''
 OFFICE:
   active: 'TRUE'
   description: Office
+  definition: ''
+  source: ''
 UTILITY_ROOM:
   active: 'TRUE'
   description: Utility Room
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''
 UNKNOWN:
   active: 'TRUE'
   description: Unknown
+  definition: ''
+  source: ''

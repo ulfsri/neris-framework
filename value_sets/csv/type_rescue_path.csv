@@ -1,3 +1,3 @@
-active,value,description,definition,source
-TRUE,REMOVAL_ALONG_PRIMARY_PATH,Removal Along Primary Search Path,,
-TRUE,REMOVAL_ALONG_ALT_PATH,Removal Along Alternate Path,,
+name,active,description,definition,source
+REMOVAL_ALONG_PRIMARY_PATH,TRUE,Removal Along Primary Search Path,,
+REMOVAL_ALONG_ALT_PATH,TRUE,Removal Along Alternate Path,,

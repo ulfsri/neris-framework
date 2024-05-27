@@ -1,9 +1,9 @@
-active,value,description,definition,source
-TRUE,COMPLETED_FIRE_SERVICE_ONLY,Completed by Fire Sevice Only,,
-TRUE,COMPLETED_WITH_FIRE_SERVICE_PRESENT,Completed with Fire Service Present,,
-TRUE,RELEASED_TO_LOCAL_AGENCY,Released to Local Agency,,
-TRUE,RELEASED_TO_COUNTY_AGENCY,Released to County Agency,,
-TRUE,RELEASED_TO_STATE_AGENCY,Released to State Agency,,
-TRUE,RELEASED_TO_FEDERAL_AGENCY,Released to Federal Agency,,
-TRUE,RELEASED_TO_PRIVATE_AGENCY,Released to Private Agency,,
-TRUE,RELEASED_TO_PROPERTY_OWNER,Released to  Property Owner,,
+name,active,description,definition,source
+COMPLETED_FIRE_SERVICE_ONLY,TRUE,Completed by Fire Sevice Only,,
+COMPLETED_WITH_FIRE_SERVICE_PRESENT,TRUE,Completed with Fire Service Present,,
+RELEASED_TO_LOCAL_AGENCY,TRUE,Released to Local Agency,,
+RELEASED_TO_COUNTY_AGENCY,TRUE,Released to County Agency,,
+RELEASED_TO_STATE_AGENCY,TRUE,Released to State Agency,,
+RELEASED_TO_FEDERAL_AGENCY,TRUE,Released to Federal Agency,,
+RELEASED_TO_PRIVATE_AGENCY,TRUE,Released to Private Agency,,
+RELEASED_TO_PROPERTY_OWNER,TRUE,Released to  Property Owner,,

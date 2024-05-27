@@ -1,0 +1,46 @@
+name,active,description,definition,source
+AIRCRAFT,TRUE,Aircraft,"A device that is used or intended to be used for flight in the air, such as an airplane, helicopter, gyroplane, glider or lighter-than-air devices like a balloon.",IANA Location Type Registry
+AIRPORT,TRUE,Airport,"A place from which aircraft operate, such as an airport or heliport.",IANA Location Type Registry
+ARENA,TRUE,Arena,Enclosed area used for sports events.,IANA Location Type Registry
+AUTOMOBILE,TRUE,Automobile,"A usually four-wheeled automotive vehicle designed for passenger transportation, such as a car.",IANA Location Type Registry
+BANK,TRUE,Bank,"Business establishment in which money is kept for saving or commercial purposes or is invested, supplied for loans, or exchanged.",IANA Location Type Registry
+BAR,TRUE,Bar,A bar or saloon.,IANA Location Type Registry
+BUS,TRUE,Bus,A large motor vehicle designed to carry passengers.,IANA Location Type Registry
+BICYCLE,TRUE,Bicycle,"A vehicle with two wheels tandem, a steering handle, a saddle seat, and pedals by which it is propelled.",IANA Location Type Registry
+BUS_STATION,TRUE,Bus-station,"Terminal that serves bus passengers, such as a bus depot or bus terminal.",IANA Location Type Registry
+CAFE,TRUE,Cafe,Usually small and informal establishment serving various refreshments (such as coffee); coffee shop.,IANA Location Type Registry
+CLASSROOM,TRUE,Classroom,Academic classroom or lecture hall.,IANA Location Type Registry
+CLUB,TRUE,Club,"Dance club, nightclub or discotheque.",IANA Location Type Registry
+CONSTRUCTION,TRUE,Construction,Construction site.,IANA Location Type Registry
+CONVENTION_CENTER,TRUE,Convention-center,Convention center or exhibition hall.,IANA Location Type Registry
+GOVERNMENT,TRUE,Government,"Government building, such as those used by the legislative, executive, or judicial branches of governments, including court houses, police stations and military installations.",IANA Location Type Registry
+HOSPITAL,TRUE,Hospital,"Hospital, hospice, medical clinic, mental institution, or doctor's office.",IANA Location Type Registry
+HOTEL,TRUE,Hotel,"Hotel, motel, inn or other lodging establishment.",IANA Location Type Registry
+INDUSTRIAL,TRUE,Industrial,"Industrial setting, such as a manufacturing floor or power plant.",IANA Location Type Registry
+LIBRARY,TRUE,Library,"Library or other public place in which literary and artistic materials, such as books, music, periodicals, newspapers, pamphlets, prints, records, and tapes, are kept for reading, reference, or lending.",IANA Location Type Registry
+MOTORCYCLE,TRUE,Motorcycle,"A two-wheeled automotive vehicle, including a scooter.",IANA Location Type Registry
+MUSEUM,TRUE,Museum,"Location where objects of historical, artistic, scientific or cultural interest are stored and exhibited.",IANA Location Type Registry
+OFFICE,TRUE,Office,"Business setting, such as an office.",IANA Location Type Registry
+OTHER,TRUE,Other,A place without a registered place type representation.,IANA Location Type Registry
+OUTDOORS,TRUE,Outdoors,"Outside a building, in or into the open air, such as a park or city streets.",IANA Location Type Registry
+PARKING,TRUE,Parking,A parking lot or parking garage.,IANA Location Type Registry
+PLACE_OF_WORSHIP,TRUE,Place-of-worship,"A religious site where congregations gather for religious observances, such as a church, chapel, meetinghouse, mosque, shrine, synagogue, or temple.",IANA Location Type Registry
+PRISON,TRUE,Prison,"Correctional institution where persons are confined while on trial or for punishment, such as a prison, penitentiary, jail, brig.",IANA Location Type Registry
+PUBLIC,TRUE,Public,"Public area such as a shopping mall, street, park, public building, train station, airport or in public conveyance such as a bus, train, plane or ship. This general description encompasses the more precise descriptors 'street', 'public-transport', 'aircraft', 'bus', 'bus-station', 'train', 'train-station', 'airport', 'shopping-area', 'outdoors', and 'watercraft'.",IANA Location Type Registry
+PUBLIC_TRANSPORT,TRUE,Public-transport,"Any form of public transport, including aircraft, bus, train or ship.",IANA Location Type Registry
+RESIDENCE,TRUE,Residence,"A private or residential setting, not necessarily the personal residence of the entity, e.g., including a friend's home.",IANA Location Type Registry
+RESTAURANT,TRUE,Restaurant,"Restaurant, coffee shop or other public dining establishment.",IANA Location Type Registry
+SCHOOL,TRUE,School,"School or university property, but not necessarily a classroom or library.",IANA Location Type Registry
+SHOPPING_AREA,TRUE,Shopping-area,"Shopping mall or shopping area. This area is a large, often enclosed shopping complex containing various stores, businesses, and restaurants usually accessible by common passageways.",IANA Location Type Registry
+STADIUM,TRUE,Stadium,"Large, usually open structure for sports events, including a racetrack.",IANA Location Type Registry
+STORE,TRUE,Store,"Place where merchandise is offered for sale, such as a shop.",IANA Location Type Registry
+STREET,TRUE,Street,"A public thoroughfare, such as a avenue, street, alley, lane, road, including any sidewalks.",IANA Location Type Registry
+THEATER,TRUE,theater,"Theater, lecture hall, auditorium, class room, movie theater or similar facility designed for presentations, talks, plays, music performances and other events involving an audience.",IANA Location Type Registry
+TRAIN,TRUE,Train,"Train, monorail, maglev, cable car or similar conveyance.",IANA Location Type Registry
+TRAIN_STATION,TRUE,Train-station,"Terminal where trains load or unload passengers or goods; railway station, railroad station, railroad terminal, train depot.",IANA Location Type Registry
+TRUCK,TRUE,Truck,"An automotive vehicle suitable for hauling, used primarily to carry goods rather than people.",IANA Location Type Registry
+UNDERWAY,TRUE,Underway,"In a land, water, or air craft which is underway (in motion).",IANA Location Type Registry
+UNKNOWN,TRUE,Unknown,The type of place is unknown.,IANA Location Type Registry
+WAREHOUSE,TRUE,Warehouse,"Place in which goods or merchandise are stored, such as a storehouse or self-storage facility.",IANA Location Type Registry
+WATER,TRUE,Water,"In, on or above bodies of water, such as an ocean, lake, river, canal or other waterway.",IANA Location Type Registry
+WATERCRAFT,TRUE,Watercraft,On a vessel for travel on water such as a boat or ship.,IANA Location Type Registry

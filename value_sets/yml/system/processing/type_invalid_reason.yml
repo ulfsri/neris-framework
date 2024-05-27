@@ -1,0 +1,10 @@
+SUPERCEDED:
+  active: 'TRUE'
+  description: Superceded
+  definition: ''
+  source: ''
+REMOVED:
+  active: 'TRUE'
+  description: Removed
+  definition: ''
+  source: ''

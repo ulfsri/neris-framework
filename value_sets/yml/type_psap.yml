@@ -1,6 +1,10 @@
 PRIMARY:
   active: 'TRUE'
   description: Primary
+  definition: ''
+  source: ''
 SECONDARY:
   active: 'TRUE'
   description: Secondary
+  definition: ''
+  source: ''

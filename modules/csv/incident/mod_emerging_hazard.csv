@@ -1,14 +1,14 @@
 name,group,type,value_set,reference_location,possible_if,db_required,neris_core,neris_core_if,neris_core_aid,computed,computed_from,cardinality,map_orm_landing,map_app,description,example,comments
-elec_category,electrification,Text,TRUE,type_emerghaz_elec.value_1,,TRUE,TRUE,,,FALSE,,Single,,,Category of the battery powered / stored energy emerging hazard.,See type_emerghaz_elec table,
-elec_type,electrification,Text,TRUE,type_emerghaz_elec.value_2,,TRUE,TRUE,,,FALSE,,Single,,,Additional specificity on the battery powered / stored energy emerging hazard.,See type_emerghaz_elec table,Based on category selection
-elec_subtype,electrification,Text,TRUE,type_emerghaz_elec.value_3,,TRUE,TRUE,,,FALSE,,Single,,,Subtype of the emerging hazard.,See type_emerghaz_ev_power table,Only for vehicles
-elec_target,electrification,Text,TRUE,type_source_target.value,,FALSE,TRUE,,,FALSE,,Single,,,Whether the battery was the source or target.,See type_source_target table,
-elec_suppress,electrification,Text,TRUE,,type_incident.value_1 array includes 'FIRE',FALSE,TRUE,,,FALSE,,Multi,,,Describe suppression approach.,See type_emerghaz_suppression,
-elec_reignition,electrification,Boolean,FALSE,,suppress = TRUE,FALSE,TRUE,,,FALSE,,Single,,,Whether there was a re-ignition.,"""True""",
-elec_vehicle_status,electrification,Boolean,FALSE,,category = 'ELECTRIC_CAR',FALSE,TRUE,,,FALSE,,Single,,,Whether the electric vehicle was involved in crash.,"""True""",
-powergen_hardware_type,powergeneration,Array[Text],TRUE,type_emerghaz_power_gen.value,,FALSE,TRUE,,,FALSE,,Multi,,,Whether power generation hardware was involved in the incident.,See type_emerghaz_power_gen table,
-powergen_pv_ignition,powergeneration.pv,Text,TRUE,type_emerghaz_pv_ign.value,type = photovoltaics,FALSE,TRUE,,,FALSE,,Single,,,Whether photovoltaics were the source of ignition or target.,See type_emerghaz_pv_ign table,
-powergen_pv_type,powergeneration.pv,Text,TRUE,type_emerghaz_pv.value,type = photovoltaics,FALSE,TRUE,,,FALSE,,Single,,,Type of photovoltaics were involved in the incident.,See type_emerghaz_pv table,
-csst_ignition_source,csst,Boolean,FALSE,,,FALSE,TRUE,,,FALSE,,Single,,,Whether corrugated stainless steel tubing was a suspected ignition source.,"""True""",
-csst_lightning,csst,Boolean,TRUE,type_yes_no_unknown.value,ignition_source = TRUE,FALSE,TRUE,,,FALSE,,Single,,,Whether lightening was suspected as cause of ignition.,See type_yes_no_unknown table,
-csst_grounded,csst,Boolean,TRUE,type_yes_no_unknown.value,ignition_source = TRUE,FALSE,TRUE,,,FALSE,,Single,,,Whether the CSST was grounded.,See type_yes_no_unknown table,
+elec_category,electrification,Text,TRUE,type_emerghaz_elec.value_1,,TRUE,TRUE,,,FALSE,,Single,emerghaz_elec.type_emerghaz_elec,,Category of the battery powered / stored energy emerging hazard.,See type_emerghaz_elec table,
+elec_type,electrification,Text,TRUE,type_emerghaz_elec.value_2,,TRUE,TRUE,,,FALSE,,Single,emerghaz_elec.type_emerghaz_elec,,Additional specificity on the battery powered / stored energy emerging hazard.,See type_emerghaz_elec table,Based on category selection
+elec_subtype,electrification,Text,TRUE,type_emerghaz_elec.value_3,,TRUE,TRUE,,,FALSE,,Single,emerghaz_elec.type_emerghaz_elec,,Subtype of the emerging hazard.,See type_emerghaz_ev_power table,Only for vehicles
+elec_target,electrification,Text,TRUE,type_source_target.value,,FALSE,TRUE,,,FALSE,,Single,emerghaz_elec.type_source_target,,Whether the battery was the source or target.,See type_source_target table,
+elec_suppress,electrification,Array[Text],TRUE,type_emerghaz_suppression,type_incident.value_1 array includes 'FIRE',FALSE,TRUE,,,FALSE,,Multi,emerghaz_elec_fire_suppr.type_emerghaz_suppr joined via emerghaz_elec_fire,,Suppression approach.,See type_emerghaz_suppression,
+elec_reignition,electrification,Boolean,FALSE,,suppress is not null,FALSE,TRUE,,,FALSE,,Single,emerghaz_elec_fire.reignition,,Whether there was a re-ignition.,"""True""",
+elec_vehicle_status,electrification,Boolean,FALSE,,category = 'ELECTRIC_CAR',FALSE,TRUE,,,FALSE,,Single,join to emerghaz_elec_crash,,Whether the electric vehicle was involved in crash.,"""True""",
+powergen_hardware_type,powergeneration,Array[Text],TRUE,type_emerghaz_powergen.value,,FALSE,TRUE,,,FALSE,,Multi,emerghaz_powergen.type_emerghaz_powergen,,Whether power generation hardware was involved in the incident.,See type_emerghaz_powergen table,
+powergen_pv_ignition,powergeneration.pv,Text,TRUE,type_emerghaz_pv_ign.value,type = photovoltaics,FALSE,TRUE,,,FALSE,,Single,emerghaz_powergen_sub_pv.type_emerghaz_pv_ign,,Whether photovoltaics were the source of ignition or target.,See type_emerghaz_pv_ign table,
+powergen_pv_type,powergeneration.pv,Text,TRUE,type_emerghaz_pv.value,type = photovoltaics,FALSE,TRUE,,,FALSE,,Single,emerghaz_powergen_sub_pv.type_emerghaz_pv,,Type of photovoltaics were involved in the incident.,See type_emerghaz_pv table,
+csst_ignition_source,csst,Boolean,FALSE,,,FALSE,TRUE,,,FALSE,,Single,emerghaz_csst.ignition_source,,Whether corrugated stainless steel tubing was a suspected ignition source.,"""True""",
+csst_lightning,csst,Text,TRUE,type_yes_no_unknown.value,ignition_source = TRUE,FALSE,TRUE,,,FALSE,,Single,emerghaz_csst.type_yes_no_unknown__lightning,,Whether lightening was suspected as cause of ignition.,See type_yes_no_unknown table,
+csst_grounded,csst,Text,TRUE,type_yes_no_unknown.value,ignition_source = TRUE,FALSE,TRUE,,,FALSE,,Single,emerghaz_csst.type_yes_no_unknown__grounded,,Whether the CSST was grounded.,See type_yes_no_unknown table,

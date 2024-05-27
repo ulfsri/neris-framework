@@ -158,13 +158,14 @@ AIR_EMS:
   definition: This resource describes an aviation asset designed for emergency medical transportation.
   source: FEMA 508-3 Page 4
   Operational Description: This aviation asset for emergency medical purposes meeting the general definition of FEMA 508-3 Page 4, Types 1-4.
-  Common Nomenclature/Radio Designator: '---'
+  Common Nomenclature/Radio Designator: ''
 AIR_RECON:
   active: 'TRUE'
   description: Fixed Wing, Recon or Other
   definition: This resource describes an aviation assets designed for situational awareness, command, reconnaissance and other emergency purposes.
+  source: ''
   Operational Description: This fixed wing aviation asset may be used to meet a wide variety of emergency incident needs.
-  Common Nomenclature/Radio Designator: '---'
+  Common Nomenclature/Radio Designator: ''
 ALS_AMB:
   active: 'TRUE'
   description: Ambulance, ALS
@@ -190,12 +191,13 @@ EMS_SUPV:
   active: 'TRUE'
   description: EMS Supervisor
   definition: This resource describes a response vehicle whose purpose is to provide oversight, command and control for the emergency medical program of a jurisdiction.
+  source: ''
   Operational Description: This resource is typically a single resource staffed by one responder.
   Common Nomenclature/Radio Designator: Command, Car, Unit
 MAB:
   active: 'TRUE'
   description: Medical Ambulance Bus (MAB)
-  definition: This resource describes a response vehicle whose purpose is to provide medical transportation services during mass casualty incidents.
+  definition: This resource describes a response vehicle whose purpoose is to provide medical transportation services during mass casualty incidents.
   source: FEMA 508-3 Page 4
   Operational Description: This resource type is for the provision of medical care to patients before and during transport to medical receiving facilities during mass casualty incidents.
   Common Nomenclature/Radio Designator: MCU, MAB, Bus
@@ -203,6 +205,7 @@ CHIEF_STAFF_COMMAND:
   active: 'TRUE'
   description: Chief/Staff/Command Officer
   definition: This resource describes a response vehicle who purpose is to provide oversight, command, and control for emergency incidents.
+  source: ''
   Operational Description: This resource is typically a single resource staffed by a chief and/or chiefs aide.It includes battalion/district/shift chiefs.
   Common Nomenclature/Radio Designator: Command, Car, Chief
 HAZMAT:
@@ -223,8 +226,9 @@ POV:
   active: 'TRUE'
   description: Privately Owned Vehicle
   definition: This resource describes a personal vehicle used for emergency response.
+  source: ''
   Operational Description: This resource type is uncommon in utilization and can involve any personally-owned vehicle utilized by a firefighter in response.
-  Common Nomenclature/Radio Designator: '---'
+  Common Nomenclature/Radio Designator: ''
 RESCUE_HEAVY:
   active: 'TRUE'
   description: Rescue Unit, Multi-Function, Heavy
@@ -243,6 +247,7 @@ RESCUE_LIGHT:
   active: 'TRUE'
   description: Rescue Unit, Multi-Function, Light
   definition: This resource describes a light-duty rescue unit that is typically mounted on a commercial chassis for limited rescue intervention. The equipment carried by this resource is limited and is usually targeted at high frequency rescue incidents, such as vehicle extrication and water rescue.
+  source: ''
   Operational Description: This resource type typically reflects a smaller commercial rescue unit with 6+ compartments for the storage and quick deployment of a limited quantity of rescue devices and equipment. Resource may be equipped with water and pump.
   Common Nomenclature/Radio Designator: Rescue, Squad
 RESCUE_USAR:
@@ -263,30 +268,35 @@ SCBA:
   active: 'TRUE'
   description: SCBA Support Unit
   definition: This resource describes a unit designed to support self-contained breathing unit cylinder replenishment and logistics that is typically used for larger fires and other long-duration incidents. Equipment on this resource can include large quantities of SCBA cylinders, breathing air compressor, and other firefighter logistical support items.
+  source: ''
   Operational Description: This resource type supports breathing unit cylinder replenishment, cylinder refilling and related SCBA services at long duration incidents.
   Common Nomenclature/Radio Designator: Mask Unit, Breathing Air Support Unit, SCBA Unit, Support,
 AIR_LIGHT:
   active: 'TRUE'
   description: Air and Light Unit
   definition: This resource describes a unit designed to support self-contained breathing unit cylinder replenishment, logistics, and scene illumination that is typically used for larger fires and other long-duration incidents. Equipment on this resource can include a permanent light tower, supplemental scene lighting, large quantities of SCBA cylinders, breathing air compressor, and other firefighter logistical support items.
+  source: ''
   Operational Description: This resource type supports scene illumination through a light tower and related scene light fixtures, along with breathing unit cylinder replenishment, cylinder refilling and related SCBA services at long duration incidents.
   Common Nomenclature/Radio Designator: Air and Light, Air (Also See SCBA Support unit Nomenclature)
 REHAB:
   active: 'TRUE'
   description: Rehabilitation or Canteen Unit
   definition: This resource describes a vehicle dedicated for firefighter rehabilitation that may carry beverages, food, thermal rehabilitation supplies, and other logistical support items for long-duration incidents.
+  source: ''
   Operational Description: This resource type supports firefighter rehabilitation, especially at long duration incidents or when temperate extremes are present. The unit setup comes in a wide variety of examples and may also be staffed by auxiliary members of the department.
   Common Nomenclature/Radio Designator: Rehab, RAC, Canteen
 MOBILE_ICP:
   active: 'TRUE'
   description: Mobile Command Post
   definition: This resource describes a vehicle specifically designed for incident command and control that is typically used for incidents of long duration or complexity. Equipment on this resource includes area for various members of the incident command general and command staff, along with communications infrastructure and meeting space.
+  source: ''
   Operational Description: This resource type may be a shared resource with other departments or law enforcement/emergency management agencies. The resource can be customized and self-contained or involve a trailer.
   Common Nomenclature/Radio Designator: Command, Command Post, Mobile Command Post
 MOBILE_COMMS:
   active: 'TRUE'
   description: Mobile Communications Equipment
   definition: This resource describes a dedicated vehicle that is specifically designed to support communications in the field that is typically used for incidents requiring complex communications and/or dispatch support. Equipment on this resource may include computers connected to a 9-1-1 PSAP, resource tracking software, communications equipment and other materials supporting control and communications at an incident.
+  source: ''
   Operational Description: This resource type may be a shared resource with other departments or law enforcement/emergency management agencies. The resource can be customized and self-contained or involve a trailer.
   Common Nomenclature/Radio Designator: FieldComm, Mobile Dispatch
 DOZER:
@@ -300,12 +310,14 @@ OTHER_GROUND:
   active: 'TRUE'
   description: Other Ground Equipment
   definition: This resource describes other ground equipment that is used for wildland fire response or structural demolition not already described otherwise.
+  source: ''
   Operational Description: Listings using this resource type can involve other ground equipment used for fire suppression and rescue operation that are possessed by departments.
-  Common Nomenclature/Radio Designator: '---'
+  Common Nomenclature/Radio Designator: ''
 ATV_EMS:
   active: 'TRUE'
   description: All Terrain Vehicle, EMS/Rescue
   definition: This resource describes an all terrain or utility vehicle that is used for off-road response for treating and transporting sick and injured patients.
+  source: ''
   Operational Description: This resource type describes all terrain or off-road utility vehicles used for patient access, rescue and transportation in remote areas or geographies of congestion.
   Common Nomenclature/Radio Designator: ATV, UTV
 ATV_FIRE:
@@ -319,11 +331,13 @@ INVEST:
   active: 'TRUE'
   description: Fire investigation Unit
   definition: The resource describes a unit dedicated for investigative purposes.
+  source: ''
   Operational Description: The resource type may be an SUV, pickup truck, or similar and may be modified to safety transport K-9s.
-  Common Nomenclature/Radio Designator: '---'
+  Common Nomenclature/Radio Designator: ''
 UTIL:
   active: 'TRUE'
   description: General Purpose/Utility Unit
   definition: This resource describes a utility vehicle that is used for general incident support.
+  source: ''
   Operational Description: This resource type may be an SUV or pickup truck to provide general support on a wide range of incident types.
   Common Nomenclature/Radio Designator: Utility

@@ -3,18 +3,18 @@ exposure_type:
   type: Text
   value_set: 'TRUE'
   reference_location: type_exposure_loc
-  possible_if: '---'
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: exposure.type_exposure_loc
+  map_app: ''
   description: Type exposure being reported.
-  example: '---'
+  example: ''
   comments: See type_exposure_loc
 exposure_item:
   group: exposure
@@ -24,31 +24,31 @@ exposure_item:
   possible_if: exposure_type is external
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: exposure_sub_external.type_exposure_item
+  map_app: ''
   description: Type of property damaged or destroyed from the originating source of the hazard.
-  example: '---'
+  example: ''
   comments: See type_exposure_item
 exposure_point:
   group: exposure
   type: Point
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
+  reference_location: ''
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: geo_point joined via exposure.nuid_point_exposure
+  map_app: ''
   description: WGS84 latitude and longitude of the exposure. If a latitude and longitude are not submitted but a location is, the location geocoding result (if successful) will be used.
   example: 42.548054, -77.840575
   comments: 'Decreasing order of priority given to: submitted point, location geocode, submitted polygon centroid'
@@ -56,143 +56,143 @@ exposure_polygon:
   group: location
   type: Multipolygon
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
+  reference_location: ''
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: geo_multipoly joined via exposure.nuid_multipoly_exposure
+  map_app: ''
   description: WGS84 polygon of the footprint of the incident.
-  example: '---'
-  comments: '---'
+  example: ''
+  comments: ''
 expsoure_location:
   group: location
   type: Module
   value_set: 'FALSE'
   reference_location: mod_location
-  possible_if: '---'
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: location joined via exposure.nuid_location
+  map_app: ''
   description: Location, generally an address, of the incident. Consists of the fields of mod_civic_location.
-  example: '---'
+  example: ''
   comments: See shared.mod_civic_location
 expsoure_location_use:
   group: location
   type: Module
   value_set: 'FALSE'
   reference_location: mod_location_use
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: location_use joined via exposure.nuid_location_use
+  map_app: ''
   description: How the location is being used. Consists of the fields of mod_location_use.
-  example: '---'
+  example: ''
   comments: See shared.mod_location_use
 exposure_people_present:
   group: location
   type: Boolean
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
+  reference_location: ''
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: exposure.people_present
+  map_app: ''
   description: Whether people were present at the time of the incident.
   example: '"True"'
-  comments: '---'
+  comments: ''
 exposure_parcel:
   group: location.augmentation
   type: Module
   value_set: 'FALSE'
-  reference_location: '---'
+  reference_location: ''
   possible_if: incident_point is within a parcel
   db_required: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
   computed: 'FALSE'
   computed_from: parcel service
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: spatial join to parcel
+  map_app: ''
   description: Characteristics of the parcel at which the exposure occurred. Consists of the fields of mod_parcel.
-  example: '---'
+  example: ''
   comments: See augmentation.mod_parcel
 exposure_damage:
   group: exposure
   type: Text
   value_set: 'FALSE'
   reference_location: type_exposure_damage
-  possible_if: '---'
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: exposure.type_exposure_damage
+  map_app: ''
   description: Rating of damage to the exposure.
   example: See type_exposure_damage table
-  comments: '---'
+  comments: ''
 exposure_displaced_number:
   group: displacement.aggregated
   type: Integer
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
-  db_required: 'TRUE'
+  reference_location: ''
+  possible_if: ''
+  db_required: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'FALSE'
-  computed: 'FALSE'
-  computed_from: '---'
+  computed: 'TRUE'
+  computed_from: mod_exposure.displaced_cause
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: count of displace_sub_exposure joined via displace_sub_exposure.nuid_exposure
+  map_app: ''
   description: Number of people displaced.
   example: '2'
-  comments: '---'
+  comments: ''
 exposure_displaced_cause:
   group: displacement
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_displace_cause.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: displaced_number > 0
   neris_core_aid: 'TRUE'
-  computed: 'TRUE'
-  computed_from: mod_exposure.displaced_cause
+  computed: 'FALSE'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: displace.displacement_cause joined via displace_sub_exposure via displace_sub_exposure.nuid_exposure
+  map_app: ''
   description: Cause for displacement.
   example: See type_displace_cause table
-  comments: '---'
+  comments: ''

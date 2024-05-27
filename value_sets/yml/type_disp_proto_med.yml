@@ -1,12 +1,20 @@
 PROQA:
   active: 'TRUE'
   description: PROQA
+  definition: ''
+  source: ''
 IAED:
   active: 'TRUE'
   description: IAED
+  definition: ''
+  source: ''
 APCO:
   active: 'TRUE'
   description: APCO
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''

@@ -1,320 +1,480 @@
-'APPLIANCE_TOOL: CONSUMER_PRODUCTS':
+'CONSUMER_PRODUCTS: APPLIANCE_TOOL':
   active: 'TRUE'
-  value_1: APPLIANCE_TOOL
-  value_2: CONSUMER_PRODUCTS
-  value_3: '---'
+  value_1: CONSUMER_PRODUCTS
+  value_2: APPLIANCE_TOOL
+  value_3: ''
   description_1: Appliances / Tools
   description_2: Consumer Products
-  description_3: '---'
-'CELL_PHONE: CONSUMER_PRODUCTS':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONSUMER_PRODUCTS: CELL_PHONE':
   active: 'TRUE'
-  value_1: CELL_PHONE
-  value_2: CONSUMER_PRODUCTS
-  value_3: '---'
+  value_1: CONSUMER_PRODUCTS
+  value_2: CELL_PHONE
+  value_3: ''
   description_1: Cell Phone
   description_2: Consumer Products
-  description_3: '---'
-'COMPUTER_TABLET: CONSUMER_PRODUCTS':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONSUMER_PRODUCTS: COMPUTER_TABLET':
   active: 'TRUE'
-  value_1: COMPUTER_TABLET
-  value_2: CONSUMER_PRODUCTS
-  value_3: '---'
+  value_1: CONSUMER_PRODUCTS
+  value_2: COMPUTER_TABLET
+  value_3: ''
   description_1: Computer / Tablet
   description_2: Consumer Products
-  description_3: '---'
-'ELECTRONIC_CIGARETTE: CONSUMER_PRODUCTS':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONSUMER_PRODUCTS: ELECTRONIC_CIGARETTE':
   active: 'TRUE'
-  value_1: ELECTRONIC_CIGARETTE
-  value_2: CONSUMER_PRODUCTS
-  value_3: '---'
+  value_1: CONSUMER_PRODUCTS
+  value_2: ELECTRONIC_CIGARETTE
+  value_3: ''
   description_1: Electronic Cigarette
   description_2: Consumer Products
-  description_3: '---'
-'POWER_BANK: CONSUMER_PRODUCTS':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONSUMER_PRODUCTS: POWER_BANK':
   active: 'TRUE'
-  value_1: POWER_BANK
-  value_2: CONSUMER_PRODUCTS
-  value_3: '---'
+  value_1: CONSUMER_PRODUCTS
+  value_2: POWER_BANK
+  value_3: ''
   description_1: Power Bank
   description_2: Consumer Products
-  description_3: '---'
-'TOY: CONSUMER_PRODUCTS':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONSUMER_PRODUCTS: TOY':
   active: 'TRUE'
-  value_1: TOY
-  value_2: CONSUMER_PRODUCTS
-  value_3: '---'
+  value_1: CONSUMER_PRODUCTS
+  value_2: TOY
+  value_3: ''
   description_1: Toy
   description_2: Consumer Products
-  description_3: '---'
-'OTHER: CONSUMER_PRODUCTS':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONSUMER_PRODUCTS: OTHER':
   active: 'TRUE'
-  value_1: OTHER
-  value_2: CONSUMER_PRODUCTS
-  value_3: '---'
+  value_1: CONSUMER_PRODUCTS
+  value_2: OTHER
+  value_3: ''
   description_1: Other
   description_2: Consumer Products
-  description_3: '---'
-'HYDROELECTRIC: ENERGY_STORAGE_SYSTEM':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ENERGY_STORAGE_SYSTEM: HYDROELECTRIC':
   active: 'TRUE'
-  value_1: HYDROELECTRIC
-  value_2: ENERGY_STORAGE_SYSTEM
-  value_3: '---'
+  value_1: ENERGY_STORAGE_SYSTEM
+  value_2: HYDROELECTRIC
+  value_3: ''
   description_1: Pumped-Storage Hydroelectric
   description_2: Energy Storage System
-  description_3: '---'
-'BATTERY: ENERGY_STORAGE_SYSTEM':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ENERGY_STORAGE_SYSTEM: BATTERY':
   active: 'TRUE'
-  value_1: BATTERY
-  value_2: ENERGY_STORAGE_SYSTEM
-  value_3: '---'
+  value_1: ENERGY_STORAGE_SYSTEM
+  value_2: BATTERY
+  value_3: ''
   description_1: Battery (Electro-Chemical)
   description_2: Energy Storage System
-  description_3: '---'
-'COMPRESSED_AIR: ENERGY_STORAGE_SYSTEM':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ENERGY_STORAGE_SYSTEM: COMPRESSED_AIR':
   active: 'TRUE'
-  value_1: COMPRESSED_AIR
-  value_2: ENERGY_STORAGE_SYSTEM
-  value_3: '---'
+  value_1: ENERGY_STORAGE_SYSTEM
+  value_2: COMPRESSED_AIR
+  value_3: ''
   description_1: Compressed-Air Storage
   description_2: Energy Storage System
-  description_3: '---'
-'FLYWHEEL: ENERGY_STORAGE_SYSTEM':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ENERGY_STORAGE_SYSTEM: FLYWHEEL':
   active: 'TRUE'
-  value_1: FLYWHEEL
-  value_2: ENERGY_STORAGE_SYSTEM
-  value_3: '---'
+  value_1: ENERGY_STORAGE_SYSTEM
+  value_2: FLYWHEEL
+  value_3: ''
   description_1: Flywheel
   description_2: Energy Storage System
-  description_3: '---'
-'OTHER: ENERGY_STORAGE_SYSTEM':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ENERGY_STORAGE_SYSTEM: OTHER':
   active: 'TRUE'
-  value_1: OTHER
-  value_2: ENERGY_STORAGE_SYSTEM
-  value_3: '---'
+  value_1: ENERGY_STORAGE_SYSTEM
+  value_2: OTHER
+  value_3: ''
   description_1: Other
   description_2: Energy Storage System
-  description_3: '---'
-'POWER_ASSISTED_BICYCLE: E_MOBILITY':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'E_MOBILITY: POWER_ASSISTED_BICYCLE':
   active: 'TRUE'
-  value_1: POWER_ASSISTED_BICYCLE
-  value_2: E_MOBILITY
-  value_3: '---'
+  value_1: E_MOBILITY
+  value_2: POWER_ASSISTED_BICYCLE
+  value_3: ''
   description_1: Power Assisted Bicycle
   description_2: E-Mobility
-  description_3: '---'
-'ELECTRIC_SCOOTER_MOPED: E_MOBILITY':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'E_MOBILITY: ELECTRIC_SCOOTER_MOPED':
   active: 'TRUE'
-  value_1: ELECTRIC_SCOOTER_MOPED
-  value_2: E_MOBILITY
-  value_3: '---'
+  value_1: E_MOBILITY
+  value_2: ELECTRIC_SCOOTER_MOPED
+  value_3: ''
   description_1: Electric Scooter/Moped
   description_2: E-Mobility
-  description_3: '---'
-'PERSONAL_MOBILITY_ASSIST: E_MOBILITY':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'E_MOBILITY: PERSONAL_MOBILITY_ASSIST':
   active: 'TRUE'
-  value_1: PERSONAL_MOBILITY_ASSIST
-  value_2: E_MOBILITY
-  value_3: '---'
+  value_1: E_MOBILITY
+  value_2: PERSONAL_MOBILITY_ASSIST
+  value_3: ''
   description_1: Personal Mobility Assist
   description_2: E-Mobility
-  description_3: '---'
-'OTHER: E_MOBILITY':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'E_MOBILITY: OTHER':
   active: 'TRUE'
-  value_1: OTHER
-  value_2: E_MOBILITY
-  value_3: '---'
+  value_1: E_MOBILITY
+  value_2: OTHER
+  value_3: ''
   description_1: Other
   description_2: E-Mobility
-  description_3: '---'
-'CAR_RR: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: CAR_RR: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: CAR_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: CAR_RR
   value_3: FULL_ELECTRIC
   description_1: Road Registered Car
   description_2: Electric Vehicle
   description_3: Full Electric
-'CAR_RR: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: CAR_RR: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: CAR_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: CAR_RR
   value_3: PLUG_IN_HYBRID
   description_1: Road Registered Car
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'CAR_RR: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: CAR_RR: HYBRID':
   active: 'TRUE'
-  value_1: CAR_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: CAR_RR
   value_3: HYBRID
   description_1: Road Registered Car
   description_2: Electric Vehicle
   description_3: Hybrid
-'TRUCK_PASSENGER_RR: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: TRUCK_PASSENGER_RR: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: TRUCK_PASSENGER_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_PASSENGER_RR
   value_3: FULL_ELECTRIC
   description_1: Road Registered Passenger Truck
   description_2: Electric Vehicle
   description_3: Full Electric
-'TRUCK_PASSENGER_RR: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: TRUCK_PASSENGER_RR: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: TRUCK_PASSENGER_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_PASSENGER_RR
   value_3: PLUG_IN_HYBRID
   description_1: Road Registered Passenger Truck
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'TRUCK_PASSENGER_RR: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: TRUCK_PASSENGER_RR: HYBRID':
   active: 'TRUE'
-  value_1: TRUCK_PASSENGER_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_PASSENGER_RR
   value_3: HYBRID
   description_1: Road Registered Passenger Truck
   description_2: Electric Vehicle
   description_3: Hybrid
-'TRUCK_COMMERCIAL_RR: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: TRUCK_COMMERCIAL_RR: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: TRUCK_COMMERCIAL_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_COMMERCIAL_RR
   value_3: FULL_ELECTRIC
   description_1: Road Registered Commercial Truck
   description_2: Electric Vehicle
   description_3: Full Electric
-'TRUCK_COMMERCIAL_RR: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: TRUCK_COMMERCIAL_RR: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: TRUCK_COMMERCIAL_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_COMMERCIAL_RR
   value_3: PLUG_IN_HYBRID
   description_1: Road Registered Commercial Truck
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'TRUCK_COMMERCIAL_RR: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: TRUCK_COMMERCIAL_RR: HYBRID':
   active: 'TRUE'
-  value_1: TRUCK_COMMERCIAL_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_COMMERCIAL_RR
   value_3: HYBRID
   description_1: Road Registered Commercial Truck
   description_2: Electric Vehicle
   description_3: Hybrid
-'BUS_RR: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BUS_RR: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: BUS_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BUS_RR
   value_3: FULL_ELECTRIC
   description_1: Road Registered Bus
   description_2: Electric Vehicle
   description_3: Full Electric
-'BUS_RR: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BUS_RR: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: BUS_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BUS_RR
   value_3: PLUG_IN_HYBRID
   description_1: Road Registered Bus
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'BUS_RR: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BUS_RR: HYBRID':
   active: 'TRUE'
-  value_1: BUS_RR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BUS_RR
   value_3: HYBRID
   description_1: Road Registered Bus
   description_2: Electric Vehicle
   description_3: Hybrid
-'BOAT_RECREATIONAL: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_RECREATIONAL: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: BOAT_RECREATIONAL
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_RECREATIONAL
   value_3: FULL_ELECTRIC
   description_1: Boat Recreational
   description_2: Electric Vehicle
   description_3: Full Electric
-'BOAT_RECREATIONAL: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_RECREATIONAL: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: BOAT_RECREATIONAL
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_RECREATIONAL
   value_3: PLUG_IN_HYBRID
   description_1: Boat Recreational
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'BOAT_RECREATIONAL: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_RECREATIONAL: HYBRID':
   active: 'TRUE'
-  value_1: BOAT_RECREATIONAL
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_RECREATIONAL
   value_3: HYBRID
   description_1: Boat Recreational
   description_2: Electric Vehicle
   description_3: Hybrid
-'BOAT_COMMERICAL: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_COMMERICAL: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: BOAT_COMMERICAL
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_COMMERICAL
   value_3: FULL_ELECTRIC
   description_1: Boat Commercial
   description_2: Electric Vehicle
   description_3: Full Electric
-'BOAT_COMMERICAL: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_COMMERICAL: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: BOAT_COMMERICAL
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_COMMERICAL
   value_3: PLUG_IN_HYBRID
   description_1: Boat Commercial
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'BOAT_COMMERICAL: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_COMMERICAL: HYBRID':
   active: 'TRUE'
-  value_1: BOAT_COMMERICAL
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_COMMERICAL
   value_3: HYBRID
   description_1: Boat Commercial
   description_2: Electric Vehicle
   description_3: Hybrid
-'LIGHT_EV_NRR: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: LIGHT_EV_NRR: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: LIGHT_EV_NRR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: LIGHT_EV_NRR
   value_3: FULL_ELECTRIC
   description_1: Non Road Registered Light Vehicle
   description_2: Electric Vehicle
   description_3: Full Electric
-'LIGHT_EV_NRR: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: LIGHT_EV_NRR: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: LIGHT_EV_NRR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: LIGHT_EV_NRR
   value_3: PLUG_IN_HYBRID
   description_1: Non Road Registered Light Vehicle
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'LIGHT_EV_NRR: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: LIGHT_EV_NRR: HYBRID':
   active: 'TRUE'
-  value_1: LIGHT_EV_NRR
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: LIGHT_EV_NRR
   value_3: HYBRID
   description_1: Non Road Registered Light Vehicle
   description_2: Electric Vehicle
   description_3: Hybrid
-'OTHER: ELECTRIC_VEHICLE: FULL_ELECTRIC':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: OTHER: FULL_ELECTRIC':
   active: 'TRUE'
-  value_1: OTHER
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: OTHER
   value_3: FULL_ELECTRIC
   description_1: Other
   description_2: Electric Vehicle
   description_3: Full Electric
-'OTHER: ELECTRIC_VEHICLE: PLUG_IN_HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: OTHER: PLUG_IN_HYBRID':
   active: 'TRUE'
-  value_1: OTHER
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: OTHER
   value_3: PLUG_IN_HYBRID
   description_1: Other
   description_2: Electric Vehicle
   description_3: Plug-In Hybrid
-'OTHER: ELECTRIC_VEHICLE: HYBRID':
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: OTHER: HYBRID':
   active: 'TRUE'
-  value_1: OTHER
-  value_2: ELECTRIC_VEHICLE
+  value_1: ELECTRIC_VEHICLE
+  value_2: OTHER
   value_3: HYBRID
   description_1: Other
   description_2: Electric Vehicle
   description_3: Hybrid
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''

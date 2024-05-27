@@ -1,9 +1,15 @@
 KNOWN_DISPATCH:
   active: 'TRUE'
   description: Known rescue need upon dispatch
+  definition: ''
+  source: ''
 KNOWN_ARRIVAL:
   active: 'TRUE'
   description: Known rescue need upon arrival
+  definition: ''
+  source: ''
 KNOWN_DURING:
   active: 'TRUE'
   description: Known rescue need  during incident operations
+  definition: ''
+  source: ''

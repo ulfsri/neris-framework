@@ -1,18 +1,18 @@
 patient_care_report:
   group: patient
-  type: Array[Text]
+  type: Text
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
+  reference_location: ''
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
-  computed: '---'
-  computed_from: '---'
-  cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
+  computed: ''
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: medical.care_report
+  map_app: ''
   description: Patient care report identification number.
   example: VAE456M1-02202024
   comments: Should follow department's NEMSIS report number format
@@ -21,16 +21,16 @@ patient_evaulation_care:
   type: Text
   value_set: 'TRUE'
   reference_location: type_medical_patient_care.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
-  computed: '---'
-  computed_from: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
+  computed: ''
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: medical.type_medical_patient_care
+  map_app: ''
   description: Status of patient care needs based on evaluation.
   example: See type_medical_patient_care table
   comments: Patient Evaluated and Care Provided, Patient Evaluated and Refused Care, Patient Evaluated, No Care Required, Patient Refused Evaluation/Care, Patient Support Services Provided
@@ -39,16 +39,16 @@ patient _improved_status:
   type: Text
   value_set: 'TRUE'
   reference_location: type_medical_patient_status.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
-  computed: '---'
-  computed_from: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
+  computed: ''
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: medical.type_medical_patient_status
+  map_app: ''
   description: Status of the patient after FD arrival and intervention.
   example: See type_medical_patient_status table
   comments: NEMSIS values for Response --Improved (9916001)  Unchanged (9916003), 9916005 (Worse)
@@ -57,16 +57,16 @@ medical_disposition:
   type: Text
   value_set: 'TRUE'
   reference_location: type_medical_transport.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
-  computed: '---'
-  computed_from: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
+  computed: ''
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: medical.type_medical_transport
+  map_app: ''
   description: Transport outcome of the incident.
   example: See type_medical_transport table
-  comments: '---'
+  comments: ''
