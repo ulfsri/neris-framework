@@ -1,6 +1,10 @@
 CLOSEST:
   active: 'TRUE'
   description: closest
+  definition: ''
+  source: ''
 SECOND_CLOSEST:
   active: 'TRUE'
   description: second-closest
+  definition: ''
+  source: ''

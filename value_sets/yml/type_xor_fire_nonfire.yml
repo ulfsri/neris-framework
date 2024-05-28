@@ -1,6 +1,0 @@
-FIRE:
-  active: 'TRUE'
-  description: Fire
-NONFIRE:
-  active: 'TRUE'
-  description: Nonfire

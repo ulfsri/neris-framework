@@ -1,4 +1,4 @@
-active,value,description,definition,source
-TRUE,UNINJURED,Uninjured,,
-TRUE,INJURED_NONFATAL,Injured Nonfatal,,
-TRUE,INJURED_FATAL,Injured Fatal,,
+name,active,description,definition,source,xor
+UNINJURED,TRUE,Uninjured,,,noinjury
+INJURED_NONFATAL,TRUE,Injured Nonfatal,,,injury
+INJURED_FATAL,TRUE,Injured Fatal,,,injury

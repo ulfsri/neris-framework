@@ -3,72 +3,72 @@ fire_suppression_appliance:
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_suppress_appliance.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: rel_fire_suppr_appliance.type_suppr_appliance joined via rel_fire_suppr_appliance.nuid_fire
+  map_app: ''
   description: Describes the appliances used for suppression.
   example: See type_suppress_appliance table
-  comments: '---'
+  comments: ''
 fire_water_supply:
   group: fire
   type: Text
   value_set: 'TRUE'
   reference_location: type_water_supply.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: if suppression_appliance is none
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire.type_water_supply
+  map_app: ''
   description: Describes the type of water supply utilized for the incident.
   example: See type_water_supply table
-  comments: '---'
+  comments: ''
 fire_investigation_need:
   group: fire
   type: Text
   value_set: 'TRUE'
-  reference_location: type_invest_need.value
-  possible_if: '---'
+  reference_location: type_fire_invest_need.value
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire.type_fire_invest_need
+  map_app: ''
   description: Assessment by incident commander and/or officer in charge of the incident as to whether the fire necessitated a formal fire investigation.
-  example: See type_invest_need table
-  comments: '---'
-fire_investigation_fire:
+  example: See type_fire_invest_need table
+  comments: ''
+fire_investigation_type:
   group: fire
   type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_invest.value
-  possible_if: '---'
+  reference_location: type_fire_invest.value
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
   neris_core_if: formal cause and origin investigation was completed at the incident
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: rel_fire_invest.type_fire_invest joined via rel_fire_invest.nuid_fire
+  map_app: ''
   description: Categorizes the general type of investigation completed at the structure fire incident.
-  example: See type_invest table
+  example: See type_fire_invest table
   comments: Allow for multiple selections then require incident analysis/investigation model to be completed for formal information about the fire.
 structure_arrival_conditions:
   group: structure
@@ -79,33 +79,33 @@ structure_arrival_conditions:
   db_required: 'TRUE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is not outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_structure.type_fire_condition_arrival
+  map_app: ''
   description: Fire conditions upon arriving on the scene of the incident.
   example: See type_fire_condition_arrival table
-  comments: '---'
+  comments: ''
 structure_progression_conditions:
   group: structure
   type: Boolean
   value_set: 'FALSE'
-  reference_location: '---'
+  reference_location: ''
   possible_if: type_incident.value_2 array contains 'STRUCTURE_FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is not outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_structure.progression_conditions
+  map_app: ''
   description: Whether the fire extended beyond the conditions found upon arrival.
   example: '"True"'
-  comments: '---'
+  comments: ''
 structure_damage:
   group: structure
   type: Text
@@ -115,30 +115,30 @@ structure_damage:
   db_required: 'TRUE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is not outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_structure.type_fire_bldg_damage
+  map_app: ''
   description: Rating of damage to the fire building of origin as selected from a list of values.
   example: See type_fire_bldg_damage table
-  comments: '---'
+  comments: ''
 structure_floor_of_origin:
   group: structure
   type: Integer
   value_set: 'FALSE'
-  reference_location: '---'
+  reference_location: ''
   possible_if: type_incident.value_2 array contains 'STRUCTURE_FIRE'
   db_required: 'TRUE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is not outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_structure.origin_floor
+  map_app: ''
   description: Story above or below ground of fire origin.
   example: '1'
   comments: Negative integer is below ground, positive is above ground. 1 is ground floor.
@@ -151,15 +151,15 @@ structure_room_of_origin:
   db_required: 'TRUE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is not outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_structure.type_origin_room
+  map_app: ''
   description: Room of origin of the fire.
   example: See type_room table
-  comments: '---'
+  comments: ''
 structure_fire_cause:
   group: structure
   type: Text
@@ -169,15 +169,15 @@ structure_fire_cause:
   db_required: 'TRUE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is not outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_structure.type_fire_cause_in
+  map_app: ''
   description: General categorization of the cause (or likely cause) of the structure fire.
   example: See type_fire_cause_in table
-  comments: '---'
+  comments: ''
 outside_fire_cause:
   group: outdoor
   type: Text
@@ -187,30 +187,30 @@ outside_fire_cause:
   db_required: 'TRUE'
   neris_core: 'FALSE'
   neris_core_if: if fire subtype is outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_outside.type_fire_cause_out
+  map_app: ''
   description: General categorization of the cause (or likely cause) of the outdoor fire.
   example: See type_fire_cause_out table
-  comments: '---'
+  comments: ''
 outside_fire_acres_burned:
   group: outdoor
   type: Float
   value_set: 'FALSE'
-  reference_location: '---'
+  reference_location: ''
   possible_if: type_incident.value_2 array contains  'OUTSIDE_FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is outside fire
-  neris_core_aid: '---'
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: fire_sub_outside.acres_burned
+  map_app: ''
   description: Estimated number of acres burned during the incident.
   example: '0.5'
-  comments: '---'
+  comments: ''

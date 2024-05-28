@@ -1,9 +1,15 @@
 'YES':
   active: 'TRUE'
   description: 'Yes'
+  definition: ''
+  source: ''
 'NO':
   active: 'TRUE'
   description: 'No'
+  definition: ''
+  source: ''
 UNKNOWN:
   active: 'TRUE'
   description: Unknown
+  definition: ''
+  source: ''

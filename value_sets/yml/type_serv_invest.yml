@@ -21,3 +21,5 @@ LAW_ENFORCEMENT:
 K9_DETECT:
   active: 'TRUE'
   description: K9 Accelerant Detection
+  definition: ''
+  source: ''

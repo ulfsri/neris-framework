@@ -1,7 +1,7 @@
-active,value,description,definition,source
-TRUE,WORKING_ALERTED_OCCUPANT,Working - Alerted Occupant(s),,
-TRUE,WORKING_FAILED_TO_ALERT_OCCUPANT,Working - Failed to Alert Occupant(s),,
-TRUE,NO_OCCUPANT_TO_NOTIFY,No Occupants to Notify,,
-TRUE,FAILED_TO_OPERATE,Failed to Operate,,
-TRUE,INSUFFICENT_SOURCE,Insufficient Source to Activate Alarm,,
-TRUE,UNKNOWN,Unknown,,
+name,active,description,definition,source,xor
+WORKING_ALERTED_OCCUPANT,TRUE,Working - Alerted Occupant(s),,,alerted
+WORKING_FAILED_TO_ALERT_OCCUPANT,TRUE,Working - Failed to Alert Occupant(s),,,xor
+NO_OCCUPANT_TO_NOTIFY,TRUE,No Occupants to Notify,,,other
+FAILED_TO_OPERATE,TRUE,Failed to Operate,,,failed
+INSUFFICENT_SOURCE,TRUE,Insufficient Source to Activate Alarm,,,other
+UNKNOWN,TRUE,Unknown,,,other

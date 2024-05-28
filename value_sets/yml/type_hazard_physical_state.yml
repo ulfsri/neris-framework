@@ -1,13 +1,20 @@
 SOLID:
   active: 'TRUE'
   description: Solid
+  definition: ''
+  source: ''
 LIQUID:
   active: 'TRUE'
   description: Liquid
+  definition: ''
+  source: ''
 GAS:
   active: 'TRUE'
   description: Gas
+  definition: ''
+  source: ''
 RADIOACTIVE:
   active: 'TRUE'
   description: ' Radioactive'
   definition: ' '
+  source: ''

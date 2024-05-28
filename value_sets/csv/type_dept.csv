@@ -1,4 +1,4 @@
-active,value,description,definition,source
-TRUE,CAREER,Career,,
-TRUE,VOLUNTEER,Volunteer,,
-TRUE,COMBINATION,Combination,,
+name,active,description,definition,source
+CAREER,TRUE,Career,,
+VOLUNTEER,TRUE,Volunteer,,
+COMBINATION,TRUE,Combination,,

@@ -1,6 +1,10 @@
 DEPARTMENT_ENTERED:
   active: 'TRUE'
   description: Department Entered
+  definition: ''
+  source: ''
 CENSUS_DERIVED:
   active: 'TRUE'
   description: Census Derived
+  definition: ''
+  source: ''

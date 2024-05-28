@@ -1,18 +1,30 @@
 ACTIVE_ASSAILANT:
   active: 'TRUE'
   description: Active Assailant
+  definition: ''
+  source: ''
 MCI:
   active: 'TRUE'
   description: Mass Casualty Incident
+  definition: ''
+  source: ''
 FEDERAL_DECLARED_DISASTER:
   active: 'TRUE'
   description: Federal Declared Disaster
+  definition: ''
+  source: ''
 STATE_DECLARED_DISASTER:
   active: 'TRUE'
   description: State Declared Disaster
+  definition: ''
+  source: ''
 URBAN_CONFLAGRATION:
   active: 'TRUE'
   description: Urban Conflagration
+  definition: ''
+  source: ''
 VIOLENCE_AGAINST_RESPONDER:
   active: 'TRUE'
   description: Violence Against Responder
+  definition: ''
+  source: ''

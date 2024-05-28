@@ -1,5 +1,0 @@
-active,value,description,definition,source
-TRUE,PRESENT_FULL,Present (Full Building),,
-TRUE,PRESENT_PARTIAL,Present (Partial Coverage),,
-TRUE,UNDETERMINED,Undetermined,,
-TRUE,NONE,None,,

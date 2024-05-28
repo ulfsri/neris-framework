@@ -1,99 +1,165 @@
 GAS_CUBIC_FOOT:
   active: 'TRUE'
   description: 'Gas - Cubic Foot '
+  definition: ''
+  source: ''
 GAS_CUBIC_INCH:
   active: 'TRUE'
   description: 'Gas - Cubic Inch '
+  definition: ''
+  source: ''
 GAS_CUBIC_CENTIMETER:
   active: 'TRUE'
   description: 'Gas - Cubic Centimeter '
+  definition: ''
+  source: ''
 GAS_CUBIC_METER:
   active: 'TRUE'
   description: 'Gas - Cubic Meter '
+  definition: ''
+  source: ''
 GAS_POUND:
   active: 'TRUE'
   description: 'Gas - Pound '
+  definition: ''
+  source: ''
 LIQUID_CUBIC_CENTIMETER:
   active: 'TRUE'
   description: 'Liquid - Cubic Centimeter '
+  definition: ''
+  source: ''
 LIQUID_CUP:
   active: 'TRUE'
   description: 'Liquid - Cup '
+  definition: ''
+  source: ''
 LIQUID_GALLON:
   active: 'TRUE'
   description: 'Liquid - Gallon '
+  definition: ''
+  source: ''
 LIQUID_GRAM:
   active: 'TRUE'
   description: 'Liquid - Gram '
+  definition: ''
+  source: ''
 LIQUID_KILOGRAM:
   active: 'TRUE'
   description: 'Liquid - Kilogram '
+  definition: ''
+  source: ''
 LIQUID_POUND:
   active: 'TRUE'
   description: 'Liquid - Pound '
+  definition: ''
+  source: ''
 LIQUID_LITER:
   active: 'TRUE'
   description: 'Liquid - Liter '
+  definition: ''
+  source: ''
 LIQUID_MILLIGRAM:
   active: 'TRUE'
   description: 'Liquid - Milligram '
+  definition: ''
+  source: ''
 LIQUID_MILLILITER:
   active: 'TRUE'
   description: 'Liquid - Milliliter '
+  definition: ''
+  source: ''
 LIQUID_OUNCE:
   active: 'TRUE'
   description: 'Liquid - Ounce '
+  definition: ''
+  source: ''
 LIQUID_PINT:
   active: 'TRUE'
   description: 'Liquid - Pint '
+  definition: ''
+  source: ''
 LIQUID_QUART:
   active: 'TRUE'
   description: 'Liquid - Quart '
+  definition: ''
+  source: ''
 LIQUID_TABLESPOON:
   active: 'TRUE'
   description: 'Liquid - Tablespoon '
+  definition: ''
+  source: ''
 LIQUID_TEASPOON:
   active: 'TRUE'
   description: 'Liquid - Teaspoon '
+  definition: ''
+  source: ''
 SOLID_GRAM:
   active: 'TRUE'
   description: 'Solid - Gram '
+  definition: ''
+  source: ''
 SOLID_KILOGRAM:
   active: 'TRUE'
   description: 'Solid - Kilogram '
+  definition: ''
+  source: ''
 SOLID_POUND:
   active: 'TRUE'
   description: 'Solid - Pound '
+  definition: ''
+  source: ''
 SOLID_LITER:
   active: 'TRUE'
   description: 'Solid - Liter '
+  definition: ''
+  source: ''
 SOLID_MILLIGRAM:
   active: 'TRUE'
   description: 'Solid - Milligram '
+  definition: ''
+  source: ''
 SOLID_OUNCE:
   active: 'TRUE'
   description: 'Solid - Ounce '
+  definition: ''
+  source: ''
 SOLID_TABLESPOON:
   active: 'TRUE'
   description: 'Solid - Tablespoon '
+  definition: ''
+  source: ''
 SOLID_TON:
   active: 'TRUE'
   description: 'Solid - Ton '
+  definition: ''
+  source: ''
 SOLID_TEASPOON:
   active: 'TRUE'
   description: 'Solid - Teaspoon '
+  definition: ''
+  source: ''
 RADIOACTIVE_CURIE:
   active: 'TRUE'
   description: 'Radioactive - Curie '
+  definition: ''
+  source: ''
 RADIOACTIVE_MEGABECQUEREL:
   active: 'TRUE'
   description: 'Radioactive - Megabecquerel '
+  definition: ''
+  source: ''
 RADIOACTIVE_MILLICURIE:
   active: 'TRUE'
   description: 'Radioactive - Millicurie '
+  definition: ''
+  source: ''
 RADIOACTIVE_TERABECQUEREL:
   active: 'TRUE'
   description: 'Radioactive - Terabecquerel '
+  definition: ''
+  source: ''
 RADIOACTIVE_MICROCURIE:
   active: 'TRUE'
   description: 'Radioactive - Microcurie '
+  definition: ''
+  source: ''

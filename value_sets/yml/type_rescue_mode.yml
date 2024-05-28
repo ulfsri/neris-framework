@@ -1,15 +1,30 @@
 REMOVAL_FROM_STRUCTURE:
   active: 'TRUE'
   description: Removal From Structure
+  definition: ''
+  source: ''
+  xor: removal
 EXTRICATION:
   active: 'TRUE'
   description: Extrication
+  definition: ''
+  source: ''
+  xor: nonremoval
 DISENTANGLEMENT:
   active: 'TRUE'
   description: Disentanglement
+  definition: ''
+  source: ''
+  xor: nonremoval
 RECOVERY:
   active: 'TRUE'
   description: Recovery
+  definition: ''
+  source: ''
+  xor: nonremoval
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''
+  xor: nonremoval

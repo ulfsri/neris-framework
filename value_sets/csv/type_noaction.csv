@@ -1,0 +1,4 @@
+name,active,description,definition,source
+CANCELLED,TRUE,Cancelled,,
+STAGED/STANDBY,TRUE,Staged / Standby,,
+NO_INCIDENT_FOUND,TRUE,No Incident Found,,

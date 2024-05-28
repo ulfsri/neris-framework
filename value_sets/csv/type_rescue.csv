@@ -1,6 +1,6 @@
-active,value,description,definition,source
-TRUE,FIREFIGHTER_RESCUED,Firefighter Rescued,,
-TRUE,NON_FIREFIGHTER_RESCUED,Non-Firefighter Rescued,,
-TRUE,FIREFIGHTER_ASSISTED_EVAC,Firefighter-Assisted Evacuation,,
-TRUE,SELF_EVACUATION,Self-Evacuation,,
-TRUE,NO_RESCUE_NEEDED,No Rescue Needed,,
+name,active,description,definition,source,xor
+FIREFIGHTER_RESCUED,TRUE,Firefighter Rescued,,,ffrescue
+NON_FIREFIGHTER_RESCUED,TRUE,Non-Firefighter Rescued,,,nonffrescue
+FIREFIGHTER_ASSISTED_EVAC,TRUE,Firefighter-Assisted Evacuation,,,ffrescue
+SELF_EVACUATION,TRUE,Self-Evacuation,,,nonffrescue
+NO_RESCUE_NEEDED,TRUE,No Rescue Needed,,,nonffrescue

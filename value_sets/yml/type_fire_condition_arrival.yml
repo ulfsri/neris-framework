@@ -1,18 +1,30 @@
 NO_SMOKE_FIRE_SHOWING:
   active: 'TRUE'
   description: No Smoke / Fire Showing
+  definition: ''
+  source: ''
 SMOKE_SHOWING:
   active: 'TRUE'
   description: Smoke Showing
+  definition: ''
+  source: ''
 SMOKE_FIRE_SHOWING:
   active: 'TRUE'
   description: Smoke and Fire Showing
+  definition: ''
+  source: ''
 STRUCTURE_INVOLVED:
   active: 'TRUE'
   description: Structure Involved
+  definition: ''
+  source: ''
 FIRE_SPREAD_BEYOND_STRUCTURE:
   active: 'TRUE'
   description: Fire Spread Beyond Structure
+  definition: ''
+  source: ''
 FIRE_OUT_UPON_ARRIVAL:
   active: 'TRUE'
   description: Fire Out Upon Arrival
+  definition: ''
+  source: ''

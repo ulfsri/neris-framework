@@ -1,2 +1,2 @@
-active,value,description,definition,source
-TRUE,1234,PSAP 1234,,PSAP Registry
+name,active,description,definition,source
+1234,TRUE,PSAP 1234,,PSAP Registry

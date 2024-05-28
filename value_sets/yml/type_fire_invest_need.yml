@@ -1,18 +1,30 @@
 'YES':
   active: 'TRUE'
   description: 'Yes'
+  definition: ''
+  source: ''
 'NO':
   active: 'TRUE'
   description: 'No'
+  definition: ''
+  source: ''
 NOT_EVALUATED:
   active: 'TRUE'
   description: Not Evaluated
+  definition: ''
+  source: ''
 NOT_APPLICABLE:
   active: 'TRUE'
   description: Not Applicable
+  definition: ''
+  source: ''
 NO_CAUSE_OBVIOUS:
   active: 'TRUE'
   description: No - Cause Obvious
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''

@@ -1,4 +1,4 @@
-active,value,description,definition,source
-TRUE,SOURCE,Source,,
-TRUE,TARGET,Target,,
-TRUE,UNKNOWN,Unknown,,
+name,active,description,definition,source
+SOURCE,TRUE,Source,,
+TARGET,TRUE,Target,,
+UNKNOWN,TRUE,Unknown,,

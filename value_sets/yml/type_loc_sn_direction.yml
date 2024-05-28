@@ -1,0 +1,20 @@
+NORTHBOUND:
+  active: 'TRUE'
+  description: Northbound
+  definition: ''
+  source: CLDXF-US
+SOUTHBOUND:
+  active: 'TRUE'
+  description: Southbound
+  definition: ''
+  source: CLDXF-US
+EASTBOUND:
+  active: 'TRUE'
+  description: Eastbound
+  definition: ''
+  source: CLDXF-US
+WESTBOUND:
+  active: 'TRUE'
+  description: Westbound
+  definition: ''
+  source: CLDXF-US

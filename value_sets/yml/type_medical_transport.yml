@@ -1,15 +1,25 @@
 TRANSPORT_BY_EMS_UNIT:
   active: 'TRUE'
   description: Transport by EMS Unit
+  definition: ''
+  source: ''
 OTHER_AGENCY_TRANSPORT:
   active: 'TRUE'
   description: Transport by Other Agency
+  definition: ''
+  source: ''
 PATIENT_REFUSED_TRANSPORT:
   active: 'TRUE'
   description: Patient Refused Transport
+  definition: ''
+  source: ''
 NONPATIENT_TRANSPORT:
   active: 'TRUE'
   description: Non-Patient Transport (Not Otherwise Listed)
+  definition: ''
+  source: ''
 NO_TRANSPORT:
   active: 'TRUE'
   description: No Transport
+  definition: ''
+  source: ''

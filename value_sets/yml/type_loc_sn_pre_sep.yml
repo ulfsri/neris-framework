@@ -1,0 +1,60 @@
+OF_THE:
+  active: 'TRUE'
+  description: of the
+  definition: ''
+  source: NENA-STA-004
+AT:
+  active: 'TRUE'
+  description: at
+  definition: ''
+  source: NENA-STA-004
+DE:
+  active: 'TRUE'
+  description: de
+  definition: ''
+  source: NENA-STA-004
+DE_LA:
+  active: 'TRUE'
+  description: de la
+  definition: ''
+  source: NENA-STA-004
+DEL:
+  active: 'TRUE'
+  description: del
+  definition: ''
+  source: NENA-STA-004
+DE_LAS:
+  active: 'TRUE'
+  description: de las
+  definition: ''
+  source: NENA-STA-004
+DES:
+  active: 'TRUE'
+  description: des
+  definition: ''
+  source: NENA-STA-004
+IN_THE:
+  active: 'TRUE'
+  description: in the
+  definition: ''
+  source: NENA-STA-004
+TO_THE:
+  active: 'TRUE'
+  description: to the
+  definition: ''
+  source: NENA-STA-004
+OF:
+  active: 'TRUE'
+  description: of
+  definition: ''
+  source: NENA-STA-004
+ON_THE:
+  active: 'TRUE'
+  description: on the
+  definition: ''
+  source: NENA-STA-004
+TO:
+  active: 'TRUE'
+  description: to
+  definition: ''
+  source: NENA-STA-004

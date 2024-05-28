@@ -1,15 +1,25 @@
 CARBON_MONOXIDE:
   active: 'TRUE'
   description: Carbon Monoxide
+  definition: ''
+  source: ''
 NATURAL_GAS:
   active: 'TRUE'
   description: Natural Gas
+  definition: ''
+  source: ''
 HEAT_DETECTOR:
   active: 'TRUE'
   description: Heat Detector
+  definition: ''
+  source: ''
 OTHER_CHEMICAL_DETECTOR:
   active: 'TRUE'
   description: Other_Chemical Detector
+  definition: ''
+  source: ''
 NONE:
   active: 'TRUE'
-  description: '---'
+  description: ''
+  definition: ''
+  source: ''

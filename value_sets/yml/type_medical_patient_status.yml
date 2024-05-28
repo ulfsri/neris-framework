@@ -1,9 +1,15 @@
 IMPROVED:
   active: 'TRUE'
   description: Improved
+  definition: ''
+  source: ''
 UNCHANGED:
   active: 'TRUE'
   description: Unchanged
+  definition: ''
+  source: ''
 WORSE:
   active: 'TRUE'
   description: Worse
+  definition: ''
+  source: ''

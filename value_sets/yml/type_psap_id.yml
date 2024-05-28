@@ -1,4 +1,5 @@
 '1234':
   active: 'TRUE'
   description: PSAP 1234
+  definition: ''
   source: PSAP Registry

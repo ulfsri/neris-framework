@@ -1,3 +1,5 @@
 UNKNOWN:
   active: 'TRUE'
   description: Unknown
+  definition: ''
+  source: ''

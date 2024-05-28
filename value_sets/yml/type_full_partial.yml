@@ -1,0 +1,10 @@
+FULL:
+  active: 'TRUE'
+  description: Full
+  definition: ''
+  source: ''
+PARTIAL:
+  active: 'TRUE'
+  description: Partial
+  definition: ''
+  source: ''

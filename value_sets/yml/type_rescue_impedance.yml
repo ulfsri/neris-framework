@@ -1,18 +1,30 @@
 HOARDING_CONDITIONS:
   active: 'TRUE'
   description: Hoarding Conditions
+  definition: ''
+  source: ''
 ACCESS_LIMITATIONS:
   active: 'TRUE'
   description: Limited Access
+  definition: ''
+  source: ''
 PHYSICAL_MEDICAL_CONDITIONS_PERSON:
   active: 'TRUE'
   description: Physical / Medical Conditions of Person
+  definition: ''
+  source: ''
 IMPAIRED_PERSON:
   active: 'TRUE'
   description: Impaired Person
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''
 NONE:
   active: 'TRUE'
-  description: '---'
+  description: ''
+  definition: ''
+  source: ''

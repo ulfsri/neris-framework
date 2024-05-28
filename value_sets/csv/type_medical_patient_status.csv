@@ -1,4 +1,4 @@
-active,value,description,definition,source
-TRUE,IMPROVED,Improved,,
-TRUE,UNCHANGED,Unchanged,,
-TRUE,WORSE,Worse,,
+name,active,description,definition,source
+IMPROVED,TRUE,Improved,,
+UNCHANGED,TRUE,Unchanged,,
+WORSE,TRUE,Worse,,

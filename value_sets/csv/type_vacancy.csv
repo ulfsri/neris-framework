@@ -1,8 +1,8 @@
-active,value,description,definition,source
-TRUE,NEW_CONSTRUCTION_REMODEL,New Construction / Remodel,,
-TRUE,ABANDONED,Abandoned,,
-TRUE,FOR_SALE_LEASE,For Sale / Lease,,
-TRUE,FORECLOSURE,Foreclosure,,
-TRUE,DAMAGE_DECAY,State of Damage / Decay,,
-TRUE,SEASONAL_OCCASIONALLY_OCCUPIED,Seasonal / Occasionally Occupied,,
-TRUE,UNKNOWN,Unknown,,
+name,active,description,definition,source
+NEW_CONSTRUCTION_REMODEL,TRUE,New Construction / Remodel,,
+ABANDONED,TRUE,Abandoned,,
+FOR_SALE_LEASE,TRUE,For Sale / Lease,,
+FORECLOSURE,TRUE,Foreclosure,,
+DAMAGE_DECAY,TRUE,State of Damage / Decay,,
+SEASONAL_OCCASIONALLY_OCCUPIED,TRUE,Seasonal / Occasionally Occupied,,
+UNKNOWN,TRUE,Unknown,,

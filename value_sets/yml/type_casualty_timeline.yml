@@ -1,18 +1,30 @@
 RESPONDING:
   active: 'TRUE'
   description: Responding
+  definition: ''
+  source: ''
 INITIAL_ATTACK:
   active: 'TRUE'
   description: Initial Attack (First 10 Minutes)
+  definition: ''
+  source: ''
 CONITNUING_OPERATIONS:
   active: 'TRUE'
   description: Continuing Operations (11 to 60 minutes)
+  definition: ''
+  source: ''
 EXTENDED_OPERATIONS:
   active: 'TRUE'
   description: Extended Operations (Over 60 minutes)
+  definition: ''
+  source: ''
 AFTER_CONCLUSIONS_OF_INCIDENT:
   active: 'TRUE'
   description: After Conclusions Of Incident
+  definition: ''
+  source: ''
 UNKNOWN:
   active: 'TRUE'
   description: Unknown
+  definition: ''
+  source: ''

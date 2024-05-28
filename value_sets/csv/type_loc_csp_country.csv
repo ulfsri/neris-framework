@@ -1,0 +1,250 @@
+name,active,description,definition,source
+AD,TRUE,Andorra,,ISO 3166-1 alpha-2
+AE,TRUE,United Arab Emirates,,ISO 3166-1 alpha-2
+AF,TRUE,Afghanistan,,ISO 3166-1 alpha-2
+AG,TRUE,Antigua and Barbuda,,ISO 3166-1 alpha-2
+AI,TRUE,Anguilla,,ISO 3166-1 alpha-2
+AL,TRUE,Albania,,ISO 3166-1 alpha-2
+AM,TRUE,Armenia,,ISO 3166-1 alpha-2
+AO,TRUE,Angola,,ISO 3166-1 alpha-2
+AQ,TRUE,Antarctica,,ISO 3166-1 alpha-2
+AR,TRUE,Argentina,,ISO 3166-1 alpha-2
+AS,TRUE,American Samoa,,ISO 3166-1 alpha-2
+AT,TRUE,Austria,,ISO 3166-1 alpha-2
+AU,TRUE,Australia,,ISO 3166-1 alpha-2
+AW,TRUE,Aruba,,ISO 3166-1 alpha-2
+AX,TRUE,Aland Islands,,ISO 3166-1 alpha-2
+AZ,TRUE,Azerbaijan,,ISO 3166-1 alpha-2
+BA,TRUE,Bosnia and Herzegovina,,ISO 3166-1 alpha-2
+BB,TRUE,Barbados,,ISO 3166-1 alpha-2
+BD,TRUE,Bangladesh,,ISO 3166-1 alpha-2
+BE,TRUE,Belgium,,ISO 3166-1 alpha-2
+BF,TRUE,Burkina Faso,,ISO 3166-1 alpha-2
+BG,TRUE,Bulgaria,,ISO 3166-1 alpha-2
+BH,TRUE,Bahrain,,ISO 3166-1 alpha-2
+BI,TRUE,Burundi,,ISO 3166-1 alpha-2
+BJ,TRUE,Benin,,ISO 3166-1 alpha-2
+BL,TRUE,Saint Barthelemy,,ISO 3166-1 alpha-2
+BM,TRUE,Bermuda,,ISO 3166-1 alpha-2
+BN,TRUE,Brunei Darussalam,,ISO 3166-1 alpha-2
+BO,TRUE,"Bolivia, Plurinational State of",,ISO 3166-1 alpha-2
+BQ,TRUE,"Bonaire, Sint Eustatius and Saba",,ISO 3166-1 alpha-2
+BR,TRUE,Brazil,,ISO 3166-1 alpha-2
+BS,TRUE,Bahamas,,ISO 3166-1 alpha-2
+BT,TRUE,Bhutan,,ISO 3166-1 alpha-2
+BV,TRUE,Bouvet Island,,ISO 3166-1 alpha-2
+BW,TRUE,Botswana,,ISO 3166-1 alpha-2
+BY,TRUE,Belarus,,ISO 3166-1 alpha-2
+BZ,TRUE,Belize,,ISO 3166-1 alpha-2
+CA,TRUE,Canada,,ISO 3166-1 alpha-2
+CC,TRUE,Cocos (Keeling) Islands,,ISO 3166-1 alpha-2
+CD,TRUE,"Congo, Democratic Republic of the",,ISO 3166-1 alpha-2
+CF,TRUE,Central African Republic,,ISO 3166-1 alpha-2
+CG,TRUE,Congo,,ISO 3166-1 alpha-2
+CH,TRUE,Switzerland,,ISO 3166-1 alpha-2
+CI,TRUE,Cote d'Ivoire,,ISO 3166-1 alpha-2
+CK,TRUE,Cook Islands,,ISO 3166-1 alpha-2
+CL,TRUE,Chile,,ISO 3166-1 alpha-2
+CM,TRUE,Cameroon,,ISO 3166-1 alpha-2
+CN,TRUE,China,,ISO 3166-1 alpha-2
+CO,TRUE,Colombia,,ISO 3166-1 alpha-2
+CR,TRUE,Costa Rica,,ISO 3166-1 alpha-2
+CU,TRUE,Cuba,,ISO 3166-1 alpha-2
+CV,TRUE,Cabo Verde,,ISO 3166-1 alpha-2
+CW,TRUE,Curacao,,ISO 3166-1 alpha-2
+CX,TRUE,Christmas Island,,ISO 3166-1 alpha-2
+CY,TRUE,Cyprus,,ISO 3166-1 alpha-2
+CZ,TRUE,Czechia,,ISO 3166-1 alpha-2
+DE,TRUE,Germany,,ISO 3166-1 alpha-2
+DJ,TRUE,Djibouti,,ISO 3166-1 alpha-2
+DK,TRUE,Denmark,,ISO 3166-1 alpha-2
+DM,TRUE,Dominica,,ISO 3166-1 alpha-2
+DO,TRUE,Dominican Republic,,ISO 3166-1 alpha-2
+DZ,TRUE,Algeria,,ISO 3166-1 alpha-2
+EC,TRUE,Ecuador,,ISO 3166-1 alpha-2
+EE,TRUE,Estonia,,ISO 3166-1 alpha-2
+EG,TRUE,Egypt,,ISO 3166-1 alpha-2
+EH,TRUE,Western Sahara,,ISO 3166-1 alpha-2
+ER,TRUE,Eritrea,,ISO 3166-1 alpha-2
+ES,TRUE,Spain,,ISO 3166-1 alpha-2
+ET,TRUE,Ethiopia,,ISO 3166-1 alpha-2
+FI,TRUE,Finland,,ISO 3166-1 alpha-2
+FJ,TRUE,Fiji,,ISO 3166-1 alpha-2
+FK,TRUE,Falkland Islands (Malvinas),,ISO 3166-1 alpha-2
+FM,TRUE,"Micronesia, Federated States of",,ISO 3166-1 alpha-2
+FO,TRUE,Faroe Islands,,ISO 3166-1 alpha-2
+FR,TRUE,France,,ISO 3166-1 alpha-2
+GA,TRUE,Gabon,,ISO 3166-1 alpha-2
+GB,TRUE,United Kingdom of Great Britain and Northern Ireland,,ISO 3166-1 alpha-2
+GD,TRUE,Grenada,,ISO 3166-1 alpha-2
+GE,TRUE,Georgia,,ISO 3166-1 alpha-2
+GF,TRUE,French Guiana,,ISO 3166-1 alpha-2
+GG,TRUE,Guernsey,,ISO 3166-1 alpha-2
+GH,TRUE,Ghana,,ISO 3166-1 alpha-2
+GI,TRUE,Gibraltar,,ISO 3166-1 alpha-2
+GL,TRUE,Greenland,,ISO 3166-1 alpha-2
+GM,TRUE,Gambia,,ISO 3166-1 alpha-2
+GN,TRUE,Guinea,,ISO 3166-1 alpha-2
+GP,TRUE,Guadeloupe,,ISO 3166-1 alpha-2
+GQ,TRUE,Equatorial Guinea,,ISO 3166-1 alpha-2
+GR,TRUE,Greece,,ISO 3166-1 alpha-2
+GS,TRUE,South Georgia and the South Sandwich Islands,,ISO 3166-1 alpha-2
+GT,TRUE,Guatemala,,ISO 3166-1 alpha-2
+GU,TRUE,Guam,,ISO 3166-1 alpha-2
+GW,TRUE,Guinea-Bissau,,ISO 3166-1 alpha-2
+GY,TRUE,Guyana,,ISO 3166-1 alpha-2
+HK,TRUE,Hong Kong,,ISO 3166-1 alpha-2
+HM,TRUE,Heard Island and McDonald Islands,,ISO 3166-1 alpha-2
+HN,TRUE,Honduras,,ISO 3166-1 alpha-2
+HR,TRUE,Croatia,,ISO 3166-1 alpha-2
+HT,TRUE,Haiti,,ISO 3166-1 alpha-2
+HU,TRUE,Hungary,,ISO 3166-1 alpha-2
+ID,TRUE,Indonesia,,ISO 3166-1 alpha-2
+IE,TRUE,Ireland,,ISO 3166-1 alpha-2
+IL,TRUE,Israel,,ISO 3166-1 alpha-2
+IM,TRUE,Isle of Man,,ISO 3166-1 alpha-2
+IN,TRUE,India,,ISO 3166-1 alpha-2
+IO,TRUE,British Indian Ocean Territory,,ISO 3166-1 alpha-2
+IQ,TRUE,Iraq,,ISO 3166-1 alpha-2
+IR,TRUE,"Iran, Islamic Republic of",,ISO 3166-1 alpha-2
+IS,TRUE,Iceland,,ISO 3166-1 alpha-2
+IT,TRUE,Italy,,ISO 3166-1 alpha-2
+JE,TRUE,Jersey,,ISO 3166-1 alpha-2
+JM,TRUE,Jamaica,,ISO 3166-1 alpha-2
+JO,TRUE,Jordan,,ISO 3166-1 alpha-2
+JP,TRUE,Japan,,ISO 3166-1 alpha-2
+KE,TRUE,Kenya,,ISO 3166-1 alpha-2
+KG,TRUE,Kyrgyzstan,,ISO 3166-1 alpha-2
+KH,TRUE,Cambodia,,ISO 3166-1 alpha-2
+KI,TRUE,Kiribati,,ISO 3166-1 alpha-2
+KM,TRUE,Comoros,,ISO 3166-1 alpha-2
+KN,TRUE,Saint Kitts and Nevis,,ISO 3166-1 alpha-2
+KP,TRUE,"Korea, Democratic People's Republic of",,ISO 3166-1 alpha-2
+KR,TRUE,"Korea, Republic of",,ISO 3166-1 alpha-2
+KW,TRUE,Kuwait,,ISO 3166-1 alpha-2
+KY,TRUE,Cayman Islands,,ISO 3166-1 alpha-2
+KZ,TRUE,Kazakhstan,,ISO 3166-1 alpha-2
+LA,TRUE,Lao People's Democratic Republic,,ISO 3166-1 alpha-2
+LB,TRUE,Lebanon,,ISO 3166-1 alpha-2
+LC,TRUE,Saint Lucia,,ISO 3166-1 alpha-2
+LI,TRUE,Liechtenstein,,ISO 3166-1 alpha-2
+LK,TRUE,Sri Lanka,,ISO 3166-1 alpha-2
+LR,TRUE,Liberia,,ISO 3166-1 alpha-2
+LS,TRUE,Lesotho,,ISO 3166-1 alpha-2
+LT,TRUE,Lithuania,,ISO 3166-1 alpha-2
+LU,TRUE,Luxembourg,,ISO 3166-1 alpha-2
+LV,TRUE,Latvia,,ISO 3166-1 alpha-2
+LY,TRUE,Libya,,ISO 3166-1 alpha-2
+MA,TRUE,Morocco,,ISO 3166-1 alpha-2
+MC,TRUE,Monaco,,ISO 3166-1 alpha-2
+MD,TRUE,"Moldova, Republic of",,ISO 3166-1 alpha-2
+ME,TRUE,Montenegro,,ISO 3166-1 alpha-2
+MF,TRUE,Saint Martin (French part),,ISO 3166-1 alpha-2
+MG,TRUE,Madagascar,,ISO 3166-1 alpha-2
+MH,TRUE,Marshall Islands,,ISO 3166-1 alpha-2
+MK,TRUE,North Macedonia,,ISO 3166-1 alpha-2
+ML,TRUE,Mali,,ISO 3166-1 alpha-2
+MM,TRUE,Myanmar,,ISO 3166-1 alpha-2
+MN,TRUE,Mongolia,,ISO 3166-1 alpha-2
+MO,TRUE,Macao,,ISO 3166-1 alpha-2
+MP,TRUE,Northern Mariana Islands,,ISO 3166-1 alpha-2
+MQ,TRUE,Martinique,,ISO 3166-1 alpha-2
+MR,TRUE,Mauritania,,ISO 3166-1 alpha-2
+MS,TRUE,Montserrat,,ISO 3166-1 alpha-2
+MT,TRUE,Malta,,ISO 3166-1 alpha-2
+MU,TRUE,Mauritius,,ISO 3166-1 alpha-2
+MV,TRUE,Maldives,,ISO 3166-1 alpha-2
+MW,TRUE,Malawi,,ISO 3166-1 alpha-2
+MX,TRUE,Mexico,,ISO 3166-1 alpha-2
+MY,TRUE,Malaysia,,ISO 3166-1 alpha-2
+MZ,TRUE,Mozambique,,ISO 3166-1 alpha-2
+,TRUE,Namibia,,ISO 3166-1 alpha-2
+NC,TRUE,New Caledonia,,ISO 3166-1 alpha-2
+NE,TRUE,Niger,,ISO 3166-1 alpha-2
+NF,TRUE,Norfolk Island,,ISO 3166-1 alpha-2
+NG,TRUE,Nigeria,,ISO 3166-1 alpha-2
+NI,TRUE,Nicaragua,,ISO 3166-1 alpha-2
+NL,TRUE,"Netherlands, Kingdom of the",,ISO 3166-1 alpha-2
+NO,TRUE,Norway,,ISO 3166-1 alpha-2
+NP,TRUE,Nepal,,ISO 3166-1 alpha-2
+NR,TRUE,Nauru,,ISO 3166-1 alpha-2
+NU,TRUE,Niue,,ISO 3166-1 alpha-2
+NZ,TRUE,New Zealand,,ISO 3166-1 alpha-2
+OM,TRUE,Oman,,ISO 3166-1 alpha-2
+PA,TRUE,Panama,,ISO 3166-1 alpha-2
+PE,TRUE,Peru,,ISO 3166-1 alpha-2
+PF,TRUE,French Polynesia,,ISO 3166-1 alpha-2
+PG,TRUE,Papua New Guinea,,ISO 3166-1 alpha-2
+PH,TRUE,Philippines,,ISO 3166-1 alpha-2
+PK,TRUE,Pakistan,,ISO 3166-1 alpha-2
+PL,TRUE,Poland,,ISO 3166-1 alpha-2
+PM,TRUE,Saint Pierre and Miquelon,,ISO 3166-1 alpha-2
+PN,TRUE,Pitcairn,,ISO 3166-1 alpha-2
+PR,TRUE,Puerto Rico,,ISO 3166-1 alpha-2
+PS,TRUE,"Palestine, State of",,ISO 3166-1 alpha-2
+PT,TRUE,Portugal,,ISO 3166-1 alpha-2
+PW,TRUE,Palau,,ISO 3166-1 alpha-2
+PY,TRUE,Paraguay,,ISO 3166-1 alpha-2
+QA,TRUE,Qatar,,ISO 3166-1 alpha-2
+RE,TRUE,R�union,,ISO 3166-1 alpha-2
+RO,TRUE,Romania,,ISO 3166-1 alpha-2
+RS,TRUE,Serbia,,ISO 3166-1 alpha-2
+RU,TRUE,Russian Federation,,ISO 3166-1 alpha-2
+RW,TRUE,Rwanda,,ISO 3166-1 alpha-2
+SA,TRUE,Saudi Arabia,,ISO 3166-1 alpha-2
+SB,TRUE,Solomon Islands,,ISO 3166-1 alpha-2
+SC,TRUE,Seychelles,,ISO 3166-1 alpha-2
+SD,TRUE,Sudan,,ISO 3166-1 alpha-2
+SE,TRUE,Sweden,,ISO 3166-1 alpha-2
+SG,TRUE,Singapore,,ISO 3166-1 alpha-2
+SH,TRUE,"Saint Helena, Ascension and Tristan da Cunha",,ISO 3166-1 alpha-2
+SI,TRUE,Slovenia,,ISO 3166-1 alpha-2
+SJ,TRUE,Svalbard and Jan Mayen,,ISO 3166-1 alpha-2
+SK,TRUE,Slovakia,,ISO 3166-1 alpha-2
+SL,TRUE,Sierra Leone,,ISO 3166-1 alpha-2
+SM,TRUE,San Marino,,ISO 3166-1 alpha-2
+SN,TRUE,Senegal,,ISO 3166-1 alpha-2
+SO,TRUE,Somalia,,ISO 3166-1 alpha-2
+SR,TRUE,Suriname,,ISO 3166-1 alpha-2
+SS,TRUE,South Sudan,,ISO 3166-1 alpha-2
+ST,TRUE,Sao Tome and Principe,,ISO 3166-1 alpha-2
+SV,TRUE,El Salvador,,ISO 3166-1 alpha-2
+SX,TRUE,Sint Maarten (Dutch part),,ISO 3166-1 alpha-2
+SY,TRUE,Syrian Arab Republic,,ISO 3166-1 alpha-2
+SZ,TRUE,Eswatini,,ISO 3166-1 alpha-2
+TC,TRUE,Turks and Caicos Islands,,ISO 3166-1 alpha-2
+TD,TRUE,Chad,,ISO 3166-1 alpha-2
+TF,TRUE,French Southern Territories,,ISO 3166-1 alpha-2
+TG,TRUE,Togo,,ISO 3166-1 alpha-2
+TH,TRUE,Thailand,,ISO 3166-1 alpha-2
+TJ,TRUE,Tajikistan,,ISO 3166-1 alpha-2
+TK,TRUE,Tokelau,,ISO 3166-1 alpha-2
+TL,TRUE,Timor-Leste,,ISO 3166-1 alpha-2
+TM,TRUE,Turkmenistan,,ISO 3166-1 alpha-2
+TN,TRUE,Tunisia,,ISO 3166-1 alpha-2
+TO,TRUE,Tonga,,ISO 3166-1 alpha-2
+TR,TRUE,Turkiye,,ISO 3166-1 alpha-2
+TT,TRUE,Trinidad and Tobago,,ISO 3166-1 alpha-2
+TV,TRUE,Tuvalu,,ISO 3166-1 alpha-2
+TW,TRUE,Taiwan,,ISO 3166-1 alpha-2
+TZ,TRUE,"Tanzania, United Republic of",,ISO 3166-1 alpha-2
+UA,TRUE,Ukraine,,ISO 3166-1 alpha-2
+UG,TRUE,Uganda,,ISO 3166-1 alpha-2
+UM,TRUE,United States Minor Outlying Islands,,ISO 3166-1 alpha-2
+US,TRUE,United States of America,,ISO 3166-1 alpha-2
+UY,TRUE,Uruguay,,ISO 3166-1 alpha-2
+UZ,TRUE,Uzbekistan,,ISO 3166-1 alpha-2
+VA,TRUE,Holy See,,ISO 3166-1 alpha-2
+VC,TRUE,Saint Vincent and the Grenadines,,ISO 3166-1 alpha-2
+VE,TRUE,"Venezuela, Bolivarian Republic of",,ISO 3166-1 alpha-2
+VG,TRUE,Virgin Islands (British),,ISO 3166-1 alpha-2
+VI,TRUE,Virgin Islands (U.S.),,ISO 3166-1 alpha-2
+VN,TRUE,Viet Nam,,ISO 3166-1 alpha-2
+VU,TRUE,Vanuatu,,ISO 3166-1 alpha-2
+WF,TRUE,Wallis and Futuna,,ISO 3166-1 alpha-2
+WS,TRUE,Samoa,,ISO 3166-1 alpha-2
+YE,TRUE,Yemen,,ISO 3166-1 alpha-2
+YT,TRUE,Mayotte,,ISO 3166-1 alpha-2
+ZA,TRUE,South Africa,,ISO 3166-1 alpha-2
+ZM,TRUE,Zambia,,ISO 3166-1 alpha-2
+ZW,TRUE,Zimbabwe,,ISO 3166-1 alpha-2

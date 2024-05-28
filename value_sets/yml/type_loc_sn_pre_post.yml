@@ -1,0 +1,1945 @@
+ABBEY:
+  active: 'TRUE'
+  description: Abbey
+  definition: ''
+  source: NENA-STA-004
+ACCESS:
+  active: 'TRUE'
+  description: Access
+  definition: ''
+  source: NENA-STA-004
+ACCESS ROAD:
+  active: 'TRUE'
+  description: Access Road
+  definition: ''
+  source: NENA-STA-004
+ACRES:
+  active: 'TRUE'
+  description: Acres
+  definition: ''
+  source: NENA-STA-004
+AIRPORT:
+  active: 'TRUE'
+  description: Airport
+  definition: ''
+  source: NENA-STA-004
+ALCOVE:
+  active: 'TRUE'
+  description: Alcove
+  definition: ''
+  source: NENA-STA-004
+ALLE:
+  active: 'TRUE'
+  description: Alle
+  definition: ''
+  source: NENA-STA-004
+ALLEY:
+  active: 'TRUE'
+  description: Alley
+  definition: ''
+  source: NENA-STA-004
+ANNEX:
+  active: 'TRUE'
+  description: Annex
+  definition: ''
+  source: NENA-STA-004
+APPROACH:
+  active: 'TRUE'
+  description: Approach
+  definition: ''
+  source: NENA-STA-004
+ARC:
+  active: 'TRUE'
+  description: Arc
+  definition: ''
+  source: NENA-STA-004
+ARCADE:
+  active: 'TRUE'
+  description: Arcade
+  definition: ''
+  source: NENA-STA-004
+ARCH:
+  active: 'TRUE'
+  description: Arch
+  definition: ''
+  source: NENA-STA-004
+AVENIDA:
+  active: 'TRUE'
+  description: Avenida
+  definition: ''
+  source: NENA-STA-004
+AVENUE:
+  active: 'TRUE'
+  description: Avenue
+  definition: ''
+  source: NENA-STA-004
+AVENUE CIRCLE:
+  active: 'TRUE'
+  description: Avenue Circle
+  definition: ''
+  source: NENA-STA-004
+AVENUE COURT:
+  active: 'TRUE'
+  description: Avenue Court
+  definition: ''
+  source: NENA-STA-004
+AVENUE LOOP:
+  active: 'TRUE'
+  description: Avenue Loop
+  definition: ''
+  source: NENA-STA-004
+AVENUE PATH:
+  active: 'TRUE'
+  description: Avenue Path
+  definition: ''
+  source: NENA-STA-004
+AVENUE PLACE:
+  active: 'TRUE'
+  description: Avenue Place
+  definition: ''
+  source: NENA-STA-004
+AVENUE WAY:
+  active: 'TRUE'
+  description: Avenue Way
+  definition: ''
+  source: NENA-STA-004
+BANK:
+  active: 'TRUE'
+  description: Bank
+  definition: ''
+  source: NENA-STA-004
+BAY:
+  active: 'TRUE'
+  description: Bay
+  definition: ''
+  source: NENA-STA-004
+BAYOU:
+  active: 'TRUE'
+  description: Bayou
+  definition: ''
+  source: NENA-STA-004
+BAYWAY:
+  active: 'TRUE'
+  description: Bayway
+  definition: ''
+  source: NENA-STA-004
+BEACH:
+  active: 'TRUE'
+  description: Beach
+  definition: ''
+  source: NENA-STA-004
+BEND:
+  active: 'TRUE'
+  description: Bend
+  definition: ''
+  source: NENA-STA-004
+BLUFF:
+  active: 'TRUE'
+  description: Bluff
+  definition: ''
+  source: NENA-STA-004
+BLUFFS:
+  active: 'TRUE'
+  description: Bluffs
+  definition: ''
+  source: NENA-STA-004
+BOTTOM:
+  active: 'TRUE'
+  description: Bottom
+  definition: ''
+  source: NENA-STA-004
+BOARDWALK:
+  active: 'TRUE'
+  description: Boardwalk
+  definition: ''
+  source: NENA-STA-004
+BOULEVARD:
+  active: 'TRUE'
+  description: Boulevard
+  definition: ''
+  source: NENA-STA-004
+BRANCH:
+  active: 'TRUE'
+  description: Branch
+  definition: ''
+  source: NENA-STA-004
+BRIDGE:
+  active: 'TRUE'
+  description: Bridge
+  definition: ''
+  source: NENA-STA-004
+BROOK:
+  active: 'TRUE'
+  description: Brook
+  definition: ''
+  source: NENA-STA-004
+BROOKS:
+  active: 'TRUE'
+  description: Brooks
+  definition: ''
+  source: NENA-STA-004
+BUREAU OF INDIAN AFFAIRS ROUTE:
+  active: 'TRUE'
+  description: Bureau of Indian Affairs Route
+  definition: ''
+  source: NENA-STA-004
+BURG:
+  active: 'TRUE'
+  description: Burg
+  definition: ''
+  source: NENA-STA-004
+BURGS:
+  active: 'TRUE'
+  description: Burgs
+  definition: ''
+  source: NENA-STA-004
+BYPASS:
+  active: 'TRUE'
+  description: Bypass
+  definition: ''
+  source: NENA-STA-004
+CALLE:
+  active: 'TRUE'
+  description: Calle
+  definition: ''
+  source: NENA-STA-004
+CALLEJON:
+  active: 'TRUE'
+  description: Callejon
+  definition: ''
+  source: NENA-STA-004
+CAMINO:
+  active: 'TRUE'
+  description: Camino
+  definition: ''
+  source: NENA-STA-004
+CAMP:
+  active: 'TRUE'
+  description: Camp
+  definition: ''
+  source: NENA-STA-004
+CANYON:
+  active: 'TRUE'
+  description: Canyon
+  definition: ''
+  source: NENA-STA-004
+CAPE:
+  active: 'TRUE'
+  description: Cape
+  definition: ''
+  source: NENA-STA-004
+CARTWAY:
+  active: 'TRUE'
+  description: Cartway
+  definition: ''
+  source: NENA-STA-004
+CAUSEWAY:
+  active: 'TRUE'
+  description: Causeway
+  definition: ''
+  source: NENA-STA-004
+CENTER:
+  active: 'TRUE'
+  description: Center
+  definition: ''
+  source: NENA-STA-004
+CENTRE:
+  active: 'TRUE'
+  description: Centre
+  definition: ''
+  source: NENA-STA-004
+CENTERS:
+  active: 'TRUE'
+  description: Centers
+  definition: ''
+  source: NENA-STA-004
+CHANNEL:
+  active: 'TRUE'
+  description: Channel
+  definition: ''
+  source: NENA-STA-004
+CHASE:
+  active: 'TRUE'
+  description: Chase
+  definition: ''
+  source: NENA-STA-004
+CHEMIN:
+  active: 'TRUE'
+  description: Chemin
+  definition: ''
+  source: NENA-STA-004
+CIRCLE:
+  active: 'TRUE'
+  description: Circle
+  definition: ''
+  source: NENA-STA-004
+CIRCLES:
+  active: 'TRUE'
+  description: Circles
+  definition: ''
+  source: NENA-STA-004
+CIRCUS:
+  active: 'TRUE'
+  description: Circus
+  definition: ''
+  source: NENA-STA-004
+CLIFF:
+  active: 'TRUE'
+  description: Cliff
+  definition: ''
+  source: NENA-STA-004
+CLIFFS:
+  active: 'TRUE'
+  description: Cliffs
+  definition: ''
+  source: NENA-STA-004
+CLOSE:
+  active: 'TRUE'
+  description: Close
+  definition: ''
+  source: NENA-STA-004
+CLUB:
+  active: 'TRUE'
+  description: Club
+  definition: ''
+  source: NENA-STA-004
+CLUSTER:
+  active: 'TRUE'
+  description: Cluster
+  definition: ''
+  source: NENA-STA-004
+COAST HIGHWAY:
+  active: 'TRUE'
+  description: Coast Highway
+  definition: ''
+  source: NENA-STA-004
+COMMON:
+  active: 'TRUE'
+  description: Common
+  definition: ''
+  source: NENA-STA-004
+COMMONS:
+  active: 'TRUE'
+  description: Commons
+  definition: ''
+  source: NENA-STA-004
+CONCESSION ROAD:
+  active: 'TRUE'
+  description: Concession Road
+  definition: ''
+  source: NENA-STA-004
+CONCOURSE:
+  active: 'TRUE'
+  description: Concourse
+  definition: ''
+  source: NENA-STA-004
+CONNECT:
+  active: 'TRUE'
+  description: Connect
+  definition: ''
+  source: NENA-STA-004
+CONNECTOR:
+  active: 'TRUE'
+  description: Connector
+  definition: ''
+  source: NENA-STA-004
+CORNER:
+  active: 'TRUE'
+  description: Corner
+  definition: ''
+  source: NENA-STA-004
+CORNERS:
+  active: 'TRUE'
+  description: Corners
+  definition: ''
+  source: NENA-STA-004
+CORRIDOR:
+  active: 'TRUE'
+  description: Corridor
+  definition: ''
+  source: NENA-STA-004
+CORSO:
+  active: 'TRUE'
+  description: Corso
+  definition: ''
+  source: NENA-STA-004
+CORTE:
+  active: 'TRUE'
+  description: Corte
+  definition: ''
+  source: NENA-STA-004
+COUNTY FOREST ROAD:
+  active: 'TRUE'
+  description: County Forest Road
+  definition: ''
+  source: NENA-STA-004
+COUNTY HIGHWAY:
+  active: 'TRUE'
+  description: County Highway
+  definition: ''
+  source: NENA-STA-004
+COUNTY ROAD:
+  active: 'TRUE'
+  description: County Road
+  definition: ''
+  source: NENA-STA-004
+COUNTY ROUTE:
+  active: 'TRUE'
+  description: County Route
+  definition: ''
+  source: NENA-STA-004
+COUNTY STATE AID HIGHWAY:
+  active: 'TRUE'
+  description: County State Aid Highway
+  definition: ''
+  source: NENA-STA-004
+COURS:
+  active: 'TRUE'
+  description: Cours
+  definition: ''
+  source: NENA-STA-004
+COURSE:
+  active: 'TRUE'
+  description: Course
+  definition: ''
+  source: NENA-STA-004
+COURT:
+  active: 'TRUE'
+  description: Court
+  definition: ''
+  source: NENA-STA-004
+COURTS:
+  active: 'TRUE'
+  description: Courts
+  definition: ''
+  source: NENA-STA-004
+COVE:
+  active: 'TRUE'
+  description: Cove
+  definition: ''
+  source: NENA-STA-004
+COVES:
+  active: 'TRUE'
+  description: Coves
+  definition: ''
+  source: NENA-STA-004
+CREEK:
+  active: 'TRUE'
+  description: Creek
+  definition: ''
+  source: NENA-STA-004
+CRESCENT:
+  active: 'TRUE'
+  description: Crescent
+  definition: ''
+  source: NENA-STA-004
+CREST:
+  active: 'TRUE'
+  description: Crest
+  definition: ''
+  source: NENA-STA-004
+CROSS:
+  active: 'TRUE'
+  description: Cross
+  definition: ''
+  source: NENA-STA-004
+CROSSING:
+  active: 'TRUE'
+  description: Crossing
+  definition: ''
+  source: NENA-STA-004
+CROSSINGS:
+  active: 'TRUE'
+  description: Crossings
+  definition: ''
+  source: NENA-STA-004
+CROSSOVER:
+  active: 'TRUE'
+  description: Crossover
+  definition: ''
+  source: NENA-STA-004
+CROSSROAD:
+  active: 'TRUE'
+  description: Crossroad
+  definition: ''
+  source: NENA-STA-004
+CROSSROADS:
+  active: 'TRUE'
+  description: Crossroads
+  definition: ''
+  source: NENA-STA-004
+CROSSWAY:
+  active: 'TRUE'
+  description: Crossway
+  definition: ''
+  source: NENA-STA-004
+CURVE:
+  active: 'TRUE'
+  description: Curve
+  definition: ''
+  source: NENA-STA-004
+CUSTER COUNTY ROAD:
+  active: 'TRUE'
+  description: Custer County Road
+  definition: ''
+  source: NENA-STA-004
+CUTOFF:
+  active: 'TRUE'
+  description: Cutoff
+  definition: ''
+  source: NENA-STA-004
+CUTTING:
+  active: 'TRUE'
+  description: Cutting
+  definition: ''
+  source: NENA-STA-004
+DALE:
+  active: 'TRUE'
+  description: Dale
+  definition: ''
+  source: NENA-STA-004
+DAM:
+  active: 'TRUE'
+  description: Dam
+  definition: ''
+  source: NENA-STA-004
+DAWSON COUNTY ROAD:
+  active: 'TRUE'
+  description: Dawson County Road
+  definition: ''
+  source: NENA-STA-004
+DELL:
+  active: 'TRUE'
+  description: Dell
+  definition: ''
+  source: NENA-STA-004
+DIVIDE:
+  active: 'TRUE'
+  description: Divide
+  definition: ''
+  source: NENA-STA-004
+DOCK:
+  active: 'TRUE'
+  description: Dock
+  definition: ''
+  source: NENA-STA-004
+DOWN:
+  active: 'TRUE'
+  description: Down
+  definition: ''
+  source: NENA-STA-004
+DOWNS:
+  active: 'TRUE'
+  description: Downs
+  definition: ''
+  source: NENA-STA-004
+DRAW:
+  active: 'TRUE'
+  description: Draw
+  definition: ''
+  source: NENA-STA-004
+DRIFT:
+  active: 'TRUE'
+  description: Drift
+  definition: ''
+  source: NENA-STA-004
+DRIVE:
+  active: 'TRUE'
+  description: Drive
+  definition: ''
+  source: NENA-STA-004
+DRIVES:
+  active: 'TRUE'
+  description: Drives
+  definition: ''
+  source: NENA-STA-004
+DRIVEWAY:
+  active: 'TRUE'
+  description: Driveway
+  definition: ''
+  source: NENA-STA-004
+DUGWAY:
+  active: 'TRUE'
+  description: Dugway
+  definition: ''
+  source: NENA-STA-004
+ECHO:
+  active: 'TRUE'
+  description: Echo
+  definition: ''
+  source: NENA-STA-004
+EDGE:
+  active: 'TRUE'
+  description: Edge
+  definition: ''
+  source: NENA-STA-004
+END:
+  active: 'TRUE'
+  description: End
+  definition: ''
+  source: NENA-STA-004
+ENTRANCE:
+  active: 'TRUE'
+  description: Entrance
+  definition: ''
+  source: NENA-STA-004
+ENTRY:
+  active: 'TRUE'
+  description: Entry
+  definition: ''
+  source: NENA-STA-004
+ESPLANADE:
+  active: 'TRUE'
+  description: Esplanade
+  definition: ''
+  source: NENA-STA-004
+ESTATE:
+  active: 'TRUE'
+  description: Estate
+  definition: ''
+  source: NENA-STA-004
+ESTATES:
+  active: 'TRUE'
+  description: Estates
+  definition: ''
+  source: NENA-STA-004
+EXCHANGE:
+  active: 'TRUE'
+  description: Exchange
+  definition: ''
+  source: NENA-STA-004
+EXIT:
+  active: 'TRUE'
+  description: Exit
+  definition: ''
+  source: NENA-STA-004
+EXPRESSWAY:
+  active: 'TRUE'
+  description: Expressway
+  definition: ''
+  source: NENA-STA-004
+EXTENSION:
+  active: 'TRUE'
+  description: Extension
+  definition: ''
+  source: NENA-STA-004
+EXTENSIONS:
+  active: 'TRUE'
+  description: Extensions
+  definition: ''
+  source: NENA-STA-004
+FALL:
+  active: 'TRUE'
+  description: Fall
+  definition: ''
+  source: NENA-STA-004
+FALLS:
+  active: 'TRUE'
+  description: Falls
+  definition: ''
+  source: NENA-STA-004
+FARE:
+  active: 'TRUE'
+  description: Fare
+  definition: ''
+  source: NENA-STA-004
+FARM:
+  active: 'TRUE'
+  description: Farm
+  definition: ''
+  source: NENA-STA-004
+FARM TO MARKET:
+  active: 'TRUE'
+  description: Farm to Market
+  definition: ''
+  source: NENA-STA-004
+FEDERAL-AID SECONDARY HIGHWAY:
+  active: 'TRUE'
+  description: Federal-Aid Secondary Highway
+  definition: ''
+  source: NENA-STA-004
+FERRY:
+  active: 'TRUE'
+  description: Ferry
+  definition: ''
+  source: NENA-STA-004
+FIELD:
+  active: 'TRUE'
+  description: Field
+  definition: ''
+  source: NENA-STA-004
+FIELDS:
+  active: 'TRUE'
+  description: Fields
+  definition: ''
+  source: NENA-STA-004
+FLAT:
+  active: 'TRUE'
+  description: Flat
+  definition: ''
+  source: NENA-STA-004
+FLATS:
+  active: 'TRUE'
+  description: Flats
+  definition: ''
+  source: NENA-STA-004
+FLOWAGE:
+  active: 'TRUE'
+  description: Flowage
+  definition: ''
+  source: NENA-STA-004
+FLYWAY:
+  active: 'TRUE'
+  description: Flyway
+  definition: ''
+  source: NENA-STA-004
+FORD:
+  active: 'TRUE'
+  description: Ford
+  definition: ''
+  source: NENA-STA-004
+FORDS:
+  active: 'TRUE'
+  description: Fords
+  definition: ''
+  source: NENA-STA-004
+FOREST:
+  active: 'TRUE'
+  description: Forest
+  definition: ''
+  source: NENA-STA-004
+FOREST ROAD:
+  active: 'TRUE'
+  description: Forest Road
+  definition: ''
+  source: NENA-STA-004
+FOREST HIGHWAY:
+  active: 'TRUE'
+  description: Forest Highway
+  definition: ''
+  source: NENA-STA-004
+FORGE:
+  active: 'TRUE'
+  description: Forge
+  definition: ''
+  source: NENA-STA-004
+FORGES:
+  active: 'TRUE'
+  description: Forges
+  definition: ''
+  source: NENA-STA-004
+FORK:
+  active: 'TRUE'
+  description: Fork
+  definition: ''
+  source: NENA-STA-004
+FORKS:
+  active: 'TRUE'
+  description: Forks
+  definition: ''
+  source: NENA-STA-004
+FORT:
+  active: 'TRUE'
+  description: Fort
+  definition: ''
+  source: NENA-STA-004
+FREEWAY:
+  active: 'TRUE'
+  description: Freeway
+  definition: ''
+  source: NENA-STA-004
+FRONT:
+  active: 'TRUE'
+  description: Front
+  definition: ''
+  source: NENA-STA-004
+FRONTAGE ROAD:
+  active: 'TRUE'
+  description: Frontage Road
+  definition: ''
+  source: NENA-STA-004
+GABLES:
+  active: 'TRUE'
+  description: Gables
+  definition: ''
+  source: NENA-STA-004
+GARDEN:
+  active: 'TRUE'
+  description: Garden
+  definition: ''
+  source: NENA-STA-004
+GARDENS:
+  active: 'TRUE'
+  description: Gardens
+  definition: ''
+  source: NENA-STA-004
+GARTH:
+  active: 'TRUE'
+  description: Garth
+  definition: ''
+  source: NENA-STA-004
+GATE:
+  active: 'TRUE'
+  description: Gate
+  definition: ''
+  source: NENA-STA-004
+GATES:
+  active: 'TRUE'
+  description: Gates
+  definition: ''
+  source: NENA-STA-004
+GATEWAY:
+  active: 'TRUE'
+  description: Gateway
+  definition: ''
+  source: NENA-STA-004
+GLADE:
+  active: 'TRUE'
+  description: Glade
+  definition: ''
+  source: NENA-STA-004
+GLEN:
+  active: 'TRUE'
+  description: Glen
+  definition: ''
+  source: NENA-STA-004
+GLENS:
+  active: 'TRUE'
+  description: Glens
+  definition: ''
+  source: NENA-STA-004
+GORGE:
+  active: 'TRUE'
+  description: Gorge
+  definition: ''
+  source: NENA-STA-004
+GRADE:
+  active: 'TRUE'
+  description: Grade
+  definition: ''
+  source: NENA-STA-004
+GREEN:
+  active: 'TRUE'
+  description: Green
+  definition: ''
+  source: NENA-STA-004
+GREENS:
+  active: 'TRUE'
+  description: Greens
+  definition: ''
+  source: NENA-STA-004
+GREENWAY:
+  active: 'TRUE'
+  description: Greenway
+  definition: ''
+  source: NENA-STA-004
+GROVE:
+  active: 'TRUE'
+  description: Grove
+  definition: ''
+  source: NENA-STA-004
+GROVES:
+  active: 'TRUE'
+  description: Groves
+  definition: ''
+  source: NENA-STA-004
+HARBOR:
+  active: 'TRUE'
+  description: Harbor
+  definition: ''
+  source: NENA-STA-004
+HARBORS:
+  active: 'TRUE'
+  description: Harbors
+  definition: ''
+  source: NENA-STA-004
+HARBOUR:
+  active: 'TRUE'
+  description: Harbour
+  definition: ''
+  source: NENA-STA-004
+HAUL ROAD:
+  active: 'TRUE'
+  description: Haul Road
+  definition: ''
+  source: NENA-STA-004
+HAVEN:
+  active: 'TRUE'
+  description: Haven
+  definition: ''
+  source: NENA-STA-004
+HEATH:
+  active: 'TRUE'
+  description: Heath
+  definition: ''
+  source: NENA-STA-004
+HEIGHTS:
+  active: 'TRUE'
+  description: Heights
+  definition: ''
+  source: NENA-STA-004
+HIDEAWAY:
+  active: 'TRUE'
+  description: Hideaway
+  definition: ''
+  source: NENA-STA-004
+HIGHWAY:
+  active: 'TRUE'
+  description: Highway
+  definition: ''
+  source: NENA-STA-004
+HILL:
+  active: 'TRUE'
+  description: Hill
+  definition: ''
+  source: NENA-STA-004
+HILLS:
+  active: 'TRUE'
+  description: Hills
+  definition: ''
+  source: NENA-STA-004
+HOLLOW:
+  active: 'TRUE'
+  description: Hollow
+  definition: ''
+  source: NENA-STA-004
+HORN:
+  active: 'TRUE'
+  description: Horn
+  definition: ''
+  source: NENA-STA-004
+HORSESHOE:
+  active: 'TRUE'
+  description: Horseshoe
+  definition: ''
+  source: NENA-STA-004
+INDIAN SERVICE ROAD:
+  active: 'TRUE'
+  description: Indian Service Road
+  definition: ''
+  source: NENA-STA-004
+INLET:
+  active: 'TRUE'
+  description: Inlet
+  definition: ''
+  source: NENA-STA-004
+INTERSTATE:
+  active: 'TRUE'
+  description: Interstate
+  definition: ''
+  source: NENA-STA-004
+INTERVAL:
+  active: 'TRUE'
+  description: Interval
+  definition: ''
+  source: NENA-STA-004
+ISLAND:
+  active: 'TRUE'
+  description: Island
+  definition: ''
+  source: NENA-STA-004
+ISLANDS:
+  active: 'TRUE'
+  description: Islands
+  definition: ''
+  source: NENA-STA-004
+ISLE:
+  active: 'TRUE'
+  description: Isle
+  definition: ''
+  source: NENA-STA-004
+ISLES:
+  active: 'TRUE'
+  description: Isles
+  definition: ''
+  source: NENA-STA-004
+J-TURN:
+  active: 'TRUE'
+  description: J-Turn
+  definition: ''
+  source: NENA-STA-004
+JUNCTION:
+  active: 'TRUE'
+  description: Junction
+  definition: ''
+  source: NENA-STA-004
+JUNCTIONS:
+  active: 'TRUE'
+  description: Junctions
+  definition: ''
+  source: NENA-STA-004
+KEEP:
+  active: 'TRUE'
+  description: Keep
+  definition: ''
+  source: NENA-STA-004
+KEY:
+  active: 'TRUE'
+  description: Key
+  definition: ''
+  source: NENA-STA-004
+KEYS:
+  active: 'TRUE'
+  description: Keys
+  definition: ''
+  source: NENA-STA-004
+KNOLL:
+  active: 'TRUE'
+  description: Knoll
+  definition: ''
+  source: NENA-STA-004
+KNOLLS:
+  active: 'TRUE'
+  description: Knolls
+  definition: ''
+  source: NENA-STA-004
+LAIR:
+  active: 'TRUE'
+  description: Lair
+  definition: ''
+  source: NENA-STA-004
+LAKE:
+  active: 'TRUE'
+  description: Lake
+  definition: ''
+  source: NENA-STA-004
+LAKES:
+  active: 'TRUE'
+  description: Lakes
+  definition: ''
+  source: NENA-STA-004
+LAND:
+  active: 'TRUE'
+  description: Land
+  definition: ''
+  source: NENA-STA-004
+LANDING:
+  active: 'TRUE'
+  description: Landing
+  definition: ''
+  source: NENA-STA-004
+LANE:
+  active: 'TRUE'
+  description: Lane
+  definition: ''
+  source: NENA-STA-004
+LANE CIRCLE:
+  active: 'TRUE'
+  description: Lane Circle
+  definition: ''
+  source: NENA-STA-004
+LANE COURT:
+  active: 'TRUE'
+  description: Lane Court
+  definition: ''
+  source: NENA-STA-004
+LANE ROAD:
+  active: 'TRUE'
+  description: Lane Road
+  definition: ''
+  source: NENA-STA-004
+LATERAL:
+  active: 'TRUE'
+  description: Lateral
+  definition: ''
+  source: NENA-STA-004
+LEDGE:
+  active: 'TRUE'
+  description: Ledge
+  definition: ''
+  source: NENA-STA-004
+LIGHT:
+  active: 'TRUE'
+  description: Light
+  definition: ''
+  source: NENA-STA-004
+LIGHTS:
+  active: 'TRUE'
+  description: Lights
+  definition: ''
+  source: NENA-STA-004
+LINE:
+  active: 'TRUE'
+  description: Line
+  definition: ''
+  source: NENA-STA-004
+LOAF:
+  active: 'TRUE'
+  description: Loaf
+  definition: ''
+  source: NENA-STA-004
+LOCK:
+  active: 'TRUE'
+  description: Lock
+  definition: ''
+  source: NENA-STA-004
+LOCKS:
+  active: 'TRUE'
+  description: Locks
+  definition: ''
+  source: NENA-STA-004
+LODGE:
+  active: 'TRUE'
+  description: Lodge
+  definition: ''
+  source: NENA-STA-004
+LOOKOUT:
+  active: 'TRUE'
+  description: Lookout
+  definition: ''
+  source: NENA-STA-004
+LOOP:
+  active: 'TRUE'
+  description: Loop
+  definition: ''
+  source: NENA-STA-004
+LOOP ROAD:
+  active: 'TRUE'
+  description: Loop Road
+  definition: ''
+  source: NENA-STA-004
+LUGAR:
+  active: 'TRUE'
+  description: Lugar
+  definition: ''
+  source: NENA-STA-004
+MALL:
+  active: 'TRUE'
+  description: Mall
+  definition: ''
+  source: NENA-STA-004
+MANOR:
+  active: 'TRUE'
+  description: Manor
+  definition: ''
+  source: NENA-STA-004
+MANORS:
+  active: 'TRUE'
+  description: Manors
+  definition: ''
+  source: NENA-STA-004
+MARKET:
+  active: 'TRUE'
+  description: Market
+  definition: ''
+  source: NENA-STA-004
+MEADOW:
+  active: 'TRUE'
+  description: Meadow
+  definition: ''
+  source: NENA-STA-004
+MEADOWS:
+  active: 'TRUE'
+  description: Meadows
+  definition: ''
+  source: NENA-STA-004
+MEWS:
+  active: 'TRUE'
+  description: Mews
+  definition: ''
+  source: NENA-STA-004
+MILL:
+  active: 'TRUE'
+  description: Mill
+  definition: ''
+  source: NENA-STA-004
+MILLS:
+  active: 'TRUE'
+  description: Mills
+  definition: ''
+  source: NENA-STA-004
+MISSION:
+  active: 'TRUE'
+  description: Mission
+  definition: ''
+  source: NENA-STA-004
+MONTANA HIGHWAY:
+  active: 'TRUE'
+  description: Montana Highway
+  definition: ''
+  source: NENA-STA-004
+MOTORWAY:
+  active: 'TRUE'
+  description: Motorway
+  definition: ''
+  source: NENA-STA-004
+MOUNT:
+  active: 'TRUE'
+  description: Mount
+  definition: ''
+  source: NENA-STA-004
+MOUNTAIN:
+  active: 'TRUE'
+  description: Mountain
+  definition: ''
+  source: NENA-STA-004
+MOUNTAINS:
+  active: 'TRUE'
+  description: Mountains
+  definition: ''
+  source: NENA-STA-004
+NARROWS:
+  active: 'TRUE'
+  description: Narrows
+  definition: ''
+  source: NENA-STA-004
+NATIONAL FOREST DEVELOPMENT ROAD:
+  active: 'TRUE'
+  description: National Forest Development Road
+  definition: ''
+  source: NENA-STA-004
+NECK:
+  active: 'TRUE'
+  description: Neck
+  definition: ''
+  source: NENA-STA-004
+NOOK:
+  active: 'TRUE'
+  description: Nook
+  definition: ''
+  source: NENA-STA-004
+NORTH CAROLINA HIGHWAY:
+  active: 'TRUE'
+  description: North Carolina Highway
+  definition: ''
+  source: NENA-STA-004
+OAKS:
+  active: 'TRUE'
+  description: Oaks
+  definition: ''
+  source: NENA-STA-004
+OLD COUNTY ROAD:
+  active: 'TRUE'
+  description: Old County Road
+  definition: ''
+  source: NENA-STA-004
+ORCHARD:
+  active: 'TRUE'
+  description: Orchard
+  definition: ''
+  source: NENA-STA-004
+OVAL:
+  active: 'TRUE'
+  description: Oval
+  definition: ''
+  source: NENA-STA-004
+OVERLOOK:
+  active: 'TRUE'
+  description: Overlook
+  definition: ''
+  source: NENA-STA-004
+OVERPASS:
+  active: 'TRUE'
+  description: Overpass
+  definition: ''
+  source: NENA-STA-004
+OVI:
+  active: 'TRUE'
+  description: Ovi
+  definition: ''
+  source: NENA-STA-004
+PARK:
+  active: 'TRUE'
+  description: Park
+  definition: ''
+  source: NENA-STA-004
+PARKE:
+  active: 'TRUE'
+  description: Parke
+  definition: ''
+  source: NENA-STA-004
+PARKS:
+  active: 'TRUE'
+  description: Parks
+  definition: ''
+  source: NENA-STA-004
+PARKWAY:
+  active: 'TRUE'
+  description: Parkway
+  definition: ''
+  source: NENA-STA-004
+PARKWAYS:
+  active: 'TRUE'
+  description: Parkways
+  definition: ''
+  source: NENA-STA-004
+PASEO:
+  active: 'TRUE'
+  description: Paseo
+  definition: ''
+  source: NENA-STA-004
+PASS:
+  active: 'TRUE'
+  description: Pass
+  definition: ''
+  source: NENA-STA-004
+PASSAGE:
+  active: 'TRUE'
+  description: Passage
+  definition: ''
+  source: NENA-STA-004
+PATH:
+  active: 'TRUE'
+  description: Path
+  definition: ''
+  source: NENA-STA-004
+PATHWAY:
+  active: 'TRUE'
+  description: Pathway
+  definition: ''
+  source: NENA-STA-004
+PIKE:
+  active: 'TRUE'
+  description: Pike
+  definition: ''
+  source: NENA-STA-004
+PINE:
+  active: 'TRUE'
+  description: Pine
+  definition: ''
+  source: NENA-STA-004
+PINES:
+  active: 'TRUE'
+  description: Pines
+  definition: ''
+  source: NENA-STA-004
+PIAZZA:
+  active: 'TRUE'
+  description: Piazza
+  definition: ''
+  source: NENA-STA-004
+PLACE:
+  active: 'TRUE'
+  description: Place
+  definition: ''
+  source: NENA-STA-004
+PLACITA:
+  active: 'TRUE'
+  description: Placita
+  definition: ''
+  source: NENA-STA-004
+PLAIN:
+  active: 'TRUE'
+  description: Plain
+  definition: ''
+  source: NENA-STA-004
+PLAINS:
+  active: 'TRUE'
+  description: Plains
+  definition: ''
+  source: NENA-STA-004
+PLATZ:
+  active: 'TRUE'
+  description: Platz
+  definition: ''
+  source: NENA-STA-004
+PLAZA:
+  active: 'TRUE'
+  description: Plaza
+  definition: ''
+  source: NENA-STA-004
+POINT:
+  active: 'TRUE'
+  description: Point
+  definition: ''
+  source: NENA-STA-004
+POINTE:
+  active: 'TRUE'
+  description: Pointe
+  definition: ''
+  source: NENA-STA-004
+POINTS:
+  active: 'TRUE'
+  description: Points
+  definition: ''
+  source: NENA-STA-004
+PORT:
+  active: 'TRUE'
+  description: Port
+  definition: ''
+  source: NENA-STA-004
+PORTS:
+  active: 'TRUE'
+  description: Ports
+  definition: ''
+  source: NENA-STA-004
+PRAIRIE:
+  active: 'TRUE'
+  description: Prairie
+  definition: ''
+  source: NENA-STA-004
+PRIVATE ROAD:
+  active: 'TRUE'
+  description: Private Road
+  definition: ''
+  source: NENA-STA-004
+PROMENADE:
+  active: 'TRUE'
+  description: Promenade
+  definition: ''
+  source: NENA-STA-004
+PUBLIC ACCESS:
+  active: 'TRUE'
+  description: Public Access
+  definition: ''
+  source: NENA-STA-004
+QUARTER:
+  active: 'TRUE'
+  description: Quarter
+  definition: ''
+  source: NENA-STA-004
+QUAY:
+  active: 'TRUE'
+  description: Quay
+  definition: ''
+  source: NENA-STA-004
+RAMP:
+  active: 'TRUE'
+  description: Ramp
+  definition: ''
+  source: NENA-STA-004
+RADIAL:
+  active: 'TRUE'
+  description: Radial
+  definition: ''
+  source: NENA-STA-004
+RANCH:
+  active: 'TRUE'
+  description: Ranch
+  definition: ''
+  source: NENA-STA-004
+RANCHO:
+  active: 'TRUE'
+  description: Rancho
+  definition: ''
+  source: NENA-STA-004
+RAPID:
+  active: 'TRUE'
+  description: Rapid
+  definition: ''
+  source: NENA-STA-004
+RAPIDS:
+  active: 'TRUE'
+  description: Rapids
+  definition: ''
+  source: NENA-STA-004
+REACH:
+  active: 'TRUE'
+  description: Reach
+  definition: ''
+  source: NENA-STA-004
+RECREATIONAL ROAD:
+  active: 'TRUE'
+  description: Recreational Road
+  definition: ''
+  source: NENA-STA-004
+REST:
+  active: 'TRUE'
+  description: Rest
+  definition: ''
+  source: NENA-STA-004
+RETREAT:
+  active: 'TRUE'
+  description: Retreat
+  definition: ''
+  source: NENA-STA-004
+RIDGE:
+  active: 'TRUE'
+  description: Ridge
+  definition: ''
+  source: NENA-STA-004
+RIDGES:
+  active: 'TRUE'
+  description: Ridges
+  definition: ''
+  source: NENA-STA-004
+RISE:
+  active: 'TRUE'
+  description: Rise
+  definition: ''
+  source: NENA-STA-004
+RIVER:
+  active: 'TRUE'
+  description: River
+  definition: ''
+  source: NENA-STA-004
+RIVER ROAD:
+  active: 'TRUE'
+  description: River Road
+  definition: ''
+  source: NENA-STA-004
+ROAD:
+  active: 'TRUE'
+  description: Road
+  definition: ''
+  source: NENA-STA-004
+ROADS:
+  active: 'TRUE'
+  description: Roads
+  definition: ''
+  source: NENA-STA-004
+ROUND:
+  active: 'TRUE'
+  description: Round
+  definition: ''
+  source: NENA-STA-004
+ROUTE:
+  active: 'TRUE'
+  description: Route
+  definition: ''
+  source: NENA-STA-004
+ROW:
+  active: 'TRUE'
+  description: Row
+  definition: ''
+  source: NENA-STA-004
+RUE:
+  active: 'TRUE'
+  description: Rue
+  definition: ''
+  source: NENA-STA-004
+RUN:
+  active: 'TRUE'
+  description: Run
+  definition: ''
+  source: NENA-STA-004
+RUNNE:
+  active: 'TRUE'
+  description: Runne
+  definition: ''
+  source: NENA-STA-004
+RUNWAY:
+  active: 'TRUE'
+  description: Runway
+  definition: ''
+  source: NENA-STA-004
+SHOAL:
+  active: 'TRUE'
+  description: Shoal
+  definition: ''
+  source: NENA-STA-004
+SHOALS:
+  active: 'TRUE'
+  description: Shoals
+  definition: ''
+  source: NENA-STA-004
+SHORE:
+  active: 'TRUE'
+  description: Shore
+  definition: ''
+  source: NENA-STA-004
+SHORES:
+  active: 'TRUE'
+  description: Shores
+  definition: ''
+  source: NENA-STA-004
+SIDEROAD:
+  active: 'TRUE'
+  description: Sideroad
+  definition: ''
+  source: NENA-STA-004
+SKIES:
+  active: 'TRUE'
+  description: Skies
+  definition: ''
+  source: NENA-STA-004
+SKYWAY:
+  active: 'TRUE'
+  description: Skyway
+  definition: ''
+  source: NENA-STA-004
+SLIP:
+  active: 'TRUE'
+  description: Slip
+  definition: ''
+  source: NENA-STA-004
+SPRING:
+  active: 'TRUE'
+  description: Spring
+  definition: ''
+  source: NENA-STA-004
+SPRINGS:
+  active: 'TRUE'
+  description: Springs
+  definition: ''
+  source: NENA-STA-004
+SPUR:
+  active: 'TRUE'
+  description: Spur
+  definition: ''
+  source: NENA-STA-004
+SPURS:
+  active: 'TRUE'
+  description: Spurs
+  definition: ''
+  source: NENA-STA-004
+SQUARE:
+  active: 'TRUE'
+  description: Square
+  definition: ''
+  source: NENA-STA-004
+SQUARES:
+  active: 'TRUE'
+  description: Squares
+  definition: ''
+  source: NENA-STA-004
+STATE HIGHWAY:
+  active: 'TRUE'
+  description: State Highway
+  definition: ''
+  source: NENA-STA-004
+STATE PARK ROAD:
+  active: 'TRUE'
+  description: State Park Road
+  definition: ''
+  source: NENA-STA-004
+STATE PARKWAY:
+  active: 'TRUE'
+  description: State Parkway
+  definition: ''
+  source: NENA-STA-004
+STATE ROAD:
+  active: 'TRUE'
+  description: State Road
+  definition: ''
+  source: NENA-STA-004
+STATE ROUTE:
+  active: 'TRUE'
+  description: State Route
+  definition: ''
+  source: NENA-STA-004
+STATE SECONDARY:
+  active: 'TRUE'
+  description: State Secondary
+  definition: ''
+  source: NENA-STA-004
+STATE SPUR:
+  active: 'TRUE'
+  description: State Spur
+  definition: ''
+  source: NENA-STA-004
+STATION:
+  active: 'TRUE'
+  description: Station
+  definition: ''
+  source: NENA-STA-004
+STRAND:
+  active: 'TRUE'
+  description: Strand
+  definition: ''
+  source: NENA-STA-004
+STRASSE:
+  active: 'TRUE'
+  description: Strasse
+  definition: ''
+  source: NENA-STA-004
+STRAVENUE:
+  active: 'TRUE'
+  description: Stravenue
+  definition: ''
+  source: NENA-STA-004
+STREAM:
+  active: 'TRUE'
+  description: Stream
+  definition: ''
+  source: NENA-STA-004
+STREET:
+  active: 'TRUE'
+  description: Street
+  definition: ''
+  source: NENA-STA-004
+STREETS:
+  active: 'TRUE'
+  description: Streets
+  definition: ''
+  source: NENA-STA-004
+STREET COURT:
+  active: 'TRUE'
+  description: Street Court
+  definition: ''
+  source: NENA-STA-004
+STREET LOOP:
+  active: 'TRUE'
+  description: Street Loop
+  definition: ''
+  source: NENA-STA-004
+STREET PATH:
+  active: 'TRUE'
+  description: Street Path
+  definition: ''
+  source: NENA-STA-004
+STREET PLACE:
+  active: 'TRUE'
+  description: Street Place
+  definition: ''
+  source: NENA-STA-004
+STREET WAY:
+  active: 'TRUE'
+  description: Street Way
+  definition: ''
+  source: NENA-STA-004
+STREET CIRCLE:
+  active: 'TRUE'
+  description: Street Circle
+  definition: ''
+  source: NENA-STA-004
+STRIP:
+  active: 'TRUE'
+  description: Strip
+  definition: ''
+  source: NENA-STA-004
+SUMMIT:
+  active: 'TRUE'
+  description: Summit
+  definition: ''
+  source: NENA-STA-004
+TAXIWAY:
+  active: 'TRUE'
+  description: Taxiway
+  definition: ''
+  source: NENA-STA-004
+TERMINAL:
+  active: 'TRUE'
+  description: Terminal
+  definition: ''
+  source: NENA-STA-004
+TERN:
+  active: 'TRUE'
+  description: Tern
+  definition: ''
+  source: NENA-STA-004
+TERRACE:
+  active: 'TRUE'
+  description: Terrace
+  definition: ''
+  source: NENA-STA-004
+THROUGHWAY:
+  active: 'TRUE'
+  description: Throughway
+  definition: ''
+  source: NENA-STA-004
+THRUWAY:
+  active: 'TRUE'
+  description: Thruway
+  definition: ''
+  source: NENA-STA-004
+TIMBER ROAD:
+  active: 'TRUE'
+  description: Timber Road
+  definition: ''
+  source: NENA-STA-004
+TOWNLINE:
+  active: 'TRUE'
+  description: Townline
+  definition: ''
+  source: NENA-STA-004
+TOWN ROAD:
+  active: 'TRUE'
+  description: Town Road
+  definition: ''
+  source: NENA-STA-004
+TOWNSHIP ROAD:
+  active: 'TRUE'
+  description: Township Road
+  definition: ''
+  source: NENA-STA-004
+TRACE:
+  active: 'TRUE'
+  description: Trace
+  definition: ''
+  source: NENA-STA-004
+TRACK:
+  active: 'TRUE'
+  description: Track
+  definition: ''
+  source: NENA-STA-004
+TRAFFICWAY:
+  active: 'TRUE'
+  description: Trafficway
+  definition: ''
+  source: NENA-STA-004
+TRAIL:
+  active: 'TRUE'
+  description: Trail
+  definition: ''
+  source: NENA-STA-004
+TRAILER:
+  active: 'TRUE'
+  description: Trailer
+  definition: ''
+  source: NENA-STA-004
+TRIANGLE:
+  active: 'TRUE'
+  description: Triangle
+  definition: ''
+  source: NENA-STA-004
+TRUCK TRAIL:
+  active: 'TRUE'
+  description: Truck Trail
+  definition: ''
+  source: NENA-STA-004
+TUNNEL:
+  active: 'TRUE'
+  description: Tunnel
+  definition: ''
+  source: NENA-STA-004
+TURN:
+  active: 'TRUE'
+  description: Turn
+  definition: ''
+  source: NENA-STA-004
+TURNPIKE:
+  active: 'TRUE'
+  description: Turnpike
+  definition: ''
+  source: NENA-STA-004
+UNITED STATES FOREST SERVICE ROAD:
+  active: 'TRUE'
+  description: United States Forest Service Road
+  definition: ''
+  source: NENA-STA-004
+UNITED STATES HIGHWAY:
+  active: 'TRUE'
+  description: United States Highway
+  definition: ''
+  source: NENA-STA-004
+UNDERPASS:
+  active: 'TRUE'
+  description: Underpass
+  definition: ''
+  source: NENA-STA-004
+UNION:
+  active: 'TRUE'
+  description: Union
+  definition: ''
+  source: NENA-STA-004
+UNIONS:
+  active: 'TRUE'
+  description: Unions
+  definition: ''
+  source: NENA-STA-004
+UUNYE:
+  active: 'TRUE'
+  description: Uunye
+  definition: ''
+  source: NENA-STA-004
+VALLEY:
+  active: 'TRUE'
+  description: Valley
+  definition: ''
+  source: NENA-STA-004
+VALLEYS:
+  active: 'TRUE'
+  description: Valleys
+  definition: ''
+  source: NENA-STA-004
+VIA:
+  active: 'TRUE'
+  description: Via
+  definition: ''
+  source: NENA-STA-004
+VIADUCT:
+  active: 'TRUE'
+  description: Viaduct
+  definition: ''
+  source: NENA-STA-004
+VIEW:
+  active: 'TRUE'
+  description: View
+  definition: ''
+  source: NENA-STA-004
+VIEWS:
+  active: 'TRUE'
+  description: Views
+  definition: ''
+  source: NENA-STA-004
+VILLA:
+  active: 'TRUE'
+  description: Villa
+  definition: ''
+  source: NENA-STA-004
+VILLAGE:
+  active: 'TRUE'
+  description: Village
+  definition: ''
+  source: NENA-STA-004
+VILLAGES:
+  active: 'TRUE'
+  description: Villages
+  definition: ''
+  source: NENA-STA-004
+VILLE:
+  active: 'TRUE'
+  description: Ville
+  definition: ''
+  source: NENA-STA-004
+VISTA:
+  active: 'TRUE'
+  description: Vista
+  definition: ''
+  source: NENA-STA-004
+VOG:
+  active: 'TRUE'
+  description: Vog
+  definition: ''
+  source: NENA-STA-004
+WADDY:
+  active: 'TRUE'
+  description: Waddy
+  definition: ''
+  source: NENA-STA-004
+WALK:
+  active: 'TRUE'
+  description: Walk
+  definition: ''
+  source: NENA-STA-004
+WALKS:
+  active: 'TRUE'
+  description: Walks
+  definition: ''
+  source: NENA-STA-004
+WALL:
+  active: 'TRUE'
+  description: Wall
+  definition: ''
+  source: NENA-STA-004
+WAY:
+  active: 'TRUE'
+  description: Way
+  definition: ''
+  source: NENA-STA-004
+WAYS:
+  active: 'TRUE'
+  description: Ways
+  definition: ''
+  source: NENA-STA-004
+WEEG:
+  active: 'TRUE'
+  description: Weeg
+  definition: ''
+  source: NENA-STA-004
+WELL:
+  active: 'TRUE'
+  description: Well
+  definition: ''
+  source: NENA-STA-004
+WELLS:
+  active: 'TRUE'
+  description: Wells
+  definition: ''
+  source: NENA-STA-004
+WOODS:
+  active: 'TRUE'
+  description: Woods
+  definition: ''
+  source: NENA-STA-004
+WYE:
+  active: 'TRUE'
+  description: Wye
+  definition: ''
+  source: NENA-STA-004
+WYND:
+  active: 'TRUE'
+  description: Wynd
+  definition: ''
+  source: NENA-STA-004

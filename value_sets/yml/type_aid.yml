@@ -1,0 +1,10 @@
+AUTO:
+  active: 'TRUE'
+  description: Automatic aid
+  definition: ''
+  source: ''
+MUTUAL:
+  active: 'TRUE'
+  description: Mutual aid
+  definition: ''
+  source: ''

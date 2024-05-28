@@ -1,9 +1,15 @@
 SOURCE:
   active: 'TRUE'
   description: Source
+  definition: ''
+  source: ''
 TARGET:
   active: 'TRUE'
   description: Target
+  definition: ''
+  source: ''
 UNKNOWN:
   active: 'TRUE'
   description: Unknown
+  definition: ''
+  source: ''

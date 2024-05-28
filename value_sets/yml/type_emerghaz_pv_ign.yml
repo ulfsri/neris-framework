@@ -1,6 +1,10 @@
 SOURCE:
   active: 'TRUE'
   description: Source
+  definition: ''
+  source: ''
 TARGET:
   active: 'TRUE'
   description: Target
+  definition: ''
+  source: ''

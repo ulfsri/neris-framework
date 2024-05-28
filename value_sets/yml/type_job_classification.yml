@@ -1,24 +1,40 @@
 CAREER:
   active: 'TRUE'
   description: Career
+  definition: ''
+  source: ''
 PART_TIME:
   active: 'TRUE'
   description: Part_Time
+  definition: ''
+  source: ''
 PAID_ON_CALL:
   active: 'TRUE'
   description: Paid_On_Call
+  definition: ''
+  source: ''
 INDUSTRIAL:
   active: 'TRUE'
   description: Industrial
+  definition: ''
+  source: ''
 VOLUNTEER:
   active: 'TRUE'
   description: Volunteer
+  definition: ''
+  source: ''
 WILDLAND_FULL_TIME:
   active: 'TRUE'
   description: Wildland Full Time
+  definition: ''
+  source: ''
 WILDLAND_PART_TIME:
   active: 'TRUE'
   description: Wildland Part Time
+  definition: ''
+  source: ''
 WILDLAND_CONTRACT:
   active: 'TRUE'
   description: Wildland Contract
+  definition: ''
+  source: ''

@@ -1,252 +1,270 @@
 smoke_alarm_working:
-  group: risk_reduction
+  group: smoke_alarm
   type: Boolean
-  value_set: 'TRUE'
-  reference_location: '---'
-  possible_if: '---'
+  value_set: 'FALSE'
+  reference_location: ''
+  possible_if: incident_subcategory = 'STRUCTURE FIRE'
   db_required: 'FALSE'
   neris_core: 'FALSE'
-  neris_core_if: incident_subcategory = 'structure fire'
+  neris_core_if: incident_subcategory = 'STRUCTURE FIRE'
   neris_core_aid: 'TRUE'
-  computed: 'FALSE'
-  computed_from: '---'
+  computed: 'TRUE'
+  computed_from: count(smoke_alarm_type)>=1
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: alarm_smoke_operate
+  map_app: ''
   description: Whether there was at least one working or successfully tested smoke alarm in the structure.
   example: '"True"'
-  comments: '---'
+  comments: ''
 smoke_alarm_type:
-  group: smoke_alarm
+  group: smoke_alarm.working_fire
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_alarm_smoke.value
-  possible_if: working_smoke_alarm = 'present' & incident_subcategory = 'structure fire'
+  possible_if: working_smoke_alarm = 'PRESENT' & incident_subcategory = 'STRUCTURE FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: at least one detector
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: alarm_smoke_operate.type_alarm_smoke
+  map_app: ''
   description: Type of alarm
   example: See type_alarm_smoke table
-  comments: '---'
+  comments: ''
 smoke_alarm_performance:
-  group: smoke_alarm
+  group: smoke_alarm.working_fire
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_alarm_performance.value
-  possible_if: working_smoke_alarm = 'present' & incident_subcategory = 'structure fire'
+  possible_if: working_smoke_alarm = 'PRESENT' & incident_subcategory = 'STRUCTURE FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: at least one detector
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: alarm_smoke_operate.type_alarm_performance
+  map_app: ''
   description: Whether the alarm operated as intended during the incident.
   example: See type_alarm_performance table
-  comments: '---'
+  comments: ''
 smoke_alarm_operate_fail:
-  group: smoke_alarm.failed
+  group: smoke_alarm.working_fire.failed
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_alarm_failure.value
-  possible_if: smoke_alarm_performance = 'failed to operate'
+  possible_if: smoke_alarm_performance = 'FAILED TO OPERATE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: at least one detector
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: alarm_smoke_operate_sub_failed.type_alarm_failure
+  map_app: ''
   description: Reason for alarm failure.
   example: See type_alarm_failure table
-  comments: '---'
+  comments: ''
 smoke_alarm_occupant_action:
-  group: smoke_alarm.alerted
+  group: smoke_alarm.working_fire.alerted
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_occupant_response.value
-  possible_if: smoke_alarm_performance = 'working - alerted occupant(s)'
+  possible_if: smoke_alarm_performance = 'WORKING - ALERTED OCCUPANT(S)'
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: alarm_smoke_operate_sub_alerted.type_occupant_response
+  map_app: ''
   description: If the alarm operated, describes the occupant reaction or inaction that resulted from the alarm signal.
   example: See type_occupant_response table
-  comments: '---'
+  comments: ''
 fire_alarm_presence:
-  group: risk_reduction
+  group: fire_alarm
   type: Text
   value_set: 'TRUE'
   reference_location: type_alarm_presence.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: alarm_fire.type_alarm_presence
+  map_app: ''
   description: Whether the building was fitted with a whole building fire alarm system that includes fire detection devices, alarm pull stations, and alarm notification devices.
   example: See type_alarm_presence table
   comments: Required, but mark as not applicable if incident location_type does not require it
 fire_alarm_operation:
-  group: fire_alarm
+  group: fire_alarm.present_fire
   type: Boolean
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: fire_alarm_presence = 'present' & incident_subcategory = 'structure fire'
+  reference_location: ''
+  possible_if: fire_alarm_presence = 'PRESENT'  & incident_subcategory = 'STRUCTURE FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: alarm_fire_sub_present.operation
+  map_app: ''
   description: Whether the fire alarm system operated as designed, intended, or expected.
   example: '"True"'
-  comments: '---'
+  comments: ''
 other_alarm_type:
-  group: risk_reduction
+  group: other_alarm
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_alarm_other.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: incident_subcategory = 'structure fire'
+  neris_core_if: incident_subcategory = 'STRUCTURE FIRE'
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: rel_incident_alarm_other.type_alarm_other
+  map_app: ''
   description: Whether other alarm systems for detecting gases or other harmful conditions or substances were installed within the building.
   example: See type_alarm_other table
-  comments: '---'
+  comments: ''
 fire_suppression_presence:
-  group: risk_reduction
-  type: Text
-  value_set: 'TRUE'
-  reference_location: type_suppression_presence.value
-  possible_if: '---'
+  group: fire_suppression
+  type: Boolean
+  value_set: 'FALSE'
+  reference_location: ''
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: incident_subcategory = 'structure fire'
+  neris_core_if: incident_subcategory = 'STRUCTURE FIRE'
   neris_core_aid: 'TRUE'
-  computed: 'FALSE'
-  computed_from: '---'
+  computed: 'TRUE'
+  computed_from: count(fire_suppression_type)>=1
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: suppress_fire.nuid
+  map_app: ''
   description: Whether there was a fire suppression (sprinkler) system in a the building.
   example: See type_suppression_presence table
-  comments: '---'
+  comments: ''
 fire_suppression_type:
-  group: fire_suppression
+  group: fire_suppression.present
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_suppresion.value
-  possible_if: fire_suppression_presence = 'present'
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: suppress_fire.type_suppress
+  map_app: ''
   description: Type of suppression system present.
   example: See type_suppression table
-  comments: '---'
-fire_suppression_operation:
-  group: fire_suppression
-  type: Text
+  comments: ''
+fire_suppression_full_partial:
+  group: fire_suppression.present
+  type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_suppression_operation.value
-  possible_if: fire_suppression_presence = 'present' & incident_subcategory = 'structure fire'
+  reference_location: type_full_partial.value
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
+  cardinality: Multi
+  map_orm_landing: suppress_fire.type_full_partial
+  map_app: ''
+  description: Whether the suppression system was full or partial.
+  example: See type_full_partial table
+  comments: ''
+fire_suppression_operation:
+  group: fire_suppression.present.fire
+  type: Array[Text]
+  value_set: 'TRUE'
+  reference_location: type_suppression_operation.value
+  possible_if: incident_subcategory = 'STRUCTURE FIRE'
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: suppres_fire_operation.type_suppress_operation
+  map_app: ''
   description: Whether the fire suppression system operated.
   example: See type_suppression_operation table
   comments: define effective as prevention of flashover
 fire_suppression_sprinkler_operation:
-  group: fire_suppression.operated
-  type: Integer
+  group: fire_suppression.present.fire.operated
+  type: Array[Integer]
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: fire_suppression_operation = 'operated - effective' | 'operated - not effective'
+  reference_location: ''
+  possible_if: fire_suppression_operation = 'OPERATED - EFFECTIVE' | 'OPERATED - NOT EFFECTIVE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: '{suppres_fire_operation_sub_effective, suppres_fire_operation_sub_ineffective}.sprinkler_operation'
+  map_app: ''
   description: Number of sprinkler heads activated.
   example: '1'
-  comments: '---'
+  comments: ''
 fire_suppression_failure:
-  group: fire_suppression.failed
+  group: fire_suppression.present.fire.failed
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_suppression_failure.value
-  possible_if: fire_suppression_operation = 'operated - not effective' | 'failed to operate'
+  possible_if: fire_suppression_operation = 'OPERATED - NOT EFFECTIVE' | 'FAILED TO OPERATE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
+  neris_core_if: ''
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: '{suppres_fire_operation_sub_ineffective, suppres_fire_operation_sub_failed}.type_suppress_failure'
+  map_app: ''
   description: Reason for the failure.
   example: See type_suppression_failure table
-  comments: '---'
+  comments: ''
 cooking_fire_suppression:
-  group: risk_reduction
+  group: cooking_fire_suppression
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_suppression_cooking.value
-  possible_if: fire cause interior is cooking
+  possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: incident type = 'Confined Cooking/ Appliance Fire'
+  neris_core_if: incident type = 'CONFINED COOKING/ APPLIANCE FIRE'
   neris_core_aid: 'TRUE'
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: rel_incident_suppress_cooking.type_suppress_cooking
+  map_app: ''
   description: Whether there was any type of fire protection system or fire prevention technology focused on reducing damage from cooking fires installed above or in proximity of the cooking appliance.
   example: See type_suppression_cooking table
-  comments: '---'
+  comments: ''

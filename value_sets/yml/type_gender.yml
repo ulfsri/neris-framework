@@ -1,9 +1,15 @@
 MALE:
   active: 'TRUE'
   description: Male
+  definition: ''
+  source: ''
 FEMALE:
   active: 'TRUE'
   description: Female
+  definition: ''
+  source: ''
 UNSPECIFIED_ANOTHER_GENDER_IDENTITY:
   active: 'TRUE'
   description: Unspecified or Another Gender Identity
+  definition: ''
+  source: ''
