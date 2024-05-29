@@ -1,21 +1,35 @@
 EXPIRED:
   active: 'TRUE'
   description: Expired
+  definition: ''
+  source: ''
 NO_BATTERY:
   active: 'TRUE'
   description: No Battery
+  definition: ''
+  source: ''
 IMPROPER_INSTALLATION:
   active: 'TRUE'
   description: Improper Installation
+  definition: ''
+  source: ''
 DEVICE_MALFUNCTION:
   active: 'TRUE'
   description: Device Malfunction
+  definition: ''
+  source: ''
 TAMPER:
   active: 'TRUE'
   description: Tamper
+  definition: ''
+  source: ''
 OTHER_NON_FUNCTIONAL_CAUSE:
   active: 'TRUE'
   description: Other Non Functional Cause
+  definition: ''
+  source: ''
 UNABLE_TO_DETERMINE:
   active: 'TRUE'
   description: Unable To Determine
+  definition: ''
+  source: ''

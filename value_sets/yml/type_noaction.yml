@@ -1,0 +1,15 @@
+CANCELLED:
+  active: 'TRUE'
+  description: Cancelled
+  definition: ''
+  source: ''
+STAGED/STANDBY:
+  active: 'TRUE'
+  description: Staged / Standby
+  definition: ''
+  source: ''
+NO_INCIDENT_FOUND:
+  active: 'TRUE'
+  description: No Incident Found
+  definition: ''
+  source: ''

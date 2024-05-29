@@ -1,0 +1,35 @@
+SYSTEM_SHUTOFF_PRIOR_TO_INCIDENT:
+  active: 'TRUE'
+  description: System Shutoff Prior to Incident
+  definition: ''
+  source: ''
+SYSTEM_SHUTOFF_DURING_INCIDENT:
+  active: 'TRUE'
+  description: System Shutoff during Incident
+  definition: ''
+  source: ''
+SYSTEM_INOPERABLE:
+  active: 'TRUE'
+  description: System Inoperable
+  definition: ''
+  source: ''
+SYSTEM_DAMAGED_COMPROMISED:
+  active: 'TRUE'
+  description: System Damaged / Compromised
+  definition: ''
+  source: ''
+SYSTEM_NOT_SUITABLE:
+  active: 'TRUE'
+  description: System Not / Suitable For Current Occupancy / Fuel Load
+  definition: ''
+  source: ''
+INSUFFICIENT_WATER_SUPPLY:
+  active: 'TRUE'
+  description: Insufficient Water Supply
+  definition: ''
+  source: ''
+UNABLE_TO_DETERMINE:
+  active: 'TRUE'
+  description: Unable To Determine
+  definition: ''
+  source: ''

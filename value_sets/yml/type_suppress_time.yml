@@ -1,9 +1,15 @@
 PRE_SUPPRESSION:
   active: 'TRUE'
   description: Pre Suppression
+  definition: ''
+  source: ''
 DURING_SUPPRESSION:
   active: 'TRUE'
   description: During Suppression
+  definition: ''
+  source: ''
 POST_SUPPRESSION:
   active: 'TRUE'
   description: Post Suppression
+  definition: ''
+  source: ''

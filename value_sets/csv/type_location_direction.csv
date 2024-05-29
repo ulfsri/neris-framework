@@ -1,5 +1,0 @@
-active,value,description,definition,source
-TRUE,NORTHBOUND,Northbound,,CLDXF-US
-TRUE,SOUTHBOUND,Southbound,,CLDXF-US
-TRUE,EASTBOUND,Eastbound,,CLDXF-US
-TRUE,WESTBOUND,Westbound,,CLDXF-US

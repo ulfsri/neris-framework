@@ -1,6 +1,6 @@
-active,value,description,definition,source
-TRUE,COMPANY_LEVEL,Company-Level Investigation Program,"Investigation program in which company officer, or other designated shift-based members of the department are responsible for fire cause and origin determination.",NFPA 1021/1033
-TRUE,YOUTH_FIRESETTER,Youth Firesetter Intervention Program,"Describes a fire department's program to identify, counsel, monitor, and refer youth fire setters.  Can represent a formal joint program with other agencies.",NFPA 1035
-TRUE,DEDICATED,Dedicated Fire Investigation Program,Investigation program in which fire investigators are designed and trained individuals whose primary or sole purpose is investigating fires to determine cause and origin.,NFPA 921/103
-TRUE,LAW_ENFORCEMENT,Law Enforcement + Fire Investigation Program,Investigation program in which fire investigators are designed and trained individuals whose primary or sole purpose is investigating fires to determine cause and origin.  In addition this service indicates that fire investigators within the fire department possess law enforcement powers and authority within the particular jurisdiction.,NFPA 921/1033
-TRUE,K9_DETECT,K9 Accelerant Detection,,
+name,active,description,definition,source
+COMPANY_LEVEL,TRUE,Company-Level Investigation Program,"Investigation program in which company officer, or other designated shift-based members of the department are responsible for fire cause and origin determination.",NFPA 1021/1033
+YOUTH_FIRESETTER,TRUE,Youth Firesetter Intervention Program,"Describes a fire department's program to identify, counsel, monitor, and refer youth fire setters.  Can represent a formal joint program with other agencies.",NFPA 1035
+DEDICATED,TRUE,Dedicated Fire Investigation Program,Investigation program in which fire investigators are designed and trained individuals whose primary or sole purpose is investigating fires to determine cause and origin.,NFPA 921/103
+LAW_ENFORCEMENT,TRUE,Law Enforcement + Fire Investigation Program,Investigation program in which fire investigators are designed and trained individuals whose primary or sole purpose is investigating fires to determine cause and origin.  In addition this service indicates that fire investigators within the fire department possess law enforcement powers and authority within the particular jurisdiction.,NFPA 921/1033
+K9_DETECT,TRUE,K9 Accelerant Detection,,

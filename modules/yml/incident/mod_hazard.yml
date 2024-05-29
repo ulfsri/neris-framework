@@ -3,115 +3,115 @@ hazsit_disposition:
   type: Text
   value_set: 'TRUE'
   reference_location: type_hazard_disposition.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit.type_hazard_disposition
+  map_app: ''
   description: Outcome of the hazmat incident.
   example: See type_hazard_disposition table
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''
 hazsit_evacuated:
   group: hazsit
   type: Integer
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
+  reference_location: ''
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Single
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit.evacuated
+  map_app: ''
   description: Number of occupants/businesses evacuated during the incident response.
   example: '2'
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''
 chemical_dot_class:
   group: chemical
   type: Array[Text]
   value_set: 'TRUE'
   reference_location: type_hazard_dot.value
-  possible_if: '---'
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical.type_hazard_dot
+  map_app: ''
   description: Department of Transportation Hazard Classification.
   example: See type_hazard_dot table
   comments: If any related to batteries, complete emerging_hazard_submodule
-  api_class: '---'
+  api_class: ''
 chemical_name:
   group: chemical
   type: Array[Text]
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
+  reference_location: ''
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical.name
+  map_app: ''
   description: Name of the chemical/material involved in the incident.
-  example: '---'
-  comments: '---'
-  api_class: '---'
+  example: ''
+  comments: ''
+  api_class: ''
 chemical_release_occurred:
   group: chemical
   type: Array[Boolean]
   value_set: 'FALSE'
-  reference_location: '---'
-  possible_if: '---'
+  reference_location: ''
+  possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical.release_occurred
+  map_app: ''
   description: Whether the chemical was released.
   example: '"True"'
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''
 chemical_amount_est:
   group: chemical.release
   type: Array[Float]
   value_set: 'FALSE'
-  reference_location: '---'
+  reference_location: ''
   possible_if: release_occurred is True
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical_release.amount_est
+  map_app: ''
   description: Estimated amount released by volume or weight.
   example: '1345'
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''
 chemical_amount_est_units:
   group: chemical.release
   type: Array[Text]
@@ -120,17 +120,17 @@ chemical_amount_est_units:
   possible_if: release_occurred is True
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical_release.type_hazard_unit
+  map_app: ''
   description: Unit of measurement of the estimated amount released.
   example: See type_hazard_unit table
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''
 chemical_physical_state:
   group: chemical.release
   type: Array[Text]
@@ -139,17 +139,17 @@ chemical_physical_state:
   possible_if: release_occurred is True
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical_release.type_hazard_physical_state
+  map_app: ''
   description: Physical state of the chemical.
   example: See type_hazard_physical_state table
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''
 chemical_release_into:
   group: chemical.release
   type: Array[Text]
@@ -158,17 +158,17 @@ chemical_release_into:
   possible_if: release_occurred is True
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical_release.type_hazard_released_into
+  map_app: ''
   description: Environment which was contaminated.
   example: See type_hazard_released_into table
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''
 chemical_release_cause:
   group: chemical.release
   type: Array[Text]
@@ -177,14 +177,14 @@ chemical_release_cause:
   possible_if: release_occurred is True
   db_required: 'FALSE'
   neris_core: 'TRUE'
-  neris_core_if: '---'
-  neris_core_aid: '---'
+  neris_core_if: ''
+  neris_core_aid: ''
   computed: 'FALSE'
-  computed_from: '---'
+  computed_from: ''
   cardinality: Multi
-  map_orm_landing: '---'
-  map_app: '---'
+  map_orm_landing: hazsit_chemical_release.type_hazard_cause
+  map_app: ''
   description: Cause of the hazmat release.
   example: See type_hazard_cause table
-  comments: '---'
-  api_class: '---'
+  comments: ''
+  api_class: ''

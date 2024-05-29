@@ -1,7 +1,7 @@
-active,value,description,definition,source
-TRUE,RESPONDING,Responding,,
-TRUE,INITIAL_ATTACK,Initial Attack (First 10 Minutes),,
-TRUE,CONITNUING_OPERATIONS,Continuing Operations (11 to 60 minutes),,
-TRUE,EXTENDED_OPERATIONS,Extended Operations (Over 60 minutes),,
-TRUE,AFTER_CONCLUSIONS_OF_INCIDENT,After Conclusions Of Incident,,
-TRUE,UNKNOWN,Unknown,,
+name,active,description,definition,source
+RESPONDING,TRUE,Responding,,
+INITIAL_ATTACK,TRUE,Initial Attack (First 10 Minutes),,
+CONITNUING_OPERATIONS,TRUE,Continuing Operations (11 to 60 minutes),,
+EXTENDED_OPERATIONS,TRUE,Extended Operations (Over 60 minutes),,
+AFTER_CONCLUSIONS_OF_INCIDENT,TRUE,After Conclusions Of Incident,,
+UNKNOWN,TRUE,Unknown,,

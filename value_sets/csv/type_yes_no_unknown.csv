@@ -1,4 +1,4 @@
-active,value,description,definition,source
-TRUE,YES,Yes,,
-TRUE,NO,No,,
-TRUE,UNKNOWN,Unknown,,
+name,active,description,definition,source
+YES,TRUE,Yes,,
+NO,TRUE,No,,
+UNKNOWN,TRUE,Unknown,,

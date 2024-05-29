@@ -1,21 +1,40 @@
 HYDRANT_LESS_500:
   active: 'TRUE'
   description: Hydrant (Est. Flow < 500 gpm)
+  definition: ''
+  source: ''
 HYDRANT_GREATER_500:
   active: 'TRUE'
   description: Hydrant (Est. Flow > 500 gpm)
+  definition: ''
+  source: ''
 TANK_WATER:
   active: 'TRUE'
   description: Tank Water
+  definition: ''
+  source: ''
 WATER_TENDER_SHUTTLE:
   active: 'TRUE'
   description: Water Tender / Shuttle
+  definition: ''
+  source: ''
 NURSE_OTHER_APPARATUS:
   active: 'TRUE'
   description: Nurse from Other Apparatus
+  definition: ''
+  source: ''
 DRAFT_FROM_STATIC_SOURCE:
   active: 'TRUE'
   description: Draft from Static Source
+  definition: ''
+  source: ''
 'SUPPLY_FROM_FIRE_BOAT ':
   active: 'TRUE'
   description: Supply From Fire Boat
+  definition: ''
+  source: ''
+FOAM_ADDITIVE_USE:
+  active: 'TRUE'
+  description: Foam / Water Additive Use
+  definition: ''
+  source: ''

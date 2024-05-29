@@ -1,21 +1,35 @@
 EVACUATED:
   active: 'TRUE'
   description: Evacuated
+  definition: ''
+  source: ''
 IGNORED_ALARM:
   active: 'TRUE'
   description: Ignored_Alarm
+  definition: ''
+  source: ''
 UNABLE_TO_RESPOND:
   active: 'TRUE'
   description: Unable To Respond (Impaired, Sleeping, Disabled, Child)
+  definition: ''
+  source: ''
 ATTEMPTED_TO_EXTINGUISH:
   active: 'TRUE'
   description: Attempted To Extinguish
+  definition: ''
+  source: ''
 ATTEMPTED_TO_RESCUE_OCCUPANTS:
   active: 'TRUE'
   description: Attempted to Rescue Other Occupants
+  definition: ''
+  source: ''
 ATTEMPTED_TO_RESCUE_ANIMALS:
   active: 'TRUE'
   description: Attempted to Rescue Animals
+  definition: ''
+  source: ''
 UNKNOWN:
   active: 'TRUE'
   description: Unknown
+  definition: ''
+  source: ''

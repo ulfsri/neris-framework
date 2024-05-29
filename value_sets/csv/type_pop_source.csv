@@ -1,3 +1,3 @@
-active,value,description,definition,source
-TRUE,DEPARTMENT_ENTERED,Department Entered,,
-TRUE,CENSUS_DERIVED,Census Derived,,
+name,active,description,definition,source
+DEPARTMENT_ENTERED,TRUE,Department Entered,,
+CENSUS_DERIVED,TRUE,Census Derived,,

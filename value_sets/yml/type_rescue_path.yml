@@ -1,6 +1,10 @@
 REMOVAL_ALONG_PRIMARY_PATH:
   active: 'TRUE'
   description: Removal Along Primary Search Path
+  definition: ''
+  source: ''
 REMOVAL_ALONG_ALT_PATH:
   active: 'TRUE'
   description: Removal Along Alternate Path
+  definition: ''
+  source: ''

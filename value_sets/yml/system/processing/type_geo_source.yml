@@ -1,0 +1,15 @@
+DEPT_UPLOAD:
+  active: 'TRUE'
+  description: Department upload
+  definition: ''
+  source: ''
+DEPT_FILE:
+  active: 'TRUE'
+  description: Department file
+  definition: ''
+  source: ''
+AWS:
+  active: 'TRUE'
+  description: AWS geocode
+  definition: ''
+  source: ''

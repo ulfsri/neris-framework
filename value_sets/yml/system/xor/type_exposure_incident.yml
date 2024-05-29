@@ -1,0 +1,4 @@
+exposure:
+  xor: exposure
+incident:
+  xor: incident

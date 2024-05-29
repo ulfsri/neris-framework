@@ -1,3 +1,3 @@
-active,value,description,definition,source
-TRUE,CLOSEST,closest,,
-TRUE,SECOND_CLOSEST,second-closest,,
+name,active,description,definition,source
+CLOSEST,TRUE,closest,,
+SECOND_CLOSEST,TRUE,second-closest,,

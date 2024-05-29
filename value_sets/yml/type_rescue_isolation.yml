@@ -1,6 +1,0 @@
-ISOLATED:
-  active: 'TRUE'
-  description: Isolated
-NONISOLATED:
-  active: 'TRUE'
-  description: Not Isolated

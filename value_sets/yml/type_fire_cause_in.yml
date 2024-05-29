@@ -1,39 +1,65 @@
 OPERATING_EQUIPMENT:
   active: 'TRUE'
   description: Operating Equipment
+  definition: ''
+  source: ''
 ELECTRICAL:
   active: 'TRUE'
   description: Electrical
+  definition: ''
+  source: ''
 BATTERY_POWER_STORAGE:
   active: 'TRUE'
   description: Battery / Power Storage
+  definition: ''
+  source: ''
 HEAT_FROM_ANOTHER_OBJECT:
   active: 'TRUE'
   description: Heat From Another Object
+  definition: ''
+  source: ''
 EXPLOSIVES_FIREWORKS:
   active: 'TRUE'
   description: Explosives / Fireworks
+  definition: ''
+  source: ''
 SMOKING_MATERIALS_ILLICIT_DRUGS:
   active: 'TRUE'
   description: Smoking Materials / Illicit Drugs
+  definition: ''
+  source: ''
 OPEN_FLAME:
   active: 'TRUE'
   description: Open Flame
+  definition: ''
+  source: ''
 COOKING:
   active: 'TRUE'
   description: Cooking
+  definition: ''
+  source: ''
 CHEMICAL:
   active: 'TRUE'
   description: Chemical
+  definition: ''
+  source: ''
 ACT_OF_NATURE:
   active: 'TRUE'
   description: Act Of Nature
+  definition: ''
+  source: ''
 INCENDIARY:
   active: 'TRUE'
   description: Incendiary
+  definition: ''
+  source: ''
 OTHER_HEAT_SOURCE:
   active: 'TRUE'
   description: Other Heat Source
+  definition: ''
+  source: ''
 UNABLE_TO_BE_DETERMINED:
   active: 'TRUE'
   description: Unable to be Determined
+  definition: ''
+  source: ''

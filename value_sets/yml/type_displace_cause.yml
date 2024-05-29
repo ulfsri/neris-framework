@@ -1,21 +1,35 @@
 FIRE:
   active: 'TRUE'
   description: Fire
+  definition: ''
+  source: ''
 SMOKE:
   active: 'TRUE'
   description: Smoke
+  definition: ''
+  source: ''
 WATER:
   active: 'TRUE'
   description: Water
+  definition: ''
+  source: ''
 UTILITIES:
   active: 'TRUE'
   description: Utilities
+  definition: ''
+  source: ''
 HAZARDOUS_SITUATION:
   active: 'TRUE'
   description: Hazardous Situation
+  definition: ''
+  source: ''
 COLLAPSE:
   active: 'TRUE'
   description: Collapse
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''

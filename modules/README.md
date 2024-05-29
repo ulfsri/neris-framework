@@ -91,3 +91,4 @@ The metadata tables in `modules/` contain some or all of the following fields:
     - Text
     - Comments on the logic or constraints on what the field may contain.
     - Must be populated for fields needing comment only.
+    

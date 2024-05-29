@@ -1,0 +1,15 @@
+CAUSED_BY:
+  active: 'TRUE'
+  description: Caused by
+  definition: Event was caused by incident
+  source: ''
+CAUSED:
+  active: 'TRUE'
+  description: Caused
+  definition: Event caused incident
+  source: ''
+INCLUDES:
+  active: 'TRUE'
+  description: Includes
+  definition: Incident was part of event
+  source: ''

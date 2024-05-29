@@ -1,0 +1,65 @@
+SEARCH_RESCUE:
+  active: 'TRUE'
+  description: Search / Rescue
+  definition: ''
+  source: ''
+CARRYING_SETTINGUP_EQUIPMENT:
+  active: 'TRUE'
+  description: Carrying Setting-Up Equipment
+  definition: ''
+  source: ''
+ADVANCING_OPERATING_HOSELINE:
+  active: 'TRUE'
+  description: Advancing / Operating Hoseline
+  definition: ''
+  source: ''
+VEHICLE_EXTRICATION:
+  active: 'TRUE'
+  description: Vehicle Extrication
+  definition: ''
+  source: ''
+VENTILATION:
+  active: 'TRUE'
+  description: Ventilation
+  definition: ''
+  source: ''
+FORCIBLE_ENTRY:
+  active: 'TRUE'
+  description: Forcible Entry
+  definition: ''
+  source: ''
+PUMP_OPERATIONS:
+  active: 'TRUE'
+  description: Pump Operations
+  definition: ''
+  source: ''
+EMS_PATIENT_CARE:
+  active: 'TRUE'
+  description: EMS / Patient Care
+  definition: ''
+  source: ''
+DURING_INCIDENT_RESPONSE:
+  active: 'TRUE'
+  description: During Incident Response
+  definition: ''
+  source: ''
+SCENE_SAFETY_DIRECTING_TRAFFIC:
+  active: 'TRUE'
+  description: Scene Safety / Directing Traffic
+  definition: ''
+  source: ''
+STANDBY:
+  active: 'TRUE'
+  description: Standby
+  definition: ''
+  source: ''
+INCIDENT_COMMAND:
+  active: 'TRUE'
+  description: Incident Command
+  definition: ''
+  source: ''
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition: ''
+  source: ''

@@ -2,55 +2,83 @@ NATURAL:
   active: 'TRUE'
   description: Natural
   NWGC: Natural
+  definition: ''
+  source: ''
 EQUIPMENT_VEHICLE_USE:
   active: 'TRUE'
   description: Equipment and Vehicle Use
   NWGC: Equipment and vehicle use
+  definition: ''
+  source: ''
 SMOKING_MATERIALS_ILLICIT_DRUGS:
   active: 'TRUE'
   description: Smoking Materials / Illicit Drugs
   NWGC: 'Smoking '
+  definition: ''
+  source: ''
 RECREATION_CEREMONY:
   active: 'TRUE'
   description: Recreation and Ceremony (includes campfire)
   NWGC: Recreation and ceremony (includes campfire)
+  definition: ''
+  source: ''
 DEBRIS_OPEN_BURNING:
   active: 'TRUE'
   description: Debris / Open Burning
   NWGC: Debris and open burning
+  definition: ''
+  source: ''
 RAILROAD_OPS_MAINTENANCE:
   active: 'TRUE'
   description: Railroad Operations / Maintenance
   NWGC: Railroad Operations and Maintenance
-FIREAMRS_EXPLOSIVES:
+  definition: ''
+  source: ''
+FIREARMS_EXPLOSIVES:
   active: 'TRUE'
   description: Firearms / Explosives Use
   NWGC: Firearms and explosive use
+  definition: ''
+  source: ''
 FIREWORKS:
   active: 'TRUE'
   description: Fireworks
   NWGC: Fireworks
+  definition: ''
+  source: ''
 POWER_GEN_TRANS_DIST:
   active: 'TRUE'
   description: Power Generation / Transmission / Distribution
   NWGC: Power generation/transmission/distribution
+  definition: ''
+  source: ''
 STRUCTURE:
   active: 'TRUE'
   description: Structure
   NWGC: Structure
+  definition: ''
+  source: ''
 INCENDIARY:
   active: 'TRUE'
   description: Incendiary
   NWGC: Arson
+  definition: ''
+  source: ''
 BATTERY_POWER_STORAGE:
   active: 'TRUE'
   description: Battery / Power Storage
-  NWGC: '---'
+  NWGC: ''
+  definition: ''
+  source: ''
 SPREAD_FROM_CONTROLLED_BURN:
   active: 'TRUE'
   description: Spread From Controlled Burn
-  NWGC: '---'
+  NWGC: ''
+  definition: ''
+  source: ''
 UNABLE_TO_BE_DETERMINED:
   active: 'TRUE'
   description: Unable to be Determined
   NWGC: Undetermined (Human or Natural)
+  definition: ''
+  source: ''

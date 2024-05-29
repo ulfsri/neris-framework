@@ -1,7 +1,7 @@
-active,value,description,definition,source
-TRUE,RUN_COURSE,Let Incident Run Its Course,,
-TRUE,SUPPRESSION_WATER_ONLY,Suppression With Water Only,,
-TRUE,SUPPRESSION_WATER_ADDITIVE,Suppression With Water / Additive,,
-TRUE,SUBMERGE_BURY,Submerge or Bury,,
-TRUE,FIRE_BLANKET,Use of Fire Blanket,,
-TRUE,BATTERY_PENETRATION,Use of Battery Penetrating Appliance,,
+name,active,description,definition,source
+RUN_COURSE,TRUE,Let Incident Run Its Course,,
+SUPPRESSION_WATER_ONLY,TRUE,Suppression With Water Only,,
+SUPPRESSION_WATER_ADDITIVE,TRUE,Suppression With Water / Additive,,
+SUBMERGE_BURY,TRUE,Submerge or Bury,,
+FIRE_BLANKET,TRUE,Use of Fire Blanket,,
+BATTERY_PENETRATION,TRUE,Use of Battery Penetrating Appliance,,

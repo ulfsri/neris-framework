@@ -1,21 +1,35 @@
 JURISDICTION:
   active: 'TRUE'
   description: Jurisdiction
+  definition: ''
+  source: ''
 BATTALION:
   active: 'TRUE'
   description: Battalion
+  definition: ''
+  source: ''
 COUNCIL_DISTRICT:
   active: 'TRUE'
   description: Council District
+  definition: ''
+  source: ''
 DISTRICT:
   active: 'TRUE'
   description: District
+  definition: ''
+  source: ''
 DIVISION:
   active: 'TRUE'
   description: Division
+  definition: ''
+  source: ''
 FIRST_DUE:
   active: 'TRUE'
   description: First Due
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other
+  definition: ''
+  source: ''

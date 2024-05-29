@@ -1,0 +1,10 @@
+GIVEN:
+  active: 'TRUE'
+  description: Given
+  definition: ''
+  source: ''
+RECEIVED:
+  active: 'TRUE'
+  description: Received
+  definition: ''
+  source: ''

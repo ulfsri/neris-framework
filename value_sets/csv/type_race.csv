@@ -1,7 +1,7 @@
-active,value,description,definition,source
-TRUE,AMERICAN_INDIAN_ALASKA_NATIVE,American Indian or Alaska Native,,
-TRUE,ASIAN,Asian,,
-TRUE,BLACK_AFRICAN_AMERICAN,Black or African American,,
-TRUE,HISPANIC_LATINO,Hispanic or Latino,,
-TRUE,NATIVE_HAWAIIAN_PACIFIC_ISLANDER,Native Hawaiian or Pacific Islander,,
-TRUE,WHITE,White,,
+name,active,description,definition,source
+AMERICAN_INDIAN_ALASKA_NATIVE,TRUE,American Indian or Alaska Native,,
+ASIAN,TRUE,Asian,,
+BLACK_AFRICAN_AMERICAN,TRUE,Black or African American,,
+HISPANIC_LATINO,TRUE,Hispanic or Latino,,
+NATIVE_HAWAIIAN_PACIFIC_ISLANDER,TRUE,Native Hawaiian or Pacific Islander,,
+WHITE,TRUE,White,,
