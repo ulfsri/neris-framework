@@ -70,7 +70,7 @@ exposure_polygon:
   description: WGS84 polygon of the footprint of the incident.
   example: ''
   comments: ''
-expsoure_location:
+exposure_location:
   group: location
   type: Module
   value_set: 'FALSE'
@@ -88,7 +88,7 @@ expsoure_location:
   description: Location, generally an address, of the incident. Consists of the fields of mod_civic_location.
   example: ''
   comments: See shared.mod_civic_location
-expsoure_location_use:
+exposure_location_use:
   group: location
   type: Module
   value_set: 'FALSE'

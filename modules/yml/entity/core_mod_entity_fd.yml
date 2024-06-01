@@ -760,7 +760,7 @@ dispatch_protocol_fire:
   computed: 'FALSE'
   cardinality: Single
   orm_map_landing: DeptHist.type_disp_proto_fire
-  description: Procedure/protocol followed for triaging emergency fire calls.
+  description: Procedure/protocol followed for triage of emergency fire calls.
   example: See type_disp_proto_fire.value table
   comments: ''
 dispatch_protocol_medical:
@@ -775,7 +775,7 @@ dispatch_protocol_medical:
   computed: 'FALSE'
   cardinality: Single
   orm_map_landing: DeptHist.type_disp_proto_med
-  description: Procedure/protocol followed for triaging emergency medical calls.
+  description: Procedure/protocol followed for triage of emergency medical calls.
   example: See type_disp_proto_med.value table
   comments: ''
 dispatch_avl_usage:
@@ -1195,7 +1195,7 @@ assess_cpse_acredit:
   computed: 'FALSE'
   cardinality: Single
   orm_map_landing: DeptHist.assess_cpse_acredit
-  description: Whether the agency is  accredited through CPSE.
+  description: Whether the agency is accredited through CPSE.
   example: '"True"'
   comments: ''
 assess_caas_acredit:

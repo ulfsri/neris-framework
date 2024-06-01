@@ -53,7 +53,7 @@ The metadata tables in `modules/` contain some or all of the following fields:
 - `computed`
     - Boolean
     - Whether the field is populated by NERIS via post-processing.
-    - Those marked `TRUE` do not require directy submission by departments or other user organizations.
+    - Those marked `TRUE` do not require direct submission by departments or other user organizations.
     - Must be populated for all fields.
 - `computed_from`
     - Text
@@ -73,11 +73,11 @@ The metadata tables in `modules/` contain some or all of the following fields:
     - Must be populated for any field for which `value_set = TRUE`.
 - `map_orm_landing`
     - Text
-    - The field or logic for where the field's data is found within the Landing Zzone Python Object Relational Mapping models.
+    - The field or logic for where the field's data is found within the Landing Zone Python Object Relational Mapping models.
     - Must be populated for all fields.
 - `map_app`
     - Text
-    - The field or logic for where the field's data is found within the Survey123 XLSForm.
+    - The field or logic for where the field's data is found within the Survey123 XLS Form.
     - Must be populated for all fields.
 - `description`
     - Text

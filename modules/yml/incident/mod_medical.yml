@@ -16,7 +16,7 @@ patient_care_report:
   description: Patient care report identification number.
   example: VAE456M1-02202024
   comments: Should follow department's NEMSIS report number format
-patient_evaulation_care:
+patient_evaluation_care:
   group: patient
   type: Text
   value_set: 'TRUE'
@@ -51,7 +51,7 @@ patient _improved_status:
   map_app: ''
   description: Status of the patient after FD arrival and intervention.
   example: See type_medical_patient_status table
-  comments: NEMSIS values for Response --Improved (9916001)  Unchanged (9916003), 9916005 (Worse)
+  comments: NEMSIS values for Response -- Improved (9916001), Unchanged (9916003), 9916005 (Worse)
 medical_disposition:
   group: patient
   type: Text

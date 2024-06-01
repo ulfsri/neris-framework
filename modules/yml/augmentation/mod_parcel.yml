@@ -31,7 +31,7 @@ parcel_value_assessed_imprv:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Assessed Improvement Values  (before exemptions, if any) as provided by the county or local taxing/assessment authority.
+  description: Assessed Improvement Values (before exemptions, if any) as provided by the county or local taxing/assessment authority.
   example: ''
   comments: Dollar amount.
 parcel_use_code:
@@ -175,6 +175,6 @@ parcel_land_sqft:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Size of the property, in square feet Derived from the assessment record when possible, otherwise calculated from associated parcel geometry.
+  description: Size of the property in square feet, derived from the assessment record when possible, otherwise calculated from associated parcel geometry.
   example: '6200.5'
   comments: ''

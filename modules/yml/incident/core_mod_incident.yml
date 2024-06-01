@@ -245,7 +245,7 @@ incident_people_present:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: inciden_hist.people_present
+  map_orm_landing: incident_hist.people_present
   map_app: ''
   description: Whether people were present at the time of the incident.
   example: '"True"'
@@ -263,7 +263,7 @@ incident_displaced_number:
   computed: 'TRUE'
   computed_from: core_mod_incident.displaced_cause
   cardinality: Single
-  map_orm_landing: count of displace_sub_incident joined via displace_sub_inicident.nuid_incident
+  map_orm_landing: count of displace_sub_incident joined via displace_sub_incident.nuid_incident
   map_app: ''
   description: Number of people displaced.
   example: '2'

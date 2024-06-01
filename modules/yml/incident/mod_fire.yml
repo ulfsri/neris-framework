@@ -183,7 +183,7 @@ outside_fire_cause:
   type: Text
   value_set: 'TRUE'
   reference_location: type_fire_cause_out.value
-  possible_if: type_incident.value_2 array contains  'OUTSIDE_FIRE'
+  possible_if: type_incident.value_2 array contains 'OUTSIDE_FIRE'
   db_required: 'TRUE'
   neris_core: 'FALSE'
   neris_core_if: if fire subtype is outside fire
@@ -201,7 +201,7 @@ outside_fire_acres_burned:
   type: Float
   value_set: 'FALSE'
   reference_location: ''
-  possible_if: type_incident.value_2 array contains  'OUTSIDE_FIRE'
+  possible_if: type_incident.value_2 array contains 'OUTSIDE_FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: if fire subtype is outside fire
