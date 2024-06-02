@@ -110,7 +110,7 @@ ff_rescue_impedance_type:
   group: rescue
   type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_rescue_impedence.value
+  reference_location: type_rescue_impedance.value
   possible_if: rescue_type = Firefighter Rescued, Firefighter-Assisted Evacuation
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -119,10 +119,10 @@ ff_rescue_impedance_type:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Multi
-  map_orm_landing: rel_rescue_sub_ffrescue_impedence.type_rescue_impedence
+  map_orm_landing: rel_rescue_sub_ffrescue_impedance.type_rescue_impedance
   map_app: ''
   description: Whether conditions impacted the ability of rescue.
-  example: See type_rescue_impedence table
+  example: See type_rescue_impedance table
   comments: ''
 ff_rescue_mayday:
   group: rescue.ff

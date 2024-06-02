@@ -479,7 +479,7 @@ incident_narrative_impedance:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: incident_hist.narrative_impedence
+  map_orm_landing: incident_hist.narrative_impedance
   map_app: ''
   description: Description of any obstacles that impacted the incident.
   example: ''
