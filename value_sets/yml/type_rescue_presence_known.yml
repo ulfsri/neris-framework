@@ -10,6 +10,6 @@ KNOWN_ARRIVAL:
   source: ''
 KNOWN_DURING:
   active: 'TRUE'
-  description: Known rescue need  during incident operations
+  description: Known rescue need during incident operations
   definition: ''
   source: ''

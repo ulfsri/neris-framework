@@ -1,6 +1,7 @@
 name,active,description,definition,source,xor
-FIREFIGHTER_RESCUED,TRUE,Firefighter Rescued,,,ffrescue
-NON_FIREFIGHTER_RESCUED,TRUE,Non-Firefighter Rescued,,,nonffrescue
-FIREFIGHTER_ASSISTED_EVAC,TRUE,Firefighter-Assisted Evacuation,,,ffrescue
+RESCUED_BY_FIREFIGHTER,TRUE,Rescued By Firefighter,,,ffrescue
+RESCUED_BY_FF_RIT,TRUE,Rescued By Firefighter RIT,,,ffrescue
+RESCUED_BY_NONFIREFIGHTER,TRUE,Rescued By Non-firefighter,,,nonffrescue
+EVAC_ASSISTED_BY_FIREFIGHTER,TRUE,Evacuation Assisted By Firefighter,,,ffrescue
 SELF_EVACUATION,TRUE,Self-Evacuation,,,nonffrescue
 NO_RESCUE_NEEDED,TRUE,No Rescue Needed,,,nonffrescue

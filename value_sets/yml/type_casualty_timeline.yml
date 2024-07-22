@@ -3,12 +3,12 @@ RESPONDING:
   description: Responding
   definition: ''
   source: ''
-INITIAL_ATTACK:
+INITIAL_RESPONSE:
   active: 'TRUE'
-  description: Initial Attack (First 10 Minutes)
+  description: Initial Response (First 10 Minutes)
   definition: ''
   source: ''
-CONITNUING_OPERATIONS:
+CONTINUING_OPERATIONS:
   active: 'TRUE'
   description: Continuing Operations (11 to 60 minutes)
   definition: ''
@@ -18,9 +18,9 @@ EXTENDED_OPERATIONS:
   description: Extended Operations (Over 60 minutes)
   definition: ''
   source: ''
-AFTER_CONCLUSIONS_OF_INCIDENT:
+AFTER_CONCLUSION_OF_INCIDENT:
   active: 'TRUE'
-  description: After Conclusions Of Incident
+  description: After Conclusion Of Incident
   definition: ''
   source: ''
 UNKNOWN:

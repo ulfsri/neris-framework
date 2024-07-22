@@ -1,7 +1,7 @@
 name,active,description,definition,source
 FIRE_EXTINGUISHER,TRUE,Fire Extinguisher (All Agent Types),,
 BOOSTER_FIRE_HOSE,TRUE,Booster ( < 1 inch) Fire Hose,,
-SMALL_DIAMATER_FIRE_HOSE,TRUE,Small Diameter (1 inch to 2 inch) Fire Hose,,
+SMALL_DIAMETER_FIRE_HOSE,TRUE,Small Diameter (1 inch to 2 inch) Fire Hose,,
 MEDIUM_DIAMETER_FIRE_HOSE,TRUE,Medium Diameter (2 inch to 3 inch) Fire Hose,,
 GROUND_MONITOR,TRUE,Ground Monitor,,
 MASTER_STREAM,TRUE,Master Stream,,

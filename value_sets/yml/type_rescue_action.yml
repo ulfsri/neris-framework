@@ -3,7 +3,7 @@ VENTILATION:
   description: Ventilation
   definition: ''
   source: ''
-HYDRUALIC_TOOL_USE:
+HYDRAULIC_TOOL_USE:
   active: 'TRUE'
   description: Hydraulic Tool Use
   definition: ''

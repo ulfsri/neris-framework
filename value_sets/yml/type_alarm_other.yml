@@ -18,8 +18,3 @@ OTHER_CHEMICAL_DETECTOR:
   description: Other_Chemical Detector
   definition: ''
   source: ''
-NONE:
-  active: 'TRUE'
-  description: ''
-  definition: ''
-  source: ''

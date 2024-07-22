@@ -38,7 +38,7 @@ PASS_DEVICE:
   description: Pass Device
   definition: ''
   source: ''
-RUBBER_KNEE_BOOOTS:
+RUBBER_KNEE_BOOTS:
   active: 'TRUE'
   description: Rubber Knee Boots
   definition: ''

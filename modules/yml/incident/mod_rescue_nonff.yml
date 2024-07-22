@@ -1,10 +1,10 @@
 nonff_rescue_birth_month_year:
   group: general
-  type: Date
+  type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: '"MM/YYYY" formatted string'
   possible_if: ''
-  db_required: 'TRUE'
+  db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: ''
   neris_core_aid: ''
@@ -13,15 +13,15 @@ nonff_rescue_birth_month_year:
   cardinality: Single
   map_orm_landing: casualty_rescue.birth_month_year
   map_app: ''
-  description: The date of birth of the person(s) injured or rescued.
-  example: Jun-72
+  definition: The MM/YYYY of birth of the person(s) injured or rescued.
+  example: 07/1971
   comments: ''
   api_class: ''
 nonff_rescue_gender:
   group: general
   type: Text
   value_set: 'TRUE'
-  reference_location: type_gender.value
+  format: See type_gender.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -32,7 +32,7 @@ nonff_rescue_gender:
   cardinality: Single
   map_orm_landing: casualty_rescue.type_gender
   map_app: ''
-  description: The gender of the person(s) injured or rescued.
+  definition: The gender of the person(s) injured or rescued.
   example: See type_gender table
   comments: ''
   api_class: ''
@@ -40,7 +40,7 @@ nonff_rescue_race:
   group: general
   type: Text
   value_set: 'TRUE'
-  reference_location: type_race.value
+  format: See type_race.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -51,7 +51,7 @@ nonff_rescue_race:
   cardinality: Single
   map_orm_landing: casualty_rescue.type_race
   map_app: ''
-  description: The race of the person(s) injured or rescued.
+  definition: The race of the person(s) injured or rescued.
   example: See type_race table
   comments: ''
   api_class: ''
@@ -59,7 +59,7 @@ nonff_rescue_type:
   group: rescue
   type: Text
   value_set: 'TRUE'
-  reference_location: type_rescue.value
+  format: See type_rescue.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -70,7 +70,7 @@ nonff_rescue_type:
   cardinality: Single
   map_orm_landing: rescue.type_rescue
   map_app: ''
-  description: Whether there was a rescue, non-rescue, assist, or self evacuation
+  definition: Whether there was a rescue, non-rescue, assist, or self evacuation
   example: See type_rescue table
   comments: ''
   api_class: ''
@@ -78,7 +78,7 @@ nonff_rescue_presence_known:
   group: rescue
   type: Text
   value_set: 'TRUE'
-  reference_location: type_rescue_presence_known.value
+  format: See type_rescue_presence_known.value
   possible_if: rescue_type in 'FIREFIGHTER RESCUED', 'FIREFIGHTER-ASSISTED EVACUATION'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -89,7 +89,7 @@ nonff_rescue_presence_known:
   cardinality: Single
   map_orm_landing: rescue_presence_known.type_presence_known
   map_app: ''
-  description: Whether the presence of an occupant in need of rescue was known
+  definition: Whether the presence of an occupant in need of rescue was known
   example: See type_rescue_presence_known table
   comments: ''
   api_class: ''
@@ -97,7 +97,7 @@ nonff_rescue_primary_mode:
   group: rescue
   type: Text
   value_set: 'TRUE'
-  reference_location: type_rescue_mode.value
+  format: See type_rescue_mode.value
   possible_if: rescue_type in 'FIREFIGHTER RESCUED', 'FIREFIGHTER-ASSISTED EVACUATION'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -108,7 +108,7 @@ nonff_rescue_primary_mode:
   cardinality: Single
   map_orm_landing: rescue_sub_ffrescue.type_rescue_mode
   map_app: ''
-  description: The primary mode for rescue
+  definition: The primary mode for rescue
   example: See type_rescue_mode table
   comments: ''
   api_class: ''
@@ -116,7 +116,7 @@ nonff_rescue_actions:
   group: rescue
   type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_rescue_action.value
+  format: See type_rescue_action.value
   possible_if: rescue_type in 'FIREFIGHTER RESCUED', 'FIREFIGHTER-ASSISTED EVACUATION'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -127,7 +127,7 @@ nonff_rescue_actions:
   cardinality: Multi
   map_orm_landing: rel_rescue_sub_ffrescue_actions.type_rescue_action
   map_app: ''
-  description: Actions taken to support the rescue
+  definition: Actions taken to support the rescue
   example: See type_rescue_action table
   comments: ''
   api_class: ''
@@ -135,7 +135,7 @@ nonff_rescue_impedance_type:
   group: rescue
   type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_rescue_impedence.value
+  format: See type_rescue_impedance.value
   possible_if: rescue_type in 'FIREFIGHTER RESCUED', 'FIREFIGHTER-ASSISTED EVACUATION'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -144,17 +144,17 @@ nonff_rescue_impedance_type:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Multi
-  map_orm_landing: rel_rescue_sub_ffrescue_impedence.type_rescue_impedence
+  map_orm_landing: rel_rescue_sub_ffrescue_impedance.type_rescue_impedance
   map_app: ''
-  description: Whether conditions impacted the ability of rescue
-  example: See type_rescue_impedence table
+  definition: Whether conditions impacted the ability of rescue
+  example: See type_rescue_impedance table
   comments: ''
   api_class: ''
 nonff_rescue_room_type:
   group: rescue.structure
   type: Text
   value_set: 'TRUE'
-  reference_location: type_room.value
+  format: See type_room.value
   possible_if: primary_mode = 'REMOVAL FROM STRUCTURE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -165,7 +165,7 @@ nonff_rescue_room_type:
   cardinality: Single
   map_orm_landing: rescue_sub_ffrescue_sub_removal.type_room
   map_app: ''
-  description: The type of room/space from which the occupant was rescued
+  definition: The type of room/space from which the occupant was rescued
   example: See type_room table
   comments: ''
   api_class: ''
@@ -173,7 +173,7 @@ nonff_rescue_elevation_type:
   group: rescue.structure
   type: Text
   value_set: 'TRUE'
-  reference_location: type_rescue_elevation.value
+  format: See type_rescue_elevation.value
   possible_if: primary_mode = 'REMOVAL FROM STRUCTURE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -184,7 +184,7 @@ nonff_rescue_elevation_type:
   cardinality: Single
   map_orm_landing: rescue_sub_ffrescue_sub_removal.type_elevation
   map_app: ''
-  description: The elevation at which the occupant was found
+  definition: The elevation at which the occupant was found
   example: See type_rescue_elevation table
   comments: ''
   api_class: ''
@@ -192,7 +192,7 @@ nonff_rescue_gas_isolation:
   group: rescue.structure
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: primary_mode = 'REMOVAL FROM STRUCTURE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -203,7 +203,7 @@ nonff_rescue_gas_isolation:
   cardinality: Single
   map_orm_landing: rescue_sub_ffrescue_sub_removal.gas_isolation
   map_app: ''
-  description: Whether the space was isolated from the flow of heat and/or toxic gases
+  definition: Whether the space was isolated from the flow of heat and/or toxic gases
   example: '"True"'
   comments: ''
   api_class: ''
@@ -211,7 +211,7 @@ nonff_rescue_removal_path_type:
   group: rescue.structure
   type: Text
   value_set: 'TRUE'
-  reference_location: type_rescue_path.value
+  format: See type_rescue_path.value
   possible_if: primary_mode = 'REMOVAL FROM STRUCTURE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -222,7 +222,7 @@ nonff_rescue_removal_path_type:
   cardinality: Single
   map_orm_landing: rescue_sub_ffrescue_sub_removal.type_rescue_path
   map_app: ''
-  description: Route along which removal from the structure occurred
+  definition: Route along which removal from the structure occurred
   example: See type_rescue_path table
   comments: ''
   api_class: ''
@@ -230,7 +230,7 @@ nonff_rescue_fire_relative_time:
   group: rescue.structure
   type: Text
   value_set: 'TRUE'
-  reference_location: type_suppress_time.value
+  format: See type_suppress_time.value
   possible_if: primary_mode = 'REMOVAL FROM STRUCTURE' and incident_subtype = 'FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -241,7 +241,7 @@ nonff_rescue_fire_relative_time:
   cardinality: Single
   map_orm_landing: rescue_sub_ffrescue_sub_removal_fire.type_suppr_time
   map_app: ''
-  description: Relative to suppression, when the occupant was removed from the structure
+  definition: Relative to suppression, when the occupant was removed from the structure
   example: See type_suppress_time table
   comments: ''
   api_class: ''
@@ -249,7 +249,7 @@ nonff_casualty_casualty_type:
   group: casualty
   type: Text
   value_set: 'TRUE'
-  reference_location: type_casualty.value
+  format: See type_casualty.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -260,7 +260,7 @@ nonff_casualty_casualty_type:
   cardinality: Single
   map_orm_landing: casualty.type_casualty
   map_app: ''
-  description: Whether the person was uninjured, injured nonfatally, injured fatally
+  definition: Whether the person was uninjured, injured nonfatally, injured fatally
   example: See type_casualty table
   comments: ''
   api_class: ''
@@ -268,7 +268,7 @@ nonff_casualty_casualty_cause:
   group: casualty.injured
   type: Text
   value_set: 'TRUE'
-  reference_location: type_casualty_cause.value
+  format: See type_casualty_cause.value
   possible_if: casualty_type in ('INJURED NONFATALLY', 'INJURED FATALLY')
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -279,7 +279,7 @@ nonff_casualty_casualty_cause:
   cardinality: Single
   map_orm_landing: casualty_sub_injury.type_casualty_cause
   map_app: ''
-  description: The apparent cause of the injury or fatality
+  definition: The apparent cause of the injury or fatality
   example: See type_casualty_cause table
   comments: ''
   api_class: ''

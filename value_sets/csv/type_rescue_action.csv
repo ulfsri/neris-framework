@@ -1,6 +1,6 @@
 name,active,description,definition,source
 VENTILATION,TRUE,Ventilation,,
-HYDRUALIC_TOOL_USE,TRUE,Hydraulic Tool Use,,
+HYDRAULIC_TOOL_USE,TRUE,Hydraulic Tool Use,,
 UNDERWATER_DIVE,TRUE,Underwater Dive,,
 ROPE_RIGGING,TRUE,Rope Rigging,,
 BREAK_BREACH_WALL,TRUE,Break Breach Wall,,

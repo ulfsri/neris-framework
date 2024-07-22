@@ -1,9 +1,47 @@
+incident_neris_id:
+  group: dispatch
+  type: Text
+  value_set: 'FALSE'
+  format: 'Entity NERIS ID: epoch milliseconds of incident start time'
+  possible_if: ''
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_app: 'TRUE'
+  neris_core_cad: 'TRUE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: dispatch.neris_id_incident
+  map_app: ''
+  definition: Unique identifier in NERIS for the incident that requires dispatch.
+  example: FD24027000:1714762619
+  comments: ''
+dispatch_internal_id:
+  group: dispatch
+  type: Text
+  value_set: 'FALSE'
+  format: 'String of 255 max characters'
+  possible_if: ''
+  db_required: 'TRUE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_app: 'TRUE'
+  neris_core_cad: 'TRUE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: dispatch.internal_id
+  map_app: ''
+  definition: Department's internal unique identifier for the dispatch.
+  example: 9BR20230814000001
+  comments: ''
 fd_neris_id:
   group: dispatch
   type: Text
   value_set: 'TRUE'
-  reference_location: dept.neris_id
-  possible_if: ''
+  format: See dept.neris_id
+  possible_if: '2 letter entity type abbreviation + 8 numeric characters'
   db_required: 'TRUE'
   neris_core: 'TRUE'
   neris_core_if: ''
@@ -20,8 +58,8 @@ fd_neris_id:
 dispatch_center_id:
   group: dispatch
   type: Text
-  value_set: 'TRUE'
-  reference_location: type_psap_id.value
+  value_set: 'FALSE'
+  format: '"0000" formatted string'
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -36,30 +74,11 @@ dispatch_center_id:
   definition: This 4 digit ID is a unique identifier for each PSAP dispatch center.
   example: See type_psap_id table
   comments: If not valid in PSAP registry, create NERIS dispatch ID
-incident_number:
-  group: dispatch
-  type: Text
-  value_set: 'FALSE'
-  reference_location: ''
-  possible_if: ''
-  db_required: 'TRUE'
-  neris_core: 'TRUE'
-  neris_core_if: ''
-  neris_core_app: 'TRUE'
-  neris_core_cad: 'TRUE'
-  computed: 'FALSE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: dispatch.nuid_incident
-  map_app: ''
-  definition: Unique  identifier for the event that requires dispatch of department resources.
-  example: FDID_20230814000001, FDID_20230814000002
-  comments: ''
 dispatch_location:
   group: dispatch
   type: Module
   value_set: 'FALSE'
-  reference_location: ''
+  format: See mod_civic_location
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -78,7 +97,7 @@ dispatch_point:
   group: dispatch
   type: Point
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -93,11 +112,11 @@ dispatch_point:
   definition: WGS84 latitude and longitude of the incident. If a latitude and longitude are not submitted but a location is, the location geocoding result (if successful) will be used.
   example: 42.548054, -77.840575
   comments: ''
-dispatch_comments:
-  group: dispatch
+dispatch_comment:
+  group: dispatch.comment
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 100,000 max characters'
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -106,36 +125,55 @@ dispatch_comments:
   neris_core_cad: 'TRUE'
   computed: 'FALSE'
   computed_from: ''
-  cardinality: Single
-  map_orm_landing: dispatch.comments
+  cardinality: Multiple
+  map_orm_landing: dispatch_comment.comment
   map_app: ''
-  definition: Free text and canned remarks comments from dispatcher throughout duration of call.
-  example: ''
+  definition: Free text or canned remark comments from dispatcher throughout duration of call.
+  example: 'Dispatch unit 35E to 123 Main Street for possible structure fire.'
   comments: ''
-dispatch_incident_type:
-  group: dispatch
-  type: Text
-  value_set: 'TRUE'
-  reference_location: value_1, value2, value_3 from type_incident
+dispatch_comment_timestamp:
+  group: dispatch.comment
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
-  db_required: 'TRUE'
+  db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
   neris_core_cad: 'TRUE'
   computed: 'FALSE'
   computed_from: ''
+  cardinality: Multiple
+  map_orm_landing: dispatch_comment.timestamp
+  map_app: ''
+  definition: Timestamp of the comment.
+  example: '2024-05-03T18:56:56+00:00'
+  comments: ''
+dispatch_incident_type:
+  group: dispatch
+  type: Text
+  value_set: 'TRUE'
+  format: See value_1, value2, value_3 from type_incident
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'TRUE'
+  computed: 'TRUE'
+  computed_from: ''
   cardinality: Single
   map_orm_landing: dispatch.type_incident
   map_app: ''
   definition: Specific incident type that details the nature of the incident; levels up into incident_category.
-  example: See type_inc tables
+  example: See type_incident table
   comments: ''
 dispatch_determinate_code:
   group: dispatch
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 8 max characters'
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -154,7 +192,7 @@ dispatch_incident_code:
   group: dispatch
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -173,7 +211,7 @@ dispatch_final_disposition:
   group: dispatch
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -192,7 +230,7 @@ dispatch_aid_given:
   group: dispatch
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -211,7 +249,7 @@ dispatch_automatic_alarm:
   group: dispatch
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -230,7 +268,7 @@ dispatch_time_call_arrival:
   group: dispatch.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -249,7 +287,7 @@ dispatch_time_call_answering:
   group: dispatch.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -268,7 +306,7 @@ dispatch_time_call_open_time:
   group: dispatch.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -285,9 +323,9 @@ dispatch_time_call_open_time:
   comments: ''
 dispatch_time_alarm_answering:
   group: dispatch.time
-  type: Time
+  type: Time Delta
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted duration.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -300,13 +338,34 @@ dispatch_time_alarm_answering:
   map_orm_landing: dispatch.call_answering - dispatch.call_arrival
   map_app: ''
   definition: Time between call being opened and when call was answered.
-  example: 0:03:12
+  example: PT12H30M5S
   comments: call_open_time - psap_call_answering_time
+dispatch_time_alarm_processing:
+  group: unit_response.time.computed
+  type: Time Delta
+  value_set: 'FALSE'
+  format: 'An ISO 8601 formatted duration.'
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core_if: ''
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'TRUE'
+  computed_from: Subtraction
+  cardinality: Single
+  map_orm_landing: dispatch.call_arrival - unit_response.time_dispatch
+  map_app: ''
+  definition: Time between call open time and first unit dispatch.
+  example: PT12H30M5S
+  comments: dispatch_time - call_open_time
+  api_class: Computed Times
+  NERIS Validation Range: ''
+  NIEM Definition: ''
 dispatch_unit_response:
   group: unit_response
   type: Array[Module]
   value_set: 'TRUE'
-  reference_location: shared/mod_unit
+  format: See mod_unit_response
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -325,7 +384,7 @@ dispatch_tactic_timestamps:
   group: tactic_timestamps
   type: Module
   value_set: 'FALSE'
-  reference_location: ''
+  format: See mod_tactic_timestamps
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'

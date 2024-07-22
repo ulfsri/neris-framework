@@ -1,4 +1,4 @@
 name,active,description,definition,source
 KNOWN_DISPATCH,TRUE,Known rescue need upon dispatch,,
 KNOWN_ARRIVAL,TRUE,Known rescue need upon arrival,,
-KNOWN_DURING,TRUE,Known rescue need  during incident operations,,
+KNOWN_DURING,TRUE,Known rescue need during incident operations,,

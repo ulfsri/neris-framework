@@ -1,3 +1,4 @@
 name,active,description,definition,source
-AUTO,TRUE,Automatic aid,,
-MUTUAL,TRUE,Mutual aid,,
+SUPPORT_AID,TRUE,Mutual / automatic aid in support of primary entity,,
+IN_LIEU_AID,TRUE,Mutual / automatic aid in lieu of primary entity,,
+ACTING_AS_AID,TRUE,Mutual / automatic aid acting as another entity,,

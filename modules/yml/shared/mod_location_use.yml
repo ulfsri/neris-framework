@@ -2,7 +2,7 @@ use_type:
   group: location
   type: Text
   value_set: 'TRUE'
-  reference_location: type_location_use.value_1
+  format: See type_location_use.value_1
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -13,14 +13,14 @@ use_type:
   cardinality: Single
   map_orm_landing: location_use.type_location_use
   map_app: ''
-  description: Location type.
+  definition: Location type.
   example: See type_location_use table
   comments: ''
 use_subtype:
   group: location
   type: Text
   value_set: 'TRUE'
-  reference_location: type_location_use.value_2
+  format: See type_location_use.value_2
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -31,14 +31,14 @@ use_subtype:
   cardinality: Single
   map_orm_landing: location_use.type_location_use
   map_app: ''
-  description: Specific use type of the location type selection for the incident.
+  definition: Specific use type of the location type selection for the incident.
   example: See type_location_use table
   comments: ''
 use_status:
   group: location
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -47,16 +47,16 @@ use_status:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: join to location_use_inuse
+  map_orm_landing: location_use_inuse
   map_app: ''
-  description: Whether the location is in use.
+  definition: Whether the location is in use.
   example: '"True"'
   comments: ''
 use_intended:
   group: location
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: if use_status = true
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -67,14 +67,14 @@ use_intended:
   cardinality: Single
   map_orm_landing: location_use_inuse.intended
   map_app: ''
-  description: Whether the location is being used as intended.
+  definition: Whether the location is being used as intended.
   example: '"False"'
   comments: ''
 use_vacancy:
   group: location
   type: Text
   value_set: 'TRUE'
-  reference_location: type_vacancy.value
+  format: See type_vacancy.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -85,32 +85,32 @@ use_vacancy:
   cardinality: Single
   map_orm_landing: location_use.type_vacancy
   map_app: ''
-  description: Apparent reason the location is vacant.
+  definition: Apparent reason the location is not in use.
   example: See type_vacancy
   comments: ''
 use_secondary:
   group: location
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'FALSE'
   neris_core_if: ''
   neris_core_aid: 'FALSE'
-  computed: 'TRUE'
+  computed: 'FALSE'
   computed_from: count(use_type_secondary) >=1
   cardinality: Single
   map_orm_landing: location_use.type_location_use__second
   map_app: ''
-  description: Whether the location had an additional use type that impacted the incident response.
+  definition: Whether the location had an additional use type that impacted the incident response.
   example: '"False"'
   comments: ''
 use_type_secondary:
   group: location
   type: Text
   value_set: 'TRUE'
-  reference_location: type_location_use.value_1
+  format: See type_location_use.value_1
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -121,14 +121,14 @@ use_type_secondary:
   cardinality: Single
   map_orm_landing: location_use.type_location_use__second
   map_app: ''
-  description: Location type.
+  definition: Location type.
   example: See type_location_use table
   comments: ''
 use_subtype_secondary:
   group: location
   type: Text
   value_set: 'TRUE'
-  reference_location: type_location_use.value_2
+  format: See type_location_use.value_2
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -139,6 +139,6 @@ use_subtype_secondary:
   cardinality: Single
   map_orm_landing: location_use.type_location_use__second
   map_app: ''
-  description: Specific use type of the location type selection for the incident.
+  definition: Specific use type of the location type selection for the incident.
   example: See type_location_use table
   comments: ''

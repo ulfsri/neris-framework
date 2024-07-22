@@ -1,0 +1,5 @@
+name,active,description,definition,source
+LAW_ENFORCEMENT,TRUE,Law enforcement,,
+SOCIAL_SERVICES,TRUE,Social services,,
+ANIMAL_SERVICES,TRUE,Animal services,,
+HOUSING_SERVICES,TRUE,Housing services,,

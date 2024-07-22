@@ -1,5 +1,40 @@
-UNKNOWN:
+IS_CHILD_OF:
   active: 'TRUE'
-  description: Unknown
+  description: Is child of
+  definition: ''
+  source: ''
+IS_PARENT_OF:
+  active: 'TRUE'
+  description: Is parent of
+  definition: ''
+  source: ''
+MUTUALLY_AIDS:
+  active: 'TRUE'
+  description: Mutually aids
+  definition: ''
+  source: ''
+IS_MUTUALLY_AIDED_BY:
+  active: 'TRUE'
+  description: Is mutually aided by
+  definition: ''
+  source: ''
+AUTOMATICALLY_AIDS:
+  active: 'TRUE'
+  description: Automatically aids
+  definition: ''
+  source: ''
+IS_AUTOMATICALLY_AIDED_BY:
+  active: 'TRUE'
+  description: Is automatically aided by
+  definition: ''
+  source: ''
+CONTRACTUALLY_AIDS:
+  active: 'TRUE'
+  description: Contractually aids
+  definition: ''
+  source: ''
+IS_CONTRACTUALLY_AIDED_BY:
+  active: 'TRUE'
+  description: Is contractually aided by
   definition: ''
   source: ''

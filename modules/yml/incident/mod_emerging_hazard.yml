@@ -2,7 +2,7 @@ elec_category:
   group: electrification
   type: Text
   value_set: 'TRUE'
-  reference_location: type_emerghaz_elec.value_1
+  format: See type_emerghaz_elec.value_1
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -13,14 +13,14 @@ elec_category:
   cardinality: Single
   map_orm_landing: emerghaz_elec.type_emerghaz_elec
   map_app: ''
-  description: Category of the battery powered / stored energy emerging hazard.
+  definition: Category of the battery powered / stored energy emerging hazard.
   example: See type_emerghaz_elec table
   comments: ''
 elec_type:
   group: electrification
   type: Text
   value_set: 'TRUE'
-  reference_location: type_emerghaz_elec.value_2
+  format: See type_emerghaz_elec.value_2
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -31,14 +31,14 @@ elec_type:
   cardinality: Single
   map_orm_landing: emerghaz_elec.type_emerghaz_elec
   map_app: ''
-  description: Additional specificity on the battery powered / stored energy emerging hazard.
+  definition: Additional specificity on the battery powered / stored energy emerging hazard.
   example: See type_emerghaz_elec table
   comments: Based on category selection
 elec_subtype:
   group: electrification
   type: Text
   value_set: 'TRUE'
-  reference_location: type_emerghaz_elec.value_3
+  format: See type_emerghaz_elec.value_3
   possible_if: ''
   db_required: 'TRUE'
   neris_core: 'TRUE'
@@ -49,14 +49,14 @@ elec_subtype:
   cardinality: Single
   map_orm_landing: emerghaz_elec.type_emerghaz_elec
   map_app: ''
-  description: Subtype of the emerging hazard.
+  definition: Subtype of the emerging hazard.
   example: See type_emerghaz_ev_power table
   comments: Only for vehicles
 elec_target:
   group: electrification
   type: Text
   value_set: 'TRUE'
-  reference_location: type_source_target.value
+  format: See type_source_target.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -67,14 +67,14 @@ elec_target:
   cardinality: Single
   map_orm_landing: emerghaz_elec.type_source_target
   map_app: ''
-  description: Whether the battery was the source or target.
+  definition: Whether the battery was the source or target.
   example: See type_source_target table
   comments: ''
 elec_suppress:
   group: electrification
   type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_emerghaz_suppression
+  format: See type_emerghaz_suppression
   possible_if: type_incident.value_1 array includes 'FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -85,14 +85,14 @@ elec_suppress:
   cardinality: Multi
   map_orm_landing: emerghaz_elec_fire_suppr.type_emerghaz_suppr joined via emerghaz_elec_fire
   map_app: ''
-  description: Suppression approach.
+  definition: Suppression approach.
   example: See type_emerghaz_suppression
   comments: ''
 elec_reignition:
   group: electrification
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: suppress is not null
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -103,14 +103,14 @@ elec_reignition:
   cardinality: Single
   map_orm_landing: emerghaz_elec_fire.reignition
   map_app: ''
-  description: Whether there was a re-ignition.
+  definition: Whether there was a re-ignition.
   example: '"True"'
   comments: ''
 elec_vehicle_status:
   group: electrification
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: category = 'ELECTRIC_CAR'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -119,16 +119,16 @@ elec_vehicle_status:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: join to emerghaz_elec_crash
+  map_orm_landing: emerghaz_elec_crash
   map_app: ''
-  description: Whether the electric vehicle was involved in crash.
+  definition: Whether the electric vehicle was involved in crash.
   example: '"True"'
   comments: ''
 powergen_hardware_type:
   group: powergeneration
   type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_emerghaz_powergen.value
+  format: See type_emerghaz_powergen.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -139,14 +139,14 @@ powergen_hardware_type:
   cardinality: Multi
   map_orm_landing: emerghaz_powergen.type_emerghaz_powergen
   map_app: ''
-  description: Whether power generation hardware was involved in the incident.
+  definition: Whether power generation hardware was involved in the incident.
   example: See type_emerghaz_powergen table
   comments: ''
 powergen_pv_ignition:
   group: powergeneration.pv
   type: Text
   value_set: 'TRUE'
-  reference_location: type_emerghaz_pv_ign.value
+  format: See type_emerghaz_pv_ign.value
   possible_if: type = photovoltaics
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -157,14 +157,14 @@ powergen_pv_ignition:
   cardinality: Single
   map_orm_landing: emerghaz_powergen_sub_pv.type_emerghaz_pv_ign
   map_app: ''
-  description: Whether photovoltaics were the source of ignition or target.
+  definition: Whether photovoltaics were the source of ignition or target.
   example: See type_emerghaz_pv_ign table
   comments: ''
 powergen_pv_type:
   group: powergeneration.pv
   type: Text
   value_set: 'TRUE'
-  reference_location: type_emerghaz_pv.value
+  format: See type_emerghaz_pv.value
   possible_if: type = photovoltaics
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -175,14 +175,14 @@ powergen_pv_type:
   cardinality: Single
   map_orm_landing: emerghaz_powergen_sub_pv.type_emerghaz_pv
   map_app: ''
-  description: Type of photovoltaics were involved in the incident.
+  definition: Type of photovoltaics were involved in the incident.
   example: See type_emerghaz_pv table
   comments: ''
 csst_ignition_source:
   group: csst
   type: Boolean
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -193,14 +193,14 @@ csst_ignition_source:
   cardinality: Single
   map_orm_landing: emerghaz_csst.ignition_source
   map_app: ''
-  description: Whether corrugated stainless steel tubing was a suspected ignition source.
+  definition: Whether corrugated stainless steel tubing was a suspected ignition source.
   example: '"True"'
   comments: ''
 csst_lightning:
   group: csst
   type: Text
   value_set: 'TRUE'
-  reference_location: type_yes_no_unknown.value
+  format: See type_yes_no_unknown.value
   possible_if: ignition_source = TRUE
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -211,14 +211,14 @@ csst_lightning:
   cardinality: Single
   map_orm_landing: emerghaz_csst.type_yes_no_unknown__lightning
   map_app: ''
-  description: Whether lightening was suspected as cause of ignition.
+  definition: Whether lightening was suspected as cause of ignition.
   example: See type_yes_no_unknown table
   comments: ''
 csst_grounded:
   group: csst
   type: Text
   value_set: 'TRUE'
-  reference_location: type_yes_no_unknown.value
+  format: See type_yes_no_unknown.value
   possible_if: ignition_source = TRUE
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -229,6 +229,6 @@ csst_grounded:
   cardinality: Single
   map_orm_landing: emerghaz_csst.type_yes_no_unknown__grounded
   map_app: ''
-  description: Whether the CSST was grounded.
+  definition: Whether the CSST was grounded.
   example: See type_yes_no_unknown table
   comments: ''

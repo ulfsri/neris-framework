@@ -238,6 +238,42 @@ FORCIBLE_ENTRY:
   definition_2: ''
   definition_3: ''
   source: ''
+'SUPPRESSION: OUTSIDE_FIRE_SUPPRESSION: FIRE_RETARDANT_DROP':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: FIRE_RETARDANT_DROP
+  description_1: Suppression
+  description_2: Outside_Fire_Suppression
+  description_3: Fire Retardant Drop
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONTAINMENT: OUTSIDE_FIRE_SUPPRESSION: HAND_CREW_FUEL_BREAK':
+  active: 'TRUE'
+  value_1: CONTAINMENT
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: HAND_CREW_FUEL_BREAK
+  description_1: Containment
+  description_2: Outside_Fire_Suppression
+  description_3: Hand Crew Fuel Break
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'CONTAINMENT: OUTSIDE_FIRE_SUPPRESSION: DOZER_FUEL_BREAK':
+  active: 'TRUE'
+  value_1: CONTAINMENT
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: DOZER_FUEL_BREAK
+  description_1: Containment
+  description_2: Outside_Fire_Suppression
+  description_3: Dozer Fuel Break
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'VENTILATION: VERTICAL: PRIOR_TO_SUPPRESSION':
   active: 'TRUE'
   value_1: VENTILATION

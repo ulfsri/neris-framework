@@ -2,16 +2,16 @@ unit_id_linked:
   group: unit_response
   type: Text
   value_set: 'TRUE'
-  reference_location: unit.neris_id
+  format: See unit.neris_id
   possible_if: UnitHist.cad_designation
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'TRUE'
   neris_core_cad: 'TRUE'
-  computed: 'TRUE'
+  computed: 'FALSE'
   computed_from: UnitHist.cad_designation_1
   cardinality: Single
-  map_orm_landing: ' unit_response.neris_id_unit'
+  map_orm_landing: 'unit_response.neris_id_unit'
   map_app: ''
   definition: Name of the unit responding to the incident in FD Spec.
   example: A702, PA711, E731
@@ -23,7 +23,7 @@ unit_id_reported:
   group: unit_response
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: If not in UnitHist.cad_designation
@@ -32,7 +32,7 @@ unit_id_reported:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.reported_id_unit'
+  map_orm_landing: 'unit_response.reported_id_unit'
   map_app: ''
   definition: Name of the unit responding to the incident if not in FD Spec.
   example: A702, PA711, E731
@@ -44,7 +44,7 @@ unit_staffing_reported:
   group: unit_response
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -53,7 +53,7 @@ unit_staffing_reported:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.staffing'
+  map_orm_landing: 'unit_response.staffing'
   map_app: ''
   definition: On-scene staffing of unit.
   example: '4'
@@ -65,7 +65,7 @@ unit_dispatch_point:
   group: unit_response
   type: Point
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -76,8 +76,8 @@ unit_dispatch_point:
   cardinality: Single
   map_orm_landing: geo_point joined via nuid_geo_point
   map_app: ''
-  definition: WGS84 latitude of unit.
-  example: '39.299236'
+  definition: WGS84 latitude and longitude of unit.
+  example: 42.548054, -77.840575
   comments: On a per unit basis
   api_class: Dispatch Values
   NERIS Validation Range: Valid latitude within XX miles of department boundary
@@ -86,7 +86,7 @@ time_dispatch:
   group: unit_response.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -95,10 +95,10 @@ time_dispatch:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.time_dispatch'
+  map_orm_landing: 'unit_response.time_dispatch'
   map_app: ''
   definition: Timestamp that the unit is dispatched.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: Must not be null. Either valid timestamp.
@@ -107,7 +107,7 @@ time_enroute_to_scene:
   group: unit_response.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -116,10 +116,10 @@ time_enroute_to_scene:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.time_enroute_to_scene'
+  map_orm_landing: 'unit_response.time_enroute_to_scene'
   map_app: ''
   definition: Timestamp that the unit goes enroute to scene of the incident.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: Must not be null. Either valid timestamp.
@@ -128,7 +128,7 @@ time_on_scene:
   group: unit_response.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -137,10 +137,10 @@ time_on_scene:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.time_on_scene'
+  map_orm_landing: 'unit_response.time_on_scene'
   map_app: ''
   definition: Timestamp that the unit arrived on scene.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: Must not be null. Either valid timestamp.
@@ -149,7 +149,7 @@ time_canceled_enroute:
   group: unit_response.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -158,10 +158,10 @@ time_canceled_enroute:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.time_canceled_enroute'
+  map_orm_landing: 'unit_response.time_canceled_enroute'
   map_app: ''
   definition: Timestamp for units that were canceled prior to arrival.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis: Required if any units are cancelled en-route. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -170,7 +170,7 @@ time_staging:
   group: unit_response.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -179,10 +179,10 @@ time_staging:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.time_staging'
+  map_orm_landing: 'unit_response.time_staging'
   map_app: ''
   definition: Timestamp that the unit stages on scene.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -191,7 +191,7 @@ time_at_patient:
   group: unit_response.med.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: dispatch_incident_type = MEDICAL
   db_required: 'FALSE'
   neris_core_if: ''
@@ -203,7 +203,7 @@ time_at_patient:
   map_orm_landing: med_response.time_at_patient
   map_app: ''
   definition: Timestamp that the provider reaches the patient's side.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit bais: If more than one patient. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -212,7 +212,7 @@ time_enroute_hospital:
   group: unit_response.med.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: dispatch_incident_type = MEDICAL
   db_required: 'FALSE'
   neris_core_if: ''
@@ -224,7 +224,7 @@ time_enroute_hospital:
   map_orm_landing: med_response.time_enroute_hospital
   map_app: ''
   definition: Timestamp that the unit statuses enroute to the hospital.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -233,7 +233,7 @@ time_arrived_hospital:
   group: unit_response.med.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: dispatch_incident_type = MEDICAL
   db_required: 'FALSE'
   neris_core_if: ''
@@ -245,7 +245,7 @@ time_arrived_hospital:
   map_orm_landing: med_response.time_arrived_hospital
   map_app: ''
   definition: Timestamp that the unit arrives at the hospital.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -254,7 +254,7 @@ hospital_destination:
   group: unit_response.med
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   possible_if: dispatch_incident_type = MEDICAL
   db_required: 'FALSE'
   neris_core_if: ''
@@ -275,7 +275,7 @@ time_transfer_to_agency:
   group: unit_response.med.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: dispatch_incident_type = MEDICAL
   db_required: 'FALSE'
   neris_core_if: ''
@@ -287,7 +287,7 @@ time_transfer_to_agency:
   map_orm_landing: med_response.time_transfer_to_agency
   map_app: ''
   definition: Timestamp that the provider transfers care to a transporting agency.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -296,7 +296,7 @@ time_transfer_to_facility:
   group: unit_response.med.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: dispatch_incident_type = MEDICAL
   db_required: 'FALSE'
   neris_core_if: ''
@@ -308,7 +308,7 @@ time_transfer_to_facility:
   map_orm_landing: med_response.time_transfer_to_facility
   map_app: ''
   definition: Timestamp that the provider transfers care to a hospital or facility.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -317,7 +317,7 @@ time_hospital_clear:
   group: unit_response.med.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: dispatch_incident_type = MEDICAL
   db_required: 'FALSE'
   neris_core_if: ''
@@ -329,7 +329,7 @@ time_hospital_clear:
   map_orm_landing: med_response.time_hospital_clear
   map_app: ''
   definition: Timestamp that the unit clears the hospital.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: May be null, valid timestamp otherwise.
@@ -338,7 +338,7 @@ time_unit_clear:
   group: unit_response.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -347,10 +347,10 @@ time_unit_clear:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.time_unit_clear'
+  map_orm_landing: 'unit_response.time_unit_clear'
   map_app: ''
   definition: Timestamp that the unit clears the incident.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: 'On a per unit basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
   api_class: Timestamps
   NERIS Validation Range: Must not be null. Either valid timestamp.
@@ -359,7 +359,7 @@ time_incident_clear:
   group: unit_response.time
   type: Datetime (UTC)
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -368,40 +368,19 @@ time_incident_clear:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: ' unit_response.time_incident_clear'
+  map_orm_landing: 'unit_response.time_incident_clear'
   map_app: ''
   definition: Timestamp when dispatch closes incident.
-  example: 08/23/2023 13:45:52 <nc:DateTime>2000-01-01T12:00:00</nc:DateTime>
+  example: "2024-05-03T18:56:58+00:00"
   comments: ''
   api_class: Timestamps
   NERIS Validation Range: Must not be null. Either valid timestamp.
   NIEM Definition: ''
-time_alarm_processing:
-  group: unit_response.time.computed
-  type: Time
-  value_set: 'FALSE'
-  reference_location: ''
-  possible_if: ''
-  db_required: 'FALSE'
-  neris_core_if: ''
-  neris_core_app: 'FALSE'
-  neris_core_cad: 'FALSE'
-  computed: 'TRUE'
-  computed_from: Subtraction
-  cardinality: Single
-  map_orm_landing: dispatch.call_arrival - unit_response.time_dispatch
-  map_app: ''
-  definition: Time between call open time and first unit dispatch.
-  example: 0:03:12
-  comments: dispatch_time - call_open_time
-  api_class: Computed Times
-  NERIS Validation Range: ''
-  NIEM Definition: ''
 time_turnout:
   group: unit_response.time.computed
-  type: Time
+  type: Time Delta
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted duration.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -413,16 +392,16 @@ time_turnout:
   map_orm_landing: unit_response.time_dispatch - unit_response.time_enroute_to_scene
   map_app: ''
   definition: Time between dispatch time and en-route time.
-  example: 0:03:12
+  example: PT12H30M5S
   comments: 'On a per unit basis: enroute_time - dispatch_time'
   api_class: Computed Times
   NERIS Validation Range: ''
   NIEM Definition: ''
 time_travel:
   group: unit_response.time.computed
-  type: Time
+  type: Time Delta
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'An ISO 8601 formatted duration.'
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -434,7 +413,7 @@ time_travel:
   map_orm_landing: unit_response.time_enroute_to_scene - unit_reponse.time_on_scene
   map_app: ''
   definition: Time between en route time and on scene time.
-  example: 0:03:12
+  example: PT12H30M5S
   comments: 'On a per unit basis: onscene_time - enroute_time'
   api_class: Computed Times
   NERIS Validation Range: ''

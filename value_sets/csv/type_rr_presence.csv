@@ -1,0 +1,4 @@
+name,active,description,definition,source,xor
+PRESENT,TRUE,Present,,,present
+NOT_PRESENT,TRUE,Not Present,,,notpresent
+NOT_APPLICABLE,TRUE,Not Applicable,,,notpresent

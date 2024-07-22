@@ -1,0 +1,6 @@
+name,active,description,definition,source,xor
+OPERATED_ALERTED_OCCUPANT,TRUE,Operated - Alerted Occupant(s),,,alerted
+OPERATED_FAILED_TO_ALERT_OCCUPANT,TRUE,Operated - Failed to Alert Occupant(s),,,other
+NO_OCCUPANT_TO_NOTIFY,TRUE,No Occupants to Notify,,,other
+FAILED_TO_OPERATE,TRUE,Failed to Operate,,,failed
+INSUFFICIENT_SOURCE,TRUE,Insufficient Source to Activate Alarm,,,other
