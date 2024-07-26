@@ -13,7 +13,7 @@ weather_id:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: National Weather Service Station ID.
+  definition: National Weather Service Station ID.
   example: WXJ55
   comments: ''
 weather_condition:
@@ -31,7 +31,7 @@ weather_condition:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Standard NWS codes for weather type.
+  definition: Standard NWS codes for weather type.
   example: Clear, Rain, Snow etc.
   comments: ''
 weather_temperature:
@@ -49,7 +49,7 @@ weather_temperature:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Temperature during incident (degrees F).
+  definition: Temperature during incident (degrees F).
   example: '76.1'
   comments: ''
 weather_humidity:
@@ -67,7 +67,7 @@ weather_humidity:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Humidity during incident (%).
+  definition: Humidity during incident (%).
   example: '80.5'
   comments: ''
 weather_cloudiness:
@@ -85,7 +85,7 @@ weather_cloudiness:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Cloudiness as a percentage (%).
+  definition: Cloudiness as a percentage (%).
   example: '20.2'
   comments: ''
 weather_pressure:
@@ -103,7 +103,7 @@ weather_pressure:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Atmospheric pressure on the sea level, hPa.
+  definition: Atmospheric pressure on the sea level, hPa.
   example: '1013.25'
   comments: ''
 weather_visibility:
@@ -121,7 +121,7 @@ weather_visibility:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Average visibility, in miles.
+  definition: Average visibility, in miles.
   example: '12'
   comments: ''
 precipitation_rain:
@@ -139,7 +139,7 @@ precipitation_rain:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Rain precipitation, inches/hour.
+  definition: Rain precipitation, inches/hour.
   example: '3.2'
   comments: ''
 precipitation_snow:
@@ -157,7 +157,7 @@ precipitation_snow:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Snow precipitation, inches/hour.
+  definition: Snow precipitation, inches/hour.
   example: '1.1'
   comments: ''
 wind_speed:
@@ -175,7 +175,7 @@ wind_speed:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Velocity of wind in miles per hour.
+  definition: Velocity of wind in miles per hour.
   example: '10.8'
   comments: ''
 wind_degree:
@@ -193,7 +193,7 @@ wind_degree:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Wind direction, degrees (meteorological).
+  definition: Wind direction, degrees (meteorological).
   example: '20.1'
   comments: ''
 wind_gust:
@@ -211,6 +211,6 @@ wind_gust:
   value_set_location: ''
   map_orm_landing: ''
   map_app: ''
-  description: Velocity of wind gusts in miles per hour.
+  definition: Velocity of wind gusts in miles per hour.
   example: '15'
   comments: ''

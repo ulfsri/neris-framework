@@ -1,0 +1,20 @@
+LAW_ENFORCEMENT:
+  active: 'TRUE'
+  description: Law enforcement
+  definition: ''
+  source: ''
+SOCIAL_SERVICES:
+  active: 'TRUE'
+  description: Social services
+  definition: ''
+  source: ''
+ANIMAL_SERVICES:
+  active: 'TRUE'
+  description: Animal services
+  definition: ''
+  source: ''
+HOUSING_SERVICES:
+  active: 'TRUE'
+  description: Housing services
+  definition: ''
+  source: ''

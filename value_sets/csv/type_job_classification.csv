@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 CAREER,TRUE,Career,,
 PART_TIME,TRUE,Part_Time,,
 PAID_ON_CALL,TRUE,Paid_On_Call,,

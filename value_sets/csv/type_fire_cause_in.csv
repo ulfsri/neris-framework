@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 OPERATING_EQUIPMENT,TRUE,Operating Equipment,,
 ELECTRICAL,TRUE,Electrical,,
 BATTERY_POWER_STORAGE,TRUE,Battery / Power Storage,,

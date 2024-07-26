@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 CAUSED_BY,TRUE,Caused by,Event was caused by incident,
 CAUSED,TRUE,Caused,Event caused incident,
 INCLUDES,TRUE,Includes,Incident was part of event,

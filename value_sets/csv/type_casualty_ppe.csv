@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 TURNOUT_COAT,TRUE,Turnout Coat,,
 BUNKER_PANTS,TRUE,Bunker Pants,,
 PROTECTIVE_HOOD,TRUE,Protective Hood,,
@@ -7,7 +7,7 @@ FACE_SHIELD_GOGGLES,TRUE,Face Shield / Goggles,,
 HELMET,TRUE,Helmet,,
 SCBA,TRUE,SCBA,,
 PASS_DEVICE,TRUE,Pass Device,,
-RUBBER_KNEE_BOOOTS,TRUE,Rubber Knee Boots,,
+RUBBER_KNEE_BOOTS,TRUE,Rubber Knee Boots,,
 3_4_BOOTS,TRUE,3/4 Boots,,
 BRUSH_GEAR,TRUE,Brush Gear,,
 REFLECTIVE_VEST,TRUE,Reflective Vest,,

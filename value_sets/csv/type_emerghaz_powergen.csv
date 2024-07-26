@@ -1,4 +1,4 @@
-name,active,description,definition,source,xor
+value,active,description,definition,source,xor
 PHOTOVOLTAICS,TRUE,Photovoltaics,,,pv
 WIND_TURBINE,TRUE,Wind Turbine,,,other
 NONE,TRUE,,,,other

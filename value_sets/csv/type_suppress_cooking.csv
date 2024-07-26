@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 COMMERCIAL_HOOD_SUPPRESSION,TRUE,Commercial Hood Suppression System,,
 RESIDENTIAL_HOOD_MOUNTED,TRUE,Residential Hood Mounted Suppression Device,,
 TEMPERATURE_LIMITING_STOVE,TRUE,Temperature Limiting Stove Burner,,

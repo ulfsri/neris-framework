@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 ACTIVE_ASSAILANT,TRUE,Active Assailant,,
 MCI,TRUE,Mass Casualty Incident,,
 FEDERAL_DECLARED_DISASTER,TRUE,Federal Declared Disaster,,

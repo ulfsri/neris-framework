@@ -4,4 +4,5 @@ This repository contains the data framework, currently in beta, for the National
 ## Additional information
 Additional information about the framework, including Entity Relationship Diagrams (ERDs) and module flow schematics, can be found in [this repo's wiki](https://github.com/ulfsri/neris-framework/wiki).
 
-To ask a question, make a suggestion, or otherwise get help with the NERIS framework, please visit [the NERIS helpdesk](https://neris.atlassian.net/servicedesk/customer/portal/3).
+To ask a question, make a suggestion, or otherwise get help with the NERIS framework, please visit [the NERIS helpdesk](https://neris.atlassian.net/servicedesk/customer/portals).
+

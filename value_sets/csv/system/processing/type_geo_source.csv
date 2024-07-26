@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 DEPT_UPLOAD,TRUE,Department upload,,
 DEPT_FILE,TRUE,Department file,,
 AWS,TRUE,AWS geocode,,

@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 HOARDING_CONDITIONS,TRUE,Hoarding Conditions,,
 ACCESS_LIMITATIONS,TRUE,Limited Access,,
 PHYSICAL_MEDICAL_CONDITIONS_PERSON,TRUE,Physical / Medical Conditions of Person,,

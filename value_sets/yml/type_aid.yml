@@ -1,10 +1,15 @@
-AUTO:
+SUPPORT_AID:
   active: 'TRUE'
-  description: Automatic aid
+  description: Mutual / automatic aid in support of primary entity
   definition: ''
   source: ''
-MUTUAL:
+IN_LIEU_AID:
   active: 'TRUE'
-  description: Mutual aid
+  description: Mutual / automatic aid in lieu of primary entity
+  definition: ''
+  source: ''
+ACTING_AS_AID:
+  active: 'TRUE'
+  description: Mutual / automatic aid acting as another entity
   definition: ''
   source: ''

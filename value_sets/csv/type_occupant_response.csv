@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 EVACUATED,TRUE,Evacuated,,
 IGNORED_ALARM,TRUE,Ignored_Alarm,,
 UNABLE_TO_RESPOND,TRUE,"Unable To Respond (Impaired, Sleeping, Disabled, Child)",,

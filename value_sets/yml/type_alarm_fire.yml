@@ -1,0 +1,15 @@
+MANUAL:
+  active: 'TRUE'
+  description: Manual
+  definition: ''
+  source: ''
+AUTOMATIC:
+  active: 'TRUE'
+  description: Automatic
+  definition: ''
+  source: ''
+MANUAL_AND_AUTOMATIC:
+  active: 'TRUE'
+  description: Manual and Automatic
+  definition: ''
+  source: ''

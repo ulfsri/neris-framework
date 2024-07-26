@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 STRUCTURAL_FIREFIGHTING,TRUE,Conventional Structural and Other Fire Response,,
 HIGHRISE_FIREFIGHTING,TRUE,High-Rise Structural Firefighting,,
 WILDLAND_FIREFIGHTING,TRUE,Wildfire Response / Wildland Urban Interface,,

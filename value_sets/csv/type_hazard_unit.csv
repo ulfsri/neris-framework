@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 GAS_CUBIC_FOOT,TRUE,Gas - Cubic Foot ,,
 GAS_CUBIC_INCH,TRUE,Gas - Cubic Inch ,,
 GAS_CUBIC_CENTIMETER,TRUE,Gas - Cubic Centimeter ,,
