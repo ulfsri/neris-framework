@@ -1,3 +1,3 @@
-name,active,description,definition,source,xor
+value,active,description,definition,source,xor
 EXTERNAL_EXPOSURE,TRUE,"External Exposure (building to building, building to vehicle, etc.)",,,external
 INTERNAL_EXPOSURE,TRUE,"Internal Exposure (Occupancy A to Occupancy B, within the same structure)",,,internal

@@ -1,9 +1,9 @@
-name,group,type,value_set,reference_location,possible_if,db_required,neris_core,neris_core_if,neris_core_aid,computed,computed_from,cardinality,map_orm_landing,map_app,description,example,comments
-use_type,location,Text,TRUE,type_location_use.value_1,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use,,Location type.,See type_location_use table,
-use_subtype,location,Text,TRUE,type_location_use.value_2,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use,,Specific use type of the location type selection for the incident.,See type_location_use table,
-use_status,location,Boolean,FALSE,,,FALSE,TRUE,,TRUE,FALSE,,Single,join to location_use_inuse,,Whether the location is in use.,"""True""",
+name,group,type,value_set,format,possible_if,db_required,neris_core,neris_core_if,neris_core_aid,computed,computed_from,cardinality,map_orm_landing,map_app,definition,example,comments
+use_type,location,Text,TRUE,See type_location_use.value_1,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use,,Location type.,See type_location_use table,
+use_subtype,location,Text,TRUE,See type_location_use.value_2,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use,,Specific use type of the location type selection for the incident.,See type_location_use table,
+use_status,location,Boolean,FALSE,,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use_inuse,,Whether the location is in use.,"""True""",
 use_intended,location,Boolean,FALSE,,if use_status = true,FALSE,TRUE,,TRUE,FALSE,,Single,location_use_inuse.intended,,Whether the location is being used as intended.,"""False""",
-use_vacancy,location,Text,TRUE,type_vacancy.value,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_vacancy,,Apparent reason the location is vacant.,See type_vacancy,
-use_secondary,location,Boolean,FALSE,,,FALSE,FALSE,,FALSE,TRUE,count(use_type_secondary) >=1,Single,location_use.type_location_use__second,,Whether the location had an additional use type that impacted the incident response.,"""False""",
-use_type_secondary,location,Text,TRUE,type_location_use.value_1,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use__second,,Location type.,See type_location_use table,
-use_subtype_secondary,location,Text,TRUE,type_location_use.value_2,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use__second,,Specific use type of the location type selection for the incident.,See type_location_use table,
+use_vacancy,location,Text,TRUE,See type_vacancy.value,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_vacancy,,Apparent reason the location is not in use.,See type_vacancy,
+use_secondary,location,Boolean,FALSE,,,FALSE,FALSE,,FALSE,FALSE,count(use_type_secondary) >=1,Single,location_use.type_location_use__second,,Whether the location had an additional use type that impacted the incident response.,"""False""",
+use_type_secondary,location,Text,TRUE,See type_location_use.value_1,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use__second,,Location type.,See type_location_use table,
+use_subtype_secondary,location,Text,TRUE,See type_location_use.value_2,,FALSE,TRUE,,TRUE,FALSE,,Single,location_use.type_location_use__second,,Specific use type of the location type selection for the incident.,See type_location_use table,

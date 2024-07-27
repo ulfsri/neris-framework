@@ -1,2 +1,9 @@
-name,active,description,definition,source
-UNKNOWN,TRUE,Unknown,,
+value,active,description,definition,source
+IS_CHILD_OF,TRUE,Is child of,,
+IS_PARENT_OF,TRUE,Is parent of,,
+MUTUALLY_AIDS,TRUE,Mutually aids,,
+IS_MUTUALLY_AIDED_BY,TRUE,Is mutually aided by,,
+AUTOMATICALLY_AIDS,TRUE,Automatically aids,,
+IS_AUTOMATICALLY_AIDED_BY,TRUE,Is automatically aided by,,
+CONTRACTUALLY_AIDS,TRUE,Contractually aids,,
+IS_CONTRACTUALLY_AIDED_BY,TRUE,Is contractually aided by,,

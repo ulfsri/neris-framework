@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 NO_DAMAGE,TRUE,No Damage,,
 MINOR_DAMAGE,TRUE,"Minor (Limited Smoke / Fire / Water Damage, No Occupant Displacement)",,
 MODERATE_DAMAGE,TRUE,"Moderate (Flame / Water / Smoke Damage, Possible Occupant Displacement)",,

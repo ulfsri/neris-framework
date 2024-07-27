@@ -1,0 +1,18 @@
+PRESENT:
+  active: 'TRUE'
+  description: Present
+  definition: ''
+  source: ''
+  xor: present
+NOT_PRESENT:
+  active: 'TRUE'
+  description: Not Present
+  definition: ''
+  source: ''
+  xor: notpresent
+NOT_APPLICABLE:
+  active: 'TRUE'
+  description: Not Applicable
+  definition: ''
+  source: ''
+  xor: notpresent

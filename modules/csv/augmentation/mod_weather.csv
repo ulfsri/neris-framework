@@ -1,4 +1,4 @@
-name,type,group,possible_if,not_null,neris_core,neris_core_if,neris_core_aid,computed,computed_from,cardinality,value_set,value_set_location,map_orm_landing,map_app,description,example,comments
+name,type,group,possible_if,not_null,neris_core,neris_core_if,neris_core_aid,computed,computed_from,cardinality,value_set,value_set_location,map_orm_landing,map_app,definition,example,comments
 weather_id,Text,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,National Weather Service Station ID.,WXJ55,
 weather_condition,Text,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Standard NWS codes for weather type.,"Clear, Rain, Snow etc.",
 weather_temperature,Float,weather,,FALSE,FALSE,,FALSE,TRUE,external weather data,Single,FALSE,,,,Temperature during incident (degrees F).,76.1,

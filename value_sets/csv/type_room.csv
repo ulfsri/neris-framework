@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 ASSEMBLY,TRUE,Assembly,,
 BATHROOM,TRUE,Bathroom,,
 BEDROOM,TRUE,Bedroom,,

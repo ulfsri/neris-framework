@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 INTENTIONAL,TRUE,Intentional,,
 UNINTENTIONAL,TRUE,Unintentional,,
 CONTAINER_CONTAINMENT_FAILURE,TRUE,Container / Containment Failure,,

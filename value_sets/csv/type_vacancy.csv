@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 NEW_CONSTRUCTION_REMODEL,TRUE,New Construction / Remodel,,
 ABANDONED,TRUE,Abandoned,,
 FOR_SALE_LEASE,TRUE,For Sale / Lease,,

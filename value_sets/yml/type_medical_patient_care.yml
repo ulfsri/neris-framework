@@ -1,14 +1,14 @@
-PATIENT_EVALAUTED_CARE_PROVIDED:
+PATIENT_EVALUATED_CARE_PROVIDED:
   active: 'TRUE'
   description: Patient Evaluated and Care Provided
   definition: ''
   source: ''
-PATIENT_EVALAUTED_REFUSED_CARE:
+PATIENT_EVALUATED_REFUSED_CARE:
   active: 'TRUE'
   description: Patient Evaluated and Refused Care
   definition: ''
   source: ''
-PATIENT_EVALAUTED_NO_CARE_REQUIRED:
+PATIENT_EVALUATED_NO_CARE_REQUIRED:
   active: 'TRUE'
   description: 'Patient Evaluated, No Care Required '
   definition: ''

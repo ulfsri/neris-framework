@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 CAUGHT_TRAPPED_BY_FIRE_EXPLOSION,TRUE,Caught / Trapped by Fire / Explosion,,
 FALL_JUMP,TRUE,Fall / Jump,,
 STRESS_OVEREXERTION,TRUE,Stress / Overexertion,,

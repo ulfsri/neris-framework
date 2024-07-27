@@ -1,4 +1,4 @@
-name,active,description,definition,source,xor
+value,active,description,definition,source,xor
 REMOVAL_FROM_STRUCTURE,TRUE,Removal From Structure,,,removal
 EXTRICATION,TRUE,Extrication,,,nonremoval
 DISENTANGLEMENT,TRUE,Disentanglement,,,nonremoval

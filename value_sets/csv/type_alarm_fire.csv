@@ -1,0 +1,4 @@
+value,active,description,definition,source
+MANUAL,TRUE,Manual,,
+AUTOMATIC,TRUE,Automatic,,
+MANUAL_AND_AUTOMATIC,TRUE,Manual and Automatic,,

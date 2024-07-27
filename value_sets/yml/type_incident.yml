@@ -681,7 +681,7 @@
   value_3: ALTERED_MENTAL_STATUS
   description_1: Medical
   description_2: Illness
-  description_3: Unknown Problem
+  description_3: Altered Mental Status
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -694,7 +694,7 @@
   value_3: NAUSEA
   description_1: Medical
   description_2: Illness
-  description_3: No Appropriate Choice
+  description_3: Nausea
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -707,7 +707,7 @@
   value_3: UNKNOWN_PROBLEM
   description_1: Medical
   description_2: Illness
-  description_3: Altered Mental Status
+  description_3: Unknnown Problem
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -720,7 +720,7 @@
   value_3: NO_APPROPRIATE_CHOICE
   description_1: Medical
   description_2: Illness
-  description_3: Nausea
+  description_3: No Appropriate Choice
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -1050,7 +1050,7 @@
   definition_2: ''
   definition_3: ''
   source: ''
-  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521, 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
 'PUBSERV: CITIZEN_ASSIST: PERSON_IN_DISTRESS':
   active: 'TRUE'
   value_1: PUBSERV
@@ -1063,7 +1063,7 @@
   definition_2: ''
   definition_3: ''
   source: ''
-  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521, 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
 'PUBSERV: CITIZEN_ASSIST: CITIZEN_ASSIST_SERVICE_CALL':
   active: 'TRUE'
   value_1: PUBSERV
@@ -1076,7 +1076,7 @@
   definition_2: ''
   definition_3: ''
   source: ''
-  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521, 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
 'PUBSERV: CITIZEN_ASSIST: LIFT_ASSIST':
   active: 'TRUE'
   value_1: PUBSERV
@@ -1089,7 +1089,7 @@
   definition_2: ''
   definition_3: ''
   source: ''
-  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
+  NFIRS Crosswalk: 481, 482, 480, 500, 511, 512, 510, 521, 522, 520, 531, 541, 542, 540, 552, 553, 554, 555, 550
 'PUBSERV: ALARMS_NONMED: FIRE_ALARM':
   active: 'TRUE'
   value_1: PUBSERV
@@ -1576,7 +1576,7 @@ LAWENFORCE:
   value_1: LAWENFORCE
   value_2: ''
   value_3: ''
-  description_1: ''
+  description_1: 'Law Enforcement Support'
   description_2: ''
   description_3: ''
   definition_1: ''

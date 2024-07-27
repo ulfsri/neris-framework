@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 SYSTEM_SHUTOFF_PRIOR_TO_INCIDENT,TRUE,System Shutoff Prior to Incident,,
 SYSTEM_SHUTOFF_DURING_INCIDENT,TRUE,System Shutoff during Incident,,
 SYSTEM_INOPERABLE,TRUE,System Inoperable,,

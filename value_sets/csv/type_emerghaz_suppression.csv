@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 RUN_COURSE,TRUE,Let Incident Run Its Course,,
 SUPPRESSION_WATER_ONLY,TRUE,Suppression With Water Only,,
 SUPPRESSION_WATER_ADDITIVE,TRUE,Suppression With Water / Additive,,
