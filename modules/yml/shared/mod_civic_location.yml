@@ -1,8 +1,8 @@
 nl_structure:
   group: cldxf_named_location
   type: Text
-  value_set: 'TRUE'
-  reference_location: type_loc_csp_country.value
+  value_set: 'FALSE'
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -12,7 +12,7 @@ nl_structure:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: location.nl_structure
+  map_orm_landing: location.nl_structure 
   map_app: BldgName
   definition: 'A built feature which has a vertical dimension, including both conventional buildings which have walls, doors, and a roof, and other kinds of infrastructure such as cell towers, transformer stations, fuel tanks, and so on. '
   example: '"Fuel Storage Shed" in "100 Cantwell Avenue, Fuel Storage Shed"'
@@ -21,7 +21,7 @@ nl_subsite:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -40,7 +40,7 @@ nl_site:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -59,7 +59,7 @@ an_prefix:
   group: cldxf_address_number
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
@@ -78,7 +78,7 @@ an_number:
   group: cldxf_address_number
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
@@ -97,7 +97,7 @@ an_suffix:
   group: cldxf_address_number
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
@@ -116,7 +116,7 @@ an_complete:
   group: cldxf_address_number
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
@@ -135,7 +135,7 @@ an_distance_marker:
   group: cldxf_address_number
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
@@ -153,8 +153,8 @@ an_distance_marker:
 sn_pre_modifier:
   group: cldxf_street_name
   type: Text
-  value_set: 'FALSE'
-  reference_location: ''
+  value_set: 'TRUE'
+  format: 'See type_loc_sn_pre_post.value'
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -172,8 +172,8 @@ sn_pre_modifier:
 sn_pre_dir:
   group: cldxf_street_name
   type: Text
-  value_set: 'FALSE'
-  reference_location: ''
+  value_set: 'TRUE'
+  format: 'See type_loc_sn_direction.value'
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -192,7 +192,7 @@ sn_pre_type:
   group: cldxf_street_name
   type: Text
   value_set: 'TRUE'
-  reference_location: type_loc_sn_pre_post.value
+  format: See type_loc_sn_pre_post.value
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -211,7 +211,7 @@ sn_pre_type_separator:
   group: cldxf_street_name
   type: Text
   value_set: 'TRUE'
-  reference_location: type_loc_sn_pre_sep.value
+  format: See type_loc_sn_pre_sep.value
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -230,7 +230,7 @@ sn_street_name:
   group: cldxf_street_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -249,7 +249,7 @@ sn_post_type:
   group: cldxf_street_name
   type: Text
   value_set: 'TRUE'
-  reference_location: type_loc_sn_pre_post.value
+  format: See type_loc_sn_pre_post.value
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -267,8 +267,8 @@ sn_post_type:
 sn_post_directional:
   group: cldxf_street_name
   type: Text
-  value_set: 'FALSE'
-  reference_location: ''
+  value_set: 'TRUE'
+  format: 'See type_loc_sn_direction.value'
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -287,7 +287,7 @@ sn_post_modifier:
   group: cldxf_street_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -306,7 +306,7 @@ sn_dir_of_travel:
   group: cldxf_street_name
   type: Text
   value_set: 'TRUE'
-  reference_location: type_loc_sn_direction.value
+  format: See type_loc_sn_direction.value
   group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
@@ -325,7 +325,7 @@ nl_wing:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -344,7 +344,7 @@ nl_floor:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -363,7 +363,7 @@ nl_unit_pre_type:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -382,7 +382,7 @@ nl_unit_value:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -401,7 +401,7 @@ nl_room:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -420,7 +420,7 @@ nl_section:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -439,7 +439,7 @@ nl_row:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -458,7 +458,7 @@ nl_seat:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -477,7 +477,7 @@ nl_additional_info:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -496,7 +496,7 @@ nl_marker:
   group: cldxf_named_location
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
@@ -515,7 +515,7 @@ csop_postal_comm:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -534,7 +534,7 @@ csop_neighborhood_comm:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -553,7 +553,7 @@ csop_unincorporated_comm:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -572,7 +572,7 @@ csop_incorporated_muni:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -591,7 +591,7 @@ csop_county:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -610,7 +610,7 @@ csop_state:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'TRUE'
-  reference_location: stateabbrev enum
+  format: 'Two letter state name abbreviation'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -629,7 +629,7 @@ csop_postal_code:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -648,7 +648,7 @@ csop_postal_code_ext:
   group: cldxf_country_state_and_other_place_name
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'String of 255 max characters'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -666,8 +666,8 @@ csop_postal_code_ext:
 csop_country:
   group: cldxf_country_state_and_other_place_name
   type: Text
-  value_set: 'FALSE'
-  reference_location: ''
+  value_set: 'TRUE'
+  format: 'See type_loc_csp_country.value'
   group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
@@ -686,7 +686,7 @@ place:
   group: cldxf_address_descriptor
   type: Text
   value_set: 'TRUE'
-  reference_location: type_loc_place
+  format: See type_loc_place
   group.1: cldxf_address_descriptor
   possible_if: ''
   db_required: 'FALSE'
@@ -705,7 +705,7 @@ additional_attributes:
   group: neris_addition
   type: JSONB
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   group.1: neris_addition
   possible_if: ''
   db_required: 'FALSE'
@@ -718,13 +718,13 @@ additional_attributes:
   map_orm_landing: location.additional_attributes
   map_app: ''
   definition: JSON string of structure address elements which the transmitter wishes to include.
-  example: '"{''common_name'': ''Eastside Walmart''}"'
+  example: "{'common_name': 'Eastside Walmart'}"
   comments: ''
 cross_street:
   group: neris_addition.cross_street
   type: Array[Array[Text, Text]]
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'concatenation of address number and street name elements'
   group.1: neris_addition
   possible_if: ''
   db_required: 'FALSE'
@@ -743,7 +743,7 @@ type_cross_street:
   group: neris_addition.cross_street
   type: Array[Text]
   value_set: 'TRUE'
-  reference_location: type_location_cross_street
+  format: See type_location_cross_street
   group.1: neris_addition
   possible_if: ''
   db_required: 'FALSE'

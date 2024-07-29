@@ -8,7 +8,7 @@ BOOSTER_FIRE_HOSE:
   description: Booster ( < 1 inch) Fire Hose
   definition: ''
   source: ''
-SMALL_DIAMATER_FIRE_HOSE:
+SMALL_DIAMETER_FIRE_HOSE:
   active: 'TRUE'
   description: Small Diameter (1 inch to 2 inch) Fire Hose
   definition: ''

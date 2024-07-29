@@ -1,4 +1,4 @@
-name,active,description,NWGC,definition,source
+value,active,description,NWGC,definition,source
 NATURAL,TRUE,Natural,Natural,,
 EQUIPMENT_VEHICLE_USE,TRUE,Equipment and Vehicle Use,Equipment and vehicle use,,
 SMOKING_MATERIALS_ILLICIT_DRUGS,TRUE,Smoking Materials / Illicit Drugs,Smoking ,,

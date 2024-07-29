@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 RESPONDING_TO_EMERGENCY_INCIDENT,TRUE,Responding to Emergency Incident,,
 WORKING_AT_SCENE_OF_FIRE_INCIDENT,TRUE,Working at Scene of Fire Incident,,
 WORKING_AT_SCENE_OF_NONFIRE_INCIDENT,TRUE,Working at Scene of Nonfire Incident,,

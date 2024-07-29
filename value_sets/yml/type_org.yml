@@ -1,30 +1,40 @@
 LOCAL:
   active: 'TRUE'
-  description: Local
-  definition: ''
+  description: 'Local'
+  definition: 'includes career, combination, and volunteer fire departments and fire districts'
   source: ''
-TRIBAL_GOVT:
+CONTRACT:
   active: 'TRUE'
-  description: Tribal Government
+  description: 'Contract'
+  definition: 'Contract fire department'
+  source: ''
+FEDERAL:
+  active: 'TRUE'
+  description: 'Federal'
+  definition: 'Federal government'
+  source: ''
+STATE:
+  active: 'TRUE'
+  description: 'State'
+  definition: 'State government (includes state forest fire agencies and state institution fire departments)'
+  source: ''
+OTHER:
+  active: 'TRUE'
+  description: 'Other'
   definition: ''
   source: ''
 PRIVATE:
   active: 'TRUE'
-  description: Private
-  definition: ''
+  description: 'Private'
+  definition: 'Private or industrial fire brigade'
   source: ''
-DOD:
+TRANSPORTATION:
   active: 'TRUE'
-  description: DOD
-  definition: ''
+  description: 'Transportation'
+  definition: 'Regional/metropolitan transportation authority or airport fire department'
   source: ''
-SFM:
+TRIBAL_GOVT:
   active: 'TRUE'
-  description: State Fire Marshal
-  definition: ''
-  source: ''
-FEDERAL:
-  active: 'TRUE'
-  description: Federal
-  definition: ''
+  description: 'Tribal Government'
+  definition: 'Tribal government (includes Native American and Alaska Native tribal fire departments)'
   source: ''

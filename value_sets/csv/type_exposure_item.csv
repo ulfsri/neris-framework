@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 STRUCTURE,TRUE,Structure,,
 VEHICLE,TRUE,Vehicle,,
 OUTDOOR_ENVIRONMENT,TRUE,Outdoor / Environment,,

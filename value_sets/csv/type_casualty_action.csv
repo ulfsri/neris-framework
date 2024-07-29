@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 SEARCH_RESCUE,TRUE,Search / Rescue,,
 CARRYING_SETTINGUP_EQUIPMENT,TRUE,Carrying Setting-Up Equipment,,
 ADVANCING_OPERATING_HOSELINE,TRUE,Advancing / Operating Hoseline,,

@@ -28,7 +28,7 @@ DRAFT_FROM_STATIC_SOURCE:
   description: Draft from Static Source
   definition: ''
   source: ''
-'SUPPLY_FROM_FIRE_BOAT ':
+SUPPLY_FROM_FIRE_BOAT:
   active: 'TRUE'
   description: Supply From Fire Boat
   definition: ''

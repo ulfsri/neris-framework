@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 NO_SMOKE_FIRE_SHOWING,TRUE,No Smoke / Fire Showing,,
 SMOKE_SHOWING,TRUE,Smoke Showing,,
 SMOKE_FIRE_SHOWING,TRUE,Smoke and Fire Showing,,

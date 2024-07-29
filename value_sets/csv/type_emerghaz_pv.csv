@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 PANEL_WATER_HEATING,TRUE,Panel Water Heating,,
 PANEL_POWER_GENERATION,TRUE,Panel Power Generation,,
 TILE_POWER_GENERATION,TRUE,Tile Power Generation,,

@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 INVESTIGATED_ON_SCENE_RESOURCE,TRUE,Investigated by On-Scene Operational Resources,,
 INVESTIGATED_BY_ARSON_FIRE_INVESTIGATOR,TRUE,Investigated by Formal Arson / Fire Investigator,,
 INVESTIGATED_BY_OUTSIDE_AGENCY,TRUE,Investigated by By Outside Fire Agency,,

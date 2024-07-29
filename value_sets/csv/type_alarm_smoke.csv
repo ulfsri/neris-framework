@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 LONG_LIFE_BATTERY_POWERED,TRUE,Long Life Battery Powered,,
 REPLACEABLE_BATTERY_POWERED,TRUE,Replaceable Battery Powered,,
 HARDWIRED,TRUE,Hardwired,,

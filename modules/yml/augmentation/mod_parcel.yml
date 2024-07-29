@@ -2,7 +2,7 @@ parcel_value_assessed_land:
   group: parcel
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -13,14 +13,14 @@ parcel_value_assessed_land:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Assessed Land Value (before exemptions, if any) as provided by the county or local taxing/assessment authority.
+  definition: Assessed Land Value (before exemptions, if any) as provided by the county or local taxing/assessment authority.
   example: ''
   comments: Dollar amount.
 parcel_value_assessed_imprv:
   group: parcel
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -31,14 +31,14 @@ parcel_value_assessed_imprv:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Assessed Improvement Values  (before exemptions, if any) as provided by the county or local taxing/assessment authority.
+  definition: Assessed Improvement Values (before exemptions, if any) as provided by the county or local taxing/assessment authority.
   example: ''
   comments: Dollar amount.
 parcel_use_code:
   group: parcel
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -49,14 +49,14 @@ parcel_use_code:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Local/Municipal Use Code of a property.
+  definition: Local/Municipal Use Code of a property.
   example: ''
   comments: ''
 parcel_year_built:
   group: parcel
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -67,14 +67,14 @@ parcel_year_built:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Year the primary structure on the property was built.
+  definition: Year the primary structure on the property was built.
   example: '1960'
   comments: ''
 parcel_building_number:
   group: parcel
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -85,14 +85,14 @@ parcel_building_number:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Total number of buildings or structures on a single parcel as reported on the assessment roll.
+  definition: Total number of buildings or structures on a single parcel as reported on the assessment roll.
   example: '1'
   comments: ''
 parcel_building_sqft:
   group: parcel
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -103,14 +103,14 @@ parcel_building_sqft:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Building area of the primary structure on the property. If there are multiple residential units this is primarily the area of the largest residential structure.
+  definition: Building area of the primary structure on the property. If there are multiple residential units this is primarily the area of the largest residential structure.
   example: '1850'
   comments: ''
 parcel_stories:
   group: parcel
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -121,14 +121,14 @@ parcel_stories:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Number of stories of the main structure on the property.
+  definition: Number of stories of the main structure on the property.
   example: '2'
   comments: ''
 parcel_basement_desc:
   group: parcel
   type: Text
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'string of 255 max characters'
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -139,14 +139,14 @@ parcel_basement_desc:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Type of basement found in the building.
+  definition: Type of basement found in the building.
   example: '1'
   comments: ''
 parcel_unit_count:
   group: parcel
   type: Integer
   value_set: 'FALSE'
-  reference_location: ''
+  format: ''
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -157,14 +157,14 @@ parcel_unit_count:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Number of units on the property.
+  definition: Number of units on the property.
   example: '4'
   comments: ''
 parcel_land_sqft:
   group: parcel
   type: Float
   value_set: 'FALSE'
-  reference_location: ''
+  format: 'single-precision floating-point number'
   possible_if: use_type indicates inside structure
   db_required: 'FALSE'
   neris_core: 'FALSE'
@@ -175,6 +175,6 @@ parcel_land_sqft:
   cardinality: Single
   map_orm_landing: ''
   map_app: ''
-  description: Size of the property, in square feet Derived from the assessment record when possible, otherwise calculated from associated parcel geometry.
+  definition: Size of the property in square feet, derived from the assessment record when possible, otherwise calculated from associated parcel geometry.
   example: '6200.5'
   comments: ''

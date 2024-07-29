@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 EXPIRED,TRUE,Expired,,
 NO_BATTERY,TRUE,No Battery,,
 IMPROPER_INSTALLATION,TRUE,Improper Installation,,

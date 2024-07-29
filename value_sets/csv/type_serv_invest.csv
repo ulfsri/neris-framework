@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 COMPANY_LEVEL,TRUE,Company-Level Investigation Program,"Investigation program in which company officer, or other designated shift-based members of the department are responsible for fire cause and origin determination.",NFPA 1021/1033
 YOUTH_FIRESETTER,TRUE,Youth Firesetter Intervention Program,"Describes a fire department's program to identify, counsel, monitor, and refer youth fire setters.  Can represent a formal joint program with other agencies.",NFPA 1035
 DEDICATED,TRUE,Dedicated Fire Investigation Program,Investigation program in which fire investigators are designed and trained individuals whose primary or sole purpose is investigating fires to determine cause and origin.,NFPA 921/103

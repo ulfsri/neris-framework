@@ -1,4 +1,4 @@
-name,active,description,definition,source
+value,active,description,definition,source
 AIRCRAFT,TRUE,Aircraft,"A device that is used or intended to be used for flight in the air, such as an airplane, helicopter, gyroplane, glider or lighter-than-air devices like a balloon.",IANA Location Type Registry
 AIRPORT,TRUE,Airport,"A place from which aircraft operate, such as an airport or heliport.",IANA Location Type Registry
 ARENA,TRUE,Arena,Enclosed area used for sports events.,IANA Location Type Registry
