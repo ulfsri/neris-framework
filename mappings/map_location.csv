@@ -1,0 +1,40 @@
+﻿NERIS Element,Type,CLDXF Item,CLDXF Section,Common Name,Geocoder ESRI,Geocoder AWS,CLDXF Item Num,CLDXF Section Num,CLDXF Data Domain,Field Order,Concat Line,Concat Description
+structure,Text,Structure,Named Location,,BldgName,,4,3.4,,1,1,On first line when address is concatenated
+subsite,Text,SubSite,Named Location,,,,3,3.4,,2,1,On first line when address is concatenated
+site,Text,Site,Named Location,Business / Site Name,,,2,3.4,,3,1,On first line when address is concatenated
+number_prefix,Text,Prefix,Address Number,,,,2,3.3,,4,2,On second line when address is concatenated
+address_number,Integer,Address Number,Address Number,Number,AddNum,AddressNumber,3,3.3,,5,2,On second line when address is concatenated
+number_suffix,Text,Suffix,Address Number,Number Suffix,,,4,3.3,,6,2,On second line when address is concatenated
+number_complete,Text,Complete,Address Number,,,,5,3.3,,7,-1,Not included when address is concatenated
+distance_marker,Text,Distance Marker,Address Number,Milepost,,,6,3.3,,8,2,On second line when address is concatenated
+stname_pre_modifier,Text,Pre Modifier,Street Name,,,,2,3.2,,9,2,On second line when address is concatenated
+pre_directional,Text,Pre Directional,Street Name,Prefix Direction,StPreDir,,3,3.2,,10,2,On second line when address is concatenated
+stname_pre_type,Text,Pre Type,Street Name,Prefix Type,StPreType,,4,3.2,"NENA “Street Name Pre Types and Street Name Post Types Registry” [21] with possible addition of identifiers for specific states or localities, ",11,2,On second line when address is concatenated
+stname_pre_type_separator,Text,Pre Type Separator,Street Name,,,,5,3.2,“Street Name Pre Type Separators Registry” ,12,2,On second line when address is concatenated
+stname,Text,Name,Street Name,Street Name,StName,Street,6,3.2,,13,2,On second line when address is concatenated
+stname_post_type,Text,Post Type,Street Name,Street Type,StType,,7,3.2,NENA “Street Name Pre Types and Street Name Post Types Registry” [21] ,14,2,On second line when address is concatenated
+post_directional,Text,Post Directional,Street Name,Postfix Direction,StDir,,8,3.2,,15,2,On second line when address is concatenated
+post_modifier,Text,Post Modifier,Street Name,,,,9,3.2,,16,2,On second line when address is concatenated
+direction_of_travel,Text,Direction of Travel,Street Name,,,,10,3.2,"“northbound”, “southbound”, “eastbound”, “westbound” ",17,2,On second line when address is concatenated
+wing,Text,Wing,Named Location,,,,5,3.4,,18,3,On third line when address is concatenated
+floor,Text,Floor,Named Location,,LevelType + LevelName,,6,3.4,,19,3,On third line when address is concatenated
+unit_pre_type,Text,Unit Pre Type,Named Location,,UnitType,UnitType,8,3.4,,20,3,On third line when address is concatenated
+unit_value,Text,Unit Value,Named Location,,UnitName,UnitNumber,9,3.4,,21,3,On third line when address is concatenated
+room,Text,Room,Named Location,,,,10,3.4,,22,3,On third line when address is concatenated
+section,Text,Section,Named Location,,,,11,3.4,,23,3,On third line when address is concatenated
+row,Text,Row,Named Location,,,,12,3.4,,24,3,On third line when address is concatenated
+seat,Text,Seat,Named Location,,,,13,3.4,,25,3,On third line when address is concatenated
+additional_location_information,Text,Additional Location Information,Named Location,Other Location Description,,,14,3.4,,26,3,On third line when address is concatenated
+location_marker,Text,Location Marker,Named Location,,,,15,3.4,,27,3,On third line when address is concatenated
+postal_community_name,Text,Postal Community Name,"Country, State, and Other Place Name",City,,,8,3.1,USPS City State File for a given ZIP Code ,28,4,On fourth line when address is concatenated
+neighborhood_community,Text,Neighborhood Community,"Country, State, and Other Place Name",,Nbrhd,Neighborhood,7,3.1,,29,4,On fourth line when address is concatenated
+unincorporated_community,Text,Unincorporated Community,"Country, State, and Other Place Name",City or County,,SubMunicipality?,6,3.1,,30,4,On fourth line when address is concatenated
+incorporated_municipality,Text,Incorporated Municipality,"Country, State, and Other Place Name",City,City,Municipality,5,3.1,,31,4,On fourth line when address is concatenated
+county,Text,County,"Country, State, and Other Place Name",County,SubRegion,SubRegion?,4,3.1,,32,4,On fourth line when address is concatenated
+state,Text,State,"Country, State, and Other Place Name",State,RegionAbbr,Region,3,3.1,"USPS Publication 28 [15], Appendix B. ",33,4,On fourth line when address is concatenated
+postal_code,Text,Postal Code,"Country, State, and Other Place Name",Zip Code,Postal,PostalCode,9,3.1,Defined by the USPS. ,34,4,On fourth line when address is concatenated
+postal_code_extension,Text,Postal Code Extension,"Country, State, and Other Place Name",Zip Code Extension,PostalExt,,10,3.1,Defined by the USPS. ,35,4,On fourth line when address is concatenated
+country,Text,Country,"Country, State, and Other Place Name",Country,Country (mapped to 2 digits),Country,2,3.1,ISO 3166-1 alpha-2 code elements ,36,4,On fourth line when address is concatenated
+place_type,Text,Place Type,Address Descriptor,,,,2,3.5,(IANA) Location Types Registry ,37,-1,Not included when address is concatenated
+additional_attributes,JSONB,,,,,,,,,38,-1,Not included when address is concatenated
+cross_street,"Array[Array[Text, Text]]",,,,,,,,,39,-1,Not included when address is concatenated
