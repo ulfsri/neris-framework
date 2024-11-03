@@ -57,7 +57,49 @@ unit_staffing_reported:
   map_app: ''
   definition: On-scene staffing of unit.
   example: '4'
-  comments: On a per unit basis. Seeded from department spec. This can be from dispatch or computed in incident schema
+  comments: On a per unit basis. Seeded from department spec.
+  api_class: Dispatch Values
+  NERIS Validation Range: ''
+  NIEM Definition: ''
+unit_unable_to_dispatch:
+  group: unit_response
+  type: Boolean
+  value_set: 'FALSE'
+  format: ''
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core_if: ''
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: 'unit_response.dispatch'
+  map_app: ''
+  definition: Set to TRUE if unit is unable to dispatch.
+  example: '4'
+  comments: On a per unit basis, and is designed to capture if unit cannot be dispatched (e.g., driver not available prevents unit from dispatching)
+  api_class: Dispatch Values
+  NERIS Validation Range: ''
+  NIEM Definition: ''
+unit_response_mode:
+  group: unit_response
+  type: Text
+  value_set: 'TRUE'
+  format: 'See type_response_mode.value'
+  possible_if: unit_unable_to_dispatch is not TRUE
+  db_required: 'FALSE'
+  neris_core_if: ''
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: 'unit_response.dispatch'
+  map_app: ''
+  definition: Response mode of unit as part of the unit's response to an incident.
+  example: 'See type_response_mode table'
+  comments: On a per unit basis.
   api_class: Dispatch Values
   NERIS Validation Range: ''
   NIEM Definition: ''
@@ -66,7 +108,7 @@ unit_dispatch_point:
   type: Point
   value_set: 'FALSE'
   format: ''
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -87,7 +129,7 @@ time_dispatch:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'TRUE'
@@ -108,7 +150,7 @@ time_enroute_to_scene:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'TRUE'
@@ -129,7 +171,7 @@ time_on_scene:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'TRUE'
@@ -150,7 +192,7 @@ time_canceled_enroute:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -171,7 +213,7 @@ time_staging:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -213,7 +255,7 @@ time_enroute_hospital:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: dispatch_incident_type = MEDICAL
+  possible_if: dispatch_incident_type = MEDICAL and unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -234,7 +276,7 @@ time_arrived_hospital:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: dispatch_incident_type = MEDICAL
+  possible_if: dispatch_incident_type = MEDICAL and unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -255,7 +297,7 @@ hospital_destination:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  possible_if: dispatch_incident_type = MEDICAL
+  possible_if: dispatch_incident_type = MEDICAL and unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -276,7 +318,7 @@ time_transfer_to_agency:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: dispatch_incident_type = MEDICAL
+  possible_if: dispatch_incident_type = MEDICAL and unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -297,7 +339,7 @@ time_transfer_to_facility:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: dispatch_incident_type = MEDICAL
+  possible_if: dispatch_incident_type = MEDICAL and unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -318,7 +360,7 @@ time_hospital_clear:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: dispatch_incident_type = MEDICAL
+  possible_if: dispatch_incident_type = MEDICAL and unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -339,7 +381,7 @@ time_unit_clear:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'TRUE'
@@ -355,33 +397,12 @@ time_unit_clear:
   api_class: Timestamps
   NERIS Validation Range: Must not be null. Either valid timestamp.
   NIEM Definition: ''
-time_incident_clear:
-  group: unit_response.time
-  type: Datetime (UTC)
-  value_set: 'FALSE'
-  format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
-  db_required: 'FALSE'
-  neris_core_if: ''
-  neris_core_app: 'TRUE'
-  neris_core_cad: 'TRUE'
-  computed: 'FALSE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: 'unit_response.time_incident_clear'
-  map_app: ''
-  definition: Timestamp when dispatch closes incident.
-  example: "2024-05-03T18:56:58+00:00"
-  comments: ''
-  api_class: Timestamps
-  NERIS Validation Range: Must not be null. Either valid timestamp.
-  NIEM Definition: ''
 time_turnout:
   group: unit_response.time.computed
   type: Time Delta
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted duration.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -402,7 +423,7 @@ time_travel:
   type: Time Delta
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted duration.'
-  possible_if: ''
+  possible_if: unit_unable_to_dispatch is not TRUE
   db_required: 'FALSE'
   neris_core_if: ''
   neris_core_app: 'FALSE'
@@ -416,5 +437,26 @@ time_travel:
   example: PT12H30M5S
   comments: 'On a per unit basis: onscene_time - enroute_time'
   api_class: Computed Times
+  NERIS Validation Range: ''
+  NIEM Definition: ''
+unit_transport_mode:
+  group: unit_response
+  type: Text
+  value_set: 'TRUE'
+  format: 'See type_response_mode.value'
+  possible_if: 'time_enroute_hospital not null and unit_unable_to_dispatch is not TRUE'
+  db_required: 'FALSE'
+  neris_core_if: ''
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: 'unit_response.dispatch'
+  map_app: ''
+  definition: Transport mode of unit as part of the unit's response to a hospital.
+  example: 'See type_response_mode table'
+  comments: On a per unit basis.
+  api_class: Dispatch Values
   NERIS Validation Range: ''
   NIEM Definition: ''

@@ -16,7 +16,6 @@ smoke_alarm_presence:
   definition: Whether at least one smoke alarm was present at the incident location.
   example: See type_rr_presence table
   comments: ''
-  group: smoke_alarm
 smoke_alarm_type:
   group: smoke_alarm.present
   type: Array[Text]
@@ -108,6 +107,7 @@ smoke_alarm_operation_action:
   example: See type_occupant_response table
   comments: ''
 fire_alarm_presence:
+  group: ''
   type: Text
   value_set: 'TRUE'
   format: See type_rr_presence
@@ -161,6 +161,7 @@ fire_alarm_operation:
   example: 'TRUE'
   comments: ''
 other_alarm_presence:
+  group: ''
   type: Text
   value_set: 'TRUE'
   format: See type_rr_presence
@@ -196,6 +197,7 @@ other_alarm_type:
   example: See type_alarm_other table
   comments: ''
 fire_suppression_presence:
+  group: ''
   type: Text
   value_set: 'TRUE'
   format: See type_rr_presence
@@ -303,6 +305,7 @@ fire_suppression_operation_failure:
   example: See type_suppression_failure table
   comments: ''
 cooking_fire_suppression_presence:
+  group: ''
   type: Text
   value_set: 'TRUE'
   format: See type_rr_presence

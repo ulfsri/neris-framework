@@ -13,7 +13,7 @@ patient_care_report:
   cardinality: Single
   map_orm_landing: medical.care_report
   map_app: ''
-  definition: Patient care report identification number.
+  definition: Patient care report identification number. Correlates to NEMSIS eRecord.01.
   example: VAE456M1-02202024
   comments: Should follow department's NEMSIS report number format
 patient_evaluation_care:

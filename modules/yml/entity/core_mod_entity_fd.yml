@@ -9,7 +9,7 @@ fd_neris_id:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: Dept.neris_id, DeptHist.neris_id_dept
+  map_orm_landing: Dept.neris_id, DeptHist.neris_id_dept
   definition: Unique identifier for the agency in NERIS.  Entity type plus state and county FIPS plus with random trailing characters.
   example: FD06067001
   comments: Please see id_types sheet
@@ -24,7 +24,7 @@ fd_id_legacy:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.internal_id
+  map_orm_landing: DeptHist.internal_id
   definition: Legacy FDID for linkage to other data sets.
   example: '51001'
   comments: ''
@@ -39,7 +39,7 @@ fd_name:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.name
+  map_orm_landing: DeptHist.name
   definition: Name of the agency.
   example: Fairfax County Fire Rescue
   comments: ''
@@ -54,7 +54,7 @@ fd_parent_name:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to Dept via RelDeptDept
+  map_orm_landing: join to Dept via RelDeptDept
   definition: Department's parent department's name.
   example: ABC Fire Department
   comments: 
@@ -69,7 +69,7 @@ fd_child_name:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Multiple
-  orm_map_landing: join to Dept via RelDeptDept
+  map_orm_landing: join to Dept via RelDeptDept
   definition: Names of departments which are children of the department.
   example: DEF Fire Department
   comments: ''
@@ -84,7 +84,7 @@ fd_aid_name:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Multiple
-  orm_map_landing: join to Dept via RelDeptDept
+  map_orm_landing: join to Dept via RelDeptDept
   definition: Name of department with which the department has an aid relationship.
   example: Brick Fire Department
   comments: ''
@@ -99,7 +99,7 @@ fd_aid_type:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Multiple
-  orm_map_landing: join to Dept via RelDeptDept
+  map_orm_landing: join to Dept via RelDeptDept
   definition: Type of aid.
   example: See type_rel_dept_dept.value
   comments: ''
@@ -114,7 +114,7 @@ fd_address_1:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.address_line_1
+  map_orm_landing: DeptHist.address_line_1
   definition: Physical address of agency HQ.
   example: 1234 Market St
   comments: ''
@@ -129,7 +129,7 @@ fd_address_2:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.address_line_2
+  map_orm_landing: DeptHist.address_line_2
   definition: Additional address information.
   example: Apt. Number
   comments: ''
@@ -144,7 +144,7 @@ fd_city:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.city
+  map_orm_landing: DeptHist.city
   definition: City in which agency is located.
   example: Baltimore
   comments: ''
@@ -159,7 +159,7 @@ fd_state:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.state
+  map_orm_landing: DeptHist.state
   definition: State in which agency is located.
   example: Maryland
   comments: ''
@@ -174,7 +174,7 @@ fd_zip:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.zip_code
+  map_orm_landing: DeptHist.zip_code
   definition: Zip Code in which agency is located.
   example: '21230'
   comments: ''
@@ -189,7 +189,7 @@ fd_mailing_address_1:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.address_line_1
+  map_orm_landing: DeptHist.address_line_1
   definition: Agency mailing address.
   example: 1234 Market St
   comments: ''
@@ -204,7 +204,7 @@ fd_mailing_address_2:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.address_line_2
+  map_orm_landing: DeptHist.address_line_2
   definition: Additional mailing address information.
   example: Apt. Number
   comments: ''
@@ -219,7 +219,7 @@ fd_mailing_city:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.city
+  map_orm_landing: DeptHist.city
   definition: City of agency mailing address.
   example: Baltimore
   comments: ''
@@ -234,7 +234,7 @@ fd_mailing_state:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.state
+  map_orm_landing: DeptHist.state
   definition: City of agency mailing address.
   example: Maryland
   comments: ''
@@ -249,7 +249,7 @@ fd_mailing_zip:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.zip_code
+  map_orm_landing: DeptHist.zip_code
   definition: Zip Code of agency mailing address.
   example: '21230'
   comments: secondary check matching City/State
@@ -264,25 +264,10 @@ fd_point:
   neris_core_dependency: ''
   computed: 'TRUE'
   cardinality: Single
-  orm_map_landing: DeptHist.nuid_point_loc join to GeoPoint
+  map_orm_landing: DeptHist.nuid_point_loc join to GeoPoint
   definition: Coordinates of the agency headquarters.
   example: 38.927036, -77.032742
   comments: May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84.
-fd_email:
-  group: general
-  type: Text
-  value_set: 'FALSE'
-  format: 'String of 255 max characters'
-  possible_if: ''
-  db_required: 'FALSE'
-  neris_core: 'FALSE'
-  neris_core_dependency: ''
-  computed: 'FALSE'
-  cardinality: Single
-  orm_map_landing: DeptHist.email
-  definition: Email address of the agency.
-  example: info.fems@dc.gov
-  comments: ''
 fd_website:
   group: general
   type: Text
@@ -294,7 +279,7 @@ fd_website:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.website
+  map_orm_landing: DeptHist.website
   definition: Website of the agency.
   example: https://fems.dc.gov/
   comments: ''
@@ -309,7 +294,7 @@ fd_telephone:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DepthHist.telephone
+  map_orm_landing: DepthHist.telephone
   definition: Contact phone number of the agency.
   example: ''
   comments: ''
@@ -324,23 +309,23 @@ fd_type:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_dept
+  map_orm_landing: DeptHist.type_dept
   definition: Staffing type of the agency.
   example: See type_dept.value table
   comments: ''
-fd_organization:
+fd_entity:
   group: general
   type: Text
   value_set: 'TRUE'
-  format: See type_org.value
+  format: See type_entity.value
   possible_if: ''
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_org
-  definition: Category which describes the organization  of the agency.
+  map_orm_landing: DeptHist.type_org
+  definition: Category which describes the entity  of the agency.
   example: See type_org.value table
   comments: ''
 fd_jurisiction_set:
@@ -354,7 +339,7 @@ fd_jurisiction_set:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to RegionSet and RegionSetJurisFlag
+  map_orm_landing: join to RegionSet and RegionSetJurisFlag
   definition: Multipolygon of the agency's coverage area.
   example: ''
   comments: 'Jurisdiction is a special type of "region set": a collection of one or more multipolygons, with a type identifying what sort of area(s) it represents. May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84.'
@@ -369,7 +354,7 @@ fd_jurisdiction_type:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to RegionSet and RegionSetJurisFlag
+  map_orm_landing: join to RegionSet and RegionSetJurisFlag
   definition: Type of the agency's jurisdiction.
   example: See type_region.value
   comments: Common values would be city, county, township, etc.
@@ -384,7 +369,7 @@ fd_primary_division_set:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to RegionSet and RegionSetPrimaryFlag
+  map_orm_landing: join to RegionSet and RegionSetPrimaryFlag
   definition: Multipolygon of the district-based supervision of the agency.
   example: ''
   comments: 'Primary division is a special type of "region set": a collection of one or more multipolygons, with a type identifying what sort of area(s) it represents. May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84. For smaller agencies with no or a single battalion/district this may be null. '
@@ -399,7 +384,7 @@ fd_primary_division_type:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to RegionSet and RegionSetPrimaryFlag
+  map_orm_landing: join to RegionSet and RegionSetPrimaryFlag
   definition: Type of the agency's primary geographic division.
   example: See type_region.value table
   comments: Common values would be battalion, division, district, etc. For smaller agencies with no or a single battalion/district this may be null.
@@ -414,7 +399,7 @@ fd_coverage_set:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to RegionSet and RegionSetCoverageFlag
+  map_orm_landing: join to RegionSet and RegionSetCoverageFlag
   definition: Multipolygon of the district-based supervision of the agency.
   example: ''
   comments: 'Coverage is a special type of "region set": a collection of one or more multipolygons, with a type identifying what sort of area(s) it represents. May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84. For smaller agencies with no or a single battalion/district this may be null.'
@@ -429,7 +414,7 @@ fd_coverage_type:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to RegionSet and RegionSetCoverageFlag
+  map_orm_landing: join to RegionSet and RegionSetCoverageFlag
   definition: Type of the agency's primary geographic division.
   example: See type_region.value table
   comments: Common values would include first due. For smaller agencies with no or a single battalion/district this may be null.
@@ -444,7 +429,7 @@ fd_population_protected:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.pop_protected
+  map_orm_landing: DeptHist.pop_protected
   definition: Estimated number of people protected within the agency's coverage area. Agency provided. If left blank, calculated if boundary is provided.
   example: '392000'
   comments: ''
@@ -459,7 +444,7 @@ fd_population_protected_source:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_pop_source
+  map_orm_landing: DeptHist.type_pop_source
   definition: Data source from which the population count was pulled.
   example: See type_pop_source.value table
   comments: ''
@@ -474,7 +459,7 @@ fd_station_count:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: join to RelDeptStation grouped by Dept
+  map_orm_landing: join to RelDeptStation grouped by Dept
   definition: Number of stations in the agency.
   example: '16'
   comments: ''
@@ -489,7 +474,7 @@ fd_fire_services:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Multiple
-  orm_map_landing: join to RelDeptFdServ
+  map_orm_landing: join to RelDeptFdServ
   definition: Set of fire department services the agency offers.
   example: See type_serv_fd.value table
   comments: See fd_services sheet. Mandatory-ness not enforced by db.
@@ -504,7 +489,7 @@ fd_ems_services:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Multiple
-  orm_map_landing: join to RelDeptEmsServ
+  map_orm_landing: join to RelDeptEmsServ
   definition: Set of types of EMS services offered.
   example: See type_serv_ems.value table
   comments: See ems_services sheet. Mandatory-ness not enforced by db.
@@ -519,12 +504,12 @@ fd_investigation_services:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Multiple
-  orm_map_landing: join to RelDeptInvestServ
+  map_orm_landing: join to RelDeptInvestServ
   definition: Set of types of investigation services offered.
   example: See type_serv_invest.value table
   comments: See investigate_services sheet. Mandatory-ness not enforced by db.
 fd_continue_education:
-  group: contact
+  group: general
   type: Boolean
   value_set: 'FALSE'
   format: ''
@@ -534,7 +519,7 @@ fd_continue_education:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.continue_edu
+  map_orm_landing: DeptHist.continue_edu
   definition: Whether the agency has a continuing education/training policy.
   example: '"True"'
   comments: ''
@@ -549,7 +534,7 @@ fd_shift_count:
   neris_core_dependency: fd_type = career | combination
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.shift_count
+  map_orm_landing: DeptHist.shift_count
   definition: Number of shifts the agency utilizes.
   example: '3'
   comments: The number of shifts working in a field capacity providing emergency response services. Required for career/combination departments, but requirement not enforced by db.  Not restricted for volunteers. This allows us to sync with schedule to allow data to be filtered by shift.
@@ -564,7 +549,7 @@ fd_shift_duration:
   neris_core_dependency: fd_type = career | combination
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.shift_duration
+  map_orm_landing: DeptHist.shift_duration
   definition: Duration of a shift in hours.
   example: '24'
   comments: Duration of each shift. Mandatory-ness not enforced by db. Required for career/combination departments, but requirement not enforced by db. Not restricted for volunteers. This allows us to sync with schedule to allow data to be filtered by shift.
@@ -579,7 +564,7 @@ fd_shift_signup:
   neris_core_dependency: fd_type = career | combination
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.shift_signup
+  map_orm_landing: DeptHist.shift_signup
   definition: Current shift schedule upon NERIS activation.
   example: '3'
   comments: This allows us to sync with schedule to allow data to be filtered by shift.
@@ -594,7 +579,7 @@ dispatch_center_id:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.disp_center_id
+  map_orm_landing: DeptHist.disp_center_id
   definition: 4-digit unique identifier for each PSAP dispatch center being requested to respond to an incident.
   example: '4311'
   comments: ''
@@ -609,7 +594,7 @@ dispatch_psap_type:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_psap
+  map_orm_landing: DeptHist.type_psap
   definition: Type of dispatch center being requested.
   example: See type_psap.value table
   comments: A primary PSAP is an emergency communication center responsible for answering the initial 9-1-1 call.  A secondary PSAP receives emergency calls transferred from a primary PSAP due to jurisdictional call sequencing (PSAP X receives neutral 911 calls and transfers to Secondary PSAP Y or Z) or discipline specific dispatching (PSAP X receives all 911 calls for a jurisdiction but a secondary PSAP Y handles fire and EMS calls).
@@ -624,7 +609,7 @@ dispatch_psap_jurisdiction:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_psap_juris
+  map_orm_landing: DeptHist.type_psap_juris
   definition: Aggregation level of dispatch center.
   example: See type_psap_juris.value table
   comments: A single-jurisdiction is a facility where only one political entity (city/county) utilizes the 9-1-1, PSAP and dispatching services.  A multi-jurisdictional facility is where one or more public safety political jurisdictions choose to operate as a single 9-1-1 entity (e.g., City A, B, C)
@@ -639,7 +624,7 @@ dispatch_psap_discipline:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_psap_disc
+  map_orm_landing: DeptHist.type_psap_disc
   definition: Whether dispatch is single entity or multiple entity.
   example: See type_psap_disc.value table
   comments: A single discipline facility operates one disciplines of dispatch (e.g., fire or EMS or police).  A multiple discipline facility operates multi-disciplines of dispatch (e.g., fire-EMS-police).
@@ -654,7 +639,7 @@ dispatch_psap_capability:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_psap_capa
+  map_orm_landing: DeptHist.type_psap_capa
   definition: Whether PSAP follows most recent NENA standards.
   example: See type_psap_capa.value table
   comments: A legacy PSAP cannot process calls received via i3-defined call interfaces (IP-based calls) and still requires the use of CAMA or ISDN trunk technology for delivery of 9-1-1 emergency calls. A NG9-1-1 PSAP can process calls and access data services as defined in NENA's i3 specification, NENA-STA-010.
@@ -669,7 +654,7 @@ dispatch_cad_software:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.cad_sw
+  map_orm_landing: DeptHist.cad_sw
   definition: Manufacturer of the CAD system being used by the agency.
   example: Motorola, etc.
   comments: If No CAD, select None.
@@ -684,7 +669,7 @@ dispatch_protocol_fire:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_disp_proto_fire
+  map_orm_landing: DeptHist.type_disp_proto_fire
   definition: Procedure/protocol followed for triage of emergency fire calls.
   example: See type_disp_proto_fire.value table
   comments: ''
@@ -699,7 +684,7 @@ dispatch_protocol_medical:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.type_disp_proto_med
+  map_orm_landing: DeptHist.type_disp_proto_med
   definition: Procedure/protocol followed for triage of emergency medical calls.
   example: See type_disp_proto_med.value table
   comments: ''
@@ -714,7 +699,7 @@ dispatch_avl_usage:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.avl_usage
+  map_orm_landing: DeptHist.avl_usage
   definition: Describes whether the CAD utilizes AVL technology.
   example: '"True"'
   comments: ''
@@ -729,7 +714,7 @@ rms_software:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.rms_sw
+  map_orm_landing: DeptHist.rms_sw
   definition: Manufacturer of the RMS Software being used by the agency.
   example: FirstOnScene, etc.
   comments: If No RMS, select None
@@ -744,7 +729,7 @@ station_id:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: StationHist.station_id
+  map_orm_landing: StationHist.station_id
   definition: Name of the station.
   example: '12'
   comments: ''
@@ -759,7 +744,7 @@ station_address_1:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.address_line_1
+  map_orm_landing: DeptHist.address_line_1
   definition: Physical address of station.
   example: 1234 Market St
   comments: ''
@@ -774,7 +759,7 @@ station_address_2:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.address_line_2
+  map_orm_landing: DeptHist.address_line_2
   definition: Additional address information.
   example: Apt. Number
   comments: ''
@@ -789,7 +774,7 @@ station_city:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.city
+  map_orm_landing: DeptHist.city
   definition: City in which station is located.
   example: Baltimore
   comments: ''
@@ -804,7 +789,7 @@ station_state:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.state
+  map_orm_landing: DeptHist.state
   definition: State in which station is located.
   example: Maryland
   comments: ''
@@ -819,7 +804,7 @@ station_zip:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.zip_code
+  map_orm_landing: DeptHist.zip_code
   definition: Zip Code in which station is located.
   example: '21230'
   comments: secondary check matching City/State
@@ -834,7 +819,7 @@ station_point:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: StationHist.nuid_point_loc joined to GeoPoint
+  map_orm_landing: StationHist.nuid_point_loc joined to GeoPoint
   definition: WGS84 latitude and longitude of the incident. If a latitude and longitude are not submitted but a location is, the location geocoding result (if successful) will be used.
   example: 38.927036, -77.032742
   comments: May be submitted in any standard coordinate reference system but will be stored and provided back in WGS84.
@@ -849,7 +834,7 @@ station_primary_division:
   neris_core_dependency: ''
   computed: 'TRUE'
   cardinality: Single
-  orm_map_landing: spatial join to Division via DivisionSet joined to DivisionPrimaryFlag
+  map_orm_landing: spatial join to Division via DivisionSet joined to DivisionPrimaryFlag
   definition: Name and id of the primary division region in which the station falls.
   example: '1: First Battalion'
   comments: ID and name concatenated as divisions may have one or the other
@@ -864,7 +849,7 @@ station_coverage:
   neris_core_dependency: ''
   computed: 'TRUE'
   cardinality: Single
-  orm_map_landing: select of containing GeoMultipolygon via Division via DivisionSet joined to DivisionCoverageFlag
+  map_orm_landing: select of containing GeoMultipolygon via Division via DivisionSet joined to DivisionCoverageFlag
   definition: Name and id of the coverage area region in which the station falls.
   example: ''
   comments: Station-based only
@@ -879,7 +864,7 @@ station_staffing:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: StationHist.staffing
+  map_orm_landing: StationHist.staffing
   definition: Minimum staffing assigned to the station.
   example: '14'
   comments: This is separate from unit staffing since stations can cross staff unit.
@@ -894,7 +879,7 @@ station_unit_id_1:
   neris_core_dependency: department has CAD
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: UnitHist.cad_designation_1
+  map_orm_landing: UnitHist.cad_designation_1
   definition: Unit's first designation in CAD.
   example: E801, TK720, A301
   comments: Required if department has a CAD.
@@ -909,7 +894,7 @@ station_unit_id_2:
   neris_core_dependency: department has CAD
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: UnitHist.cad_designation_2
+  map_orm_landing: UnitHist.cad_designation_2
   definition: Unit's second designation in CAD.
   example: E801, TK720, A301
   comments: Optional second identification for the unit. This would come to bear if for example a unit carries both municipal and county IDs in the CAD.
@@ -924,7 +909,7 @@ station_unit_capability:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: UnitHist.type_unit
+  map_orm_landing: UnitHist.type_unit
   definition: Type of unit housed at the station.
   example: See type_unit.value
   comments: ''
@@ -939,10 +924,25 @@ station_unit_staffing:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: UnitHist.staffing
+  map_orm_landing: UnitHist.staffing
   definition: Minimum staffing required for this unit to be dispatched to an incident.
   example: '4'
   comments: ''
+station_unit_dedicated:
+  group: station.unit
+  type: Boolean
+  value_set: 'FALSE'
+  format: ''
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core: ''
+  neris_core_dependency: ''
+  computed: 'FALSE'
+  cardinality: Single
+  orm_map_landing: UnitHist.staffing.dedicated
+  definition: Whether the unit has dedicated staffing.
+  example: 'TRUE'
+  comments: 'Can only be `true` if staffing is greater than 0.'
 staff_total:
   group: staffing
   type: Integer
@@ -954,7 +954,7 @@ staff_total:
   neris_core_dependency: ''
   computed: 'TRUE'
   cardinality: Single
-  orm_map_landing: sum of the other 9 staffing fields
+  map_orm_landing: sum of the other 9 staffing fields
   definition: Number of total staff within department.
   example: '429'
   comments: ''
@@ -969,7 +969,7 @@ staff_active_ff_career_ft:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_ff_car_ft
+  map_orm_landing: DeptHist.staff_ff_car_ft
   definition: Total number of active full-time career firefighters in agency.
   example: '190'
   comments: ''
@@ -984,7 +984,7 @@ staff_active_ff_career_pt:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_ff_car_pt
+  map_orm_landing: DeptHist.staff_ff_car_pt
   definition: Total number of active part-time career firefighters in agency.
   example: '50'
   comments: ''
@@ -999,7 +999,7 @@ staff_active_ff_volunteer:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_ff_vol
+  map_orm_landing: DeptHist.staff_ff_vol
   definition: Total number of active volunteer firefighters in agency.
   example: '43'
   comments: ''
@@ -1014,7 +1014,7 @@ staff_active_ems_only_career_ft:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_ems_car_ft
+  map_orm_landing: DeptHist.staff_ems_car_ft
   definition: Total number of active full-time career ems only staff in agency.
   example: '34'
   comments: ''
@@ -1029,7 +1029,7 @@ staff_active_ems_only_career_pt:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_ems_car_pt
+  map_orm_landing: DeptHist.staff_ems_car_pt
   definition: Total number of active part-time career ems only staff in agency.
   example: '19'
   comments: ''
@@ -1044,7 +1044,7 @@ staff_active_ems_only_volunteer:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_ems_vol
+  map_orm_landing: DeptHist.staff_ems_vol
   definition: Total number of active volunteer ems only staff in agency.
   example: '5'
   comments: ''
@@ -1059,7 +1059,7 @@ staff_active_civilians_career_ft:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_civ_car_ft
+  map_orm_landing: DeptHist.staff_civ_car_ft
   definition: Total number of active full-time career civilians in agency.
   example: '38'
   comments: ''
@@ -1074,7 +1074,7 @@ staff_active_civilians_career_pt:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_civ_car_pt
+  map_orm_landing: DeptHist.staff_civ_car_pt
   definition: Total number of active part-time career civilians in agency.
   example: '38'
   comments: ''
@@ -1089,7 +1089,7 @@ staff_active_civilians_volunteer:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.staff_civ_vol
+  map_orm_landing: DeptHist.staff_civ_vol
   definition: Total number of active volunteer civilians in agency.
   example: '12'
   comments: ''
@@ -1104,7 +1104,7 @@ assess_iso_rating:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.assess_iso_rating
+  map_orm_landing: DeptHist.assess_iso_rating
   definition: Current ISO rating (1- 10) of the agency, if applicable.
   example: '2'
   comments: ''
@@ -1119,7 +1119,7 @@ assess_cpse_acredit:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.assess_cpse_acredit
+  map_orm_landing: DeptHist.assess_cpse_accredit
   definition: Whether the agency is accredited through CPSE.
   example: '"True"'
   comments: ''
@@ -1134,7 +1134,7 @@ assess_caas_acredit:
   neris_core_dependency: ''
   computed: 'FALSE'
   cardinality: Single
-  orm_map_landing: DeptHist.assess_caas_acredit
+  map_orm_landing: DeptHist.assess_caas_accredit
   definition: Whether the agency is accredited through CAAS.
   example: '"True"'
   comments: ''

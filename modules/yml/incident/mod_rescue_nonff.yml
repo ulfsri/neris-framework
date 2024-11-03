@@ -131,11 +131,11 @@ nonff_rescue_actions:
   example: See type_rescue_action table
   comments: ''
   api_class: ''
-nonff_rescue_impedance_type:
+nonff_rescue_impediment_type:
   group: rescue
   type: Array[Text]
   value_set: 'TRUE'
-  format: See type_rescue_impedance.value
+  format: See type_rescue_impediment.value
   possible_if: rescue_type in 'FIREFIGHTER RESCUED', 'FIREFIGHTER-ASSISTED EVACUATION'
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -144,10 +144,10 @@ nonff_rescue_impedance_type:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Multi
-  map_orm_landing: rel_rescue_sub_ffrescue_impedance.type_rescue_impedance
+  map_orm_landing: rel_rescue_sub_ffrescue_impediment.type_rescue_impediment
   map_app: ''
   definition: Whether conditions impacted the ability of rescue
-  example: See type_rescue_impedance table
+  example: See type_rescue_impediment table
   comments: ''
   api_class: ''
 nonff_rescue_room_type:
