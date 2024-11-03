@@ -1,18 +1,24 @@
 PHOTOVOLTAICS:
   active: 'TRUE'
-  description: Photovoltaics
+  description: 'Photovoltaics'
   definition: ''
   source: ''
-  xor: pv
+  xor: PV
 WIND_TURBINE:
   active: 'TRUE'
-  description: Wind Turbine
+  description: 'Wind Turbine'
   definition: ''
   source: ''
-  xor: other
-NONE:
+  xor: OTHER
+OTHER:
   active: 'TRUE'
-  description: ''
+  description: 'Other'
   definition: ''
   source: ''
-  xor: other
+  xor: OTHER
+NOT_APPLICABLE:
+  active: 'TRUE'
+  description: 'Not Applicable'
+  definition: ''
+  source: ''
+  xor: OTHER

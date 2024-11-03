@@ -1,6 +1,6 @@
 COMPLETED_FIRE_SERVICE_ONLY:
   active: 'TRUE'
-  description: Completed by Fire Sevice Only
+  description: Completed by Fire Service Only
   definition: ''
   source: ''
 COMPLETED_WITH_FIRE_SERVICE_PRESENT:

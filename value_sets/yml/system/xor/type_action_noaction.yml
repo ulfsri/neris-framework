@@ -1,4 +1,4 @@
 action:
-  xor: action
+  xor: ACTION
 noaction:
-  xor: noaction
+  xor: NOACTION

@@ -8,28 +8,28 @@ NO_MEDICAL:
 BLS_NO_TRANSPORT:
   active: 'TRUE'
   description: Emergency Medical First Responder (BLS), Non-Transport
-  definition: Fire departments offering basic life support (BLS) level first response through licensed firefighters or other employees within organization.  BLS would describe care at the First Responder or EMT-Basic level, including bleeding control, splinting, CPR, defibrillation, spinal immobilization and other skills.  This model would rely on a separate ambulance for transportation to the hospital that is not affiliated with the fire department.
+  definition: Fire departments offering basic life support (BLS) level first response through licensed firefighters or other employees within entity.  BLS would describe care at the First Responder or EMT-Basic level, including bleeding control, splinting, CPR, defibrillation, spinal immobilization and other skills.  This model would rely on a separate ambulance for transportation to the hospital that is not affiliated with the fire department.
   source: ''
   NEMSIS Link d.Agency.09: '9920003.0'
   NEMSIS Link d.Agency.11: '9917005.0'
 ALS_NO_TRANSPORT:
   active: 'TRUE'
   description: Emergency Medical First Responder (ALS), Non-Transport
-  definition: Fire departments offering advanced life support (ALS) level first response through licensed firefighters or other employees within organization.  ALS would describe care at the EMT-Intermediate, EMT-Advanced or EMT-Paramedic level, including intravenous access, airway management, pharmacology, heart rhythm interpretation, and other invasive clinical skills.  This model would rely on a separate ambulance for transportation to the hospital that is not affiliated with the fire department.
+  definition: Fire departments offering advanced life support (ALS) level first response through licensed firefighters or other employees within entity.  ALS would describe care at the EMT-Intermediate, EMT-Advanced or EMT-Paramedic level, including intravenous access, airway management, pharmacology, heart rhythm interpretation, and other invasive clinical skills.  This model would rely on a separate ambulance for transportation to the hospital that is not affiliated with the fire department.
   source: ''
   NEMSIS Link d.Agency.09: '9920003.0'
   NEMSIS Link d.Agency.11: '9917007.0'
 BLS_TRANSPORT:
   active: 'TRUE'
   description: Emergency Medical Response and Patient Transport (BLS)
-  definition: Fire departments offering basic life support (BLS) level care and patient transportation through licensed firefighters or other employees within organization.  BLS would describe care at the First Responder or EMT-Basic level, including bleeding control, splinting, CPR, defibrillation, spinal immobilization and other skills.  This model would include a fire department owned and operated ambulance for transportation to the hospital.
+  definition: Fire departments offering basic life support (BLS) level care and patient transportation through licensed firefighters or other employees within entity.  BLS would describe care at the First Responder or EMT-Basic level, including bleeding control, splinting, CPR, defibrillation, spinal immobilization and other skills.  This model would include a fire department owned and operated ambulance for transportation to the hospital.
   source: ''
   NEMSIS Link d.Agency.09: '9920001.0'
   NEMSIS Link d.Agency.11: '9917005.0'
 ALS_TRANSPORT:
   active: 'TRUE'
   description: Emergency Medical Response and Patient Transport (ALS)
-  definition: Fire departments offering advanced life support (ALS) level care and patient transportation through licensed firefighters or other employees within organization.  ALS would describe care at the EMT-Intermediate, EMT-Advanced or EMT-Paramedic level, including intravenous access, airway management, pharmacology, heart rhythm interpretation, and other invasive clinical skills.  This model would include a fire department owned and operated ambulance for transportation to the hospital.
+  definition: Fire departments offering advanced life support (ALS) level care and patient transportation through licensed firefighters or other employees within entity.  ALS would describe care at the EMT-Intermediate, EMT-Advanced or EMT-Paramedic level, including intravenous access, airway management, pharmacology, heart rhythm interpretation, and other invasive clinical skills.  This model would include a fire department owned and operated ambulance for transportation to the hospital.
   source: ''
   NEMSIS Link d.Agency.09: '9920001.0'
   NEMSIS Link d.Agency.11: '9917007.0'

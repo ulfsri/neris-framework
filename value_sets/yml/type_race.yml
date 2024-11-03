@@ -1,30 +1,45 @@
 AMERICAN_INDIAN_ALASKA_NATIVE:
   active: 'TRUE'
   description: American Indian or Alaska Native
-  definition: ''
-  source: ''
+  definition: 'Individuals with origins in any of the original peoples of North, Central, and South America, including, for example, Navajo Nation, Blackfeet Tribe of the Blackfeet Indian Reservation of Montana, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, Aztec, and Maya.'
+  source: 'U.S. Office of Management and Budget (OMB).'
 ASIAN:
   active: 'TRUE'
   description: Asian
-  definition: ''
-  source: ''
+  definition: 'Individuals with origins in any of the original peoples of Central or East Asia, Southeast Asia, or South Asia, including, for example, Chinese, Asian Indian, Filipino, Vietnamese, Korean, and Japanese.'
+  source: 'U.S. Office of Management and Budget (OMB).'
 BLACK_AFRICAN_AMERICAN:
   active: 'TRUE'
   description: Black or African American
-  definition: ''
-  source: ''
+  definition: 'Individuals with origins in any of the Black racial groups of Africa, including, for example, African American, Jamaican, Haitian, Nigerian, Ethiopian, and Somali.'
+  source: 'U.S. Office of Management and Budget (OMB).'
+MIDDLE_EASTERN_NORTH_AFRICAN:
+  active: 'TRUE'
+  description: Middle Eastern or North African
+  definition: 'Individuals with origins in any of the original peoples of the Middle East or North Africa, including, for example, Lebanese, Iranian, Egyptian, Syrian, Iraqi, and Israeli.'
+  source: 'U.S. Office of Management and Budget (OMB).'
 HISPANIC_LATINO:
   active: 'TRUE'
   description: Hispanic or Latino
-  definition: ''
-  source: ''
+  definition: 'Includes individuals of Mexican, Puerto Rican, Salvadoran, Cuban, Dominican, Guatemalan, and other Central or South American or Spanish culture or origin.'
+  source: 'U.S. Office of Management and Budget (OMB).'
 NATIVE_HAWAIIAN_PACIFIC_ISLANDER:
   active: 'TRUE'
   description: Native Hawaiian or Pacific Islander
-  definition: ''
-  source: ''
+  definition: 'Individuals with origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands, including, for example, Native Hawaiian, Samoan, Chamorro, Tongan, Fijian, and Marshallese.'
+  source: 'U.S. Office of Management and Budget (OMB).'
 WHITE:
   active: 'TRUE'
   description: White
-  definition: ''
+  definition: 'Individuals with origins in any of the original peoples of Europe, including, for example, English, German, Irish, Italian, Polish, and Scottish.'
+  source: 'U.S. Office of Management and Budget (OMB).'
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition: 'Individuals whose race does not fit into one of the other categories.'
+  source: ''
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition: 'Individuals whose race could not be determined.'
   source: ''

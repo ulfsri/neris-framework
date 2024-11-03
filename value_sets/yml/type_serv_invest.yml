@@ -21,5 +21,5 @@ LAW_ENFORCEMENT:
 K9_DETECT:
   active: 'TRUE'
   description: K9 Accelerant Detection
-  definition: ''
-  source: ''
+  definition: 'Human and working-dog that have certification in the specific discipline of ignitible liquid canine detection and maintains those abilities through field application, maintenance training, scheduled recertification, and continuing education.'
+  source: 'NFPA 921'

@@ -3,16 +3,16 @@ OPERATED_EFFECTIVE:
   description: Operated - Effective
   definition: 'Prevention of flashover'
   source: ''
-  xor: 'effective'
+  xor: EFFECTIVE
 OPERATED_NOT_EFFECTIVE:
   active: 'TRUE'
   description: Operated - Not Effective
   definition: ''
   source: ''
-  xor: 'ineffective'
-FAILED_TO_OPERATE:
+  xor: INEFFECTIVE
+NO_OPERATION:
   active: 'TRUE'
-  description: Failed to Operate
+  description: Did Not Operate
   definition: ''
   source: ''
-  xor: 'failed'
+  xor: FAILED

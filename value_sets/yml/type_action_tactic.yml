@@ -142,14 +142,26 @@ FORCIBLE_ENTRY:
   definition_2: ''
   definition_3: ''
   source: ''
+INVESTIGATION:
+  active: 'TRUE'
+  value_1: INVESTIGATION
+  value_2: ''
+  value_3: ''
+  description_1: Investigation
+  description_2: ''
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'SUPPRESSION: STRUCTURAL_FIRE_SUPPRESSION: INTERIOR':
   active: 'TRUE'
   value_1: SUPPRESSION
   value_2: STRUCTURAL_FIRE_SUPPRESSION
   value_3: INTERIOR
   description_1: Suppression
-  description_2: Structural_Fire_Suppression
-  description_3: Interior
+  description_2: Structural Fire Suppression
+  description_3: Inside the Building
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -160,8 +172,8 @@ FORCIBLE_ENTRY:
   value_2: STRUCTURAL_FIRE_SUPPRESSION
   value_3: EXTERIOR
   description_1: Suppression
-  description_2: Structural_Fire_Suppression
-  description_3: Exterior
+  description_2: Structural Fire Suppression
+  description_3: Outside the Building (Windows, Walls, Roof, etc.)
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -172,8 +184,8 @@ FORCIBLE_ENTRY:
   value_2: STRUCTURAL_FIRE_SUPPRESSION
   value_3: EXTERIOR_AND_INTERIOR
   description_1: Suppression
-  description_2: Structural_Fire_Suppression
-  description_3: Exterior and Interior
+  description_2: Structural Fire Suppression
+  description_3: Inside and Outside the Building
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -182,9 +194,9 @@ FORCIBLE_ENTRY:
   active: 'TRUE'
   value_1: SUPPRESSION
   value_2: OUTSIDE_FIRE_SUPPRESSION
-  value_3: ESTABLISH FIRE LINES
+  value_3: ESTABLISH_FIRE_LINES
   description_1: Suppression
-  description_2: Outside_Fire_Suppression
+  description_2: Outside Fire Suppression
   description_3: Establish Fire Lines
   definition_1: ''
   definition_2: ''
@@ -196,7 +208,7 @@ FORCIBLE_ENTRY:
   value_2: OUTSIDE_FIRE_SUPPRESSION
   value_3: BACKBURN
   description_1: Suppression
-  description_2: Outside_Fire_Suppression
+  description_2: Outside Fire Suppression
   description_3: Backburn
   definition_1: ''
   definition_2: ''
@@ -208,7 +220,7 @@ FORCIBLE_ENTRY:
   value_2: OUTSIDE_FIRE_SUPPRESSION
   value_3: CONFINEMENT
   description_1: Suppression
-  description_2: Outside_Fire_Suppression
+  description_2: Outside Fire Suppression
   description_3: Confinement
   definition_1: ''
   definition_2: ''
@@ -220,7 +232,7 @@ FORCIBLE_ENTRY:
   value_2: OUTSIDE_FIRE_SUPPRESSION
   value_3: STRUCTURE_PROTECTION
   description_1: Suppression
-  description_2: Outside_Fire_Suppression
+  description_2: Outside Fire Suppression
   description_3: Structure Protection
   definition_1: ''
   definition_2: ''
@@ -232,7 +244,7 @@ FORCIBLE_ENTRY:
   value_2: OUTSIDE_FIRE_SUPPRESSION
   value_3: FIRE_CONTROL_EXTINGUISHMENT
   description_1: Suppression
-  description_2: Outside_Fire_Suppression
+  description_2: Outside Fire Suppression
   description_3: Fire Control / Extinguishment
   definition_1: ''
   definition_2: ''
@@ -244,8 +256,20 @@ FORCIBLE_ENTRY:
   value_2: OUTSIDE_FIRE_SUPPRESSION
   value_3: FIRE_RETARDANT_DROP
   description_1: Suppression
-  description_2: Outside_Fire_Suppression
-  description_3: Fire Retardant Drop
+  description_2: Outside Fire Suppression
+  description_3: Fire Retardant Drop From Aircraft
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'SUPPRESSION: OUTSIDE_FIRE_SUPPRESSION: WATER_DROP':
+  active: 'TRUE'
+  value_1: SUPPRESSION
+  value_2: OUTSIDE_FIRE_SUPPRESSION
+  value_3: WATER_DROP
+  description_1: Suppression
+  description_2: Outside Fire Suppression
+  description_3: Water Drop From Aircraft
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -256,7 +280,7 @@ FORCIBLE_ENTRY:
   value_2: OUTSIDE_FIRE_SUPPRESSION
   value_3: HAND_CREW_FUEL_BREAK
   description_1: Containment
-  description_2: Outside_Fire_Suppression
+  description_2: Outside Fire Suppression
   description_3: Hand Crew Fuel Break
   definition_1: ''
   definition_2: ''
@@ -268,8 +292,20 @@ FORCIBLE_ENTRY:
   value_2: OUTSIDE_FIRE_SUPPRESSION
   value_3: DOZER_FUEL_BREAK
   description_1: Containment
-  description_2: Outside_Fire_Suppression
+  description_2: Outside Fire Suppression
   description_3: Dozer Fuel Break
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'VENTILATION: VERTICAL':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: VERTICAL
+  value_3: ''
+  description_1: Ventilation
+  description_2: Vertical
+  description_3: ''
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -310,6 +346,18 @@ FORCIBLE_ENTRY:
   definition_2: ''
   definition_3: ''
   source: ''
+'VENTILATION: HORIZONTAL':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HORIZONTAL
+  value_3: ''
+  description_1: Ventilation
+  description_2: Horizontal
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'VENTILATION: HORIZONTAL: PRIOR_TO_SUPPRESSION':
   active: 'TRUE'
   value_1: VENTILATION
@@ -342,6 +390,18 @@ FORCIBLE_ENTRY:
   description_1: Ventilation
   description_2: Horizontal
   description_3: Post Suppression
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'VENTILATION: POSITIVE_PRESSURE':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: POSITIVE_PRESSURE
+  value_3: ''
+  description_1: Ventilation
+  description_2: Positive Pressure
+  description_3: ''
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -382,6 +442,18 @@ FORCIBLE_ENTRY:
   definition_2: ''
   definition_3: ''
   source: ''
+'VENTILATION: HYDRAULIC':
+  active: 'TRUE'
+  value_1: VENTILATION
+  value_2: HYDRAULIC
+  value_3: ''
+  description_1: Ventilation
+  description_2: Hydraulic
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'VENTILATION: HYDRAULIC: PRIOR_TO_SUPPRESSION':
   active: 'TRUE'
   value_1: VENTILATION
@@ -418,6 +490,18 @@ FORCIBLE_ENTRY:
   definition_2: ''
   definition_3: ''
   source: ''
+'SEARCH_STRUCTURE: DOOR_INITIATED_SEARCH':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: DOOR_INITIATED_SEARCH
+  value_3: ''
+  description_1: Search Structure
+  description_2: Door Initiated Search
+  description_3: ''
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'SEARCH_STRUCTURE: DOOR_INITIATED_SEARCH: PRIOR_TO_SUPPRESSION':
   active: 'TRUE'
   value_1: SEARCH_STRUCTURE
@@ -450,6 +534,18 @@ FORCIBLE_ENTRY:
   description_1: Search Structure
   description_2: Door Initiated Search
   description_3: Post Suppression
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'SEARCH_STRUCTURE: WINDOW_INITIATED_SEARCH':
+  active: 'TRUE'
+  value_1: SEARCH_STRUCTURE
+  value_2: WINDOW_INITIATED_SEARCH
+  value_3: ''
+  description_1: Search Structure
+  description_2: Window Initiated Search
+  description_3: ''
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -514,10 +610,10 @@ FORCIBLE_ENTRY:
   definition_2: ''
   definition_3: ''
   source: ''
-'NON_STRUCTURE_SEARCH: WIDE_AREA/OUTDOOR_SEARCH':
+'NON_STRUCTURE_SEARCH: WIDE_AREA_OUTDOOR_SEARCH':
   active: 'TRUE'
   value_1: NON_STRUCTURE_SEARCH
-  value_2: WIDE_AREA/OUTDOOR_SEARCH
+  value_2: WIDE_AREA_OUTDOOR_SEARCH
   value_3: ''
   description_1: Non Structure Search
   description_2: Wide Area / Outdoor Search
@@ -574,10 +670,10 @@ SALVAGE_AND_OVERHAUL:
   definition_2: ''
   definition_3: ''
   source: ''
-'PERSONNEL_CONTAMINATION_REDUCTION: ON-SCENE_CONTAMINATION_REDUCTION':
+'PERSONNEL_CONTAMINATION_REDUCTION: ON_SCENE_CONTAMINATION_REDUCTION':
   active: 'TRUE'
   value_1: PERSONNEL_CONTAMINATION_REDUCTION
-  value_2: ON-SCENE_CONTAMINATION_REDUCTION
+  value_2: ON_SCENE_CONTAMINATION_REDUCTION
   value_3: ''
   description_1: Personnel Contamination Reduction
   description_2: On-Scene Contamination Reduction
@@ -598,10 +694,10 @@ SALVAGE_AND_OVERHAUL:
   definition_2: ''
   definition_3: ''
   source: ''
-'PERSONNEL_CONTAMINATION_REDUCTION: PPE_WASHED_POST-INCIDENT':
+'PERSONNEL_CONTAMINATION_REDUCTION: PPE_WASHED_POST_INCIDENT':
   active: 'TRUE'
   value_1: PERSONNEL_CONTAMINATION_REDUCTION
-  value_2: PPE_WASHED_POST-INCIDENT
+  value_2: PPE_WASHED_POST_INCIDENT
   value_3: ''
   description_1: Personnel Contamination Reduction
   description_2: PPE Washed Post-Incident
@@ -682,10 +778,10 @@ SALVAGE_AND_OVERHAUL:
   definition_2: ''
   definition_3: ''
   source: ''
-'HAZARDOUS_SITUATION_MITIGATION: ATMOSPHERIC_MONITORING_EXTERIOR/FENCELINE':
+'HAZARDOUS_SITUATION_MITIGATION: ATMOSPHERIC_MONITORING_EXTERIOR_FENCELINE':
   active: 'TRUE'
   value_1: HAZARDOUS_SITUATION_MITIGATION
-  value_2: ATMOSPHERIC_MONITORING_EXTERIOR/FENCELINE
+  value_2: ATMOSPHERIC_MONITORING_EXTERIOR_FENCELINE
   value_3: ''
   description_1: Hazardous Situation Mitigation
   description_2: Atmospheric Monitoring (Exterior / Fenceline)
@@ -778,10 +874,10 @@ SALVAGE_AND_OVERHAUL:
   definition_2: ''
   definition_3: ''
   source: ''
-'PROVIDE_EQUIPMENT: PROVIDE_DRONE/VIDEO_EQUIPMENT':
+'PROVIDE_EQUIPMENT: PROVIDE_DRONE_VIDEO_EQUIPMENT':
   active: 'TRUE'
   value_1: PROVIDE_EQUIPMENT
-  value_2: PROVIDE_DRONE/VIDEO_EQUIPMENT
+  value_2: PROVIDE_DRONE_VIDEO_EQUIPMENT
   value_3: ''
   description_1: Provide Equipment
   description_2: Provide Drone / Video Equipment
@@ -802,10 +898,10 @@ SALVAGE_AND_OVERHAUL:
   definition_2: ''
   definition_3: ''
   source: ''
-'PROVIDE_SERVICES: RESTORE/RESET_ALARM_SYSTEM':
+'PROVIDE_SERVICES: RESTORE_RESET_ALARM_SYSTEM':
   active: 'TRUE'
   value_1: PROVIDE_SERVICES
-  value_2: RESTORE/RESET_ALARM_SYSTEM
+  value_2: RESTORE_RESET_ALARM_SYSTEM
   value_3: ''
   description_1: Provide Services
   description_2: Restore/Reset Alarm System
@@ -886,13 +982,13 @@ SALVAGE_AND_OVERHAUL:
   definition_2: ''
   definition_3: ''
   source: ''
-'PROVIDE_SERVICES: PROVIDE_APPARATUS/WATER':
+'PROVIDE_SERVICES: PROVIDE_APPARATUS_WATER':
   active: 'TRUE'
   value_1: PROVIDE_SERVICES
-  value_2: PROVIDE_APPARATUS/WATER
+  value_2: PROVIDE_APPARATUS_WATER
   value_3: ''
   description_1: Provide Services
-  description_2: Provide Apparatus/Water
+  description_2: Provide Apparatus / Water
   description_3: ''
   definition_1: ''
   definition_2: ''
@@ -953,18 +1049,6 @@ SALVAGE_AND_OVERHAUL:
   value_3: ''
   description_1: Information Enforcement
   description_2: Enforce Code Or Law
-  description_3: ''
-  definition_1: ''
-  definition_2: ''
-  definition_3: ''
-  source: ''
-'INFORMATION_ENFORCEMENT: FILL/MOVE-UP':
-  active: 'TRUE'
-  value_1: INFORMATION_ENFORCEMENT
-  value_2: FILL/MOVE-UP
-  value_3: ''
-  description_1: Information Enforcement
-  description_2: Fill / Move-Up (To Another Department Or Station)
   description_3: ''
   definition_1: ''
   definition_2: ''

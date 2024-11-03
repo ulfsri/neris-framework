@@ -1,0 +1,25 @@
+SUBMITTED:
+  active: 'TRUE'
+  description: Submitted
+  definition: ''
+  source: ''
+REJECTED:
+  active: 'TRUE'
+  description: Rejected
+  definition: ''
+  source: ''
+APPROVED:
+  active: 'TRUE'
+  description: Approved
+  definition: ''
+  source: ''
+PENDING_APPROVAL:
+  active: 'TRUE'
+  description: Pending Approval
+  definition: ''
+  source: ''
+FAILED:
+  active: 'TRUE'
+  description: Failed
+  definition: ''
+  source: ''

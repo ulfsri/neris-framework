@@ -33,3 +33,8 @@ COMBINATION:
   description: Combination (Smoke / CO)
   definition: ''
   source: ''
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition: ''
+  source: ''

@@ -3,16 +3,16 @@ PRESENT:
   description: Present
   definition: ''
   source: ''
-  xor: present
+  xor: PRESENT
 NOT_PRESENT:
   active: 'TRUE'
   description: Not Present
   definition: ''
   source: ''
-  xor: notpresent
+  xor: NOTPRESENT
 NOT_APPLICABLE:
   active: 'TRUE'
   description: Not Applicable
   definition: ''
   source: ''
-  xor: notpresent
+  xor: NOTPRESENT

@@ -1,7 +1,7 @@
 value,active,description,definition,source,xor
-RESCUED_BY_FIREFIGHTER,TRUE,Rescued By Firefighter,,,ffrescue
-RESCUED_BY_FF_RIT,TRUE,Rescued By Firefighter RIT,,,ffrescue
-RESCUED_BY_NONFIREFIGHTER,TRUE,Rescued By Non-firefighter,,,nonffrescue
-EVAC_ASSISTED_BY_FIREFIGHTER,TRUE,Evacuation Assisted By Firefighter,,,ffrescue
-SELF_EVACUATION,TRUE,Self-Evacuation,,,nonffrescue
-NO_RESCUE_NEEDED,TRUE,No Rescue Needed,,,nonffrescue
+RESCUED_BY_FIREFIGHTER,TRUE,Rescued By Firefighter,,,FFRESCUE
+RESCUED_BY_FF_RIT,TRUE,Rescued By Firefighter RIT,,,FFRESCUE
+RESCUED_BY_NONFIREFIGHTER,TRUE,Rescued By Non-firefighter,,,NONFFRESCUE
+EVAC_ASSISTED_BY_FIREFIGHTER,TRUE,Evacuation Assisted By Firefighter,,,FFRESCUE
+SELF_EVACUATION,TRUE,Self-Evacuation,,,NONFFRESCUE
+NO_RESCUE_NEEDED,TRUE,No Rescue Needed,,,NONFFRESCUE

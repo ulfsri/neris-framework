@@ -89,11 +89,11 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 141, 142, 143, 140, 150, 151, 152, 153, 154, 155, 160, 161, 162, 163, 164, 170, 171, 172, 173
-'FIRE: OUTSIDE_FIRE: UTILITY INFRASTRUCTURE FIRE':
+'FIRE: OUTSIDE_FIRE: UTILITY_INFRASTRUCTURE_FIRE':
   active: 'TRUE'
   value_1: FIRE
   value_2: OUTSIDE_FIRE
-  value_3: UTILITY INFRASTRUCTURE FIRE
+  value_3: UTILITY_INFRASTRUCTURE_FIRE
   description_1: Fire
   description_2: Outside Fire
   description_3: Utility Infrastructure Fire
@@ -323,11 +323,11 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 371, 372, 370, 381, 400, 441, 442, 443, 444, 445, 440, 451, 471
-'HAZSIT: HAZARD_NONCHEM: ELECTRICAL_POWER_LINE_DOWN_ARCHING_MALFUNCTION':
+'HAZSIT: HAZARD_NONCHEM: ELEC_POWER_LINE_DOWN_ARCHING_MALFUNC':
   active: 'TRUE'
   value_1: HAZSIT
   value_2: HAZARD_NONCHEM
-  value_3: ELECTRICAL_POWER_LINE_DOWN_ARCHING_MALFUNCTION
+  value_3: ELEC_POWER_LINE_DOWN_ARCHING_MALFUNC
   description_1: Hazardous Situation
   description_2: Hazard Non-Chemical
   description_3: Electrical Power Line Down / Arching / Malfunction
@@ -336,14 +336,26 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 371, 372, 370, 381, 400, 441, 442, 443, 444, 445, 440, 451, 471
-'HAZSIT: HAZARD_NONCHEM: ELECTRICAL_HAZARD_SHORT_CIRCUIT':
+'HAZSIT: HAZARD_NONCHEM: ELEC_HAZARD_SHORT_CIRCUIT':
   active: 'TRUE'
   value_1: HAZSIT
   value_2: HAZARD_NONCHEM
-  value_3: ELECTRICAL_HAZARD_SHORT_CIRCUIT
+  value_3: ELEC_HAZARD_SHORT_CIRCUIT
   description_1: Hazardous Situation
   description_2: Hazard Non-Chemical
   description_3: Electrical Hazard / Short Circuit
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'HAZSIT: HAZARD_NONCHEM: MOTOR_VEHICLE_COLLISION':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: HAZARD_NONCHEM
+  value_3: MOTOR_VEHICLE_COLLISION
+  description_1: Hazardous Situation
+  description_2: Hazard Non-Chemical
+  description_3: Motor Vehicle Collision
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -414,11 +426,11 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
-'HAZSIT: HAZARDOUS_MATERIALS: HAZARDOUS_MATERIAL_RELEASE_TRANSPORT':
+'HAZSIT: HAZARDOUS_MATERIALS: HAZMAT_RELEASE_TRANSPORT':
   active: 'TRUE'
   value_1: HAZSIT
   value_2: HAZARDOUS_MATERIALS
-  value_3: HAZARDOUS_MATERIAL_RELEASE_TRANSPORT
+  value_3: HAZMAT_RELEASE_TRANSPORT
   description_1: Hazardous Situation
   description_2: Hazardous Materials
   description_3: Hazardous Material Release (Chemical from Transportation)
@@ -427,11 +439,11 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
-'HAZSIT: HAZARDOUS_MATERIALS: HAZARDOUS_MATERIAL_RELEASE_FACILITY':
+'HAZSIT: HAZARDOUS_MATERIALS: HAZMAT_RELEASE_FACILITY':
   active: 'TRUE'
   value_1: HAZSIT
   value_2: HAZARDOUS_MATERIALS
-  value_3: HAZARDOUS_MATERIAL_RELEASE_FACILITY
+  value_3: HAZMAT_RELEASE_FACILITY
   description_1: Hazardous Situation
   description_2: Hazardous Materials
   description_3: Hazardous Material Release (Chemical from Fixed Facility)
@@ -440,6 +452,32 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 381, 400, 411, 412, 413, 410, 421, 422, 423, 424, 420, 431, 430
+'HAZSIT: OVERPRESSURE: RUPTURE_WITHOUT_FIRE':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: OVERPRESSURE
+  value_3: RUPTURE_WITHOUT_FIRE
+  description_1: Hazardous Situation
+  description_2: Overpressure
+  description_3: Rupture Without Fire
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+  NFIRS Crosswalk: 200
+'HAZSIT: OVERPRESSURE: NO_RUPTURE':
+  active: 'TRUE'
+  value_1: HAZSIT
+  value_2: OVERPRESSURE
+  value_3: NO_RUPTURE
+  description_1: Hazardous Situation
+  description_2: Overpressure
+  description_3: No Rupture
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+  NFIRS Crosswalk: 200
 'HAZSIT: INVESTIGATION: ODOR':
   active: 'TRUE'
   value_1: HAZSIT
@@ -466,14 +504,27 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
-'MEDICAL: ILLNESS: ABOMINAL_PAIN':
+'MEDICAL: ILLNESS: ABDOMINAL_PAIN':
   active: 'TRUE'
   value_1: MEDICAL
   value_2: ILLNESS
-  value_3: ABOMINAL_PAIN
+  value_3: ABDOMINAL_PAIN
   description_1: Medical
   description_2: Illness
   description_3: Abdominal Pain / Problems
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: ALLERGIC_REACTION_STINGS':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: ALLERGIC_REACTION_STINGS
+  description_1: Medical
+  description_2: Illness
+  description_3: Allergic Reaction / Stings
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -492,11 +543,11 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
-'MEDICAL: ILLNESS: BREAKING_PROBLEMS':
+'MEDICAL: ILLNESS: BREATHING_PROBLEMS':
   active: 'TRUE'
   value_1: MEDICAL
   value_2: ILLNESS
-  value_3: BREAKING_PROBLEMS
+  value_3: BREATHING_PROBLEMS
   description_1: Medical
   description_2: Illness
   description_3: Breathing Problems
@@ -578,6 +629,19 @@
   description_1: Medical
   description_2: Illness
   description_3: Heart Problems
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: ILLNESS: OVERDOSE':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: ILLNESS
+  value_3: OVERDOSE
+  description_1: Medical
+  description_2: Illness
+  description_3: Overdose / Poisoning
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -687,14 +751,14 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
-'MEDICAL: ILLNESS: NAUSEA':
+'MEDICAL: ILLNESS: NAUSEA_VOMITING':
   active: 'TRUE'
   value_1: MEDICAL
   value_2: ILLNESS
-  value_3: NAUSEA
+  value_3: NAUSEA_VOMITING
   description_1: Medical
   description_2: Illness
-  description_3: Nausea
+  description_3: Nausea / Vomiting
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -707,7 +771,7 @@
   value_3: UNKNOWN_PROBLEM
   description_1: Medical
   description_2: Illness
-  description_3: Unknnown Problem
+  description_3: Unknown Problem
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -747,19 +811,6 @@
   description_1: Medical
   description_2: Injury / Trauma
   description_3: Assault
-  definition_1: ''
-  definition_2: ''
-  definition_3: ''
-  source: ''
-  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
-'MEDICAL: INJURY: ALLERGIC_REACTION_STINGS':
-  active: 'TRUE'
-  value_1: MEDICAL
-  value_2: INJURY
-  value_3: ALLERGIC_REACTION_STINGS
-  description_1: Medical
-  description_2: Injury / Trauma
-  description_3: Allergic Reaction / Stings
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -817,6 +868,32 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
+'MEDICAL: INJURY: ELECTROCUTION':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: ELECTROCUTION
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Electrocution
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+  NFIRS Crosswalk:
+'MEDICAL: INJURY: EYE_TRAUMA':
+  active: 'TRUE'
+  value_1: MEDICAL
+  value_2: INJURY
+  value_3: EYE_TRAUMA
+  description_1: Medical
+  description_2: Injury / Trauma
+  description_3: Eye Trauma
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+  NFIRS Crosswalk:
 'MEDICAL: INJURY: FALL':
   active: 'TRUE'
   value_1: MEDICAL
@@ -864,19 +941,6 @@
   description_1: Medical
   description_2: Injury / Trauma
   description_3: Industrial Accident/Inaccessible Incident/Other Entrapment (Non-Vehicle)
-  definition_1: ''
-  definition_2: ''
-  definition_3: ''
-  source: ''
-  NFIRS Crosswalk: 300, 320, 321, 322, 323, 324, 460
-'MEDICAL: INJURY: OVERDOSE':
-  active: 'TRUE'
-  value_1: MEDICAL
-  value_2: INJURY
-  value_3: OVERDOSE
-  description_1: Medical
-  description_2: Injury / Trauma
-  description_3: Overdose / Poisoning
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -1097,7 +1161,7 @@
   value_3: FIRE_ALARM
   description_1: Public Service
   description_2: Alarms (Non Medical)
-  description_3: Fire Alarm
+  description_3: Fire / Smoke Alarm
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -1189,6 +1253,19 @@
   description_1: Public Service
   description_2: Other
   description_3: Standby
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+  NFIRS Crosswalk: '571'
+'PUBSERV: OTHER: DAMAGED_HYDRANT':
+  active: 'TRUE'
+  value_1: PUBSERV
+  value_2: OTHER
+  value_3: DAMAGED_HYDRANT
+  description_1: Public Service
+  description_2: Other
+  description_3: Damaged Hydrant
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -1324,11 +1401,11 @@
   definition_3: ''
   source: ''
   NFIRS Crosswalk: 351, 353, 355, 357, 350, 461
-'RESCUE: STRUCTURE: ELEVATOR_ESCALTOR_RESCUE':
+'RESCUE: STRUCTURE: ELEVATOR_ESCALATOR_RESCUE':
   active: 'TRUE'
   value_1: RESCUE
   value_2: STRUCTURE
-  value_3: ELEVATOR_ESCALTOR_RESCUE
+  value_3: ELEVATOR_ESCALATOR_RESCUE
   description_1: Rescue
   description_2: Structure
   description_3: Elevator / Escalator Rescue

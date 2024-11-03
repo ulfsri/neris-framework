@@ -1,15 +1,30 @@
-DEPT_UPLOAD:
+API_SUBMISSION:
   active: 'TRUE'
-  description: Department upload
+  description: Department submission
   definition: ''
   source: ''
-DEPT_FILE:
+SURVEY_123:
   active: 'TRUE'
-  description: Department file
+  description: Survey 123
   definition: ''
   source: ''
-AWS:
+NERIS_GEOCODE_AWS:
   active: 'TRUE'
-  description: AWS geocode
+  description: NERIS geocode AWS
+  definition: ''
+  source: ''
+NERIS_GEOCODE_ESRI:
+  active: 'TRUE'
+  description: NERIS geocode ESRI
+  definition: ''
+  source: ''
+NERIS_UI:
+  active: 'TRUE'
+  description: NERIS map UI
+  definition: ''
+  source: ''
+ARCHIVE:
+  active: 'TRUE'
+  description: Archive
   definition: ''
   source: ''

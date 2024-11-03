@@ -25,6 +25,6 @@ OTHER:
   source: ''
 NONE:
   active: 'TRUE'
-  description: ''
+  description: None
   definition: ''
   source: ''

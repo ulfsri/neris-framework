@@ -1,4 +1,0 @@
-ff:
-  xor: ff
-nonff:
-  xor: nonff

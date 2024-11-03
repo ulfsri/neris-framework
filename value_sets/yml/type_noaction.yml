@@ -3,7 +3,7 @@ CANCELLED:
   description: Cancelled
   definition: ''
   source: ''
-STAGED/STANDBY:
+STAGED_STANDBY:
   active: 'TRUE'
   description: Staged / Standby
   definition: ''

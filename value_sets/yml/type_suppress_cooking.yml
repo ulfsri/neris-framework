@@ -18,13 +18,8 @@ ELECTRIC_POWER_CUTOFF_DEVICE:
   description: Electric Power Cutoff Device
   definition: ''
   source: ''
-NOT APPLICABLE:
+OTHER:
   active: 'TRUE'
-  description: Not Applicable
-  definition: ''
-  source: ''
-NONE:
-  active: 'TRUE'
-  description: ''
+  description: Other
   definition: ''
   source: ''

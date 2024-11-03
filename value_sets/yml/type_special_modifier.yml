@@ -18,6 +18,11 @@ STATE_DECLARED_DISASTER:
   description: State Declared Disaster
   definition: ''
   source: ''
+COUNTY_LOCAL_DECLARED_DISASTER:
+  active: 'TRUE'
+  description: County or Local Declared Disaster
+  definition: ''
+  source: ''
 URBAN_CONFLAGRATION:
   active: 'TRUE'
   description: Urban Conflagration

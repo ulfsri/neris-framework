@@ -1,0 +1,6 @@
+value,active,description,definition,source
+SUBMITTED,TRUE,Submitted,,
+REJECTED,TRUE,Rejected,,
+APPROVED,TRUE,Approved,,
+PENDING_APPROVAL,TRUE,Pending Approval,,
+FAILED,TRUE,Failed,,
