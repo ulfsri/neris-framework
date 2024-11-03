@@ -1,0 +1,156 @@
+injury_datetime:
+  type: Datetime (UTC)
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Datetime of injury.
+  example: '2024-05-07 00:00:00'
+  comments: .nan
+assignment:
+  type: Array[Text]
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_assignment
+  description: Assignment type at time of injury.
+  example: See type_assignment
+  comments: .nan
+severity:
+  type: Array[Text]
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_severity
+  description: Severity of injury.
+  example: See type_severity
+  comments: .nan
+disposition:
+  type: Array[Text]
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_disposition
+  description: Disposition  of/response to injury.
+  example: See type_disposition
+  comments: .nan
+location:
+  type: Module
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Location of injury.
+  example: See mod_civic_location
+  comments: .nan
+activity:
+  type: Array[Text]
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_activity
+  description: Activity during injury.
+  example: See type_activity
+  comments: .nan
+injury_type:
+  type: Array[Text]
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_injury
+  description: Type of injury.
+  example: See type_injury
+  comments: .nan
+body_part_injured:
+  type: Array[Text]
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_body_part_injured
+  description: Body part(s) affected due to injury.
+  example: See type_body_part_injured
+  comments: .nan
+injury_cause:
+  type: Array[Text]
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_injury_cause
+  description: Cause of injury.
+  example: See type_injury_cause
+  comments: .nan
+neris_id_last_incident:
+  type: Text
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: NERIS ID of last incident response.
+  example: .nan
+  comments: .nan
+hours_slept:
+  type: Integer
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of hours slept in the last 24 hours.
+  example: '8'
+  comments: .nan
+shift_schedule:
+  type: Array[Text]
+  group: shift
+  possible_if: .nan
+  computed: true
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_personnel_spec.type_shift_schedule
+  description: Type of shift scheduled being worked during injury.
+  example: See type_shift_schedule
+  comments: .nan
+shift_start_datetime:
+  type: Datetime (UTC)
+  group: shift
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Datetime of start of shift during which injury occurred.
+  example: '2023-05-07 06:00:00'
+  comments: .nan

@@ -1,0 +1,252 @@
+incident_name:
+  type: Text
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Name of incident as designated by responding authority, if applicable.
+  example: Carr Fire
+  comments: .nan
+cause_category:
+  type: Array[Text]
+  group: cause
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_general_fire_cause
+  description: Category of the cause of the fire.
+  example: Natural
+  comments: .nan
+general_cause:
+  type: Array[Text]
+  group: cause
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_outdoor_cause
+  description: General cause of the fire.
+  example: See type_outdoor_cause
+  comments: .nan
+specific_cause:
+  type: Array[Text]
+  group: cause
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_outdoor_cause
+  description: Specific cause of the fire.
+  example: See type_outdoor_cause
+  comments: .nan
+cause_certainty:
+  type: Array[Text]
+  group: cause
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_certainty
+  description: 'Level of certainty associated with each specific cause. Only one cause selection is allowed if the certainty is probable, whereas more than one cause is allowed if the selections are possible. '
+  example: Probable
+  comments: .nan
+permit_issued:
+  type: Boolean
+  group: cause
+  possible_if: specific_cause.value_1 = DEBRIS_OPEN_BURNING
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether a burning permit was issued, if the cause was Open Burning.
+  example: 'True'
+  comments: .nan
+contributing_activity:
+  type: Array[Text]
+  group: cause
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_outdoor_activities
+  description: Activities that contributed to the ignition or spread of the fire.
+  example: see type_outdoor_activities
+  comments: .nan
+structures_involved:
+  type: Integer
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Total number of structures impacted by the fire.
+  example: '6'
+  comments: .nan
+minor_involved:
+  type: Boolean
+  group: .nan
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether a minor was involved in purposeful ignition of fire.
+  example: 'False'
+  comments: .nan
+fire_perimeter:
+  type: Multipolygon
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Fire perimeter as a geometry/collection of points.
+  example: MULTIPOLYGON()
+  comments: .nan
+acres_burned:
+  type: Numeric
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of acres burned during the fire.
+  example: '200'
+  comments: .nan
+fuel_arrangment:
+  type: Array[Text]
+  group: fuels
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_arrangement
+  description: Arrangement of fuels involved.
+  example: see type_fuel_arrangement
+  comments: .nan
+fuel_size:
+  type: Array[Text]
+  group: fuels
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_size
+  description: Size of fuels involved (in inches).
+  example: see type_fuel_size
+  comments: .nan
+fuel_distribution:
+  type: Array[Text]
+  group: fuels
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_distribution
+  description: Distribution of fuels invovled.
+  example: see type_fuel_distribution
+  comments: .nan
+elevation:
+  type: Integer
+  group: .nan
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Elevation in feet.
+  example: '1400'
+  comments: .nan
+relative_position:
+  type: Array[Text]
+  group: .nan
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_relative_position
+  description: Relative position of outdoor fire.
+  example: Valley Bottom
+  comments: .nan
+aspect:
+  type: Array[Text]
+  group: .nan
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_aspect
+  description: Aspect of outdoor fire
+  example: NW
+  comments: .nan
+flame_length:
+  type: Integer
+  group: .nan
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Length of flame in feet.
+  example: .nan
+  comments: .nan
+rate_of_spread:
+  type: Array[Text]
+  group: .nan
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_rate_of_spread
+  description: Rate of fire spread of the outdoor fire.
+  example: .nan
+  comments: .nan
+description_of_events:
+  type: Text
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.
+  example: .nan
+  comments: Free text
+recommendations:
+  type: Text
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Describe the suggestions or changes recommended to prevent recurrence.
+  example: .nan
+  comments: Free text

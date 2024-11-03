@@ -1,0 +1,15 @@
+name,type,group,possible_if,db_required,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+event_id,Integer,activity,,,True,internally generated,Single,False,,Unique identifier for the CRR event.,,
+virtual_event,Boolean,activity,,,False,,Single,False,,Whether the event was held virtually.,False,
+location,Module,activity,virtual_event = FALSE,,False,,Single,False, mod_civic_location,Address of the CRR event.,See mod_civic_location,
+event_start,Datetime (UTC),activity,,,False,,Single,False,,Time of event start,08:30:00,
+event_end,Datetime (UTC),activity,,,False,,Single,False,,Time of event end,10:30:00,
+date,Datetime (UTC),activity,,,False,,Single,False,,Date of the CRR event.,2024-08-01 00:00:00,
+location_use,Array[Text],activity,,,False,,Single,True,type_location_use,Location type where the event took place.,See type_location_use,
+activity_category,Array[Text],activity,,,False,,Multi,True,type_crr_activities,Category of activity or event.,See type_crr_activities,
+activity_type,Array[Text],activity,,,False,,Multi,True,type_crr_activities,Specific activity or event completed.,See type_crr_activities,
+activity_campaign,Array[Text],activity,,,False,,Multi,True,type_crr_activities,Campaign to which the activity is attributed.,See type_crr_activities,
+target_audience,Array[Text],impact,,,False,,Multi,True,type_target_audience,The target audience of the community event.,K-12,
+persons_attended,Integer,impact,,,False,,Single,False,,Number of persons who attended the CRR event.,20,"For example, 100 people were at the event."
+persons_engaged,Integer,impact,,,False,,Single,False,,Number of persons who were directly engaged during the CRR event.,5,"For example, 5 people signed up for smoke alarms out of the 100 who attended."
+notes,Text,,,,False,,Single,False,,Notes from CRR event,,Free text

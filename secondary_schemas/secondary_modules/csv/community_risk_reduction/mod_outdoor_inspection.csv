@@ -1,0 +1,13 @@
+name,type,group,possible_if,db_required,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+inspection_id,Integer,,,,True,Internally-generated,Single,False,,NERIS-generated unique identifier for the inspection.,,
+date,Datetime (UTC),,,,False,,Single,False,,Date of inspection.,2024-08-01 00:00:00,
+location,Module,parcel,,,False,,Single,True,mod_civic_location,Address of the parcel (see civic location),See mod_civic_location,
+location_use,Array[Text],parcel,,,False,,Multi,True,type_location_use,Location use of primary structure.,See type_location_use,
+distance_between_structures,Float,parcel,,,False,,Single,False,,Distance between nearest structures on primary parcel.,100,
+distance_unit,Array[Text],parcel,,,False,,Single,True,type_distance_unit,Unit type of measured distance to nearest structure.,feet,
+structures_across_parcel,Float,parcel,,,False,,Single,False,,Distance between nearest structures on adjacent parcel.,100,
+distance_unit,Array[Text],parcel,,,False,,Single,True,type_distance_unit,Unit type of measured distance to nearest structure.,feet,
+fuel_arrangement,Array[Text],parcel,,,False,,Multi,True,type_fuel_arrangment,Arrangement of fuels within 100 feet of structure.,See type_fuel_arrangment,
+fuel_size,Array[Text],parcel,,,False,,Multi,True,type_fuel_size,Size of fuels within 100 feet of structure.,See type_fuel_size,
+fuel_distribution,Array[Text],parcel,,,False,,Multi,True,type_fuel_distribution,Distribution of fuels within 100 feet of structure.,See type_fuel_distribution,
+foundation_type,Array[Text],parcel,,,False,,Single,True,type_foundation,Type of foundation of the structure.,Poured concrete slab,

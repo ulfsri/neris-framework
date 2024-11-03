@@ -1,0 +1,234 @@
+inspection_id:
+  type: Integer
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: 1.0
+  computed_from: internally-generated
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Inspection ID for NERIS Report
+  example: .nan
+  comments: .nan
+entity_inspection_id:
+  type: Text
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Internal Inspection ID, if different from NERIS Inspection ID
+  example: Varies
+  comments: .nan
+location:
+  type: Module
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: mod_civic_location
+  description: Address of the parcel (see civic location)
+  example: See mod_civic_location
+  comments: .nan
+location_use:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_location_use
+  description: Location use of primary structure.
+  example: See type_location_use
+  comments: .nan
+date:
+  type: Datetime (UTC)
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Date of inspection.
+  example: '2024-08-01 00:00:00'
+  comments: .nan
+reinspection:
+  type: Boolean
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the inspection is a follow-up or reinspection.
+  example: 'False'
+  comments: .nan
+previous_inspection_id:
+  type: Integer
+  group: inspection
+  possible_if: reinspection = TRUE
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Inspection ID of previous inspection, if applicable.
+  example: Varies
+  comments: .nan
+building_codes_reqd:
+  type: Text
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 0.0
+  value_set_location: .nan
+  description: Building codes required by the structure type.
+  example: Varies
+  comments: .nan
+building_codes_violated:
+  type: Text
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 0.0
+  value_set_location: .nan
+  description: Building codes violated.
+  example: Varies
+  comments: .nan
+permit_id:
+  type: Text
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 0.0
+  value_set_location: .nan
+  description: Permit number, if inspection is related to permitting.
+  example: Varies
+  comments: .nan
+structure_unit:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the inspection is being completed on a unit within a structure.
+  example: .nan
+  comments: .nan
+unit_number:
+  type: Text
+  group: structure
+  possible_if: structure_unit = TRUE
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Unit number or identifier within structure.
+  example: .nan
+  comments: .nan
+structure_square_feet:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Square footage of structure.
+  example: '2000'
+  comments: .nan
+unit_square_feet:
+  type: Integer
+  group: structure
+  possible_if: structure_unit = TRUE
+  db_required: .nan
+  computed: .nan
+  computed_from: .nan
+  cardinality: .nan
+  value_set: .nan
+  value_set_location: .nan
+  description: Square footage of unit.
+  example: .nan
+  comments: .nan
+occupancy_load:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Occupancy load of structure.
+  example: '24'
+  comments: .nan
+fire_doors_operable:
+  type: Boolean
+  group: risk_reduction
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether fire doors are operating as intended.
+  example: .nan
+  comments: .nan
+risk_reduction_alarms:
+  type: Module
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: mod_risk_reduction
+  description: Fire protection and risk reduction factors present.
+  example: See mod_risk_reduction
+  comments: .nan
+notes:
+  type: Text
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Additional notes regarding the inspection.
+  example: .nan
+  comments: Free text

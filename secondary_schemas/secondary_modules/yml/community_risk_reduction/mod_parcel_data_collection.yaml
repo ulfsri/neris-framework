@@ -1,0 +1,312 @@
+inspection_id:
+  type: Integer
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: Internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: NERIS-generated unique identifier for inspection.
+  example: .nan
+  comments: .nan
+inspection_date:
+  type: Datetime(UTC)
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Date of parcel inspection.
+  example: '2025-01-18 00:00:00'
+  comments: .nan
+parcel_id:
+  type: Integer
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: Internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: NERIS-generated unique identifier for the parcel.
+  example: .nan
+  comments: .nan
+authority_parcel_id:
+  type: Integer
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Unique identifier for the parcel as denoted by the assessor or maintaining authority.
+  example: .nan
+  comments: .nan
+location:
+  type: Module
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Address of the parcel (see civic location)
+  example: See mod_civic_location
+  comments: .nan
+location_use:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_location_use
+  description: Location use of primary structure.
+  example: See type_location_use
+  comments: .nan
+zoning:
+  type: Text
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_zoning
+  description: Code for the zoning type or district attributed to the parcel.
+  example: see type_zoning
+  comments: .nan
+flood_plane:
+  type: Boolean
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the parcel exists within a flood plane.
+  example: .nan
+  comments: .nan
+lot_size:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Total lot area of the parcel.
+  example: '4'
+  comments: .nan
+lot_units:
+  type: Text
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_lot_units
+  description: 'Unit of measurement for lot_size '
+  example: square feet, acres
+  comments: .nan
+unit_count:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of units on the parcel, including dwelling units, commercial units, and storage units.
+  example: '1'
+  comments: .nan
+structure_inspection:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_structure_inspection
+  description: Detailed information on structure inspection.
+  example: See mod_structure_inspection
+  comments: .nan
+commerical_inspection:
+  type: Boolean
+  group: structure
+  possible_if: structure_inspection =TRUE & location use = commercial
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_commerical_inspection
+  description: Detailed information on commericial structure.
+  example: See mod_commercial_inspection
+  comments: .nan
+outdoor_inspection:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_outdoor_inspection
+  description: Detailed information on outdoor spacing and fuel.
+  example: See mod_outdoor_inspection
+  comments: .nan
+building_value:
+  type: Computed
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: augmentation mod_parcel
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Total assessed value of the primary building or structure on the parcel in USD
+  example: '450000'
+  comments: .nan
+land_value:
+  type: Computed
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: augmentation mod_parcel
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Total assessed value of the land of a property, not including buildings or other structural improvements.
+  example: '300000'
+  comments: .nan
+other_value:
+  type: Computed
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: augmentation mod_parcel
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Total assessed value of structures or improvements that are not otherwise included in the building value.
+  example: '100000'
+  comments: .nan
+total_value:
+  type: Computed
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: building_value + land_value + other_value
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Computed.
+  example: '850000'
+  comments: .nan
+last_sale_date:
+  type: Datetime(UTC)
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Date of last-known sale.
+  example: '2023-10-22 00:00:00'
+  comments: .nan
+last_sale_price:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Sale price at last-known date of sale.
+  example: '390000'
+  comments: .nan
+map_number:
+  type: Integer
+  group: assessment
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Map or sheet number of the assessor's original map.
+  example: '147'
+  comments: .nan
+map_parcel_id:
+  type: Integer
+  group: assessment
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Unique identifier appearing on the assessor's original map.
+  example: Varies
+  comments: .nan
+edit_date:
+  type: Datetime(UTC)
+  group: assessment
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Date of edit to parcel information.
+  example: '2024-01-12 00:00:00'
+  comments: .nan
+notes:
+  type: Text
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: .nan
+  example: .nan
+  comments: Free text.

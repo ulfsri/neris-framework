@@ -1,0 +1,96 @@
+neris_incident_id:
+  type: Text
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Unique NERIS incident identifier.
+  example: .nan
+  comments: .nan
+incident_type:
+  type: Array[Text]
+  group: incident
+  possible_if: .nan
+  computed: true
+  computed_from: core_incident
+  cardinality: Multi
+  value_set: .nan
+  value_set_location: .nan
+  description: Computed from incident module, opens fire, ems, hazmit modules
+  example: .nan
+  comments: .nan
+actions_taken:
+  type: Array[Text]
+  group: incident
+  possible_if: .nan
+  computed: true
+  computed_from: type_actions_tactics
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_action_tactic
+  description: Actions and tactics employed by individual on-scene.
+  example: See type_actions_tactics
+  comments: .nan
+traumatic_event:
+  type: Text
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: type_traumatic_event
+  description: Exposure from traumatic event as part of incident response.
+  example: See type_traumatic_event
+  comments: .nan
+unit:
+  type: Array[Text]
+  group: response
+  possible_if: .nan
+  computed: true
+  computed_from: mod_unit_response
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: mod_unit_response
+  description: Information on the unit response to the incident.
+  example: See mod_unit_response
+  comments: .nan
+on_scene_duration:
+  type: Time
+  group: response
+  possible_if: .nan
+  computed: true
+  computed_from: core_mod_dispatch
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Time duration unit was on the incident.
+  example: .nan
+  comments: .nan
+asleep_at_alarm:
+  type: Boolean
+  group: response
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the first responder was asleep at the time of the alarm.
+  example: 'True'
+  comments: .nan
+exposure_type:
+  type: Array[Text]
+  group: exposure
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_exposure
+  description: Type of exposure experienced during incident.
+  example: Smoke
+  comments: .nan

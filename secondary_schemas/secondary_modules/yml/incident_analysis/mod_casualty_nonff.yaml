@@ -1,0 +1,72 @@
+nonff_rescue_birth_month_year:
+  group: general
+  type: Date
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: The date of birth of the person(s) injured or rescued.
+  example: '1972-06-01 00:00:00'
+  comments: .nan
+nonff_rescue_gender:
+  group: general
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_gender.value
+  description: The gender of the person(s) injured or rescued.
+  example: See type_gender table
+  comments: .nan
+nonff_rescue_race:
+  group: general
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_race.value
+  description: The race of the person(s) injured or rescued.
+  example: See type_race table
+  comments: .nan
+nonff_casualty_casualty_type:
+  group: casualty
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_casualty.value
+  description: Whether the person was uninjured, injured nonfatally, injured fatally
+  example: See type_casualty table
+  comments: .nan
+nonff_casualty_casualty_cause:
+  group: casualty.injured
+  type: Text
+  possible_if: casualty_type in ('INJURED NONFATALLY', 'INJURED FATALLY')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_casualty_cause.value
+  description: The apparent cause of the injury or fatality
+  example: See type_casualty_cause table
+  comments: .nan
+nonff_casualty_room:
+  group: general
+  type: Array[Text]
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_room
+  description: The room in which the casualty occured / the room from which the person was rescued.
+  example: .nan
+  comments: .nan

@@ -1,0 +1,72 @@
+consumer_product_type:
+  type: Array[Text]
+  group: consumer_product
+  possible_if: consumer_product_involved = TRUE
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_consumer_product
+  description: Consumer products involved in incident.
+  example: Christmas tree
+  comments: .nan
+product_contribution:
+  type: Array[Text]
+  group: consumer_product
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_product_contribution
+  description: How the consumer product was involved in the incident.
+  example: Ignition
+  comments: .nan
+consumer_product_manufacturer:
+  type: Text
+  group: consumer_product
+  possible_if: consumer_product_involved = TRUE
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Manufacturer of consumer product involve in incident.
+  example: .nan
+  comments: .nan
+consumer_product_description:
+  type: Text
+  group: consumer_product
+  possible_if: consumer_product_involved = TRUE
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Short description of consumer product.
+  example: 3-seat sofa
+  comments: .nan
+consumer_product_model_number:
+  type: Text
+  group: consumer_product
+  possible_if: consumer_product_involved = TRUE
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Model number of consumer product, if applicable.
+  example: .nan
+  comments: .nan
+notes:
+  type: .nan
+  group: .nan
+  possible_if: .nan
+  computed: .nan
+  computed_from: .nan
+  cardinality: .nan
+  value_set: .nan
+  value_set_location: .nan
+  description: .nan
+  example: .nan
+  comments: .nan

@@ -1,0 +1,390 @@
+inspection_id:
+  type: Integer
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: Internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: NERIS-generated unique identifier for the inspection.
+  example: .nan
+  comments: .nan
+date:
+  type: Datetime (UTC)
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Date of inspection.
+  example: '2024-08-01 00:00:00'
+  comments: .nan
+location:
+  type: Module
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Address of the parcel (see civic location)
+  example: See mod_civic_location
+  comments: .nan
+location_use:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_location_use
+  description: Location use of primary structure.
+  example: See type_location_use
+  comments: .nan
+units_in_structure:
+  type: Integer
+  group: structure
+  possible_if: multi_unit = TRUE
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of units within the structure.
+  example: '3'
+  comments: .nan
+vacant_status:
+  type: Boolean
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the residence is vacant.
+  example: 'False'
+  comments: .nan
+vacancy_type:
+  type: Array[Text]
+  group: parcel
+  possible_if: vacant_status = TRUE
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_vacancy
+  description: Type of vacancy of residence.
+  example: Abandoned
+  comments: .nan
+year_built:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Year that the primary structure on the parcel was built.
+  example: '2001'
+  comments: .nan
+building_area:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Square footage of the primary structure on the parcel in square feet.
+  example: '2200'
+  comments: .nan
+stories:
+  type: Integer
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of above-ground stories in the primary structure.
+  example: '3'
+  comments: .nan
+basement:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether a basement is present.
+  example: 'True'
+  comments: .nan
+construction:
+  type: Array[Text]
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_construction
+  description: Construction type of the structure.
+  example: See type_construction
+  comments: .nan
+roof_material:
+  type: Array[Text]
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_roof_material
+  description: Roof material of the structure.
+  example: See type_roof_material
+  comments: .nan
+solar_panels:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether solar panels are installed on the roof.
+  example: .nan
+  comments: .nan
+risk_reduction_alarms:
+  type: Module
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_risk_reduction
+  description: Fire protection and risk reduction factors present.
+  example: See mod_risk_reduction
+  comments: .nan
+reinspection_required:
+  type: Boolean
+  group: inspection
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether a reinspection will be required following completion.
+  example: 'False'
+  comments: .nan
+eaves:
+  type: Array[Text]
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_eaves
+  description: Eave type observed on the structure.
+  example: See type_eaves
+  comments: .nan
+vent_screen:
+  type: Array[Text]
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_vents
+  description: Vent/screen type observed on the structure.
+  example: See type_vents
+  comments: .nan
+exterior_finish:
+  type: Array[Text]
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_exterior_finish
+  description: Exterior finish of the structure.
+  example: See type_finish
+  comments: .nan
+window_panes:
+  type: Array[Text]
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_window_panes
+  description: Window pane type observed on the structure.
+  example: See type_windows
+  comments: .nan
+hurricane_clips:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the structure is fitted with hurricane clips.
+  example: .nan
+  comments: .nan
+tornado_safe_room:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the structure is fitted with a tornado shelter room.
+  example: .nan
+  comments: .nan
+outbuildings:
+  type: Integer
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of outbuildings observed on the parcel.
+  example: '3'
+  comments: .nan
+deck_porch_grade:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_deck_porch_grade
+  description: Grade of deck or porch, if one was observed.
+  example: See type_deck_porch_grade
+  comments: .nan
+deck_porch_material:
+  type: Array[Text]
+  group: parcel
+  possible_if: deck_porch_grade != No Deck Present
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_deck_porch_material
+  description: Material of deck or porch, if one was observed.
+  example: See type_deck_porch_material
+  comments: .nan
+attached_addition:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_attached
+  description: Type of attached addition or modification, if one was observed.
+  example: See type_attached
+  comments: .nan
+attached_addition_materials:
+  type: Array[Text]
+  group: parcel
+  possible_if: attached_addition != None
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_attached_material
+  description: Material of attached addition.
+  example: See type_attached_material
+  comments: .nan
+distance_to_nearest_structure:
+  type: Float
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Distance to nearest structure.
+  example: '100'
+  comments: .nan
+distance_unit:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_distance_unit
+  description: Unit type of measured distance to nearest structure.
+  example: feet
+  comments: .nan
+assessed_value:
+  type: Integer
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Assessed dollar amount of structure.
+  example: '300000'
+  comments: .nan

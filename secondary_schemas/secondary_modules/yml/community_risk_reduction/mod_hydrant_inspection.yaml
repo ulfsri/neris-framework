@@ -1,0 +1,169 @@
+hydrant_id:
+  type: Text
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: 'Unique identifier for the hydrant. '
+  example: .nan
+  comments: .nan
+inspection_id:
+  type: Integer
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: Internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: NERIS-generated identifier for inspection.
+  example: .nan
+  comments: .nan
+inspection_date:
+  type: Datetime (UTC)
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Date on which the inspection was completed.
+  example: .nan
+  comments: .nan
+latitude:
+  type: Float
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: Pindrop
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Latitude of the hydrant location.
+  example: .nan
+  comments: .nan
+longitude:
+  type: Float
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: Pindrop
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Longitude of the hydrant location.
+  example: .nan
+  comments: .nan
+operable:
+  type: Boolean
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the hydrant was operable during the test.
+  example: .nan
+  comments: .nan
+functional_impediment:
+  type: Boolean
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether there were any fuctional impediments observed.
+  example: .nan
+  comments: .nan
+impediment_type:
+  type: Array[Text]
+  group: .nan
+  possible_if: functional_impediment = TRUE
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_hydrant_impediment
+  description: Types(s) of impediments to the functionality of the hydrant.
+  example: .nan
+  comments: .nan
+maintenence_referred:
+  type: Boolean
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether maintenance or a referral to the water department is needed.
+  example: .nan
+  comments: .nan
+private_hydrant:
+  type: Boolean
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the hydrant is private as opposed to a public water supply.
+  example: .nan
+  comments: .nan
+main_size:
+  type: Integer
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Water main size in inches.
+  example: .nan
+  comments: .nan
+nfpa_rating_color:
+  type: Array[Text]
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_nfpa_rating
+  description: .nan
+  example: .nan
+  comments: .nan
+notes:
+  type: Text
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Additional notes regarding the hydrant inspection.
+  example: .nan
+  comments: .nan

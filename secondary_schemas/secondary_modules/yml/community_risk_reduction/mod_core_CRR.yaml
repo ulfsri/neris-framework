@@ -1,0 +1,60 @@
+NERIS_ID:
+  type: Text
+  group: dispatch
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: dept.neris_id
+  description: Unique identifier for the agency in NERIS.  Entity type plus state and county FIPS plus with random trailing characters.
+  example: FD06067001
+  comments: .nan
+home_location_visit:
+  type: Boolean
+  group: visit
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_home_location_visit
+  description: Set of details for each home location visit.
+  example: .nan
+  comments: .nan
+community_event:
+  type: Boolean
+  group: event
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_community_event
+  description: Set of details for a community event.
+  example: .nan
+  comments: .nan
+mod_parcel_data_collection:
+  type: Boolean
+  group: parcel
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_parcel_data_collection
+  description: See of details about a parcel that opens structure, commercial, and outdoor inspections.
+  example: .nan
+  comments: .nan
+hydrant_inspection:
+  type: Boolean
+  group: hydrant
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_hydrant_inspection
+  description: Set of details for a hydrant inspection.
+  example: .nan
+  comments: .nan

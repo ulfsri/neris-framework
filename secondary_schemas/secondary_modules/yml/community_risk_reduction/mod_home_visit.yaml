@@ -1,0 +1,364 @@
+event_id:
+  type: Integer
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: internally generated
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Unique identifier for the CRR visit.
+  example: .nan
+  comments: .nan
+location:
+  type: Module
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Location address.
+  example: See mod_civic_location
+  comments: .nan
+date:
+  type: Datetime (UTC)
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Date of home visit.
+  example: '2024-08-01 00:00:00'
+  comments: .nan
+units:
+  type: Array[Text]
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: entity.units_table
+  description: Unit(s) or companies presernt during the home visit.
+  example: A408
+  comments: .nan
+time_arrival:
+  type: Datetime (UTC)
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Time of arrival at civic location.
+  example: 08:30:00
+  comments: .nan
+time_departure:
+  type: Datetime (UTC)
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Time of departure from civic location.
+  example: '10:30:00'
+  comments: .nan
+not_engaged:
+  type: Boolean
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the person could not or would not be engaged.
+  example: 'True'
+  comments: .nan
+reason_not_engaged:
+  type: Text
+  group: activity
+  possible_if: refused_services = TRUE
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_reason_not_engaged
+  description: Reason the person could not or would not engage.
+  example: Language barrier
+  comments: .nan
+location_use:
+  type: Array[Text]
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_location_use
+  description: Location type where visited.
+  example: See type_location_use
+  comments: .nan
+num_alarms:
+  type: Integer
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: The number of smoke alarms distributed at the location.
+  example: '2'
+  comments: .nan
+activity_type:
+  type: Array[Text]
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_crr_activities
+  description: Specific activity or event completed.
+  example: See type_crr_activities
+  comments: .nan
+activity_campaign:
+  type: Array[Text]
+  group: activity
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_crr_activities
+  description: Campaign to which the activity is attributed.
+  example: See type_crr_activities
+  comments: .nan
+risk_reduction_alarms:
+  type: Module
+  group: risk_reduction
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_risk_reduction
+  description: Risk reduction submodule focused on smoke alarm presence and operability.
+  example: See mod_risk_reduction
+  comments: .nan
+activity_category:
+  type: Array[Text]
+  group: risk_reduction
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_crr_activities
+  description: Category of activity or event.
+  example: See type_crr_activities
+  comments: .nan
+health_problems:
+  type: Array[Text]
+  group: community health
+  possible_if: type_crr_activities value_1 = Community Health
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_health_problems
+  description: Type of health problems encountered.
+  example: See type_health_problems
+  comments: .nan
+participation_capability:
+  type: Boolean
+  group: community health
+  possible_if: type_crr_activities value_1 = Community Health
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the person is capable of participating  in their own care.
+  example: 'False'
+  comments: .nan
+alcohol_tobacco_drug_use:
+  type: Array[Text]
+  group: community health
+  possible_if: type_crr_activities value_1 = Community Health
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_alcohol_tobacco_drugs
+  description: Whether the person is an alcohol, drug or tobacco user.
+  example: 'False'
+  comments: .nan
+referral:
+  type: Boolean
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether the visit was in response to a referral.
+  example: 'True'
+  comments: .nan
+referral_type:
+  type: Array[Text]
+  group: services
+  possible_if: referral = TRUE
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_referral
+  description: Type of referral.
+  example: See type_referral
+  comments: .nan
+num_residents_18_older:
+  type: Integer
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of residents or occupants 18 years of age or older.
+  example: '2'
+  comments: .nan
+num_residents_under_18:
+  type: Integer
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of residents or occupants under the age of 18.
+  example: '2'
+  comments: .nan
+num_residents_65_older:
+  type: Integer
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of residents aged 65 or older.
+  example: 'False'
+  comments: .nan
+num_residents_disabilities:
+  type: Integer
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Number of residents with disabilities, physical or intellectual.
+  example: 'True'
+  comments: .nan
+possible_hoarding:
+  type: Boolean
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether hoarding conditions were apparent during the home visit.
+  example: 'False'
+  comments: .nan
+follow_up_needed:
+  type: Boolean
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether a follow up is needed.
+  example: 'True'
+  comments: .nan
+services_referred:
+  type: Boolean
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether social or other services will be referred following visit.
+  example: 'True'
+  comments: .nan
+type_services_referred:
+  type: Array[Text]
+  group: services
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_services_referred
+  description: Type of social services, if any, were referred following the home visit.
+  example: See type_services_referred
+  comments: .nan
+notes:
+  type: Text
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Additional notes regarding the home visit.
+  example: .nan
+  comments: Free Text

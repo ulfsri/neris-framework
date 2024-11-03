@@ -1,0 +1,312 @@
+occupant_count:
+  type: Interger
+  group: structure
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Number of people occupying the structure or specifc unit within the structure at the time of the incident.
+  example: '4'
+  comments: .nan
+parcel_details:
+  type: Module
+  group: structure
+  possible_if: .nan
+  computed: 1.0
+  computed_from: incident_module
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Characteristics of the parcel at which the incident occurred. Consists of the fields of mod_parcel.
+  example: see mod_parcel
+  comments: Post process from incident module
+inspection_required:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Based on local or other codes, requirement of structure to be inspected.
+  example: 'True'
+  comments: User would need knowledge and access to department's inspection data
+inspection_date:
+  type: DateTime (UTC)
+  group: structure
+  possible_if: inspection_required = TRUE
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Date of last inspection
+  example: '2015-05-15 00:00:00'
+  comments: .nan
+inspection_findings:
+  type: Text
+  group: structure
+  possible_if: inspection_date not null
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Unresolved code violations from inspection
+  example: 'True'
+  comments: .nan
+non_permitted_modifcations:
+  type: Boolean
+  group: structure
+  possible_if: inspection_date not null
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Presence of structure modifications that were nonpermitted
+  example: 'False'
+  comments: User would need access to local jurisdiction building/permitting data
+structure_unstable:
+  type: Boolean
+  group: structure
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the structure was considered unstable prior to incident.
+  example: 'True'
+  comments: .nan
+room_of_origin:
+  type: Array[Text]
+  group: ignition
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: type_room
+  description: The room of origin of the fire.
+  example: See type_room value
+  comments: .nan
+intersectional_space:
+  type: Boolean
+  group: ignition
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the fire began in an intersectional space, such as a duct or crawl space.
+  example: .nan
+  comments: .nan
+intersectional_space_origin:
+  type: Array[Text]
+  group: ignition
+  possible_if: intersectional_space_origin = TRUE
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: type_intersectional_space
+  description: The type of intersectional space where the fire originated.
+  example: .nan
+  comments: .nan
+level_of_origin:
+  type: Numeric
+  group: ignition
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Levels above or below ground where ignition occurred.
+  example: '2'
+  comments: Negative values are below grade.
+nan:
+  type: .nan
+  group: .nan
+  possible_if: .nan
+  computed: .nan
+  computed_from: .nan
+  cardinality: .nan
+  value_set: .nan
+  value_set_location: .nan
+  description: .nan
+  example: .nan
+  comments: .nan
+cause_category:
+  type: Array[Text]
+  group: ignition
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_general_fire_cause
+  description: Category of the cause of the fire.
+  example: See type_general_fire_cause
+  comments: .nan
+general_cause:
+  type: Array[Text]
+  group: ignition
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_indoor_cause
+  description: General cause of the fire.
+  example: See type_fire_indoor_cause
+  comments: .nan
+specific_cause:
+  type: Array[Text]
+  group: ignition
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_indoor_cause
+  description: Specific cause of the fire.
+  example: See type_fire_indoor_cause
+  comments: .nan
+initial_detection:
+  type: Array[Text]
+  group: detection
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: .nan
+  description: Describes how the fire was intitally detected.
+  example: See type_initial_detection
+  comments: .nan
+risk_reduction:
+  type: Module
+  group: detection
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: .nan
+  example: See incident/mod_risk_reduction
+  comments: .nan
+occupants_displaced:
+  type: Boolean
+  group: flame_spread
+  possible_if: .nan
+  computed: 1.0
+  computed_from: incident_module
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the occupants were displaced by the incident for any period of time.
+  example: 'True'
+  comments: Can come from incident module and confirmed or completed during analysis
+interior_doors:
+  type: Boolean
+  group: flame_spread
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the status of any interior doors impacted the fire prior to FD involvement.
+  example: 'True'
+  comments: .nan
+exterior_doors:
+  type: Boolean
+  group: flame_spread
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the status of any opened or closed exterior doors impacted the fire prior to FD involvement.
+  example: 'True'
+  comments: .nan
+windows:
+  type: Boolean
+  group: flame_spread
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether the status of any opened or closed windows impacted the fire prior to FD involvement.
+  example: 'True'
+  comments: .nan
+spread:
+  type: Array[Text]
+  group: flame_spread
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_flame_spread
+  description: .nan
+  example: .nan
+  comments: .nan
+contributing_hazards:
+  type: Array[Text]
+  group: ignition
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_contributing_hazards
+  description: Contributing factors or other hazardous conditions.
+  example: .nan
+  comments: .nan
+minor_involved:
+  type: Boolean
+  group: .nan
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Whether a minor was involved in purposeful ignition of fire.
+  example: 'False'
+  comments: .nan
+description_of_events:
+  type: Text
+  group: .nan
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.
+  example: .nan
+  comments: Free text.
+recommendations:
+  type: Text
+  group: .nan
+  possible_if: .nan
+  computed: 0.0
+  computed_from: .nan
+  cardinality: Single
+  value_set: 0.0
+  value_set_location: .nan
+  description: Describe the suggestions or changes recommended to prevent recurrence.
+  example: .nan
+  comments: Free text.

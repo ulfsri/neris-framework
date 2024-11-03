@@ -1,0 +1,7 @@
+name,type,group,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+consumer_product_type,Array[Text],consumer_product,consumer_product_involved = TRUE,0.0,,Multi,1.0,type_consumer_product,Consumer products involved in incident.,Christmas tree,
+product_contribution,Array[Text],consumer_product,,0.0,,Multi,1.0,type_product_contribution,How the consumer product was involved in the incident.,Ignition,
+consumer_product_manufacturer,Text,consumer_product,consumer_product_involved = TRUE,0.0,,Single,0.0,,Manufacturer of consumer product involve in incident.,,
+consumer_product_description,Text,consumer_product,consumer_product_involved = TRUE,0.0,,Single,0.0,,Short description of consumer product.,3-seat sofa,
+consumer_product_model_number,Text,consumer_product,consumer_product_involved = TRUE,0.0,,Single,0.0,,"Model number of consumer product, if applicable.",,
+notes,,,,,,,,,,,

@@ -1,0 +1,143 @@
+inspection_id:
+  type: Integer
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: true
+  computed_from: Internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: NERIS-generated unique identifier for the inspection.
+  example: .nan
+  comments: .nan
+date:
+  type: Datetime (UTC)
+  group: .nan
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Date of inspection.
+  example: '2024-08-01 00:00:00'
+  comments: .nan
+location:
+  type: Module
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Address of the parcel (see civic location)
+  example: See mod_civic_location
+  comments: .nan
+location_use:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_location_use
+  description: Location use of primary structure.
+  example: See type_location_use
+  comments: .nan
+distance_between_structures:
+  type: Float
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Distance between nearest structures on primary parcel.
+  example: '100'
+  comments: .nan
+distance_unit:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_distance_unit
+  description: Unit type of measured distance to nearest structure.
+  example: feet
+  comments: .nan
+structures_across_parcel:
+  type: Float
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Distance between nearest structures on adjacent parcel.
+  example: '100'
+  comments: .nan
+fuel_arrangement:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_arrangment
+  description: Arrangement of fuels within 100 feet of structure.
+  example: See type_fuel_arrangment
+  comments: .nan
+fuel_size:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_size
+  description: Size of fuels within 100 feet of structure.
+  example: See type_fuel_size
+  comments: .nan
+fuel_distribution:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_distribution
+  description: Distribution of fuels within 100 feet of structure.
+  example: See type_fuel_distribution
+  comments: .nan
+foundation_type:
+  type: Array[Text]
+  group: parcel
+  possible_if: .nan
+  db_required: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_foundation
+  description: Type of foundation of the structure.
+  example: Poured concrete slab
+  comments: .nan

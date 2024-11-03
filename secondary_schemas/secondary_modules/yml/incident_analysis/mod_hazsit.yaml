@@ -1,0 +1,168 @@
+material_released:
+  type: Text
+  group: material
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Hazardous material involved in the incident
+  example: .nan
+  comments: .nan
+hazardous_class:
+  type: Array[Text]
+  group: material
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_hazard_dot
+  description: DOT hazardous class of the material released.
+  example: See type_hazard_dot
+  comments: .nan
+electrification:
+  type: Boolean
+  group: material
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: 'Whether an battery gas release or potential release were involved in causing or exacerbating the hazard. '
+  example: 'False'
+  comments: .nan
+hazard_physical_state:
+  type: Array[Text]
+  group: material
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_hazard_physical_state
+  description: Physical state of the hazardous material.
+  example: See type_hazard_physical_state
+  comments: .nan
+hazsit_type:
+  type: Array[Text]
+  group: material
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_hazsit_type
+  description: Result type of the incident.
+  example: See type_hazsit_type
+  comments: .nan
+quantity_released:
+  type: Integer
+  group: material
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Quantity of material released.
+  example: '500'
+  comments: .nan
+quantity_units:
+  type: Array[Text]
+  group: material
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_hazard_unit
+  description: Units of quantity released.
+  example: See type_hazard_unit
+  comments: .nan
+cause_of_release:
+  type: Array[Text]
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_hazard_cause
+  description: General cause of the incident
+  example: See type_hazard_cause
+  comments: .nan
+release_factors:
+  type: Array[Text]
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_hazsit_release_factors
+  description: Factors impacting hazardous incident.
+  example: See type_hazsit_release_factors
+  comments: Value 1 and Value 2 for primary and secondary factors
+evacuation_count:
+  type: Integer
+  group: impact
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: How many members of the general public were evacuated as a result of the hazardous material?
+  example: '10'
+  comments: .nan
+transportation_impact:
+  type: Boolean
+  group: impact
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether a major transportation artery or facility was closed.
+  example: True or False
+  comments: .nan
+hazmat_disposition:
+  type: Array[Text]
+  group: impact
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_hazsit_disposition
+  description: Outcome of hazardous situation.
+  example: See type_hazsit_disposition
+  comments: .nan
+description_of_events:
+  type: Text
+  group: impact
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.
+  example: .nan
+  comments: Free text.
+recommendations:
+  type: Text
+  group: impact
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Describe the suggestions or changes recommended to prevent recurrence.
+  example: .nan
+  comments: Free text.

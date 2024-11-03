@@ -1,0 +1,15 @@
+name,type,group,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+NERIS_ID,Text,dispatch,,False,,Single,True,dept.neris_id,Unique identifier for the agency in NERIS.  Entity type plus state and county FIPS plus with random trailing characters.,FD06067001,
+incident_number,Text,incident,,False,,Single,False,,Unique numeric identifier for the event that requires dispatch of department resources.,FDID_20230814000001,Comes from Dispatch or Incident module
+incident_type,Array[Text],incident,,True,mod_incident,Multi,True,value_1 and value_2,First and Second level disposition or final incident type as assessed on scene.,See type_inc table value 2,Comes from Incident module and drives other modules within analysis
+human_factors,Array[Text],incident,,False,,Multi,True,type_human_factors,Human factors that may have contributed to the incident outcome.,See type_human_factors,Which of these are potential options
+consumer_product_involved,Boolean,consumer_product,,False,,Single,False,module_consumer_products,Whether a consumer product was a contributed factor to the cause of the inicident.,True,Leads to consumer product module
+analysis_start_date,Datetime (UTC),analysis,,False,,Single,False,,Date of incident analysis start,2024-05-07 00:00:00,
+analysis_end_date,,analysis,,False,,Single,False,,Date of incident analysis close.,,
+casualties_ff,Module,incident,,False,,Multi,True,module casualties_ff,Whether there were firefighter casualties during the incident that may not have been captured previously.,,
+casualties_nonff,Module,incident,,False,,Multi,True,module_casualties_nonff,Whether there were non firefighter casualties during the incident that may not have been captured previously.,,
+property_value,Integer,analysis,,False,,Single,False,,"Estimated property value, if applicable.",,
+contents_value,Integer,analysis,,False,,Single,False,,"Estimated contents value, if applicable.",,
+property_value_loss,Integer,analysis,,False,,Single,False,,"Estimated property value loss, if applicable.",,
+contents_value_loss,Integer,analysis,,False,,Single,False,,"Estimated contents value loss, if applicable.",,
+location_use,Module,incident,,True,incident_module,Single,False,shared.mod_location_use,Use of property,See shared/mod_location_use,Can come from incident module and confirmed or independently completed  during analysis

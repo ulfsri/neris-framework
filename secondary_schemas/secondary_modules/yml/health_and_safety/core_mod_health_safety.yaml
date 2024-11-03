@@ -1,0 +1,36 @@
+NERIS_ID:
+  type: Text
+  group: dispatch
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: dept.neris_id
+  description: Unique identifier for the agency in NERIS.  Entity type plus state and county FIPS plus with random trailing characters.
+  example: FD06067001
+  comments: .nan
+incident_response:
+  type: Boolean
+  group: incident
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_incident
+  description: Describes potential exposures that may have occurred during an incident response.
+  example: See mod_incident
+  comments: .nan
+personnel_injury:
+  type: Boolean
+  group: injury
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_personnel_injury
+  description: Describes if an injury occurred that was not tied to an incident response.
+  example: See mod_personnel_injury
+  comments: .nan

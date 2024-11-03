@@ -1,0 +1,108 @@
+vehicle_make:
+  group: vehicle
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Vehicle manufacturer
+  example: Honda
+  comments: .nan
+vehicle_model:
+  group: vehicle
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Model of vehicle
+  example: Accord
+  comments: .nan
+vehicle_type:
+  group: vehicle
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_vehicle_type
+  description: Type of vehicle
+  example: See type_vehicle_type value
+  comments: .nan
+auto_body_style:
+  group: vehicle
+  type: Text
+  possible_if: vehicle_type = AUTOMOBILE
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_automobile_body_style
+  description: Body style of automobile
+  example: See type_body_style value
+  comments: .nan
+vehicle_vin:
+  group: vehicle
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Vehicle identification number
+  example: 4Y1SL65848Z411439
+  comments: .nan
+vehicle_year:
+  group: vehicle
+  type: Integer
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Vehicle manufacture year
+  example: '2013'
+  comments: .nan
+vehicle_powertrain:
+  group: vehicle
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_powertrain
+  description: Powertrain of vehicle
+  example: See type_powertrian value
+  comments: Electric selection prompts battery_incident module
+vehicle_state:
+  group: vehicle
+  type: Array[Text]
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: .nan
+  description: US State of vehicle registration
+  example: Nevada
+  comments: .nan
+additional_description:
+  group: vehicle
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: .nan
+  example: .nan
+  comments: Free text additional comments

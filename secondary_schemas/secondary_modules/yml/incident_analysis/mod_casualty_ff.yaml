@@ -1,0 +1,192 @@
+ff_rescue_birth_month_year:
+  group: casualty.demographic
+  type: Date
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: The date of birth of the person(s) injured or rescued.
+  example: '1972-06-01 00:00:00'
+  comments: .nan
+ff_rescue_gender:
+  group: casualty.demographic
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_gender.value
+  description: The gender of the person(s) injured or rescued.
+  example: See type_gender table
+  comments: .nan
+ff_rescue_race:
+  group: casualty.demographic
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_race.value
+  description: The race of the person(s) injured or rescued.
+  example: See type_race table
+  comments: .nan
+ff_casualty_type:
+  group: casualty.demographic
+  type: Text
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_casualty.value
+  description: Whether the person was uninjured, injured nonfatally, injured fatally.
+  example: See type_casualty table
+  comments: .nan
+ff_casualty_rank:
+  group: casualty.demographic
+  type: Text
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Rank of firefighter.
+  example: Captain
+  comments: .nan
+ff_casualty_service:
+  group: casualty.demographic
+  type: Float
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Years of service.
+  example: '2'
+  comments: .nan
+ff_casualty_classification:
+  group: casualty.demographic
+  type: Text
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_job_classification.value
+  description: Job classification of firefighter.
+  example: See type_job_classification table
+  comments: .nan
+ff_casualty_linked_unit_id:
+  group: casualty.injured.deployment
+  type: Text
+  possible_if: UnitHist.cad_designation
+  computed: true
+  computed_from: UnitHist.cad_designation_1
+  cardinality: Single
+  value_set: true
+  value_set_location: unit.neris_id
+  description: Name of the unit responding to the incident in FD Spec.
+  example: A702, PA711, E731
+  comments: Unit maps to Core Department Spec
+ff_casualty_unit_cont:
+  group: casualty.injured.deployment
+  type: Boolean
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Continuity of company at the time of incident.
+  example: '"True"'
+  comments: Whether the firefighter was operating in a new crew or crew had temporary firefighters or officer
+ff_casualty_duty_type:
+  group: casualty.injured.deployment
+  type: Text
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_duty.value
+  description: Duty state of the firefighter at the time of the incident.
+  example: See type_duty table
+  comments: .nan
+ff_casualty_cause:
+  group: casualty.injured.deployment
+  type: Text
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_casualty_cause.value
+  description: Apparent cause of the injury or fatality.
+  example: See type_casualty_cause table
+  comments: Jump
+ff_casualty_action:
+  group: casualty.injured.deployment
+  type: Text
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_casualty_actions.value
+  description: Actions that occurred during the time of the incident.
+  example: See type_casualty_action table
+  comments: .nan
+ff_casualty_ppe:
+  group: casualty.injured.deployment
+  type: Array[Text]
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_casualty_ppe.value
+  description: PPE worn during time of incident.
+  example: See type_casualty_ppe table
+  comments: .nan
+ff_casualty_incident_command:
+  group: casualty.injured.deployment
+  type: Boolean
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: false
+  value_set_location: .nan
+  description: Whether an incident command structure was in place during incident.
+  example: '"True"'
+  comments: .nan
+ff_casualty_incident_timeline:
+  group: casualty.injured.deployment
+  type: Text
+  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_casualty_timeline.value
+  description: Stage of the incident when the injury occurred.
+  example: See type_casualty_timeline table
+  comments: .nan
+ff_casualty_room:
+  group: .nan
+  type: Array[Text]
+  possible_if: .nan
+  computed: false
+  computed_from: .nan
+  cardinality: Single
+  value_set: true
+  value_set_location: type_room
+  description: The room in which the casualty occured / the room from which the ff was rescued.
+  example: .nan
+  comments: .nan
