@@ -1,0 +1,110 @@
+EAR:
+  active: true
+  description: Ear
+  definition:
+  source:
+EYE:
+  active: true
+  description: Eye
+  definition:
+  source:
+NOSE:
+  active: true
+  description: Nose
+  definition:
+  source:
+MOUTH:
+  active: true
+  description: Mouth
+  definition:
+  source: 
+HEAD_OTHER:
+  active: true
+  description: Head, other
+  definition:
+  source:
+NECK_SHOULDERS:
+  active: true
+  description: Neck or shoulders
+  definition:
+  source:
+BACK_SPINE:
+  active: true
+  description: Back, spine
+  definition:
+  source:
+BACK_OTHER:
+  active: true
+  description: Back, other
+  definition:
+  source:
+CHEST:
+  active: true
+  description: Chest
+  definition:
+  source:
+ABDOMEN:
+  active: true
+  description: Abdomen
+  definition:
+  source:
+PELVIS_GROIN:
+  active: true
+  description: Pelvis or groin
+  definition:
+  source:
+HIP_LOWER_BACK_BUTTOCKS:
+  active: true
+  description: Hip, lower back, or buttocks
+  definition:
+  source:
+ARM:
+  active: true
+  description: Arm
+  definition:
+  source:
+LEG:
+  active: true
+  description: Leg
+  definition:
+  source:
+HANDS_FINGERS:
+  active: true
+  description: Hands or fingers
+  definition:
+  source:
+FOOT_TOES:
+  active: true
+  description: Foot or toes
+  definition:
+  source:
+LUNGS:
+  active: true
+  description: Lungs
+  definition:
+  source:
+HEART:
+  active: true
+  description: Heart
+  definition:
+  source:
+STOMACH:
+  active: true
+  description: Stomach
+  definition:
+  source:
+INTESTINAL_TRACT:
+  active: true
+  description: Intestinal tract
+  definition:
+  source:
+GENITO_URINARY:
+  active: true
+  description: Genito-urinary
+  definition:
+  source:
+OTHER:
+  active: true
+  description: Other
+  definition:
+  source:

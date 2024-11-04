@@ -1,0 +1,217 @@
+
+product_type:
+  group: product
+  type: Array[Text]
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_emerghaz_elec
+  description: Type of product involved in the incident.
+  example: See type_emerghaz_elec
+  comments:
+original_battery:
+  group: product
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery was the original battery for the product.
+  example: 'True'
+  comments:
+installation_status:
+  group: location
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery was permanently installed.
+  example: 'True'
+  comments:
+safety_listed:
+  group: product
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery was listed by an independent testing company, such as UL or Intertek.
+  example: 'True'
+  comments:
+vehicle_battery:
+  group: product
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery was an electric vehicle battery.
+  example: 'True'
+  comments: Triggers mod_transportation_fire
+charging_at_ignition:
+  group: location
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery was charging at the time of ignition.
+  example: 'False'
+  comments:
+incident_indoor_outdoor:
+  group: location
+  type: Array[Text]
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_indoor_outdoor
+  description: Location of the battery at the time of ignition - Indoors or Outdoors.
+  example: Indoor
+  comments:
+in_direct_sunlight:
+  group: location
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery was exposed to direct sunlight at the time of ignition.
+  example: 'False'
+  comments:
+primary_indoor_outdoor:
+  group: location
+  type: Array[Text]
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_indoor_outdoor
+  description: Primary storage location of the battery when not in use - Indoors or Outdoors.
+  example: Outdoor
+  comments:
+impacted_from_source:
+  group: incident
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery was impacted due to the ignition of another source.
+  example: 'False'
+  comments:
+thermal_runaway:
+  group: incident
+  type: Boolean
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the battery displayed signs of thermal runaway.
+  example: 'True'
+  comments:
+fd_suppression:
+  group: incident
+  type: Array[Text]
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: false
+  value_set_location: type_emerghaz_suppression
+  description: Type of suppression/mitigation efforts employed by the fire department to suppress the battery fire.
+  example: See type_emerghaz_suppression
+  comments:
+battery_cell:
+  group: product
+  type: Array[Text]
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_battery_cell
+  description: Type of cell of the batter.
+  example: See type battery_cell
+  comments:
+battery_chemistry:
+  group: product
+  type: Array[Text]
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_battery_chemistry
+  description: Chemistry type of the battery.
+  example: See type_battery_chemistry
+  comments:
+battery_size_voltage:
+  group: product
+  type: Integer
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unit of measure which represents the difference in electrical potential
+  example: '3.6'
+  comments:
+battery_size_amp_hour:
+  group: product
+  type: Integer
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unit of measure for a battery's energy capacity
+  example: '2.6'
+  comments:
+battery_size_watt_hour:
+  group: product
+  type: Integer
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unit of measurement for energy that quantifies the amount of power (watts) used over time.
+  example: '9'
+  comments:
+battery_charge:
+  group: product
+  type: Integer
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unit of measure of the state of charge percentage of the battery
+  example: '75'
+  comments:

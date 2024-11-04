@@ -1,0 +1,45 @@
+CRAWL_SPACE:
+  active: true
+  description: Crawl Space
+  definition:
+  source:
+POURED_CONCRETE_SLAB:
+  active: true
+  description: Poured Concrete Slab
+  definition:
+  source:
+FULL_BASEMENT:
+  active: true
+  description: Full Basement
+  definition:
+  source:
+SLAB_ON_GRADE:
+  active: true
+  description: Slab on Grade
+  definition:
+  source:
+INSULATED_CONCRETE:
+  active: true
+  description: Insulated Concrete
+  definition: 
+  source:
+PIER_AND_BEAM_PILE:
+  active: true
+  description: Pier and Beam (Pile)
+  definition:
+  source:
+CONCRETE_PANELS:
+  active: true
+  description: Concrete Panels
+  definition:
+  source:
+WOOD:
+  active: true
+  description: Wood
+  definition:
+  source:
+STONE:
+  active: true
+  description: Stone
+  definition:
+  source:

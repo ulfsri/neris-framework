@@ -1,0 +1,4000 @@
+Lightning rods or arresters, antenna discharge units or other grounding devices:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Burglar alarms:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Electric timers:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Fire escape devices (excluding ladders):
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Padlocks, chain locks or other locks:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Carbon monoxide detectors:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Safes:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Fire sprinklers:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Fire extinguishers:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Fire or smoke alarms:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition:
+  source:
+Baby gates or barriers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Playpens and play yards:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Other soft baby carriers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Potty chairs or training seats (for children):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Shoelace fasteners (for infants):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby bathtub seats or rings (not toys):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby exercisers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Framed baby carriers (carried on the back):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby harnesses:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Crib mobiles or crib gyms:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby carriers (bicycle-mounted):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby mattresses or pads:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Diaper fasteners (excluding safety pins):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Bottle warmers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby scales:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+High chairs:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby carriages:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Cribs, not specified:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby carriers, not specified:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Other baby carriers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Portable cribs:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Portable baby swings (for home use):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Sterilizers (home use):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby strollers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Cribs, nonportable:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Car seats (for infants or children):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby slings and wraps:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby bottles or nipples:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby rattles:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Bassinets or cradles:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby changing tables:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Pacifiers or teething rings:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Diaper pails:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby baths or bathinettes:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Safety pins:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Attachable high chairs (including booster seats):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby bouncer seats (excl jumpers):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Baby walkers or jumpers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Diapers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Night-lights:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Infant and toddler play centers (excluding jumpers, bouncers, and exercisers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition:
+  source:
+Fertilizers and other chemicals for outdoor use (excluding pesticides):
+  active: true
+  value_2: FARM_SUPPLIES_EQUIPMENT
+  definition:
+  source:
+Tractors, other or not specified:
+  active: true
+  value_2: FARM_SUPPLIES_EQUIPMENT
+  definition:
+  source:
+Fertilizers, not specified:
+  active: true
+  value_2: FARM_SUPPLIES_EQUIPMENT
+  definition:
+  source:
+Convertible beds, hideaway beds or sofa beds:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Books, magazines, albums or scrapbooks:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Clocks, not electric or not battery operated or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Residential alternative energy systems for on-site power generation:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Bathtubs or showers (including fixtures or accessories:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Butane or LP gas meters:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Fireplace equipment:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Footlockers:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Bedding, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Other furniture:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Other electric lighting equipment:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Floor lamps or table lamps, halogen:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Sinks (excluding faucets):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Pictures, picture frames or wall decorations:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Chair, recliner:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Sheets or pillowcases:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Tables, not elsewhere classified (excl. baby changing tables, billiard or pool tables and television tables or stands):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Nonelectric blankets:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Drapery or curtain rods, hooks or rings:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Floor lamps or table lamps, electric (excluding halogen lamps):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Chair, rocking:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Toilets:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Bedspreads, throws or comforters:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Hot tubs or home spas:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Glass bathtub or shower enclosures:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Bunk beds:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Laundry hampers:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Mattresses, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Pillows (excluding water pillows):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Step stools:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Knickknacks, statues, vases or urns:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Blankets, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Faucets or spigots:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Beds or bedframes, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Desks, dressers, chests, bureaus, or buffets:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Window shades, venetian blinds or indoor shutters:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Extension cords:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Electric chandeliers, hanging lamps or other attached light fixtures:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Clothespins:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Lighting equipment, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Other bedding:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Bars and bar accessories (excluding gymnastic and weight lifting equipment):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Electrical outlets or receptacles:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Footstools, ottomans or hassocks:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Flashlights or battery-powered lanterns:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Sofas, couches, davenports, divans or studio couches:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Filters (excluding swimming pool and aquarium filters):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Scales, not electric or not battery operated or not specified (excluding baby scales):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Draperies, curtains or shower curtains (fabric or plastic):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Stepladders (excluding step stools):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Futons:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Ladders, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Towel racks or bars:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Benches (excluding work benches):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Surge suppressors or power strips:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Table linens:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Fuel-burning lighting equipment:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Bed rails:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Rugs or carpets, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Clocks, electric or battery operated:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Scales, electric or battery operated (excluding baby scales):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Cots:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Cabinets, racks, room dividers and shelves, not elsewhere classified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Chairs, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Mirrors or mirror glass (excluding lighted make-up mirrors):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Toddler beds:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Waterbeds or water pillows:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Magazine racks or book ends:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Bathtub or shower enclosures, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Electric lighting equipment, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Cords, electrical, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Nonglass bathtub or shower enclosures:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Stools, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Generators or power plants:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Runners, throw rugs or doormats (excluding bathtub mats):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Room-sized, wall-to-wall or outdoor carpeting (excluding runners):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Light bulbs (excluding Christmas tree light bulbs):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Inflatable furniture:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Furniture, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Fabrics (not part of finished item):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Nonbaby mattresses (excluding camp mattresses):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Panelboards, circuit breakers, ground fault circuit interrupters (GFCIs) or fuses:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Slipcovers:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Artificial flowers or plants:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Towels or cloths:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Beach chairs or folding chairs:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Barstools or kitchen stools:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Electrical wire or wiring systems (excluding panelboards, receptacles or interrupters):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Extension or straight ladders:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition:
+  source:
+Other water heaters:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Vacuum cleaners:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Electric clothes dryers without washers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Sewing machines or accessories:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Floor buffers or waxers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Wringer washing machines:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Drinking fountains:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Automatic doors or door openers (excluding garage doors):
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Gas clothes dryers without washers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Water softeners or conditioners (appliances):
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Incinerators:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Clothes dryers, not specified:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Washing machines, other or not specified:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Automatic garage doors or door openers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Electric brooms:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Electric water heaters (excluding immersion heaters):
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Propane, LP or butane gas tanks or fittings:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Rug shampooers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Gas water heaters:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Electric blankets or sheets:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Water heaters, not specified:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Electric heating pads:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition:
+  source:
+Oil furnaces (excluding floor furnaces):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Gas-burning fireplaces, factory built:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Radiators (excluding vehicle radiators):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Electric heaters, not elsewhere classified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Fans:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Furnaces, other or not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Air purifiers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Brick, stone or masonry chimneys:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Chimneys, not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Floor furnaces (built into floor):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Vaporizers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Gas furnaces (excluding floor furnaces):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Wood burning fireplaces, factory built:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Metal chimneys, stovepipes or flues:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Portable gas or LP heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Electric fireplaces, factory built:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Outdoor patio heaters or firepits (manufactured):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Coal or wood-burning stoves:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Dehumidifiers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Boilers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Coal furnaces:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Kerosene or oil heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Heaters or heating systems, other or not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Electric furnaces (excluding floor furnaces):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Fireplaces, not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Pipes (excluding smoking pipes):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Gas or LP heaters, other or not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Heat tapes, electric:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Humidifiers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Heat pumps:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Electric baseboard heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Thermostats (for heating or cooling systems):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Built-in fireplaces:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Portable electric heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Ductwork for heating or cooling systems (excluding flues):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Air conditioners:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition:
+  source:
+Radios (self-contained units:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Sound recording, reproducing or receiving equipment, not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Amateur two-way radios:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Recording tapes:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Projectors:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Tape recorders or players (self-contained units):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Remote control, universal or not stated (excl. remote controls for toys):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Antennas, not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Art and ceramic supplies or equipment (excl. paintbrushes):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Telescopes, binoculars, microscopes or magnifying glasses:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Video players and recorders (excl. cameras):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Stereo or hi-fi components or accessories (excluding self-contained units):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Computers (equipment and electronic games):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Television tables or stands:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Outdoor antennas (separate):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Phonograph records:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Lapidary equipment:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Musical instruments, not electric or not battery operated or not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Coaxial Cable:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Laser pointers:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Compact disks (CDs) and DVDs:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Televisions:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Telephones or telephone accessories:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Other sound recording, reproducing or receiving equipment:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Photographic equipment (excluding chemicals and projectors):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Musical instruments, electric or battery operated:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Record players (self-contained units):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Glass bottle cutting equipment:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Radios, not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Indoor antennas (separate):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Business and office machines:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition:
+  source:
+Lubricants:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Photographic chemicals:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Ammonia, household:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Polishes, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Diesel fuels:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Wallpaper cleaners (chemical):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Solvents, other or not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Rust preventatives:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Fuel oils, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Methyl alcohol:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Automotive chemicals (excluding antifreeze, lubricants, waxes and windshield wiper fluids):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Liquid room deodorizers or fresheners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Gasoline cans:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Turpentine:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Soaps (excluding laundry soaps or detergents):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Tapes (with adhesive surfaces):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Adhesives (excluding tapes):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Chemicals, not elsewhere classified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Lye:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Oven cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Paints, varnishes or shellacs:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Room deodorizers or fresheners, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Caustics (excluding lye):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Lamp oils:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Dyes (noncosmetic):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Antifreeze:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Lighter fluids:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Drain cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Shoe polishes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Rust removers:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Automotive waxes, polishes or cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Dry ice:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Paint or varnish removers, paintbrush cleaners (excluding turpentine):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Bleaches (noncosmetic):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Detergents, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Furniture polishes or waxes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Fuels for chafing dishes or fondue pots:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Spot removers or cleaning fluids:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Dishwashing liquid:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Toilet bowl products:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Fabric treatment products (excluding spot removers, cleaning fluids, bleaches and dyes):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Pine oil cleaning and disinfectant preparations:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+General purpose household cleaners (excluding abrasives, ammonia, pine oil and toilet bowl products):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Fuel storage tanks (excluding propane, LP and butane tanks):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Paint or varnish thinners (excluding turpentine):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Charcoal:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Metal polishes, tarnish removers or preventatives:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Dishwasher detergents:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+School laboratory chemicals:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Swimming pool chemicals:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Caulking or spackling compounds:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Kerosene:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Wallpaper steamers:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Gasoline:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Paintbrushes or rollers, manual:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Windshield wiper fluids:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Laundry soaps or detergents:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Solid room deodorizers or fresheners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Acids (excluding drain cleaners and battery acids):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Other polishes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Floor waxes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Abrasive cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition:
+  source:
+Paper products (excluding bags, cups, straws and cardboard products):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Other glass bottles or jars:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Nonglass bottles or jars (excluding baby bottles):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Other specified plastic products:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Metal containers (excluding aerosols, trash and gasoline cans):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Cardboard products:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Containers with key openers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Aluminum foil wrapping products:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Vacuum containers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Other containers (excluding vacuum or pressurized containers):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Glass tubing or test tubes:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Plastic containers (rigid or semi-rigid, excluding bottles and jars):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Plastic bags:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Wooden containers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Glass bottles or jars, not specified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Self-contained openers (e.g., zip-top or pull-top cans):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Glass alcoholic beverage bottles:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Plastic wrapping products (excluding plastic bags):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Aerosol containers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Paper bags:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Bottles or jars, not specified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Glass soft drink bottles:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Canning jars:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Bags, not elsewhere classified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Containers, not specified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Buckets or pails:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Pressurized containers (nonaerosol:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition:
+  source:
+Potholders, oven mitts or hot pads:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Coffee makers or teapots, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Metal cookware (nonelectric:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Slicers and choppers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Waste containers, trash baskets or refuse bins:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Manual cleaning equipment (excluding buckets or pails):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Flatware (excluding knives):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Bottle openers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Chafing dishes or fondue pots:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Other cookware:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Cookware, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Food grinders:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Ice picks:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Toothpicks or hor d'oeuvres picks:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Nonelectric can openers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Manual scissors:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Tie racks, belt racks or other clothes hangers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Drinking glasses, cups, and mugs:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Nonelectric knife sharpeners:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Pressure cookers or canners:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Food skewers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Doorstops:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Knives, not elsewhere classified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Ironing boards or covers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Thermometers (excluding medical thermometers):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Can openers, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Appliances, other or not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Scissors, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Kitchen gadgets, not elsewhere classified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Trays (excluding food warmers):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Bread making machines:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Unpowered coffee makers or teapots:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Corkscrews:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Laundry baskets:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Knife sharpeners, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Nonmetal cookware (nonelectric):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Candles, candlesticks and other candle holders:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Kitchen mixing bowls, canisters or similar containers (excluding plastic products):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Drinking straws:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Tableware and accessories (excluding drinking glasses, cups, and mugs):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition:
+  source:
+Electric griddles:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Toasters (excluding toaster ovens):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Ice crushers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Ice cream makers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Gas ranges or ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Other ranges or ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Dishwashers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric scissors:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric counter-top ovens, broilers or toaster ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric knife sharpeners:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Food processors:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Juicers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Garbage disposers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Ranges or ovens, not specified:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Microwave ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Refrigerators:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric frying pans and skillets:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric immersion water heaters:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric coffee makers or teapots:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric kettles or hot pots:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric corn poppers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Freezers (separate from refrigerators):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric blenders:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Hot plates:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Rotisseries:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Clothing irons:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric waffle irons:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Faucet water heaters:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Clothes steamers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Trash compactors:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Food warmers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric mixers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Ice makers (separate from refrigerators):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric can openers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric or battery-powered knives:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric deep fryers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Electric ranges or ovens (excl. counter-top ovens):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Slow cookers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition:
+  source:
+Christmas tree lights:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Lunch boxes or pails:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Christmas decorations (nonelectric):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Motorized vehicles, not elsewhere classified (three or more wheels):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Pet supplies (excluding foods and medicines):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Flares:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Public equipment, not elsewhere classified (including conveyor belts, signs):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Electric Christmas decorations (excluding Christmas tree lights):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Tarpaulins:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Matchbooks:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Heating or cooling comfort packs (nonelectric):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Christmas tree stands or supports:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Seasonal decorations (excluding Christmas decorations):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Wooden matches:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Coin-operated car washing equipment:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Music boxes or chimes:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Party favors:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Ashtrays, not electric or not battery operated or not specified:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Matches, not specified:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Lockers:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Ashtrays, electric or battery operated:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Artificial Christmas trees:
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Vending machines (excluding car washing machines):
+  active: true
+  value_2: MISC_PRODUCT
+  definition:
+  source:
+Footwear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Pins and needles (excluding safety pins and knitting needles):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Nightwear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Bath or facial cleansing brushes:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Carts, other or not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Lighted make-up mirrors:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Combs, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Outerwear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Hair clippers and trimmers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Hair dryers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Watches:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Luggage (excluding foot lockers):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Electric razors or shavers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Fuel multi-purpose lighters (incl. micro torches):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Grocery or shopping carts:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Clothing accessories:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Manicure, pedicure, and make-up brushes and tools (excluding cosmetics):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Umbrellas:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Nonelectric razors or shavers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Other clothing:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Heat or infrared lamps:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Multi-purpose lighters, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Razors or shavers, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Hair curlers, curling irons, clips & hairpins:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Cigarette or pipe lighters:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Eye protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Saunas:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Sewing basket articles (excluding scissors, pins, needles and sewing machine accessories):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Pens and pencils:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Ear protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Respiratory protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Lighters, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Electric shoe polishers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Desk supplies (excluding pens and pencils):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Hair grooming equipment or accessories, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Electric multi-purpose lighters:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Clothes brushes:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Clothing, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Massage devices or vibrators (excluding shower attachments):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Personal protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Wigs, falls or hairpieces:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Electric combs:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Jewelry (excluding watches):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Combs or hairbrushes, unpowered:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Keys, key rings or key chains:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Dollies, handtrucks or luggage carriers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Coins:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Day wear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Paper cutters:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition:
+  source:
+Hot water:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+BBs or pellets:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Gunpowder or ammunition (excluding BBs and pellets):
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Liquid drugs (excluding aspirin, aspirin substitutes, iron preparations and antihistamines):
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Pesticides:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+? Cosmetics, including facial and eye make-up, deodorants, hair preparations, nail polish and removers, bath oils, skin creams and lotions, etc.
+: active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Liniments or rubbing compounds:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Antihistamines:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Aspirin or aspirin compounds:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Tablet or capsule drugs (excluding aspirin, aspirin substitutes, iron preparations and antihistamines):
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Other drugs or medications:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Drugs or medications, not specified:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Veterinary medicines:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Preparations containing iron salts:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Aspirin substitutes:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition:
+  source:
+Monkey bars, playground gyms or other playground climbing apparatus:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Electric grills:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Cheerleading (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Horseback riding (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Ice skating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Golf (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Golf carts, motorized vehicle:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Other guns or firearms:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Billiards or pool (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Swimming pool slides:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Hockey (activity, apparel or equipment), not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Playground equipment, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Gas, air or spring-operated guns (including BB guns):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Above-ground swimming pools (excluding portable pools):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Gas or LP grills or stoves (for outdoor use):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Go-carts:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Football (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Amusement attractions (including rides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Grills, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Guns, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Water tubing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+All-terrain vehicles (three wheels only:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Slides or sliding boards (excluding swimming pool slides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Shuffleboard (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Snowmobiles (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Pedal-powered adult vehicles (three or more wheels):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Boxing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Skeet shooting (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Swings or swing sets (excluding portable baby swings):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Flotation toys (excluding official life-saving devices):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Wrestling (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Gymnastics (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Scuba diving (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Diving or diving boards:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+All-terrain vehicles (more than four wheels:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Table tennis (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Other playground equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Kerosene grills or stoves:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Badminton (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Portable food or beverage coolers:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+All-terrain vehicles (number of wheels not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Horseshoes (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Unicycles:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Swimming (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Water slides, public (stationary amusement rides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Swimming pools, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Bleachers:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+All-terrain vehicles (four wheels, excluding dune buggies:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Lacrosse (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Surfing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Other ball sports (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+In-line skating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Sleeping bags:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Mountain climbing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Batons:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Handball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Roller skating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Rugby (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Squash, racquet ball or paddle ball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Weight lifting (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Darts, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+? Exercise (activity or apparel without equipment), including aerobics, stretching, walking, jogging, running (excluding track and field)
+: active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Seesaws or teeterboards:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Ice hockey (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Bowling (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+T oboggans:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Ball sports (activity, apparel or equipment), not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Street hockey (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Martial arts (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Treehouses or playhouses:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Archery (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Water skiing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Curling (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Darts, lawn (activity or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Snow disks:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Field hockey (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Mopeds or power-assisted cycles:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Charcoal or wood-burning grills:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Dancing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Soccer (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Built-in swimming pools:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Trampolines:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Aquariums or accessories:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Skating (activity, apparel or equipment) not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Fishing (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Other grills or stoves:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Ice or snow boating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Water polo (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Sports and recreational activity, not elsewhere classified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Basketball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Volleyball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Swimming pool equipment (excluding chemicals, diving boards and swimming pool slides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Tennis (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Snow tubing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Fencing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Dune buggies/beach buggies:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Water slides, not elsewhere classified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Water slides, backyard/home (not swimming pool slides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Croquet (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Sleds:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Tetherball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Exercise equipment (excluding weight lifting or gymnastic equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Snow skiing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Darts, for indoor use (activity or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition:
+  source:
+Garage doors (excluding automatic garage doors or door openers):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Fences or fence posts:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Tree stands (hunting):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Pull-down or folding stairs:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Tool sheds:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Doors, other or not specified:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Elevators or other lifts (excl. escalators, hoists, jacks, forklifts and automotive lifts):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Thermal or sound insulation materials:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Gutters, drainpipes, downspouts or run-off pipes:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Windowsills or frames:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Escalators:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Drywall in a completed structure:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Nails, screws, carpet tacks or thumbtacks -> Nails, screws, tacks or bolts:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Storm windows:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Artificial turf:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Ceilings and walls (interior part of completed structure):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Ramps or landings:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Plastic panels for doors or windows:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Carbon monoxide poisonings (when source is unknown):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Cisterns, cesspools or septic tanks:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Counters or countertops (excluding bars):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Window or door security barriers:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Porches, balconies, open-side floors or floor openings:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Poles (excluding fence posts, fishing, pole vaults and play-ground equipment):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+House repair or construction materials, not elsewhere classified:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Stairs or steps (excluding pull-down and folding stairs):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Scaffolding:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Wood paneling and particleboard:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Floors or flooring materials:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Window screens:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Cabinet or door hardware:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Clotheslines or clothes drying racks (excluding poles):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+General home or room involvement in fires:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Doorsills or frames:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Handrails, railings or banisters:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Glass doors or doors with glass panels:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Gas fumes or gas vapors of unknown origin:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Outdoor awnings or shutters:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Windows and window glass, other than storm windows:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+W allpaper:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Moving walks:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition:
+  source:
+Fireworks:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toy musical instruments:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Wheeled riding toys, unpowered (excluding bicycles and tricycles):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toy bows or arrows:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Skateboards:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Building sets:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Tricycles (children's):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toys, not specified:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toy guns with projectiles:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Pogo sticks:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Metal or plastic molding sets:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toy guns, not specified:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Dolls, plush toys, and action figures:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Wagons (children's):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Balloons (toy):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Stilts:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Blocks, stacking toys or pull toys:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Powered riding toys:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Scooters, unpowered:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Marbles:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Other toy weapons (nonprojectile):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toy sports equipment:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Rocketry sets:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Squeeze or squeaker toys:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Water toys (excluding squeeze or squeaker toys and inner tubes or similar flotation equipment):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Nonwheeled riding toys, unpowered (e.g., rocking or bouncing horses, etc.):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Molding compounds:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Inflatable toys (excluding balls & balloons):
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Children's play tents, play tunnels or other enclosures:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Kites or kite string:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Costumes or masks:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Woodburning kits:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Clacker balls:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toy boxes or chests:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Toys, not elsewhere classified:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Chemistry sets or science kits:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Slingshots or sling-propelled toys:
+  active: true
+  value_2: TOYS
+  definition:
+  source:
+Scooters/skateboards, powered:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Balls, other or not specified:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Two-wheeled, powered, off-road vehicles (incl. dirt bikes and trail bikes:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Other toy guns:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Camping equipment (excl. trailers, lighting equipment, sleeping bags, cots, hammocks, coolers, stoves and heaters):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Other toy weapons (projectile):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Hammocks:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Crayons or chalk (excluding billiard or pool chalk):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Toy caps, cap toys or cap guns:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Flying discs and boomerangs:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Toy vehicles (excluding riding toys):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Softball (activity, apparel or equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Riding toys (excluding bicycles and tricycles), not specified:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Toy weapons, not specified:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Snow boarding (activity, apparel or equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Mountain or all-terrain bicycles or accessories:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Portable swimming pools:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Games or game parts (excluding marbles and computer games):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Book bags or back carriers (excluding baby carriers, luggage and camping equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Baseball (activity, apparel or equipment:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Pretend electronics, tools, housewares, and appliances:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Toy make-up kits or cosmetics (excluding mirrors):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Doll houses and other play scenes:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Track and field (activity, apparel or equipment:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Roller hockey (activity, apparel or equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Bicycles or accessories (excluding mountain or all-terrain bicycles):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Utility vehicles:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Fitness/activity tracker, personal (including pedometers and non-medical heart rate monitors):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Minibikes, powered:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition:
+  source:
+Hammers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Stretch cords or stretch straps:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Trouble lights or extension work lights:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Tools, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power saws, other or not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power lathes:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Internal combustion engines (nonvehicular):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Heavy-duty workshop staplers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Band saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Air compressors (separate):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Workshop furnishings:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Nonelectric soldering equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Awls, chisels or planes:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power shapers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Vises or workshop clamps:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Sprayers, not elsewhere classified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Other portable or stationary power tools:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Radial arm saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Glue guns:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Hand saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Cutting torches:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Rope or string (excluding mountain climbing or jump ropes and kite strings):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Workshop grinders, buffers, or polishers, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Jigsaws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Chains, not elsewhere classified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Knives with replaceable blades:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Manual drills:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Sabre saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Welding equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Manual workshop grinders, buffers or polishers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Electrical testing equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Electric motors (separate):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Saws, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Reamers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Toolboxes or tool kits (excluding tools):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Stationary power drills and accessories:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Nail guns or stud drivers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Battery chargers/adapters:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Torches, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Screwdrivers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Manual filing or sanding tools:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power routers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Hoists, lifts, jacks or jack stands:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power workshop grinders, buffers or polishers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Bench or table saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power drills or accessories, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Batteries:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power sanders:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Levels:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Drain snakes:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Other manual workshop tools:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Painting equipment, powered (including sprayers, rollers or brushes):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Power jointers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Automotive tools or accessories:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Portable circular power saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Wire, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Drills, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Hacksaws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Pliers, wire cutters or wrenches:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Workshop compounds or chemicals:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Soldering equipment, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Electric soldering equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Portable power drills and accessories:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition:
+  source:
+Garden hoses, nozzles or sprinklers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Pruning or trimming equipment, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Insect traps, powered:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Decorative water features, including man-made ponds and fountains:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Grass and leaf catchers (attachments for lawn mowers):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Lawn mowers, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Leaf blowers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Brushcutters, powered:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Manual push mowers (unpowered):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Other unpowered garden tools:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Decorative yard equipment, excluding water features:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Animal traps:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Lawn vacuums:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Power lawn mowers, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Other manual pruning or trimming equipment:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Manual hedge trimmers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Other power pruning or trimming equipment:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Manual pruning or trimming equipment, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Pumps, not elsewhere classified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Power hedge trimmers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Power leaf mulchers and grinders:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Plant foods or fertilizers for potted plants:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Lawn trimmers or edgers, powered (excluding brushcutters):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Wheelbarrows or lawn carts:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Rotary power lawn mowers (walk-behind):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Snow throwers/blowers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Garden sprayers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Seed and fertilizer spreaders:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Power tillers or cultivators (not farm equipment):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Manual lawn trimmers or edgers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Power pruning or trimming equipment, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Garden tractors:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Riding power lawn mowers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Other power garden tools:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Chain saws:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Greenhouse or gardening supplies (excluding plant stands, tools, hoses, sprayers and chemicals):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Manual snow or ice removal tools:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Hatchets or axes:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Outdoor electric lighting equipment:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:
+Log splitters:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition:
+  source:

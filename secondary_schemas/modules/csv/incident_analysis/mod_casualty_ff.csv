@@ -1,0 +1,17 @@
+name,group,type,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+ff_rescue_birth_month_year,casualty.demographic,Date,,False,,Single,False,,The date of birth of the person(s) injured or rescued.,1972-06-01 00:00:00,
+ff_rescue_gender,casualty.demographic,Text,,False,,Single,True,type_gender.value,The gender of the person(s) injured or rescued.,See type_gender table,
+ff_rescue_race,casualty.demographic,Text,,False,,Single,True,type_race.value,The race of the person(s) injured or rescued.,See type_race table,
+ff_casualty_type,casualty.demographic,Text,,False,,Single,True,type_casualty.value,"Whether the person was uninjured, injured nonfatally, injured fatally.",See type_casualty table,
+ff_casualty_rank,casualty.demographic,Text,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,False,,Rank of firefighter.,Captain,
+ff_casualty_service,casualty.demographic,Float,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,False,,Years of service.,2,
+ff_casualty_classification,casualty.demographic,Text,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,True,type_job_classification.value,Job classification of firefighter.,See type_job_classification table,
+ff_casualty_linked_unit_id,casualty.injured.deployment,Text,UnitHist.cad_designation,True,UnitHist.cad_designation_1,Single,True,unit.neris_id,Name of the unit responding to the incident in FD Spec.,"A702, PA711, E731",Unit maps to Core Department Spec
+ff_casualty_unit_cont,casualty.injured.deployment,Boolean,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,False,,Continuity of company at the time of incident.,"""True""",Whether the firefighter was operating in a new crew or crew had temporary firefighters or officer
+ff_casualty_duty_type,casualty.injured.deployment,Text,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,True,type_duty.value,Duty state of the firefighter at the time of the incident.,See type_duty table,
+ff_casualty_cause,casualty.injured.deployment,Text,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,True,type_casualty_cause.value,Apparent cause of the injury or fatality.,See type_casualty_cause table,Jump
+ff_casualty_action,casualty.injured.deployment,Text,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,True,type_casualty_actions.value,Actions that occurred during the time of the incident.,See type_casualty_action table,
+ff_casualty_ppe,casualty.injured.deployment,Array[Text],"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Multi,True,type_casualty_ppe.value,PPE worn during time of incident.,See type_casualty_ppe table,
+ff_casualty_incident_command,casualty.injured.deployment,Boolean,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,False,,Whether an incident command structure was in place during incident.,"""True""",
+ff_casualty_incident_timeline,casualty.injured.deployment,Text,"casualty_type in ('injured nonfatally', 'injured fatally')",False,,Single,True,type_casualty_timeline.value,Stage of the incident when the injury occurred.,See type_casualty_timeline table,
+ff_casualty_room,,Array[Text],,False,,Single,True,type_room,The room in which the casualty occured / the room from which the ff was rescued.,,

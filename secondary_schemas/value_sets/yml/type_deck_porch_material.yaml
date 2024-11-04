@@ -1,0 +1,35 @@
+COMPOSITE:
+  active: true
+  description: Composite
+  definition:
+  source:
+MASONRY/CONCRETE:
+  active: true
+  description: Masonry/Concrete
+  definition:
+  source:
+WOOD:
+  active: true
+  description: Wood
+  definition:
+  source:
+VINYL_PLASTIC_PVC:
+  active: true
+  description: Vinyl / Plastic / PVC
+  definition:
+  source:
+METAL:
+  active: true
+  description: Metal
+  definition:
+  source:
+OTHER:
+  active: true
+  description: Other
+  definition: 
+  source:
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition:
+  source:

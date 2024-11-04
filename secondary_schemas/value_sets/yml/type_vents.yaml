@@ -1,0 +1,25 @@
+MESH SCREEN <= 1/8 ":
+  active: true
+  description: Mesh Screen <= 1/8 inch
+  definition:
+  source:
+MESH SCREEN > 1/8 ":
+  active: true
+  description: Mesh Screen > 1/8 inch
+  definition:
+  source:
+NO VENTS:
+  active: true
+  description: No Vents
+  definition:
+  source:
+UNSCREENED:
+  active: true
+  description: Unscreened
+  definition:
+  source:
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition:
+  source:

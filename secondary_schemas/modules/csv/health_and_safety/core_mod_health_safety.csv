@@ -1,0 +1,4 @@
+name,type,group,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+NERIS_ID,Text,dispatch,,False,,Single,True,dept.neris_id,Unique identifier for the agency in NERIS.  Entity type plus state and county FIPS plus with random trailing characters.,FD06067001,
+incident_response,Boolean,incident,,False,,Single,True,mod_incident,Describes potential exposures that may have occurred during an incident response.,See mod_incident,
+personnel_injury,Boolean,injury,,False,,Single,True,mod_personnel_injury,Describes if an injury occurred that was not tied to an incident response.,See mod_personnel_injury,

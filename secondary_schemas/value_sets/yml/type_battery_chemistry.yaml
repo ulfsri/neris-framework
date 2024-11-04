@@ -1,0 +1,50 @@
+LITHIUM_ION:
+  active: true
+  description: Lithium Ion
+  definition:
+  source:
+LITHIUM_METAL:
+  active: true
+  description: Lithium Metal
+  definition:
+  source:
+LITHIUM_IRON_PHOSPHATE:
+  active: true
+  description: Lithium Iron Phosphate
+  definition:
+  source:
+LITHIUM_SULPHUR:
+  active: true
+  description: Lithium Sulphur
+  definition:
+  source:
+SODIUM_ION:
+  active: true
+  description: Sodium Ion
+  definition:
+  source:
+ALKALINE:
+  active: true
+  description: Alkaline
+  definition:
+  source:
+LEAD_ACID:
+  active: true
+  description: Lead Acid
+  definition:
+  source:
+NICKEL_METAL_HYDRIDE:
+  active: true
+  description: Nickel Metal Hydride
+  definition:
+  source:
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition:
+  source:
+OTHER:
+  active: true
+  description: Other
+  definition:
+  source:

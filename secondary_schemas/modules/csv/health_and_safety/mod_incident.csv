@@ -1,0 +1,9 @@
+name,type,group,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+neris_incident_id,Text,incident,,False,,Single,0.0,,Unique NERIS incident identifier.,,
+incident_type,Array[Text],incident,,True,core_incident,Multi,,,"Computed from incident module, opens fire, ems, hazmit modules",,
+actions_taken,Array[Text],incident,,True,type_actions_tactics,Multi,1.0,type_action_tactic,Actions and tactics employed by individual on-scene.,See type_actions_tactics,
+traumatic_event,Text,incident,,False,,Single,1.0,type_traumatic_event,Exposure from traumatic event as part of incident response.,See type_traumatic_event,
+unit,Array[Text],response,,True,mod_unit_response,Single,1.0,mod_unit_response,Information on the unit response to the incident.,See mod_unit_response,
+on_scene_duration,Time,response,,True,core_mod_dispatch,Single,0.0,,Time duration unit was on the incident.,,
+asleep_at_alarm,Boolean,response,,False,,Single,0.0,,Whether the first responder was asleep at the time of the alarm.,True,
+exposure_type,Array[Text],exposure,,False,,Multi,1.0,type_exposure,Type of exposure experienced during incident.,Smoke,

@@ -1,0 +1,182 @@
+event_id:
+  type: Integer
+  group: activity
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: internally generated
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unique identifier for the CRR event.
+  example:
+  comments:
+virtual_event:
+  type: Boolean
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the event was held virtually.
+  example: 'False'
+  comments:
+location:
+  type: Module
+  group: activity
+  possible_if: virtual_event = FALSE
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location: ' mod_civic_location'
+  description: Address of the CRR event.
+  example: See mod_civic_location
+  comments:
+event_start:
+  type: Datetime (UTC)
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Time of event start
+  example: 08:30:00
+  comments:
+event_end:
+  type: Datetime (UTC)
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Time of event end
+  example: '10:30:00'
+  comments:
+date:
+  type: Datetime (UTC)
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of the CRR event.
+  example: '2024-08-01 00:00:00'
+  comments:
+location_use:
+  type: Array[Text]
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_location_use
+  description: Location type where the event took place.
+  example: See type_location_use
+  comments:
+activity_category:
+  type: Array[Text]
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_crr_activities
+  description: Category of activity or event.
+  example: See type_crr_activities
+  comments:
+activity_type:
+  type: Array[Text]
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_crr_activities
+  description: Specific activity or event completed.
+  example: See type_crr_activities
+  comments:
+activity_campaign:
+  type: Array[Text]
+  group: activity
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_crr_activities
+  description: Campaign to which the activity is attributed.
+  example: See type_crr_activities
+  comments:
+target_audience:
+  type: Array[Text]
+  group: impact
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_target_audience
+  description: The target audience of the community event.
+  example: K-12
+  comments:
+persons_attended:
+  type: Integer
+  group: impact
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Number of persons who attended the CRR event.
+  example: '20'
+  comments: For example, 100 people were at the event.
+persons_engaged:
+  type: Integer
+  group: impact
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Number of persons who were directly engaged during the CRR event.
+  example: '5'
+  comments: For example, 5 people signed up for smoke alarms out of the 100 who attended.
+notes:
+  type: Text
+  group:
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Notes from CRR event
+  example:
+  comments: Free text

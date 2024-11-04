@@ -1,0 +1,8 @@
+value,active,description,definition,source
+RESPONDING_TO_EMERGENCY_INCIDENT,True,Responding to Emergency Incident,,
+WORKING_AT_SCENE_OF_FIRE_INCIDENT,True,Working at Scene of Fire Incident,,
+WORKING_AT_SCENE_OF_NONFIRE_INCIDENT,True,Working at Scene of Nonfire Incident,,
+RETURNING_FROM_EMERGENCY_INCIDENT,True,Returning from Emergency Incident,,
+TRAINING,True,Training,,
+AFTER_INCIDENT,True,After Incident,,
+OTHER_ON_DUTY_INCIDENT,True,Other On-Duty Incident,,

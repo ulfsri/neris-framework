@@ -1,0 +1,45 @@
+COMPLETED_FIRE_SERVICE_ONLY:
+  active: true
+  description: Completed by Fire Sevice Only
+  definition:
+  source:
+COMPLETED_WITH_FIRE_SERVICE_PRESENT:
+  active: true
+  description: Completed with Fire Service Present
+  definition:
+  source:
+RELEASED_TO_LOCAL_AGENCY:
+  active: true
+  description: Released to Local Agency
+  definition:
+  source:
+RELEASED_TO_COUNTY_AGENCY:
+  active: true
+  description: Released to County Agency
+  definition:
+  source:
+RELEASED_TO_STATE_AGENCY:
+  active: true
+  description: Released to State Agency
+  definition:
+  source:
+RELEASED_TO_FEDERAL_AGENCY:
+  active: true
+  description: Released to Federal Agency
+  definition:
+  source:
+RELEASED_TO_PRIVATE_AGENCY:
+  active: true
+  description: Released to Private Agency
+  definition:
+  source:
+RELEASED_TO_PROPERTY_OWNER:
+  active: true
+  description: Released to  Property Owner
+  definition:
+  source:
+NO_ACTION_NECESSARY:
+  active: true
+  description: No Action Necessary
+  definition:
+  source:

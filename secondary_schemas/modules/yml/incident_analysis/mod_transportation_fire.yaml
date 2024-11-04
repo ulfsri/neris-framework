@@ -1,0 +1,108 @@
+vehicle_make:
+  group: vehicle
+  type: Text
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Vehicle manufacturer
+  example: Honda
+  comments:
+vehicle_model:
+  group: vehicle
+  type: Text
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Model of vehicle
+  example: Accord
+  comments:
+vehicle_type:
+  group: vehicle
+  type: Text
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_vehicle_type
+  description: Type of vehicle
+  example: See type_vehicle_type value
+  comments:
+auto_body_style:
+  group: vehicle
+  type: Text
+  possible_if: vehicle_type = AUTOMOBILE
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_automobile_body_style
+  description: Body style of automobile
+  example: See type_body_style value
+  comments:
+vehicle_vin:
+  group: vehicle
+  type: Text
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Vehicle identification number
+  example: 4Y1SL65848Z411439
+  comments:
+vehicle_year:
+  group: vehicle
+  type: Integer
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Vehicle manufacture year
+  example: '2013'
+  comments:
+vehicle_powertrain:
+  group: vehicle
+  type: Text
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_powertrain
+  description: Powertrain of vehicle
+  example: See type_powertrian value
+  comments: Electric selection prompts battery_incident module
+vehicle_state:
+  group: vehicle
+  type: Array[Text]
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location:
+  description: US State of vehicle registration
+  example: Nevada
+  comments:
+additional_description:
+  group: vehicle
+  type: Text
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description:
+  example:
+  comments: Free text additional comments

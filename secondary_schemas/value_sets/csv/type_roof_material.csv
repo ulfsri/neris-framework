@@ -1,0 +1,11 @@
+,active,value,description,definition,source
+0,True,METAL,Metal,,
+1,True,ASPHALT_SHINGLES,Asphalt Shingles,,
+2,True,WOOD_SHINGLES,Wood Shingles,,
+3,True,COMPOSITE_SHINGLES,Composite Shingles,,
+4,True,CLAY_TILES,Clay Tiles,,
+5,True,CONCRETE_TILES,Concrete Tiles,,
+6,True,SOLAR_TILES,Solar Tiles,,
+7,True,MEMBRANE,Membrane,,
+8,True,SLATE,Slate,,
+9,True,OTHER,Other,,

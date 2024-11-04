@@ -1,0 +1,9 @@
+,active,value,description,definition,source
+0,True,NORTH_WEST,North-West,,
+1,True,SOUTH_WEST,South-West,,
+2,True,NORTH,North,,
+3,True,SOUTH,South,,
+4,True,EAST,East,,
+5,True,WEST,West,,
+6,True,NORTH_EAST,North-East,,
+7,True,SOUTH_EAST,South-East,,

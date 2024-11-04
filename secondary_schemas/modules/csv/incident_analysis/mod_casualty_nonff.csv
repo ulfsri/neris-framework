@@ -1,0 +1,7 @@
+name,group,type,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+nonff_rescue_birth_month_year,general,Date,,False,,Single,False,,The date of birth of the person(s) injured or rescued.,1972-06-01 00:00:00,
+nonff_rescue_gender,general,Text,,False,,Single,True,type_gender.value,The gender of the person(s) injured or rescued.,See type_gender table,
+nonff_rescue_race,general,Text,,False,,Single,True,type_race.value,The race of the person(s) injured or rescued.,See type_race table,
+nonff_casualty_casualty_type,casualty,Text,,False,,Single,True,type_casualty.value,"Whether the person was uninjured, injured nonfatally, injured fatally",See type_casualty table,
+nonff_casualty_casualty_cause,casualty.injured,Text,"casualty_type in ('INJURED NONFATALLY', 'INJURED FATALLY')",False,,Single,True,type_casualty_cause.value,The apparent cause of the injury or fatality,See type_casualty_cause table,
+nonff_casualty_room,general,Array[Text],,False,,Single,True,type_room,The room in which the casualty occured / the room from which the person was rescued.,,

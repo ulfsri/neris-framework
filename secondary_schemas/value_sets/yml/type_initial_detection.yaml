@@ -1,0 +1,65 @@
+SMOKE_ALARM:
+  active: true
+  description: Smoke Alarm
+  definition:
+  source:
+HEAT_ALARM:
+  active: true
+  description: Heat Alarm
+  definition:
+  source:
+AUTOMATIC_SUPPRESSION:
+  active: true
+  description: Automatic Suppression System
+  definition:
+  source:
+VISUAL_SIGHTING:
+  active: true
+  description: Visual Sighting
+  definition:
+  source:
+SPECIALTY_DETECTOR:
+  active: true
+  description: Specialty Detector
+  definition:
+  source:
+MANUAL_ACTIVATION:
+  active: true
+  description: Manual activation
+  definition:
+  source:
+ODOR:
+  active: true
+  description: Odor
+  definition:
+  source:
+PET:
+  active: true
+  description: Pet
+  definition:
+  source:
+AUDIBLE_NOISE:
+  active: true
+  description: Audible noise
+  definition:
+  source:
+ALERTED_BY_PERSON:
+  active: true
+  description: Alerted by person
+  definition:
+  source:
+NO_INITIAL_DETECTION:
+  active: true
+  description: No Initial Detection (Burn Out Prior to Detection)
+  definition:
+  source:
+UNKNOWN:
+  active: true
+  description: Initial Detection Unknown
+  definition:
+  source:
+OTHER:
+  active: true
+  description: Other
+  definition:
+  source:

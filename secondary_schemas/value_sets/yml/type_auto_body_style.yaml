@@ -1,0 +1,85 @@
+AMBULANCE:
+  active: true
+  description: Ambulance
+  definition:
+  source:
+BUS:
+  active: true
+  description: Bus
+  definition:
+  source:
+CONVERTIBLE:
+  active: true
+  description: Convertible
+  definition:
+  source:
+COUPE:
+  active: true
+  description: Coupe
+  definition:
+  source:
+FIRE TRUCK:
+  active: true
+  description: Fire Truck
+  definition:
+  source:
+HARDTOP:
+  active: true
+  description: Hardtop
+  definition:
+  source:
+HATCHBACK:
+  active: true
+  description: Hatchback
+  definition:
+  source:
+HEARSE:
+  active: true
+  description: Hearse
+  definition:
+  source:
+LIMOUSINE:
+  active: true
+  description: Limousine
+  definition:
+  source:
+MINIVAN:
+  active: true
+  description: Minivan
+  definition:
+  source:
+MOTORIZED_HOME:
+  active: true
+  description: Motorized Home
+  definition:
+  source:
+PICKUP:
+  active: true
+  description: Pickup
+  definition:
+  source:
+ROADSTER:
+  active: true
+  description: Roadster
+  definition:
+  source:
+SUV:
+  active: true
+  description: SUV
+  definition:
+  source:
+SEDAN:
+  active: true
+  description: Sedan
+  definition:
+  source:
+STATION_WAGON:
+  active: true
+  description: Station Wagon
+  definition:
+  source:
+VAN:
+  active: true
+  description: Van
+  definition:
+  source:

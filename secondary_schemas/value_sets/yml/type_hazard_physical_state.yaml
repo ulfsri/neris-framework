@@ -1,0 +1,25 @@
+SOLID:
+  active: true
+  description: Solid
+  definition:
+  source:
+LIQUID:
+  active: true
+  description: Liquid
+  definition:
+  source:
+GAS:
+  active: true
+  description: Gas
+  definition:
+  source:
+RADIOACTIVE:
+  active: true
+  description: Radioactive
+  definition: ' '
+  source:
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: ' '
+  source: 

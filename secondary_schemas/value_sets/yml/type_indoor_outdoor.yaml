@@ -1,0 +1,10 @@
+INDOOR:
+  active: true
+  description: Indoor
+  definition:
+  source:
+OUTDOOR:
+  active: true
+  description: Outdoor
+  definition:
+  source:

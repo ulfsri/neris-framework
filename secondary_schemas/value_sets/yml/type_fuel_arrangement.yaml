@@ -1,0 +1,15 @@
+GROUND_FUELS:
+  active: true
+  description: Ground fuels
+  definition: 'Example: duff (decomposing litter), roots'
+  source:
+SURFACE_FUELS:
+  active: true
+  description: Surface fuels
+  definition: 'Example: leaves, needles, grasses, forbs, shrubs, twigs, tree stumps, moss, lichen, branches on the ground.'
+  source:
+CROWN_FUELS:
+  active: true
+  description: Crown fuels
+  definition: 'Example: foliage and branches found in the forest canopy.'
+  source:

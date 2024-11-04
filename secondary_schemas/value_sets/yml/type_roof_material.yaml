@@ -1,0 +1,50 @@
+METAL:
+  active: true
+  description: Metal
+  definition:
+  source:
+ASPHALT_SHINGLES:
+  active: true
+  description: Asphalt Shingles
+  definition:
+  source:
+WOOD_SHINGLES:
+  active: true
+  description: Wood Shingles
+  definition:
+  source:
+COMPOSITE_SHINGLES:
+  active: true
+  description: Composite Shingles
+  definition:
+  source:
+CLAY_TILES:
+  active: true
+  description: Clay Tiles
+  definition:
+  source:
+CONCRETE_TILES:
+  active: true
+  description: Concrete Tiles
+  definition:
+  source:
+SOLAR_TILES:
+  active: true
+  description: Solar Tiles
+  definition:
+  source:
+MEMBRANE:
+  active: true
+  description: Membrane
+  definition:
+  source:
+SLATE:
+  active: true
+  description: Slate
+  definition:
+  source:
+OTHER:
+  active: true
+  description: Other
+  definition:
+  source:

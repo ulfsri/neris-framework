@@ -1,0 +1,75 @@
+ADULT_PROTECTIVE_SERVICES:
+  active: true
+  description: Adult Protective Services
+  definition:
+  source:
+CHILD_PROTECTIVE_SERVICES:
+  active: true
+  description: Child Protective Services
+  definition:
+  source:
+OTHER_SOCIAL_SERVICES:
+  active: true
+  description: Other Social Services
+  definition:
+  source:
+HOUSING_SERVICES:
+  active: true
+  description: Housing services
+  definition:
+  source:
+ANIMAL_SERVICES:
+  active: true
+  description: Animal services
+  definition:
+  source:
+LAW_ENFORCEMENT:
+  active: true
+  description: Law enforcement
+  definition:
+  source:
+UTILITIES:
+  active: true
+  description: Utilities
+  definition:
+  source:
+FOOD_SERVICES:
+  active: true
+  description: Food services
+  definition:
+  source:
+MENTAL_HEALTH_SERVICES:
+  active: true
+  description: Mental health services
+  definition:
+  source:
+PARAMEDICINE:
+  active: true
+  description: Paramedicine / Mobile Integrated Health
+  definition:
+  source:
+CODE_ENFORCEMENT:
+  active: true
+  description: Code Enforcement
+  definition:
+  source:
+YOUTH_FIRE_SETTER_PROGRAM:
+  active: true
+  description: Youth Fire-Setter Program
+  definition:
+  source:
+SUBSTANCE_TREATMENT:
+  active: true
+  description: Substance Treatment
+  definition:
+  source:
+MEDICAL_SERVICES:
+  active: true
+  description: Medical Services
+  definition:
+  source:
+OTHER:
+  active: true
+  description: Other
+  definition:
+  source:

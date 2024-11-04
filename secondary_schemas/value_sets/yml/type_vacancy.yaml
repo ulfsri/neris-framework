@@ -1,0 +1,35 @@
+NEW_CONSTRUCTION_REMODEL:
+  active: true
+  description: New Construction / Remodel
+  definition:
+  source:
+ABANDONED:
+  active: true
+  description: Abandoned
+  definition:
+  source:
+FOR_SALE_LEASE:
+  active: true
+  description: For Sale / Lease
+  definition:
+  source:
+FORECLOSURE:
+  active: true
+  description: Foreclosure
+  definition:
+  source:
+DAMAGE_DECAY:
+  active: true
+  description: State of Damage / Decay
+  definition:
+  source: 
+SEASONAL_OCCASIONALLY_OCCUPIED:
+  active: true
+  description: Seasonal / Occasionally Occupied
+  definition:
+  source:
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition:
+  source:

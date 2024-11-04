@@ -1,0 +1,20 @@
+POUCH_POLYMER:
+  active: true
+  description: Pouch Polymer
+  definition:
+  source:
+CYLINDRICAL:
+  active: true
+  description: Cylindrical
+  definition:
+  source:
+PRISMATIC:
+  active: true
+  description: Prismatic
+  definition:
+  source:
+BUTTON_COIN:
+  active: true
+  description: Button / Coin
+  definition:
+  source:

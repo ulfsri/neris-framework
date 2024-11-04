@@ -1,0 +1,60 @@
+ACTIVE SHOOTER:
+  active: true
+  description: Active Shooter
+  definition:
+  source: The Public Safety Officer Support Act of 2022
+NON-FIREFIGHTER FATALITY:
+  active: true
+  description: Non-Firefighter Fatality
+  definition:
+  source:
+FIREFIGHTER FATALITY:
+  active: true
+  description: Firefighter Fatality
+  definition:
+  source:
+FIREFIGHTER NON-FATAL INJURY:
+  active: true
+  description: Firefighter Non-Fatal Injury
+  definition:
+  source:
+FIREFIGHTER NEAR MISS:
+  active: true
+  description: Firefighter Near Miss
+  definition:
+  source:
+VIOLENCE AGAINST RESPONDER:
+  active: true
+  description: Violence Against Responder
+  definition:
+  source:
+PEDIATRIC CPR:
+  active: true
+  description: Pediatric CPR
+  definition:
+  source:
+HOMICIDE SUICIDE VIOLENT DEATH:
+  active: true
+  description: Homicide, Suicide, or Violent Death of Another
+  definition:
+  source:
+DANGER THREAT TO LIFE:
+  active: true
+  description: Danger / Threat to Life
+  definition:
+  source:
+SEXUAL VIOLENCE AGAINST RESPONDER:
+  active: true
+  description: Sexual Violence Against Responder
+  definition:
+  source:
+DISASTER_RESPONSE:
+  active: true
+  description: Disaster Response
+  definition:
+  source:
+MASS_CASUALTY_INCIDENT:
+  active: true
+  description: Mass Casualty Incident
+  definition:
+  source:

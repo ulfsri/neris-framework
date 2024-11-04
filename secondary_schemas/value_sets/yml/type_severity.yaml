@@ -1,0 +1,25 @@
+MINOR:
+  active: true
+  description: Minor
+  definition:
+  source:
+MODERATE:
+  active: true
+  description: Moderate
+  definition:
+  source:
+SEVERE:
+  active: true
+  description: Severe
+  definition:
+  source:
+LIFE_THREATENING:
+  active: true
+  description: Life threatening
+  definition:
+  source:
+DEATH:
+  active: true
+  description: Death
+  definition: 
+  source:

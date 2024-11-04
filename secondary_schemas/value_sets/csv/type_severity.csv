@@ -1,0 +1,6 @@
+,active,value,description,definition,source
+0,True,MINOR,Minor,,
+1,True,MODERATE,Moderate,,
+2,True,SEVERE,Severe,,
+3,True,LIFE_THREATENING,Life threatening,,
+4,True,DEATH,Death,,

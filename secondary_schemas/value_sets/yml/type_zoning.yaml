@@ -1,0 +1,40 @@
+RESIDENTIAL:
+  active: true
+  description: Residential
+  definition:
+  source:
+COMMERCIAL:
+  active: true
+  description: Commercial
+  definition:
+  source:
+INDUSTRIAL:
+  active: true
+  description: Industrial
+  definition:
+  source:
+AGRICULTURAL:
+  active: true
+  description: Agricultural
+  definition:
+  source:
+RURAL:
+  active: true
+  description: Rural
+  definition:
+  source:
+MIXED_USE:
+  active: true
+  description: Mixed-Use
+  definition:
+  source:
+INSTITUTION_PUBLIC:
+  active: true
+  description: Institutional/Public
+  definition:
+  source:
+WUI:
+  active: true
+  description: Wildland Urban Interface
+  definition:
+  source:

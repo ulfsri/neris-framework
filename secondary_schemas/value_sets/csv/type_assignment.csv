@@ -1,0 +1,13 @@
+,active,value,description,definition,source
+0,True,FIRE_SUPPRESSION,Fire suppression,,
+1,True,HAZMAT,Hazmat,,
+2,True,RESCUE,Rescue,,
+3,True,EMS,EMS,,
+4,True,PREVENTION_INSPECTION,Prevention or inspection,,
+5,True,TRAINING,Training,,
+6,True,MAINTENANCE,Maintenance,,
+7,True,COMMUNICATIONS,Communications,,
+8,True,ADMINISTRATION,Administration,,
+9,True,FIRE_INVESTIGATIONS,Fire investigations,,
+10,True,MIH_PARAMEDICINE,MIH / Paramedicine,,
+11,True,OTHER,Other,,

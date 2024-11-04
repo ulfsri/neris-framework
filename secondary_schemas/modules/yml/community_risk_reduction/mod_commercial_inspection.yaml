@@ -1,0 +1,234 @@
+inspection_id:
+  type: Integer
+  group: inspection
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Inspection ID for NERIS Report
+  example:
+  comments:
+entity_inspection_id:
+  type: Text
+  group: inspection
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Internal Inspection ID, if different from NERIS Inspection ID
+  example: Varies
+  comments:
+location:
+  type: Module
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Address of the parcel (see civic location)
+  example: See mod_civic_location
+  comments:
+location_use:
+  type: Array[Text]
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_location_use
+  description: Location use of primary structure.
+  example: See type_location_use
+  comments:
+date:
+  type: Datetime (UTC)
+  group: inspection
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of inspection.
+  example: '2024-08-01 00:00:00'
+  comments:
+reinspection:
+  type: Boolean
+  group: inspection
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the inspection is a follow-up or reinspection.
+  example: 'False'
+  comments:
+previous_inspection_id:
+  type: Integer
+  group: inspection
+  possible_if: reinspection = TRUE
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Inspection ID of previous inspection, if applicable.
+  example: Varies
+  comments:
+building_codes_reqd:
+  type: Text
+  group: inspection
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: false
+  value_set_location:
+  description: Building codes required by the structure type.
+  example: Varies
+  comments:
+building_codes_violated:
+  type: Text
+  group: inspection
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: false
+  value_set_location:
+  description: Building codes violated.
+  example: Varies
+  comments:
+permit_id:
+  type: Text
+  group: inspection
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: false
+  value_set_location:
+  description: Permit number, if inspection is related to permitting.
+  example: Varies
+  comments:
+structure_unit:
+  type: Boolean
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the inspection is being completed on a unit within a structure.
+  example:
+  comments:
+unit_number:
+  type: Text
+  group: structure
+  possible_if: structure_unit = TRUE
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unit number or identifier within structure.
+  example:
+  comments:
+structure_square_feet:
+  type: Integer
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Square footage of structure.
+  example: '2000'
+  comments:
+unit_square_feet:
+  type: Integer
+  group: structure
+  possible_if: structure_unit = TRUE
+  db_required:
+  computed:
+  computed_from:
+  cardinality:
+  value_set:
+  value_set_location:
+  description: Square footage of unit.
+  example:
+  comments:
+occupancy_load:
+  type: Integer
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Occupancy load of structure.
+  example: '24'
+  comments:
+fire_doors_operable:
+  type: Boolean
+  group: risk_reduction
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether fire doors are operating as intended.
+  example:
+  comments:
+risk_reduction_alarms:
+  type: Module
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_risk_reduction
+  description: Fire protection and risk reduction factors present.
+  example: See mod_risk_reduction
+  comments:
+notes:
+  type: Text
+  group:
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Additional notes regarding the inspection.
+  example:
+  comments: Free text

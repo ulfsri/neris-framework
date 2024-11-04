@@ -1,0 +1,15 @@
+IGNITION:
+  active: true
+  description: Ignition
+  definition:
+  source:
+RELEASE:
+  active: true
+  description: Release
+  definition:
+  source:
+SPREAD:
+  active: true
+  description: Spread
+  definition:
+  source:

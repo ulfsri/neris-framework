@@ -1,0 +1,27 @@
+name,type,group,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+occupant_count,Interger,structure,,0.0,,Single,0.0,,Number of people occupying the structure or specifc unit within the structure at the time of the incident.,4,
+parcel_details,Module,structure,,1.0,incident_module,Single,0.0,,Characteristics of the parcel at which the incident occurred. Consists of the fields of mod_parcel.,see mod_parcel,Post process from incident module
+inspection_required,Boolean,structure,,0.0,,Single,0.0,,"Based on local or other codes, requirement of structure to be inspected.",True,User would need knowledge and access to department's inspection data
+inspection_date,DateTime (UTC),structure,inspection_required = TRUE,0.0,,Single,0.0,,Date of last inspection,2015-05-15 00:00:00,
+inspection_findings,Text,structure,inspection_date not null,0.0,,Single,0.0,,Unresolved code violations from inspection,True,
+non_permitted_modifcations,Boolean,structure,inspection_date not null,0.0,,Single,0.0,,Presence of structure modifications that were nonpermitted,False,User would need access to local jurisdiction building/permitting data
+structure_unstable,Boolean,structure,,0.0,,Single,0.0,,Whether the structure was considered unstable prior to incident.,True,
+room_of_origin,Array[Text],ignition,,0.0,,Single,1.0,type_room,The room of origin of the fire.,See type_room value,
+intersectional_space,Boolean,ignition,,0.0,,Single,0.0,,"Whether the fire began in an intersectional space, such as a duct or crawl space.",,
+intersectional_space_origin,Array[Text],ignition,intersectional_space_origin = TRUE,0.0,,Single,1.0,type_intersectional_space,The type of intersectional space where the fire originated.,,
+level_of_origin,Numeric,ignition,,0.0,,Single,0.0,,Levels above or below ground where ignition occurred.,2,Negative values are below grade.
+,,,,,,,,,,,
+cause_category,Array[Text],ignition,,0.0,,Multi,1.0,type_general_fire_cause,Category of the cause of the fire.,See type_general_fire_cause,
+general_cause,Array[Text],ignition,,0.0,,Multi,1.0,type_indoor_cause,General cause of the fire.,See type_fire_indoor_cause,
+specific_cause,Array[Text],ignition,,0.0,,Multi,1.0,type_indoor_cause,Specific cause of the fire.,See type_fire_indoor_cause,
+initial_detection,Array[Text],detection,,0.0,,Single,1.0,,Describes how the fire was intitally detected.,See type_initial_detection,
+risk_reduction,Module,detection,,0.0,,Single,0.0,,,See incident/mod_risk_reduction,
+occupants_displaced,Boolean,flame_spread,,1.0,incident_module,Single,0.0,,Whether the occupants were displaced by the incident for any period of time.,True,Can come from incident module and confirmed or completed during analysis
+interior_doors,Boolean,flame_spread,,0.0,,Single,0.0,,Whether the status of any interior doors impacted the fire prior to FD involvement.,True,
+exterior_doors,Boolean,flame_spread,,0.0,,Single,0.0,,Whether the status of any opened or closed exterior doors impacted the fire prior to FD involvement.,True,
+windows,Boolean,flame_spread,,0.0,,Single,0.0,,Whether the status of any opened or closed windows impacted the fire prior to FD involvement.,True,
+spread,Array[Text],flame_spread,,0.0,,Multi,1.0,type_flame_spread,,,
+contributing_hazards,Array[Text],ignition,,0.0,,Multi,1.0,type_contributing_hazards,Contributing factors or other hazardous conditions.,,
+minor_involved,Boolean,,,0.0,,Single,0.0,,Whether a minor was involved in purposeful ignition of fire.,False,
+description_of_events,Text,,,0.0,,Single,0.0,,"Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.",,Free text.
+recommendations,Text,,,0.0,,Single,0.0,,Describe the suggestions or changes recommended to prevent recurrence.,,Free text.

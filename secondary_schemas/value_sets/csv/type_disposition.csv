@@ -1,0 +1,7 @@
+,active,value,description,definition,source
+0,True,FIRST_AID_ONLY,First aid only,,
+1,True,HOSPITAL,Hospital,,
+2,True,DOCTORS_OFFICE,Doctor's office,,
+3,True,MORGUE_FUNERAL_HOME,Morgue or funeral home,,
+4,True,RESIDENCE,Residence,,
+5,True,NO_CARE_NEEDED,No care needed,,

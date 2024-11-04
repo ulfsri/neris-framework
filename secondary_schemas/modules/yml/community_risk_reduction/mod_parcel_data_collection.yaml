@@ -1,0 +1,312 @@
+inspection_id:
+  type: Integer
+  group: parcel
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: Internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: NERIS-generated unique identifier for inspection.
+  example:
+  comments:
+inspection_date:
+  type: Datetime(UTC)
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of parcel inspection.
+  example: '2025-01-18 00:00:00'
+  comments:
+parcel_id:
+  type: Integer
+  group: parcel
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: Internally-generated
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: NERIS-generated unique identifier for the parcel.
+  example:
+  comments:
+authority_parcel_id:
+  type: Integer
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unique identifier for the parcel as denoted by the assessor or maintaining authority.
+  example:
+  comments:
+location:
+  type: Module
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Address of the parcel (see civic location)
+  example: See mod_civic_location
+  comments:
+location_use:
+  type: Array[Text]
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_location_use
+  description: Location use of primary structure.
+  example: See type_location_use
+  comments:
+zoning:
+  type: Text
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_zoning
+  description: Code for the zoning type or district attributed to the parcel.
+  example: see type_zoning
+  comments:
+flood_plane:
+  type: Boolean
+  group: parcel
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the parcel exists within a flood plane.
+  example:
+  comments:
+lot_size:
+  type: Integer
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Total lot area of the parcel.
+  example: '4'
+  comments:
+lot_units:
+  type: Text
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_lot_units
+  description: 'Unit of measurement for lot_size '
+  example: square feet, acres
+  comments:
+unit_count:
+  type: Integer
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Number of units on the parcel, including dwelling units, commercial units, and storage units.
+  example: '1'
+  comments:
+structure_inspection:
+  type: Boolean
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_structure_inspection
+  description: Detailed information on structure inspection.
+  example: See mod_structure_inspection
+  comments:
+commerical_inspection:
+  type: Boolean
+  group: structure
+  possible_if: structure_inspection =TRUE & location use = commercial
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_commerical_inspection
+  description: Detailed information on commericial structure.
+  example: See mod_commercial_inspection
+  comments:
+outdoor_inspection:
+  type: Boolean
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_outdoor_inspection
+  description: Detailed information on outdoor spacing and fuel.
+  example: See mod_outdoor_inspection
+  comments:
+building_value:
+  type: Computed
+  group: structure
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: augmentation mod_parcel
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Total assessed value of the primary building or structure on the parcel in USD
+  example: '450000'
+  comments:
+land_value:
+  type: Computed
+  group: structure
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: augmentation mod_parcel
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Total assessed value of the land of a property, not including buildings or other structural improvements.
+  example: '300000'
+  comments:
+other_value:
+  type: Computed
+  group: structure
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: augmentation mod_parcel
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Total assessed value of structures or improvements that are not otherwise included in the building value.
+  example: '100000'
+  comments:
+total_value:
+  type: Computed
+  group: structure
+  possible_if:
+  db_required:
+  computed: true
+  computed_from: building_value + land_value + other_value
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Computed.
+  example: '850000'
+  comments:
+last_sale_date:
+  type: Datetime(UTC)
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of last-known sale.
+  example: '2023-10-22 00:00:00'
+  comments:
+last_sale_price:
+  type: Integer
+  group: structure
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Sale price at last-known date of sale.
+  example: '390000'
+  comments:
+map_number:
+  type: Integer
+  group: assessment
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Map or sheet number of the assessor's original map.
+  example: '147'
+  comments:
+map_parcel_id:
+  type: Integer
+  group: assessment
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unique identifier appearing on the assessor's original map.
+  example: Varies
+  comments:
+edit_date:
+  type: Datetime(UTC)
+  group: assessment
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of edit to parcel information.
+  example: '2024-01-12 00:00:00'
+  comments:
+notes:
+  type: Text
+  group:
+  possible_if:
+  db_required:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description:
+  example:
+  comments: Free text.

@@ -1,0 +1,20 @@
+COMBUSTIBLE:
+  active: true
+  description: Combustible
+  definition:
+  source:
+NON COMBUSTIBLE:
+  active: true
+  description: Non Combustible
+  definition:
+  source:
+NONE PRESENT:
+  active: true
+  description: None Present
+  definition:
+  source:
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition:
+  source:
