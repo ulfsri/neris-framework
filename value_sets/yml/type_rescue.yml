@@ -3,34 +3,34 @@ RESCUED_BY_FIREFIGHTER:
   description: Rescued By Firefighter
   definition: ''
   source: ''
-  xor: ffrescue
+  xor: FFRESCUE
 RESCUED_BY_FF_RIT:
   active: 'TRUE'
   description: Rescued By Firefighter RIT
   definition: ''
   source: ''
-  xor: ffrescue
+  xor: FFRESCUE
 RESCUED_BY_NONFIREFIGHTER:
   active: 'TRUE'
   description: Rescued By Non-firefighter
   definition: ''
   source: ''
-  xor: nonffrescue
+  xor: NONFFRESCUE
 EVAC_ASSISTED_BY_FIREFIGHTER:
   active: 'TRUE'
   description: Evacuation Assisted By Firefighter
   definition: ''
   source: ''
-  xor: ffrescue
+  xor: FFRESCUE
 SELF_EVACUATION:
   active: 'TRUE'
   description: Self-Evacuation
   definition: ''
   source: ''
-  xor: nonffrescue
+  xor: NONFFRESCUE
 NO_RESCUE_NEEDED:
   active: 'TRUE'
   description: No Rescue Needed
   definition: ''
   source: ''
-  xor: nonffrescue
+  xor: NONFFRESCUE

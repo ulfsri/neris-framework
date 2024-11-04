@@ -54,6 +54,24 @@ incident_final_type:
   definition: Disposition or final incident type as assessed on scene.
   example: See type_incident table
   comments: ''
+incident_final_type_primary:
+  group: type_identifiers
+  type: Array[Boolean]
+  value_set: 'FALSE'
+  format: ''
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_aid: 'TRUE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Multi
+  map_orm_landing: ''
+  map_app: ''
+  definition: Flag for the primary incident type. Only one type can be `True`.
+  example: ''
+  comments: 'Intended for when multiple types are present.'
 incident_special_modifier:
   group: type_identifiers
   type: Array[Text]
@@ -234,24 +252,6 @@ incident_location_use:
   definition: How the location is being used. Consists of the fields of mod_location_use.
   example: ''
   comments: See shared.mod_location_use
-incident_indoors:
-  group: location
-  type: Boolean
-  value_set: 'FALSE'
-  format: ''
-  possible_if: ''
-  db_required: 'FALSE'
-  neris_core: 'TRUE'
-  neris_core_if: ''
-  neris_core_aid: 'TRUE'
-  computed: 'FALSE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: incident_hist.indoors
-  map_app: ''
-  definition: Whether the incident primarily took place indoors.
-  example: ''
-  comments: ''
 incident_people_present:
   group: location
   type: Boolean
@@ -276,7 +276,7 @@ incident_displaced_number:
   value_set: 'FALSE'
   format: ''
   possible_if: ''
-  db_required: 'TRUE'
+  db_required: 'FALSE'
   neris_core: 'FALSE'
   neris_core_if: ''
   neris_core_aid: 'FALSE'
@@ -519,10 +519,10 @@ incident_aid_nonfd:
   cardinality: Multi
   map_orm_landing: rel_incident_aid_nonfd.type_aid_nonfd joined via rel_incident_aid_nonfd.nuid_incident
   map_app: ''
-  definition: Type of non-fire department organizations giving aid received.
+  definition: Type of non-fire department entities from which aid was received.
   example: See type_aid_nonfd table
   comments: ''
-incident_narrative_impedance:
+incident_narrative_impediment:
   group: narrative
   type: Text
   value_set: 'FALSE'
@@ -535,7 +535,7 @@ incident_narrative_impedance:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: incident_hist.narrative_impedance
+  map_orm_landing: incident_hist.narrative_impediment
   map_app: ''
   definition: Description of any obstacles that impacted the incident.
   example: ''

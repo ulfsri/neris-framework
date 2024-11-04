@@ -1,4 +1,7 @@
 value,active,description,definition,source
-DEPT_UPLOAD,TRUE,Department upload,,
-DEPT_FILE,TRUE,Department file,,
-AWS,TRUE,AWS geocode,,
+API_SUBMISSION,TRUE,Department submission,,
+SURVEY_123,TRUE,Survey 123,,
+NERIS_GEOCODE_AWS,TRUE,NERIS geocode AWS,,
+NERIS_GEOCODE_ESRI,TRUE,NERIS geocode ESRI,,
+NERIS_UI,TRUE,NERIS map UI,,
+ARCHIVE,TRUE,Archive,,

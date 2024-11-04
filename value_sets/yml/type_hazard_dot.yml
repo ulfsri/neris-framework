@@ -40,6 +40,6 @@ CORROSIVES:
   source: ''
 MISCELLANEOUS_DANGEROUS_SUBSTANCES:
   active: 'TRUE'
-  description: Miscellaneous Dangers Substances and Articles
+  description: Miscellaneous Dangerous Substances and Articles
   definition: ''
   source: ''

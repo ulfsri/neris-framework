@@ -1,9 +1,9 @@
 value,active,description,definition,source
-LOCAL,TRUE,Local,"includes career, combination, and volunteer fire departments and fire districts",
+LOCAL,TRUE,Local,"Includes career, combination, and volunteer fire departments and fire districts",
 CONTRACT,TRUE,Contract,Contract fire department,
 FEDERAL,TRUE,Federal,Federal government,
 STATE,TRUE,State,State government (includes state forest fire agencies and state institution fire departments),
 OTHER,TRUE,Other,,
 PRIVATE,TRUE,Private,Private or industrial fire brigade,
 TRANSPORTATION,TRUE,Transportation,Regional/metropolitan transportation authority or airport fire department,
-TRIBAL_GOVT,TRUE,Tribal Government,Tribal government (includes Native American and Alaska Native tribal fire departments),
+TRIBAL,TRUE,Tribal,Tribal Nation (includes Native American and Alaska Native tribal fire departments),

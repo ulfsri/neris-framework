@@ -5,7 +5,7 @@ EVACUATED:
   source: ''
 IGNORED_ALARM:
   active: 'TRUE'
-  description: Ignored_Alarm
+  description: Ignored Alarm
   definition: ''
   source: ''
 UNABLE_TO_RESPOND:

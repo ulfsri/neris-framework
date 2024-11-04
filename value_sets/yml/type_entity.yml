@@ -1,7 +1,7 @@
 LOCAL:
   active: 'TRUE'
   description: 'Local'
-  definition: 'includes career, combination, and volunteer fire departments and fire districts'
+  definition: 'Includes career, combination, and volunteer fire departments and fire districts'
   source: ''
 CONTRACT:
   active: 'TRUE'
@@ -33,8 +33,8 @@ TRANSPORTATION:
   description: 'Transportation'
   definition: 'Regional/metropolitan transportation authority or airport fire department'
   source: ''
-TRIBAL_GOVT:
+TRIBAL:
   active: 'TRUE'
-  description: 'Tribal Government'
-  definition: 'Tribal government (includes Native American and Alaska Native tribal fire departments)'
+  description: 'Tribal'
+  definition: 'Tribal Nation (includes Native American and Alaska Native tribal fire departments)'
   source: ''

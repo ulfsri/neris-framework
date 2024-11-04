@@ -1,20 +1,25 @@
 PANEL_WATER_HEATING:
   active: 'TRUE'
-  description: Panel Water Heating
+  description: 'Panel Water Heating'
   definition: ''
   source: ''
 PANEL_POWER_GENERATION:
   active: 'TRUE'
-  description: Panel Power Generation
+  description: 'Panel Power Generation'
   definition: ''
   source: ''
 TILE_POWER_GENERATION:
   active: 'TRUE'
-  description: Tile Power Generation
+  description: 'Tile Power Generation'
   definition: ''
   source: ''
 THIN_FILM_POWER_GENERATION:
   active: 'TRUE'
-  description: Thin Film Power Generation
+  description: 'Thin Film Power Generation'
+  definition: ''
+  source: ''
+OTHER:
+  active: 'TRUE'
+  description: 'Other'
   definition: ''
   source: ''

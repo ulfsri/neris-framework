@@ -15,6 +15,6 @@ HEAT_DETECTOR:
   source: ''
 OTHER_CHEMICAL_DETECTOR:
   active: 'TRUE'
-  description: Other_Chemical Detector
+  description: Other Chemical Detector
   definition: ''
   source: ''

@@ -1,0 +1,10 @@
+EMERGENT:
+  active: 'TRUE'
+  description: Emergent
+  definition: ''
+  source: ''
+NON_EMERGENT:
+  active: 'TRUE'
+  description: Non Emergent
+  definition: ''
+  source: ''

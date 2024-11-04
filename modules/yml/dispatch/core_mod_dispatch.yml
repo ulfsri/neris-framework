@@ -114,7 +114,7 @@ dispatch_point:
   comments: ''
 dispatch_comment:
   group: dispatch.comment
-  type: Text
+  type: Array[Text]
   value_set: 'FALSE'
   format: 'String of 100,000 max characters'
   possible_if: ''
@@ -133,7 +133,7 @@ dispatch_comment:
   comments: ''
 dispatch_comment_timestamp:
   group: dispatch.comment
-  type: Datetime (UTC)
+  type: Array[Datetime (UTC)]
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
   possible_if: ''
@@ -149,25 +149,6 @@ dispatch_comment_timestamp:
   map_app: ''
   definition: Timestamp of the comment.
   example: '2024-05-03T18:56:56+00:00'
-  comments: ''
-dispatch_incident_type:
-  group: dispatch
-  type: Text
-  value_set: 'TRUE'
-  format: See value_1, value2, value_3 from type_incident
-  possible_if: ''
-  db_required: 'FALSE'
-  neris_core: 'TRUE'
-  neris_core_if: ''
-  neris_core_app: 'FALSE'
-  neris_core_cad: 'TRUE'
-  computed: 'TRUE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: dispatch.type_incident
-  map_app: ''
-  definition: Specific incident type that details the nature of the incident; levels up into incident_category.
-  example: See type_incident table
   comments: ''
 dispatch_determinate_code:
   group: dispatch
@@ -204,7 +185,7 @@ dispatch_incident_code:
   cardinality: Single
   map_orm_landing: dispatch.incident_code
   map_app: ''
-  definition: Department-specific incident code pulled from CAD; levels up into incident_type.
+  definition: Department-specific incident code pulled from CAD; should map to a type_incident for ETL in NERIS.
   example: STRF1, ALS2, etc.
   comments: ''
 dispatch_final_disposition:
@@ -225,25 +206,6 @@ dispatch_final_disposition:
   map_app: ''
   definition: Closing disposition of call set by dispatcher if call changes from initial dispatch.
   example: No Patient Found, Building Secure
-  comments: ''
-dispatch_aid_given:
-  group: dispatch
-  type: Boolean
-  value_set: 'FALSE'
-  format: ''
-  possible_if: ''
-  db_required: 'FALSE'
-  neris_core: 'TRUE'
-  neris_core_if: ''
-  neris_core_app: 'TRUE'
-  neris_core_cad: 'TRUE'
-  computed: 'FALSE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: dispatch.aid_given
-  map_app: ''
-  definition: Identifies if the dispatching units are providing aid (automatic or mutual) to another department.
-  example: '"True"'
   comments: ''
 dispatch_automatic_alarm:
   group: dispatch
@@ -302,7 +264,7 @@ dispatch_time_call_answering:
   definition: Timestamp at which call is answered at PSAP or department dispatch center.
   example: '2024-05-03T18:56:57+00:00'
   comments: ''
-dispatch_time_call_open_time:
+dispatch_time_call_create:
   group: dispatch.time
   type: Datetime (UTC)
   value_set: 'FALSE'
@@ -318,7 +280,7 @@ dispatch_time_call_open_time:
   cardinality: Single
   map_orm_landing: dispatch.call_open
   map_app: ''
-  definition: Timestamp at which call processing begins.
+  definition: Timestamp at which call was created.
   example: '2024-05-03T18:56:58+00:00'
   comments: ''
 dispatch_time_alarm_answering:
@@ -380,6 +342,27 @@ dispatch_unit_response:
   definition: Shared module for unit response information.
   example: ''
   comments: See shared.mod_unit_response
+time_incident_clear:
+  group: dispatch.time
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  format: 'An ISO 8601 formatted datetime string with offset.'
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core_if: ''
+  neris_core_app: 'TRUE'
+  neris_core_cad: 'TRUE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: 'unit_response.time_incident_clear'
+  map_app: ''
+  definition: Timestamp when dispatch closes incident.
+  example: "2024-05-03T18:56:58+00:00"
+  comments: ''
+  api_class: Timestamps
+  NERIS Validation Range: Must not be null. Either valid timestamp.
+  NIEM Definition: ''
 dispatch_tactic_timestamps:
   group: tactic_timestamps
   type: Module

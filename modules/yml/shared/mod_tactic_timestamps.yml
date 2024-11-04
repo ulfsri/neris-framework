@@ -1,5 +1,5 @@
 time_command_established:
-  group: tactic
+  group: tactics
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
@@ -17,7 +17,7 @@ time_command_established:
   definition: Timestamp at which incident command is established.
   example: "2024-05-03T18:56:58+00:00"
   comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
-time_360_completed:
+time_sizeup_completed:
   group: tactics
   type: Datetime (UTC)
   value_set: 'FALSE'
@@ -31,9 +31,9 @@ time_360_completed:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Single
-  map_orm_landing: tactic_timestamps.completed_360
+  map_orm_landing: tactic_timestamps.completed_sizeup
   map_app: ''
-  definition: Timestamp at which incident 360 is complete.
+  definition: Timestamp at which initial incident sizeup is complete.
   example: "2024-05-03T18:56:58+00:00"
   comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
 time_suppression_complete:
@@ -98,7 +98,7 @@ time_water_on_fire:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: 'Incident type FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: ''
@@ -117,7 +117,7 @@ time_fire_under_control:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: 'Incident type FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: ''
@@ -136,7 +136,7 @@ time_fire_knocked_down:
   type: Datetime (UTC)
   value_set: 'FALSE'
   format: 'An ISO 8601 formatted datetime string with offset.'
-  possible_if: ''
+  possible_if: 'Incident type FIRE'
   db_required: 'FALSE'
   neris_core: 'TRUE'
   neris_core_if: ''
@@ -148,5 +148,24 @@ time_fire_knocked_down:
   map_orm_landing: tactic_timestamps.fire_knocked_down
   map_app: ''
   definition: Timestamp at which fire is has been knocked down.
+  example: "2024-05-03T18:56:58+00:00"
+  comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'
+time_extrication_complete:
+  group: tactics.fire
+  type: Datetime (UTC)
+  value_set: 'FALSE'
+  format: 'An ISO 8601 formatted datetime string with offset.'
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_app: 'FALSE'
+  neris_core_cad: 'FALSE'
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: tactic_timestamps.extrication_complete
+  map_app: ''
+  definition: Timestamp at which extrication (motor vehicle, technical rescue) has been completed.
   example: "2024-05-03T18:56:58+00:00"
   comments: 'On an incident basis. In UTC: ISO 8601 formatted datetime string with 00:00 offset.'

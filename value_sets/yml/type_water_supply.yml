@@ -33,8 +33,8 @@ SUPPLY_FROM_FIRE_BOAT:
   description: Supply From Fire Boat
   definition: ''
   source: ''
-FOAM_ADDITIVE_USE:
+FOAM_ADDITIVE:
   active: 'TRUE'
-  description: Foam / Water Additive Use
+  description: Foam / Water Additive
   definition: ''
   source: ''

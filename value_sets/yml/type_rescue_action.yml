@@ -20,7 +20,7 @@ ROPE_RIGGING:
   source: ''
 BREAK_BREACH_WALL:
   active: 'TRUE'
-  description: Break Breach Wall
+  description: Break / Breach Wall
   definition: ''
   source: ''
 BRACE_WALL_INFRASTRUCTURE:

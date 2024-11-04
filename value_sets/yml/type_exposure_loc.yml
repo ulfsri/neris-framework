@@ -3,10 +3,10 @@ EXTERNAL_EXPOSURE:
   description: External Exposure (building to building, building to vehicle, etc.)
   definition: ''
   source: ''
-  xor: external
+  xor: EXTERNAL
 INTERNAL_EXPOSURE:
   active: 'TRUE'
   description: Internal Exposure (Occupancy A to Occupancy B, within the same structure)
   definition: ''
   source: ''
-  xor: internal
+  xor: INTERNAL

@@ -52,6 +52,42 @@ ff_rescue_race:
   definition: Race of the person(s) injured or rescued.
   example: See type_race table
   comments: ''
+ff_casualty_rank:
+  group: casualty.demographic
+  type: Text
+  value_set: 'FALSE'
+  format: 'String of 255 max characters'
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_aid: ''
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: casualty_sub_injury_ff.rank
+  map_app: ''
+  definition: Rank of firefighter.
+  example: Captain
+  comments: ''
+ff_casualty_service:
+  group: casualty.demographic
+  type: Float
+  value_set: 'FALSE'
+  format: 'single-precision floating-point number'
+  possible_if: ''
+  db_required: 'FALSE'
+  neris_core: 'TRUE'
+  neris_core_if: ''
+  neris_core_aid: ''
+  computed: 'FALSE'
+  computed_from: ''
+  cardinality: Single
+  map_orm_landing: casualty_sub_injury_ff.service
+  map_app: ''
+  definition: Years of service.
+  example: '2'
+  comments: ''
 ff_rescue_type:
   group: rescue
   type: Text
@@ -106,11 +142,11 @@ ff_rescue_actions:
   definition: Actions taken to support the rescue.
   example: See type_rescue_action table
   comments: ''
-ff_rescue_impedance_type:
+ff_rescue_impediment_type:
   group: rescue
   type: Array[Text]
   value_set: 'TRUE'
-  format: See type_rescue_impedance.value
+  format: See type_rescue_impediment.value
   possible_if: rescue_type = Firefighter Rescued, Firefighter-Assisted Evacuation
   db_required: 'FALSE'
   neris_core: 'TRUE'
@@ -119,10 +155,10 @@ ff_rescue_impedance_type:
   computed: 'FALSE'
   computed_from: ''
   cardinality: Multi
-  map_orm_landing: rel_rescue_sub_ffrescue_impedance.type_rescue_impedance
+  map_orm_landing: rel_rescue_sub_ffrescue_impediment.type_rescue_impediment
   map_app: ''
   definition: Whether conditions impacted the ability of rescue.
-  example: See type_rescue_impedance table
+  example: See type_rescue_impediment table
   comments: ''
 ff_rescue_mayday:
   group: rescue.ff
@@ -286,42 +322,6 @@ ff_casualty_type:
   definition: Whether the person was uninjured, injured nonfatally, injured fatally.
   example: See type_casualty table
   comments: ''
-ff_casualty_rank:
-  group: casualty.demographic
-  type: Text
-  value_set: 'FALSE'
-  format: 'String of 255 max characters'
-  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
-  db_required: 'FALSE'
-  neris_core: 'TRUE'
-  neris_core_if: ''
-  neris_core_aid: ''
-  computed: 'FALSE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: casualty_sub_injury_ff.rank
-  map_app: ''
-  definition: Rank of firefighter.
-  example: Captain
-  comments: ''
-ff_casualty_service:
-  group: casualty.demographic
-  type: Float
-  value_set: 'FALSE'
-  format: 'single-precision floating-point number'
-  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
-  db_required: 'FALSE'
-  neris_core: 'TRUE'
-  neris_core_if: ''
-  neris_core_aid: ''
-  computed: 'FALSE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: casualty_sub_injury_ff.service
-  map_app: ''
-  definition: Years of service.
-  example: '2'
-  comments: ''
 ff_casualty_classification:
   group: casualty.demographic
   type: Text
@@ -376,24 +376,6 @@ ff_casualty_reported_unit_id:
   definition: Name of the unit responding to the incident if neris id not yet in FD Spec.
   example: A702, PA711, E731
   comments: ''
-ff_casualty_unit_cont:
-  group: casualty.injured.deployment
-  type: Boolean
-  value_set: 'FALSE'
-  format: ''
-  possible_if: casualty_type in ('injured nonfatally', 'injured fatally')
-  db_required: 'FALSE'
-  neris_core: 'TRUE'
-  neris_core_if: ''
-  neris_core_aid: ''
-  computed: 'FALSE'
-  computed_from: ''
-  cardinality: Single
-  map_orm_landing: casualty_sub_injury_ff.unit_cont
-  map_app: ''
-  definition: Continuity of company at the time of incident.
-  example: '"True"'
-  comments: Whether the firefighter was operating in a new crew or crew had temporary firefighters or officer
 ff_casualty_duty_type:
   group: casualty.injured.deployment
   type: Text

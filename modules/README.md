@@ -7,16 +7,25 @@ The metadata tables in `modules/` contain some or all of the following fields:
     - Text
     - The field's name.
     - Must be populated for all fields.
-- `type`
-    - Text
-    - The field's data type.
-    - Aligned to standard PostgreSQL and PostGIS types.
-    - Must be populated for all fields.
 - `group` 
     - Text
     - The field's within-module group.
     - Used for blocks of fields which logically move together, such as for conditionality or repeatability.
     - Must be populated for all fields.
+- `type`
+    - Text
+    - The field's data type.
+    - Aligned to standard PostgreSQL and PostGIS types.
+    - Must be populated for all fields.
+- `value_set`
+    - Boolean
+    - Whether the value must be a member of a pre-determined set of acceptable values.
+    - Must be populated for all fields.
+- `format`
+    - Text
+    - Specific formatting required for the field
+    - Reference to the specific `value_set` file where applicable.
+    - Must be populated for fields for which the format is not obvious.
 - `possible_if`
     - Text
     - For fields that should only be populated under certain conditions, the logic of those conditions.
@@ -26,15 +35,15 @@ The metadata tables in `modules/` contain some or all of the following fields:
     - Boolean
     - Whether the field should always contain a not null value. To allow NERIS to be maximally accepting of submitted data, this should only be `TRUE` for the fields required for a minimally viable record, and for those that are calculated in a way that naturally leads to a default value (such as aggregated counts, which default to 0).  
     - Must be populated for all fields.
-- `neris_core_if`
-    - Text
-    - The logical conditions under which any of the `neris_core` fields may apply.
-    - Must be populated for all fields whose `neris_core_dependency` is conditional.
 - `neris_core`
     - Boolean
     - Does not apply to `core_mod_disp`.
     - Whether the field is required for the record to be considered minimally complete within NERIS.
     - Must be populated for all fields.
+- `neris_core_if`
+    - Text
+    - The logical conditions under which any of the `neris_core` fields may apply.
+    - Must be populated for all fields whose `neris_core_dependency` is conditional.
 - `neris_core_aid`
     - Boolean
     - Does not apply to `core_mod_disp`.
@@ -53,7 +62,7 @@ The metadata tables in `modules/` contain some or all of the following fields:
 - `computed`
     - Boolean
     - Whether the field is populated by NERIS via post-processing.
-    - Those marked `TRUE` do not require direct submission by departments or other user organizations.
+    - Those marked `TRUE` do not require direct submission by departments or other user entities.
     - Must be populated for all fields.
 - `computed_from`
     - Text
@@ -62,10 +71,6 @@ The metadata tables in `modules/` contain some or all of the following fields:
 - `cardinality`
     - Text
     - Whether the field is a single value (`Single`) or an array (`Multi`) for a given record.
-    - Must be populated for all fields.
-- `value_set`
-    - Boolean
-    - Whether the value must be a member of a pre-determined set of acceptable values.
     - Must be populated for all fields.
 - `reference_location`
     - Text

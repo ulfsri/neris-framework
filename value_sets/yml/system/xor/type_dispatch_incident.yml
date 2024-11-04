@@ -1,4 +1,4 @@
 dispatch:
-  xor: dispatch
+  xor: DISPATCH
 incident:
-  xor: incident
+  xor: INCIDENT

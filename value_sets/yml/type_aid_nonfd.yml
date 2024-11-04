@@ -18,3 +18,13 @@ HOUSING_SERVICES:
   description: Housing services
   definition: ''
   source: ''
+UTILITIES_PUBLIC_WORKS:
+  active: 'TRUE'
+  description: Utility Company / Public Works
+  definition: ''
+  source: ''
+REMEDIATION_SERVICES:
+  active: 'TRUE'
+  description: Remediation Services
+  definition: ''
+  source: ''

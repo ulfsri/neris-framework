@@ -1,10 +1,10 @@
-GIVEN:
+FF:
   active: 'TRUE'
-  description: Aid Given
+  description: Firefighter
   definition: ''
   source: ''
-RECEIVED:
+NONFF:
   active: 'TRUE'
-  description: Aid Received
+  description: Non-Firefighter
   definition: ''
   source: ''

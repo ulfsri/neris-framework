@@ -28,6 +28,11 @@ INSUFFICIENT_WATER_SUPPLY:
   description: Insufficient Water Supply
   definition: ''
   source: ''
+INSUFFICIENT_SOURCE:
+  active: 'TRUE'
+  description: Insufficient Fire Source to Activate
+  definition: ''
+  source: ''  
 UNABLE_TO_DETERMINE:
   active: 'TRUE'
   description: Unable To Determine

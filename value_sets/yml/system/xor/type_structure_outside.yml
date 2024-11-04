@@ -1,4 +1,4 @@
 structure:
-  xor: structure
+  xor: STRUCTURE
 outside:
-  xor: outside
+  xor: OUTSIDE

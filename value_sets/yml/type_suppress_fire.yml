@@ -23,6 +23,11 @@ CLEAN_AGENT_SYSTEM:
   description: Clean Agent System
   definition: ''
   source: ''
+INDUSTRIAL_DRY_CHEM_SYSTEM:
+  active: 'TRUE'
+  description: Industrial Dry Chemical System
+  definition: ''
+  source: ''
 OTHER:
   active: 'TRUE'
   description: Other

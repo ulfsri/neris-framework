@@ -1,4 +1,4 @@
 value,active,description,definition,source,xor
-OPERATED_EFFECTIVE,TRUE,Operated - Effective,Prevention of flashover,,effective
-OPERATED_NOT_EFFECTIVE,TRUE,Operated - Not Effective,,,ineffective
-FAILED_TO_OPERATE,TRUE,Failed to Operate,,,failed
+OPERATED_EFFECTIVE,TRUE,Operated - Effective,Prevention of flashover,,EFFECTIVE
+OPERATED_NOT_EFFECTIVE,TRUE,Operated - Not Effective,,,INEFFECTIVE
+NO_OPERATION,TRUE,Did Not Operate,,,FAILED

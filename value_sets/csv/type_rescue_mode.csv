@@ -1,6 +1,6 @@
 value,active,description,definition,source,xor
-REMOVAL_FROM_STRUCTURE,TRUE,Removal From Structure,,,removal
-EXTRICATION,TRUE,Extrication,,,nonremoval
-DISENTANGLEMENT,TRUE,Disentanglement,,,nonremoval
-RECOVERY,TRUE,Recovery,,,nonremoval
-OTHER,TRUE,Other,,,nonremoval
+REMOVAL_FROM_STRUCTURE,TRUE,Removal From Structure,,,REMOVAL
+EXTRICATION,TRUE,Extrication,,,NONREMOVAL
+DISENTANGLEMENT,TRUE,Disentanglement,,,NONREMOVAL
+RECOVERY,TRUE,Recovery,,,NONREMOVAL
+OTHER,TRUE,Other,,,NONREMOVAL

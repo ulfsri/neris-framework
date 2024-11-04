@@ -8,3 +8,8 @@ REMOVED:
   description: Removed
   definition: ''
   source: ''
+DELETED:
+  active: 'TRUE'
+  description: Deleted
+  definition: ''
+  source: ''

@@ -48,8 +48,13 @@ AIRATTACK_HELITACK:
   description: Air Tanker / Helitank
   definition: ''
   source: ''
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition: ''
+  source: ''
 NONE:
   active: 'TRUE'
-  description: ''
+  description: None
   definition: ''
   source: ''

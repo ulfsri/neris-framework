@@ -226,6 +226,18 @@
   definition_2: ''
   definition_3: ''
   source: ''
+'ELECTRIC_VEHICLE: CAR_RR: FUEL_CELL':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: CAR_RR
+  value_3: FUEL_CELL
+  description_1: Road Registered Car
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'ELECTRIC_VEHICLE: TRUCK_PASSENGER_RR: FULL_ELECTRIC':
   active: 'TRUE'
   value_1: ELECTRIC_VEHICLE
@@ -258,6 +270,18 @@
   description_1: Road Registered Passenger Truck
   description_2: Electric Vehicle
   description_3: Hybrid
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: TRUCK_PASSENGER_RR: FUEL_CELL':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_PASSENGER_RR
+  value_3: FUEL_CELL
+  description_1: Road Registered Passenger Truck
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -298,6 +322,18 @@
   definition_2: ''
   definition_3: ''
   source: ''
+'ELECTRIC_VEHICLE: TRUCK_COMMERCIAL_RR: FUEL_CELL':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: TRUCK_COMMERCIAL_RR
+  value_3: FUEL_CELL
+  description_1: Road Registered Commercial Truck
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'ELECTRIC_VEHICLE: BUS_RR: FULL_ELECTRIC':
   active: 'TRUE'
   value_1: ELECTRIC_VEHICLE
@@ -330,6 +366,18 @@
   description_1: Road Registered Bus
   description_2: Electric Vehicle
   description_3: Hybrid
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BUS_RR: FUEL_CELL':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: BUS_RR
+  value_3: FUEL_CELL
+  description_1: Road Registered Bus
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -370,10 +418,22 @@
   definition_2: ''
   definition_3: ''
   source: ''
-'ELECTRIC_VEHICLE: BOAT_COMMERICAL: FULL_ELECTRIC':
+'ELECTRIC_VEHICLE: BOAT_RECREATIONAL: Fuel_Cell':
   active: 'TRUE'
   value_1: ELECTRIC_VEHICLE
-  value_2: BOAT_COMMERICAL
+  value_2: BOAT_RECREATIONAL
+  value_3: Fuel_Cell
+  description_1: Boat Recreational
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_COMMERCIAL: FULL_ELECTRIC':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_COMMERCIAL
   value_3: FULL_ELECTRIC
   description_1: Boat Commercial
   description_2: Electric Vehicle
@@ -382,10 +442,10 @@
   definition_2: ''
   definition_3: ''
   source: ''
-'ELECTRIC_VEHICLE: BOAT_COMMERICAL: PLUG_IN_HYBRID':
+'ELECTRIC_VEHICLE: BOAT_COMMERCIAL: PLUG_IN_HYBRID':
   active: 'TRUE'
   value_1: ELECTRIC_VEHICLE
-  value_2: BOAT_COMMERICAL
+  value_2: BOAT_COMMERCIAL
   value_3: PLUG_IN_HYBRID
   description_1: Boat Commercial
   description_2: Electric Vehicle
@@ -394,14 +454,26 @@
   definition_2: ''
   definition_3: ''
   source: ''
-'ELECTRIC_VEHICLE: BOAT_COMMERICAL: HYBRID':
+'ELECTRIC_VEHICLE: BOAT_COMMERCIAL: HYBRID':
   active: 'TRUE'
   value_1: ELECTRIC_VEHICLE
-  value_2: BOAT_COMMERICAL
+  value_2: BOAT_COMMERCIAL
   value_3: HYBRID
   description_1: Boat Commercial
   description_2: Electric Vehicle
   description_3: Hybrid
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: BOAT_COMMERCIAL: FUEL_CELL':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: BOAT_COMMERCIAL
+  value_3: FUEL_CELL
+  description_1: Boat Commercial
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
   definition_1: ''
   definition_2: ''
   definition_3: ''
@@ -442,6 +514,18 @@
   definition_2: ''
   definition_3: ''
   source: ''
+'ELECTRIC_VEHICLE: LIGHT_EV_NRR: FUEL_CELL':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: LIGHT_EV_NRR
+  value_3: FUEL_CELL
+  description_1: Non Road Registered Light Vehicle
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
 'ELECTRIC_VEHICLE: OTHER: FULL_ELECTRIC':
   active: 'TRUE'
   value_1: ELECTRIC_VEHICLE
@@ -474,6 +558,18 @@
   description_1: Other
   description_2: Electric Vehicle
   description_3: Hybrid
+  definition_1: ''
+  definition_2: ''
+  definition_3: ''
+  source: ''
+'ELECTRIC_VEHICLE: OTHER: FUEL_CELL':
+  active: 'TRUE'
+  value_1: ELECTRIC_VEHICLE
+  value_2: OTHER
+  value_3: FUEL_CELL
+  description_1: Other
+  description_2: Electric Vehicle
+  description_3: Fuel Cell
   definition_1: ''
   definition_2: ''
   definition_3: ''

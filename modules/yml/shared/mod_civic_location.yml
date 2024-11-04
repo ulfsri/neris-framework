@@ -3,7 +3,6 @@ nl_structure:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -22,7 +21,6 @@ nl_subsite:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -41,7 +39,6 @@ nl_site:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -60,7 +57,6 @@ an_prefix:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -79,7 +75,6 @@ an_number:
   type: Integer
   value_set: 'FALSE'
   format: ''
-  group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -98,7 +93,6 @@ an_suffix:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -117,7 +111,6 @@ an_complete:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -136,7 +129,6 @@ an_distance_marker:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_address_number
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -155,7 +147,6 @@ sn_pre_modifier:
   type: Text
   value_set: 'TRUE'
   format: 'See type_loc_sn_pre_post.value'
-  group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -169,12 +160,12 @@ sn_pre_modifier:
   definition: Word or phrase that precedes and modifies the Street Name element but is separated from it by a Street Name Pre Type or a Street Name Pre Directional or both.
   example: '"Old" in "Old North First Street" ("Old" is a Street Name Pre Modifier because the Street Name Pre Directional "North" separates "Old" from the Street Name "First" and the Street Name Post Type "Street".)'
   comments: ''
-sn_pre_dir:
+sn_pre_directional:
   group: cldxf_street_name
   type: Text
-  value_set: 'TRUE'
-  format: 'See type_loc_sn_direction.value'
-  group.1: cldxf_street_name
+  value_set: 'FALSE'
+  format: 'North, Northeast, Northwest, South, Southeast, Southwest, East, West, or equivalent words in other languages.'
+  group: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -193,7 +184,6 @@ sn_pre_type:
   type: Text
   value_set: 'TRUE'
   format: See type_loc_sn_pre_post.value
-  group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -212,7 +202,6 @@ sn_pre_type_separator:
   type: Text
   value_set: 'TRUE'
   format: See type_loc_sn_pre_sep.value
-  group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -231,7 +220,6 @@ sn_street_name:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -250,7 +238,6 @@ sn_post_type:
   type: Text
   value_set: 'TRUE'
   format: See type_loc_sn_pre_post.value
-  group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -267,9 +254,9 @@ sn_post_type:
 sn_post_directional:
   group: cldxf_street_name
   type: Text
-  value_set: 'TRUE'
-  format: 'See type_loc_sn_direction.value'
-  group.1: cldxf_street_name
+  value_set: 'FALSE'
+  format: 'North, Northeast, Northwest, South, Southeast, Southwest, East, West, or equivalent words in other languages.'
+  group: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -277,7 +264,7 @@ sn_post_directional:
   neris_core_cad: 'FALSE'
   computed: 'FALSE'
   computed_from: ''
-  cardinality: Single
+  cardinality: Single  
   map_orm_landing: location.sn_post_dir
   map_app: StDir
   definition: 'Word following the Street Name element that indicates the direction taken by the street from an arbitrary starting point or line, or the sector where it is located. '
@@ -288,7 +275,6 @@ sn_post_modifier:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -307,7 +293,6 @@ sn_dir_of_travel:
   type: Text
   value_set: 'TRUE'
   format: See type_loc_sn_direction.value
-  group.1: cldxf_street_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -326,7 +311,6 @@ nl_wing:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -345,7 +329,6 @@ nl_floor:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -364,7 +347,6 @@ nl_unit_pre_type:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -383,7 +365,6 @@ nl_unit_value:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -402,7 +383,6 @@ nl_room:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -421,7 +401,6 @@ nl_section:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -440,7 +419,6 @@ nl_row:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -459,7 +437,6 @@ nl_seat:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -478,7 +455,6 @@ nl_additional_info:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -497,7 +473,6 @@ nl_marker:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_named_location
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -516,7 +491,6 @@ csop_postal_comm:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -535,7 +509,6 @@ csop_neighborhood_comm:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -554,7 +527,6 @@ csop_unincorporated_comm:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -573,7 +545,6 @@ csop_incorporated_muni:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -592,7 +563,6 @@ csop_county:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -611,7 +581,6 @@ csop_state:
   type: Text
   value_set: 'TRUE'
   format: 'Two letter state name abbreviation'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -630,7 +599,6 @@ csop_postal_code:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -649,7 +617,6 @@ csop_postal_code_ext:
   type: Text
   value_set: 'FALSE'
   format: 'String of 255 max characters'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -668,7 +635,6 @@ csop_country:
   type: Text
   value_set: 'TRUE'
   format: 'See type_loc_csp_country.value'
-  group.1: cldxf_country_state_and_other_place_name
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -687,7 +653,6 @@ place:
   type: Text
   value_set: 'TRUE'
   format: See type_loc_place
-  group.1: cldxf_address_descriptor
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -706,7 +671,6 @@ additional_attributes:
   type: JSONB
   value_set: 'FALSE'
   format: ''
-  group.1: neris_addition
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -725,7 +689,6 @@ cross_street:
   type: Array[Array[Text, Text]]
   value_set: 'FALSE'
   format: 'concatenation of address number and street name elements'
-  group.1: neris_addition
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''
@@ -744,7 +707,6 @@ type_cross_street:
   type: Array[Text]
   value_set: 'TRUE'
   format: See type_location_cross_street
-  group.1: neris_addition
   possible_if: ''
   db_required: 'FALSE'
   neris_core_if: ''

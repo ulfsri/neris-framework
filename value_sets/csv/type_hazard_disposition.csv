@@ -1,5 +1,5 @@
 value,active,description,definition,source
-COMPLETED_FIRE_SERVICE_ONLY,TRUE,Completed by Fire Sevice Only,,
+COMPLETED_FIRE_SERVICE_ONLY,TRUE,Completed by Fire Service Only,,
 COMPLETED_WITH_FIRE_SERVICE_PRESENT,TRUE,Completed with Fire Service Present,,
 RELEASED_TO_LOCAL_AGENCY,TRUE,Released to Local Agency,,
 RELEASED_TO_COUNTY_AGENCY,TRUE,Released to County Agency,,

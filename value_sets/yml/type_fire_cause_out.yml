@@ -1,84 +1,84 @@
 NATURAL:
   active: 'TRUE'
   description: Natural
-  NWGC: Natural
+  NWCG: Natural
   definition: ''
   source: ''
 EQUIPMENT_VEHICLE_USE:
   active: 'TRUE'
   description: Equipment and Vehicle Use
-  NWGC: Equipment and vehicle use
+  NWCG: Equipment and vehicle use
   definition: ''
   source: ''
 SMOKING_MATERIALS_ILLICIT_DRUGS:
   active: 'TRUE'
   description: Smoking Materials / Illicit Drugs
-  NWGC: 'Smoking '
+  NWCG: 'Smoking '
   definition: ''
   source: ''
 RECREATION_CEREMONY:
   active: 'TRUE'
   description: Recreation and Ceremony (includes campfire)
-  NWGC: Recreation and ceremony (includes campfire)
+  NWCG: Recreation and ceremony (includes campfire)
   definition: ''
   source: ''
 DEBRIS_OPEN_BURNING:
   active: 'TRUE'
   description: Debris / Open Burning
-  NWGC: Debris and open burning
+  NWCG: Debris and open burning
   definition: ''
   source: ''
 RAILROAD_OPS_MAINTENANCE:
   active: 'TRUE'
   description: Railroad Operations / Maintenance
-  NWGC: Railroad Operations and Maintenance
+  NWCG: Railroad Operations and Maintenance
   definition: ''
   source: ''
 FIREARMS_EXPLOSIVES:
   active: 'TRUE'
   description: Firearms / Explosives Use
-  NWGC: Firearms and explosive use
+  NWCG: Firearms and explosive use
   definition: ''
   source: ''
 FIREWORKS:
   active: 'TRUE'
   description: Fireworks
-  NWGC: Fireworks
+  NWCG: Fireworks
   definition: ''
   source: ''
 POWER_GEN_TRANS_DIST:
   active: 'TRUE'
   description: Power Generation / Transmission / Distribution
-  NWGC: Power generation/transmission/distribution
+  NWCG: Power generation/transmission/distribution
   definition: ''
   source: ''
 STRUCTURE:
   active: 'TRUE'
   description: Structure
-  NWGC: Structure
+  NWCG: Structure
   definition: ''
   source: ''
 INCENDIARY:
   active: 'TRUE'
   description: Incendiary
-  NWGC: Arson
+  NWCG: Arson
   definition: ''
   source: ''
 BATTERY_POWER_STORAGE:
   active: 'TRUE'
   description: Battery / Power Storage
-  NWGC: ''
+  NWCG: ''
   definition: ''
   source: ''
 SPREAD_FROM_CONTROLLED_BURN:
   active: 'TRUE'
   description: Spread From Controlled Burn
-  NWGC: ''
+  NWCG: ''
   definition: ''
   source: ''
 UNABLE_TO_BE_DETERMINED:
   active: 'TRUE'
   description: Unable to be Determined
-  NWGC: Undetermined (Human or Natural)
+  NWCG: Undetermined (Human or Natural)
   definition: ''
   source: ''
