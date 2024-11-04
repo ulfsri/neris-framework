@@ -1,0 +1,25 @@
+DIRECT FLAME IMPINGEMENT:
+  active: true
+  description: Direct Flame Impingement
+  definition: .nan
+  source: .nan
+EMBERS:
+  active: true
+  description: Embers
+  definition: .nan
+  source: .nan
+RADIANT HEAT:
+  active: true
+  description: Radiant Heat
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

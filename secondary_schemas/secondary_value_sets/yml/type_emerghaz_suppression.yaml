@@ -1,0 +1,30 @@
+RUN_COURSE:
+  active: true
+  description: Let Incident Run Its Course
+  definition: .nan
+  source: .nan
+SUPPRESSION_WATER_ONLY:
+  active: true
+  description: Suppression With Water Only
+  definition: .nan
+  source: .nan
+SUPPRESSION_WATER_ADDITIVE:
+  active: true
+  description: Suppression With Water / Additive
+  definition: .nan
+  source: .nan
+SUBMERGE_BURY:
+  active: true
+  description: Submerge or Bury
+  definition: .nan
+  source: .nan
+FIRE_BLANKET:
+  active: true
+  description: Use of Fire Blanket
+  definition: .nan
+  source: .nan
+BATTERY_PENETRATION:
+  active: true
+  description: Use of Battery Penetrating Appliance
+  definition: .nan
+  source: .nan

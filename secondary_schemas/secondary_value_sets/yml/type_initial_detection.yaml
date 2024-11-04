@@ -1,0 +1,65 @@
+SMOKE_ALARM:
+  active: true
+  description: Smoke Alarm
+  definition: .nan
+  source: .nan
+HEAT_ALARM:
+  active: true
+  description: Heat Alarm
+  definition: .nan
+  source: .nan
+AUTOMATIC_SUPPRESSION:
+  active: true
+  description: Automatic Suppression System
+  definition: .nan
+  source: .nan
+VISUAL_SIGHTING:
+  active: true
+  description: Visual Sighting
+  definition: .nan
+  source: .nan
+SPECIALTY_DETECTOR:
+  active: true
+  description: Specialty Detector
+  definition: .nan
+  source: .nan
+MANUAL_ACTIVATION:
+  active: true
+  description: Manual activation
+  definition: .nan
+  source: .nan
+ODOR:
+  active: true
+  description: Odor
+  definition: .nan
+  source: .nan
+PET:
+  active: true
+  description: Pet
+  definition: .nan
+  source: .nan
+AUDIBLE_NOISE:
+  active: true
+  description: Audible noise
+  definition: .nan
+  source: .nan
+ALERTED_BY_PERSON:
+  active: true
+  description: Alerted by person
+  definition: .nan
+  source: .nan
+NO_INITIAL_DETECTION:
+  active: true
+  description: No Initial Detection (Burn Out Prior to Detection)
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Initial Detection Unknown
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

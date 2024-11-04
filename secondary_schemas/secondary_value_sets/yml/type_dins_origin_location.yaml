@@ -1,0 +1,55 @@
+ATTACHED FENCE:
+  active: true
+  description: Attached Fence
+  definition: .nan
+  source: .nan
+ATTACHED PATIO COVER/CARPORT:
+  active: true
+  description: Attached Patio Cover/Carport
+  definition: .nan
+  source: .nan
+DECK ELEVATED:
+  active: true
+  description: Deck Elevated
+  definition: .nan
+  source: .nan
+DECK ON GRADE:
+  active: true
+  description: Deck on Grade
+  definition: .nan
+  source: .nan
+EAVES:
+  active: true
+  description: Eaves
+  definition: .nan
+  source: .nan
+ROOF:
+  active: true
+  description: Roof
+  definition: .nan
+  source: .nan
+SIDING:
+  active: true
+  description: Siding
+  definition: .nan
+  source: .nan
+WINDOW:
+  active: true
+  description: Window
+  definition: .nan
+  source: .nan
+VENT:
+  active: true
+  description: Vent
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

@@ -1,0 +1,40 @@
+RESIDENTIAL:
+  active: true
+  description: Residential
+  definition: .nan
+  source: .nan
+COMMERCIAL:
+  active: true
+  description: Commercial
+  definition: .nan
+  source: .nan
+INDUSTRIAL:
+  active: true
+  description: Industrial
+  definition: .nan
+  source: .nan
+AGRICULTURAL:
+  active: true
+  description: Agricultural
+  definition: .nan
+  source: .nan
+RURAL:
+  active: true
+  description: Rural
+  definition: .nan
+  source: .nan
+MIXED_USE:
+  active: true
+  description: Mixed-Use
+  definition: .nan
+  source: .nan
+INSTITUTION_PUBLIC:
+  active: true
+  description: Institutional/Public
+  definition: .nan
+  source: .nan
+WUI:
+  active: true
+  description: Wildland Urban Interface
+  definition: .nan
+  source: .nan

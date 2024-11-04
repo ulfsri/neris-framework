@@ -1,0 +1,20 @@
+SHATTERED:
+  active: true
+  description: Shattered
+  definition: .nan
+  source: .nan
+CRACKED:
+  active: true
+  description: Cracked
+  definition: .nan
+  source: .nan
+MELTED_WARPED:
+  active: true
+  description: Melted/Warped
+  definition: .nan
+  source: .nan
+NO_DAMAGE:
+  active: true
+  description: No Damage
+  definition: .nan
+  source: .nan

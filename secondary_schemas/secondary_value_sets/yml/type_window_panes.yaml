@@ -1,0 +1,25 @@
+DOUBLE PANE:
+  active: true
+  description: Double Pane
+  definition: .nan
+  source: .nan
+TRIPLE PANE:
+  active: true
+  description: Triple Pane
+  definition: .nan
+  source: .nan
+SINGLE PANE:
+  active: true
+  description: Single Pane
+  definition: .nan
+  source: .nan
+NO WINDOWS:
+  active: true
+  description: No Windows
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan

@@ -1,0 +1,50 @@
+TYPE_IA:
+  active: true
+  description: Type I-A
+  definition: Fire resistive non-combustible
+  source: .nan
+TYPE_IB:
+  active: true
+  description: Type I-B
+  definition: Fire resistive non-combustible
+  source: .nan
+TYPE_IIA:
+  active: true
+  description: Type II-A
+  definition: Protected non-combustible
+  source: .nan
+TYPE_IIB:
+  active: true
+  description: Type II-B
+  definition: Unprotected non-combustive
+  source: .nan
+TYPE_IIIA:
+  active: true
+  description: Type III-A
+  definition: Protected combustible
+  source: .nan
+TYPE_IIIB:
+  active: true
+  description: Type III-B
+  definition: Unprotected combustible
+  source: .nan
+TYPE_IV:
+  active: true
+  description: Type IV
+  definition: Heavy timber
+  source: .nan
+TYPE_VA:
+  active: true
+  description: Type V-A
+  definition: Protected wood frame
+  source: .nan
+TYPE_VB:
+  active: true
+  description: Type V-B
+  definition: Unprotected wood frame
+  source: .nan
+UNKNOWN:
+  active: true
+  description: UNKNOWN
+  definition: Unknown
+  source: .nan

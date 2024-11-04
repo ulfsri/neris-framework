@@ -1,0 +1,45 @@
+EXPLOSIVES:
+  active: true
+  description: Explosives
+  definition: .nan
+  source: .nan
+GASES:
+  active: true
+  description: Gases
+  definition: .nan
+  source: .nan
+FLAMMABLE_LIQUIDS:
+  active: true
+  description: Flammable Liquids
+  definition: .nan
+  source: .nan
+FLAMMABLE_SOLIDS:
+  active: true
+  description: Flammable Solids
+  definition: .nan
+  source: .nan
+OXIDIZERS:
+  active: true
+  description: Oxidizers
+  definition: .nan
+  source: .nan
+POISONS_AND_ETIOLOGIC_MATERIALS:
+  active: true
+  description: Poisons and Etiologic Materials
+  definition: .nan
+  source: .nan
+RADIOACTIVE_MATERIALS:
+  active: true
+  description: Radioactive Materials
+  definition: .nan
+  source: .nan
+CORROSIVES:
+  active: true
+  description: Corrosives
+  definition: .nan
+  source: .nan
+MISCELLANEOUS_DANGEROUS_SUBSTANCES:
+  active: true
+  description: Miscellaneous Dangers Substances and Articles
+  definition: .nan
+  source: .nan

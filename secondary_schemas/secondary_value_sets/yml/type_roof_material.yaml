@@ -1,0 +1,50 @@
+METAL:
+  active: true
+  description: Metal
+  definition: .nan
+  source: .nan
+ASPHALT_SHINGLES:
+  active: true
+  description: Asphalt Shingles
+  definition: .nan
+  source: .nan
+WOOD_SHINGLES:
+  active: true
+  description: Wood Shingles
+  definition: .nan
+  source: .nan
+COMPOSITE_SHINGLES:
+  active: true
+  description: Composite Shingles
+  definition: .nan
+  source: .nan
+CLAY_TILES:
+  active: true
+  description: Clay Tiles
+  definition: .nan
+  source: .nan
+CONCRETE_TILES:
+  active: true
+  description: Concrete Tiles
+  definition: .nan
+  source: .nan
+SOLAR_TILES:
+  active: true
+  description: Solar Tiles
+  definition: .nan
+  source: .nan
+MEMBRANE:
+  active: true
+  description: Membrane
+  definition: .nan
+  source: .nan
+SLATE:
+  active: true
+  description: Slate
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

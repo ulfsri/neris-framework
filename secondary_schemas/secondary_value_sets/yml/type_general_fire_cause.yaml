@@ -1,0 +1,20 @@
+NATURAL:
+  active: true
+  description: Natural
+  definition: .nan
+  source: .nan
+ACCIDENTAL:
+  active: true
+  description: Accidental
+  definition: .nan
+  source: .nan
+INCENDIARY:
+  active: true
+  description: Incendiary
+  definition: .nan
+  source: .nan
+UNDETERMINED:
+  active: true
+  description: Undetermined
+  definition: .nan
+  source: .nan

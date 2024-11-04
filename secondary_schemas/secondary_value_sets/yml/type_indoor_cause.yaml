@@ -1,0 +1,891 @@
+'NATURAL: LIGHTNING ':
+  active: true
+  value_2: NATURAL
+  value_3: LIGHTNING
+  value_4: .nan
+  description_1: Natural
+  description_2: Lightning
+  description_3: .nan
+  comments: .nan
+'NATURAL: VOLCANO ':
+  active: true
+  value_2: NATURAL
+  value_3: VOLCANO
+  value_4: .nan
+  description_1: Natural
+  description_2: Volcano
+  description_3: .nan
+  comments: .nan
+'NATURAL: SPONTANEOUS_COMBUSTION ':
+  active: true
+  value_2: NATURAL
+  value_3: SPONTANEOUS_COMBUSTION
+  value_4: .nan
+  description_1: Natural
+  description_2: Spontaneous Combustion
+  description_3: .nan
+  comments: .nan
+'NATURAL: OTHER ':
+  active: true
+  value_2: NATURAL
+  value_3: OTHER
+  value_4: .nan
+  description_1: Natural
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'NATURAL: UNKNOWN ':
+  active: true
+  value_2: NATURAL
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Natural
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'EQUIPMENT_APPLIANCE: HOT_WORK ':
+  active: true
+  value_2: EQUIPMENT_APPLIANCE
+  value_3: HOT_WORK
+  value_4: .nan
+  description_1: Equipment or Appliance
+  description_2: Hot Work (Welder, Grinder, Torch, Cutter)
+  description_3: .nan
+  comments: Prompts consumer_product
+'EQUIPMENT_APPLIANCE: OTHER_SMALL_ENGINE_EQUIPMENT ':
+  active: true
+  value_2: EQUIPMENT_APPLIANCE
+  value_3: OTHER_SMALL_ENGINE_EQUIPMENT
+  value_4: .nan
+  description_1: Equipment or Appliance
+  description_2: Other Small Engine Equipment
+  description_3: .nan
+  comments: Prompts consumer_product
+'EQUIPMENT_APPLIANCE: OTHER ':
+  active: true
+  value_2: EQUIPMENT_APPLIANCE
+  value_3: OTHER
+  value_4: .nan
+  description_1: Equipment or Appliance
+  description_2: Other
+  description_3: .nan
+  comments: Prompts consumer_product
+'EQUIPMENT_APPLIANCE: UNKNOWN ':
+  active: true
+  value_2: EQUIPMENT_APPLIANCE
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Equipment or Appliance
+  description_2: Unknown
+  description_3: .nan
+  comments: Prompts consumer_product
+'EQUIPMENT_APPLIANCE: HEATING_COOLING_EQUIPMENT ':
+  active: true
+  value_2: EQUIPMENT_APPLIANCE
+  value_3: HEATING_COOLING_EQUIPMENT
+  value_4: .nan
+  description_1: Equipment or Appliance
+  description_2: Heating or Cooling Equipment
+  description_3: .nan
+  comments: Prompts consumer_product
+'EQUIPMENT_APPLIANCE: ELECTRICAL_EQUIPMENT ':
+  active: true
+  value_2: EQUIPMENT_APPLIANCE
+  value_3: ELECTRICAL_EQUIPMENT
+  value_4: .nan
+  description_1: Equipment or Appliance
+  description_2: Electrical Equipment
+  description_3: .nan
+  comments: Prompts consumer_product
+'COOKING: OIL_GREASE ':
+  active: true
+  value_2: COOKING
+  value_3: OIL_GREASE
+  value_4: .nan
+  description_1: Cooking
+  description_2: Oil or grease
+  description_3: .nan
+  comments: .nan
+'COOKING: KITCHEN_APPLIANCE_OVEN ':
+  active: true
+  value_2: COOKING
+  value_3: KITCHEN_APPLIANCE_OVEN
+  value_4: .nan
+  description_1: Cooking
+  description_2: Kitchen Appliance or Oven
+  description_3: .nan
+  comments: .nan
+'COOKING: DRY_COOKING ':
+  active: true
+  value_2: COOKING
+  value_3: DRY_COOKING
+  value_4: .nan
+  description_1: Cooking
+  description_2: Dry Food and Materials
+  description_3: .nan
+  comments: .nan
+'CHEMICAL: CHEMICAL_LABORATORY ':
+  active: true
+  value_2: CHEMICAL
+  value_3: CHEMICAL_LABORATORY
+  value_4: .nan
+  description_1: Chemical
+  description_2: Chemical or Laboratory
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: BLACK_POWDER_MUZZLE_LOADING ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: BLACK_POWDER_MUZZLE_LOADING
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Black Powder / Muzzle Loading
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: BLASTING ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: BLASTING
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Blasting
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: EXPLODING_TARGET_SHOOTING ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: EXPLODING_TARGET_SHOOTING
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Exploding Target Shooting
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: DETONATING_CORD ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: DETONATING_CORD
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Detonating Cord
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: FLARES_FUSES ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: FLARES_FUSES
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Flares / Fuses
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: INERT_TARGET_SHOOTING ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: INERT_TARGET_SHOOTING
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Inert Target Shooting
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: MILITARY_ORDINANCE ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: MILITARY_ORDINANCE
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Military ordinance
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: NON_MILITARY_TRACER ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: NON_MILITARY_TRACER
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Non-Military Tracer
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: AMMONIUM_NITRATE_FUEL_OIL ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: AMMONIUM_NITRATE_FUEL_OIL
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Ammonium Nitrate Fuel Oil (ANFO)
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: IMPROVISED_EXPLOSIVE_DEVICE ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: IMPROVISED_EXPLOSIVE_DEVICE
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Improvised Explosive Device
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: PIPE_BOMB ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: PIPE_BOMB
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Pipe Bomb
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: OTHER_EXPLOSIVES ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: OTHER_EXPLOSIVES
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Other Explosives
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: OTHER ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: OTHER
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'FIREARMS_EXPLOSIVES: UNKNOWN ':
+  active: true
+  value_2: FIREARMS_EXPLOSIVES
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Firearms and Explosive Use
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'FIREWORKS: EXPLOSIVES M_80':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: M_80
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: M-80
+  comments: .nan
+'FIREWORKS: EXPLOSIVES M_100':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: M_100
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: M-100
+  comments: .nan
+'FIREWORKS: EXPLOSIVES M_1000':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: M_1000
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: M-1000
+  comments: .nan
+'FIREWORKS: EXPLOSIVES 1_4_Stick':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: 1_4_Stick
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: 1/4 Stick
+  comments: .nan
+'FIREWORKS: EXPLOSIVES CHERRY_BOMB':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: CHERRY_BOMB
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: Cherry Bomb
+  comments: .nan
+'FIREWORKS: EXPLOSIVES SILVER_SALUTE':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: SILVER_SALUTE
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: Silver Salute
+  comments: .nan
+'FIREWORKS: EXPLOSIVES SPARKLER_BOMB':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: SPARKLER_BOMB
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: Sparkler Bomb
+  comments: .nan
+'FIREWORKS: EXPLOSIVES ALTERED_CONSUMER_FIREWORKS':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: ALTERED_CONSUMER_FIREWORKS
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: Altered Consumer Firework
+  comments: .nan
+'FIREWORKS: EXPLOSIVES HOMEMADE_EXPLOSIVE_DEVICE':
+  active: true
+  value_2: FIREWORKS
+  value_3: EXPLOSIVES
+  value_4: HOMEMADE_EXPLOSIVE_DEVICE
+  description_1: Fireworks
+  description_2: Explosives
+  description_3: Homemade Explosive Device
+  comments: .nan
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_AERIAL_SHELL':
+  active: true
+  value_2: FIREWORKS
+  value_3: PROFESSIONAL_DISPLAY
+  value_4: OUTDOOR_AERIAL_SHELL
+  description_1: Fireworks
+  description_2: Professional Public Display
+  description_3: Outdoor Aerial Shells
+  comments: .nan
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_LOW_LEVEL':
+  active: true
+  value_2: FIREWORKS
+  value_3: PROFESSIONAL_DISPLAY
+  value_4: OUTDOOR_LOW_LEVEL
+  description_1: Fireworks
+  description_2: Professional Public Display
+  description_3: Outdoor Low-Level
+  comments: .nan
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_GROUND_LEVEL':
+  active: true
+  value_2: FIREWORKS
+  value_3: PROFESSIONAL_DISPLAY
+  value_4: OUTDOOR_GROUND_LEVEL
+  description_1: Fireworks
+  description_2: Professional Public Display
+  description_3: Outdoor Ground-Level
+  comments: .nan
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_PROXIMATE':
+  active: true
+  value_2: FIREWORKS
+  value_3: PROFESSIONAL_DISPLAY
+  value_4: OUTDOOR_PROXIMATE
+  description_1: Fireworks
+  description_2: Professional Public Display
+  description_3: Outdoor Proximate
+  comments: .nan
+'FIREWORKS: PROFESSIONAL_DISPLAY INDOOR_PROXIMATE':
+  active: true
+  value_2: FIREWORKS
+  value_3: PROFESSIONAL_DISPLAY
+  value_4: INDOOR_PROXIMATE
+  description_1: Fireworks
+  description_2: Professional Public Display
+  description_3: Indoor Proximate
+  comments: .nan
+'FIREWORKS: CONSUMER_AERIAL COMETS_MINES_SHELLS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_AERIAL
+  value_4: COMETS_MINES_SHELLS
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  description_3: Comets / Mines / Shells
+  comments: .nan
+'FIREWORKS: CONSUMER_AERIAL RELOADABLE_TUBE_AERIAL':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_AERIAL
+  value_4: RELOADABLE_TUBE_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  description_3: Reloadable Tube Aerial
+  comments: .nan
+'FIREWORKS: CONSUMER_AERIAL ROMAN_CANDLES':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_AERIAL
+  value_4: ROMAN_CANDLES
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  description_3: Roman Candles
+  comments: .nan
+'FIREWORKS: CONSUMER_AERIAL ROCKETS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_AERIAL
+  value_4: ROCKETS
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  description_3: Rockets
+  comments: .nan
+'FIREWORKS: CONSUMER_AERIAL MISSILES':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_AERIAL
+  value_4: MISSILES
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  description_3: Missiles
+  comments: .nan
+'FIREWORKS: CONSUMER_AERIAL HELICOPTERS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_AERIAL
+  value_4: HELICOPTERS
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  description_3: Helicopters
+  comments: .nan
+'FIREWORKS: CONSUMER_AERIAL OTHER_SPECIALTY_ITEMS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_AERIAL
+  value_4: OTHER_SPECIALTY_ITEMS
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  description_3: Other Specialty Items
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL COMBINAITON_ITEMS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: COMBINAITON_ITEMS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Combination Items
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL FOUNTAINS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: FOUNTAINS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Fountains
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL GROUND_SPINNERS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: GROUND_SPINNERS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Ground Spinners
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL HANDHELD_SPARKLERS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: HANDHELD_SPARKLERS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Handheld Sparklers
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL WHEELS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: WHEELS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Wheels
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL FIRECRACKERS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: FIRECRACKERS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Firecrackers
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL CHASERS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: CHASERS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Chasers
+  comments: .nan
+'FIREWORKS: CONSUMER_NON_AERIAL OTHER_SPECIALTY_ITEMS':
+  active: true
+  value_2: FIREWORKS
+  value_3: CONSUMER_NON_AERIAL
+  value_4: OTHER_SPECIALTY_ITEMS
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  description_3: Other Specialty Items
+  comments: .nan
+'FIREWORKS: DEREGULATED_NOVELTIES SNAP_CAPS':
+  active: true
+  value_2: FIREWORKS
+  value_3: DEREGULATED_NOVELTIES
+  value_4: SNAP_CAPS
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  description_3: Snap Caps
+  comments: .nan
+'FIREWORKS: DEREGULATED_NOVELTIES PARTY_POPPERS':
+  active: true
+  value_2: FIREWORKS
+  value_3: DEREGULATED_NOVELTIES
+  value_4: PARTY_POPPERS
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  description_3: Party Poppers
+  comments: .nan
+'FIREWORKS: DEREGULATED_NOVELTIES SMOKE_BALLS':
+  active: true
+  value_2: FIREWORKS
+  value_3: DEREGULATED_NOVELTIES
+  value_4: SMOKE_BALLS
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  description_3: Smoke Balls
+  comments: .nan
+'FIREWORKS: DEREGULATED_NOVELTIES SNAKES':
+  active: true
+  value_2: FIREWORKS
+  value_3: DEREGULATED_NOVELTIES
+  value_4: SNAKES
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  description_3: Snakes
+  comments: .nan
+'FIREWORKS: DEREGULATED_NOVELTIES WIRE_CORE_SPARKLERS':
+  active: true
+  value_2: FIREWORKS
+  value_3: DEREGULATED_NOVELTIES
+  value_4: WIRE_CORE_SPARKLERS
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  description_3: Wire-Core Sparklers
+  comments: .nan
+'FIREWORKS: MODEL_AMATEUR_ROCKETS ':
+  active: true
+  value_2: FIREWORKS
+  value_3: MODEL_AMATEUR_ROCKETS
+  value_4: .nan
+  description_1: Fireworks
+  description_2: Model / Amateur Rockets
+  description_3: .nan
+  comments: .nan
+'FIREWORKS: OTHER ':
+  active: true
+  value_2: FIREWORKS
+  value_3: OTHER
+  value_4: .nan
+  description_1: Fireworks
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'FIREWORKS: UNKNOWN ':
+  active: true
+  value_2: FIREWORKS
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Fireworks
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'POWER_GEN_TRANS_DIST: ELECTRICAL_TRANSMISSION_DISTRIBUTION_SYSTEMS ':
+  active: true
+  value_2: POWER_GEN_TRANS_DIST
+  value_3: ELECTRICAL_TRANSMISSION_DISTRIBUTION_SYSTEMS
+  value_4: .nan
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Electrical Transmission / Distribution Systems
+  description_3: .nan
+  comments: .nan
+'POWER_GEN_TRANS_DIST: SOLAR_UTILITY_SYSTEM ':
+  active: true
+  value_2: POWER_GEN_TRANS_DIST
+  value_3: SOLAR_UTILITY_SYSTEM
+  value_4: .nan
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Solar Utility System
+  description_3: .nan
+  comments: Includes photovoltaic systems
+'POWER_GEN_TRANS_DIST: ENERGY_STORAGE_SYSTEM ':
+  active: true
+  value_2: POWER_GEN_TRANS_DIST
+  value_3: ENERGY_STORAGE_SYSTEM
+  value_4: .nan
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Energy Storage System
+  description_3: .nan
+  comments: .nan
+'POWER_GEN_TRANS_DIST: OTHER ':
+  active: true
+  value_2: POWER_GEN_TRANS_DIST
+  value_3: OTHER
+  value_4: .nan
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'POWER_GEN_TRANS_DIST: UNKNOWN ':
+  active: true
+  value_2: POWER_GEN_TRANS_DIST
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'POWER_GEN_TRANS_DIST: BATTERY_CONSUMER_PRODUCT ':
+  active: true
+  value_2: POWER_GEN_TRANS_DIST
+  value_3: BATTERY_CONSUMER_PRODUCT
+  value_4: .nan
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Battery Consumer Product
+  description_3: .nan
+  comments: Prompts consumer_product
+'RECREATION_CEREMONY: BARBEQUE_SMOKER ':
+  active: true
+  value_2: RECREATION_CEREMONY
+  value_3: BARBEQUE_SMOKER
+  value_4: .nan
+  description_1: Recreation / Ceremony
+  description_2: Barbeque / Smoker
+  description_3: .nan
+  comments: .nan
+'RECREATION_CEREMONY: LUMINARY_CANDLES_INCENSE ':
+  active: true
+  value_2: RECREATION_CEREMONY
+  value_3: LUMINARY_CANDLES_INCENSE
+  value_4: .nan
+  description_1: Recreation / Ceremony
+  description_2: Luminary, candle or incense
+  description_3: .nan
+  comments: .nan
+'RECREATION_CEREMONY: OTHER ':
+  active: true
+  value_2: RECREATION_CEREMONY
+  value_3: OTHER
+  value_4: .nan
+  description_1: Recreation / Ceremony
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'RECREATION_CEREMONY: UNKNOWN ':
+  active: true
+  value_2: RECREATION_CEREMONY
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Recreation / Ceremony
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'RECREATION_CEREMONY: EXPOSURE_FIRE_PIT_OPEN_FLAME ':
+  active: true
+  value_2: RECREATION_CEREMONY
+  value_3: EXPOSURE_FIRE_PIT_OPEN_FLAME
+  value_4: .nan
+  description_1: Recreation / Ceremony
+  description_2: Exposure from Fire Pit or Open Flame
+  description_3: .nan
+  comments: .nan
+'SMOKING_MATERIALS_ILLICIT_DRUGS: CIGAR_CIGARETTE_PIPE ':
+  active: true
+  value_2: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_3: CIGAR_CIGARETTE_PIPE
+  value_4: .nan
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Cigar / Cigarette / Pipe
+  description_3: .nan
+  comments: .nan
+'SMOKING_MATERIALS_ILLICIT_DRUGS: ELECTRONIC_CIGARETTE ':
+  active: true
+  value_2: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_3: ELECTRONIC_CIGARETTE
+  value_4: .nan
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Electronic Cigarette
+  description_3: .nan
+  comments: .nan
+'SMOKING_MATERIALS_ILLICIT_DRUGS: DRUG_PARAPHERNALIA ':
+  active: true
+  value_2: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_3: DRUG_PARAPHERNALIA
+  value_4: .nan
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Drug Paraphernalia
+  description_3: .nan
+  comments: .nan
+'SMOKING_MATERIALS_ILLICIT_DRUGS: ILLEGAL_SUBSTANCE_MANUFACTURE ':
+  active: true
+  value_2: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_3: ILLEGAL_SUBSTANCE_MANUFACTURE
+  value_4: .nan
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Illegal Substance Manufacture
+  description_3: .nan
+  comments: .nan
+'SMOKING_MATERIALS_ILLICIT_DRUGS: OTHER ':
+  active: true
+  value_2: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_3: OTHER
+  value_4: .nan
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'SMOKING_MATERIALS_ILLICIT_DRUGS: UNKNOWN ':
+  active: true
+  value_2: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'MISUSE_FIRE: LIGHTER_MATCHES ':
+  active: true
+  value_2: MISUSE_FIRE
+  value_3: LIGHTER_MATCHES
+  value_4: .nan
+  description_1: Misuse of Fire
+  description_2: Lighter / Matches
+  description_3: .nan
+  comments: .nan
+'MISUSE_FIRE: GLASS_REFRACTION_MAGNIFYING_GLASS ':
+  active: true
+  value_2: MISUSE_FIRE
+  value_3: GLASS_REFRACTION_MAGNIFYING_GLASS
+  value_4: .nan
+  description_1: Misuse of Fire
+  description_2: Glass Refraction / Magnifying Glass
+  description_3: .nan
+  comments: .nan
+'MISUSE_FIRE: INCENDIARY_DEVICE ':
+  active: true
+  value_2: MISUSE_FIRE
+  value_3: INCENDIARY_DEVICE
+  value_4: .nan
+  description_1: Misuse of Fire
+  description_2: Incendiary Device
+  description_3: .nan
+  comments: .nan
+'MISUSE_FIRE: FLINT_FRICTION ':
+  active: true
+  value_2: MISUSE_FIRE
+  value_3: FLINT_FRICTION
+  value_4: .nan
+  description_1: Misuse of Fire
+  description_2: Flint / Friction
+  description_3: .nan
+  comments: .nan
+'MISUSE_FIRE: OTHER ':
+  active: true
+  value_2: MISUSE_FIRE
+  value_3: OTHER
+  value_4: .nan
+  description_1: Misuse of Fire
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'MISUSE_FIRE: UNKNOWN ':
+  active: true
+  value_2: MISUSE_FIRE
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Misuse of Fire
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'ARSON: DEVICE ':
+  active: true
+  value_2: ARSON
+  value_3: DEVICE
+  value_4: .nan
+  description_1: Arson
+  description_2: Device
+  description_3: .nan
+  comments: .nan
+'ARSON: HOT_SET ':
+  active: true
+  value_2: ARSON
+  value_3: HOT_SET
+  value_4: .nan
+  description_1: Arson
+  description_2: Hot Set
+  description_3: .nan
+  comments: .nan
+'ARSON: OTHER ':
+  active: true
+  value_2: ARSON
+  value_3: OTHER
+  value_4: .nan
+  description_1: Arson
+  description_2: Other
+  description_3: .nan
+  comments: .nan
+'ARSON: UNKNOWN ':
+  active: true
+  value_2: ARSON
+  value_3: UNKNOWN
+  value_4: .nan
+  description_1: Arson
+  description_2: Unknown
+  description_3: .nan
+  comments: .nan
+'EXPOSURE: SPREAD_FROM_OUTSIDE_STRUCTURE ':
+  active: true
+  value_2: EXPOSURE
+  value_3: SPREAD_FROM_OUTSIDE_STRUCTURE
+  value_4: .nan
+  description_1: Exposure
+  description_2: Spread From Other Structure or Outdoor Object
+  description_3: .nan
+  comments: .nan
+'EQUIPMENT_APPLIANCE: ELECTRIC_FENCE ':
+  active: true
+  value_2: EQUIPMENT_APPLIANCE
+  value_3: ELECTRIC_FENCE
+  value_4: .nan
+  description_1: Equipment or Appliance
+  description_2: Electric Fence
+  description_3: .nan
+  comments: .nan
+'UNDETERMINED: UNDER_INVESTIGATION ':
+  active: true
+  value_2: UNDETERMINED
+  value_3: UNDER_INVESTIGATION
+  value_4: .nan
+  description_1: Undetermined
+  description_2: Under Investigation
+  description_3: .nan
+  comments: .nan
+'UNDETERMINED: NOT_INVESTIGATED ':
+  active: true
+  value_2: UNDETERMINED
+  value_3: NOT_INVESTIGATED
+  value_4: .nan
+  description_1: Undetermined
+  description_2: Not Investigated
+  description_3: .nan
+  comments: .nan
+'UNDETERMINED: ORIGIN_AND_OR_CAUSE_NOT_IDENTIFIED ':
+  active: true
+  value_2: UNDETERMINED
+  value_3: ORIGIN_AND_OR_CAUSE_NOT_IDENTIFIED
+  value_4: .nan
+  description_1: Undetermined
+  description_2: Origin and / or Cause Not Identified
+  description_3: .nan
+  comments: .nan
+'UNDETERMINED: ORIGIN_DESTROYED ':
+  active: true
+  value_2: UNDETERMINED
+  value_3: ORIGIN_DESTROYED
+  value_4: .nan
+  description_1: Undetermined
+  description_2: Origin Destroyed
+  description_3: .nan
+  comments: .nan

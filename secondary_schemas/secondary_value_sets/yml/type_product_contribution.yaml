@@ -1,0 +1,15 @@
+IGNITION:
+  active: true
+  description: Ignition
+  definition: .nan
+  source: .nan
+RELEASE:
+  active: true
+  description: Release
+  definition: .nan
+  source: .nan
+SPREAD:
+  active: true
+  description: Spread
+  definition: .nan
+  source: .nan

@@ -1,0 +1,45 @@
+SPILL:
+  active: true
+  description: Spill
+  definition: .nan
+  source: .nan
+LEAK:
+  active: true
+  description: Leak
+  definition: .nan
+  source: .nan
+FIRE:
+  active: true
+  description: Fire
+  definition: .nan
+  source: .nan
+EXPLOSION:
+  active: true
+  description: Explosion
+  definition: .nan
+  source: .nan
+MATERIAL_ENTERED_WATERWAY:
+  active: true
+  description: Material Entered Waterway/Storm Sewer
+  definition: .nan
+  source: .nan
+SOLID_DISPERSION:
+  active: true
+  description: Solid Dispersion
+  definition: .nan
+  source: .nan
+VAPOR_GAS_DISPERSION:
+  active: true
+  description: Vapor/Gas Dispersion
+  definition: .nan
+  source: .nan
+ENVIRONMENTAL_DAMAGE:
+  active: true
+  description: Environmental Damage
+  definition: .nan
+  source: .nan
+NO_RELEASE:
+  active: true
+  description: No Release
+  definition: .nan
+  source: .nan

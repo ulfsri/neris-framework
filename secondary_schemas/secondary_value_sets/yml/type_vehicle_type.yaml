@@ -1,0 +1,125 @@
+AUTOMOBILE:
+  active: true
+  description: Automobile
+  definition: .nan
+  source: .nan
+AIRPLANE:
+  active: true
+  description: Airplane
+  definition: .nan
+  source: .nan
+HELICOPTER:
+  active: true
+  description: Helicopter
+  definition: .nan
+  source: .nan
+AERIAL_OTHER:
+  active: true
+  description: Aerial - Other
+  definition: .nan
+  source: .nan
+BOAT_SHIP:
+  active: true
+  description: Boat / Ship
+  definition: .nan
+  source: .nan
+MOTORCYCLE:
+  active: true
+  description: Motorcycle
+  definition: .nan
+  source: .nan
+RAIL:
+  active: true
+  description: Rail
+  definition: .nan
+  source: .nan
+TRAILER:
+  active: true
+  description: Trailer
+  definition: .nan
+  source: .nan
+FARM:
+  active: true
+  description: Farm
+  definition: .nan
+  source: .nan
+FOOD_TRUCK:
+  active: true
+  description: Food Truck
+  definition: .nan
+  source: .nan
+CONSTRUCTION:
+  active: true
+  description: Construction
+  definition: .nan
+  source: .nan
+MOTORIZED_HOME:
+  active: true
+  description: Motorized Home
+  definition: .nan
+  source: .nan
+BUS:
+  active: true
+  description: Bus
+  definition: .nan
+  source: .nan
+ATV:
+  active: true
+  description: ATV
+  definition: .nan
+  source: .nan
+SPORT_UTILITY:
+  active: true
+  description: Sport Utility
+  definition: .nan
+  source: .nan
+MILITARY_OTHER:
+  active: true
+  description: Miltary - Other
+  definition: .nan
+  source: .nan
+UTILITY_VEHICLE:
+  active: true
+  description: Utility Vehicles
+  definition: .nan
+  source: .nan
+AERIAL_LIFT_PLATFORM:
+  active: true
+  description: Aerial Lift Platform
+  definition: .nan
+  source: .nan
+TOW_TRUCK:
+  active: true
+  description: Tow Truck
+  definition: .nan
+  source: .nan
+VAN:
+  active: true
+  description: Van
+  definition: .nan
+  source: .nan
+CARGO:
+  active: true
+  description: Cargo
+  definition: .nan
+  source: .nan
+FREIGHT:
+  active: true
+  description: Freight
+  definition: .nan
+  source: .nan
+SCOOTER_MOPED:
+  active: true
+  description: Scooter / Moped
+  definition: .nan
+  source: .nan
+BICYCLE:
+  active: true
+  description: Bicycle
+  definition: .nan
+  source: .nan
+JET_SKI:
+  active: true
+  description: Jet Ski
+  definition: .nan
+  source: .nan

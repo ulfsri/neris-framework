@@ -1,0 +1,95 @@
+WEATHER:
+  active: true
+  description: Weather
+  definition: See WNCG tables
+  source: .nan
+SUPPRESSION_ACTIVITY:
+  active: true
+  description: Suppression Activity
+  definition: .nan
+  source: .nan
+CONSTRUCTION:
+  active: true
+  description: Construction
+  definition: .nan
+  source: .nan
+ELECTRICAL_UTILITIES:
+  active: true
+  description: Electrical Utilities
+  definition: .nan
+  source: .nan
+FARMING_RANCHING:
+  active: true
+  description: Farming/Ranching
+  definition: .nan
+  source: .nan
+GOVERNMENTAL_TRIBAL_ACTIVITIES:
+  active: true
+  description: Governmental/Tribal Activities
+  definition: .nan
+  source: .nan
+HUNTING_TRAPPING_FISHING:
+  active: true
+  description: Hunting/Trapping Fishing
+  definition: .nan
+  source: .nan
+LAW_ENFORCEMENT:
+  active: true
+  description: Law Enforcement
+  definition: .nan
+  source: .nan
+LOGGING_FORESTRY:
+  active: true
+  description: Logging/Forestry
+  definition: .nan
+  source: .nan
+MILITARY:
+  active: true
+  description: Military
+  definition: .nan
+  source: .nan
+MINING_EXTRACTION:
+  active: true
+  description: Mining/Extraction
+  definition: .nan
+  source: .nan
+MOTORIST:
+  active: true
+  description: Motorist
+  definition: .nan
+  source: .nan
+OTHER_UTILITIES:
+  active: true
+  description: Other Utilities
+  definition: .nan
+  source: .nan
+PRIVATE_RESIDENTIAL:
+  active: true
+  description: Private/Residential
+  definition: .nan
+  source: .nan
+RAILROAD:
+  active: true
+  description: Railroad
+  definition: .nan
+  source: .nan
+RECREATION:
+  active: true
+  description: Recreation
+  definition: .nan
+  source: .nan
+TRANSIENT:
+  active: true
+  description: Transient
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan

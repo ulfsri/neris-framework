@@ -1,0 +1,45 @@
+WOOD:
+  active: true
+  description: Wood
+  definition: .nan
+  source: .nan
+BRICK_STONE:
+  active: true
+  description: Brick/Stone
+  definition: .nan
+  source: .nan
+VINYL:
+  active: true
+  description: Vinyl
+  definition: .nan
+  source: .nan
+ASHPHALT:
+  active: true
+  description: Asphalt
+  definition: .nan
+  source: .nan
+METAL:
+  active: true
+  description: Metal
+  definition: .nan
+  source: .nan
+CONCRETE:
+  active: true
+  description: Concrete
+  definition: .nan
+  source: .nan
+EIFS:
+  active: true
+  description: EIFS
+  definition: Exterior Insulation Finishing Systems
+  source: .nan
+STUCCO:
+  active: true
+  description: Stucco
+  definition: .nan
+  source: .nan
+FIBER_CEMENT:
+  active: true
+  description: Fiber Cement
+  definition: .nan
+  source: .nan

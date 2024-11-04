@@ -1,0 +1,25 @@
+SLOW:
+  active: true
+  description: Slow
+  definition: .nan
+  source: .nan
+MODERATE:
+  active: true
+  description: Moderate
+  definition: .nan
+  source: .nan
+DANGEROUS:
+  active: true
+  description: Dangerous
+  definition: .nan
+  source: .nan
+CRITICAL:
+  active: true
+  description: Critical
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan

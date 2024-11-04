@@ -1,0 +1,75 @@
+ADULT_PROTECTIVE_SERVICES:
+  active: true
+  description: Adult Protective Services
+  definition: .nan
+  source: .nan
+CHILD_PROTECTIVE_SERVICES:
+  active: true
+  description: Child Protective Services
+  definition: .nan
+  source: .nan
+OTHER_SOCIAL_SERVICES:
+  active: true
+  description: Other Social Services
+  definition: .nan
+  source: .nan
+HOUSING_SERVICES:
+  active: true
+  description: Housing services
+  definition: .nan
+  source: .nan
+ANIMAL_SERVICES:
+  active: true
+  description: Animal services
+  definition: .nan
+  source: .nan
+LAW_ENFORCEMENT:
+  active: true
+  description: Law enforcement
+  definition: .nan
+  source: .nan
+UTILITIES:
+  active: true
+  description: Utilities
+  definition: .nan
+  source: .nan
+FOOD_SERVICES:
+  active: true
+  description: Food services
+  definition: .nan
+  source: .nan
+MENTAL_HEALTH_SERVICES:
+  active: true
+  description: Mental health services
+  definition: .nan
+  source: .nan
+PARAMEDICINE:
+  active: true
+  description: Paramedicine / Mobile Integrated Health
+  definition: .nan
+  source: .nan
+CODE_ENFORCEMENT:
+  active: true
+  description: Code Enforcement
+  definition: .nan
+  source: .nan
+YOUTH_FIRE_SETTER_PROGRAM:
+  active: true
+  description: Youth Fire-Setter Program
+  definition: .nan
+  source: .nan
+SUBSTANCE_TREATMENT:
+  active: true
+  description: Substance Treatment
+  definition: .nan
+  source: .nan
+MEDICAL_SERVICES:
+  active: true
+  description: Medical Services
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

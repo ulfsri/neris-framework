@@ -1,0 +1,80 @@
+DRIVING_RIDING_DEPARTMENT_VEHICLE:
+  active: true
+  description: Driving or riding in department vehicle
+  definition: .nan
+  source: .nan
+DRIVING_RIDING_OTHER_VEHICLE:
+  active: true
+  description: Driving or riding in other vehicle
+  definition: .nan
+  source: .nan
+MOVING_ABOUT_STATION_ALARM:
+  active: true
+  description: Moving about station, alarm sounding
+  definition: .nan
+  source: .nan
+MOVING_ABOUT_STATION_NORMAL:
+  active: true
+  description: Moving about station, normal activity
+  definition: .nan
+  source: .nan
+STATION_MAINTENANCE:
+  active: true
+  description: Station maintenance
+  definition: .nan
+  source: .nan
+VEHICLE_MAINTENANCE:
+  active: true
+  description: Vehicle maintenance
+  definition: .nan
+  source: .nan
+EQUIPMENT_MAINTENANCE:
+  active: true
+  description: Equipment maintenance
+  definition: .nan
+  source: .nan
+PHYSICAL_FITNESS_ACTIVITY:
+  active: true
+  description: Physical fitness activity
+  definition: .nan
+  source: .nan
+COOKING_ACTIVITY:
+  active: true
+  description: Cooking activity
+  definition: .nan
+  source: .nan
+TRAINING_ACTIVITY_DRILL:
+  active: true
+  description: Training activity or drill
+  definition: .nan
+  source: .nan
+INVESTIGATION:
+  active: true
+  description: Investigation
+  definition: .nan
+  source: .nan
+INSPECTION:
+  active: true
+  description: Inspection
+  definition: .nan
+  source: .nan
+ADMINISTRATIVE_WORK:
+  active: true
+  description: Administrative work
+  definition: .nan
+  source: .nan
+COMMUNICATIONS_WORK:
+  active: true
+  description: Communications work
+  definition: .nan
+  source: .nan
+AT_REST:
+  active: true
+  description: At rest
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

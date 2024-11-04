@@ -1,0 +1,165 @@
+GAS_CUBIC_FOOT:
+  active: true
+  description: 'Gas - Cubic Foot '
+  definition: .nan
+  source: .nan
+GAS_CUBIC_INCH:
+  active: true
+  description: 'Gas - Cubic Inch '
+  definition: .nan
+  source: .nan
+GAS_CUBIC_CENTIMETER:
+  active: true
+  description: 'Gas - Cubic Centimeter '
+  definition: .nan
+  source: .nan
+GAS_CUBIC_METER:
+  active: true
+  description: 'Gas - Cubic Meter '
+  definition: .nan
+  source: .nan
+GAS_POUND:
+  active: true
+  description: 'Gas - Pound '
+  definition: .nan
+  source: .nan
+LIQUID_CUBIC_CENTIMETER:
+  active: true
+  description: 'Liquid - Cubic Centimeter '
+  definition: .nan
+  source: .nan
+LIQUID_CUP:
+  active: true
+  description: 'Liquid - Cup '
+  definition: .nan
+  source: .nan
+LIQUID_GALLON:
+  active: true
+  description: 'Liquid - Gallon '
+  definition: .nan
+  source: .nan
+LIQUID_GRAM:
+  active: true
+  description: 'Liquid - Gram '
+  definition: .nan
+  source: .nan
+LIQUID_KILOGRAM:
+  active: true
+  description: 'Liquid - Kilogram '
+  definition: .nan
+  source: .nan
+LIQUID_POUND:
+  active: true
+  description: 'Liquid - Pound '
+  definition: .nan
+  source: .nan
+LIQUID_LITER:
+  active: true
+  description: 'Liquid - Liter '
+  definition: .nan
+  source: .nan
+LIQUID_MILLIGRAM:
+  active: true
+  description: 'Liquid - Milligram '
+  definition: .nan
+  source: .nan
+LIQUID_MILLILITER:
+  active: true
+  description: 'Liquid - Milliliter '
+  definition: .nan
+  source: .nan
+LIQUID_OUNCE:
+  active: true
+  description: 'Liquid - Ounce '
+  definition: .nan
+  source: .nan
+LIQUID_PINT:
+  active: true
+  description: 'Liquid - Pint '
+  definition: .nan
+  source: .nan
+LIQUID_QUART:
+  active: true
+  description: 'Liquid - Quart '
+  definition: .nan
+  source: .nan
+LIQUID_TABLESPOON:
+  active: true
+  description: 'Liquid - Tablespoon '
+  definition: .nan
+  source: .nan
+LIQUID_TEASPOON:
+  active: true
+  description: 'Liquid - Teaspoon '
+  definition: .nan
+  source: .nan
+SOLID_GRAM:
+  active: true
+  description: 'Solid - Gram '
+  definition: .nan
+  source: .nan
+SOLID_KILOGRAM:
+  active: true
+  description: 'Solid - Kilogram '
+  definition: .nan
+  source: .nan
+SOLID_POUND:
+  active: true
+  description: 'Solid - Pound '
+  definition: .nan
+  source: .nan
+SOLID_LITER:
+  active: true
+  description: 'Solid - Liter '
+  definition: .nan
+  source: .nan
+SOLID_MILLIGRAM:
+  active: true
+  description: 'Solid - Milligram '
+  definition: .nan
+  source: .nan
+SOLID_OUNCE:
+  active: true
+  description: 'Solid - Ounce '
+  definition: .nan
+  source: .nan
+SOLID_TABLESPOON:
+  active: true
+  description: 'Solid - Tablespoon '
+  definition: .nan
+  source: .nan
+SOLID_TON:
+  active: true
+  description: 'Solid - Ton '
+  definition: .nan
+  source: .nan
+SOLID_TEASPOON:
+  active: true
+  description: 'Solid - Teaspoon '
+  definition: .nan
+  source: .nan
+RADIOACTIVE_CURIE:
+  active: true
+  description: 'Radioactive - Curie '
+  definition: .nan
+  source: .nan
+RADIOACTIVE_MEGABECQUEREL:
+  active: true
+  description: 'Radioactive - Megabecquerel '
+  definition: .nan
+  source: .nan
+RADIOACTIVE_MILLICURIE:
+  active: true
+  description: 'Radioactive - Millicurie '
+  definition: .nan
+  source: .nan
+RADIOACTIVE_TERABECQUEREL:
+  active: true
+  description: 'Radioactive - Terabecquerel '
+  definition: .nan
+  source: .nan
+RADIOACTIVE_MICROCURIE:
+  active: true
+  description: 'Radioactive - Microcurie '
+  definition: .nan
+  source: .nan

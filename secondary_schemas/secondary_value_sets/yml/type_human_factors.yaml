@@ -1,0 +1,75 @@
+HOARDING_DISORDER:
+  active: true
+  description: Hoarding Disorder
+  definition: .nan
+  source: .nan
+INTELLECTUAL_DISABILITY:
+  active: true
+  description: Intellectual Disability
+  definition: .nan
+  source: .nan
+PHYSICAL_DISABILITY:
+  active: true
+  description: Physical Disability
+  definition: .nan
+  source: .nan
+ILLICIT_DRUG_USE:
+  active: true
+  description: Illicit Drug Use
+  definition: .nan
+  source: .nan
+ALCOHOL_USE:
+  active: true
+  description: Alcohol Use
+  definition: .nan
+  source: .nan
+ASLEEP:
+  active: true
+  description: Asleep
+  definition: .nan
+  source: .nan
+JUVENILE_BEHAVIOR:
+  active: true
+  description: Juvenile Behavior
+  definition: 'Note: Explicitly refers to minors under 18, not adults who are behaving in a juvenile manner.'
+  source: .nan
+ELDERLY_AGING:
+  active: true
+  description: Elderly or factors of aging
+  definition: .nan
+  source: .nan
+HOMELESSNESS:
+  active: true
+  description: Homelessness
+  definition: .nan
+  source: .nan
+MEDICAL_CONDITION:
+  active: true
+  description: Medical Condition
+  definition: .nan
+  source: .nan
+MENTAL_HEALTH:
+  active: true
+  description: Mental Health
+  definition: .nan
+  source: .nan
+CULTURAL_RELIGIOUS_BEHAVIOR:
+  active: true
+  description: Cultural or Religious Behavior
+  definition: .nan
+  source: .nan
+MEDICAL_OXYGEN:
+  active: true
+  description: Medical Oxygen Use
+  definition: .nan
+  source: .nan
+NONE:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

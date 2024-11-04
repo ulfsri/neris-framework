@@ -1,0 +1,35 @@
+RESPONDING_TO_EMERGENCY_INCIDENT:
+  active: true
+  description: Responding to Emergency Incident
+  definition: .nan
+  source: .nan
+WORKING_AT_SCENE_OF_FIRE_INCIDENT:
+  active: true
+  description: Working at Scene of Fire Incident
+  definition: .nan
+  source: .nan
+WORKING_AT_SCENE_OF_NONFIRE_INCIDENT:
+  active: true
+  description: Working at Scene of Nonfire Incident
+  definition: .nan
+  source: .nan
+RETURNING_FROM_EMERGENCY_INCIDENT:
+  active: true
+  description: Returning from Emergency Incident
+  definition: .nan
+  source: .nan
+TRAINING:
+  active: true
+  description: Training
+  definition: .nan
+  source: .nan
+AFTER_INCIDENT:
+  active: true
+  description: After Incident
+  definition: .nan
+  source: .nan
+OTHER_ON_DUTY_INCIDENT:
+  active: true
+  description: Other On-Duty Incident
+  definition: .nan
+  source: .nan

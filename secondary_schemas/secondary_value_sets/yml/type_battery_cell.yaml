@@ -1,0 +1,20 @@
+POUCH_POLYMER:
+  active: true
+  description: Pouch Polymer
+  definition: .nan
+  source: .nan
+CYLINDRICAL:
+  active: true
+  description: Cylindrical
+  definition: .nan
+  source: .nan
+PRISMATIC:
+  active: true
+  description: Prismatic
+  definition: .nan
+  source: .nan
+BUTTON_COIN:
+  active: true
+  description: Button / Coin
+  definition: .nan
+  source: .nan

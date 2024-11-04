@@ -1,0 +1,40 @@
+NORTH_WEST:
+  active: true
+  description: North-West
+  definition: .nan
+  source: .nan
+SOUTH_WEST:
+  active: true
+  description: South-West
+  definition: .nan
+  source: .nan
+NORTH:
+  active: true
+  description: North
+  definition: .nan
+  source: .nan
+SOUTH:
+  active: true
+  description: South
+  definition: .nan
+  source: .nan
+EAST:
+  active: true
+  description: East
+  definition: .nan
+  source: .nan
+WEST:
+  active: true
+  description: West
+  definition: .nan
+  source: .nan
+NORTH_EAST:
+  active: true
+  description: North-East
+  definition: .nan
+  source: .nan
+SOUTH_EAST:
+  active: true
+  description: South-East
+  definition: .nan
+  source: .nan

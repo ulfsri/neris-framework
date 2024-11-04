@@ -1,0 +1,25 @@
+INTERNAL_COMBUSTION:
+  active: true
+  description: Internal Combustion
+  definition: .nan
+  source: .nan
+ELECTRIC:
+  active: true
+  description: Electric
+  definition: .nan
+  source: .nan
+PLUG_IN_HYBRID:
+  active: true
+  description: Plug-In Hybrid
+  definition: .nan
+  source: .nan
+HYBRID:
+  active: true
+  description: Hybrid
+  definition: .nan
+  source: .nan
+COMPRESSED_NATURAL_GAS:
+  active: true
+  description: Compressed Natural Gas
+  definition: .nan
+  source: .nan

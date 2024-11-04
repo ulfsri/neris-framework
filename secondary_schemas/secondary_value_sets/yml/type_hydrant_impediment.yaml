@@ -1,0 +1,85 @@
+OBSTRUCTION:
+  active: true
+  description: Obstruction
+  definition: .nan
+  source: .nan
+VISUAL_BARRIER:
+  active: true
+  description: Visual barrier
+  definition: .nan
+  source: .nan
+BROKEN_STEM:
+  active: true
+  description: Broken stem
+  definition: .nan
+  source: .nan
+HARD_OPEN:
+  active: true
+  description: Hard open
+  definition: .nan
+  source: .nan
+HARD_CLOSE:
+  active: true
+  description: Hard close
+  definition: .nan
+  source: .nan
+LEAKING:
+  active: true
+  description: Leaking
+  definition: .nan
+  source: .nan
+CAP_MISSING:
+  active: true
+  description: Cap Missing
+  definition: .nan
+  source: .nan
+CAP_NOT_REMOVABLE:
+  active: true
+  description: Cap not removable
+  definition: .nan
+  source: .nan
+CHATTER:
+  active: true
+  description: Chatter
+  definition: .nan
+  source: .nan
+DEFECTIVE_THREAD:
+  active: true
+  description: Defective thread
+  definition: .nan
+  source: .nan
+DRAIN_DEFECTIVE:
+  active: true
+  description: Drain defective
+  definition: .nan
+  source: .nan
+FROZEN:
+  active: true
+  description: Frozen
+  definition: .nan
+  source: .nan
+NON_FUNCTION_FROST_JACKET:
+  active: true
+  description: Non-functional frost jacket
+  definition: .nan
+  source: .nan
+CHAINS_MISSING:
+  active: true
+  description: Chains missing
+  definition: .nan
+  source: .nan
+NEEDS_PAINT:
+  active: true
+  description: Needs paint
+  definition: .nan
+  source: .nan
+MARKER_MISSING:
+  active: true
+  description: Maker missing
+  definition: .nan
+  source: .nan
+NEEDS_GREASE:
+  active: true
+  description: Needs grease
+  definition: .nan
+  source: .nan

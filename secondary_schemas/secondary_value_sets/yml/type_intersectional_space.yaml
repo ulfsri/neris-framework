@@ -1,0 +1,30 @@
+DUCT:
+  active: true
+  description: Duct
+  definition: .nan
+  source: .nan
+FLOOR_ASSEMBLY:
+  active: true
+  description: Floor assembly
+  definition: .nan
+  source: .nan
+CRAWL_SPACE:
+  active: true
+  description: Crawl space
+  definition: .nan
+  source: .nan
+CEILING:
+  active: true
+  description: Ceiling
+  definition: .nan
+  source: .nan
+ATTIC:
+  active: true
+  description: Attic
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

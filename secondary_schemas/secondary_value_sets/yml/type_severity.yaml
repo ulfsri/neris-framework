@@ -1,0 +1,25 @@
+MINOR:
+  active: true
+  description: Minor
+  definition: .nan
+  source: .nan
+MODERATE:
+  active: true
+  description: Moderate
+  definition: .nan
+  source: .nan
+SEVERE:
+  active: true
+  description: Severe
+  definition: .nan
+  source: .nan
+LIFE_THREATENING:
+  active: true
+  description: Life threatening
+  definition: .nan
+  source: .nan
+DEATH:
+  active: true
+  description: Death
+  definition: .nan
+  source: .nan

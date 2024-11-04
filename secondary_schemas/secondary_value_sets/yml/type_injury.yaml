@@ -1,0 +1,255 @@
+SMOKE_INHALATION:
+  active: true
+  description: Smoke inhalation
+  definition: .nan
+  source: .nan
+HAZARDOUS_FUMES_INHALATION:
+  active: true
+  description: Hazardous fumes inhalation
+  definition: .nan
+  source: .nan
+DIFFICULTY_BREATHING:
+  active: true
+  description: Difficulty breathing, shortness of breath
+  definition: .nan
+  source: .nan
+BURNS_THERMAL:
+  active: true
+  description: Burns, thermal
+  definition: .nan
+  source: .nan
+BURNS_SCALD:
+  active: true
+  description: Burns, scald
+  definition: .nan
+  source: .nan
+BURNS_CHEMICAL:
+  active: true
+  description: Burns, chemical
+  definition: .nan
+  source: .nan
+BURNS_ELECTRIC:
+  active: true
+  description: Burns, electric
+  definition: .nan
+  source: .nan
+CUT_LACERATION:
+  active: true
+  description: Cut or laceration
+  definition: .nan
+  source: .nan
+STAB_PUNCTURE_WOUND:
+  active: true
+  description: Stab or puncture wound
+  definition: .nan
+  source: .nan
+GUNSHOT_PROJECTILE_WOUND:
+  active: true
+  description: Gunshot or projectile wound
+  definition: .nan
+  source: .nan
+CONTUSION_BRUISE:
+  active: true
+  description: Contusion or bruise
+  definition: .nan
+  source: .nan
+ABRASION:
+  active: true
+  description: Abrasion
+  definition: .nan
+  source: .nan
+DISLOCATION:
+  active: true
+  description: Dislocation
+  definition: .nan
+  source: .nan
+STRAIN_SPRAIN:
+  active: true
+  description: Strain or sprain
+  definition: .nan
+  source: .nan
+FRACTURE:
+  active: true
+  description: Fracture
+  definition: .nan
+  source: .nan
+SWELLING:
+  active: true
+  description: Swelling
+  definition: .nan
+  source: .nan
+CRUSHING:
+  active: true
+  description: Crushing
+  definition: .nan
+  source: .nan
+AMPUTATION:
+  active: true
+  description: Amputation
+  definition: .nan
+  source: .nan
+CARDIAC_SYMPTOMS:
+  active: true
+  description: Cardiac symptoms
+  definition: .nan
+  source: .nan
+CARDIAC_ARREST:
+  active: true
+  description: Cardiac arrest
+  definition: .nan
+  source: .nan
+STROKE:
+  active: true
+  description: Stroke
+  definition: .nan
+  source: .nan
+RESPIRATORY_ARREST:
+  active: true
+  description: Respiratory arrest
+  definition: .nan
+  source: .nan
+CHILLS:
+  active: true
+  description: Chills
+  definition: .nan
+  source: .nan
+FEVER:
+  active: true
+  description: Fever
+  definition: .nan
+  source: .nan
+NAUSEA:
+  active: true
+  description: Nausea
+  definition: .nan
+  source: .nan
+VOMITING:
+  active: true
+  description: Vomiting
+  definition: .nan
+  source: .nan
+NUMBNESS_TINGLING_PARESTHESIA:
+  active: true
+  description: Numbness, tingling, or paresthesia
+  definition: .nan
+  source: .nan
+PARALYSIS:
+  active: true
+  description: Paralysis
+  definition: .nan
+  source: .nan
+FROSTBITE:
+  active: true
+  description: Frostbite
+  definition: .nan
+  source: .nan
+PREGNANCY_CHILDBRITH_MISCARRIAGE:
+  active: true
+  description: Pregnancy/childbirth/miscarriage
+  definition: .nan
+  source: .nan
+EYE_TRAUMA:
+  active: true
+  description: Eye trauma
+  definition: .nan
+  source: .nan
+DROWNING:
+  active: true
+  description: Drowning
+  definition: .nan
+  source: .nan
+FOREIGN_BODY_OBSTRUCTION:
+  active: true
+  description: Foreign body obstruction
+  definition: .nan
+  source: .nan
+ELECTRIC_SHOCK:
+  active: true
+  description: Electric shock
+  definition: .nan
+  source: .nan
+POISON:
+  active: true
+  description: Poison
+  definition: .nan
+  source: .nan
+CONVULSION_SEIZURE:
+  active: true
+  description: Convulsion or seizure
+  definition: .nan
+  source: .nan
+INTERNAL_TRAUMA:
+  active: true
+  description: Internal trauma
+  definition: .nan
+  source: .nan
+HEMORRHAGING_INTERNAL_BLEEDING:
+  active: true
+  description: Hemorrhaging, internal bleeding
+  definition: .nan
+  source: .nan
+DISORIENTATION:
+  active: true
+  description: Disorientation
+  definition: .nan
+  source: .nan
+DIZZINESS_FAINTING_WEAKNESS:
+  active: true
+  description: Dizziness, fainting, weakness
+  definition: .nan
+  source: .nan
+HEAT_STROKE:
+  active: true
+  description: Heat stroke
+  definition: .nan
+  source: .nan
+DEHYDRATION:
+  active: true
+  description: Dehydration
+  definition: .nan
+  source: .nan
+ALLERGIC_REACTION:
+  active: true
+  description: Allergic reaction
+  definition: .nan
+  source: .nan
+DRUG_OVERDOSE_DRUG_RELATED:
+  active: true
+  description: Drug overdose or drug-related
+  definition: .nan
+  source: .nan
+ALCOHOL_IMIPAIRMENT:
+  active: true
+  description: Alcohol impairment
+  definition: .nan
+  source: .nan
+EMOTIONAL_PSYCHOLOGICAL_DISTRESS:
+  active: true
+  description: Emotional or psychological distress
+  definition: .nan
+  source: .nan
+MENTAL_HEALTH:
+  active: true
+  description: Mental health
+  definition: .nan
+  source: .nan
+SHOCK:
+  active: true
+  description: 'Shock '
+  definition: .nan
+  source: .nan
+UNCONSCIOUS:
+  active: true
+  description: Unconscious
+  definition: .nan
+  source: .nan
+PAIN_ONLY:
+  active: true
+  description: Pain only
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

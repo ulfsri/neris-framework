@@ -1,0 +1,20 @@
+ENCLOSED:
+  active: true
+  description: Enclosed
+  definition: .nan
+  source: .nan
+UNENCLOSED:
+  active: true
+  description: Unenclosed
+  definition: .nan
+  source: .nan
+NO EAVES:
+  active: true
+  description: No Eaves
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan

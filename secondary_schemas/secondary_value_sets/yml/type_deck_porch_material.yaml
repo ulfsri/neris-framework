@@ -1,0 +1,35 @@
+COMPOSITE:
+  active: true
+  description: Composite
+  definition: .nan
+  source: .nan
+MASONRY/CONCRETE:
+  active: true
+  description: Masonry/Concrete
+  definition: .nan
+  source: .nan
+WOOD:
+  active: true
+  description: Wood
+  definition: .nan
+  source: .nan
+VINYL_PLASTIC_PVC:
+  active: true
+  description: Vinyl / Plastic / PVC
+  definition: .nan
+  source: .nan
+METAL:
+  active: true
+  description: Metal
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan

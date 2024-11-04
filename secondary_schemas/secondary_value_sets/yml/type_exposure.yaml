@@ -1,0 +1,30 @@
+SMOKE:
+  active: true
+  description: Smoke
+  definition: .nan
+  source: .nan
+DERMAL:
+  active: true
+  description: Dermal
+  definition: Such as soot.
+  source: .nan
+INFECTIOUS_DISEASE:
+  active: true
+  description: Infectious Disease
+  definition: .nan
+  source: .nan
+HEAT:
+  active: true
+  description: Heat / Flame
+  definition: .nan
+  source: .nan
+HAZMAT:
+  active: true
+  description: Hazardous material
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

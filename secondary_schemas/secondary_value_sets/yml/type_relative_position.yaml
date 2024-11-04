@@ -1,0 +1,30 @@
+VALLEY_BOTTOM:
+  active: true
+  description: Valley Bottom
+  definition: .nan
+  source: .nan
+LOWER_SLOPE:
+  active: true
+  description: Lower Slope
+  definition: .nan
+  source: .nan
+MID_SLOPE:
+  active: true
+  description: Mid Slope
+  definition: .nan
+  source: .nan
+UPPER_SLOPE:
+  active: true
+  description: Upper Slope
+  definition: .nan
+  source: .nan
+RIDGE_TOP:
+  active: true
+  description: Ridge Top
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan

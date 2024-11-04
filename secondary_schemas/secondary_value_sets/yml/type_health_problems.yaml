@@ -1,0 +1,95 @@
+HEART_FAILURE:
+  active: true
+  description: Heart failure
+  definition: .nan
+  source: .nan
+COPD:
+  active: true
+  description: COPD
+  definition: .nan
+  source: .nan
+ASTHMA:
+  active: true
+  description: Asthma
+  definition: .nan
+  source: .nan
+CARDIAC_RHYTHM:
+  active: true
+  description: Cardiac Rhythm
+  definition: .nan
+  source: .nan
+HYPERTENSION:
+  active: true
+  description: Hypertension
+  definition: .nan
+  source: .nan
+KIDNEY_DISEASE:
+  active: true
+  description: Kidney disease
+  definition: .nan
+  source: .nan
+CANCER:
+  active: true
+  description: Cancer
+  definition: .nan
+  source: .nan
+CVA_STROKE:
+  active: true
+  description: CVA / Stroke
+  definition: .nan
+  source: .nan
+MYOCARDIAL_INFARCTION:
+  active: true
+  description: Myocardial Infarction
+  definition: .nan
+  source: .nan
+SEIZURE_DISORDER:
+  active: true
+  description: Seizure Disorder
+  definition: .nan
+  source: .nan
+DIABETES:
+  active: true
+  description: Diabetes
+  definition: .nan
+  source: .nan
+POST_SURGERY:
+  active: true
+  description: Post surgery
+  definition: .nan
+  source: .nan
+OPEN_WOUNDS:
+  active: true
+  description: Open wounds
+  definition: .nan
+  source: .nan
+PAIN_CONTROL:
+  active: true
+  description: Pain control
+  definition: .nan
+  source: .nan
+PSYCHOLOGICAL_BEHAVIORAL_HEALTH:
+  active: true
+  description: Psychological / Behavioral Health
+  definition: .nan
+  source: .nan
+SUBSTANCE_USE_DISORDER:
+  active: true
+  description: Substance use disorder
+  definition: .nan
+  source: .nan
+PHYSICAL_LIMITATIONS_DISABILITY:
+  active: true
+  description: Physical limitations or disability
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan
+NONE:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan

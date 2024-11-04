@@ -1,0 +1,50 @@
+NO_ONE_HOME:
+  active: true
+  description: No one home
+  definition: .nan
+  source: .nan
+MINOR_HOME_ALONE:
+  active: true
+  description: Minor home alone
+  definition: .nan
+  source: .nan
+OCCUPANT_REFUSED:
+  active: true
+  description: Occupant refused
+  definition: .nan
+  source: .nan
+LANGUAGE_BARRIER:
+  active: true
+  description: Language barrier
+  definition: .nan
+  source: .nan
+VACANT_HOME:
+  active: true
+  description: Vacant home
+  definition: .nan
+  source: .nan
+UNSAFE_TO_APPROACH:
+  active: true
+  description: Unsafe to approach
+  definition: .nan
+  source: .nan
+NO_TRESPASSING_SIGNS:
+  active: true
+  description: No trespassing signs
+  definition: .nan
+  source: .nan
+LOCKED_GATE:
+  active: true
+  description: Locked gate
+  definition: .nan
+  source: .nan
+HOSTILE_PERSON:
+  active: true
+  description: Hostile person
+  definition: .nan
+  source: .nan
+REFUSED:
+  active: true
+  description: Refused
+  definition: .nan
+  source: .nan

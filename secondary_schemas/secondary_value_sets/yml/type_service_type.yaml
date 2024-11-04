@@ -1,0 +1,15 @@
+VOLUNTEER:
+  active: true
+  description: Volunteer
+  definition: .nan
+  source: .nan
+CAREER:
+  active: true
+  description: Career
+  definition: .nan
+  source: .nan
+COMBINATION:
+  active: true
+  description: Combination
+  definition: .nan
+  source: .nan

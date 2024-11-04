@@ -1,0 +1,30 @@
+RESPONDING:
+  active: true
+  description: Responding
+  definition: .nan
+  source: .nan
+INITIAL_RESPONSE:
+  active: true
+  description: Initial Response (First 10 Minutes)
+  definition: .nan
+  source: .nan
+CONTINUING_OPERATIONS:
+  active: true
+  description: Continuing Operations (11 to 60 minutes)
+  definition: .nan
+  source: .nan
+EXTENDED_OPERATIONS:
+  active: true
+  description: Extended Operations (Over 60 minutes)
+  definition: .nan
+  source: .nan
+AFTER_CONCLUSION_OF_INCIDENT:
+  active: true
+  description: After Conclusion Of Incident
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan

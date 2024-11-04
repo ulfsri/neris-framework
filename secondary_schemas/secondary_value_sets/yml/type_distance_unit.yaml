@@ -1,0 +1,10 @@
+FEET:
+  active: true
+  description: Feet
+  definition: .nan
+  source: .nan
+MILES:
+  active: true
+  description: Miles
+  definition: .nan
+  source: .nan

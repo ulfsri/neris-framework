@@ -1,0 +1,40 @@
+CAREER:
+  active: true
+  description: Career
+  definition: .nan
+  source: .nan
+PART_TIME:
+  active: true
+  description: Part_Time
+  definition: .nan
+  source: .nan
+PAID_ON_CALL:
+  active: true
+  description: Paid_On_Call
+  definition: .nan
+  source: .nan
+INDUSTRIAL:
+  active: true
+  description: Industrial
+  definition: .nan
+  source: .nan
+VOLUNTEER:
+  active: true
+  description: Volunteer
+  definition: .nan
+  source: .nan
+WILDLAND_FULL_TIME:
+  active: true
+  description: Wildland Full Time
+  definition: .nan
+  source: .nan
+WILDLAND_PART_TIME:
+  active: true
+  description: Wildland Part Time
+  definition: .nan
+  source: .nan
+WILDLAND_CONTRACT:
+  active: true
+  description: Wildland Contract
+  definition: .nan
+  source: .nan

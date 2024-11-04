@@ -1,0 +1,20 @@
+ON GRADE:
+  active: true
+  description: On Grade
+  definition: .nan
+  source: .nan
+ELEVATED:
+  active: true
+  description: Elevated
+  definition: .nan
+  source: .nan
+NONE PRESENT:
+  active: true
+  description: None Present
+  definition: .nan
+  source: .nan
+BELOW_GRADE_SUNKEN:
+  active: true
+  description: Below Grade / Sunken
+  definition: .nan
+  source: .nan

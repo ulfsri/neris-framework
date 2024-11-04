@@ -1,0 +1,35 @@
+FENCE:
+  active: true
+  description: Fence
+  definition: .nan
+  source: .nan
+PORCH_DECK:
+  active: true
+  description: Porch/Deck
+  definition: .nan
+  source: .nan
+CARPORT_LEANTO:
+  active: true
+  description: Carport/Lean to
+  definition: .nan
+  source: .nan
+PATIO_COVER_AWNING:
+  active: true
+  description: Patio Cover or Awning
+  definition: .nan
+  source: .nan
+GARAGE:
+  active: true
+  description: Garage
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan
+NONE:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan

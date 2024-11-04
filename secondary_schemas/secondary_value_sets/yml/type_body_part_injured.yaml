@@ -1,0 +1,110 @@
+EAR:
+  active: true
+  description: Ear
+  definition: .nan
+  source: .nan
+EYE:
+  active: true
+  description: Eye
+  definition: .nan
+  source: .nan
+NOSE:
+  active: true
+  description: Nose
+  definition: .nan
+  source: .nan
+MOUTH:
+  active: true
+  description: Mouth
+  definition: .nan
+  source: .nan
+HEAD_OTHER:
+  active: true
+  description: Head, other
+  definition: .nan
+  source: .nan
+NECK_SHOULDERS:
+  active: true
+  description: Neck or shoulders
+  definition: .nan
+  source: .nan
+BACK_SPINE:
+  active: true
+  description: Back, spine
+  definition: .nan
+  source: .nan
+BACK_OTHER:
+  active: true
+  description: Back, other
+  definition: .nan
+  source: .nan
+CHEST:
+  active: true
+  description: Chest
+  definition: .nan
+  source: .nan
+ABDOMEN:
+  active: true
+  description: Abdomen
+  definition: .nan
+  source: .nan
+PELVIS_GROIN:
+  active: true
+  description: Pelvis or groin
+  definition: .nan
+  source: .nan
+HIP_LOWER_BACK_BUTTOCKS:
+  active: true
+  description: Hip, lower back, or buttocks
+  definition: .nan
+  source: .nan
+ARM:
+  active: true
+  description: Arm
+  definition: .nan
+  source: .nan
+LEG:
+  active: true
+  description: Leg
+  definition: .nan
+  source: .nan
+HANDS_FINGERS:
+  active: true
+  description: Hands or fingers
+  definition: .nan
+  source: .nan
+FOOT_TOES:
+  active: true
+  description: Foot or toes
+  definition: .nan
+  source: .nan
+LUNGS:
+  active: true
+  description: Lungs
+  definition: .nan
+  source: .nan
+HEART:
+  active: true
+  description: Heart
+  definition: .nan
+  source: .nan
+STOMACH:
+  active: true
+  description: Stomach
+  definition: .nan
+  source: .nan
+INTESTINAL_TRACT:
+  active: true
+  description: Intestinal tract
+  definition: .nan
+  source: .nan
+GENITO_URINARY:
+  active: true
+  description: Genito-urinary
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

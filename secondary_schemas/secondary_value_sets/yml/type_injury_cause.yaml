@@ -1,0 +1,60 @@
+FALL:
+  active: true
+  description: Fall
+  definition: .nan
+  source: .nan
+JUMP:
+  active: true
+  description: Jump
+  definition: .nan
+  source: .nan
+SLIP_TRIP:
+  active: true
+  description: Slip or trip
+  definition: .nan
+  source: .nan
+EXPOSURE:
+  active: true
+  description: Exposure to hazard
+  definition: .nan
+  source: .nan
+STRUCK_ASSAULTED_PERSON_ANIMAL_OBJECT:
+  active: true
+  description: Struck or assaulted by a person, animal, or object
+  definition: .nan
+  source: .nan
+CONTACT_WITH_OBJECT_BY_PERSONNEL:
+  active: true
+  description: Contact with object (personnel moved into/onto)
+  definition: .nan
+  source: .nan
+OVEREXERTION_STRAIN:
+  active: true
+  description: Overexertion or strain
+  definition: .nan
+  source: .nan
+TRAPPED_CAUGHT:
+  active: true
+  description: Trapped / Caught
+  definition: .nan
+  source: .nan
+VEHICLE_COLLISION_ACCIDENT:
+  active: true
+  description: Vehicle Collision or Accident
+  definition: Occurs while in vehicle
+  source: .nan
+STRUCK_BY_VEHICLE:
+  active: true
+  description: Struck by vehicle
+  definition: 'Occurs as pedestrian (example: traffic control)'
+  source: .nan
+MEDICAL_EVENT:
+  active: true
+  description: Medical event (seizure, etc.)
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

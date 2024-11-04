@@ -1,0 +1,35 @@
+FIRE:
+  active: true
+  description: Fire
+  definition: .nan
+  source: .nan
+SMOKE:
+  active: true
+  description: Smoke
+  definition: .nan
+  source: .nan
+WATER:
+  active: true
+  description: Water
+  definition: .nan
+  source: .nan
+UTILITIES:
+  active: true
+  description: Utilities
+  definition: .nan
+  source: .nan
+HAZARDOUS_SITUATION:
+  active: true
+  description: Hazardous Situation
+  definition: .nan
+  source: .nan
+COLLAPSE:
+  active: true
+  description: Collapse
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

@@ -1,0 +1,45 @@
+CAUGHT_TRAPPED_BY_FIRE_EXPLOSION:
+  active: true
+  description: Caught / Trapped by Fire / Explosion
+  definition: .nan
+  source: .nan
+FALL_JUMP:
+  active: true
+  description: Fall / Jump
+  definition: .nan
+  source: .nan
+STRESS_OVEREXERTION:
+  active: true
+  description: Stress / Overexertion
+  definition: .nan
+  source: .nan
+COLLAPSE:
+  active: true
+  description: Collapse
+  definition: .nan
+  source: .nan
+CAUGHT_TRAPPED_BY_OBJECT:
+  active: true
+  description: Caught / Trapped by Object
+  definition: .nan
+  source: .nan
+STRUCK_CONTACT_WITH_OBJECT:
+  active: true
+  description: Struck / Contact with Object
+  definition: .nan
+  source: .nan
+EXPOSURE:
+  active: true
+  description: Exposure
+  definition: .nan
+  source: .nan
+VEHICLE_COLLISION:
+  active: true
+  description: Vehicle Collision
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

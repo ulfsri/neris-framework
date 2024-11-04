@@ -1,0 +1,65 @@
+TURNOUT_COAT:
+  active: true
+  description: Turnout Coat
+  definition: .nan
+  source: .nan
+BUNKER_PANTS:
+  active: true
+  description: Bunker Pants
+  definition: .nan
+  source: .nan
+PROTECTIVE_HOOD:
+  active: true
+  description: Protective Hood
+  definition: .nan
+  source: .nan
+GLOVES:
+  active: true
+  description: Gloves
+  definition: .nan
+  source: .nan
+FACE_SHIELD_GOGGLES:
+  active: true
+  description: Face Shield / Goggles
+  definition: .nan
+  source: .nan
+HELMET:
+  active: true
+  description: Helmet
+  definition: .nan
+  source: .nan
+SCBA:
+  active: true
+  description: SCBA
+  definition: .nan
+  source: .nan
+PASS_DEVICE:
+  active: true
+  description: Pass Device
+  definition: .nan
+  source: .nan
+RUBBER_KNEE_BOOTS:
+  active: true
+  description: Rubber Knee Boots
+  definition: .nan
+  source: .nan
+3_4_BOOTS:
+  active: true
+  description: 3/4 Boots
+  definition: .nan
+  source: .nan
+BRUSH_GEAR:
+  active: true
+  description: Brush Gear
+  definition: .nan
+  source: .nan
+REFLECTIVE_VEST:
+  active: true
+  description: Reflective Vest
+  definition: .nan
+  source: .nan
+OTHER_SPECIAL_EQUIPMENT:
+  active: true
+  description: Other Special Equipment
+  definition: .nan
+  source: .nan

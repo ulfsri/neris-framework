@@ -1,0 +1,20 @@
+CIRCUITS_TRIPPED:
+  active: true
+  description: Circuits Tripped
+  definition: .nan
+  source: .nan
+GAS_FUEL_ON:
+  active: true
+  description: Gas / Fuel On
+  definition: .nan
+  source: .nan
+CO_DETECTED:
+  active: true
+  description: CO Detected
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

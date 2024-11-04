@@ -1,0 +1,25 @@
+ED:
+  active: true
+  description: ED
+  definition: .nan
+  source: .nan
+OTHER_MEDICAL_PERSONNEL:
+  active: true
+  description: Other medical personnel
+  definition: .nan
+  source: .nan
+FD_EMS:
+  active: true
+  description: FD / EMS
+  definition: .nan
+  source: .nan
+SELF:
+  active: true
+  description: Self
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

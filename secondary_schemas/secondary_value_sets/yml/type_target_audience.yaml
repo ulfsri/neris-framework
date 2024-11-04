@@ -1,0 +1,40 @@
+PARENTS:
+  active: true
+  description: Parents
+  definition: .nan
+  source: .nan
+K_12:
+  active: true
+  description: K-12
+  definition: .nan
+  source: .nan
+COLLEGE_STUDENTS:
+  active: true
+  description: College students
+  definition: .nan
+  source: .nan
+65_OVER:
+  active: true
+  description: 65 and over
+  definition: .nan
+  source: .nan
+HOME_OWNERS:
+  active: true
+  description: Home owners
+  definition: .nan
+  source: .nan
+HOME_RENTERS:
+  active: true
+  description: Home renters
+  definition: .nan
+  source: .nan
+GENERAL_PUBLIC:
+  active: true
+  description: General public
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

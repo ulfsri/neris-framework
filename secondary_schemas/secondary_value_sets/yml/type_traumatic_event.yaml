@@ -1,0 +1,60 @@
+ACTIVE SHOOTER:
+  active: true
+  description: Active Shooter
+  definition: .nan
+  source: The Public Safety Officer Support Act of 2022
+NON-FIREFIGHTER FATALITY:
+  active: true
+  description: Non-Firefighter Fatality
+  definition: .nan
+  source: .nan
+FIREFIGHTER FATALITY:
+  active: true
+  description: Firefighter Fatality
+  definition: .nan
+  source: .nan
+FIREFIGHTER NON-FATAL INJURY:
+  active: true
+  description: Firefighter Non-Fatal Injury
+  definition: .nan
+  source: .nan
+FIREFIGHTER NEAR MISS:
+  active: true
+  description: Firefighter Near Miss
+  definition: .nan
+  source: .nan
+VIOLENCE AGAINST RESPONDER:
+  active: true
+  description: Violence Against Responder
+  definition: .nan
+  source: .nan
+PEDIATRIC CPR:
+  active: true
+  description: Pediatric CPR
+  definition: .nan
+  source: .nan
+HOMICIDE SUICIDE VIOLENT DEATH:
+  active: true
+  description: Homicide, Suicide, or Violent Death of Another
+  definition: .nan
+  source: .nan
+DANGER THREAT TO LIFE:
+  active: true
+  description: Danger / Threat to Life
+  definition: .nan
+  source: .nan
+SEXUAL VIOLENCE AGAINST RESPONDER:
+  active: true
+  description: Sexual Violence Against Responder
+  definition: .nan
+  source: .nan
+DISASTER_RESPONSE:
+  active: true
+  description: Disaster Response
+  definition: .nan
+  source: .nan
+MASS_CASUALTY_INCIDENT:
+  active: true
+  description: Mass Casualty Incident
+  definition: .nan
+  source: .nan

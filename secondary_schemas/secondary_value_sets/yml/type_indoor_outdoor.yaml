@@ -1,0 +1,10 @@
+INDOOR:
+  active: true
+  description: Indoor
+  definition: .nan
+  source: .nan
+OUTDOOR:
+  active: true
+  description: Outdoor
+  definition: .nan
+  source: .nan

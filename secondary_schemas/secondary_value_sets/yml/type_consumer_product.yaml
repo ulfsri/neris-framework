@@ -1,0 +1,4000 @@
+Lightning rods or arresters, antenna discharge units or other grounding devices:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Burglar alarms:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Electric timers:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Fire escape devices (excluding ladders):
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Padlocks, chain locks or other locks:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Carbon monoxide detectors:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Safes:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Fire sprinklers:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Fire extinguishers:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Fire or smoke alarms:
+  active: true
+  value_2: ALARM_ESCAPE_PROTECTION_DEVICES
+  definition: .nan
+  source: .nan
+Baby gates or barriers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Playpens and play yards:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Other soft baby carriers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Potty chairs or training seats (for children):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Shoelace fasteners (for infants):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby bathtub seats or rings (not toys):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby exercisers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Framed baby carriers (carried on the back):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby harnesses:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Crib mobiles or crib gyms:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby carriers (bicycle-mounted):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby mattresses or pads:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Diaper fasteners (excluding safety pins):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Bottle warmers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby scales:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+High chairs:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby carriages:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Cribs, not specified:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby carriers, not specified:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Other baby carriers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Portable cribs:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Portable baby swings (for home use):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Sterilizers (home use):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby strollers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Cribs, nonportable:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Car seats (for infants or children):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby slings and wraps:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby bottles or nipples:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby rattles:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Bassinets or cradles:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby changing tables:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Pacifiers or teething rings:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Diaper pails:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby baths or bathinettes:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Safety pins:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Attachable high chairs (including booster seats):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby bouncer seats (excl jumpers):
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Baby walkers or jumpers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Diapers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Night-lights:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Infant and toddler play centers (excluding jumpers, bouncers, and exercisers:
+  active: true
+  value_2: CHILD_NURSERY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Fertilizers and other chemicals for outdoor use (excluding pesticides):
+  active: true
+  value_2: FARM_SUPPLIES_EQUIPMENT
+  definition: .nan
+  source: .nan
+Tractors, other or not specified:
+  active: true
+  value_2: FARM_SUPPLIES_EQUIPMENT
+  definition: .nan
+  source: .nan
+Fertilizers, not specified:
+  active: true
+  value_2: FARM_SUPPLIES_EQUIPMENT
+  definition: .nan
+  source: .nan
+Convertible beds, hideaway beds or sofa beds:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Books, magazines, albums or scrapbooks:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Clocks, not electric or not battery operated or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Residential alternative energy systems for on-site power generation:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Bathtubs or showers (including fixtures or accessories:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Butane or LP gas meters:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Fireplace equipment:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Footlockers:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Bedding, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Other furniture:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Other electric lighting equipment:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Floor lamps or table lamps, halogen:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Sinks (excluding faucets):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Pictures, picture frames or wall decorations:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Chair, recliner:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Sheets or pillowcases:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Tables, not elsewhere classified (excl. baby changing tables, billiard or pool tables and television tables or stands):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Nonelectric blankets:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Drapery or curtain rods, hooks or rings:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Floor lamps or table lamps, electric (excluding halogen lamps):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Chair, rocking:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Toilets:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Bedspreads, throws or comforters:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Hot tubs or home spas:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Glass bathtub or shower enclosures:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Bunk beds:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Laundry hampers:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Mattresses, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Pillows (excluding water pillows):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Step stools:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Knickknacks, statues, vases or urns:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Blankets, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Faucets or spigots:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Beds or bedframes, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Desks, dressers, chests, bureaus, or buffets:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Window shades, venetian blinds or indoor shutters:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Extension cords:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Electric chandeliers, hanging lamps or other attached light fixtures:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Clothespins:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Lighting equipment, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Other bedding:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Bars and bar accessories (excluding gymnastic and weight lifting equipment):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Electrical outlets or receptacles:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Footstools, ottomans or hassocks:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Flashlights or battery-powered lanterns:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Sofas, couches, davenports, divans or studio couches:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Filters (excluding swimming pool and aquarium filters):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Scales, not electric or not battery operated or not specified (excluding baby scales):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Draperies, curtains or shower curtains (fabric or plastic):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Stepladders (excluding step stools):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Futons:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Ladders, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Towel racks or bars:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Benches (excluding work benches):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Surge suppressors or power strips:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Table linens:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Fuel-burning lighting equipment:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Bed rails:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Rugs or carpets, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Clocks, electric or battery operated:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Scales, electric or battery operated (excluding baby scales):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Cots:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Cabinets, racks, room dividers and shelves, not elsewhere classified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Chairs, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Mirrors or mirror glass (excluding lighted make-up mirrors):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Toddler beds:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Waterbeds or water pillows:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Magazine racks or book ends:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Bathtub or shower enclosures, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Electric lighting equipment, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Cords, electrical, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Nonglass bathtub or shower enclosures:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Stools, other or not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Generators or power plants:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Runners, throw rugs or doormats (excluding bathtub mats):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Room-sized, wall-to-wall or outdoor carpeting (excluding runners):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Light bulbs (excluding Christmas tree light bulbs):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Inflatable furniture:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Furniture, not specified:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Fabrics (not part of finished item):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Nonbaby mattresses (excluding camp mattresses):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Panelboards, circuit breakers, ground fault circuit interrupters (GFCIs) or fuses:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Slipcovers:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Artificial flowers or plants:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Towels or cloths:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Beach chairs or folding chairs:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Barstools or kitchen stools:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Electrical wire or wiring systems (excluding panelboards, receptacles or interrupters):
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Extension or straight ladders:
+  active: true
+  value_2: FURNISHINGS_FIXTURES
+  definition: .nan
+  source: .nan
+Other water heaters:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Vacuum cleaners:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric clothes dryers without washers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Sewing machines or accessories:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Floor buffers or waxers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Wringer washing machines:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Drinking fountains:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Automatic doors or door openers (excluding garage doors):
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Gas clothes dryers without washers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Water softeners or conditioners (appliances):
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Incinerators:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Clothes dryers, not specified:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Washing machines, other or not specified:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Automatic garage doors or door openers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric brooms:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric water heaters (excluding immersion heaters):
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Propane, LP or butane gas tanks or fittings:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Rug shampooers:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Gas water heaters:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric blankets or sheets:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Water heaters, not specified:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric heating pads:
+  active: true
+  value_2: GENERAL_HOUSEHOLD_APPLIANCE
+  definition: .nan
+  source: .nan
+Oil furnaces (excluding floor furnaces):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Gas-burning fireplaces, factory built:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Radiators (excluding vehicle radiators):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric heaters, not elsewhere classified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Fans:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Furnaces, other or not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Air purifiers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Brick, stone or masonry chimneys:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Chimneys, not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Floor furnaces (built into floor):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Vaporizers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Gas furnaces (excluding floor furnaces):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Wood burning fireplaces, factory built:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Metal chimneys, stovepipes or flues:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Portable gas or LP heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric fireplaces, factory built:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Outdoor patio heaters or firepits (manufactured):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Coal or wood-burning stoves:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Dehumidifiers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Boilers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Coal furnaces:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Kerosene or oil heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Heaters or heating systems, other or not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric furnaces (excluding floor furnaces):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Fireplaces, not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Pipes (excluding smoking pipes):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Gas or LP heaters, other or not specified:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Heat tapes, electric:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Humidifiers:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Heat pumps:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric baseboard heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Thermostats (for heating or cooling systems):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Built-in fireplaces:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Portable electric heaters:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Ductwork for heating or cooling systems (excluding flues):
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Air conditioners:
+  active: true
+  value_2: HEATING_COOLING_VENT_APPLIANCE
+  definition: .nan
+  source: .nan
+Radios (self-contained units:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Sound recording, reproducing or receiving equipment, not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Amateur two-way radios:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Recording tapes:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Projectors:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Tape recorders or players (self-contained units):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Remote control, universal or not stated (excl. remote controls for toys):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Antennas, not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Art and ceramic supplies or equipment (excl. paintbrushes):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Telescopes, binoculars, microscopes or magnifying glasses:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Video players and recorders (excl. cameras):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Stereo or hi-fi components or accessories (excluding self-contained units):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Computers (equipment and electronic games):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Television tables or stands:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Outdoor antennas (separate):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Phonograph records:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Lapidary equipment:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Musical instruments, not electric or not battery operated or not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Coaxial Cable:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Laser pointers:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Compact disks (CDs) and DVDs:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Televisions:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Telephones or telephone accessories:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Other sound recording, reproducing or receiving equipment:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Photographic equipment (excluding chemicals and projectors):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Musical instruments, electric or battery operated:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Record players (self-contained units):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Glass bottle cutting equipment:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Radios, not specified:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Indoor antennas (separate):
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Business and office machines:
+  active: true
+  value_2: HOME_COMM_ENTERTAINMENT_HOBBY_EQUIPMENT
+  definition: .nan
+  source: .nan
+Lubricants:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Photographic chemicals:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Ammonia, household:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Polishes, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Diesel fuels:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Wallpaper cleaners (chemical):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Solvents, other or not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Rust preventatives:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Fuel oils, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Methyl alcohol:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Automotive chemicals (excluding antifreeze, lubricants, waxes and windshield wiper fluids):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Liquid room deodorizers or fresheners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Gasoline cans:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Turpentine:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Soaps (excluding laundry soaps or detergents):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Tapes (with adhesive surfaces):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Adhesives (excluding tapes):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Chemicals, not elsewhere classified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Lye:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Oven cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Paints, varnishes or shellacs:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Room deodorizers or fresheners, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Caustics (excluding lye):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Lamp oils:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Dyes (noncosmetic):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Antifreeze:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Lighter fluids:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Drain cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Shoe polishes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Rust removers:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Automotive waxes, polishes or cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Dry ice:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Paint or varnish removers, paintbrush cleaners (excluding turpentine):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Bleaches (noncosmetic):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Detergents, not specified:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Furniture polishes or waxes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Fuels for chafing dishes or fondue pots:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Spot removers or cleaning fluids:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Dishwashing liquid:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Toilet bowl products:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Fabric treatment products (excluding spot removers, cleaning fluids, bleaches and dyes):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Pine oil cleaning and disinfectant preparations:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+General purpose household cleaners (excluding abrasives, ammonia, pine oil and toilet bowl products):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Fuel storage tanks (excluding propane, LP and butane tanks):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Paint or varnish thinners (excluding turpentine):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Charcoal:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Metal polishes, tarnish removers or preventatives:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Dishwasher detergents:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+School laboratory chemicals:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Swimming pool chemicals:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Caulking or spackling compounds:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Kerosene:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Wallpaper steamers:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Gasoline:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Paintbrushes or rollers, manual:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Windshield wiper fluids:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Laundry soaps or detergents:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Solid room deodorizers or fresheners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Acids (excluding drain cleaners and battery acids):
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Other polishes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Floor waxes:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Abrasive cleaners:
+  active: true
+  value_2: HOME_FAMILY_MAINTENANCE_PRODUCT
+  definition: .nan
+  source: .nan
+Paper products (excluding bags, cups, straws and cardboard products):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Other glass bottles or jars:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Nonglass bottles or jars (excluding baby bottles):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Other specified plastic products:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Metal containers (excluding aerosols, trash and gasoline cans):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Cardboard products:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Containers with key openers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Aluminum foil wrapping products:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Vacuum containers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Other containers (excluding vacuum or pressurized containers):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Glass tubing or test tubes:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Plastic containers (rigid or semi-rigid, excluding bottles and jars):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Plastic bags:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Wooden containers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Glass bottles or jars, not specified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Self-contained openers (e.g., zip-top or pull-top cans):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Glass alcoholic beverage bottles:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Plastic wrapping products (excluding plastic bags):
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Aerosol containers:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Paper bags:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Bottles or jars, not specified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Glass soft drink bottles:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Canning jars:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Bags, not elsewhere classified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Containers, not specified:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Buckets or pails:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Pressurized containers (nonaerosol:
+  active: true
+  value_2: HOUSEHOLD_PACKAGING_CONTAINER
+  definition: .nan
+  source: .nan
+Potholders, oven mitts or hot pads:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Coffee makers or teapots, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Metal cookware (nonelectric:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Slicers and choppers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Waste containers, trash baskets or refuse bins:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Manual cleaning equipment (excluding buckets or pails):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Flatware (excluding knives):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Bottle openers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Chafing dishes or fondue pots:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Other cookware:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Cookware, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Food grinders:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Ice picks:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Toothpicks or hor d'oeuvres picks:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Nonelectric can openers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Manual scissors:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Tie racks, belt racks or other clothes hangers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Drinking glasses, cups, and mugs:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Nonelectric knife sharpeners:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Pressure cookers or canners:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Food skewers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Doorstops:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Knives, not elsewhere classified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Ironing boards or covers:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Thermometers (excluding medical thermometers):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Can openers, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Appliances, other or not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Scissors, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Kitchen gadgets, not elsewhere classified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Trays (excluding food warmers):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Bread making machines:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Unpowered coffee makers or teapots:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Corkscrews:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Laundry baskets:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Knife sharpeners, not specified:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Nonmetal cookware (nonelectric):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Candles, candlesticks and other candle holders:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Kitchen mixing bowls, canisters or similar containers (excluding plastic products):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Drinking straws:
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Tableware and accessories (excluding drinking glasses, cups, and mugs):
+  active: true
+  value_2: HOUSEWARE_NON_POWERED
+  definition: .nan
+  source: .nan
+Electric griddles:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Toasters (excluding toaster ovens):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Ice crushers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Ice cream makers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Gas ranges or ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Other ranges or ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Dishwashers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric scissors:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric counter-top ovens, broilers or toaster ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric knife sharpeners:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Food processors:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Juicers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Garbage disposers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Ranges or ovens, not specified:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Microwave ovens:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Refrigerators:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric frying pans and skillets:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric immersion water heaters:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric coffee makers or teapots:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric kettles or hot pots:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric corn poppers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Freezers (separate from refrigerators):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric blenders:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Hot plates:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Rotisseries:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Clothing irons:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric waffle irons:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Faucet water heaters:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Clothes steamers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Trash compactors:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Food warmers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric mixers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Ice makers (separate from refrigerators):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric can openers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric or battery-powered knives:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric deep fryers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Electric ranges or ovens (excl. counter-top ovens):
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Slow cookers:
+  active: true
+  value_2: KITCHEN_APPLIANCE
+  definition: .nan
+  source: .nan
+Christmas tree lights:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Lunch boxes or pails:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Christmas decorations (nonelectric):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Motorized vehicles, not elsewhere classified (three or more wheels):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Pet supplies (excluding foods and medicines):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Flares:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Public equipment, not elsewhere classified (including conveyor belts, signs):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Electric Christmas decorations (excluding Christmas tree lights):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Tarpaulins:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Matchbooks:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Heating or cooling comfort packs (nonelectric):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Christmas tree stands or supports:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Seasonal decorations (excluding Christmas decorations):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Wooden matches:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Coin-operated car washing equipment:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Music boxes or chimes:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Party favors:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Ashtrays, not electric or not battery operated or not specified:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Matches, not specified:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Lockers:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Ashtrays, electric or battery operated:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Artificial Christmas trees:
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Vending machines (excluding car washing machines):
+  active: true
+  value_2: MISC_PRODUCT
+  definition: .nan
+  source: .nan
+Footwear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Pins and needles (excluding safety pins and knitting needles):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Nightwear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Bath or facial cleansing brushes:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Carts, other or not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Lighted make-up mirrors:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Combs, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Outerwear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Hair clippers and trimmers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Hair dryers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Watches:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Luggage (excluding foot lockers):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Electric razors or shavers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Fuel multi-purpose lighters (incl. micro torches):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Grocery or shopping carts:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Clothing accessories:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Manicure, pedicure, and make-up brushes and tools (excluding cosmetics):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Umbrellas:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Nonelectric razors or shavers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Other clothing:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Heat or infrared lamps:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Multi-purpose lighters, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Razors or shavers, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Hair curlers, curling irons, clips & hairpins:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Cigarette or pipe lighters:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Eye protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Saunas:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Sewing basket articles (excluding scissors, pins, needles and sewing machine accessories):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Pens and pencils:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Ear protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Respiratory protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Lighters, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Electric shoe polishers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Desk supplies (excluding pens and pencils):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Hair grooming equipment or accessories, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Electric multi-purpose lighters:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Clothes brushes:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Clothing, not specified:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Massage devices or vibrators (excluding shower attachments):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Personal protection devices:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Wigs, falls or hairpieces:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Electric combs:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Jewelry (excluding watches):
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Combs or hairbrushes, unpowered:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Keys, key rings or key chains:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Dollies, handtrucks or luggage carriers:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Coins:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Day wear:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Paper cutters:
+  active: true
+  value_2: PERSONAL_USE_ITEM
+  definition: .nan
+  source: .nan
+Hot water:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+BBs or pellets:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Gunpowder or ammunition (excluding BBs and pellets):
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Liquid drugs (excluding aspirin, aspirin substitutes, iron preparations and antihistamines):
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Pesticides:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+? Cosmetics, including facial and eye make-up, deodorants, hair preparations, nail polish and removers, bath oils, skin creams and lotions, etc.
+: active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Liniments or rubbing compounds:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Antihistamines:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Aspirin or aspirin compounds:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Tablet or capsule drugs (excluding aspirin, aspirin substitutes, iron preparations and antihistamines):
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Other drugs or medications:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Drugs or medications, not specified:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Veterinary medicines:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Preparations containing iron salts:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Aspirin substitutes:
+  active: true
+  value_2: REGULATED_PRODUCTS
+  definition: .nan
+  source: .nan
+Monkey bars, playground gyms or other playground climbing apparatus:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Electric grills:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Cheerleading (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Horseback riding (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Ice skating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Golf (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Golf carts, motorized vehicle:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Other guns or firearms:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Billiards or pool (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Swimming pool slides:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Hockey (activity, apparel or equipment), not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Playground equipment, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Gas, air or spring-operated guns (including BB guns):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Above-ground swimming pools (excluding portable pools):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Gas or LP grills or stoves (for outdoor use):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Go-carts:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Football (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Amusement attractions (including rides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Grills, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Guns, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Water tubing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+All-terrain vehicles (three wheels only:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Slides or sliding boards (excluding swimming pool slides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Shuffleboard (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Snowmobiles (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Pedal-powered adult vehicles (three or more wheels):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Boxing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Skeet shooting (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Swings or swing sets (excluding portable baby swings):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Flotation toys (excluding official life-saving devices):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Wrestling (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Gymnastics (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Scuba diving (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Diving or diving boards:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+All-terrain vehicles (more than four wheels:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Table tennis (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Other playground equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Kerosene grills or stoves:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Badminton (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Portable food or beverage coolers:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+All-terrain vehicles (number of wheels not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Horseshoes (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Unicycles:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Swimming (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Water slides, public (stationary amusement rides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Swimming pools, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Bleachers:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+All-terrain vehicles (four wheels, excluding dune buggies:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Lacrosse (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Surfing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Other ball sports (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+In-line skating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Sleeping bags:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Mountain climbing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Batons:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Handball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Roller skating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Rugby (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Squash, racquet ball or paddle ball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Weight lifting (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Darts, not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+? Exercise (activity or apparel without equipment), including aerobics, stretching, walking, jogging, running (excluding track and field)
+: active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Seesaws or teeterboards:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Ice hockey (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Bowling (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+T oboggans:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Ball sports (activity, apparel or equipment), not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Street hockey (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Martial arts (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Treehouses or playhouses:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Archery (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Water skiing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Curling (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Darts, lawn (activity or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Snow disks:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Field hockey (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Mopeds or power-assisted cycles:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Charcoal or wood-burning grills:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Dancing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Soccer (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Built-in swimming pools:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Trampolines:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Aquariums or accessories:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Skating (activity, apparel or equipment) not specified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Fishing (activity, apparel or equipment:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Other grills or stoves:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Ice or snow boating (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Water polo (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Sports and recreational activity, not elsewhere classified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Basketball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Volleyball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Swimming pool equipment (excluding chemicals, diving boards and swimming pool slides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Tennis (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Snow tubing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Fencing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Dune buggies/beach buggies:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Water slides, not elsewhere classified:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Water slides, backyard/home (not swimming pool slides):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Croquet (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Sleds:
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Tetherball (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Exercise equipment (excluding weight lifting or gymnastic equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Snow skiing (activity, apparel or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Darts, for indoor use (activity or equipment):
+  active: true
+  value_2: SPORTS_RECREATION
+  definition: .nan
+  source: .nan
+Garage doors (excluding automatic garage doors or door openers):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Fences or fence posts:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Tree stands (hunting):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Pull-down or folding stairs:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Tool sheds:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Doors, other or not specified:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Elevators or other lifts (excl. escalators, hoists, jacks, forklifts and automotive lifts):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Thermal or sound insulation materials:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Gutters, drainpipes, downspouts or run-off pipes:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Windowsills or frames:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Escalators:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Drywall in a completed structure:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Nails, screws, carpet tacks or thumbtacks -> Nails, screws, tacks or bolts:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Storm windows:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Artificial turf:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Ceilings and walls (interior part of completed structure):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Ramps or landings:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Plastic panels for doors or windows:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Carbon monoxide poisonings (when source is unknown):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Cisterns, cesspools or septic tanks:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Counters or countertops (excluding bars):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Window or door security barriers:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Porches, balconies, open-side floors or floor openings:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Poles (excluding fence posts, fishing, pole vaults and play-ground equipment):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+House repair or construction materials, not elsewhere classified:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Stairs or steps (excluding pull-down and folding stairs):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Scaffolding:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Wood paneling and particleboard:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Floors or flooring materials:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Window screens:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Cabinet or door hardware:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Clotheslines or clothes drying racks (excluding poles):
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+General home or room involvement in fires:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Doorsills or frames:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Handrails, railings or banisters:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Glass doors or doors with glass panels:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Gas fumes or gas vapors of unknown origin:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Outdoor awnings or shutters:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Windows and window glass, other than storm windows:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+W allpaper:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Moving walks:
+  active: true
+  value_2: STRUCTURES_CONSTRUCTION
+  definition: .nan
+  source: .nan
+Fireworks:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toy musical instruments:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Wheeled riding toys, unpowered (excluding bicycles and tricycles):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toy bows or arrows:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Skateboards:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Building sets:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Tricycles (children's):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toys, not specified:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toy guns with projectiles:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Pogo sticks:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Metal or plastic molding sets:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toy guns, not specified:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Dolls, plush toys, and action figures:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Wagons (children's):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Balloons (toy):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Stilts:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Blocks, stacking toys or pull toys:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Powered riding toys:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Scooters, unpowered:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Marbles:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Other toy weapons (nonprojectile):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toy sports equipment:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Rocketry sets:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Squeeze or squeaker toys:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Water toys (excluding squeeze or squeaker toys and inner tubes or similar flotation equipment):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Nonwheeled riding toys, unpowered (e.g., rocking or bouncing horses, etc.):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Molding compounds:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Inflatable toys (excluding balls & balloons):
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Children's play tents, play tunnels or other enclosures:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Kites or kite string:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Costumes or masks:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Woodburning kits:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Clacker balls:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toy boxes or chests:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Toys, not elsewhere classified:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Chemistry sets or science kits:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Slingshots or sling-propelled toys:
+  active: true
+  value_2: TOYS
+  definition: .nan
+  source: .nan
+Scooters/skateboards, powered:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Balls, other or not specified:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Two-wheeled, powered, off-road vehicles (incl. dirt bikes and trail bikes:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Other toy guns:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Camping equipment (excl. trailers, lighting equipment, sleeping bags, cots, hammocks, coolers, stoves and heaters):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Other toy weapons (projectile):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Hammocks:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Crayons or chalk (excluding billiard or pool chalk):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Toy caps, cap toys or cap guns:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Flying discs and boomerangs:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Toy vehicles (excluding riding toys):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Softball (activity, apparel or equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Riding toys (excluding bicycles and tricycles), not specified:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Toy weapons, not specified:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Snow boarding (activity, apparel or equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Mountain or all-terrain bicycles or accessories:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Portable swimming pools:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Games or game parts (excluding marbles and computer games):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Book bags or back carriers (excluding baby carriers, luggage and camping equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Baseball (activity, apparel or equipment:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Pretend electronics, tools, housewares, and appliances:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Toy make-up kits or cosmetics (excluding mirrors):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Doll houses and other play scenes:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Track and field (activity, apparel or equipment:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Roller hockey (activity, apparel or equipment):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Bicycles or accessories (excluding mountain or all-terrain bicycles):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Utility vehicles:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Fitness/activity tracker, personal (including pedometers and non-medical heart rate monitors):
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Minibikes, powered:
+  active: true
+  value_2: TOYS_MOBILITY_OTHER
+  definition: .nan
+  source: .nan
+Hammers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Stretch cords or stretch straps:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Trouble lights or extension work lights:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Tools, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power saws, other or not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power lathes:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Internal combustion engines (nonvehicular):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Heavy-duty workshop staplers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Band saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Air compressors (separate):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Workshop furnishings:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Nonelectric soldering equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Awls, chisels or planes:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power shapers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Vises or workshop clamps:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Sprayers, not elsewhere classified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Other portable or stationary power tools:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Radial arm saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Glue guns:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Hand saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Cutting torches:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Rope or string (excluding mountain climbing or jump ropes and kite strings):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Workshop grinders, buffers, or polishers, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Jigsaws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Chains, not elsewhere classified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Knives with replaceable blades:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Manual drills:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Sabre saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Welding equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Manual workshop grinders, buffers or polishers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Electrical testing equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Electric motors (separate):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Saws, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Reamers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Toolboxes or tool kits (excluding tools):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Stationary power drills and accessories:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Nail guns or stud drivers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Battery chargers/adapters:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Torches, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Screwdrivers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Manual filing or sanding tools:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power routers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Hoists, lifts, jacks or jack stands:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power workshop grinders, buffers or polishers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Bench or table saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power drills or accessories, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Batteries:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power sanders:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Levels:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Drain snakes:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Other manual workshop tools:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Painting equipment, powered (including sprayers, rollers or brushes):
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Power jointers:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Automotive tools or accessories:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Portable circular power saws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Wire, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Drills, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Hacksaws:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Pliers, wire cutters or wrenches:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Workshop compounds or chemicals:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Soldering equipment, not specified:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Electric soldering equipment:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Portable power drills and accessories:
+  active: true
+  value_2: WORKSHOP_TOOL_APPARATUS
+  definition: .nan
+  source: .nan
+Garden hoses, nozzles or sprinklers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Pruning or trimming equipment, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Insect traps, powered:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Decorative water features, including man-made ponds and fountains:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Grass and leaf catchers (attachments for lawn mowers):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Lawn mowers, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Leaf blowers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Brushcutters, powered:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Manual push mowers (unpowered):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Other unpowered garden tools:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Decorative yard equipment, excluding water features:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Animal traps:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Lawn vacuums:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Power lawn mowers, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Other manual pruning or trimming equipment:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Manual hedge trimmers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Other power pruning or trimming equipment:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Manual pruning or trimming equipment, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Pumps, not elsewhere classified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Power hedge trimmers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Power leaf mulchers and grinders:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Plant foods or fertilizers for potted plants:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Lawn trimmers or edgers, powered (excluding brushcutters):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Wheelbarrows or lawn carts:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Rotary power lawn mowers (walk-behind):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Snow throwers/blowers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Garden sprayers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Seed and fertilizer spreaders:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Power tillers or cultivators (not farm equipment):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Manual lawn trimmers or edgers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Power pruning or trimming equipment, not specified:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Garden tractors:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Riding power lawn mowers:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Other power garden tools:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Chain saws:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Greenhouse or gardening supplies (excluding plant stands, tools, hoses, sprayers and chemicals):
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Manual snow or ice removal tools:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Hatchets or axes:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Outdoor electric lighting equipment:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan
+Log splitters:
+  active: true
+  value_2: YARD_GARDEN_EQUIPMENT
+  definition: .nan
+  source: .nan

@@ -1,0 +1,25 @@
+SOLID:
+  active: true
+  description: Solid
+  definition: .nan
+  source: .nan
+LIQUID:
+  active: true
+  description: Liquid
+  definition: .nan
+  source: .nan
+GAS:
+  active: true
+  description: Gas
+  definition: .nan
+  source: .nan
+RADIOACTIVE:
+  active: true
+  description: Radioactive
+  definition: ' '
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: ' '
+  source: .nan

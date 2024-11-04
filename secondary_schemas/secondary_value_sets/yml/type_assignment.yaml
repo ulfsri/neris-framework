@@ -1,0 +1,60 @@
+FIRE_SUPPRESSION:
+  active: true
+  description: Fire suppression
+  definition: .nan
+  source: .nan
+HAZMAT:
+  active: true
+  description: Hazmat
+  definition: .nan
+  source: .nan
+RESCUE:
+  active: true
+  description: Rescue
+  definition: .nan
+  source: .nan
+EMS:
+  active: true
+  description: EMS
+  definition: .nan
+  source: .nan
+PREVENTION_INSPECTION:
+  active: true
+  description: Prevention or inspection
+  definition: .nan
+  source: .nan
+TRAINING:
+  active: true
+  description: Training
+  definition: .nan
+  source: .nan
+MAINTENANCE:
+  active: true
+  description: Maintenance
+  definition: .nan
+  source: .nan
+COMMUNICATIONS:
+  active: true
+  description: Communications
+  definition: .nan
+  source: .nan
+ADMINISTRATION:
+  active: true
+  description: Administration
+  definition: .nan
+  source: .nan
+FIRE_INVESTIGATIONS:
+  active: true
+  description: Fire investigations
+  definition: .nan
+  source: .nan
+MIH_PARAMEDICINE:
+  active: true
+  description: MIH / Paramedicine
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan

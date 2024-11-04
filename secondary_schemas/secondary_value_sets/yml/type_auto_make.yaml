@@ -1,0 +1,330 @@
+Acura:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Alfa Romeo:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Aston Martin:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Audi:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+BMW:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Bentley Motors:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Bollinger Motors:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Bugatti:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Buick:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Cadillac:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Canoo:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Chevrolet:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Chrysler:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+DeLorean Motor Company:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Dodge:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Ferrari:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Fiat:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Fisker:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Ford:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+GMC:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Genesis:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Honda:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Hummer:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Hyundai:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Ineos:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Infiniti:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Jaguar:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Jeep:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Karma:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Kia:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Lamborghini:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Land Rover:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Lexus:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Lincoln:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Lordstown Motors:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Lotus:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Lucid Motors:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Maserati:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Maybach:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Mazda:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+McLaren:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Mercedes-AMG:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Mercedes-Benz:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Mercury:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Mini:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Mitsubishi:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Nissan:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Oldsmobile:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Polestar:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Pontiac:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Porsche:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Plymouth:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Ram:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Rivian:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Rolls-Royce:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Saab:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Saturn:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Scion:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Smart:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Subaru:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Suzuki:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Tesla:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Toyota:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Volkswagen:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+VinFast:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan
+Volvo:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan

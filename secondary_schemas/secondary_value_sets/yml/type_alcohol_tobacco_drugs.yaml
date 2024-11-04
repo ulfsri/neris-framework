@@ -1,0 +1,30 @@
+ALCOHOL_USER:
+  active: true
+  description: Alcohol user
+  definition: .nan
+  source: .nan
+TOBACCO_USER:
+  active: true
+  description: Tobacco user
+  definition: .nan
+  source: .nan
+SMOKER_OTHER:
+  active: true
+  description: Smoker - other
+  definition: Includes eCigarettes
+  source: .nan
+MARIJUANA_USER:
+  active: true
+  description: Marijuana user
+  definition: .nan
+  source: .nan
+OTHER_ILLICIT_DRUGS:
+  active: true
+  description: Other illicit drugs
+  definition: .nan
+  source: .nan
+NONE:
+  active: true
+  description: .nan
+  definition: .nan
+  source: .nan

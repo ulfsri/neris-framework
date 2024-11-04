@@ -1,0 +1,70 @@
+ASSEMBLY:
+  active: true
+  description: Assembly
+  definition: .nan
+  source: .nan
+BATHROOM:
+  active: true
+  description: Bathroom
+  definition: .nan
+  source: .nan
+BEDROOM:
+  active: true
+  description: Bedroom
+  definition: .nan
+  source: .nan
+KITCHEN:
+  active: true
+  description: Kitchen
+  definition: .nan
+  source: .nan
+LIVING_SPACE:
+  active: true
+  description: Living Space
+  definition: .nan
+  source: .nan
+HALLWAY_FOYER:
+  active: true
+  description: Hallway / Foyer
+  definition: .nan
+  source: .nan
+GARAGE:
+  active: true
+  description: Garage
+  definition: .nan
+  source: .nan
+BALCONY_PORCH_DECK:
+  active: true
+  description: Balcony / Porch / Deck
+  definition: .nan
+  source: .nan
+BASEMENT:
+  active: true
+  description: Basement
+  definition: .nan
+  source: .nan
+ATTIC:
+  active: true
+  description: Attic
+  definition: .nan
+  source: .nan
+OFFICE:
+  active: true
+  description: Office
+  definition: .nan
+  source: .nan
+UTILITY_ROOM:
+  active: true
+  description: Utility Room
+  definition: .nan
+  source: .nan
+OTHER:
+  active: true
+  description: Other
+  definition: .nan
+  source: .nan
+UNKNOWN:
+  active: true
+  description: Unknown
+  definition: .nan
+  source: .nan
