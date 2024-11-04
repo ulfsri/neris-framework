@@ -1,0 +1,7 @@
+,active,value,description,definition,source
+0,True,DUCT,Duct,,
+1,True,FLOOR_ASSEMBLY,Floor assembly,,
+2,True,CRAWL_SPACE,Crawl space,,
+3,True,CEILING,Ceiling,,
+4,True,ATTIC,Attic,,
+5,True,OTHER,Other,,

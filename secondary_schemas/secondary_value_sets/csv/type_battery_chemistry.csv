@@ -1,0 +1,11 @@
+,active,value,description,definition,source
+0,True,LITHIUM_ION,Lithium Ion,,
+1,True,LITHIUM_METAL,Lithium Metal,,
+2,True,LITHIUM_IRON_PHOSPHATE,Lithium Iron Phosphate,,
+3,True,LITHIUM_SULPHUR,Lithium Sulphur,,
+4,True,SODIUM_ION,Sodium Ion,,
+5,True,ALKALINE,Alkaline,,
+6,True,LEAD_ACID,Lead Acid,,
+7,True,NICKEL_METAL_HYDRIDE,Nickel Metal Hydride,,
+8,True,UNKNOWN,Unknown,,
+9,True,OTHER,Other,,

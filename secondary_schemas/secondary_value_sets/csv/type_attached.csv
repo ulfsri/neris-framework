@@ -1,0 +1,8 @@
+,active,value,description,definition,source
+0,True,FENCE,Fence,,
+1,True,PORCH_DECK,Porch/Deck,,
+2,True,CARPORT_LEANTO,Carport/Lean to,,
+3,True,PATIO_COVER_AWNING,Patio Cover or Awning,,
+4,True,GARAGE,Garage,,
+5,True,OTHER,Other,,
+6,True,NONE,,,
