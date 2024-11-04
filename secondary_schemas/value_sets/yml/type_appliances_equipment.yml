@@ -1,0 +1,280 @@
+'HEATING_COOLING_EQUIPMENT: PORTABLE_AIR_CONDITIONING':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: PORTABLE_AIR_CONDITIONING
+  description_1: Heating Cooling Equipment
+  description_2: Portable Air Conditioning
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: PORTABLE_HEATER':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: PORTABLE_HEATER
+  description_1: Heating Cooling Equipment
+  description_2: Portable Heater
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: CENTRAL_HEATING':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: CENTRAL_HEATING
+  description_1: Heating Cooling Equipment
+  description_2: Central Heating
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: CENTRAL_AIR_CONDITIONING':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: CENTRAL_AIR_CONDITIONING
+  description_1: Heating Cooling Equipment
+  description_2: Central Air Conditioning
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: FIREPLACE':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: FIREPLACE
+  description_1: Heating Cooling Equipment
+  description_2: Fireplace
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: CHIMNEY':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: CHIMNEY
+  description_1: Heating Cooling Equipment
+  description_2: Chimney
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: CHIMNEY_CONNECTOR':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: CHIMNEY_CONNECTOR
+  description_1: Heating Cooling Equipment
+  description_2: Chimney Connector
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: WATER_HEATER':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: WATER_HEATER
+  description_1: Heating Cooling Equipment
+  description_2: Water Heater
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: OTHER':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: OTHER
+  description_1: Heating Cooling Equipment
+  description_2: Other
+  definition:
+  source:
+'HEATING_COOLING_EQUIPMENT: VENT_EXHAUST_FAN':
+  active: 'TRUE'
+  value_1: HEATING_COOLING_EQUIPMENT
+  value_2: VENT_EXHAUST_FAN
+  description_1: Heating Cooling Equipment
+  description_2: Vent Exhaust Fan
+  definition:
+  source:
+'COOKING_EQUIPMENT: GAS_RANGE_OVEN':
+  active: 'TRUE'
+  value_1: COOKING_EQUIPMENT
+  value_2: GAS_RANGE_OVEN
+  description_1: Cooking Equipment
+  description_2: Gas Range Oven
+  definition:
+  source:
+'COOKING_EQUIPMENT: ELECTRIC_RANGE_OVEN':
+  active: 'TRUE'
+  value_1: COOKING_EQUIPMENT
+  value_2: ELECTRIC_RANGE_OVEN
+  description_1: Cooking Equipment
+  description_2: Electric Range Oven
+  definition:
+  source:
+'COOKING_EQUIPMENT: MICROWAVE_OVEN':
+  active: 'TRUE'
+  value_1: COOKING_EQUIPMENT
+  value_2: MICROWAVE_OVEN
+  description_1: Cooking Equipment
+  description_2: Microwave Oven
+  definition:
+  source:
+'COOKING_EQUIPMENT: TOASTER_OVEN':
+  active: 'TRUE'
+  value_1: COOKING_EQUIPMENT
+  value_2: TOASTER_OVEN
+  description_1: Cooking Equipment
+  description_2: Toaster Oven
+  definition:
+  source:
+'COOKING_EQUIPMENT: AIR_FRYER':
+  active: 'TRUE'
+  value_1: COOKING_EQUIPMENT
+  value_2: AIR_FRYER
+  description_1: Cooking Equipment
+  description_2: Air Fryer
+  definition:
+  source:
+'COOKING_EQUIPMENT: OIL_FRYER':
+  active: 'TRUE'
+  value_1: COOKING_EQUIPMENT
+  value_2: OIL_FRYER
+  description_1: Cooking Equipment
+  description_2: Oil Fryer
+  definition:
+  source:
+'COOKING_EQUIPMENT: OTHER_COOKING':
+  active: 'TRUE'
+  value_1: COOKING_EQUIPMENT
+  value_2: OTHER_COOKING
+  description_1: Cooking Equipment
+  description_2: Other Cooking
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: PERMANENT_ELECTRICAL_CORD_CABLE':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: PERMANENT_ELECTRICAL_CORD_CABLE
+  description_1: Electrical Equipment
+  description_2: Permanent Electrical Cord Cable
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: TEMPORARY_ELECTRICAL_CORD_CABLE':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: TEMPORARY_ELECTRICAL_CORD_CABLE
+  description_1: Electrical Equipment
+  description_2: Temporary Electrical Cord Cable
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: RECEPTACLE_SWITCH':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: RECEPTACLE_SWITCH
+  description_1: Electrical Equipment
+  description_2: Receptacle Switch
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: LIGHTING':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: LIGHTING
+  description_1: Electrical Equipment
+  description_2: Lighting
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: TRANSFORMER':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: TRANSFORMER
+  description_1: Electrical Equipment
+  description_2: Transformer
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: PANEL_BOARD_SWITCH_BOARD':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: PANEL_BOARD_SWITCH_BOARD
+  description_1: Electrical Equipment
+  description_2: Panel Board Switch Board
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: OTHER':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: OTHER
+  description_1: Electrical Equipment
+  description_2: Other
+  definition:
+  source:
+'ELECTRICAL_EQUIPMENT: POWER_STRIPS_ADAPTERS':
+  active: 'TRUE'
+  value_1: ELECTRICAL_EQUIPMENT
+  value_2: POWER_STRIPS_ADAPTERS
+  description_1: Electrical Equipment
+  description_2: Power Strips Adapters
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: AUDIO_VISUAL_EQUIPMENT':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: AUDIO_VISUAL_EQUIPMENT
+  description_1: Appliances Equipment
+  description_2: Audio Visual Equipment
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: CLOTHES_DRYER':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: CLOTHES_DRYER
+  description_1: Appliances Equipment
+  description_2: Clothes Dryer
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: WASHING_MACHINE':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: WASHING_MACHINE
+  description_1: Appliances Equipment
+  description_2: Washing Machine
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: DISHWASHER':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: DISHWASHER
+  description_1: Appliances Equipment
+  description_2: Dishwasher
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: REFRIGERATOR':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: REFRIGERATOR
+  description_1: Appliances Equipment
+  description_2: Refrigerator
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: PRESSING_IRON':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: PRESSING_IRON
+  description_1: Appliances Equipment
+  description_2: Pressing Iron
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: SHOP_TOOLS':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: SHOP_TOOLS
+  description_1: Appliances Equipment
+  description_2: Shop Tools
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: TORCH':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: TORCH
+  description_1: Appliances Equipment
+  description_2: Torch
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: OUTDOOR_GRILL_FIRE_PIT':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: OUTDOOR_GRILL_FIRE_PIT
+  description_1: Appliances Equipment
+  description_2: Outdoor Grill Fire Pit
+  definition:
+  source:
+'APPLIANCES_EQUIPMENT: OTHER':
+  active: 'TRUE'
+  value_1: APPLIANCES_EQUIPMENT
+  value_2: OTHER
+  description_1: Appliances Equipment
+  description_2: Other
+  definition:
+  source:

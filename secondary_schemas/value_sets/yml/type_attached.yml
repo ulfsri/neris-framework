@@ -1,0 +1,35 @@
+FENCE:
+  active: 'TRUE'
+  description: Fence
+  definition:
+  source:
+PORCH_DECK:
+  active: 'TRUE'
+  description: Porch/Deck
+  definition:
+  source:
+CARPORT_LEANTO:
+  active: 'TRUE'
+  description: Carport/Lean to
+  definition:
+  source:
+PATIO_COVER_AWNING:
+  active: 'TRUE'
+  description: Patio Cover or Awning
+  definition:
+  source:
+GARAGE:
+  active: 'TRUE'
+  description: Garage
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:
+NONE:
+  active: 'TRUE'
+  description:
+  definition:
+  source:

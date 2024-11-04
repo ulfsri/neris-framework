@@ -1,0 +1,40 @@
+NORTH_WEST:
+  active: 'TRUE'
+  description: North-West
+  definition:
+  source:
+SOUTH_WEST:
+  active: 'TRUE'
+  description: South-West
+  definition:
+  source:
+NORTH:
+  active: 'TRUE'
+  description: North
+  definition:
+  source:
+SOUTH:
+  active: 'TRUE'
+  description: South
+  definition:
+  source:
+EAST:
+  active: 'TRUE'
+  description: East
+  definition: 
+  source:
+WEST:
+  active: 'TRUE'
+  description: West
+  definition:
+  source:
+NORTH_EAST:
+  active: 'TRUE'
+  description: North-East
+  definition:
+  source:
+SOUTH_EAST:
+  active: 'TRUE'
+  description: South-East
+  definition:
+  source:

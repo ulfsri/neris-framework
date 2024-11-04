@@ -1,0 +1,35 @@
+RESPONDING_TO_EMERGENCY_INCIDENT:
+  active: 'TRUE'
+  description: Responding to Emergency Incident
+  definition:
+  source:
+WORKING_AT_SCENE_OF_FIRE_INCIDENT:
+  active: 'TRUE'
+  description: Working at Scene of Fire Incident
+  definition:
+  source:
+WORKING_AT_SCENE_OF_NONFIRE_INCIDENT:
+  active: 'TRUE'
+  description: Working at Scene of Nonfire Incident
+  definition:
+  source:
+RETURNING_FROM_EMERGENCY_INCIDENT:
+  active: 'TRUE'
+  description: Returning from Emergency Incident
+  definition:
+  source:
+TRAINING:
+  active: 'TRUE'
+  description: Training
+  definition:
+  source: 
+AFTER_INCIDENT:
+  active: 'TRUE'
+  description: After Incident
+  definition:
+  source:
+OTHER_ON_DUTY_INCIDENT:
+  active: 'TRUE'
+  description: Other On-Duty Incident
+  definition:
+  source:

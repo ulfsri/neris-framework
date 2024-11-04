@@ -1,0 +1,80 @@
+DRIVING_RIDING_DEPARTMENT_VEHICLE:
+  active: 'TRUE'
+  description: Driving or riding in department vehicle
+  definition:
+  source:
+DRIVING_RIDING_OTHER_VEHICLE:
+  active: 'TRUE'
+  description: Driving or riding in other vehicle
+  definition: 
+  source:
+MOVING_ABOUT_STATION_ALARM:
+  active: 'TRUE'
+  description: Moving about station, alarm sounding
+  definition:
+  source:
+MOVING_ABOUT_STATION_NORMAL:
+  active: 'TRUE'
+  description: Moving about station, normal activity
+  definition:
+  source:
+STATION_MAINTENANCE:
+  active: 'TRUE'
+  description: Station maintenance
+  definition:
+  source:
+VEHICLE_MAINTENANCE:
+  active: 'TRUE'
+  description: Vehicle maintenance
+  definition:
+  source:
+EQUIPMENT_MAINTENANCE:
+  active: 'TRUE'
+  description: Equipment maintenance
+  definition:
+  source:
+PHYSICAL_FITNESS_ACTIVITY:
+  active: 'TRUE'
+  description: Physical fitness activity
+  definition:
+  source:
+COOKING_ACTIVITY:
+  active: 'TRUE'
+  description: Cooking activity
+  definition:
+  source:
+TRAINING_ACTIVITY_DRILL:
+  active: 'TRUE'
+  description: Training activity or drill
+  definition:
+  source:
+INVESTIGATION:
+  active: 'TRUE'
+  description: Investigation
+  definition:
+  source:
+INSPECTION:
+  active: 'TRUE'
+  description: Inspection
+  definition:
+  source:
+ADMINISTRATIVE_WORK:
+  active: 'TRUE'
+  description: Administrative work
+  definition:
+  source:
+COMMUNICATIONS_WORK:
+  active: 'TRUE'
+  description: Communications work
+  definition:
+  source:
+AT_REST:
+  active: 'TRUE'
+  description: At rest
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

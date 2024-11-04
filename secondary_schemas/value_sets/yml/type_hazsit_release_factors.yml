@@ -1,0 +1,207 @@
+'FAILURE_TO_CONTROL_HAZARDOUS_MATERIAL: ABANDONED_OR_DISCARDED':
+  active: 'TRUE'
+  value_1: FAILURE_TO_CONTROL_HAZARDOUS_MATERIAL
+  value_2: ABANDONED_OR_DISCARDED
+  description_1: Failure To Control Hazardous Material
+  description_2: Abandoned or Discarded
+  definiton_1:
+  definition_2:
+  source:
+'FAILURE_TO_CONTROL_HAZARDOUS_MATERIAL: IMPROPER_ENVIRONMENT_STOAGE':
+  active: 'TRUE'
+  value_1: FAILURE_TO_CONTROL_HAZARDOUS_MATERIAL
+  value_2: IMPROPER_ENVIRONMENT_STOAGE
+  description_1: Failure To Control Hazardous Material
+  description_2: Improper Environment Storage
+  definiton_1:
+  definition_2:
+  source:
+'FAILURE_TO_CONTROL_HAZARDOUS_MATERIAL: IMPROPER_TRANSFER':
+  active: 'TRUE'
+  value_1: FAILURE_TO_CONTROL_HAZARDOUS_MATERIAL
+  value_2: IMPROPER_TRANSFER
+  description_1: Failure To Control Hazardous Material
+  description_2: Improper Transfer
+  definiton_1:
+  definition_2:
+  source:
+'MISUSE_OF_HAZARDOUS_MATERIALS: IMPROPER_MIXING':
+  active: 'TRUE'
+  value_1: MISUSE_OF_HAZARDOUS_MATERIALS
+  value_2: IMPROPER_MIXING
+  description_1: Misuse of Hazardous Materials
+  description_2: Improper Mixing
+  definiton_1:
+  definition_2:
+  source:
+'MISUSE_OF_HAZARDOUS_MATERIALS: IMPROPER_USE':
+  active: 'TRUE'
+  value_1: MISUSE_OF_HAZARDOUS_MATERIALS
+  value_2: IMPROPER_USE
+  description_1: Misuse of Hazardous Materials
+  description_2: Improper Use (Wrong Purpose)
+  definiton_1:
+  definition_2:
+  source:
+'MISUSE_OF_HAZARDOUS_MATERIALS: IMPROPER_CONTAINER':
+  active: 'TRUE'
+  value_1: MISUSE_OF_HAZARDOUS_MATERIALS
+  value_2: IMPROPER_CONTAINER
+  description_1: Misuse of Hazardous Materials
+  description_2: Improper Container
+  definiton_1:
+  definition_2:
+  source:
+'MECHANICAL_FAILURE_MALFUNCTION: AUTOMATIC_CONTROL_FAILURE':
+  active: 'TRUE'
+  value_1: MECHANICAL_FAILURE_MALFUNCTION
+  value_2: AUTOMATIC_CONTROL_FAILURE
+  description_1: Mechanical Failure / Malfunction
+  description_2: Automatic Control Failure
+  definiton_1:
+  definition_2:
+  source:
+'MECHANICAL_FAILURE_MALFUNCTION: MANUAL_CONTROL_FAILURE':
+  active: 'TRUE'
+  value_1: MECHANICAL_FAILURE_MALFUNCTION
+  value_2: MANUAL_CONTROL_FAILURE
+  description_1: Mechanical Failure / Malfunction
+  description_2: Manual Control Failure
+  definiton_1:
+  definition_2:
+  source:
+'MECHANICAL_FAILURE_MALFUNCTION: ELECTRICAL_FAILURE':
+  active: 'TRUE'
+  value_1: MECHANICAL_FAILURE_MALFUNCTION
+  value_2: ELECTRICAL_FAILURE
+  description_1: Mechanical Failure / Malfunction
+  description_2: Electrical Failure
+  definiton_1:
+  definition_2:
+  source:
+'MECHANICAL_FAILURE_MALFUNCTION: LACK_OF_MAINTENANCE':
+  active: 'TRUE'
+  value_1: MECHANICAL_FAILURE_MALFUNCTION
+  value_2: LACK_OF_MAINTENANCE
+  description_1: Mechanical Failure / Malfunction
+  description_2: Lack of Maintenance
+  definiton_1:
+  definition_2:
+  source:
+'DESIGN_CONSTRUCTION_INSTALLATION_DEFICIENCY: DESIGN_DEFICIENCY':
+  active: 'TRUE'
+  value_1: DESIGN_CONSTRUCTION_INSTALLATION_DEFICIENCY
+  value_2: DESIGN_DEFICIENCY
+  description_1: Design / Construction / Installation Deficiency
+  description_2: Design Deficiency
+  definiton_1:
+  definition_2:
+  source:
+'DESIGN_CONSTRUCTION_INSTALLATION_DEFICIENCY: CONSTRUCTION_DEFICIENCY':
+  active: 'TRUE'
+  value_1: DESIGN_CONSTRUCTION_INSTALLATION_DEFICIENCY
+  value_2: CONSTRUCTION_DEFICIENCY
+  description_1: Design / Construction / Installation Deficiency
+  description_2: Construction Deficiency
+  definiton_1:
+  definition_2:
+  source:
+'DESIGN_CONSTRUCTION_INSTALLATION_DEFICIENCY: INSTALLATION_DEFICIENCY':
+  active: 'TRUE'
+  value_1: DESIGN_CONSTRUCTION_INSTALLATION_DEFICIENCY
+  value_2: INSTALLATION_DEFICIENCY
+  description_1: Design / Construction / Installation Deficiency
+  description_2: Installation Deficiency
+  definiton_1:
+  definition_2:
+  source:
+'OPERATIONAL_DEFICIENCY: COLLISION_OVERTURN_KNOCKDOWN':
+  active: 'TRUE'
+  value_1: OPERATIONAL_DEFICIENCY
+  value_2: COLLISION_OVERTURN_KNOCKDOWN
+  description_1: Operational Deficiency
+  description_2: Collision / Overturn / Knockdown
+  definiton_1:
+  definition_2:
+  source:
+'OPERATIONAL_DEFICIENCY: ACCIDENTAL_IMPROPER_POWER_ON':
+  active: 'TRUE'
+  value_1: OPERATIONAL_DEFICIENCY
+  value_2: ACCIDENTAL_IMPROPER_POWER_ON
+  description_1: Operational Deficiency
+  description_2: Accidental / Improper Power On
+  definiton_1:
+  definition_2:
+  source:
+'OPERATIONAL_DEFICIENCY: ACCIDENTAL_IMPROPER_SHUTDOWN':
+  active: 'TRUE'
+  value_1: OPERATIONAL_DEFICIENCY
+  value_2: ACCIDENTAL_IMPROPER_SHUTDOWN
+  description_1: Operational Deficiency
+  description_2: Accidental / Improper Shutdown
+  definiton_1:
+  definition_2:
+  source:
+'OPERATIONAL_DEFICIENCY: EQUIPMENT_UNATTENDED':
+  active: 'TRUE'
+  value_1: OPERATIONAL_DEFICIENCY
+  value_2: EQUIPMENT_UNATTENDED
+  description_1: Operational Deficiency
+  description_2: Equipment Unattended
+  definiton_1:
+  definition_2:
+  source:
+'NATURAL_CONDITION: HIGH_WIND':
+  active: 'TRUE'
+  value_1: NATURAL_CONDITION
+  value_2: HIGH_WIND
+  description_1: Natural Condition
+  description_2: High Wind
+  definiton_1:
+  definition_2:
+  source:
+'NATURAL_CONDITION: EARTHQUAKE':
+  active: 'TRUE'
+  value_1: NATURAL_CONDITION
+  value_2: EARTHQUAKE
+  description_1: Natural Condition
+  description_2: Earthquake
+  definiton_1:
+  definition_2:
+  source:
+'NATURAL_CONDITION: LIGHTNING':
+  active: 'TRUE'
+  value_1: NATURAL_CONDITION
+  value_2: LIGHTNING
+  description_1: Natural Condition
+  description_2: Lightning
+  definiton_1:
+  definition_2:
+  source:
+'NATURAL_CONDITION: FLOOD':
+  active: 'TRUE'
+  value_1: NATURAL_CONDITION
+  value_2: FLOOD
+  description_1: Natural Condition
+  description_2: Flood
+  definiton_1:
+  definition_2:
+  source:
+'NATURAL_CONDITION: HIGH_TEMPERATURE':
+  active: 'TRUE'
+  value_1: NATURAL_CONDITION
+  value_2: HIGH_TEMPERATURE
+  description_1: Natural Condition
+  description_2: High Temperature
+  definiton_1:
+  definition_2:
+  source:
+'NATURAL_CONDITION: LOWER_TEMPERATURE':
+  active: 'TRUE'
+  value_1: NATURAL_CONDITION
+  value_2: LOWER_TEMPERATURE
+  description_1: Natural Condition
+  description_2: Lower Temperature
+  definiton_1:
+  definition_2:
+  source:

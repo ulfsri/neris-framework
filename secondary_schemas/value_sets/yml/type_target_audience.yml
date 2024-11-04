@@ -1,0 +1,40 @@
+PARENTS:
+  active: 'TRUE'
+  description: Parents
+  definition:
+  source:
+K_12:
+  active: 'TRUE'
+  description: K-12
+  definition:
+  source:
+COLLEGE_STUDENTS:
+  active: 'TRUE'
+  description: College students
+  definition:
+  source:
+65_OVER:
+  active: 'TRUE'
+  description: 65 and over
+  definition:
+  source:
+HOME_OWNERS:
+  active: 'TRUE'
+  description: Home owners
+  definition:
+  source:
+HOME_RENTERS:
+  active: 'TRUE'
+  description: Home renters
+  definition:
+  source:
+GENERAL_PUBLIC:
+  active: 'TRUE'
+  description: General public
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

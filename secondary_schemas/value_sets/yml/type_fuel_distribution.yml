@@ -1,0 +1,10 @@
+CONTINUOUS_HORIZONTAL:
+  active: 'TRUE'
+  description: Continuous/Horizontal
+  definition: Fuels are generally of the same arrangement type.
+  source:
+LADDER_VERTICAL:
+  active: 'TRUE'
+  description: Ladder/Vertical
+  definition: Fuels are arranged one above the other.
+  source:

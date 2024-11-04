@@ -1,0 +1,110 @@
+EAR:
+  active: 'TRUE'
+  description: Ear
+  definition:
+  source:
+EYE:
+  active: 'TRUE'
+  description: Eye
+  definition:
+  source:
+NOSE:
+  active: 'TRUE'
+  description: Nose
+  definition:
+  source:
+MOUTH:
+  active: 'TRUE'
+  description: Mouth
+  definition:
+  source: 
+HEAD_OTHER:
+  active: 'TRUE'
+  description: Head, other
+  definition:
+  source:
+NECK_SHOULDERS:
+  active: 'TRUE'
+  description: Neck or shoulders
+  definition:
+  source:
+BACK_SPINE:
+  active: 'TRUE'
+  description: Back, spine
+  definition:
+  source:
+BACK_OTHER:
+  active: 'TRUE'
+  description: Back, other
+  definition:
+  source:
+CHEST:
+  active: 'TRUE'
+  description: Chest
+  definition:
+  source:
+ABDOMEN:
+  active: 'TRUE'
+  description: Abdomen
+  definition:
+  source:
+PELVIS_GROIN:
+  active: 'TRUE'
+  description: Pelvis or groin
+  definition:
+  source:
+HIP_LOWER_BACK_BUTTOCKS:
+  active: 'TRUE'
+  description: Hip, lower back, or buttocks
+  definition:
+  source:
+ARM:
+  active: 'TRUE'
+  description: Arm
+  definition:
+  source:
+LEG:
+  active: 'TRUE'
+  description: Leg
+  definition:
+  source:
+HANDS_FINGERS:
+  active: 'TRUE'
+  description: Hands or fingers
+  definition:
+  source:
+FOOT_TOES:
+  active: 'TRUE'
+  description: Foot or toes
+  definition:
+  source:
+LUNGS:
+  active: 'TRUE'
+  description: Lungs
+  definition:
+  source:
+HEART:
+  active: 'TRUE'
+  description: Heart
+  definition:
+  source:
+STOMACH:
+  active: 'TRUE'
+  description: Stomach
+  definition:
+  source:
+INTESTINAL_TRACT:
+  active: 'TRUE'
+  description: Intestinal tract
+  definition:
+  source:
+GENITO_URINARY:
+  active: 'TRUE'
+  description: Genito-urinary
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

@@ -1,0 +1,10 @@
+INDOOR:
+  active: 'TRUE'
+  description: Indoor
+  definition:
+  source:
+OUTDOOR:
+  active: 'TRUE'
+  description: Outdoor
+  definition:
+  source:

@@ -1,0 +1,708 @@
+'ALARMS: ALARM_DISTRIBUTION: SOUND_OFF':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: ALARM_DISTRIBUTION
+  value_3: SOUND_OFF
+  description_1: Alarms
+  description_2: Alarm Distribution
+  description_3: Sound Off
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: ALARM_DISTRIBUTION: SOUND_THE_ALARM':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: ALARM_DISTRIBUTION
+  value_3: SOUND_THE_ALARM
+  description_1: Alarms
+  description_2: Alarm Distribution
+  description_3: Sound the Alarm
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: ALARM_DISTRIBUTION: FP&S_GRANT_PROGRAMS':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: ALARM_DISTRIBUTION
+  value_3: FP&S_GRANT_PROGRAMS
+  description_1: Alarms
+  description_2: Alarm Distribution
+  description_3: FP&S Grant Programs
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: ALARM_DISTRIBUTION: AMERICAN_RED_CROSS':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: ALARM_DISTRIBUTION
+  value_3: AMERICAN_RED_CROSS
+  description_1: Alarms
+  description_2: Alarm Distribution
+  description_3: American Red Cross
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: ALARM_DISTRIBUTION: OTHER':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: ALARM_DISTRIBUTION
+  value_3: OTHER
+  description_1: Alarms
+  description_2: Alarm Distribution
+  description_3: Other
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: CARBON_MONOXIDE_ALARM_INSTALLATION':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: CARBON_MONOXIDE_ALARM_INSTALLATION
+  value_3:
+  description_1: Alarms
+  description_2: Carbon Monoxide Alarm Installation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: HARD_OF_HEARING_ALARM_INSTALLATION':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: HARD_OF_HEARING_ALARM_INSTALLATION
+  value_3:
+  description_1: Alarms
+  description_2: Hard of Hearing Alarm Installation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: IONIZATION_ALARM_INSTALLATION':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: IONIZATION_ALARM_INSTALLATION
+  value_3:
+  description_1: Alarms
+  description_2: Ionization Alarm Installation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: PHOTOELECTRIC_ALARM_INSTALLATION':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: PHOTOELECTRIC_ALARM_INSTALLATION
+  value_3:
+  description_1: Alarms
+  description_2: Photoelectric Alarm Installation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: COMBINATION_CARBON_MONOXIDE_AND_SMOKE_ALARM_INSTALLATION':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: COMBINATION_CARBON_MONOXIDE_AND_SMOKE_ALARM_INSTALLATION
+  value_3:
+  description_1: Alarms
+  description_2: Combination Carbon Monoxide and Amoke Alarm Installation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'ALARMS: HOME_FIRE_SPRINKLER_DEMONSTRATION':
+  active: 'TRUE'
+  value_1: ALARMS
+  value_2: HOME_FIRE_SPRINKLER_DEMONSTRATION
+  value_3:
+  description_1: Alarms
+  description_2: Home Fire Sprinkler Demonstration
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'CAMPAIGN: FIRE_SAFETY_EDUCATION: CLOSE_BEFORE_YOU_DOZE':
+  active: 'TRUE'
+  value_1: CAMPAIGN
+  value_2: FIRE_SAFETY_EDUCATION
+  value_3: CLOSE_BEFORE_YOU_DOZE
+  description_1: Campaign
+  description_2: Fire Safety Education
+  description_3: Close Before You Doze
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'CAMPAIGN: BUILDING_EVACUATION_EDUCATION: READY_SET_GO':
+  active: 'TRUE'
+  value_1: CAMPAIGN
+  value_2: BUILDING_EVACUATION_EDUCATION
+  value_3: READY_SET_GO
+  description_1: Campaign
+  description_2: Building Evacuation Education
+  description_3: Ready Set Go!
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'CAMPAIGN: BUILDING_EVACUATION_EDUCATION: KNOW_YOUR_ZONE':
+  active: 'TRUE'
+  value_1: CAMPAIGN
+  value_2: BUILDING_EVACUATION_EDUCATION
+  value_3: KNOW_YOUR_ZONE
+  description_1: Campaign
+  description_2: Building Evacuation Education
+  description_3: Know Your Zone
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'CAMPAIGN: FIRE_PREVENTION_WEEK_ACTIVITY':
+  active: 'TRUE'
+  value_1: CAMPAIGN
+  value_2: FIRE_PREVENTION_WEEK_ACTIVITY
+  value_3:
+  description_1: Campaign
+  description_2: Fire Prevention Week Activity
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'CAMPAIGN: BATTERY_FIRE_SAFETY':
+  active: 'TRUE'
+  value_1: CAMPAIGN
+  value_2: BATTERY_FIRE_SAFETY
+  value_3:
+  description_1: Campaign
+  description_2: Battery Fire Safety
+  description_3: Take C.H.A.R.G.E.
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'CAMPAIGN: MEDICAL_PREPAREDNESS':
+  active: 'TRUE'
+  value_1: CAMPAIGN
+  value_2: MEDICAL_PREPAREDNESS
+  value_3:
+  description_1: Campaign
+  description_2: Medical Preparedness
+  description_3: File of Life - Medical Emergency Plans
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: COMMUNITY_CPR_CLASS: AMERICAN_RED_CROSS':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: COMMUNITY_CPR_CLASS
+  value_3: AMERICAN_RED_CROSS
+  description_1: General Risk Reduction
+  description_2: Community CPR Class
+  description_3: American Red Cross
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: COMMUNITY_CPR_CLASS: AMERICAN_HEART_ASSOCIATION':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: COMMUNITY_CPR_CLASS
+  value_3: AMERICAN_HEART_ASSOCIATION
+  description_1: General Risk Reduction
+  description_2: Community CPR Class
+  description_3: American Heart Association
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: FIRST_AID_CLASS: AMERICAN_RED_CROSS':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: FIRST_AID_CLASS
+  value_3: AMERICAN_RED_CROSS
+  description_1: General Risk Reduction
+  description_2: First Aid Class
+  description_3: American Red Cross
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: FIRST_AID_CLASS: NSC':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: FIRST_AID_CLASS
+  value_3: NSC
+  description_1: General Risk Reduction
+  description_2: First Aid Class
+  description_3: NSC
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: NARCAN_CLASS':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: NARCAN_CLASS
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Narcan Class
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: EMERGENCY_HEMORRHAGE_BLEEDING_CLASS':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: EMERGENCY_HEMORRHAGE_BLEEDING_CLASS
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Emergency Hemorrhage/Bleeding Class
+  description_3: 'Stop the Bleed '
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: FALSE_CALL_ALARM_REDUCTION':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: FALSE_CALL_ALARM_REDUCTION
+  value_3:
+  description_1: General Risk Reduction
+  description_2: False Call/Alarm Reduction
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: FIRE_EXTINGUISHER_CLASS':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: FIRE_EXTINGUISHER_CLASS
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Fire Extinguisher Class
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: HEAT_LIMITING_STOVE_TOP_INTERVENTION':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: HEAT_LIMITING_STOVE_TOP_INTERVENTION
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Heat-Limiting Stove Top Intervention
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: HOARDING_HIGH_FUEL_LOAD_RISK_REDUCTION':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: HOARDING_HIGH_FUEL_LOAD_RISK_REDUCTION
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Hoarding/High Fuel Load Risk Reduction
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: MEDICAL_OXYGEN_FIRE_BREAK_FUSE':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: MEDICAL_OXYGEN_FIRE_BREAK_FUSE
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Medical Oxygen Fire Break / Fuse
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: MOTOR_VEHICLE_RISK_REDUCTION':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: MOTOR_VEHICLE_RISK_REDUCTION
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Motor Vehicle Risk Reduction
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: COOKING_FIRES':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: COOKING_FIRES
+  value_3:
+  description_1: General Risk Reduction
+  description_2: Cooking Fires
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: GENERAL_FIRE_SAFEETY':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: GENERAL_FIRE_SAFEETY
+  value_3:
+  description_1: General Risk Reduction
+  description_2: General Fire Safety - Other
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: SPECIALIZED_RISK_REDUCTION: SAFEKIDS':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: SPECIALIZED_RISK_REDUCTION
+  value_3: SAFEKIDS
+  description_1: General Risk Reduction
+  description_2: Specialized Risk Reduction
+  description_3: SafeKids
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: SPECIALIZED_RISK_REDUCTION: POOL_SAFETY':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: SPECIALIZED_RISK_REDUCTION
+  value_3: POOL_SAFETY
+  description_1: General Risk Reduction
+  description_2: Specialized Risk Reduction
+  description_3: Pool Safety (including fencing)
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: SPECIALIZED_RISK_REDUCTION: BIKE_SAFETY':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: SPECIALIZED_RISK_REDUCTION
+  value_3: BIKE_SAFETY
+  description_1: General Risk Reduction
+  description_2: Specialized Risk Reduction
+  description_3: Bike Safety
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: SEVERE_WEATHER: TORNADO_WARNING':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: SEVERE_WEATHER
+  value_3: TORNADO_WARNING
+  description_1: General Risk Reduction
+  description_2: Specialized Risk Reduction
+  description_3: Tornado Warnings
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'GENERAL_RISK_REDUCTION: SEVERE_WEATHER: SWIFTWATER_AWARENESS':
+  active: 'TRUE'
+  value_1: GENERAL_RISK_REDUCTION
+  value_2: SEVERE_WEATHER
+  value_3: SWIFTWATER_AWARENESS
+  description_1: General Risk Reduction
+  description_2: Specialized Risk Reduction
+  description_3: Swiftwater Awareness
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'OPERATION_ENHANCEMENT: HYDRANT_MARKER_INSTALL':
+  active: 'TRUE'
+  value_1: OPERATION_ENHANCEMENT
+  value_2: HYDRANT_MARKER_INSTALL
+  value_3:
+  description_1: Operation Enhancement
+  description_2: Hydrant Marker Install
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'OPERATION_ENHANCEMENT: ADDRESS_MARKER_INSTALL':
+  active: 'TRUE'
+  value_1: OPERATION_ENHANCEMENT
+  value_2: ADDRESS_MARKER_INSTALL
+  value_3:
+  description_1: Operation Enhancement
+  description_2: Address Marker Install
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: BASIC_HEALTH_ASSESSMENT':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: BASIC_HEALTH_ASSESSMENT
+  value_3:
+  description_1: Community Health
+  description_2: Basic Health Assessment (blood pressure, blood sugar, et al)
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: MEDICATION_RECONCILIATION':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: MEDICATION_RECONCILIATION
+  value_3:
+  description_1: Community Health
+  description_2: Medication Reconciliation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: READMISSION_AVOIDANCE_PREVENTION':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: READMISSION_AVOIDANCE_PREVENTION
+  value_3:
+  description_1: Community Health
+  description_2: Readmission Avoidance / Prevention
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: FALL_INTERVENTION':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: FALL_INTERVENTION
+  value_3:
+  description_1: Community Health
+  description_2: Fall Intervention
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: CHRONIC_DISEASE_MANAGEMENT':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: CHRONIC_DISEASE_MANAGEMENT
+  value_3:
+  description_1: Community Health
+  description_2: Chronic Disease Management
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: REFERRAL_PROGRAM':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: REFERRAL_PROGRAM
+  value_3:
+  description_1: Community Health
+  description_2: Referral Program
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: ACCESSIBILITY_PROGRAM':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: ACCESSIBILITY_PROGRAM
+  value_3:
+  description_1: Community Health
+  description_2: Accessibility Program
+  description_3:
+  definition_1: Includes wheelchair ramp building, etc.
+  definition_2:
+  source_1:
+  source_2:
+'COMMUNITY_HEALTH: COMMUNITY_HEALTH_GENERAL_OTHER':
+  active: 'TRUE'
+  value_1: COMMUNITY_HEALTH
+  value_2: COMMUNITY_HEALTH_GENERAL_OTHER
+  value_3:
+  description_1: Community Health
+  description_2: Community Health - General / Other
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'SENIOR_RISK_REDUCTION: GRAB_BAR_INSTALLATION':
+  active: 'TRUE'
+  value_1: SENIOR_RISK_REDUCTION
+  value_2: GRAB_BAR_INSTALLATION
+  value_3:
+  description_1: Senior Risk Reduction
+  description_2: Grab Bar Installation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'SENIOR_RISK_REDUCTION: RESIDENTIAL_KEY_BOX_INSTALLATION: HOMEBOX':
+  active: 'TRUE'
+  value_1: SENIOR_RISK_REDUCTION
+  value_2: RESIDENTIAL_KEY_BOX_INSTALLATION
+  value_3: HOMEBOX
+  description_1: Senior Risk Reduction
+  description_2: Residential Key Box Installation
+  description_3: HomeBox
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'SENIOR_RISK_REDUCTION: SENIOR_RISK_REDUCTION_CLASS: REMEMBERING_WHEN':
+  active: 'TRUE'
+  value_1: SENIOR_RISK_REDUCTION
+  value_2: SENIOR_RISK_REDUCTION_CLASS
+  value_3: REMEMBERING_WHEN
+  description_1: Senior Risk Reduction
+  description_2: Senior Risk Reduction Class
+  description_3: Remembering When
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'SENIOR_RISK_REDUCTION: SENIOR_RISK_REDUCTION_CLASS: STEPS_TO_SAFETY':
+  active: 'TRUE'
+  value_1: SENIOR_RISK_REDUCTION
+  value_2: SENIOR_RISK_REDUCTION_CLASS
+  value_3: STEPS_TO_SAFETY
+  description_1: Senior Risk Reduction
+  description_2: Senior Risk Reduction Class
+  description_3: Steps To Safety
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'WILDFIRE_PREPAREDNESS: FUEL_MITIGATION_PROJECT':
+  active: 'TRUE'
+  value_1: WILDFIRE_PREPAREDNESS
+  value_2: FUEL_MITIGATION_PROJECT
+  value_3:
+  description_1: Wildfire Preparedness
+  description_2: Fuel Mitigation Project
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'WILDFIRE_PREPAREDNESS: HOME_HARDENING_PROJECT':
+  active: 'TRUE'
+  value_1: WILDFIRE_PREPAREDNESS
+  value_2: HOME_HARDENING_PROJECT
+  value_3:
+  description_1: Wildfire Preparedness
+  description_2: Home Hardening Project
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'WILDFIRE_PREPAREDNESS: DEFENSIBLE_SPACE':
+  active: 'TRUE'
+  value_1: WILDFIRE_PREPAREDNESS
+  value_2: DEFENSIBLE_SPACE
+  value_3:
+  description_1: Wildfire Preparedness
+  description_2: Defensible Space
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'WILDFIRE_PREPAREDNESS: WUI_EDUCATION: FIREWISE':
+  active: 'TRUE'
+  value_1: WILDFIRE_PREPAREDNESS
+  value_2: WUI_EDUCATION
+  value_3: FIREWISE
+  description_1: Wildfire Preparedness
+  description_2: WUI Education
+  description_3: Firewise
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'WILDFIRE_PREPAREDNESS: WUI_EDUCATION: READY_SET_GO':
+  active: 'TRUE'
+  value_1: WILDFIRE_PREPAREDNESS
+  value_2: WUI_EDUCATION
+  value_3: READY_SET_GO
+  description_1: Wildfire Preparedness
+  description_2: WUI Education
+  description_3: Ready Set Go!
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'YOUTH_RISK_REDUCTION: CAR_SEAT_INSTALLATION':
+  active: 'TRUE'
+  value_1: YOUTH_RISK_REDUCTION
+  value_2: CAR_SEAT_INSTALLATION
+  value_3:
+  description_1: Youth Risk Reduction
+  description_2: Car Seat Installation
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'YOUTH_RISK_REDUCTION: LEARN_NOT_TO_BURN':
+  active: 'TRUE'
+  value_1: YOUTH_RISK_REDUCTION
+  value_2: LEARN_NOT_TO_BURN
+  value_3:
+  description_1: Youth Risk Reduction
+  description_2: Learn Not to Burn
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'YOUTH_RISK_REDUCTION: YOUTH_FIRESETTER_INTERVENTION':
+  active: 'TRUE'
+  value_1: YOUTH_RISK_REDUCTION
+  value_2: YOUTH_FIRESETTER_INTERVENTION
+  value_3:
+  description_1: Youth Risk Reduction
+  description_2: 'Youth Firesetter Intervention '
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:
+'OTHER: ':
+  active: 'TRUE'
+  value_1: OTHER
+  value_2:
+  value_3:
+  description_1: Other
+  description_2:
+  description_3:
+  definition_1:
+  definition_2:
+  source_1:
+  source_2:

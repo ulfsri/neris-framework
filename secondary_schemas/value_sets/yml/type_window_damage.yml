@@ -1,0 +1,20 @@
+SHATTERED:
+  active: 'TRUE'
+  description: Shattered
+  definition:
+  source:
+CRACKED:
+  active: 'TRUE'
+  description: Cracked
+  definition:
+  source:
+MELTED_WARPED:
+  active: 'TRUE'
+  description: Melted/Warped
+  definition:
+  source:
+NO_DAMAGE:
+  active: 'TRUE'
+  description: No Damage
+  definition:
+  source:

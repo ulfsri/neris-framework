@@ -1,0 +1,25 @@
+MINOR:
+  active: 'TRUE'
+  description: Minor
+  definition:
+  source:
+MODERATE:
+  active: 'TRUE'
+  description: Moderate
+  definition:
+  source:
+SEVERE:
+  active: 'TRUE'
+  description: Severe
+  definition:
+  source:
+LIFE_THREATENING:
+  active: 'TRUE'
+  description: Life threatening
+  definition:
+  source:
+DEATH:
+  active: 'TRUE'
+  description: Death
+  definition: 
+  source:

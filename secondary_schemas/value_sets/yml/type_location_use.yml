@@ -1,0 +1,702 @@
+'AGRICULTURE_STRUCT: STORAGE_SILO':
+  active: 'TRUE'
+  value_1: AGRICULTURE_STRUCT
+  value_2: STORAGE_SILO
+  description_1: Agriculture Structure
+  description_2: Crop or Product Storage / Silo
+  definition:
+  source:
+  NFIRS Crosswalk: '816'
+'AGRICULTURE_STRUCT: FARM_BUILDING':
+  active: 'TRUE'
+  value_1: AGRICULTURE_STRUCT
+  value_2: FARM_BUILDING
+  description_1: Agriculture Structure
+  description_2: Farm (Building)
+  definition:
+  source:
+  NFIRS Crosswalk:
+'AGRICULTURE_STRUCT: AUCTION_FEEDLOT':
+  active: 'TRUE'
+  value_1: AGRICULTURE_STRUCT
+  value_2: AUCTION_FEEDLOT
+  description_1: Agriculture Structure
+  description_2: Auction / Feedlot
+  definition:
+  source:
+  NFIRS Crosswalk:
+'AGRICULTURE_STRUCT: ANIMAL_PROCESSING':
+  active: 'TRUE'
+  value_1: AGRICULTURE_STRUCT
+  value_2: ANIMAL_PROCESSING
+  description_1: Agriculture Structure
+  description_2: Animal Processing
+  definition:
+  source:
+  NFIRS Crosswalk: '659'
+'AGRICULTURE_STRUCT: VETERINARY_LIVESTOCK':
+  active: 'TRUE'
+  value_1: AGRICULTURE_STRUCT
+  value_2: VETERINARY_LIVESTOCK
+  description_1: Agriculture Structure
+  description_2: Veterinary (Livestock)
+  definition:
+  source:
+  NFIRS Crosswalk: '819'
+'ASSEMBLY: COMMUNITY_CENTER':
+  active: 'TRUE'
+  value_1: ASSEMBLY
+  value_2: COMMUNITY_CENTER
+  description_1: Assembly
+  description_2: Community Center
+  definition:
+  source:
+  NFIRS Crosswalk: '116'
+'ASSEMBLY: CONVENTION_CENTER':
+  active: 'TRUE'
+  value_1: ASSEMBLY
+  value_2: CONVENTION_CENTER
+  description_1: Assembly
+  description_2: Convention Center
+  definition:
+  source:
+  NFIRS Crosswalk: '122'
+'ASSEMBLY: INDOOR_ARENA':
+  active: 'TRUE'
+  value_1: ASSEMBLY
+  value_2: INDOOR_ARENA
+  description_1: Assembly
+  description_2: Indoor Arena
+  definition:
+  source:
+  NFIRS Crosswalk: 123, 182
+'ASSEMBLY: OUTDOOR_ARENA_AMPHITHEATER_PARK':
+  active: 'TRUE'
+  value_1: ASSEMBLY
+  value_2: MUSEUM_EXHIBIT_HALL_LIBRARY
+  description_1: Assembly
+  description_2: Outdoor Arena / Amphitheater / Amusement Park
+  definition:
+  source:
+  NFIRS Crosswalk: 152, 151
+'ASSEMBLY: TEMP_OUTDOOR_STRUCT_EVENT':
+  active: 'TRUE'
+  value_1: ASSEMBLY
+  value_2: TEMP_OUTDOOR_STRUCT_EVENT
+  description_1: Assembly
+  description_2: Temporary Outdoor Structure / Event
+  definition:
+  source:
+  NFIRS Crosswalk: 152, 151
+'ASSEMBLY: RELIGIOUS':
+  active: 'TRUE'
+  value_1: ASSEMBLY
+  value_2: RELIGIOUS
+  description_1: Assembly
+  description_2: Religious
+  definition:
+  source:
+  NFIRS Crosswalk: 130, 131, 134
+'ASSEMBLY: MUSEUM_EXHIBIT_HALL_LIBRARY':
+  active: 'TRUE'
+  value_1: ASSEMBLY
+  value_2: MUSEUM_EXHIBIT_HALL_LIBRARY
+  description_1: Assembly
+  description_2: Museum / Exhibit Hall / Library
+  definition:
+  source:
+  NFIRS Crosswalk: 152, 151
+'COMMERCIAL: ENTERTAINMENT_RECREATION':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: ENTERTAINMENT_RECREATION
+  description_1: Commercial
+  description_2: Entertainment and Recreation
+  definition:
+  source:
+  NFIRS Crosswalk: 111, 112, 113, 114, 115, 116, 120, 121, 129, 140, 141, 142, 144
+'COMMERCIAL: RESTAURANT_CAFE':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: RESTAURANT_CAFE
+  description_1: Commercial
+  description_2: Restaurant / Cafe
+  definition:
+  source:
+  NFIRS Crosswalk: 519, 142, 160, 161
+'COMMERCIAL: BAR_NIGHTCLUB':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: BAR_NIGHTCLUB
+  description_1: Commercial
+  description_2: Bar / Nightclub
+  definition:
+  source:
+  NFIRS Crosswalk: '162'
+'COMMERCIAL: OFFICE_OTHER_TECHNICAL_SERVICES':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: OFFICE_OTHER_TECHNICAL_SERVICES
+  description_1: Commercial
+  description_2: Office / Other Technical Services
+  definition:
+  source:
+  NFIRS Crosswalk: 599, 596, 593, 635, 639,
+'COMMERCIAL: RETAIL_WHOLESALE_TRADE':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: RETAIL_WHOLESALE_TRADE
+  description_1: Commercial
+  description_2: Retail / Wholesale / Trade
+  definition:
+  source:
+  NFIRS Crosswalk: 500, 511, 519, 529, 539, 549, 557, 559, 564, 569, 580, 581, 592
+'COMMERCIAL: THEATERS_STUDIO':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: THEATERS_STUDIO
+  description_1: Commercial
+  description_2: Theaters/Studio
+  definition:
+  source:
+  NFIRS Crosswalk: 180, 181, 182, 183, 185, 186
+'COMMERCIAL: VEHICLE_REPAIR_SERVICES':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: VEHICLE_REPAIR_SERVICES
+  description_1: Commercial
+  description_2: Vehicle Repair Services
+  definition:
+  source:
+  NFIRS Crosswalk: 579, 579
+'COMMERCIAL: VEHICLE_FUELING_CHARGING_STATION':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: VEHICLE_FUELING_CHARGING_STATION
+  description_1: Commercial
+  description_2: Vehicle Fueling / Charging Station
+  definition:
+  source:
+  NFIRS Crosswalk: '571'
+'COMMERCIAL: VETERINARY_PET ':
+  active: 'TRUE'
+  value_1: COMMERCIAL
+  value_2: 'VETERINARY_PET '
+  description_1: Commercial
+  description_2: Veterinary (Pet)
+  definition:
+  source:
+  NFIRS Crosswalk: '300'
+'EDUCATION: COLLEGES_UNIVERSITIES':
+  active: 'TRUE'
+  value_1: EDUCATION
+  value_2: COLLEGES_UNIVERSITIES
+  description_1: Education
+  description_2: Colleges/Universities
+  definition:
+  source:
+  NFIRS Crosswalk: '241'
+'EDUCATION: OTHER_EDUCATIONAL_BUILDINGS':
+  active: 'TRUE'
+  value_1: EDUCATION
+  value_2: OTHER_EDUCATIONAL_BUILDINGS
+  description_1: Education
+  description_2: Other Educational Buildings
+  definition:
+  source:
+  NFIRS Crosswalk: 200, 210
+'EDUCATION: PREK_DAYCARE':
+  active: 'TRUE'
+  value_1: EDUCATION
+  value_2: PREK_DAYCARE
+  description_1: Education
+  description_2: Pre-K / Day Care
+  definition:
+  source:
+  NFIRS Crosswalk: 211, 250, 254, 255, 256
+'EDUCATION: K_12_SCHOOLS':
+  active: 'TRUE'
+  value_1: EDUCATION
+  value_2: K_12_SCHOOLS
+  description_1: Education
+  description_2: K - 12 Schools
+  definition:
+  source:
+  NFIRS Crosswalk: 213, 215
+'GOVERNMENT: POLICE_EMERGENCY_STATION':
+  active: 'TRUE'
+  value_1: GOVERNMENT
+  value_2: POLICE_EMERGENCY_STATION
+  description_1: Government
+  description_2: Police Station / Emergency Response
+  definition:
+  source:
+  NFIRS Crosswalk: '365'
+'GOVERNMENT: FIRE_MEDICAL_STATION':
+  active: 'TRUE'
+  value_1: GOVERNMENT
+  value_2: FIRE_MEDICAL_STATION
+  description_1: Government
+  description_2: Fire Station / Medical Response Station
+  definition:
+  source:
+  NFIRS Crosswalk: '888'
+'GOVERNMENT: JAIL_PRISON_REFORMATORY':
+  active: 'TRUE'
+  value_1: GOVERNMENT
+  value_2: JAIL_PRISON_REFORMATORY
+  description_1: Government
+  description_2: 'Jail / Prison / Reformatory / Incarceration '
+  definition:
+  source:
+  NFIRS Crosswalk: 361, 363
+'GOVERNMENT: GENERAL_SERVICES':
+  active: 'TRUE'
+  value_1: GOVERNMENT
+  value_2: GENERAL_SERVICES
+  description_1: Government
+  description_2: General Services
+  definition:
+  source:
+  NFIRS Crosswalk: 150, 155
+'GOVERNMENT: NON_CIVILIAN_STRUCTURES':
+  active: 'TRUE'
+  value_1: GOVERNMENT
+  value_2: NON_CIVILIAN_STRUCTURES
+  description_1: Government
+  description_2: Non-Civilian Structures (Defense, Military)
+  definition:
+  source:
+  NFIRS Crosswalk: '631'
+'INDUSTRIAL: CHEMICAL':
+  active: 'TRUE'
+  value_1: INDUSTRIAL
+  value_2: CHEMICAL
+  description_1: Industrial
+  description_2: Chemical
+  definition:
+  source:
+  NFIRS Crosswalk:
+'INDUSTRIAL: COLD_STORAGE':
+  active: 'TRUE'
+  value_1: INDUSTRIAL
+  value_2: COLD_STORAGE
+  description_1: Industrial
+  description_2: Cold Storage
+  definition:
+  source:
+  NFIRS Crosswalk:
+'INDUSTRIAL: FOOD_DRUGS':
+  active: 'TRUE'
+  value_1: INDUSTRIAL
+  value_2: FOOD_DRUGS
+  description_1: Industrial
+  description_2: Food / Drugs
+  definition:
+  source:
+  NFIRS Crosswalk:
+'INDUSTRIAL: HEAVY':
+  active: 'TRUE'
+  value_1: INDUSTRIAL
+  value_2: HEAVY
+  description_1: Industrial
+  description_2: 'Heavy '
+  definition:
+  source:
+  NFIRS Crosswalk:
+'INDUSTRIAL: LIGHT':
+  active: 'TRUE'
+  value_1: INDUSTRIAL
+  value_2: LIGHT
+  description_1: Industrial
+  description_2: Light
+  definition:
+  source:
+  NFIRS Crosswalk: '700'
+'INDUSTRIAL: METALS_MINERALS_PROCESSING':
+  active: 'TRUE'
+  value_1: INDUSTRIAL
+  value_2: METALS_MINERALS_PROCESSING
+  description_1: Industrial
+  description_2: Metals/Minerals Processing
+  definition:
+  source:
+  NFIRS Crosswalk:
+'HEALTH_CARE: MEDICAL_OFFICE_CLINIC':
+  active: 'TRUE'
+  value_1: HEALTH_CARE
+  value_2: MEDICAL_OFFICE_CLINIC
+  description_1: Health Care
+  description_2: Medical Office/Clinic
+  definition:
+  source:
+  NFIRS Crosswalk: 340, 341, 342
+'HEALTH_CARE: HOSPITAL_24_HOUR_MEDICAL_FACILITIES ':
+  active: 'TRUE'
+  value_1: HEALTH_CARE
+  value_2: 'HOSPITAL_24_HOUR_MEDICAL_FACILITIES '
+  description_1: Health Care
+  description_2: Hospital / 24-Hour Medical Facilities / Institutional
+  definition:
+  source:
+  NFIRS Crosswalk: '331'
+'HEALTH_CARE: NURSING_HOME_ASSISTED_LIVING_RESIDENCE_ONSITE':
+  active: 'TRUE'
+  value_1: HEALTH_CARE
+  value_2: NURSING_HOME_ASSISTED_LIVING_RESIDENCE_ONSITE
+  description_1: Health Care
+  description_2: Nursing Home / Assisted Living / Residence with Onsite care and support
+  definition:
+  source:
+  NFIRS Crosswalk: '311, 321, 323, '
+'HEALTH_CARE: ALCOHOL_DRUG_REHABILITATION_CENTER':
+  active: 'TRUE'
+  value_1: HEALTH_CARE
+  value_2: ALCOHOL_DRUG_REHABILITATION_CENTER
+  description_1: Health Care
+  description_2: Alcohol / Drug Rehabilitation Center
+  definition:
+  source:
+  NFIRS Crosswalk:
+'RESIDENTIAL: CONGREGATE_HOUSING':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: CONGREGATE_HOUSING
+  description_1: Residential
+  description_2: Congregate Housing
+  definition:
+  source:
+  NFIRS Crosswalk: 322, 439, 459, 460, 462
+'RESIDENTIAL: MANUFACTURED_MOBILE_HOME':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: MANUFACTURED_MOBILE_HOME
+  description_1: Residential
+  description_2: Manufactured/Mobile Home
+  definition:
+  source:
+  NFIRS Crosswalk:
+'RESIDENTIAL: DETATCHED_SINGLE_FAMILY_DWELLING':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: DETATCHED_SINGLE_FAMILY_DWELLING
+  description_1: Residential
+  description_2: Detached Single Family Dwelling
+  definition:
+  source:
+  NFIRS Crosswalk: '419'
+'RESIDENTIAL: ATTACHED_SINGLE_FAMILY_DWELLING':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: ATTACHED_SINGLE_FAMILY_DWELLING
+  description_1: Residential
+  description_2: Attached Single Family Dwelling
+  definition:
+  source:
+  NFIRS Crosswalk:
+'RESIDENTIAL: MULTI_FAMILY_LOWRISE_DWELLING':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: MULTI_FAMILY_LOWRISE_DWELLING
+  description_1: Residential
+  description_2: Multi-Family Lowrise Dwelling (<=4 Stories)
+  definition:
+  source:
+  NFIRS Crosswalk: '429'
+'RESIDENTIAL: MULTI_FAMILY_MIDRISE_DWELLING':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: MULTI_FAMILY_MIDRISE_DWELLING
+  description_1: Residential
+  description_2: Multi-Family Midrise Dwelling (5-8 Stories)
+  definition:
+  source:
+  NFIRS Crosswalk: '429'
+'RESIDENTIAL: MULTI_FAMILY_HIGHRISE_DWELLING':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: MULTI_FAMILY_HIGHRISE_DWELLING
+  description_1: Residential
+  description_2: Multi-Family Highrise Dwelling (>= 9 Stories)
+  definition:
+  source:
+  NFIRS Crosswalk: '429'
+'RESIDENTIAL: DETATCHED_GARAGE':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: DETATCHED_GARAGE
+  description_1: Residential
+  description_2: Detached Garage
+  definition:
+  source:
+  NFIRS Crosswalk: '808'
+'RESIDENTIAL: UNHOUSED_TEMPORARY_SHELTER':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: UNHOUSED_TEMPORARY_SHELTER
+  description_1: Residential
+  description_2: Unhoused/Temporary Shelter
+  definition:
+  source:
+  NFIRS Crosswalk:
+'RESIDENTIAL: TEMPORARY_LODGING_HOTEL_MOTEL':
+  active: 'TRUE'
+  value_1: RESIDENTIAL
+  value_2: TEMPORARY_LODGING_HOTEL_MOTEL
+  description_1: Residential
+  description_2: Temporary Lodging / Hotel / Motel
+  definition:
+  source:
+  NFIRS Crosswalk: '449'
+'UNCLASSIFIED: UNCLASSIFIED':
+  active: 'TRUE'
+  value_1: UNCLASSIFIED
+  value_2: UNCLASSIFIED
+  description_1: Unclassified
+  description_2: Unclassified
+  definition:
+  source:
+  NFIRS Crosswalk:
+'UTILITY_MISC: TRANSPORTATION_STATION_HUB_AREA':
+  active: 'TRUE'
+  value_1: UTILITY_MISC
+  value_2: TRANSPORTATION_STATION_HUB_AREA
+  description_1: Utility and Misc
+  description_2: Transportation Station / Hub / Area (Airport / Bus / Train / Passenger Terminal
+  definition:
+  source:
+  NFIRS Crosswalk: 974, 972, 973, 171, 173, 174, 632
+'UTILITY_MISC: ENERGY_FACILITY_INFRASTRUCTURE':
+  active: 'TRUE'
+  value_1: UTILITY_MISC
+  value_2: ENERGY_FACILITY_INFRASTRUCTURE
+  description_1: Utility and Misc
+  description_2: Energy Facility / Infrastructure
+  definition:
+  source:
+  NFIRS Crosswalk: 610, 614, 615, 642, 644, 645,  983
+'UTILITY_MISC: WATER_SANITATION_FACILITY_INFRASTRUCTURE':
+  active: 'TRUE'
+  value_1: UTILITY_MISC
+  value_2: WATER_SANITATION_FACILITY_INFRASTRUCTURE
+  description_1: Utility and Misc
+  description_2: Water and Sanitation Facility / Infrastructure
+  definition:
+  source:
+  NFIRS Crosswalk: '647'
+'UTILITY_MISC: TRASH_RECYCLING_FACILITY':
+  active: 'TRUE'
+  value_1: UTILITY_MISC
+  value_2: TRASH_RECYCLING_FACILITY
+  description_1: Utility and Misc
+  description_2: Trash / Recycling Facility
+  definition:
+  source:
+  NFIRS Crosswalk: '648'
+'STORAGE: STORAGE_PORTABLE_BUILDING':
+  active: 'TRUE'
+  value_1: STORAGE
+  value_2: STORAGE_PORTABLE_BUILDING
+  description_1: Storage
+  description_2: Storage - Portable Building
+  definition:
+  source:
+  NFIRS Crosswalk:
+'STORAGE: STORAGE_MULTI_TENANT':
+  active: 'TRUE'
+  value_1: STORAGE
+  value_2: STORAGE_MULTI_TENANT
+  description_1: Storage
+  description_2: Storage - Multi-Tenant
+  definition:
+  source:
+  NFIRS Crosswalk:
+'STORAGE: STORAGE_SINGLE_TENANT':
+  active: 'TRUE'
+  value_1: STORAGE
+  value_2: STORAGE_SINGLE_TENANT
+  description_1: Storage
+  description_2: Storage -  Single-Tenant
+  definition:
+  source:
+  NFIRS Crosswalk:
+'ROADWAY_ACCESS: SIDEWALK':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: SIDEWALK
+  description_1: Roadway/Access
+  description_2: Sidewalk
+  definition:
+  source:
+  NFIRS Crosswalk:
+'ROADWAY_ACCESS: STREET':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: STREET
+  description_1: Roadway/Access
+  description_2: Street
+  definition:
+  source:
+  NFIRS Crosswalk: 960, 962, 963
+'ROADWAY_ACCESS: HIGHWAY_INTERSTATE':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: HIGHWAY_INTERSTATE
+  description_1: Roadway/Access
+  description_2: 'Highway / Interstate '
+  definition:
+  source:
+  NFIRS Crosswalk: '961'
+'ROADWAY_ACCESS: LIMITED_ACCESS_HIGHWAY_INTERSTATE':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: LIMITED_ACCESS_HIGHWAY_INTERSTATE
+  description_1: Roadway/Access
+  description_2: Limited Access Highway / Interstate
+  definition:
+  source:
+  NFIRS Crosswalk:
+'ROADWAY_ACCESS: BRIDGE':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: BRIDGE
+  description_1: Roadway/Access
+  description_2: Bridge
+  definition:
+  source:
+  NFIRS Crosswalk: '921'
+'ROADWAY_ACCESS: TUNNEL':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: TUNNEL
+  description_1: Roadway/Access
+  description_2: Tunnel
+  definition:
+  source:
+  NFIRS Crosswalk: '922'
+'ROADWAY_ACCESS: RAILROAD_RAILYARD':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: RAILROAD_RAILYARD
+  description_1: Roadway/Access
+  description_2: Railroad or Railroad Yard
+  definition:
+  source:
+  NFIRS Crosswalk: 951, 952
+'ROADWAY_ACCESS: PARKING_LOT_GARAGE':
+  active: 'TRUE'
+  value_1: ROADWAY_ACCESS
+  value_2: PARKING_LOT_GARAGE
+  description_1: Roadway/Access
+  description_2: Parking Lot / Parking Garage
+  definition:
+  source:
+  NFIRS Crosswalk: 881, 882, 965
+'OUTDOOR: GROUND_VACANT_LAND':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: GROUND_VACANT_LAND
+  description_1: Outdoor
+  description_2: Ground / Vacant Land
+  definition:
+  source:
+  NFIRS Crosswalk: '931, 936 '
+'OUTDOOR: CAMP_SITE':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: CAMP_SITE
+  description_1: Outdoor
+  description_2: Camp Site
+  definition:
+  source:
+  NFIRS Crosswalk: '935'
+'OUTDOOR: PLAYGROUND_PARK_RECREATIONAL_AREA':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: PLAYGROUND_PARK_RECREATIONAL_AREA
+  description_1: Outdoor
+  description_2: Playground / Park / Recreational Area / Monument / Statue
+  definition:
+  source:
+  NFIRS Crosswalk: 110, 121, 124, 154
+'OUTDOOR: HIKING_TRAIL':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: HIKING_TRAIL
+  description_1: Outdoor
+  description_2: Hiking Trail
+  definition:
+  source:
+  NFIRS Crosswalk:
+'OUTDOOR: ORCHARD_CROPS_FARMLAND':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: ORCHARD_CROPS_FARMLAND
+  description_1: Outdoor
+  description_2: Orchard / Crops / Farm (non-building)
+  definition:
+  source:
+  NFIRS Crosswalk: '655'
+'OUTDOOR: FOREST_GRASSLANDS_WOODLAND_WILDLAND_AREAS':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: FOREST_GRASSLANDS_WOODLAND_WILDLAND_AREAS
+  description_1: Outdoor
+  description_2: Forest / Grasslands / Woodland / Wildland Area
+  definition:
+  source:
+  NFIRS Crosswalk: '669'
+'OUTDOOR: WATERFRONT':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: WATERFRONT
+  description_1: Outdoor
+  description_2: Waterfront (Beach / Dock)
+  definition:
+  source:
+  NFIRS Crosswalk: 937, 143, 898, 940
+'OUTDOOR: OPEN_WATER':
+  active: 'TRUE'
+  value_1: OUTDOOR
+  value_2: OPEN_WATER
+  description_1: Outdoor
+  description_2: Open Water (Lake / River/ Pond / Ocean)
+  definition:
+  source:
+  NFIRS Crosswalk: 941, 946
+'OUTDOOR_INDUSTRIAL: DUMP_LANDFILL':
+  active: 'TRUE'
+  value_1: OUTDOOR_INDUSTRIAL
+  value_2: DUMP_LANDFILL
+  description_1: Outdoor Industrial
+  description_2: Dump / Landfill
+  definition:
+  source:
+  NFIRS Crosswalk: '919'
+'OUTDOOR_INDUSTRIAL: INDUSTRIAL_YARD':
+  active: 'TRUE'
+  value_1: OUTDOOR_INDUSTRIAL
+  value_2: INDUSTRIAL_YARD
+  description_1: Outdoor Industrial
+  description_2: Industrial Yard
+  definition:
+  source:
+  NFIRS Crosswalk: '984'
+'OUTDOOR_INDUSTRIAL: MINE':
+  active: 'TRUE'
+  value_1: OUTDOOR_INDUSTRIAL
+  value_2: MINE
+  description_1: Outdoor Industrial
+  description_2: Mine (non-building) / Oil Field
+  definition:
+  source:
+  NFIRS Crosswalk: 679, 982
+'OUTDOOR_INDUSTRIAL: CONSTRUCTION_SITE':
+  active: 'TRUE'
+  value_1: OUTDOOR_INDUSTRIAL
+  value_2: CONSTRUCTION_SITE
+  description_1: Outdoor Industrial
+  description_2: Construction Site
+  definition:
+  source:
+  NFIRS Crosswalk: '981'

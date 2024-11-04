@@ -1,0 +1,55 @@
+ATTACHED FENCE:
+  active: 'TRUE'
+  description: Attached Fence
+  definition:
+  source:
+ATTACHED PATIO COVER/CARPORT:
+  active: 'TRUE'
+  description: Attached Patio Cover/Carport
+  definition:
+  source:
+DECK ELEVATED:
+  active: 'TRUE'
+  description: Deck Elevated
+  definition:
+  source:
+DECK ON GRADE:
+  active: 'TRUE'
+  description: Deck on Grade
+  definition:
+  source:
+EAVES:
+  active: 'TRUE'
+  description: Eaves
+  definition:
+  source:
+ROOF:
+  active: 'TRUE'
+  description: Roof
+  definition:
+  source:
+SIDING:
+  active: 'TRUE'
+  description: Siding
+  definition:
+  source:
+WINDOW:
+  active: 'TRUE'
+  description: Window
+  definition:
+  source:
+VENT:
+  active: 'TRUE'
+  description: Vent
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

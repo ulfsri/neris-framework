@@ -1,0 +1,20 @@
+ENCLOSED:
+  active: 'TRUE'
+  description: Enclosed
+  definition:
+  source:
+UNENCLOSED:
+  active: 'TRUE'
+  description: Unenclosed
+  definition:
+  source:
+NO EAVES:
+  active: 'TRUE'
+  description: No Eaves
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition:
+  source:

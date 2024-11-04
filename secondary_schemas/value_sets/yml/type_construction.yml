@@ -1,0 +1,50 @@
+TYPE_IA:
+  active: 'TRUE'
+  description: Type I-A
+  definition: Fire resistive non-combustible
+  source:
+TYPE_IB:
+  active: 'TRUE'
+  description: Type I-B
+  definition: Fire resistive non-combustible
+  source:
+TYPE_IIA:
+  active: 'TRUE'
+  description: Type II-A
+  definition: Protected non-combustible
+  source:
+TYPE_IIB:
+  active: 'TRUE'
+  description: Type II-B
+  definition: Unprotected non-combustive
+  source:
+TYPE_IIIA:
+  active: 'TRUE'
+  description: Type III-A
+  definition: Protected combustible
+  source: 
+TYPE_IIIB:
+  active: 'TRUE'
+  description: Type III-B
+  definition: Unprotected combustible
+  source:
+TYPE_IV:
+  active: 'TRUE'
+  description: Type IV
+  definition: Heavy timber
+  source:
+TYPE_VA:
+  active: 'TRUE'
+  description: Type V-A
+  definition: Protected wood frame
+  source:
+TYPE_VB:
+  active: 'TRUE'
+  description: Type V-B
+  definition: Unprotected wood frame
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: UNKNOWN
+  definition: Unknown
+  source:

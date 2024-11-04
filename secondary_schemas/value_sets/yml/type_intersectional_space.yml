@@ -1,0 +1,30 @@
+DUCT:
+  active: 'TRUE'
+  description: Duct
+  definition:
+  source:
+FLOOR_ASSEMBLY:
+  active: 'TRUE'
+  description: Floor assembly
+  definition:
+  source:
+CRAWL_SPACE:
+  active: 'TRUE'
+  description: Crawl space
+  definition:
+  source:
+CEILING:
+  active: 'TRUE'
+  description: Ceiling
+  definition:
+  source:
+ATTIC:
+  active: 'TRUE'
+  description: Attic
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

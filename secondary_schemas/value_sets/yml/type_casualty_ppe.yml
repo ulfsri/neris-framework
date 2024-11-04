@@ -1,0 +1,65 @@
+TURNOUT_COAT:
+  active: 'TRUE'
+  description: Turnout Coat
+  definition:
+  source:
+BUNKER_PANTS:
+  active: 'TRUE'
+  description: Bunker Pants
+  definition:
+  source:
+PROTECTIVE_HOOD:
+  active: 'TRUE'
+  description: Protective Hood
+  definition:
+  source:
+GLOVES:
+  active: 'TRUE'
+  description: Gloves
+  definition:
+  source:
+FACE_SHIELD_GOGGLES:
+  active: 'TRUE'
+  description: Face Shield / Goggles
+  definition:
+  source:
+HELMET:
+  active: 'TRUE'
+  description: Helmet
+  definition:
+  source:
+SCBA:
+  active: 'TRUE'
+  description: SCBA
+  definition:
+  source:
+PASS_DEVICE:
+  active: 'TRUE'
+  description: Pass Device
+  definition:
+  source:
+RUBBER_KNEE_BOOTS:
+  active: 'TRUE'
+  description: Rubber Knee Boots
+  definition:
+  source:
+3_4_BOOTS:
+  active: 'TRUE'
+  description: 3/4 Boots
+  definition:
+  source:
+BRUSH_GEAR:
+  active: 'TRUE'
+  description: Brush Gear
+  definition:
+  source:
+REFLECTIVE_VEST:
+  active: 'TRUE'
+  description: Reflective Vest
+  definition:
+  source:
+OTHER_SPECIAL_EQUIPMENT:
+  active: 'TRUE'
+  description: Other Special Equipment
+  definition:
+  source:

@@ -1,0 +1,50 @@
+NO_ONE_HOME:
+  active: 'TRUE'
+  description: No one home
+  definition:
+  source:
+MINOR_HOME_ALONE:
+  active: 'TRUE'
+  description: Minor home alone
+  definition:
+  source:
+OCCUPANT_REFUSED:
+  active: 'TRUE'
+  description: Occupant refused
+  definition:
+  source:
+LANGUAGE_BARRIER:
+  active: 'TRUE'
+  description: Language barrier
+  definition:
+  source:
+VACANT_HOME:
+  active: 'TRUE'
+  description: Vacant home
+  definition: 
+  source:
+UNSAFE_TO_APPROACH:
+  active: 'TRUE'
+  description: Unsafe to approach
+  definition:
+  source:
+NO_TRESPASSING_SIGNS:
+  active: 'TRUE'
+  description: No trespassing signs
+  definition:
+  source:
+LOCKED_GATE:
+  active: 'TRUE'
+  description: Locked gate
+  definition:
+  source:
+HOSTILE_PERSON:
+  active: 'TRUE'
+  description: Hostile person
+  definition:
+  source:
+REFUSED:
+  active: 'TRUE'
+  description: Refused
+  definition:
+  source:

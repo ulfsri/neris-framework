@@ -1,0 +1,25 @@
+BLUE:
+  active: 'TRUE'
+  description: Blue
+  definition: '>1500 gpm'
+  source:
+GREEN:
+  active: 'TRUE'
+  description: Green
+  definition: 1000 - 1499 gpm
+  source:
+ORANGE:
+  active: 'TRUE'
+  description: Orange
+  definition: 500 - 999 gpm
+  source:
+RED:
+  active: 'TRUE'
+  description: Red
+  definition: <500 gpm
+  source:
+BLACK:
+  active: 'TRUE'
+  description: Black
+  definition: Inoperable
+  source: 

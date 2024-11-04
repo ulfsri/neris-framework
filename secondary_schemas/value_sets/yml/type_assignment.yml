@@ -1,0 +1,60 @@
+FIRE_SUPPRESSION:
+  active: 'TRUE'
+  description: Fire suppression
+  definition:
+  source:
+HAZMAT:
+  active: 'TRUE'
+  description: Hazmat
+  definition:
+  source:
+RESCUE:
+  active: 'TRUE'
+  description: Rescue
+  definition:
+  source: 
+EMS:
+  active: 'TRUE'
+  description: EMS
+  definition:
+  source:
+PREVENTION_INSPECTION:
+  active: 'TRUE'
+  description: Prevention or inspection
+  definition:
+  source:
+TRAINING:
+  active: 'TRUE'
+  description: Training
+  definition:
+  source:
+MAINTENANCE:
+  active: 'TRUE'
+  description: Maintenance
+  definition:
+  source:
+COMMUNICATIONS:
+  active: 'TRUE'
+  description: Communications
+  definition:
+  source:
+ADMINISTRATION:
+  active: 'TRUE'
+  description: Administration
+  definition:
+  source:
+FIRE_INVESTIGATIONS:
+  active: 'TRUE'
+  description: Fire investigations
+  definition:
+  source:
+MIH_PARAMEDICINE:
+  active: 'TRUE'
+  description: MIH / Paramedicine
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

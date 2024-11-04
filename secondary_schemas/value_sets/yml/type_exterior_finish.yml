@@ -1,0 +1,45 @@
+WOOD:
+  active: 'TRUE'
+  description: Wood
+  definition:
+  source:
+BRICK_STONE:
+  active: 'TRUE'
+  description: Brick/Stone
+  definition:
+  source:
+VINYL:
+  active: 'TRUE'
+  description: Vinyl
+  definition:
+  source:
+ASHPHALT:
+  active: 'TRUE'
+  description: Asphalt
+  definition:
+  source:
+METAL:
+  active: 'TRUE'
+  description: Metal
+  definition:
+  source: 
+CONCRETE:
+  active: 'TRUE'
+  description: Concrete
+  definition:
+  source:
+EIFS:
+  active: 'TRUE'
+  description: EIFS
+  definition: Exterior Insulation Finishing Systems
+  source:
+STUCCO:
+  active: 'TRUE'
+  description: Stucco
+  definition:
+  source:
+FIBER_CEMENT:
+  active: 'TRUE'
+  description: Fiber Cement
+  definition:
+  source:

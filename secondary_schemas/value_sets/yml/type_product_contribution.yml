@@ -1,0 +1,15 @@
+IGNITION:
+  active: 'TRUE'
+  description: Ignition
+  definition:
+  source:
+RELEASE:
+  active: 'TRUE'
+  description: Release
+  definition:
+  source:
+SPREAD:
+  active: 'TRUE'
+  description: Spread
+  definition:
+  source:
