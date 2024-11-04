@@ -1,0 +1,25 @@
+DIRECT FLAME IMPINGEMENT:
+  active: 'TRUE'
+  description: Direct Flame Impingement
+  definition:
+  source:
+EMBERS:
+  active: 'TRUE'
+  description: Embers
+  definition:
+  source:
+RADIANT HEAT:
+  active: 'TRUE'
+  description: Radiant Heat
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition: 
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

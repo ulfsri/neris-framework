@@ -1,0 +1,30 @@
+RUN_COURSE:
+  active: 'TRUE'
+  description: Let Incident Run Its Course
+  definition:
+  source:
+SUPPRESSION_WATER_ONLY:
+  active: 'TRUE'
+  description: Suppression With Water Only
+  definition:
+  source:
+SUPPRESSION_WATER_ADDITIVE:
+  active: 'TRUE'
+  description: Suppression With Water / Additive
+  definition:
+  source:
+SUBMERGE_BURY:
+  active: 'TRUE'
+  description: Submerge or Bury
+  definition:
+  source:
+FIRE_BLANKET:
+  active: 'TRUE'
+  description: Use of Fire Blanket
+  definition:
+  source:
+BATTERY_PENETRATION:
+  active: 'TRUE'
+  description: Use of Battery Penetrating Appliance
+  definition:
+  source:

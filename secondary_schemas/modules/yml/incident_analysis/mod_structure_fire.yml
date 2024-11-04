@@ -1,0 +1,312 @@
+occupant_count:
+  type: Interger
+  group: structure
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Number of people occupying the structure or specifc unit within the structure at the time of the incident.
+  example: '4'
+  comments:
+parcel_details:
+  type: Module
+  group: structure
+  possible_if:
+  computed: 1.0
+  computed_from: incident_module
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Characteristics of the parcel at which the incident occurred. Consists of the fields of mod_parcel.
+  example: see mod_parcel
+  comments: Post process from incident module
+inspection_required:
+  type: Boolean
+  group: structure
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Based on local or other codes, requirement of structure to be inspected.
+  example: 'True'
+  comments: User would need knowledge and access to department's inspection data
+inspection_date:
+  type: DateTime (UTC)
+  group: structure
+  possible_if: inspection_required = TRUE
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Date of last inspection
+  example: '2015-05-15 00:00:00'
+  comments:
+inspection_findings:
+  type: Text
+  group: structure
+  possible_if: inspection_date not null
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Unresolved code violations from inspection
+  example: 'True'
+  comments:
+non_permitted_modifcations:
+  type: Boolean
+  group: structure
+  possible_if: inspection_date not null
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Presence of structure modifications that were nonpermitted
+  example: 'False'
+  comments: User would need access to local jurisdiction building/permitting data
+structure_unstable:
+  type: Boolean
+  group: structure
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Whether the structure was considered unstable prior to incident.
+  example: 'True'
+  comments:
+room_of_origin:
+  type: Array[Text]
+  group: ignition
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: type_room
+  description: The room of origin of the fire.
+  example: See type_room value
+  comments:
+intersectional_space:
+  type: Boolean
+  group: ignition
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Whether the fire began in an intersectional space, such as a duct or crawl space.
+  example:
+  comments:
+intersectional_space_origin:
+  type: Array[Text]
+  group: ignition
+  possible_if: intersectional_space_origin = TRUE
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 1.0
+  value_set_location: type_intersectional_space
+  description: The type of intersectional space where the fire originated.
+  example:
+  comments:
+level_of_origin:
+  type: Numeric
+  group: ignition
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Levels above or below ground where ignition occurred.
+  example: '2'
+  comments: Negative values are below grade.
+nan:
+  type:
+  group:
+  possible_if:
+  computed:
+  computed_from:
+  cardinality:
+  value_set:
+  value_set_location:
+  description:
+  example:
+  comments:
+cause_category:
+  type: Array[Text]
+  group: ignition
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_general_fire_cause
+  description: Category of the cause of the fire.
+  example: See type_general_fire_cause
+  comments:
+general_cause:
+  type: Array[Text]
+  group: ignition
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_indoor_cause
+  description: General cause of the fire.
+  example: See type_fire_indoor_cause
+  comments:
+specific_cause:
+  type: Array[Text]
+  group: ignition
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_indoor_cause
+  description: Specific cause of the fire.
+  example: See type_fire_indoor_cause
+  comments:
+initial_detection:
+  type: Array[Text]
+  group: detection
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 1.0
+  value_set_location:
+  description: Describes how the fire was intitally detected.
+  example: See type_initial_detection
+  comments:
+risk_reduction:
+  type: Module
+  group: detection
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description:
+  example: See incident/mod_risk_reduction
+  comments:
+occupants_displaced:
+  type: Boolean
+  group: flame_spread
+  possible_if:
+  computed: 1.0
+  computed_from: incident_module
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Whether the occupants were displaced by the incident for any period of time.
+  example: 'True'
+  comments: Can come from incident module and confirmed or completed during analysis
+interior_doors:
+  type: Boolean
+  group: flame_spread
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Whether the status of any interior doors impacted the fire prior to FD involvement.
+  example: 'True'
+  comments:
+exterior_doors:
+  type: Boolean
+  group: flame_spread
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Whether the status of any opened or closed exterior doors impacted the fire prior to FD involvement.
+  example: 'True'
+  comments:
+windows:
+  type: Boolean
+  group: flame_spread
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Whether the status of any opened or closed windows impacted the fire prior to FD involvement.
+  example: 'True'
+  comments:
+spread:
+  type: Array[Text]
+  group: flame_spread
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_flame_spread
+  description:
+  example:
+  comments:
+contributing_hazards:
+  type: Array[Text]
+  group: ignition
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Multi
+  value_set: 1.0
+  value_set_location: type_contributing_hazards
+  description: Contributing factors or other hazardous conditions.
+  example:
+  comments:
+minor_involved:
+  type: Boolean
+  group:
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Whether a minor was involved in purposeful ignition of fire.
+  example: 'False'
+  comments:
+description_of_events:
+  type: Text
+  group:
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.
+  example:
+  comments: Free text.
+recommendations:
+  type: Text
+  group:
+  possible_if:
+  computed: 0.0
+  computed_from:
+  cardinality: Single
+  value_set: 0.0
+  value_set_location:
+  description: Describe the suggestions or changes recommended to prevent recurrence.
+  example:
+  comments: Free text.

@@ -1,0 +1,7 @@
+,active,value,description,definition,source
+0,True,SMOKE,Smoke,,
+1,True,DERMAL,Dermal,Such as soot.,
+2,True,INFECTIOUS_DISEASE,Infectious Disease,,
+3,True,HEAT,Heat / Flame,,
+4,True,HAZMAT,Hazardous material,,
+5,True,OTHER,Other,,

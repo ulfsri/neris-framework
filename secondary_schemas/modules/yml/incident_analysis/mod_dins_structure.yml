@@ -1,0 +1,348 @@
+address:
+  type: Text
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Address of the structure being inspected.
+  example:
+  comments:
+structure_number:
+  type: Integer
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: false
+  value_set_location:
+  description: Card number of the structure on the property.
+  example:
+  comments:
+date:
+  type: Datetime (UTC)
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of inspection.
+  example:
+  comments:
+incident_name:
+  type: Text
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Official name of the incident, if one has been designated.
+  example:
+  comments:
+vacant_status:
+  type: Boolean
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Status of the building as vacant.
+  example:
+  comments:
+vacancy_type:
+  type: Array[Text]
+  group: structure
+  possible_if: vacant_status = TRUE
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_vacancy
+  description: Type of vacancy observed.
+  example:
+  comments:
+multi_unit:
+  type: Boolean
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the structure contains multiple units.
+  example:
+  comments:
+units_in_structure:
+  type: Integer
+  group: structure
+  possible_if: multi_unit = TRUE
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Number of units within the structure.
+  example:
+  comments:
+construction:
+  type: Array[Text]
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_construction
+  description: Construction type of the structure.
+  example:
+  comments:
+roof_material:
+  type: Array[Text]
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_roof_material
+  description: Roof material of the structure.
+  example:
+  comments:
+eaves:
+  type: Array[Text]
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_eaves
+  description: Eave type observed on the structure.
+  example:
+  comments:
+year_built:
+  type: Integer
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Year the structure was built.
+  example:
+  comments:
+vent_screen:
+  type: Array[Text]
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_vents
+  description: Vent/screen type observed on the structure.
+  example:
+  comments:
+exterior_finish:
+  type: Array[Text]
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_exterior_finish
+  description: Exterior finish of the structure.
+  example:
+  comments:
+window_panes:
+  type: Array[Text]
+  group: structure
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_window_panes
+  description: Winow pane type observed on the structure.
+  example:
+  comments:
+outbuildings:
+  type: Integer
+  group: parcel
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Number of outbuildings observed on the parcel.
+  example:
+  comments:
+deck_porch_grade:
+  type: Array[Text]
+  group: parcel
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_deck_porch_grade
+  description: Grade of deck or porch, if one was observed.
+  example:
+  comments:
+deck_porch_material:
+  type: Array[Text]
+  group: parcel
+  possible_if: deck_porch_grade != No Deck Present
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_deck_porch_material
+  description: Material of deck or porch, if one was observed.
+  example:
+  comments:
+attached_addition:
+  type: Array[Text]
+  group: parcel
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_attached
+  description: Type of attached addition or modification, if one was observed.
+  example:
+  comments:
+attached_addition_materials:
+  type: Array[Text]
+  group: parcel
+  possible_if: attached_addition != None
+  computed: false
+  computed_from:
+  cardinality:
+  value_set: true
+  value_set_location: type_attached_materials
+  description: Material of attached addition.
+  example:
+  comments:
+distance_to_nearest_structure:
+  type: Numeric
+  group: parcel
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Distance to nearest structure.
+  example:
+  comments:
+distance_unit:
+  type: Array[Text]
+  group: parcel
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_distance_unit
+  description: Unit type of measured distance to nearest structure.
+  example:
+  comments:
+window_damage:
+  type: Array[Text]
+  group: damage
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_window_damage
+  description: Most severe level of window damage observed.
+  example:
+  comments:
+impacted_additions:
+  type: Array[Text]
+  group: damage
+  possible_if: attached_addition != None
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_attached
+  description: Attached additions impacted/damaged by hazard.
+  example:
+  comments:
+fire_origin_location:
+  type: Array[Text]
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_dins_origin_location
+  description: Location where the fire may have originated/spread to the structure.
+  example: See type_dins_origin_location
+  comments:
+damage_assessment:
+  type: Array[Text]
+  group: damage
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_fire_bldg_damage
+  description: Extent of the damage caused by the hazard.
+  example:
+  comments:
+displacement:
+  type: Boolean
+  group: damage
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether the occupants were displaced due to the damage.
+  example:
+  comments:
+displace_number:
+  type: Integer
+  group: damage
+  possible_if: displacement = TRUE
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Number of occupants displaced due to damage.
+  example:
+  comments:
+displace_cause:
+  type: Array[Text]
+  group: damage
+  possible_if: displacement = TRUE
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_displace_cause
+  description: Cause of the displacement.
+  example:
+  comments:

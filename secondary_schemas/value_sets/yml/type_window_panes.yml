@@ -1,0 +1,25 @@
+DOUBLE PANE:
+  active: 'TRUE'
+  description: Double Pane
+  definition:
+  source:
+TRIPLE PANE:
+  active: 'TRUE'
+  description: Triple Pane
+  definition:
+  source:
+SINGLE PANE:
+  active: 'TRUE'
+  description: Single Pane
+  definition:
+  source:
+NO WINDOWS:
+  active: 'TRUE'
+  description: No Windows
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition:
+  source: 

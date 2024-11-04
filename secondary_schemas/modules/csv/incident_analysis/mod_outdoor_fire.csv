@@ -1,0 +1,23 @@
+name,type,group,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+incident_name,Text,incident,,False,,Single,False,,"Name of incident as designated by responding authority, if applicable.",Carr Fire,
+cause_category,Array[Text],cause,,False,,Multi,True,type_general_fire_cause,Category of the cause of the fire.,Natural,
+general_cause,Array[Text],cause,,False,,Multi,True,type_outdoor_cause,General cause of the fire.,See type_outdoor_cause,
+specific_cause,Array[Text],cause,,False,,Multi,True,type_outdoor_cause,Specific cause of the fire.,See type_outdoor_cause,
+cause_certainty,Array[Text],cause,,False,,Single,True,type_certainty,"Level of certainty associated with each specific cause. Only one cause selection is allowed if the certainty is probable, whereas more than one cause is allowed if the selections are possible. ",Probable,
+permit_issued,Boolean,cause,specific_cause.value_1 = DEBRIS_OPEN_BURNING,False,,Single,False,,"Whether a burning permit was issued, if the cause was Open Burning.",True,
+contributing_activity,Array[Text],cause,,False,,Multi,True,type_outdoor_activities,Activities that contributed to the ignition or spread of the fire.,see type_outdoor_activities,
+structures_involved,Integer,incident,,False,,Single,False,,Total number of structures impacted by the fire.,6,
+minor_involved,Boolean,,,False,,Single,False,,Whether a minor was involved in purposeful ignition of fire.,False,
+fire_perimeter,Multipolygon,incident,,False,,Single,False,,Fire perimeter as a geometry/collection of points.,MULTIPOLYGON(),
+acres_burned,Numeric,incident,,False,,Single,False,,Number of acres burned during the fire.,200,
+fuel_arrangment,Array[Text],fuels,,False,,Multi,True,type_fuel_arrangement,Arrangement of fuels involved.,see type_fuel_arrangement,
+fuel_size,Array[Text],fuels,,False,,Multi,True,type_fuel_size,Size of fuels involved (in inches).,see type_fuel_size,
+fuel_distribution,Array[Text],fuels,,False,,Multi,True,type_fuel_distribution,Distribution of fuels invovled.,see type_fuel_distribution,
+elevation,Integer,,,False,,Single,False,,Elevation in feet.,1400,
+relative_position,Array[Text],,,False,,Single,True,type_relative_position,Relative position of outdoor fire.,Valley Bottom,
+aspect,Array[Text],,,False,,Single,True,type_aspect,Aspect of outdoor fire,NW,
+flame_length,Integer,,,False,,Single,False,,Length of flame in feet.,,
+rate_of_spread,Array[Text],,,False,,Single,True,type_rate_of_spread,Rate of fire spread of the outdoor fire.,,
+minor_involved,Boolean,,,False,,Single,False,,Whether a minor was involved in purposeful ignition of fire.,False,
+description_of_events,Text,incident,,False,,Single,False,,"Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.",,Free text
+recommendations,Text,incident,,False,,Single,False,,Describe the suggestions or changes recommended to prevent recurrence.,,Free text

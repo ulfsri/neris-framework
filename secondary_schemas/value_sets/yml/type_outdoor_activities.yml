@@ -1,0 +1,95 @@
+WEATHER:
+  active: 'TRUE'
+  description: Weather
+  definition: See WNCG tables
+  source:
+SUPPRESSION_ACTIVITY:
+  active: 'TRUE'
+  description: Suppression Activity
+  definition:
+  source:
+CONSTRUCTION:
+  active: 'TRUE'
+  description: Construction
+  definition:
+  source:
+ELECTRICAL_UTILITIES:
+  active: 'TRUE'
+  description: Electrical Utilities
+  definition:
+  source:
+FARMING_RANCHING:
+  active: 'TRUE'
+  description: Farming/Ranching
+  definition:
+  source:
+GOVERNMENTAL_TRIBAL_ACTIVITIES:
+  active: 'TRUE'
+  description: Governmental/Tribal Activities
+  definition:
+  source:
+HUNTING_TRAPPING_FISHING:
+  active: 'TRUE'
+  description: Hunting/Trapping Fishing
+  definition:
+  source:
+LAW_ENFORCEMENT:
+  active: 'TRUE'
+  description: Law Enforcement
+  definition:
+  source:
+LOGGING_FORESTRY:
+  active: 'TRUE'
+  description: Logging/Forestry
+  definition:
+  source:
+MILITARY:
+  active: 'TRUE'
+  description: Military
+  definition:
+  source:
+MINING_EXTRACTION:
+  active: 'TRUE'
+  description: Mining/Extraction
+  definition:
+  source:
+MOTORIST:
+  active: 'TRUE'
+  description: Motorist
+  definition:
+  source:
+OTHER_UTILITIES:
+  active: 'TRUE'
+  description: Other Utilities
+  definition:
+  source:
+PRIVATE_RESIDENTIAL:
+  active: 'TRUE'
+  description: Private/Residential
+  definition:
+  source:
+RAILROAD:
+  active: 'TRUE'
+  description: Railroad
+  definition:
+  source:
+RECREATION:
+  active: 'TRUE'
+  description: Recreation
+  definition:
+  source:
+TRANSIENT:
+  active: 'TRUE'
+  description: Transient
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition:
+  source:

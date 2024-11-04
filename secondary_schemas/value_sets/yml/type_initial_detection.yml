@@ -1,0 +1,65 @@
+SMOKE_ALARM:
+  active: 'TRUE'
+  description: Smoke Alarm
+  definition:
+  source:
+HEAT_ALARM:
+  active: 'TRUE'
+  description: Heat Alarm
+  definition:
+  source:
+AUTOMATIC_SUPPRESSION:
+  active: 'TRUE'
+  description: Automatic Suppression System
+  definition:
+  source:
+VISUAL_SIGHTING:
+  active: 'TRUE'
+  description: Visual Sighting
+  definition:
+  source:
+SPECIALTY_DETECTOR:
+  active: 'TRUE'
+  description: Specialty Detector
+  definition:
+  source:
+MANUAL_ACTIVATION:
+  active: 'TRUE'
+  description: Manual activation
+  definition:
+  source:
+ODOR:
+  active: 'TRUE'
+  description: Odor
+  definition:
+  source:
+PET:
+  active: 'TRUE'
+  description: Pet
+  definition:
+  source:
+AUDIBLE_NOISE:
+  active: 'TRUE'
+  description: Audible noise
+  definition:
+  source:
+ALERTED_BY_PERSON:
+  active: 'TRUE'
+  description: Alerted by person
+  definition:
+  source:
+NO_INITIAL_DETECTION:
+  active: 'TRUE'
+  description: No Initial Detection (Burn Out Prior to Detection)
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Initial Detection Unknown
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

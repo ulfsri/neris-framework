@@ -1,0 +1,25 @@
+ED:
+  active: 'TRUE'
+  description: ED
+  definition:
+  source:
+OTHER_MEDICAL_PERSONNEL:
+  active: 'TRUE'
+  description: Other medical personnel
+  definition:
+  source:
+FD_EMS:
+  active: 'TRUE'
+  description: FD / EMS
+  definition:
+  source:
+SELF:
+  active: 'TRUE'
+  description: Self
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

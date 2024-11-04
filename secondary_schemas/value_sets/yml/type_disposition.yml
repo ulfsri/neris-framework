@@ -1,0 +1,30 @@
+FIRST_AID_ONLY:
+  active: 'TRUE'
+  description: First aid only
+  definition:
+  source:
+HOSPITAL:
+  active: 'TRUE'
+  description: Hospital
+  definition:
+  source:
+DOCTORS_OFFICE:
+  active: 'TRUE'
+  description: Doctor's office
+  definition:
+  source:
+MORGUE_FUNERAL_HOME:
+  active: 'TRUE'
+  description: Morgue or funeral home
+  definition:
+  source:
+RESIDENCE:
+  active: 'TRUE'
+  description: Residence
+  definition:
+  source:
+NO_CARE_NEEDED:
+  active: 'TRUE'
+  description: No care needed
+  definition:
+  source:

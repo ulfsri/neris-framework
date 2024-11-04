@@ -1,0 +1,5 @@
+,active,value,description,definition,source
+0,True,COMBUSTIBLE,Combustible,,
+1,True,NON COMBUSTIBLE,Non Combustible,,
+2,True,NONE PRESENT,None Present,,
+3,True,UNKNOWN,Unknown,,

@@ -1,0 +1,6 @@
+value,active,description,definition,source
+SOLID,True,Solid,,
+LIQUID,True,Liquid,,
+GAS,True,Gas,,
+RADIOACTIVE,True,Radioactive, ,
+UNKNOWN,True,Unknown, ,

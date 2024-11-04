@@ -1,0 +1,168 @@
+first_name:
+  type: Text
+  group: personal
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: First name of person.
+  example: John
+  comments:
+last_name:
+  type: Text
+  group: personal
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Last name of person.
+  example: Smoth
+  comments:
+last_4_ssn:
+  type: Integer
+  group: personal
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Last 4 of social security number.
+  example: '1234'
+  comments:
+nfr_number:
+  type: Integer
+  group: personal
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: National Firefighter Registry Participant Number
+  example:
+  comments:
+dob:
+  type: 'Datetime (UTC) '
+  group: personal
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of birth.
+  example: '1977-12-01 00:00:00'
+  comments:
+race:
+  type: Array[Text]
+  group: personal
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_race
+  description: Race of person.
+  example: White
+  comments:
+gender:
+  type: Array[Text]
+  group: lifestyle
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_gender
+  description: Gender of person.
+  example: Male
+  comments:
+neris_entity_id:
+  type: Array[Text]
+  group: service
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location:
+  description: NERIS Entity ID for the entities(s) in which the person belongs.
+  example:
+  comments:
+entity_location:
+  type: Module
+  group: service
+  possible_if:
+  computed: true
+  computed_from: entity_spec
+  cardinality: Single
+  value_set: true
+  value_set_location: mod_civic_location
+  description: Civic location, typically an address, of the NERIS entity.
+  example: See mod_civic_location
+  comments:
+service_entry_date:
+  type: 'Datetime (UTC) '
+  group: service
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of entry into service.
+  example: '1997-06-01 00:00:00'
+  comments:
+entity_start_date:
+  type: 'Datetime (UTC) '
+  group: service
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Start date on which the person began with the department.
+  example: '2005-04-10 00:00:00'
+  comments:
+station_assignment:
+  type: 'Datetime (UTC) '
+  group: service
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: entity_spec
+  description: Station assignment within department
+  example: '601'
+  comments:
+shift_schedule:
+  type: Array[Text]
+  group: service
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_shift
+  description: Type of shift schedule.
+  example: See type_shift
+  comments:
+service_type:
+  type: Array[Text]
+  group: service
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_service_type
+  description: Type of service of the person.
+  example: Volunteer
+  comments:

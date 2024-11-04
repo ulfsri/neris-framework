@@ -1,0 +1,20 @@
+ON GRADE:
+  active: 'TRUE'
+  description: On Grade
+  definition:
+  source:
+ELEVATED:
+  active: 'TRUE'
+  description: Elevated
+  definition:
+  source:
+NONE PRESENT:
+  active: 'TRUE'
+  description: None Present
+  definition:
+  source:
+BELOW_GRADE_SUNKEN:
+  active: 'TRUE'
+  description: Below Grade / Sunken
+  definition:
+  source:

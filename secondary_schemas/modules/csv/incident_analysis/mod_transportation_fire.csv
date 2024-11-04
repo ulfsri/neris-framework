@@ -1,0 +1,10 @@
+name,group,type,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+vehicle_make,vehicle,Text,,False,,Single,False,,Vehicle manufacturer,Honda,
+vehicle_model,vehicle,Text,,False,,Single,False,,Model of vehicle,Accord,
+vehicle_type,vehicle,Text,,False,,Single,True,type_vehicle_type,Type of vehicle,See type_vehicle_type value,
+auto_body_style,vehicle,Text,vehicle_type = AUTOMOBILE,False,,Single,True,type_automobile_body_style,Body style of automobile,See type_body_style value,
+vehicle_vin,vehicle,Text,,False,,Single,False,,Vehicle identification number,4Y1SL65848Z411439,
+vehicle_year,vehicle,Integer,,False,,Single,False,,Vehicle manufacture year,2013,
+vehicle_powertrain,vehicle,Text,,False,,Single,True,type_powertrain,Powertrain of vehicle,See type_powertrian value,Electric selection prompts battery_incident module
+vehicle_state,vehicle,Array[Text],,False,,Single,True,,US State of vehicle registration,Nevada,
+additional_description,vehicle,Text,,False,,Single,False,,,,Free text additional comments

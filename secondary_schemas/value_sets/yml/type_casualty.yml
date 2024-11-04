@@ -1,0 +1,18 @@
+UNINJURED:
+  active: 'TRUE'
+  description: Uninjured
+  definition:
+  source:
+  xor: NOINJURY
+INJURED_NONFATAL:
+  active: 'TRUE'
+  description: Injured Nonfatal
+  definition:
+  source:
+  xor: INJURY
+INJURED_FATAL:
+  active: 'TRUE'
+  description: Injured Fatal
+  definition:
+  source:
+  xor: INJURY

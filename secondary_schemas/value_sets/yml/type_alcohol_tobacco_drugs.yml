@@ -1,0 +1,30 @@
+ALCOHOL_USER:
+  active: 'TRUE'
+  description: Alcohol user
+  definition:
+  source:
+TOBACCO_USER:
+  active: 'TRUE'
+  description: Tobacco user
+  definition:
+  source:
+SMOKER_OTHER:
+  active: 'TRUE'
+  description: Smoker - other
+  definition: Includes eCigarettes
+  source:
+MARIJUANA_USER:
+  active: 'TRUE'
+  description: Marijuana user
+  definition:
+  source:
+OTHER_ILLICIT_DRUGS:
+  active: 'TRUE'
+  description: Other illicit drugs
+  definition:
+  source:
+NONE:
+  active: 'TRUE'
+  description:
+  definition:
+  source:

@@ -1,0 +1,20 @@
+CIRCUITS_TRIPPED:
+  active: 'TRUE'
+  description: Circuits Tripped
+  definition:
+  source:
+GAS_FUEL_ON:
+  active: 'TRUE'
+  description: Gas / Fuel On
+  definition:
+  source:
+CO_DETECTED:
+  active: 'TRUE'
+  description: CO Detected
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

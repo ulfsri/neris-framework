@@ -1,0 +1,95 @@
+HEART_FAILURE:
+  active: 'TRUE'
+  description: Heart failure
+  definition:
+  source:
+COPD:
+  active: 'TRUE'
+  description: COPD
+  definition:
+  source:
+ASTHMA:
+  active: 'TRUE'
+  description: Asthma
+  definition:
+  source:
+CARDIAC_RHYTHM:
+  active: 'TRUE'
+  description: Cardiac Rhythm
+  definition:
+  source:
+HYPERTENSION:
+  active: 'TRUE'
+  description: Hypertension
+  definition:
+  source:
+KIDNEY_DISEASE:
+  active: 'TRUE'
+  description: Kidney disease
+  definition:
+  source:
+CANCER:
+  active: 'TRUE'
+  description: Cancer
+  definition:
+  source:
+CVA_STROKE:
+  active: 'TRUE'
+  description: CVA / Stroke
+  definition:
+  source:
+MYOCARDIAL_INFARCTION:
+  active: 'TRUE'
+  description: Myocardial Infarction
+  definition:
+  source:
+SEIZURE_DISORDER:
+  active: 'TRUE'
+  description: Seizure Disorder
+  definition:
+  source:
+DIABETES:
+  active: 'TRUE'
+  description: Diabetes
+  definition:
+  source:
+POST_SURGERY:
+  active: 'TRUE'
+  description: Post surgery
+  definition:
+  source:
+OPEN_WOUNDS:
+  active: 'TRUE'
+  description: Open wounds
+  definition:
+  source:
+PAIN_CONTROL:
+  active: 'TRUE'
+  description: Pain control
+  definition:
+  source:
+PSYCHOLOGICAL_BEHAVIORAL_HEALTH:
+  active: 'TRUE'
+  description: Psychological / Behavioral Health
+  definition:
+  source:
+SUBSTANCE_USE_DISORDER:
+  active: 'TRUE'
+  description: Substance use disorder
+  definition:
+  source:
+PHYSICAL_LIMITATIONS_DISABILITY:
+  active: 'TRUE'
+  description: Physical limitations or disability
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:
+NONE:
+  active: 'TRUE'
+  description:
+  definition:
+  source:

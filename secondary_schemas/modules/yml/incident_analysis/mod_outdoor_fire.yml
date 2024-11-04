@@ -1,0 +1,252 @@
+incident_name:
+  type: Text
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Name of incident as designated by responding authority, if applicable.
+  example: Carr Fire
+  comments:
+cause_category:
+  type: Array[Text]
+  group: cause
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_general_fire_cause
+  description: Category of the cause of the fire.
+  example: Natural
+  comments:
+general_cause:
+  type: Array[Text]
+  group: cause
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_outdoor_cause
+  description: General cause of the fire.
+  example: See type_outdoor_cause
+  comments:
+specific_cause:
+  type: Array[Text]
+  group: cause
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_outdoor_cause
+  description: Specific cause of the fire.
+  example: See type_outdoor_cause
+  comments:
+cause_certainty:
+  type: Array[Text]
+  group: cause
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_certainty
+  description: 'Level of certainty associated with each specific cause. Only one cause selection is allowed if the certainty is probable, whereas more than one cause is allowed if the selections are possible. '
+  example: Probable
+  comments:
+permit_issued:
+  type: Boolean
+  group: cause
+  possible_if: specific_cause.value_1 = DEBRIS_OPEN_BURNING
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether a burning permit was issued, if the cause was Open Burning.
+  example: 'True'
+  comments:
+contributing_activity:
+  type: Array[Text]
+  group: cause
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_outdoor_activities
+  description: Activities that contributed to the ignition or spread of the fire.
+  example: see type_outdoor_activities
+  comments:
+structures_involved:
+  type: Integer
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Total number of structures impacted by the fire.
+  example: '6'
+  comments:
+minor_involved:
+  type: Boolean
+  group:
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Whether a minor was involved in purposeful ignition of fire.
+  example: 'False'
+  comments:
+fire_perimeter:
+  type: Multipolygon
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Fire perimeter as a geometry/collection of points.
+  example: MULTIPOLYGON()
+  comments:
+acres_burned:
+  type: Numeric
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Number of acres burned during the fire.
+  example: '200'
+  comments:
+fuel_arrangment:
+  type: Array[Text]
+  group: fuels
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_arrangement
+  description: Arrangement of fuels involved.
+  example: see type_fuel_arrangement
+  comments:
+fuel_size:
+  type: Array[Text]
+  group: fuels
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_size
+  description: Size of fuels involved (in inches).
+  example: see type_fuel_size
+  comments:
+fuel_distribution:
+  type: Array[Text]
+  group: fuels
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_fuel_distribution
+  description: Distribution of fuels invovled.
+  example: see type_fuel_distribution
+  comments:
+elevation:
+  type: Integer
+  group:
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Elevation in feet.
+  example: '1400'
+  comments:
+relative_position:
+  type: Array[Text]
+  group:
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_relative_position
+  description: Relative position of outdoor fire.
+  example: Valley Bottom
+  comments:
+aspect:
+  type: Array[Text]
+  group:
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_aspect
+  description: Aspect of outdoor fire
+  example: NW
+  comments:
+flame_length:
+  type: Integer
+  group:
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Length of flame in feet.
+  example:
+  comments:
+rate_of_spread:
+  type: Array[Text]
+  group:
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: type_rate_of_spread
+  description: Rate of fire spread of the outdoor fire.
+  example:
+  comments:
+description_of_events:
+  type: Text
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.
+  example:
+  comments: Free text
+recommendations:
+  type: Text
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Describe the suggestions or changes recommended to prevent recurrence.
+  example:
+  comments: Free text

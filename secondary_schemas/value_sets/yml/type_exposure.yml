@@ -1,0 +1,30 @@
+SMOKE:
+  active: 'TRUE'
+  description: Smoke
+  definition:
+  source:
+DERMAL:
+  active: 'TRUE'
+  description: Dermal
+  definition: Such as soot.
+  source:
+INFECTIOUS_DISEASE:
+  active: 'TRUE'
+  description: Infectious Disease
+  definition:
+  source:
+HEAT:
+  active: 'TRUE'
+  description: Heat / Flame
+  definition:
+  source:
+HAZMAT:
+  active: 'TRUE'
+  description: Hazardous material
+  definition:
+  source: 
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

@@ -1,0 +1,30 @@
+MALE:
+  active: 'TRUE'
+  description: Male
+  definition:
+  source:
+FEMALE:
+  active: 'TRUE'
+  description: Female
+  definition:
+  source:
+TRANSGENDER_MALE_FEMALE_TO_MALE:
+  active: 'TRUE'
+  description: Transgender Male (Female to Male)
+  definition:
+  source:
+TRANSGENDER_FEMALE_MALE_TO_FEMALE:
+  active: 'TRUE'
+  description: Transgender Female (Male to Female)
+  definition:
+  source:
+OTHER_GENDER_IDENTITY:
+  active: 'TRUE'
+  description: Other, neither exclusively male or female
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown (Unable to be determined)
+  definition:
+  source:

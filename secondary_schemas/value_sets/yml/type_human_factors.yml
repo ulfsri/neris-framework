@@ -1,0 +1,75 @@
+HOARDING_DISORDER:
+  active: 'TRUE'
+  description: Hoarding Disorder
+  definition:
+  source:
+INTELLECTUAL_DISABILITY:
+  active: 'TRUE'
+  description: Intellectual Disability
+  definition:
+  source:
+PHYSICAL_DISABILITY:
+  active: 'TRUE'
+  description: Physical Disability
+  definition:
+  source:
+ILLICIT_DRUG_USE:
+  active: 'TRUE'
+  description: Illicit Drug Use
+  definition:
+  source:
+ALCOHOL_USE:
+  active: 'TRUE'
+  description: Alcohol Use
+  definition:
+  source: 
+ASLEEP:
+  active: 'TRUE'
+  description: Asleep
+  definition:
+  source:
+JUVENILE_BEHAVIOR:
+  active: 'TRUE'
+  description: Juvenile Behavior
+  definition: 'Note: Explicitly refers to minors under 18, not adults who are behaving in a juvenile manner.'
+  source:
+ELDERLY_AGING:
+  active: 'TRUE'
+  description: Elderly or factors of aging
+  definition:
+  source:
+HOMELESSNESS:
+  active: 'TRUE'
+  description: Homelessness
+  definition:
+  source:
+MEDICAL_CONDITION:
+  active: 'TRUE'
+  description: Medical Condition
+  definition:
+  source:
+MENTAL_HEALTH:
+  active: 'TRUE'
+  description: Mental Health
+  definition:
+  source:
+CULTURAL_RELIGIOUS_BEHAVIOR:
+  active: 'TRUE'
+  description: Cultural or Religious Behavior
+  definition:
+  source:
+MEDICAL_OXYGEN:
+  active: 'TRUE'
+  description: Medical Oxygen Use
+  definition:
+  source:
+NONE:
+  active: 'TRUE'
+  description:
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

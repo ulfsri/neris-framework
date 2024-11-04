@@ -1,0 +1,30 @@
+VALLEY_BOTTOM:
+  active: 'TRUE'
+  description: Valley Bottom
+  definition:
+  source:
+LOWER_SLOPE:
+  active: 'TRUE'
+  description: Lower Slope
+  definition:
+  source:
+MID_SLOPE:
+  active: 'TRUE'
+  description: Mid Slope
+  definition:
+  source:
+UPPER_SLOPE:
+  active: 'TRUE'
+  description: Upper Slope
+  definition:
+  source:
+RIDGE_TOP:
+  active: 'TRUE'
+  description: Ridge Top
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition:
+  source:

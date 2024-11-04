@@ -1,0 +1,25 @@
+INTENTIONAL:
+  active: 'TRUE'
+  description: Intentional
+  definition:
+  source:
+UNINTENTIONAL:
+  active: 'TRUE'
+  description: Unintentional
+  definition:
+  source:
+CONTAINER_CONTAINMENT_FAILURE:
+  active: 'TRUE'
+  description: Container / Containment Failure
+  definition:
+  source:
+ACT_OF_NATURE:
+  active: 'TRUE'
+  description: Act of Nature
+  definition:
+  source:
+CAUSE_UNDER_INVESTIGATION:
+  active: 'TRUE'
+  description: Cause Under Investigation
+  definition:
+  source:

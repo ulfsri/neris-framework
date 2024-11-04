@@ -1,0 +1,25 @@
+INTERNAL_COMBUSTION:
+  active: 'TRUE'
+  description: Internal Combustion
+  definition:
+  source:
+ELECTRIC:
+  active: 'TRUE'
+  description: Electric
+  definition:
+  source:
+PLUG_IN_HYBRID:
+  active: 'TRUE'
+  description: Plug-In Hybrid
+  definition:
+  source:
+HYBRID:
+  active: 'TRUE'
+  description: Hybrid
+  definition:
+  source:
+COMPRESSED_NATURAL_GAS:
+  active: 'TRUE'
+  description: Compressed Natural Gas
+  definition:
+  source: 

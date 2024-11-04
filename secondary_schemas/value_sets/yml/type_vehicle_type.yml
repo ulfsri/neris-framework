@@ -1,0 +1,125 @@
+AUTOMOBILE:
+  active: 'TRUE'
+  description: Automobile
+  definition:
+  source:
+AIRPLANE:
+  active: 'TRUE'
+  description: Airplane
+  definition:
+  source:
+HELICOPTER:
+  active: 'TRUE'
+  description: Helicopter
+  definition:
+  source:
+AERIAL_OTHER:
+  active: 'TRUE'
+  description: Aerial - Other
+  definition:
+  source:
+BOAT_SHIP:
+  active: 'TRUE'
+  description: Boat / Ship
+  definition: 
+  source:
+MOTORCYCLE:
+  active: 'TRUE'
+  description: Motorcycle
+  definition:
+  source:
+RAIL:
+  active: 'TRUE'
+  description: Rail
+  definition:
+  source:
+TRAILER:
+  active: 'TRUE'
+  description: Trailer
+  definition:
+  source:
+FARM:
+  active: 'TRUE'
+  description: Farm
+  definition:
+  source:
+FOOD_TRUCK:
+  active: 'TRUE'
+  description: Food Truck
+  definition:
+  source:
+CONSTRUCTION:
+  active: 'TRUE'
+  description: Construction
+  definition:
+  source:
+MOTORIZED_HOME:
+  active: 'TRUE'
+  description: Motorized Home
+  definition:
+  source:
+BUS:
+  active: 'TRUE'
+  description: Bus
+  definition:
+  source:
+ATV:
+  active: 'TRUE'
+  description: ATV
+  definition:
+  source:
+SPORT_UTILITY:
+  active: 'TRUE'
+  description: Sport Utility
+  definition:
+  source:
+MILITARY_OTHER:
+  active: 'TRUE'
+  description: Miltary - Other
+  definition:
+  source:
+UTILITY_VEHICLE:
+  active: 'TRUE'
+  description: Utility Vehicles
+  definition:
+  source:
+AERIAL_LIFT_PLATFORM:
+  active: 'TRUE'
+  description: Aerial Lift Platform
+  definition:
+  source:
+TOW_TRUCK:
+  active: 'TRUE'
+  description: Tow Truck
+  definition:
+  source:
+VAN:
+  active: 'TRUE'
+  description: Van
+  definition:
+  source:
+CARGO:
+  active: 'TRUE'
+  description: Cargo
+  definition:
+  source:
+FREIGHT:
+  active: 'TRUE'
+  description: Freight
+  definition:
+  source:
+SCOOTER_MOPED:
+  active: 'TRUE'
+  description: Scooter / Moped
+  definition:
+  source:
+BICYCLE:
+  active: 'TRUE'
+  description: Bicycle
+  definition:
+  source:
+JET_SKI:
+  active: 'TRUE'
+  description: Jet Ski
+  definition:
+  source:

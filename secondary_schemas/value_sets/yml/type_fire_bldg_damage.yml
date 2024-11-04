@@ -1,0 +1,20 @@
+NO_DAMAGE:
+  active: 'TRUE'
+  description: No Damage
+  definition:
+  source:
+MINOR_DAMAGE:
+  active: 'TRUE'
+  description: Minor (Limited Smoke / Fire / Water Damage, No Occupant Displacement)
+  definition:
+  source:
+MODERATE_DAMAGE:
+  active: 'TRUE'
+  description: Moderate (Flame / Water / Smoke Damage, Possible Occupant Displacement)
+  definition:
+  source:
+MAJOR_DAMAGE:
+  active: 'TRUE'
+  description: Major (Flame / Smoke / Water Damage Resulting in Total Property Loss, Occupant Displacement)
+  definition:
+  source:

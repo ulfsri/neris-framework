@@ -1,0 +1,25 @@
+SLOW:
+  active: 'TRUE'
+  description: Slow
+  definition:
+  source:
+MODERATE:
+  active: 'TRUE'
+  description: Moderate
+  definition:
+  source:
+DANGEROUS:
+  active: 'TRUE'
+  description: Dangerous
+  definition:
+  source:
+CRITICAL:
+  active: 'TRUE'
+  description: Critical
+  definition:
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition:
+  source:

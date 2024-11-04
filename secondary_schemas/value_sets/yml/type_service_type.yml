@@ -1,0 +1,15 @@
+VOLUNTEER:
+  active: 'TRUE'
+  description: Volunteer
+  definition:
+  source:
+CAREER:
+  active: 'TRUE'
+  description: Career
+  definition:
+  source:
+COMBINATION:
+  active: 'TRUE'
+  description: Combination
+  definition:
+  source:

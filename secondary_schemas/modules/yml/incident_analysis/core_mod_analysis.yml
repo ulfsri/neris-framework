@@ -1,0 +1,168 @@
+NERIS_ID:
+  type: Text
+  group: dispatch
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: true
+  value_set_location: dept.neris_id
+  description: Unique identifier for the agency in NERIS.  Entity type plus state and county FIPS plus with random trailing characters.
+  example: FD06067001
+  comments:
+incident_number:
+  type: Text
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Unique numeric identifier for the event that requires dispatch of department resources.
+  example: FDID_20230814000001
+  comments: Comes from Dispatch or Incident module
+incident_type:
+  type: Array[Text]
+  group: incident
+  possible_if:
+  computed: true
+  computed_from: mod_incident
+  cardinality: Multi
+  value_set: true
+  value_set_location: value_1 and value_2
+  description: First and Second level disposition or final incident type as assessed on scene.
+  example: See type_inc table value 2
+  comments: Comes from Incident module and drives other modules within analysis
+human_factors:
+  type: Array[Text]
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: type_human_factors
+  description: Human factors that may have contributed to the incident outcome.
+  example: See type_human_factors
+  comments: Which of these are potential options
+consumer_product_involved:
+  type: Boolean
+  group: consumer_product
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location: module_consumer_products
+  description: Whether a consumer product was a contributed factor to the cause of the inicident.
+  example: 'True'
+  comments: Leads to consumer product module
+analysis_start_date:
+  type: Datetime (UTC)
+  group: analysis
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of incident analysis start
+  example: '2024-05-07 00:00:00'
+  comments:
+analysis_end_date:
+  type:
+  group: analysis
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Date of incident analysis close.
+  example:
+  comments:
+casualties_ff:
+  type: Module
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: module casualties_ff
+  description: Whether there were firefighter casualties during the incident that may not have been captured previously.
+  example:
+  comments:
+casualties_nonff:
+  type: Module
+  group: incident
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Multi
+  value_set: true
+  value_set_location: module_casualties_nonff
+  description: Whether there were non firefighter casualties during the incident that may not have been captured previously.
+  example:
+  comments:
+property_value:
+  type: Integer
+  group: analysis
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Estimated property value, if applicable.
+  example:
+  comments:
+contents_value:
+  type: Integer
+  group: analysis
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Estimated contents value, if applicable.
+  example:
+  comments:
+property_value_loss:
+  type: Integer
+  group: analysis
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Estimated property value loss, if applicable.
+  example:
+  comments:
+contents_value_loss:
+  type: Integer
+  group: analysis
+  possible_if:
+  computed: false
+  computed_from:
+  cardinality: Single
+  value_set: false
+  value_set_location:
+  description: Estimated contents value loss, if applicable.
+  example:
+  comments:
+location_use:
+  type: Module
+  group: incident
+  possible_if:
+  computed: true
+  computed_from: incident_module
+  cardinality: Single
+  value_set: false
+  value_set_location: shared.mod_location_use
+  description: Use of property
+  example: See shared/mod_location_use
+  comments: Can come from incident module and confirmed or independently completed  during analysis

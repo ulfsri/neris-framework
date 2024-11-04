@@ -1,0 +1,85 @@
+OBSTRUCTION:
+  active: 'TRUE'
+  description: Obstruction
+  definition:
+  source:
+VISUAL_BARRIER:
+  active: 'TRUE'
+  description: Visual barrier
+  definition:
+  source:
+BROKEN_STEM:
+  active: 'TRUE'
+  description: Broken stem
+  definition:
+  source:
+HARD_OPEN:
+  active: 'TRUE'
+  description: Hard open
+  definition:
+  source:
+HARD_CLOSE:
+  active: 'TRUE'
+  description: Hard close
+  definition: 
+  source:
+LEAKING:
+  active: 'TRUE'
+  description: Leaking
+  definition:
+  source:
+CAP_MISSING:
+  active: 'TRUE'
+  description: Cap Missing
+  definition:
+  source:
+CAP_NOT_REMOVABLE:
+  active: 'TRUE'
+  description: Cap not removable
+  definition:
+  source:
+CHATTER:
+  active: 'TRUE'
+  description: Chatter
+  definition:
+  source:
+DEFECTIVE_THREAD:
+  active: 'TRUE'
+  description: Defective thread
+  definition:
+  source:
+DRAIN_DEFECTIVE:
+  active: 'TRUE'
+  description: Drain defective
+  definition:
+  source:
+FROZEN:
+  active: 'TRUE'
+  description: Frozen
+  definition:
+  source:
+NON_FUNCTION_FROST_JACKET:
+  active: 'TRUE'
+  description: Non-functional frost jacket
+  definition:
+  source:
+CHAINS_MISSING:
+  active: 'TRUE'
+  description: Chains missing
+  definition:
+  source:
+NEEDS_PAINT:
+  active: 'TRUE'
+  description: Needs paint
+  definition:
+  source:
+MARKER_MISSING:
+  active: 'TRUE'
+  description: Maker missing
+  definition:
+  source:
+NEEDS_GREASE:
+  active: 'TRUE'
+  description: Needs grease
+  definition:
+  source:

@@ -1,0 +1,45 @@
+SPILL:
+  active: 'TRUE'
+  description: Spill
+  definition:
+  source:
+LEAK:
+  active: 'TRUE'
+  description: Leak
+  definition:
+  source:
+FIRE:
+  active: 'TRUE'
+  description: Fire
+  definition:
+  source:
+EXPLOSION:
+  active: 'TRUE'
+  description: Explosion
+  definition:
+  source:
+MATERIAL_ENTERED_WATERWAY:
+  active: 'TRUE'
+  description: Material Entered Waterway/Storm Sewer
+  definition:
+  source:
+SOLID_DISPERSION:
+  active: 'TRUE'
+  description: Solid Dispersion
+  definition:
+  source:
+VAPOR_GAS_DISPERSION:
+  active: 'TRUE'
+  description: Vapor/Gas Dispersion
+  definition:
+  source:
+ENVIRONMENTAL_DAMAGE:
+  active: 'TRUE'
+  description: Environmental Damage
+  definition:
+  source:
+NO_RELEASE:
+  active: 'TRUE'
+  description: No Release
+  definition:
+  source:

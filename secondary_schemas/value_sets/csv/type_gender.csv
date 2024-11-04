@@ -1,0 +1,7 @@
+value,active,description,definition,source
+MALE,True,Male,,
+FEMALE,True,Female,,
+TRANSGENDER_MALE_FEMALE_TO_MALE,True,Transgender Male (Female to Male),,
+TRANSGENDER_FEMALE_MALE_TO_FEMALE,True,Transgender Female (Male to Female),,
+OTHER_GENDER_IDENTITY,True,"Other, neither exclusively male or female",,
+UNKNOWN,True,Unknown (Unable to be determined),,

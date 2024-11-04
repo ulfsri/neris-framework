@@ -1,0 +1,55 @@
+24_ON_24_OFF:
+  active: 'TRUE'
+  description: 24 hours on, 24 hours off
+  definition:
+  source:
+24_ON_48_OFF:
+  active: 'TRUE'
+  description: 24 hours on, 48 hours off
+  definition:
+  source:
+24_ON_72_OFF:
+  active: 'TRUE'
+  description: 24 hours on, 72 hours off
+  definition:
+  source:
+48_ON_96_OFF:
+  active: 'TRUE'
+  description: 48 hours on, 96 hours off
+  definition:
+  source:
+72_ON_96_OFF:
+  active: 'TRUE'
+  description: 72 hours on, 96 hours off
+  definition:
+  source:
+10_ON_14_OFF:
+  active: 'TRUE'
+  description: 10 hours on, 14 hours off
+  definition:
+  source:
+9_ON_15_OFF:
+  active: 'TRUE'
+  description: 9 hours on, 15 hours off
+  definition:
+  source:
+12_ON_12_OFF:
+  active: 'TRUE'
+  description: 12 hours on, 12 hours off
+  definition:
+  source:
+8_HRS_5_DAYS:
+  active: 'TRUE'
+  description: 8 hours, 5 days a week
+  definition:
+  source:
+10_HRS_4_DAYS:
+  active: 'TRUE'
+  description: 10 hours, 4 days a week
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

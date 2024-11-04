@@ -1,0 +1,20 @@
+NATURAL:
+  active: 'TRUE'
+  description: Natural
+  definition:
+  source:
+ACCIDENTAL:
+  active: 'TRUE'
+  description: Accidental
+  definition:
+  source:
+INCENDIARY:
+  active: 'TRUE'
+  description: Incendiary
+  definition:
+  source:
+UNDETERMINED:
+  active: 'TRUE'
+  description: Undetermined
+  definition: 
+  source:

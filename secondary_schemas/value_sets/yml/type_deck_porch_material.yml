@@ -1,0 +1,35 @@
+COMPOSITE:
+  active: 'TRUE'
+  description: Composite
+  definition:
+  source:
+MASONRY/CONCRETE:
+  active: 'TRUE'
+  description: Masonry/Concrete
+  definition:
+  source:
+WOOD:
+  active: 'TRUE'
+  description: Wood
+  definition:
+  source:
+VINYL_PLASTIC_PVC:
+  active: 'TRUE'
+  description: Vinyl / Plastic / PVC
+  definition:
+  source:
+METAL:
+  active: 'TRUE'
+  description: Metal
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition: 
+  source:
+UNKNOWN:
+  active: 'TRUE'
+  description: Unknown
+  definition:
+  source:

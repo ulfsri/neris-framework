@@ -1,0 +1,255 @@
+SMOKE_INHALATION:
+  active: 'TRUE'
+  description: Smoke inhalation
+  definition:
+  source:
+HAZARDOUS_FUMES_INHALATION:
+  active: 'TRUE'
+  description: Hazardous fumes inhalation
+  definition:
+  source:
+DIFFICULTY_BREATHING:
+  active: 'TRUE'
+  description: Difficulty breathing, shortness of breath
+  definition:
+  source:
+BURNS_THERMAL:
+  active: 'TRUE'
+  description: Burns, thermal
+  definition:
+  source:
+BURNS_SCALD:
+  active: 'TRUE'
+  description: Burns, scald
+  definition:
+  source:
+BURNS_CHEMICAL:
+  active: 'TRUE'
+  description: Burns, chemical
+  definition:
+  source:
+BURNS_ELECTRIC:
+  active: 'TRUE'
+  description: Burns, electric
+  definition:
+  source:
+CUT_LACERATION:
+  active: 'TRUE'
+  description: Cut or laceration
+  definition:
+  source:
+STAB_PUNCTURE_WOUND:
+  active: 'TRUE'
+  description: Stab or puncture wound
+  definition:
+  source:
+GUNSHOT_PROJECTILE_WOUND:
+  active: 'TRUE'
+  description: Gunshot or projectile wound
+  definition:
+  source:
+CONTUSION_BRUISE:
+  active: 'TRUE'
+  description: Contusion or bruise
+  definition:
+  source:
+ABRASION:
+  active: 'TRUE'
+  description: Abrasion
+  definition:
+  source:
+DISLOCATION:
+  active: 'TRUE'
+  description: Dislocation
+  definition:
+  source:
+STRAIN_SPRAIN:
+  active: 'TRUE'
+  description: Strain or sprain
+  definition:
+  source:
+FRACTURE:
+  active: 'TRUE'
+  description: Fracture
+  definition:
+  source:
+SWELLING:
+  active: 'TRUE'
+  description: Swelling
+  definition:
+  source:
+CRUSHING:
+  active: 'TRUE'
+  description: Crushing
+  definition:
+  source:
+AMPUTATION:
+  active: 'TRUE'
+  description: Amputation
+  definition:
+  source:
+CARDIAC_SYMPTOMS:
+  active: 'TRUE'
+  description: Cardiac symptoms
+  definition:
+  source:
+CARDIAC_ARREST:
+  active: 'TRUE'
+  description: Cardiac arrest
+  definition:
+  source:
+STROKE:
+  active: 'TRUE'
+  description: Stroke
+  definition:
+  source:
+RESPIRATORY_ARREST:
+  active: 'TRUE'
+  description: Respiratory arrest
+  definition:
+  source:
+CHILLS:
+  active: 'TRUE'
+  description: Chills
+  definition:
+  source:
+FEVER:
+  active: 'TRUE'
+  description: Fever
+  definition:
+  source:
+NAUSEA:
+  active: 'TRUE'
+  description: Nausea
+  definition:
+  source:
+VOMITING:
+  active: 'TRUE'
+  description: Vomiting
+  definition:
+  source:
+NUMBNESS_TINGLING_PARESTHESIA:
+  active: 'TRUE'
+  description: Numbness, tingling, or paresthesia
+  definition:
+  source:
+PARALYSIS:
+  active: 'TRUE'
+  description: Paralysis
+  definition:
+  source:
+FROSTBITE:
+  active: 'TRUE'
+  description: Frostbite
+  definition:
+  source:
+PREGNANCY_CHILDBRITH_MISCARRIAGE:
+  active: 'TRUE'
+  description: Pregnancy/childbirth/miscarriage
+  definition:
+  source:
+EYE_TRAUMA:
+  active: 'TRUE'
+  description: Eye trauma
+  definition:
+  source:
+DROWNING:
+  active: 'TRUE'
+  description: Drowning
+  definition:
+  source:
+FOREIGN_BODY_OBSTRUCTION:
+  active: 'TRUE'
+  description: Foreign body obstruction
+  definition:
+  source:
+ELECTRIC_SHOCK:
+  active: 'TRUE'
+  description: Electric shock
+  definition:
+  source:
+POISON:
+  active: 'TRUE'
+  description: Poison
+  definition:
+  source:
+CONVULSION_SEIZURE:
+  active: 'TRUE'
+  description: Convulsion or seizure
+  definition:
+  source:
+INTERNAL_TRAUMA:
+  active: 'TRUE'
+  description: Internal trauma
+  definition:
+  source:
+HEMORRHAGING_INTERNAL_BLEEDING:
+  active: 'TRUE'
+  description: Hemorrhaging, internal bleeding
+  definition:
+  source:
+DISORIENTATION:
+  active: 'TRUE'
+  description: Disorientation
+  definition:
+  source:
+DIZZINESS_FAINTING_WEAKNESS:
+  active: 'TRUE'
+  description: Dizziness, fainting, weakness
+  definition:
+  source:
+HEAT_STROKE:
+  active: 'TRUE'
+  description: Heat stroke
+  definition:
+  source:
+DEHYDRATION:
+  active: 'TRUE'
+  description: Dehydration
+  definition:
+  source:
+ALLERGIC_REACTION:
+  active: 'TRUE'
+  description: Allergic reaction
+  definition:
+  source:
+DRUG_OVERDOSE_DRUG_RELATED:
+  active: 'TRUE'
+  description: Drug overdose or drug-related
+  definition:
+  source:
+ALCOHOL_IMIPAIRMENT:
+  active: 'TRUE'
+  description: Alcohol impairment
+  definition:
+  source:
+EMOTIONAL_PSYCHOLOGICAL_DISTRESS:
+  active: 'TRUE'
+  description: Emotional or psychological distress
+  definition:
+  source:
+MENTAL_HEALTH:
+  active: 'TRUE'
+  description: Mental health
+  definition:
+  source:
+SHOCK:
+  active: 'TRUE'
+  description: 'Shock '
+  definition:
+  source:
+UNCONSCIOUS:
+  active: 'TRUE'
+  description: Unconscious
+  definition:
+  source:
+PAIN_ONLY:
+  active: 'TRUE'
+  description: Pain only
+  definition:
+  source:
+OTHER:
+  active: 'TRUE'
+  description: Other
+  definition:
+  source:

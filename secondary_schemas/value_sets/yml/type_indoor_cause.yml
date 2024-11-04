@@ -1,0 +1,693 @@
+'NATURAL: LIGHTNING':
+  active: 'TRUE'
+  value_1: NATURAL
+  value_2: LIGHTNING
+  description_1: Natural
+  description_2: Lightning
+  comments: 
+'NATURAL: VOLCANO':
+  active: 'TRUE'
+  value_1: NATURAL
+  value_2: VOLCANO
+  description_1: Natural
+  description_2: Volcano
+  comments: 
+'NATURAL: SPONTANEOUS_COMBUSTION':
+  active: 'TRUE'
+  value_1: NATURAL
+  value_2: SPONTANEOUS_COMBUSTION
+  description_1: Natural
+  description_2: Spontaneous Combustion
+  comments: 
+'NATURAL: OTHER':
+  active: 'TRUE'
+  value_1: NATURAL
+  value_2: OTHER
+  description_1: Natural
+  description_2: Other
+  comments: 
+'NATURAL: UNKNOWN':
+  active: 'TRUE'
+  value_1: NATURAL
+  value_2: UNKNOWN
+  description_1: Natural
+  description_2: Unknown
+  comments: 
+'EQUIPMENT_APPLIANCE: HOT_WORK':
+  active: 'TRUE'
+  value_1: EQUIPMENT_APPLIANCE
+  value_2: HOT_WORK
+  description_1: Equipment or Appliance
+  description_2: Hot Work (Welder, Grinder, Torch, Cutter)
+  comments: Prompts consumer_product 
+'EQUIPMENT_APPLIANCE: OTHER_SMALL_ENGINE_EQUIPMENT':
+  active: 'TRUE'
+  value_1: EQUIPMENT_APPLIANCE
+  value_2: OTHER_SMALL_ENGINE_EQUIPMENT
+  description_1: Equipment or Appliance
+  description_2: Other Small Engine Equipment
+  comments: Prompts consumer_product 
+'EQUIPMENT_APPLIANCE: OTHER':
+  active: 'TRUE'
+  value_1: EQUIPMENT_APPLIANCE
+  value_2: OTHER
+  description_1: Equipment or Appliance
+  description_2: Other
+  comments: Prompts co nsumer_product
+'EQUIPMENT_APPLIANCE: UNKNOWN':
+  active: 'TRUE'
+  value_1: EQUIPMENT_APPLIANCE
+  value_2: UNKNOWN
+  description_1: Equipment or Appliance
+  description_2: Unknown
+  comments: Prompts cons umer_product
+'EQUIPMENT_APPLIANCE: HEATING_COOLING_EQUIPMENT':
+  active: 'TRUE'
+  value_1: EQUIPMENT_APPLIANCE
+  value_2: HEATING_COOLING_EQUIPMENT
+  description_1: Equipment or Appliance
+  description_2: Heating or Cooling Equipment
+  comments: Prompts consumer_product 
+'EQUIPMENT_APPLIANCE: ELECTRICAL_EQUIPMENT':
+  active: 'TRUE'
+  value_1: EQUIPMENT_APPLIANCE
+  value_2: ELECTRICAL_EQUIPMENT
+  description_1: Equipment or Appliance
+  description_2: Electrical Equipment
+  comments: Prompts consumer_product 
+'COOKING: OIL_GREASE':
+  active: 'TRUE'
+  value_1: COOKING
+  value_2: OIL_GREASE
+  description_1: Cooking
+  description_2: Oil or grease
+  comments: 
+'COOKING: KITCHEN_APPLIANCE_OVEN':
+  active: 'TRUE'
+  value_1: COOKING
+  value_2: KITCHEN_APPLIANCE_OVEN
+  description_1: Cooking
+  description_2: Kitchen Appliance or Oven
+  comments: 
+'COOKING: DRY_COOKING':
+  active: 'TRUE'
+  value_1: COOKING
+  value_2: DRY_COOKING
+  description_1: Cooking
+  description_2: Dry Food and Materials
+  comments: 
+'CHEMICAL: CHEMICAL_LABORATORY':
+  active: 'TRUE'
+  value_1: CHEMICAL
+  value_2: CHEMICAL_LABORATORY
+  description_1: Chemical
+  description_2: Chemical or Laboratory
+  comments: 
+'FIREARMS_EXPLOSIVES: BLACK_POWDER_MUZZLE_LOADING':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: BLACK_POWDER_MUZZLE_LOADING
+  description_1: Firearms and Explosive Use
+  description_2: Black Powder / Muzzle Loading
+  comments: 
+'FIREARMS_EXPLOSIVES: BLASTING':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: BLASTING
+  description_1: Firearms and Explosive Use
+  description_2: Blasting
+  comments: 
+'FIREARMS_EXPLOSIVES: EXPLODING_TARGET_SHOOTING':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: EXPLODING_TARGET_SHOOTING
+  description_1: Firearms and Explosive Use
+  description_2: Exploding Target Shooting
+  comments: 
+'FIREARMS_EXPLOSIVES: DETONATING_CORD':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: DETONATING_CORD
+  description_1: Firearms and Explosive Use
+  description_2: Detonating Cord
+  comments: 
+'FIREARMS_EXPLOSIVES: FLARES_FUSES':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: FLARES_FUSES
+  description_1: Firearms and Explosive Use
+  description_2: Flares / Fuses
+  comments: 
+'FIREARMS_EXPLOSIVES: INERT_TARGET_SHOOTING':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: INERT_TARGET_SHOOTING
+  description_1: Firearms and Explosive Use
+  description_2: Inert Target Shooting
+  comments: 
+'FIREARMS_EXPLOSIVES: MILITARY_ORDINANCE':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: MILITARY_ORDINANCE
+  description_1: Firearms and Explosive Use
+  description_2: Military ordinance
+  comments: 
+'FIREARMS_EXPLOSIVES: NON_MILITARY_TRACER':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: NON_MILITARY_TRACER
+  description_1: Firearms and Explosive Use
+  description_2: Non-Military Tracer
+  comments: 
+'FIREARMS_EXPLOSIVES: AMMONIUM_NITRATE_FUEL_OIL':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: AMMONIUM_NITRATE_FUEL_OIL
+  description_1: Firearms and Explosive Use
+  description_2: Ammonium Nitrate Fuel Oil (ANFO)
+  comments: 
+'FIREARMS_EXPLOSIVES: IMPROVISED_EXPLOSIVE_DEVICE':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: IMPROVISED_EXPLOSIVE_DEVICE
+  description_1: Firearms and Explosive Use
+  description_2: Improvised Explosive Device
+  comments: 
+'FIREARMS_EXPLOSIVES: PIPE_BOMB':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: PIPE_BOMB
+  description_1: Firearms and Explosive Use
+  description_2: Pipe Bomb
+  comments: 
+'FIREARMS_EXPLOSIVES: OTHER_EXPLOSIVES':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: OTHER_EXPLOSIVES
+  description_1: Firearms and Explosive Use
+  description_2: Other Explosives
+  comments: 
+'FIREARMS_EXPLOSIVES: OTHER':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: OTHER
+  description_1: Firearms and Explosive Use
+  description_2: Other
+  comments: 
+'FIREARMS_EXPLOSIVES: UNKNOWN':
+  active: 'TRUE'
+  value_1: FIREARMS_EXPLOSIVES
+  value_2: UNKNOWN
+  description_1: Firearms and Explosive Use
+  description_2: Unknown
+  comments: 
+'FIREWORKS: EXPLOSIVES M_8':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosives
+  comments: 
+'FIREWORKS: EXPLOSIVES M_10':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosives0
+  comments: 
+'FIREWORKS: EXPLOSIVES M_100':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosives00
+  comments: 
+'FIREWORKS: EXPLOSIVES 1_4_Stic':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: ExplosivesStick
+  comments: 
+'FIREWORKS: EXPLOSIVES CHERRY_BOM':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosivesry Bomb
+  comments: 
+'FIREWORKS: EXPLOSIVES SILVER_SALUT':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosiveser Salute
+  comments: 
+'FIREWORKS: EXPLOSIVES SPARKLER_BOM':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosiveskler Bomb
+  comments: 
+'FIREWORKS: EXPLOSIVES ALTERED_CONSUMER_FIREWORK':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosivesred Consumer Firework
+  comments: 
+'FIREWORKS: EXPLOSIVES HOMEMADE_EXPLOSIVE_DEVIC':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: EXPLOSIVES
+  description_1: Fireworks
+  description_2: Explosivesmade Explosive Device
+  comments: 
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_AERIAL_SHEL':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: PROFESSIONAL_DISPLAY
+  description_1: Fireworks
+  description_2: Professional Public Display Shells
+  comments: 
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_LOW_LEVE':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: PROFESSIONAL_DISPLAY
+  description_1: Fireworks
+  description_2: Professional Public Displayvel
+  comments: 
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_GROUND_LEVE':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: PROFESSIONAL_DISPLAY
+  description_1: Fireworks
+  description_2: Professional Public Display-Level
+  comments: 
+'FIREWORKS: PROFESSIONAL_DISPLAY OUTDOOR_PROXIMAT':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: PROFESSIONAL_DISPLAY
+  description_1: Fireworks
+  description_2: Professional Public Displayate
+  comments: 
+'FIREWORKS: PROFESSIONAL_DISPLAY INDOOR_PROXIMAT':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: PROFESSIONAL_DISPLAY
+  description_1: Fireworks
+  description_2: Professional Public Displayte
+  comments: 
+'FIREWORKS: CONSUMER_AERIAL COMETS_MINES_SHELL':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_AERIAL
+  description_1: Fireworks
+  description_2: Consumer AerialMines / Shells
+  comments: 
+'FIREWORKS: CONSUMER_AERIAL RELOADABLE_TUBE_AERIA':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Aeriale Tube Aerial
+  comments: 
+'FIREWORKS: CONSUMER_AERIAL ROMAN_CANDLE':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Aerialdles
+  comments: 
+'FIREWORKS: CONSUMER_AERIAL ROCKET':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  comments: 
+'FIREWORKS: CONSUMER_AERIAL MISSILE':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Aerial
+  comments: 
+'FIREWORKS: CONSUMER_AERIAL HELICOPTER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Aerialrs
+  comments: 
+'FIREWORKS: CONSUMER_AERIAL OTHER_SPECIALTY_ITEM':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Aerialcialty Items
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL COMBINAITON_ITEM':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerialtems
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL FOUNTAIN':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL GROUND_SPINNER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerialrs
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL HANDHELD_SPARKLER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerialklers
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL WHEEL':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL FIRECRACKER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL CHASER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerial
+  comments: 
+'FIREWORKS: CONSUMER_NON_AERIAL OTHER_SPECIALTY_ITEM':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: CONSUMER_NON_AERIAL
+  description_1: Fireworks
+  description_2: Consumer Non-Aerialty Items
+  comments: 
+'FIREWORKS: DEREGULATED_NOVELTIES SNAP_CAP':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: DEREGULATED_NOVELTIES
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  comments: 
+'FIREWORKS: DEREGULATED_NOVELTIES PARTY_POPPER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: DEREGULATED_NOVELTIES
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  comments: 
+'FIREWORKS: DEREGULATED_NOVELTIES SMOKE_BALL':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: DEREGULATED_NOVELTIES
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  comments: 
+'FIREWORKS: DEREGULATED_NOVELTIES SNAKE':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: DEREGULATED_NOVELTIES
+  description_1: Fireworks
+  description_2: Deregulated Novelties
+  comments: 
+'FIREWORKS: DEREGULATED_NOVELTIES WIRE_CORE_SPARKLER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: DEREGULATED_NOVELTIES
+  description_1: Fireworks
+  description_2: Deregulated Noveltieslers
+  comments: 
+'FIREWORKS: MODEL_AMATEUR_ROCKETS':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: MODEL_AMATEUR_ROCKETS
+  description_1: Fireworks
+  description_2: Model / Amateur Rockets
+  comments: 
+'FIREWORKS: OTHER':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: OTHER
+  description_1: Fireworks
+  description_2: Other
+  comments: 
+'FIREWORKS: UNKNOWN':
+  active: 'TRUE'
+  value_1: FIREWORKS
+  value_2: UNKNOWN
+  description_1: Fireworks
+  description_2: Unknown
+  comments: 
+'POWER_GEN_TRANS_DIST: ELECTRICAL_TRANSMISSION_DISTRIBUTION_SYSTEMS':
+  active: 'TRUE'
+  value_1: POWER_GEN_TRANS_DIST
+  value_2: ELECTRICAL_TRANSMISSION_DISTRIBUTION_SYSTEMS
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Electrical Transmission / Distribution Systems
+  comments: 
+'POWER_GEN_TRANS_DIST: SOLAR_UTILITY_SYSTEM':
+  active: 'TRUE'
+  value_1: POWER_GEN_TRANS_DIST
+  value_2: SOLAR_UTILITY_SYSTEM
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Solar Utility System
+  comments: Includes photovoltaic sys tems
+'POWER_GEN_TRANS_DIST: ENERGY_STORAGE_SYSTEM':
+  active: 'TRUE'
+  value_1: POWER_GEN_TRANS_DIST
+  value_2: ENERGY_STORAGE_SYSTEM
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Energy Storage System
+  comments: 
+'POWER_GEN_TRANS_DIST: OTHER':
+  active: 'TRUE'
+  value_1: POWER_GEN_TRANS_DIST
+  value_2: OTHER
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Other
+  comments: 
+'POWER_GEN_TRANS_DIST: UNKNOWN':
+  active: 'TRUE'
+  value_1: POWER_GEN_TRANS_DIST
+  value_2: UNKNOWN
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Unknown
+  comments: 
+'POWER_GEN_TRANS_DIST: BATTERY_CONSUMER_PRODUCT':
+  active: 'TRUE'
+  value_1: POWER_GEN_TRANS_DIST
+  value_2: BATTERY_CONSUMER_PRODUCT
+  description_1: Power Generation / Transmission / Distribution
+  description_2: Battery Consumer Product
+  comments: Prompts consumer_product 
+'RECREATION_CEREMONY: BARBEQUE_SMOKER':
+  active: 'TRUE'
+  value_1: RECREATION_CEREMONY
+  value_2: BARBEQUE_SMOKER
+  description_1: Recreation / Ceremony
+  description_2: Barbeque / Smoker
+  comments: 
+'RECREATION_CEREMONY: LUMINARY_CANDLES_INCENSE':
+  active: 'TRUE'
+  value_1: RECREATION_CEREMONY
+  value_2: LUMINARY_CANDLES_INCENSE
+  description_1: Recreation / Ceremony
+  description_2: Luminary, candle or incense
+  comments: 
+'RECREATION_CEREMONY: OTHER':
+  active: 'TRUE'
+  value_1: RECREATION_CEREMONY
+  value_2: OTHER
+  description_1: Recreation / Ceremony
+  description_2: Other
+  comments: 
+'RECREATION_CEREMONY: UNKNOWN':
+  active: 'TRUE'
+  value_1: RECREATION_CEREMONY
+  value_2: UNKNOWN
+  description_1: Recreation / Ceremony
+  description_2: Unknown
+  comments: 
+'RECREATION_CEREMONY: EXPOSURE_FIRE_PIT_OPEN_FLAME':
+  active: 'TRUE'
+  value_1: RECREATION_CEREMONY
+  value_2: EXPOSURE_FIRE_PIT_OPEN_FLAME
+  description_1: Recreation / Ceremony
+  description_2: Exposure from Fire Pit or Open Flame
+  comments: 
+'SMOKING_MATERIALS_ILLICIT_DRUGS: CIGAR_CIGARETTE_PIPE':
+  active: 'TRUE'
+  value_1: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_2: CIGAR_CIGARETTE_PIPE
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Cigar / Cigarette / Pipe
+  comments: 
+'SMOKING_MATERIALS_ILLICIT_DRUGS: ELECTRONIC_CIGARETTE':
+  active: 'TRUE'
+  value_1: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_2: ELECTRONIC_CIGARETTE
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Electronic Cigarette
+  comments: 
+'SMOKING_MATERIALS_ILLICIT_DRUGS: DRUG_PARAPHERNALIA':
+  active: 'TRUE'
+  value_1: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_2: DRUG_PARAPHERNALIA
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Drug Paraphernalia
+  comments: 
+'SMOKING_MATERIALS_ILLICIT_DRUGS: ILLEGAL_SUBSTANCE_MANUFACTURE':
+  active: 'TRUE'
+  value_1: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_2: ILLEGAL_SUBSTANCE_MANUFACTURE
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Illegal Substance Manufacture
+  comments: 
+'SMOKING_MATERIALS_ILLICIT_DRUGS: OTHER':
+  active: 'TRUE'
+  value_1: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_2: OTHER
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Other
+  comments: 
+'SMOKING_MATERIALS_ILLICIT_DRUGS: UNKNOWN':
+  active: 'TRUE'
+  value_1: SMOKING_MATERIALS_ILLICIT_DRUGS
+  value_2: UNKNOWN
+  description_1: Smoking Materials and Illicit Drugs
+  description_2: Unknown
+  comments: 
+'MISUSE_FIRE: LIGHTER_MATCHES':
+  active: 'TRUE'
+  value_1: MISUSE_FIRE
+  value_2: LIGHTER_MATCHES
+  description_1: Misuse of Fire
+  description_2: Lighter / Matches
+  comments: 
+'MISUSE_FIRE: GLASS_REFRACTION_MAGNIFYING_GLASS':
+  active: 'TRUE'
+  value_1: MISUSE_FIRE
+  value_2: GLASS_REFRACTION_MAGNIFYING_GLASS
+  description_1: Misuse of Fire
+  description_2: Glass Refraction / Magnifying Glass
+  comments: 
+'MISUSE_FIRE: INCENDIARY_DEVICE':
+  active: 'TRUE'
+  value_1: MISUSE_FIRE
+  value_2: INCENDIARY_DEVICE
+  description_1: Misuse of Fire
+  description_2: Incendiary Device
+  comments: 
+'MISUSE_FIRE: FLINT_FRICTION':
+  active: 'TRUE'
+  value_1: MISUSE_FIRE
+  value_2: FLINT_FRICTION
+  description_1: Misuse of Fire
+  description_2: Flint / Friction
+  comments: 
+'MISUSE_FIRE: OTHER':
+  active: 'TRUE'
+  value_1: MISUSE_FIRE
+  value_2: OTHER
+  description_1: Misuse of Fire
+  description_2: Other
+  comments: 
+'MISUSE_FIRE: UNKNOWN':
+  active: 'TRUE'
+  value_1: MISUSE_FIRE
+  value_2: UNKNOWN
+  description_1: Misuse of Fire
+  description_2: Unknown
+  comments: 
+'ARSON: DEVICE':
+  active: 'TRUE'
+  value_1: ARSON
+  value_2: DEVICE
+  description_1: Arson
+  description_2: Device
+  comments: 
+'ARSON: HOT_SET':
+  active: 'TRUE'
+  value_1: ARSON
+  value_2: HOT_SET
+  description_1: Arson
+  description_2: Hot Set
+  comments: 
+'ARSON: OTHER':
+  active: 'TRUE'
+  value_1: ARSON
+  value_2: OTHER
+  description_1: Arson
+  description_2: Other
+  comments: 
+'ARSON: UNKNOWN':
+  active: 'TRUE'
+  value_1: ARSON
+  value_2: UNKNOWN
+  description_1: Arson
+  description_2: Unknown
+  comments: 
+'EXPOSURE: SPREAD_FROM_OUTSIDE_STRUCTURE':
+  active: 'TRUE'
+  value_1: EXPOSURE
+  value_2: SPREAD_FROM_OUTSIDE_STRUCTURE
+  description_1: Exposure
+  description_2: Spread From Other Structure or Outdoor Object
+  comments: 
+'EQUIPMENT_APPLIANCE: ELECTRIC_FENCE':
+  active: 'TRUE'
+  value_1: EQUIPMENT_APPLIANCE
+  value_2: ELECTRIC_FENCE
+  description_1: Equipment or Appliance
+  description_2: Electric Fence
+  comments: 
+'UNDETERMINED: UNDER_INVESTIGATION':
+  active: 'TRUE'
+  value_1: UNDETERMINED
+  value_2: UNDER_INVESTIGATION
+  description_1: Undetermined
+  description_2: Under Investigation
+  comments: 
+'UNDETERMINED: NOT_INVESTIGATED':
+  active: 'TRUE'
+  value_1: UNDETERMINED
+  value_2: NOT_INVESTIGATED
+  description_1: Undetermined
+  description_2: Not Investigated
+  comments: 
+'UNDETERMINED: ORIGIN_AND_OR_CAUSE_NOT_IDENTIFIED':
+  active: 'TRUE'
+  value_1: UNDETERMINED
+  value_2: ORIGIN_AND_OR_CAUSE_NOT_IDENTIFIED
+  description_1: Undetermined
+  description_2: Origin and / or Cause Not Identified
+  comments: 
+'UNDETERMINED: ORIGIN_DESTROYED':
+  active: 'TRUE'
+  value_1: UNDETERMINED
+  value_2: ORIGIN_DESTROYED
+  description_1: Undetermined
+  description_2: Origin Destroyed
+  comments: 

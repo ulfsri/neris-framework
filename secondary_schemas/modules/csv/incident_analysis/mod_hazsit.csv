@@ -1,0 +1,15 @@
+name,type,group,possible_if,computed,computed_from,cardinality,value_set,value_set_location,description,example,comments
+material_released,Text,material,,False,,Single,False,,Hazardous material involved in the incident,,
+hazardous_class,Array[Text],material,,False,,Single,True,type_hazard_dot,DOT hazardous class of the material released.,See type_hazard_dot,
+electrification,Boolean,material,,False,,Single,False,,Whether an battery gas release or potential release were involved in causing or exacerbating the hazard. ,False,
+hazard_physical_state,Array[Text],material,,False,,Single,True,type_hazard_physical_state,Physical state of the hazardous material.,See type_hazard_physical_state,
+hazsit_type,Array[Text],material,,False,,Single,True,type_hazsit_type,Result type of the incident.,See type_hazsit_type,
+quantity_released,Integer,material,,False,,Single,False,,Quantity of material released.,500,
+quantity_units,Array[Text],material,,False,,Single,True,type_hazard_unit,Units of quantity released.,See type_hazard_unit,
+cause_of_release,Array[Text],incident,,False,,Single,True,type_hazard_cause,General cause of the incident,See type_hazard_cause,
+release_factors,Array[Text],incident,,False,,Single,True,type_hazsit_release_factors,Factors impacting hazardous incident.,See type_hazsit_release_factors,Value 1 and Value 2 for primary and secondary factors
+evacuation_count,Integer,impact,,False,,Single,False,,How many members of the general public were evacuated as a result of the hazardous material?,10,
+transportation_impact,Boolean,impact,,False,,Single,False,,Whether a major transportation artery or facility was closed.,True or False,
+hazmat_disposition,Array[Text],impact,,False,,Single,True,type_hazsit_disposition,Outcome of hazardous situation.,See type_hazsit_disposition,
+description_of_events,Text,impact,,False,,Single,False,,"Describe the events that led to the incident and the actions taken after it was discovered, including mitigation efforts.",,Free text.
+recommendations,Text,impact,,False,,Single,False,,Describe the suggestions or changes recommended to prevent recurrence.,,Free text.
