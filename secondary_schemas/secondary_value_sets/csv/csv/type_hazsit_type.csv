@@ -1,0 +1,10 @@
+,active,value,description,definition,source
+0,True,SPILL,Spill,,
+1,True,LEAK,Leak,,
+2,True,FIRE,Fire,,
+3,True,EXPLOSION,Explosion,,
+4,True,MATERIAL_ENTERED_WATERWAY,Material Entered Waterway/Storm Sewer,,
+5,True,SOLID_DISPERSION,Solid Dispersion,,
+6,True,VAPOR_GAS_DISPERSION,Vapor/Gas Dispersion,,
+7,True,ENVIRONMENTAL_DAMAGE,Environmental Damage,,
+8,True,NO_RELEASE,No Release,,

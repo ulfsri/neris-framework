@@ -1,0 +1,4 @@
+value,active,description,definition,source,xor
+UNINJURED,True,Uninjured,,,NOINJURY
+INJURED_NONFATAL,True,Injured Nonfatal,,,INJURY
+INJURED_FATAL,True,Injured Fatal,,,INJURY

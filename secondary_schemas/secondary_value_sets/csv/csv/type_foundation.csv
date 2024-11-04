@@ -1,0 +1,10 @@
+,active,value,description,definition,source
+0,True,CRAWL_SPACE,Crawl Space,,
+1,True,POURED_CONCRETE_SLAB,Poured Concrete Slab,,
+2,True,FULL_BASEMENT,Full Basement,,
+3,True,SLAB_ON_GRADE,Slab on Grade,,
+4,True,INSULATED_CONCRETE,Insulated Concrete,,
+5,True,PIER_AND_BEAM_PILE,Pier and Beam (Pile),,
+6,True,CONCRETE_PANELS,Concrete Panels,,
+7,True,WOOD,Wood,,
+8,True,STONE,Stone,,

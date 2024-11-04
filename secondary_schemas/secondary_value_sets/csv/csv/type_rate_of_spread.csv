@@ -1,0 +1,6 @@
+,active,value,description,definition,source
+0,True,SLOW,Slow,,
+1,True,MODERATE,Moderate,,
+2,True,DANGEROUS,Dangerous,,
+3,True,CRITICAL,Critical,,
+4,True,UNKNOWN,Unknown,,

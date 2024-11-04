@@ -1,0 +1,6 @@
+,active,value,description,definition,source
+0,True,INTERNAL_COMBUSTION,Internal Combustion,,
+1,True,ELECTRIC,Electric,,
+2,True,PLUG_IN_HYBRID,Plug-In Hybrid,,
+3,True,HYBRID,Hybrid,,
+4,True,COMPRESSED_NATURAL_GAS,Compressed Natural Gas,,

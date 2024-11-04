@@ -1,0 +1,11 @@
+,active,value,description,definition,source
+0,True,NO_ONE_HOME,No one home,,
+1,True,MINOR_HOME_ALONE,Minor home alone,,
+2,True,OCCUPANT_REFUSED,Occupant refused,,
+3,True,LANGUAGE_BARRIER,Language barrier,,
+4,True,VACANT_HOME,Vacant home,,
+5,True,UNSAFE_TO_APPROACH,Unsafe to approach,,
+6,True,NO_TRESPASSING_SIGNS,No trespassing signs,,
+7,True,LOCKED_GATE,Locked gate,,
+8,True,HOSTILE_PERSON,Hostile person,,
+9,True,REFUSED,Refused,,
