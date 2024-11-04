@@ -1,8 +1,0 @@
-value,active,description,definition,source
-FIRE,True,Fire,,
-SMOKE,True,Smoke,,
-WATER,True,Water,,
-UTILITIES,True,Utilities,,
-HAZARDOUS_SITUATION,True,Hazardous Situation,,
-COLLAPSE,True,Collapse,,
-OTHER,True,Other,,

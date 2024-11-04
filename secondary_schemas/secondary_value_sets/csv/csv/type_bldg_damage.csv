@@ -1,6 +1,0 @@
-,active,value,description,definition,source
-0,True,MINOR_DAMAGE,"Minor (Limited Smoke / Fire / Water Damage, No Occupant Displacement)",,
-1,True,MODERATE_DAMAGE,"Moderate (Flame / Water / Smoke Damage, Possible Occupant Displacement)",,
-2,True,DESTROYED,"Destroyed (Flame / Smoke / Water Damage Resulting in Total Property Loss, Occupant Displacement)",,
-3,True,INACCESSIBLE,Inaccessible,,
-4,True,NO DAMAGE,No Damage,,

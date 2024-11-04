@@ -1,7 +1,0 @@
-,active,value,description,definition,source
-0,True,ALCOHOL_USER,Alcohol user,,
-1,True,TOBACCO_USER,Tobacco user,,
-2,True,SMOKER_OTHER,Smoker - other,Includes eCigarettes,
-3,True,MARIJUANA_USER,Marijuana user,,
-4,True,OTHER_ILLICIT_DRUGS,Other illicit drugs,,
-5,True,NONE,,,

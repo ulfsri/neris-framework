@@ -1,9 +1,0 @@
-,active,value,description,definition,source
-0,True,RESIDENTIAL,Residential,,
-1,True,COMMERCIAL,Commercial,,
-2,True,INDUSTRIAL,Industrial,,
-3,True,AGRICULTURAL,Agricultural,,
-4,True,RURAL,Rural,,
-5,True,MIXED_USE,Mixed-Use,,
-6,True,INSTITUTION_PUBLIC,Institutional/Public,,
-7,True,WUI,Wildland Urban Interface,,

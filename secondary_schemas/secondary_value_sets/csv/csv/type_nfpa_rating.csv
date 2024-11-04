@@ -1,6 +1,0 @@
-,active,value,description,definition,source
-0,True,BLUE,Blue,>1500 gpm,
-1,True,GREEN,Green,1000 - 1499 gpm,
-2,True,ORANGE,Orange,500 - 999 gpm,
-3,True,RED,Red,<500 gpm,
-4,True,BLACK,Black,Inoperable,

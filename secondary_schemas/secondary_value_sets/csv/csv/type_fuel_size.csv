@@ -1,6 +1,0 @@
-,active,value,description,definition,source
-0,True,LESS_THAN_0.25,Less than 0.25,"Example: needles, twigs, moss, lichens, small shrubs and grasses",
-1,True,0.25_TO_1,0.25 to 1,"Example: small branches, shrubs",
-2,True,1_TO_3,1 to 3,Example: medium-sized branches,
-3,True,3_TO_8,3 to 8,"Example: Large branches, small logs",
-4,True,GREATER_THAN_8,Greater than 8,"Example: Large, downed logs that are solid or moderately decayed",
