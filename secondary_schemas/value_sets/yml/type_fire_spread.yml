@@ -1,0 +1,25 @@
+OBJECT:
+  active: 'TRUE'
+  description: Object
+  definition:
+  source:
+ROOM:
+  active: 'TRUE'
+  description: Room
+  definition:
+  source:
+FLOOR:
+  active: 'TRUE'
+  description: Floor
+  definition:
+  source:
+BUILDING:
+  active: 'TRUE'
+  description: Building
+  definition:
+  source:
+BEYOND_BUILDING:
+  active: 'TRUE'
+  description: Beyond Building
+  definition:
+  source: 
