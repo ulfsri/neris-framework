@@ -13,9 +13,9 @@ ASTHMA:
   description: Asthma
   definition:
   source:
-CARDIAC_RHYTHM:
+CARDIAC_ARRHYTHMIA:
   active: 'TRUE'
-  description: Cardiac Rhythm
+  description: Cardiac Arrhythmia
   definition:
   source:
 HYPERTENSION:

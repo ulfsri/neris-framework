@@ -1,0 +1,6 @@
+﻿active,value,description,definition,source
+TRUE,OBJECT,Object,,
+TRUE,ROOM,Room,,
+TRUE,FLOOR,Floor,,
+TRUE,BUILDING,Building,,
+TRUE,BEYOND_BUILDING,Beyond Building,,
