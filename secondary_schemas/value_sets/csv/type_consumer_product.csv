@@ -1,4 +1,4 @@
-,active,value_2,value_1,definition,source
+,active,value_1,value_2,definition,source
 0,TRUE,ALARM_ESCAPE_PROTECTION_DEVICES,"Lightning rods or arresters, antenna discharge units or other grounding devices",,
 1,TRUE,ALARM_ESCAPE_PROTECTION_DEVICES,Burglar alarms,,
 2,TRUE,ALARM_ESCAPE_PROTECTION_DEVICES,Electric timers,,
@@ -798,4 +798,5 @@
 796,TRUE,YARD_GARDEN_EQUIPMENT,Manual snow or ice removal tools,,
 797,TRUE,YARD_GARDEN_EQUIPMENT,Hatchets or axes,,
 798,TRUE,YARD_GARDEN_EQUIPMENT,Outdoor electric lighting equipment,,
+
 799,TRUE,YARD_GARDEN_EQUIPMENT,Log splitters,,
