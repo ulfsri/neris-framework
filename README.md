@@ -5,7 +5,7 @@ This repository contained the beta data framework for the National Emergency Res
 The [data dictionary](https://neris.fsri.org/data-dictionary) tool on the NERIS website covers all the modules of the NERIS data framework including dispatch, entity, inciden, and more. 
 
 ## NERIS API
-The API is the actual mechanism by which data interchange will happen with NERIS, and as such necessarily embodies all the requirements for data formats: cardinality, nullability/optionality, nesting/grouping, arrays vs scalars, etc. 
+The API is the actual mechanism by which data interchange happens with NERIS, and as such necessarily embodies all the requirements for data formats: cardinality, nullability/optionality, nesting/grouping, arrays vs scalars, etc. 
 
 This is served in two formats, but contain the same information:
 
