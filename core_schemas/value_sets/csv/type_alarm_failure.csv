@@ -1,8 +1,0 @@
-value,active,description,definition,source
-EXPIRED,TRUE,Expired,,
-NO_BATTERY,TRUE,No Battery,,
-IMPROPER_INSTALLATION,TRUE,Improper Installation,,
-DEVICE_MALFUNCTION,TRUE,Device Malfunction,,
-TAMPER,TRUE,Tamper,,
-OTHER_NON_FUNCTIONAL_CAUSE,TRUE,Other Non Functional Cause,,
-UNABLE_TO_DETERMINE,TRUE,Unable To Determine,,

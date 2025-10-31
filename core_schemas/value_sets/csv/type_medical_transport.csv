@@ -1,6 +1,0 @@
-value,active,description,definition,source
-TRANSPORT_BY_EMS_UNIT,TRUE,Transport by EMS Unit,,
-OTHER_AGENCY_TRANSPORT,TRUE,Transport by Other Agency,,
-PATIENT_REFUSED_TRANSPORT,TRUE,Patient Refused Transport,,
-NONPATIENT_TRANSPORT,TRUE,Non-Patient Transport (Not Otherwise Listed),,
-NO_TRANSPORT,TRUE,No Transport,,

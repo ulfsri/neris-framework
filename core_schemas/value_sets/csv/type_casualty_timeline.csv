@@ -1,7 +1,0 @@
-value,active,description,definition,source
-RESPONDING,TRUE,Responding,,
-INITIAL_RESPONSE,TRUE,Initial Response (First 10 Minutes),,
-CONTINUING_OPERATIONS,TRUE,Continuing Operations (11 to 60 minutes),,
-EXTENDED_OPERATIONS,TRUE,Extended Operations (Over 60 minutes),,
-AFTER_CONCLUSION_OF_INCIDENT,TRUE,After Conclusion Of Incident,,
-UNKNOWN,TRUE,Unknown,,
