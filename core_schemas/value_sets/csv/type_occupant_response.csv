@@ -1,8 +1,0 @@
-value,active,description,definition,source
-EVACUATED,TRUE,Evacuated,,
-IGNORED_ALARM,TRUE,Ignored Alarm,,
-UNABLE_TO_RESPOND,TRUE,"Unable To Respond (Impaired, Sleeping, Disabled, Child)",,
-ATTEMPTED_TO_EXTINGUISH,TRUE,Attempted To Extinguish,,
-ATTEMPTED_TO_RESCUE_OCCUPANTS,TRUE,Attempted to Rescue Other Occupants,,
-ATTEMPTED_TO_RESCUE_ANIMALS,TRUE,Attempted to Rescue Animals,,
-UNKNOWN,TRUE,Unknown,,

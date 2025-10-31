@@ -1,5 +1,0 @@
-value,active,description,definition,source
-ON_FLOOR,TRUE,On Floor,,
-ON_BED,TRUE,On Bed,,
-ON_FURNITURE,TRUE,"On Furniture (e.g., couch)",,
-OTHER,TRUE,Other,,

@@ -1,8 +1,0 @@
-value,active,description,definition,source
-JURISDICTION,TRUE,Jurisdiction,,
-BATTALION,TRUE,Battalion,,
-COUNCIL_DISTRICT,TRUE,Council District,,
-DISTRICT,TRUE,District,,
-DIVISION,TRUE,Division,,
-FIRST_DUE,TRUE,First Due,,
-OTHER,TRUE,Other,,

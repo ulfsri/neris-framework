@@ -1,5 +1,0 @@
-value,active,description,definition,source,xor
-PHOTOVOLTAICS,TRUE,Photovoltaics,,,PV
-WIND_TURBINE,TRUE,Wind Turbine,,,OTHER
-OTHER,TRUE,Other,,,OTHER
-NOT_APPLICABLE,TRUE,Not Applicable,,,OTHER
