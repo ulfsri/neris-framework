@@ -1,5 +1,5 @@
 # Deprecated - NERIS Data Framework
-This repository contained the beta data framework for the National Emergency Response Information System (NERIS). The content herein is outdate and is now better served by visiting the [NERIS Website](http://neris.fsri.org)
+This repository contained the beta data framework for the National Emergency Response Information System (NERIS). The content herein is outdated and is now better served by visiting the [NERIS Website](http://neris.fsri.org)
 
 ## Data Dictionary 
 The [data dictionary](https://neris.fsri.org/data-dictionary) tool on the NERIS website covers all the modules of the NERIS data framework including dispatch, entity, inciden, and more. 
