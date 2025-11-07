@@ -12,4 +12,4 @@ service_entry_date,Datetime (UTC) ,service,,False,,Single,False,,Date of entry i
 entity_start_date,Datetime (UTC) ,service,,False,,Single,False,,Start date on which the person began with the department.,2005-04-10 00:00:00,
 station_assignment,Datetime (UTC) ,service,,False,,Single,True,entity_spec,Station assignment within department,601,
 shift_schedule,Array[Text],service,,False,,Multi,True,type_shift,Type of shift schedule.,See type_shift,
-service_type,Array[Text],service,,False,,Multi,True,type_service_type,Type of service of the person.,Volunteer,
+service_type,Array[Text],service,,False,,Multi,True,type_dept,Type of service of the person.,Volunteer,
